@@ -1,19 +1,27 @@
-"""Fail closed if the published indexes violate either Android manager's schema."""
+"""Fail-closed contract validation for merged MMRL, KernelSU Next and discovery."""
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+MAX_INT = 2_147_483_647
+COVER = "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/assets/root-feed-banner.jpg"
+TRACK_TYPES = {"GIT", "ONLINE_ZIP", "ONLINE_JSON", "UNKNOWN", "LOCAL_JSON", "LOCAL_ZIP"}
 
 
 def load(name):
     return json.loads((ROOT / name).read_text(encoding="utf-8"))
 
 
-def require(condition, message):
-    if not condition:
+def require(value, message):
+    if not value:
         raise RuntimeError("Feed validation failed: " + message)
+
+
+def https_url(value):
+    return isinstance(value, str) and value.startswith("https://") and len(value) > 9
 
 
 def validate():
@@ -23,93 +31,156 @@ def validate():
     discovery = load("discovery.json")
     state = load("state.json")
     report = load("report.json")
+    federation_state = load("federation-state.json")
+    provenance = load("federation-provenance.json")
+    config_sources = load("sources/federation.json")
 
     require(mmrl.get("name") == config.get("name"), "MMRL config name mismatch")
-    cover = "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/assets/root-feed-banner.jpg"
-    require(mmrl.get("cover") == cover and config.get("cover") == cover,
-            "MMRL cover is missing or incorrectly linked")
-    banner = ROOT / "assets/root-feed-banner.jpg"
-    require(banner.is_file() and banner.stat().st_size > 5000,
-            "rendered JPG banner missing or empty")
-    require(isinstance(mmrl.get("metadata", {}).get("timestamp"), (float, int)),
-            "MMRL metadata timestamp missing")
-    require(mmrl.get("metadata", {}).get("version") == 1, "MMRL metadata version")
+    require(mmrl.get("cover") == COVER and config.get("cover") == COVER,
+            "MMRL cover missing")
+    require((ROOT / "assets/root-feed-banner.jpg").stat().st_size > 5000,
+            "banner empty or missing")
+    require(mmrl.get("metadata", {}).get("version") == 1, "metadata version")
+    require(isinstance(mmrl["metadata"].get("timestamp"), (int, float)),
+            "metadata timestamp")
     require(isinstance(mmrl.get("modules"), list) and mmrl["modules"],
-            "MMRL modules array is empty")
-    require(isinstance(ksu, list), "KernelSU Next root must be an array")
-    ids, sources = set(), set()
-    for module in mmrl["modules"]:
-        for field in ("id", "name", "version", "versionCode", "author", "track", "versions"):
-            require(field in module and module[field] is not None,
-                    f"{module.get('id', '?')}: missing {field}")
-        identifier = module["id"]
-        require(identifier not in ids, f"duplicate MMRL module id: {identifier}")
-        ids.add(identifier)
-        require(isinstance(module["versionCode"], int), f"bad versionCode: {identifier}")
-        require(module["track"].get("type") == "GIT", f"bad track type: {identifier}")
-        source = module["track"].get("source")
-        require(isinstance(source, str) and source.startswith("https://github.com/"),
-                f"invalid source repository: {identifier}")
-        sources.add(source)
-        versions = module["versions"]
-        require(isinstance(versions, list) and len(versions) == 1,
-                f"ambiguous module versions: {identifier}")
-        for version in versions:
-            for field in ("version", "versionCode", "timestamp", "zipUrl"):
-                require(field in version and version[field] is not None,
-                        f"{identifier}: missing versions.{field}")
-            require(version["versionCode"] == module["versionCode"],
-                    f"version codes inconsistent: {identifier}")
-            require(isinstance(version["timestamp"], (int, float)),
-                    f"timestamp invalid: {identifier}")
-            require(isinstance(version.get("size"), int) and version["size"] > 0,
-                    f"missing ZIP size: {identifier}")
-            uri = version["zipUrl"]
-            require(isinstance(uri, str) and
-                    uri.lower().startswith("https://github.com/") and
-                    "/releases/download/" in uri.lower() and
-                    uri.lower().endswith(".zip"),
-                    f"download does not belong to source release: {identifier}")
-    ksu_repos = set()
-    for entry in ksu:
-        require(all(isinstance(entry.get(field), str) and entry[field]
-                    for field in ("name", "description", "author", "repoUrl")),
-                "malformed KernelSU Next item")
-        require(entry.get("visibility") == 1, "KSU visibility")
-        source = entry["repoUrl"]
-        repo_key = source.removeprefix("https://github.com/").casefold()
-        state_entry = state.get("repos", {}).get(repo_key, {})
-        require(state_entry.get("valid") is True and state_entry.get("zip_count") == 1,
-                f"KSU source is not a validated single-ZIP release: {source}")
-        require(source not in ksu_repos, f"duplicate KSU repository: {source}")
-        ksu_repos.add(source)
+            "MMRL missing modules")
+    require(isinstance(ksu, list) and ksu, "KSU Next requires nonempty array")
+    require(isinstance(federation_state.get("sources"), dict),
+            "federation-state missing source cache")
+    require(config_sources.get("schema_version") == 1, "federation source schema")
+    require(isinstance(provenance.get("module_origins"), dict),
+            "missing module provenance")
+    require(isinstance(provenance.get("ksu_origins"), dict),
+            "missing KSU provenance")
 
-    require(discovery.get("schema_version") == 2, "discovery schema_version")
+    # Authorization: only module records present in the current trusted
+    # federation cache, or previously inspected in the catalog state.
+    source_entries = {}
+    ksu_entries = {}
+    for entry in federation_state["sources"].values():
+        if entry.get("kind") == "mmrl":
+            base = entry.get("source")
+            if not https_url(base):
+                continue
+            source_entries[base] = {(m["id"], m["versionCode"], m["versions"][0]["zipUrl"])
+                                    for m in entry.get("entries", [])}
+        elif entry.get("kind") == "ksunext":
+            source = entry.get("source")
+            ksu_entries[source] = {m["repoUrl"].casefold()
+                                   for m in entry.get("entries", [])}
+
+    seen, original = set(), 0
+    for module in mmrl["modules"]:
+        module_id = module.get("id")
+        require(isinstance(module_id, str) and module_id and module_id not in seen,
+                f"duplicate/invalid MMRL module {module_id}")
+        seen.add(module_id)
+        for key in ("id", "name", "author", "version", "versionCode", "track", "versions"):
+            require(module.get(key) is not None, f"{module_id} missing {key}")
+        require(all(isinstance(module[k], str) and bool(module[k])
+                    for k in ("name", "author", "version")), f"{module_id}: name/author/version")
+        code = module["versionCode"]
+        require(type(code) is int and 0 <= code <= MAX_INT,
+                f"{module_id}: invalid versionCode")
+        track = module["track"]
+        require(isinstance(track, dict) and track.get("type") in TRACK_TYPES,
+                f"{module_id}: track type")
+        require(isinstance(track.get("source"), str), f"{module_id}: track.source")
+        versions = module["versions"]
+        require(isinstance(versions, list) and len(versions) >= 1,
+                f"{module_id}: no versions")
+        for ver in versions:
+            require(isinstance(ver, dict), f"{module_id}: invalid version entry")
+            for key in ("version", "versionCode", "zipUrl", "timestamp"):
+                require(key in ver and ver[key] is not None,
+                        f"{module_id}: versions missing {key}")
+            require(type(ver["versionCode"]) is int and 0 <= ver["versionCode"] <= MAX_INT,
+                    f"{module_id}: version entry code")
+            require(isinstance(ver["version"], str) and ver["version"],
+                    f"{module_id}: version entry title")
+            require(https_url(ver["zipUrl"]), f"{module_id}: insecure zipUrl")
+            require(type(ver["timestamp"]) in (int, float) and
+                    math.isfinite(ver["timestamp"]) and ver["timestamp"] >= 0,
+                    f"{module_id}: invalid version timestamp")
+        require(versions[0]["versionCode"] == code and
+                versions[0]["version"] == module["version"],
+                f"{module_id}: top-level version mismatch")
+
+        origin = provenance["module_origins"].get(module_id)
+        require(isinstance(origin, dict), f"{module_id}: missing provenance")
+        zip_url = versions[0]["zipUrl"]
+        if origin.get("kind") == "catalog":
+            original += 1
+            source = track["source"]
+            require(source.startswith("https://github.com/"),
+                    f"{module_id}: verified origin not GitHub")
+            repo_key = source.removeprefix("https://github.com/").casefold()
+            saved = state.get("repos", {}).get(repo_key, {})
+            require(saved.get("valid") is True and saved.get("zip") == zip_url,
+                    f"{module_id}: catalog provenance not backed by inspected ZIP")
+        elif origin.get("kind") == "mmrl":
+            source = origin.get("url")
+            require(source in source_entries, f"{module_id}: unapproved federation source")
+            require((module_id, code, zip_url) in source_entries[source],
+                    f"{module_id}: origin absent from normalized source index")
+        else:
+            raise RuntimeError(f"{module_id}: unknown origin category")
+
+    require(len(provenance["module_origins"]) == len(mmrl["modules"]),
+            "MMRL provenance count mismatch")
+    require(len(ksu) == len({m.get("repoUrl", "").casefold() for m in ksu}),
+            "duplicate KernelSU GitHub repository")
+    for module in ksu:
+        repo = module.get("repoUrl")
+        require(https_url(repo) and repo.startswith("https://github.com/"),
+                "KSU source must be a GitHub repo")
+        require(all(isinstance(module.get(key), str) and module[key].strip()
+                    for key in ("name", "author", "description")),
+                f"KSU entry incomplete: {repo}")
+        require(module.get("visibility") == 1, f"KSU hidden item included: {repo}")
+        key = repo.casefold()
+        source = provenance["ksu_origins"].get(key)
+        require(source is not None, f"KSU missing provenance: {repo}")
+        if source == "catalog":
+            state_key = repo.removeprefix("https://github.com/").casefold()
+            entry = state.get("repos", {}).get(state_key, {})
+            require(entry.get("valid") is True and entry.get("zip_count") == 1,
+                    f"KSU catalog source not archive inspected: {repo}")
+        else:
+            require(key in ksu_entries.get(source, set()),
+                    f"KSU source absent from official upstream list: {repo}")
+
+    require(discovery.get("schema_version") == 2, "discovery schema")
     entries = discovery.get("entries")
     require(isinstance(entries, list) and len(entries) >= 1000,
-            "missing comprehensive discovery catalog")
+            "original discovery catalog lost")
     require(len({e["id"] for e in entries}) == len(entries),
-            "duplicate discovery identifiers")
-    require(any(e["provider"] == "codeberg.org" for e in entries),
-            "Codeberg upstream entries were lost")
-    require(any(e["provider"] == "gitlab.com" for e in entries),
-            "GitLab upstream entries were lost")
-    require(any(e["kind"] == "patched_apk" for e in entries),
-            "Morphe patched APK entries were lost")
-    require(discovery["summary"]["total_entries"] == len(entries),
-            "catalog total count inconsistent")
-    for entry in entries:
-        require(entry.get("url", "").startswith("https://"), "unsafe discovery source URL")
-        require(entry.get("kind") != "flashable", "discovery is not an install approval")
-    require(isinstance(state.get("repos"), dict), "missing release state")
-    require(report["catalog_entries"] == len(entries), "report catalog count mismatch")
-    require(report["mmrl_modules"] == len(mmrl["modules"]), "report MMRL count mismatch")
-    require(report["kernelsu_next_modules"] == len(ksu), "report KSU count mismatch")
-    require(report["checked_repositories"] <= report["github_repositories"],
-            "checked counts inconsistent")
-    print(f"Validated: {len(entries)} discovery entries; "
-          f"{len(mmrl['modules'])} MMRL ZIPs; {len(ksu)} KernelSU Next modules; "
-          f"{report['checked_repositories']}/{report['github_repositories']} repos checked")
+            "duplicate catalog ID")
+    require(any(e["provider"] == "codeberg.org" for e in entries), "lost Codeberg projects")
+    require(any(e["provider"] == "gitlab.com" for e in entries), "lost GitLab projects")
+    require(any(e["kind"] == "patched_apk" for e in entries), "lost Morphe APKs")
+    require(discovery["summary"]["total_entries"] == len(entries), "discovery count mismatch")
+    require(report.get("catalog_entries") == len(entries), "reported discovery count mismatch")
+    require(report.get("mmrl_modules") == len(mmrl["modules"]),
+            "reported MMRL count mismatch")
+    require(report.get("kernelsu_next_modules") == len(ksu),
+            "reported KernelSU count mismatch")
+    require(report.get("checked_repositories") <= report.get("github_repositories"),
+            "catalog coverage mismatch")
+    federation_report = report.get("federation", {})
+    require(federation_report.get("unified_mmrl_modules") == len(mmrl["modules"]),
+            "federation MMRL count mismatch")
+    require(federation_report.get("unified_ksu_modules") == len(ksu),
+            "federation KSU count mismatch")
+    require(federation_report.get("base_mmrl_modules", 0) >= 200,
+            "base catalog mysteriously shrank")
+    require(federation_report.get("base_ksu_modules", 0) >= 100,
+            "base KernelSU catalog mysteriously shrank")
+    print(f"Validated federated feeds: {len(mmrl['modules'])} MMRL, "
+          f"{len(ksu)} KernelSU Next, {len(entries)} discovery entries, "
+          f"{len(federation_state['sources'])} cached upstream sources, "
+          f"{original} MMRL entries from inspected catalog")
 
 
 if __name__ == "__main__":
