@@ -39,7 +39,7 @@ BLOCKED_ASSETS = (
     "magisk-manager", "manager-only", "boot.img", "vendor_boot",
 )
 HEADERS = {
-    "User-Agent": "android-root-feed-bridge/2.0 (+https://github.com/stupidgiraffe/rootatlas)",
+    "User-Agent": "rootatlas/2.0 (+https://github.com/stupidgiraffe/rootatlas)",
     "Accept": "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
 }
@@ -358,7 +358,7 @@ def main():
 
     # Stage all serializable outputs in memory before touching disk.
     cover = ("https://raw.githubusercontent.com/stupidgiraffe/"
-             "android-root-feed-bridge/main/assets/root-feed-banner.jpg")
+             "rootatlas/main/assets/root-feed-banner.jpg")
     mmrl = {
         "name": "RootAtlas — Android Module Index",
         "website": "https://github.com/stupidgiraffe/rootatlas",
