@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Build conservative MMRL and KernelSU Next indexes from a root-app catalog.
+"""Maintain conservative MMRL and KernelSU Next indexes for Best Root Apps.
 
-Only publish releases with an inspectable module.prop at the ZIP root.
-Untrusted downloads are never executed.
+The complete catalog is discovery-only. Installation entries are emitted only
+after inspecting official GitHub release ZIPs for a valid root module.prop.
+No downloaded code is executed, and no binaries are mirrored.
 """
 from __future__ import annotations
 
@@ -19,36 +20,43 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
+from catalog import build_discovery
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = "krishna3163/best-root-apps-for-android"
 UPSTREAM = "https://raw.githubusercontent.com/" + SOURCE + "/main/"
 API = "https://api.github.com/"
-MODULE_LIMIT = 35 * 1024 * 1024
-NEW_CHECKS_PER_RUN = 240
-NEGATIVE_RETRY_SECS = 7 * 86400
-NAME_URL = re.compile(r"\[([^\]]{2,100})\]\(https://github\.com/([A-Za-z0-9-]+)/([A-Za-z0-9_.-]+)(?:[^)]*)\)", re.I)
-REPO_RE = re.compile(r"^[A-Za-z0-9-]+/[A-Za-z0-9_.-]+$")
-DATE_FMT = "%Y-%m-%dT%H:%M:%SZ"
-BLOCKED_ASSETS = ("source", "debug", "symbols", "uninstaller", "uninstall", "magisk-manager", "manager-only")
+MAX_MODULE_BYTES = 96 * 1024 * 1024
+MAX_SOURCE_BYTES = 4 * 1024 * 1024
+NEW_CHECKS_PER_RUN = 2000
+NEGATIVE_RETRY_SECS = 48 * 3600
+MAX_WORKERS = 8
+BLOCKED_ASSETS = (
+    "source", "debug", "symbols", "uninstaller", "uninstall",
+    "magisk-manager", "manager-only", "boot.img", "vendor_boot",
+)
 HEADERS = {
-    "User-Agent": "android-root-feed-bridge/1.0 (+https://github.com/stupidgiraffe/android-root-feed-bridge)",
+    "User-Agent": "android-root-feed-bridge/2.0 (+https://github.com/stupidgiraffe/android-root-feed-bridge)",
     "Accept": "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
 }
 
 
-def request(url: str, *, limit: int = 8 * 1024 * 1024, timeout: int = 25) -> bytes:
+def request(url: str, *, limit: int = MAX_SOURCE_BYTES, timeout: int = 25) -> bytes:
+    """Read a bounded response (including content-length check before buffering)."""
+    if not url.startswith("https://"):
+        raise ValueError("Refusing non-HTTPS URL: " + url)
     headers = HEADERS.copy()
     if url.startswith(API) and os.environ.get("GITHUB_TOKEN"):
         headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as response:
-        content_length = response.headers.get("Content-Length")
-        if content_length and int(content_length) > limit:
+        length = response.headers.get("Content-Length")
+        if length and int(length) > limit:
             raise ValueError("Response too large: " + url)
         body = response.read(limit + 1)
         if len(body) > limit:
-            raise ValueError("Response exceeds byte limit: " + url)
+            raise ValueError("Response exceeds maximum allowed size: " + url)
         return body
 
 
@@ -63,50 +71,24 @@ def read_json(url: str, *, optional: bool = False):
 
 def json_file(path: Path, default):
     try:
-        return json.loads(path.read_text("utf-8"))
+        return json.loads(path.read_text(encoding="utf-8"))
     except (FileNotFoundError, ValueError):
         return default
 
 
 def write_json(path: Path, payload):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def sources():
-    catalog = request(UPSTREAM + "README.md", limit=3 * 1024 * 1024).decode("utf-8")
+def source_catalog() -> dict:
+    """Use the same README row contract as the upstream website generator."""
+    readme = request(UPSTREAM + "README.md", limit=MAX_SOURCE_BYTES).decode("utf-8-sig")
     config = read_json(UPSTREAM + "config/apps.json")
-    entries = {}
-    heading = "Root Apps"
-    for line in catalog.splitlines():
-        if line.startswith("## ") or line.startswith("### "):
-            heading = re.sub(r"[*#]", "", line).strip()
-        if not line.lstrip().startswith("|"):
-            continue
-        match = NAME_URL.search(line)
-        if not match:
-            continue
-        name, owner, repo = match.groups()
-        repo = repo.removesuffix(".git")
-        full = owner + "/" + repo
-        if not REPO_RE.fullmatch(full):
-            continue
-        parts = [re.sub(r"<[^>]+>|\*", "", part).strip()
-                 for part in line.strip().strip("|").split("|")]
-        description = " ".join(parts[1:3])[:450] if len(parts) >= 2 else ""
-        item = {"name": name.strip(), "repository": full,
-                "description": description, "category": heading}
-        entries.setdefault(full.lower(), item)
-    for item in config.get("apps", []):
-        full = item.get("repository", "")
-        if REPO_RE.fullmatch(full) and item.get("enabled", True):
-            entries.setdefault(full.lower(), {
-                "name": item.get("name", full), "repository": full,
-                "description": "Upstream release tracker", "category": "Tracked root apps"
-            })
-    if len(entries) < 60:
-        raise RuntimeError(f"Upstream catalog unexpectedly small ({len(entries)}); keeping previous feeds")
-    return list(entries.values())
+    morphe = read_json(UPSTREAM + "data/morphe-releases.json", optional=True) or {}
+    if not isinstance(config, dict) or not isinstance(morphe, dict):
+        raise RuntimeError("Unexpected source JSON, refusing to publish")
+    return build_discovery(readme, morphe, config)
 
 
 def release(repo: str):
@@ -114,161 +96,261 @@ def release(repo: str):
 
 
 def parse_prop(blob: bytes):
-    prop = {}
+    props = {}
     for line in blob.decode("utf-8-sig", "replace").splitlines():
         if "=" in line and not line.lstrip().startswith("#"):
             key, value = line.split("=", 1)
-            prop[key.strip()] = value.strip()
-    code = prop.get("versionCode", "")
-    if not re.fullmatch(r"[0-9]{1,10}", code) or int(code) > 2147483647:
+            props[key.strip()] = value.strip()
+    code = props.get("versionCode", "")
+    if not re.fullmatch(r"[0-9]{1,10}", code) or int(code) > 2_147_483_647:
         return None
-    if not re.fullmatch(r"[A-Za-z0-9_.-]{1,128}", prop.get("id", "")):
+    if not re.fullmatch(r"[A-Za-z0-9_.-]{1,128}", props.get("id", "")):
         return None
-    if not prop.get("name") or not prop.get("version"):
+    if not props.get("name") or not props.get("version"):
         return None
-    return prop
+    return props
 
 
 def inspect_asset(asset):
+    """Statically examine a ZIP. module.prop at ZIP root is mandatory."""
     size = asset.get("size") or 0
     name = (asset.get("name") or "").lower()
-    if not (0 < size <= MODULE_LIMIT and name.endswith(".zip")):
+    if not (0 < size <= MAX_MODULE_BYTES and name.endswith(".zip")):
         return None
-    if any(bad in name for bad in BLOCKED_ASSETS):
+    if any(word in name for word in BLOCKED_ASSETS):
         return None
     url = asset.get("browser_download_url", "")
     if not url.startswith("https://github.com/"):
         return None
-    blob = request(url, limit=MODULE_LIMIT, timeout=65)
+    blob = request(url, limit=MAX_MODULE_BYTES, timeout=85)
     try:
         with zipfile.ZipFile(io.BytesIO(blob)) as archive:
-            files = set(archive.namelist())
-            if "module.prop" not in files and "./module.prop" not in files:
+            if len(archive.infolist()) > 50_000:
                 return None
-            path = "module.prop" if "module.prop" in files else "./module.prop"
-            if archive.getinfo(path).file_size > 16384:
+            path = next((name for name in ("module.prop", "./module.prop")
+                         if name in archive.namelist()), None)
+            if not path or archive.getinfo(path).file_size > 16_384:
                 return None
             return parse_prop(archive.read(path))
-    except (zipfile.BadZipFile, RuntimeError, ValueError):
+    except (zipfile.BadZipFile, RuntimeError, ValueError, OSError):
         return None
 
 
-def inspect(item, previous):
+def timestamp(date: str) -> int:
+    if not date:
+        return int(time.time())
+    try:
+        return int(datetime.fromisoformat(date.replace("Z", "+00:00"))
+                   .astimezone(timezone.utc).timestamp())
+    except (ValueError, TypeError, OverflowError):
+        return int(time.time())
+
+
+def inspect(item: dict, previous: dict):
+    """Get current release and inspect ZIP. Don't erase good state on fetch errors."""
     repo = item["repository"]
-    updated = dict(previous)
+    now = int(time.time())
+    before = previous.copy()
     try:
         rel = release(repo)
         if rel is None:
-            return {"checked": int(time.time()), "release_id": None, "valid": False}
+            return {"checked": now, "release_id": None, "valid": False,
+                    "reason": "no_latest_release"}
         rid = rel.get("id")
-        if previous.get("release_id") == rid:
-            return updated
-        assets = [a for a in rel.get("assets", [])
-                  if (a.get("name") or "").lower().endswith(".zip")]
-        prop = None
-        chosen = None
+        if rid is None:
+            raise ValueError("release ID missing")
+        if before.get("release_id") == rid and "valid" in before:
+            before["checked"] = now
+            return before
+        assets = [a for a in rel.get("assets", []) if
+                  (a.get("name") or "").lower().endswith(".zip")]
+        found = []
+        fetch_errors = 0
         for asset in assets:
             try:
                 prop = inspect_asset(asset)
-            except (TimeoutError, OSError, ValueError) as exc:
-                print(f"Could not inspect {repo} asset {asset.get('name')}: {exc}", file=sys.stderr)
+            except (TimeoutError, OSError, ValueError, urllib.error.HTTPError) as exc:
+                fetch_errors += 1
+                print(f"WARN {repo}/{asset.get('name')}: {exc}", file=sys.stderr)
+                continue
             if prop:
-                chosen = asset
-                break
-        if not prop or not chosen:
-            return {"checked": int(time.time()), "release_id": rid, "valid": False}
+                found.append((asset, prop))
+        if not found:
+            if fetch_errors:
+                before["last_error"] = "asset_download_failed"
+                return before
+            return {"checked": now, "release_id": rid, "valid": False,
+                    "reason": "no_valid_module_zip"}
+        # One repo's release can carry different device/arch-specific ZIPs.
+        # MMRL can present only one unambiguous module candidate for now.
+        # Never arbitrarily pick among multiple different module.prop IDs.
+        ids = {props["id"] for _, props in found}
+        if len(ids) > 1:
+            return {"checked": now, "release_id": rid, "valid": False,
+                    "reason": "ambiguous_multiple_module_ids"}
+        # Prefer archive explicitly described as universal when multiple valid.
+        found.sort(key=lambda pair: (
+            0 if "universal" in (pair[0].get("name") or "").lower() else 1,
+            pair[0].get("name") or ""))
+        asset, prop = found[0]
         date = rel.get("published_at") or rel.get("created_at") or ""
-        ts = (int(datetime.strptime(date[:19] + "Z", DATE_FMT)
-                  .replace(tzinfo=timezone.utc).timestamp())
-              if len(date) >= 19 else int(time.time()))
         return {
-            "checked": int(time.time()), "release_id": rid, "valid": True,
-            "prop": {key: prop.get(key, "") for key in
-                     ("id", "name", "version", "versionCode", "author", "description")},
-            "zip": chosen["browser_download_url"], "zip_count": len(assets),
-            "timestamp": ts, "size": chosen.get("size", 0),
+            "checked": now, "release_id": rid, "valid": True,
+            "prop": {k: prop.get(k, "") for k in (
+                "id", "name", "version", "versionCode", "author", "description")},
+            "zip": asset["browser_download_url"], "zip_count": len(assets),
+            "valid_zip_count": len(found), "timestamp": timestamp(date),
+            "size": asset.get("size", 0), "asset_name": asset.get("name") or "",
+            "reason": "verified_zip_metadata",
         }
-    except (OSError, ValueError, RuntimeError) as exc:
-        print(f"Keeping last-known state for {repo}: {exc}", file=sys.stderr)
-        return updated
+    except (OSError, ValueError, RuntimeError, TimeoutError) as exc:
+        print(f"WARN keeping previous state for {repo}: {exc}", file=sys.stderr)
+        before["last_error"] = type(exc).__name__
+        return before
 
 
-def main():
-    items = sources()
-    now = int(time.time())
-    old = json_file(ROOT / "state.json", {"repos": {}}).get("repos", {})
-    candidates = {item["repository"].lower(): item for item in items}
-    state = {}
-    pending = []
-    for key, item in candidates.items():
-        prev = old.get(key, {})
-        state[key] = prev
-        if prev.get("valid") or now - prev.get("checked", 0) > NEGATIVE_RETRY_SECS:
-            pending.append((key, item, prev))
-    pending.sort(key=lambda x: (
-        0 if not x[2] else 1 if x[2].get("valid") else 2,
-        x[2].get("checked", 0), x[0]))
-    active = [x for x in pending if x[2].get("valid")]
-    inactive = [x for x in pending if not x[2].get("valid")]
-    selected = active + inactive[:NEW_CHECKS_PER_RUN]
-    if selected:
-        with ThreadPoolExecutor(max_workers=8) as executor:
-            futures = {executor.submit(inspect, item, prev): key
-                       for key, item, prev in selected}
-            for future in as_completed(futures):
-                state[futures[future]] = future.result()
+def collect_repositories(entries: list[dict]):
+    """Exactly the unique GitHub repos from catalog and official trackers."""
+    repos = {}
+    for entry in entries:
+        repo = entry.get("repository", "")
+        if repo:
+            repos.setdefault(repo.casefold(), {
+                "repository": repo, "name": entry["name"],
+                "description": entry.get("description", ""),
+                "frameworks": entry.get("frameworks", []),
+            })
+    return repos
 
-    modules = []
-    ksu = []
-    ids = set()
-    for key in sorted(candidates):
-        item, entry = candidates[key], state.get(key, {})
+
+def create_indexes(discovery: dict, state: dict, now: int):
+    repos = collect_repositories(discovery["entries"])
+    modules, ksu, seen_ids = [], [], set()
+    for key in sorted(repos):
+        item, entry = repos[key], state.get(key, {})
         if not entry.get("valid"):
             continue
-        prop = entry["prop"]
-        if prop["id"] in ids:
+        prop = entry.get("prop") or {}
+        identifier = prop.get("id")
+        if not identifier or identifier in seen_ids:
             continue
-        ids.add(prop["id"])
+        seen_ids.add(identifier)
         code = int(prop["versionCode"])
         url = "https://github.com/" + item["repository"]
         description = (prop.get("description") or item["description"])[:500]
         modules.append({
-            "id": prop["id"], "name": prop["name"],
-            "version": prop["version"], "versionCode": code,
+            "id": identifier, "name": prop["name"], "version": prop["version"],
+            "versionCode": code,
             "author": prop.get("author") or item["repository"].split("/")[0],
-            "description": description, "homepage": url, "size": entry["size"],
-            "verified": False,
+            "description": description, "homepage": url,
+            "size": int(entry["size"]), "verified": False,
             "track": {"type": "GIT", "added": float(entry["timestamp"]), "source": url},
-            "versions": [{"version": prop["version"], "versionCode": code,
-                          "zipUrl": entry["zip"], "timestamp": float(entry["timestamp"])}],
+            "versions": [{
+                "version": prop["version"], "versionCode": code,
+                "zipUrl": entry["zip"], "timestamp": float(entry["timestamp"]),
+                "size": int(entry["size"]),
+            }],
         })
-        # KSU Next selects the *first* ZIP on the latest GitHub release,
-        # so do not include ambiguous releases with multiple ZIP assets.
-        if entry.get("zip_count") == 1:
+        # In KernelSU Next the app selects the first ZIP from /releases/latest,
+        # not the ZIP our generator selected. Exclude releases with >1 ZIP.
+        if entry.get("zip_count") == 1 and entry.get("valid_zip_count", 1) == 1:
             ksu.append({
                 "name": prop["name"], "description": description[:350],
                 "author": prop.get("author") or item["repository"].split("/")[0],
                 "repoUrl": url, "visibility": 1,
             })
+    modules.sort(key=lambda m: (m["name"].casefold(), m["id"]))
+    ksu.sort(key=lambda m: (m["name"].casefold(), m["repoUrl"]))
+    return modules, ksu
+
+
+def main():
+    discovery = source_catalog()
+    now = int(time.time())
+    previous_discovery = json_file(ROOT / "discovery.json", {"entries": []})
+    old_total = len(previous_discovery.get("entries", []))
+    if old_total and len(discovery["entries"]) < old_total * 0.75:
+        raise RuntimeError("Upstream catalog shrank >25%; retaining last published files")
+    repositories = collect_repositories(discovery["entries"])
+    old = json_file(ROOT / "state.json", {"repos": {}}).get("repos", {})
+    state = {key: old.get(key, {}) for key in repositories}
+
+    due = []
+    for key, item in repositories.items():
+        prior = state[key]
+        if prior.get("valid") or now - prior.get("checked", 0) >= NEGATIVE_RETRY_SECS:
+            due.append((key, item, prior))
+    # Check every formerly valid module; then never-before-seen candidates;
+    # then oldest negative results. New candidates are never starved.
+    due.sort(key=lambda x: (
+        0 if x[2].get("valid") else 1 if not x[2] else 2,
+        x[2].get("checked", 0),
+        x[0],
+    ))
+    checked_now = due[:NEW_CHECKS_PER_RUN]
+    if checked_now:
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            futures = {pool.submit(inspect, item, previous): key
+                       for key, item, previous in checked_now}
+            for future in as_completed(futures):
+                state[futures[future]] = future.result()
+
+    modules, ksu = create_indexes(discovery, state, now)
+    previous_modules = json_file(ROOT / "json/modules.json", {"modules": []}).get("modules", [])
     if not modules:
-        raise RuntimeError("Zero verified installable modules; preserving previous published feeds")
-    modules.sort(key=lambda x: x["name"].casefold())
-    ksu.sort(key=lambda x: x["name"].casefold())
-    write_json(ROOT / "json/modules.json", {
+        raise RuntimeError("Zero valid modules; refusing to publish empty feeds")
+    if len(previous_modules) >= 30 and len(modules) < len(previous_modules) * 0.75:
+        raise RuntimeError("Verified module count dropped >25%; refusing destructive feed update")
+    checked = sum("checked" in state[key] for key in repositories)
+    valid = sum(bool(state[key].get("valid")) for key in repositories)
+    discovery["updated"] = now
+    discovery["summary"].update({
+        "repository_candidates": len(repositories),
+        "checked_repositories": checked,
+        "pending_repositories": len(repositories) - checked,
+        "valid_module_repositories": valid,
+        "mmrl_modules": len(modules),
+        "kernelsu_next_modules": len(ksu),
+    })
+    report = {
+        "updated": now, "source": SOURCE,
+        "catalog_entries": len(discovery["entries"]),
+        "catalog_readme_entries": discovery["summary"]["readme_entries"],
+        "morphe_apks": discovery["summary"]["morphe_entries"],
+        "tracked_extras": discovery["summary"]["tracker_extras"],
+        "github_repositories": len(repositories),
+        "checked_repositories": checked,
+        "pending_repositories": len(repositories) - checked,
+        "checked_this_run": len(checked_now),
+        "verified_module_repositories": valid,
+        "mmrl_modules": len(modules),
+        "kernelsu_next_modules": len(ksu),
+        "exclusions_by_reason": {
+            reason: sum(v.get("reason") == reason for v in state.values())
+            for reason in sorted({v.get("reason") for v in state.values() if v.get("reason")})
+            if reason != "verified_zip_metadata"
+        },
+    }
+
+    # Stage all serializable outputs in memory before touching disk.
+    mmrl = {
         "name": "Root Feed Bridge (Best Root Apps)",
         "website": "https://github.com/stupidgiraffe/android-root-feed-bridge",
-        "description": "Verified root module ZIPs discovered in Best Root Apps for Android.",
+        "description": "Original developers' GitHub release ZIPs with root-level module.prop inspected.",
         "metadata": {"version": 1, "timestamp": float(now)},
         "modules": modules,
-    })
+    }
+    config = {
+        "name": mmrl["name"], "website": mmrl["website"],
+        "description": mmrl["description"],
+    }
+    write_json(ROOT / "json/modules.json", mmrl)
+    write_json(ROOT / "json/config.json", config)
     write_json(ROOT / "ksu/modules.json", ksu)
-    write_json(ROOT / "discovery.json", {
-        "source": "https://github.com/" + SOURCE,
-        "updated": now, "total": len(items), "entries": items,
-    })
-    write_json(ROOT / "state.json", {"generated": now, "repos": state})
-    print(f"Source entries: {len(items)}; checked: {len(selected)}; "
-          f"MMRL: {len(modules)}; KernelSU Next: {len(ksu)}")
+    write_json(ROOT / "discovery.json", discovery)
+    write_json(ROOT / "report.json", report)
+    write_json(ROOT / "state.json", {"schema_version": 2, "generated": now, "repos": state})
+    print("RESULT " + json.dumps(report, sort_keys=True))
 
 
 if __name__ == "__main__":
