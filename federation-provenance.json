@@ -94,7 +94,7 @@
     },
     "abootloop": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "Any_CA": {
       "kind": "catalog",
@@ -178,7 +178,7 @@
     },
     "com.chiller3.bcr": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "beszel-agent": {
       "kind": "catalog",
@@ -194,7 +194,7 @@
     },
     "bindhosts": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
+      "url": "https://zelect0r.github.io/zamr/"
     },
     "BlackGlowFixMarble": {
       "kind": "catalog",
@@ -250,7 +250,7 @@
     },
     "chroot-distro": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
+      "url": "https://zguation-projects.github.io/ZG-R/"
     },
     "cj7x_mlbb_boost": {
       "kind": "catalog",
@@ -914,7 +914,7 @@
     },
     "net-switch": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "netproxy": {
       "kind": "mmrl",
@@ -1390,7 +1390,7 @@
     },
     "uperf": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/"
+      "url": "https://yukari0201.github.io/mmrl-repo/"
     },
     "usb-arsenal": {
       "kind": "catalog",
@@ -1414,7 +1414,7 @@
     },
     "zygisk_vector": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "vgd": {
       "kind": "catalog",
@@ -1482,7 +1482,7 @@
     },
     "mmrl_wpd": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
     },
     "uu-wheel-evdev": {
       "kind": "catalog",
@@ -1518,7 +1518,7 @@
     },
     "Yurikey": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "zapret": {
       "kind": "mmrl",
@@ -1554,7 +1554,7 @@
     },
     "ZRAM-Module": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/"
+      "url": "https://yukari0201.github.io/mmrl-repo/"
     },
     "zygisk_frida_gadget": {
       "kind": "catalog",
@@ -1570,7 +1570,7 @@
     },
     "zygisk-assistant": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
+      "url": "https://zelect0r.github.io/zamr/"
     },
     "zygisksu": {
       "kind": "mmrl",
@@ -1826,7 +1826,7 @@
     },
     "cache_cleaner": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "chargemate": {
       "kind": "mmrl",
@@ -2054,7 +2054,7 @@
     },
     "zygisk_lsposed": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/"
+      "url": "https://yukari0201.github.io/mmrl-repo/"
     },
     "hid-gadget-module": {
       "kind": "mmrl",
@@ -2622,7 +2622,7 @@
     },
     "Malwack": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
+      "url": "https://zguation-projects.github.io/ZG-R/"
     },
     "MiXplorer": {
       "kind": "mmrl",
@@ -3024,9 +3024,261 @@
       "kind": "mmrl",
       "url": "https://privshell.github.io/privshell-repo/"
     },
-    "android_enhancer": {
+    "fluttertap": {
       "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/MMRLApp/template-repository/master/"
+      "url": "https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/"
+    },
+    "aa4mg": {
+      "kind": "mmrl",
+      "url": "https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/"
+    },
+    "magisk-frida": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "yt-morphe": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "ytm-morphe-arm64": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "Circle.to.Search": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "PixelifyPhotos": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "careful_optimization": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "huskydg_bootloopsaver": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "mtu-fix": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "oneshot-extended": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "zygiskfrida": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "HyperOSMonetProject": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "Monet-All": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "ZygiskNext": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "asoulopt": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "lsposed_riru": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "lsposed_zygisk": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "riru_core": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "riru_sui": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "uperf_games": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "zygisk_sui": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "fas_rs": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "hostsredirect": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "magisk_custompinyindictionary_fcitx": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "meta-hybrid": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "wzn01": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "dt2w-fix": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "ios-emoji": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "msd": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "music-morphe": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "neozygisk": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "playintegrityfork": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "teesimulator": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "teesimulator-rs": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "tricky-addon-enhanced": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "tricky-addon-target-list": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "vector": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "youtube-morphe": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "zygisk-next": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "frosty": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "livebootmodule": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "integrity-box": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "meowzygisk": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "cpu-screenoff": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "android_luks_mounter": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "termuxsu": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "imgdrive": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "tricky-store": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "alwaysstrong": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "alwaysstrong-inject": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "alwaysstrong-nopif": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "BCR": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "MemoryOpt": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "NoHello": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "PIF-Inject": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "PIF-Next": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "PlayIntegrityFork": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "RE-LSP": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "SMTW": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "Unlimited-GooglePhotosBackupMod": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "susfs": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "systemapp_nuker": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "trickystore_OSS": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
     },
     "audio_fix": {
       "kind": "mmrl",
@@ -3040,10 +3292,6 @@
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/RavenWolf1998/MMRL-Magisk-Module-Repo/main/"
     },
-    "aa4mg": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Rikj000/Magisk-Modules-Rikj000-Repo/development/"
-    },
     "vddropbear": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
@@ -3051,258 +3299,6 @@
     "vdgoogle": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
-    },
-    "fas_rs": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/"
-    },
-    "hostsredirect": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/"
-    },
-    "magisk_custompinyindictionary_fcitx": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/"
-    },
-    "meta-hybrid": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/"
-    },
-    "wzn01": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/"
-    },
-    "fluttertap": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/"
-    },
-    "magisk-frida": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "yt-morphe": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "ytm-morphe-arm64": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "Circle.to.Search": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "PixelifyPhotos": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "careful_optimization": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "huskydg_bootloopsaver": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "mtu-fix": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "oneshot-extended": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "zygiskfrida": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/"
-    },
-    "integrity-box": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "asoulopt": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "alwaysstrong": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "alwaysstrong-inject": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "alwaysstrong-nopif": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "android_luks_mounter": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "systemapp_nuker": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "BCR": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "cpu-screenoff": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "dt2w-fix": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "frosty": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "Unlimited-GooglePhotosBackupMod": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "HyperOSMonetProject": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "imgdrive": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "ios-emoji": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "livebootmodule": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "meowzygisk": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "Monet-All": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "msd": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "music-morphe": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "neozygisk": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "NoHello": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "PIF-Inject": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "PlayIntegrityFork": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "playintegrityfork": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "PIF-Next": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "RE-LSP": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "riru_core": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "lsposed_riru": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "riru_sui": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "SMTW": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "susfs": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "teesimulator": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "teesimulator-rs": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "termuxsu": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "tricky-addon-target-list": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "tricky-addon-enhanced": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "tricky-store": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "trickystore_OSS": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "uperf_games": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "vector": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "youtube-morphe": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "lsposed_zygisk": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "zygisk_sui": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "ZygiskNext": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "zygisk-next": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
-    },
-    "MemoryOpt": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"
     },
     "CustomPinyinDictionary": {
       "kind": "mmrl",
@@ -3414,826 +3410,168 @@
     }
   },
   "module_conflicts": {
-    "AdGuardHome": 2,
-    "AshLooper": 2,
-    "Custom-Certificate-Authorities": 2,
-    "DynamicSystemTweaks": 2,
-    "HyperUnlocked": 3,
-    "Infamick_script": 2,
-    "NovaInstaller": 2,
-    "ZRAM-Module": 4,
-    "abootloop": 7,
-    "acc": 4,
-    "adb_root": 2,
-    "audio-jitter-silencer": 3,
-    "audio-misc-settings": 3,
-    "bootanimation-module-ronux": 2,
-    "box_for_root": 2,
-    "com.chiller3.alterinstaller": 2,
-    "disable-low-ram": 3,
-    "fastcharge-next": 2,
-    "hifi-maximizer-mod": 2,
-    "high_perf_dac": 2,
-    "hma_oss_zygisk": 3,
-    "kp_enhancer": 2,
-    "livebootmagisk": 4,
-    "magisk-swapspace": 3,
-    "mm": 4,
-    "net-switch": 7,
-    "openeuicc": 2,
-    "playintegrityfix": 12,
-    "rezygisk": 6,
-    "systemless-hosts-KernelSU-module": 4,
-    "universal-gms-doze": 4,
-    "uperf": 6,
-    "zapret": 2,
-    "zygisk-assistant": 7,
-    "zygisk-sui": 5,
-    "zygisk_nohello": 2,
-    "zygisk_vector": 5,
-    "bindhosts": 16,
-    "mmrl_wpd": 12,
-    "BetterKnownInstalled": 4,
-    "Re-Malwack": 3,
-    "TA_utl": 8,
-    "acp": 3,
-    "aml": 3,
-    "cubic-adblock": 4,
-    "djs": 4,
-    "flagsecurepatcher": 5,
-    "iOS_Emoji": 5,
-    "lune_bridge": 3,
-    "magisk-wifiadb": 3,
-    "meta-overlayfs": 2,
-    "sensitive_props": 4,
-    "susfs4ksu": 9,
-    "system_app_nuker": 3,
-    "tricky_store": 12,
-    "usb-samplerate-unlocker": 4,
-    "vbmeta-fixer": 3,
-    "zygisk-detach": 12,
-    "zygisk_lsposed": 11,
-    "zygisksu": 11,
-    "com.chiller3.msd": 2,
-    "hybrid_mount": 4,
-    "BuiltIn-BusyBox": 2,
-    "CustomizedNavbar": 2,
-    "GMSDoze": 2,
-    "Luz-Nocturna_Modded": 2,
-    "NoProcStatRestriction": 2,
-    "QS_Rectangulares": 2,
-    "StevenBlock": 4,
-    "SystemlessDebloater": 3,
-    "ToyBox-Ext": 2,
-    "YetAnotherBootloopProtector": 2,
-    "audio-samplerate-changer": 2,
-    "chroot-distro": 3,
-    "custom-certificate-authorities": 2,
-    "data_backup": 2,
-    "data_isolation_support": 2,
-    "data_restore_Courier": 2,
-    "drc-remover": 2,
-    "enable-blurs": 2,
-    "isodrive": 2,
-    "magisk-autoboot": 2,
-    "magisk_proc_monitor": 2,
-    "oneplus-8series-9r-camera-unlocker": 2,
-    "open_fonts": 2,
-    "open_webview": 3,
-    "selinux_mode": 2,
-    "supl-replacer": 2,
-    "systemui-bootloop": 2,
-    "trichromelibrary-squoosh": 2,
-    "AZenith": 3,
-    "COPG": 5,
-    "encore": 5,
-    "mountify": 6,
-    "xhhttp": 2,
-    "altdb": 2,
-    "auriya": 2,
-    "device_faker": 2,
-    "duck-toolbox": 2,
-    "hypercool": 2,
-    "KernelSU-Tuner": 2,
-    "ksuGrantToast": 2,
-    "lkm4ctr": 2,
-    "magic_mount_rs": 2,
-    "MagicNet": 2,
-    "MoveCertificate": 2,
-    "netproxy": 2,
-    "oh_my_keymint": 3,
-    "ReSuSFS": 2,
-    "zygisknextsu": 2,
-    "zygisk_shamiko": 9,
-    "gitmigrator": 3,
-    "adb-ndk": 3,
-    "amtsmagisk": 2,
-    "busybox-ndk": 4,
-    "ccbins": 2,
-    "gcc_on_android": 3,
-    "mmrl": 2,
-    "nano-ndk": 2,
-    "powershell": 2,
-    "zipsigner": 2,
-    "bypasser": 2,
-    "COPG-VD": 2,
-    "vdbackup": 2,
-    "asoul_affinity_opt": 3,
-    "hid-gadget-module": 2,
-    "adguardcert": 2,
-    "Kernel_Module_Loader": 2,
-    "fake_sudo": 2,
-    "aegis_firewall": 2,
-    "Yurikey": 3,
-    "com.chiller3.bcr": 3,
-    "cache_cleaner": 3,
-    "faina": 1,
-    "brene": 1,
-    "playintegrity": 1,
-    "1_MARS_SOM_BASE-GEAR_FIRST": 1,
-    "OneController": 1,
-    "iOS_Emoji_KSU": 1,
-    "NavBar_Resize_MIUI": 1,
-    "NavBar_Resize": 1,
-    "NavBar_Resize_AOSP": 1,
-    "mffm_runtime": 1,
-    "A-STEPS": 1,
-    "Hc_memory": 1,
-    "auto_cache_cleaner": 1,
-    "adawayadblocker": 1,
-    "adb_tcpip_boot": 1,
-    "adb_wifi": 1,
-    "GoogleDNS4Magisk": 1,
-    "AdGuardDNS4Magisk-Family": 1,
-    "AdGuardDNS4Magisk-IPv6": 1,
-    "GoogleDNS4Magisk-IPv6": 1,
-    "font_collection_adventpro": 1,
-    "AFWall-Boot-AntiLeak": 1,
-    "aiagent": 1,
-    "airgap": 1,
-    "aktune": 1,
-    "alioth_loud": 1,
-    "trustusercerts": 1,
-    "AnalyticsDisabler": 1,
-    "aa4mg": 2,
-    "android_black_on_pink_boot_qmg": 1,
-    "android-bridge": 1,
-    "au.com.dnscrypt-proxy": 1,
-    "pppoe-enabler": 1,
-    "android-sshd": 1,
-    "android_tweaker": 1,
-    "font_collection_anonymouspro": 1,
-    "font_collection_anta": 1,
-    "antisafetycore": 1,
-    "font_collection_anton": 1,
-    "font_collection_antonio": 1,
-    "Any_CA": 1,
-    "AnyKeybox_module": 1,
-    "aod-battery-saver-override": 1,
-    "apex_apps": 1,
-    "AppDataIsolation": 1,
-    "app-data-file-exec": 1,
-    "AppOpt": 1,
-    "font_collection_archivo": 1,
-    "font_collection_archivonarrow": 1,
-    "font_collection_arimo": 1,
-    "font_collection_asimovian": 1,
-    "AudioHDEnchancer": 1,
-    "font_collection_audiowide": 1,
-    "Aurora": 1,
-    "auto_create_app_storage": 1,
-    "AutomaticSQLiteDBOptimizer": 1,
-    "Clear_Rubbish": 1,
-    "axion_recents": 1,
-    "eng_ahmed_yasir_screen_gov": 1,
-    "appslayer": 1,
-    "bg_keepalive": 1,
-    "backtap": 1,
-    "backup": 1,
-    "font_collection_bangers": 1,
-    "font_collection_barlowcondensed": 1,
-    "font_collection_barlow": 1,
-    "font_collection_barlowsemicondensed": 1,
-    "clean": 1,
-    "batteryhoney": 1,
-    "font_collection_bebasneue": 1,
-    "beszel-agent": 1,
-    "Better-MIUI-Icons": 1,
-    "bfr_webui_go": 1,
-    "BlackGlowFixMarble": 1,
-    "bloatwareslayer": 1,
-    "SH_Blocker": 1,
-    "blur-enabler": 1,
-    "bootloop-protection": 1,
-    "mbox": 1,
-    "box4": 1,
-    "Bye-Blur": 1,
-    "font_collection_caacupeone": 1,
-    "font_collection_cairo": 1,
-    "zoro.benojir.callrecorder": 1,
-    "callbridge": 1,
-    "camx_fullsize": 1,
-    "font_collection_cantarell": 1,
-    "careful_optimization": 2,
-    "caros-switcher": 1,
-    "catcore_multitask_root": 1,
-    "cert-fixer": 1,
-    "charch": 1,
-    "charch_dinit": 1,
-    "charch_openrc": 1,
-    "charch_sshd": 1,
-    "chargemate": 1,
-    "chargingbypass_miatoll": 1,
-    "font_collection_chelseamarket": 1,
-    "Circle.to.Search": 2,
-    "cj7x_mlbb_boost": 1,
-    "Clash4Magisk": 1,
-    "clear_by_skypin": 1,
-    "wipe_cache": 1,
-    "cliproxyapi": 1,
-    "cli_proxy_api": 1,
-    "clouddrive2_fuse_fix": 1,
-    "cloudflared": 1,
-    "CloudflareDNS4Magisk": 1,
-    "CloudflareDNS4Magisk-IPv6": 1,
-    "cmdpatch": 1,
-    "cmf_stereo": 1,
-    "codex_android": 1,
-    "codm_s23_120": 1,
-    "coloros_plugin_mod": 1,
-    "coloros_wifi_sense": 1,
-    "oplus-cloud-block": 1,
-    "73sydney.coloursatmod": 1,
-    "font_collection_comfortaa": 1,
-    "font_collection_commissioner": 1,
-    "Comodo_SecureDNS4Magisk": 1,
-    "compatible-magisk-mirroring": 1,
-    "font_collection_cormorantgaramond": 1,
-    "Quantom_Cpu_Limiter": 1,
-    "crdroid_a16_skip_lockscreen": 1,
-    "CRecordEvolution": 1,
-    "font_collection_crimsontext": 1,
-    "crond4android": 1,
-    "CuRefreshRateTuner": 1,
-    "custom-certificates": 1,
-    "custom-min-brightness": 1,
-    "magisk_custompinyindictionary_fcitx": 2,
-    "DalvikHyperthreading": 1,
-    "damon_reclaim_off": 1,
-    "debdroid": 1,
-    "deepdoze_enforcer": 1,
-    "DeepSuppressor": 1,
-    "denylist_unmount": 1,
-    "Detach": 1,
-    "deviceidchanger": 1,
-    "yc_dfps": 1,
-    "dirac_universal": 1,
-    "dirtysepbypass": 1,
-    "disable_default_game_frame_rate": 1,
-    "disable-fuse-bpf": 1,
-    "DisableGoogleAnalytics": 1,
-    "touchscreen_backlight_disabler": 1,
-    "disable_gms": 1,
-    "DisableFPSLimit": 1,
-    "73sydney.displaytweaks": 1,
-    "font_collection_dmsans": 1,
-    "font_collection_dmserifdisplay": 1,
-    "DNS_WATCH4Magisk": 1,
-    "dnscrypt-proxy-webui": 1,
-    "dnscrypt-proxy-android": 1,
-    "dnscrypt-proxy-menu": 1,
-    "dnsresolve": 1,
-    "dockerd": 1,
-    "documentsui_replacer": 1,
-    "font_collection_dosis": 1,
-    "font_collection_dotgothic16": 1,
-    "doze_aod_wallpaper": 1,
-    "dozedisabler": 1,
-    "DG": 1,
-    "sshserverpwd": 1,
-    "dropbear-ksu": 1,
-    "dsp_audio_fix": 1,
-    "duckmock": 1,
-    "duraspeed-off": 1,
-    "DynamicSystemTweaks-arm64": 1,
-    "easytier_personal": 1,
-    "font_collection_ebgaramond": 1,
-    "enable_miui_adb": 1,
-    "font_collection_encodesanscondensed": 1,
-    "font_collection_encodesans": 1,
-    "font_collection_encodesanssemicondensed": 1,
-    "encryptiondisguiser": 1,
-    "Evolve-Evo": 1,
-    "example_closed_module_demo": 1,
-    "extradim": 1,
-    "extra-themed-icons": 1,
-    "extremegmsdoze": 1,
-    "Fdroid-Priv": 1,
-    "fdroid-priv-ext": 1,
-    "falcon_integrity_fix": 1,
-    "fas_rs": 2,
-    "FastAnimation": 1,
-    "fbind": 1,
-    "font_collection_figtree": 1,
-    "font_collection_firamono": 1,
-    "font_collection_firasanscondensed": 1,
-    "font_collection_firasans": 1,
-    "font_collection_fjallaone": 1,
-    "flclash_vpn_fix": 1,
-    "flip3_cover": 1,
-    "FluentEmojiMagisk": 1,
-    "fluttertap": 1,
-    "FODFixObsidian": 1,
-    "UnFont": 1,
-    "font-loader": 1,
-    "StylizeText": 1,
-    "force_dns_cf": 1,
-    "force_skiavk": 1,
-    "forge_git": 1,
-    "FOXXD_A67L_CallFix": 1,
-    "remove_fps_limits_69fps": 1,
-    "font_collection_fraunces": 1,
-    "turnip-mesa": 1,
-    "FreePPS": 1,
-    "fresh-emoji": 1,
-    "frida_magisk": 1,
-    "fridamanager": 1,
-    "frida-ksu": 1,
-    "Frosty": 1,
-    "frozen_magisk_app": 1,
-    "privacyguard": 1,
-    "gnewscontrol": 1,
-    "g750-boost": 1,
-    "galaxy-multiuser": 1,
-    "gxr_window_curvature": 1,
-    "force_120hz_x1s": 1,
-    "gs_guard": 1,
-    "gaming": 1,
-    "gboard-dict-3": 1,
-    "font_collection_geist": 1,
-    "gemini_default_assistant_keeper": 1,
-    "font_collection_geo": 1,
-    "ghostgms": 1,
-    "gifboot": 1,
-    "glyphkeeper": 1,
-    "GMS-Doze_Block_FindMyDevice": 1,
-    "GMSDozeBlockFind": 1,
-    "GMSDozeSimplified": 1,
-    "PixelifyPhotos": 2,
-    "unlimitedphotos": 1,
-    "Google-Sans": 1,
-    "Google-Sans-Plus": 1,
-    "wallet_cardart": 1,
-    "gps-locker": 1,
-    "grab-netprinter": 1,
-    "Green2Priv": 1,
-    "Green2Priv-BETA": 1,
-    "Greenify4MagiskKSUReborn": 1,
-    "groupguard": 1,
-    "HDAudio": 1,
-    "heimdall-ndk": 1,
-    "hermesandroid": 1,
-    "hid-gadget": 1,
-    "HideNavbarKeyboard": 1,
-    "ezme-nodebug": 1,
-    "hide-virt-apex-su": 1,
-    "hide-prop-los": 1,
-    "hilightlink": 1,
-    "honor_lsp_fix": 1,
-    "hostsredirect": 2,
-    "hybrid-mount": 1,
-    "meta-hybrid": 2,
-    "ab_optimizer": 1,
-    "HyperOptimize_Tatsh": 1,
-    "hyperos_rust_launcher_mod": 1,
-    "hyperos-accessibility-fix": 1,
-    "miui_aod_mod": 1,
-    "app_vault_mod": 1,
-    "i-dont-want-to-catch-up": 1,
-    "font_collection_ibmplexmono": 1,
-    "font_collection_ibmplexsanscondensed": 1,
-    "font_collection_ibmplexsans": 1,
-    "font_collection_ibmplexserif": 1,
-    "font_collection_iceberg": 1,
-    "font_collection_iceland": 1,
-    "ics-sounds": 1,
-    "ih8SecureLock": 1,
-    "image_copy_hide": 1,
-    "imei_privacy": 1,
-    "font_collection_inconsolata": 1,
-    "bladeSk_magisk-volume-steps": 1,
-    "infinix_bootanimation": 1,
-    "font_collection_instrumentsans": 1,
-    "font_collection_instrumentserif": 1,
-    "font_collection_inter": 1,
-    "font_collection_intertight": 1,
-    "iosfont": 1,
-    "ipset_arm64": 1,
-    "itsybitsy": 1,
-    "Mjg2MjU1ODg0Mwo": 1,
-    "font_collection_jacquard12": 1,
-    "ainur_jamesdsp": 1,
-    "jdtoolbox": 1,
-    "jefferderp.keyboardremaps": 1,
-    "font_collection_jersey10": 1,
-    "font_collection_jersey15": 1,
-    "font_collection_jersey20": 1,
-    "font_collection_jersey25": 1,
-    "font_collection_jetbrainsmono": 1,
-    "MyJetBrainsMonoFont": 1,
-    "font_collection_josefinsans": 1,
-    "JoyConDroidCompanion": 1,
-    "font_collection_kanit": 1,
-    "KernelEnhancer": 1,
-    "IK6cln023OA3": 1,
-    "adrianmmiller.KSUdebloat": 1,
-    "kernelsu-tailscaled": 1,
-    "ksu-webui-module-template": 1,
-    "magisk-module-koruri-font": 1,
-    "kpa_sitronix_fix": 1,
-    "KPatch-Next": 1,
-    "ksuwebui_demo": 1,
-    "lan-cloak": 1,
-    "lazarus_sepolicy": 1,
-    "Level3DNS4Magisk": 1,
-    "font_collection_lexend": 1,
-    "android17-lhdc-a2dp-universal": 1,
-    "font_collection_librebaskerville": 1,
-    "font_collection_lilitaone": 1,
-    "lineage_dialer_rro": 1,
-    "lin_os_swap_mod": 1,
-    "lhroot": 1,
-    "LiteBlur": 1,
-    "liveboot_custom": 1,
-    "lmk_controller_feerd": 1,
-    "physical_hardening": 1,
-    "hxr_logcat": 1,
-    "LowRAMFlagEnabler": 1,
-    "Lynx": 1,
-    "MacRandomizationEnabler": 1,
-    "magic-flash": 1,
-    "meta-mm": 1,
-    "magisk_overlayfs": 2,
-    "MagicalProtection": 1,
-    "magisk": 1,
-    "magisk-alist": 1,
-    "huskydg_bootloopsaver": 2,
-    "Magisk-Captive-Control": 1,
-    "magisk-captive-manager": 1,
-    "Magisk-DRM-Disabler": 1,
-    "magisk-netbird": 1,
-    "magisk-openlist": 1,
-    "Magisk-Tailscaled": 1,
-    "magisk-frida": 2,
-    "magiskhide": 1,
-    "MagiskHideDenyBackup": 1,
-    "MagiskHideDenyRestore": 1,
-    "MAGNETAR": 1,
-    "Malwack": 2,
-    "maple_mono_font": 1,
-    "magisk-module-mejiro-font": 1,
-    "memkeep_plus": 1,
-    "font_collection_merriweather": 1,
-    "meta-overlayfsx": 1,
-    "micfix_speaker_tx_earpiece": 1,
-    "font_collection_michroma": 1,
-    "miclaw-api": 1,
-    "MiCloudA16": 1,
-    "microg_installer": 1,
-    "microg_installer_revived_again": 1,
-    "microG-GApps": 1,
-    "mindetach": 1,
-    "MinecraftFont": 1,
-    "miracast-sink-system": 1,
-    "mirafix": 1,
-    "misnomer": 1,
-    "mi_thermal_tuner": 1,
-    "mitm-ca-system": 1,
-    "MIUI-Debloater-Stage1": 1,
-    "MIUI_Font_Patch": 1,
-    "MiXplorer": 2,
-    "miui_launcher_mod": 1,
-    "security_app_mod": 1,
-    "miui_theme_mod": 1,
-    "font_collection_montserrat": 1,
-    "moto_g15_raw": 1,
-    "MountX": 1,
-    "mtu-fix": 2,
-    "font_collection_mukta": 1,
-    "multiuseruienabler": 1,
-    "MyDNS": 1,
-    "myuppy_font_a16": 1,
-    "font_collection_nanumgothic": 1,
-    "HideNavBar": 1,
-    "netproxy_xray": 1,
-    "nextsusfs": 1,
-    "nfqttl": 1,
-    "NLSound": 1,
-    "nm_scanner": 1,
-    "noemulator": 1,
-    "meta-nomount": 1,
-    "nomount": 1,
-    "noogle-unbundle": 1,
-    "NoStorageRestrict": 1,
-    "nothing-euicc": 1,
-    "NotoColorEmojiCurrent": 1,
-    "font_collection_notosans": 1,
-    "font_collection_notosansmono": 1,
-    "font_collection_notoserif": 1,
-    "font_collection_novamono": 1,
-    "font_collection_nunito": 1,
-    "font_collection_nunitosans": 1,
-    "nx789j_autobrightness_test": 1,
-    "nzapret": 1,
-    "oled2lcd": 1,
-    "ommega": 1,
-    "oneplus15_bds_guard": 1,
-    "oneplusdotfix": 1,
-    "oneplus_global_wifi_beast": 1,
-    "oneshot-extended": 2,
-    "OneUIEmojiPack": 1,
-    "font_collection_opensans": 1,
-    "font_collection_oswald": 1,
-    "font_collection_outfit": 1,
-    "OOSGMS-OPTIMISER": 1,
-    "partition-backup": 1,
-    "patch-inline-trackmotion": 1,
-    "PerfGame": 1,
-    "perfmtk": 1,
-    "perf-limit-xiaomi-12": 1,
-    "phhims_volte": 1,
-    "phoneserver": 1,
-    "pi-sing": 1,
-    "pillarbox": 1,
-    "pixel-5g-enabler": 1,
-    "Komodo_beta_Props": 1,
-    "p9pxl_supercharger": 1,
-    "pixel_launcher_modulu": 1,
-    "pixel-tensor-audio-decompressor": 1,
-    "AOSPMods": 1,
-    "PixelXpert": 1,
-    "com.github.pixelupdater.pixelupdater": 1,
-    "PixelXpert-Next": 1,
-    "plasma-xperience": 1,
-    "playcurlNEXT": 1,
-    "font_collection_playfairdisplay": 1,
-    "PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX": 1,
-    "plf110_touch_rate_sync": 1,
-    "pluskey": 1,
-    "pmmp": 1,
-    "poco_f7_crdroid17_wifi7_6ghz": 1,
-    "mirage_hyperos3_lockscreen_port": 1,
-    "font_collection_poiretone": 1,
-    "POP-ZRAM": 1,
-    "font_collection_poppins": 1,
-    "power11": 1,
-    "powerboost": 1,
-    "font_collection_pragatinarrow": 1,
-    "font_collection_pressstart2p": 1,
-    "privapp_systemizer": 1,
-    "psh": 1,
-    "projectx-webui": 1,
-    "font_collection_prompt": 1,
-    "proteus": 1,
-    "wx_pty_x": 1,
-    "font_collection_ptmono": 1,
-    "font_collection_ptsansnarrow": 1,
-    "font_collection_ptserif": 1,
-    "py2droid": 1,
-    "qdl-ndk": 1,
-    "Quad9DNS4Magisk": 1,
-    "font_collection_quantico": 1,
-    "q2touch_on_q3": 1,
-    "font_collection_quicksand": 1,
-    "RTKS": 1,
-    "font_collection_raleway": 1,
-    "rclone": 1,
-    "font_collection_redhatdisplay": 1,
-    "font_collection_redhatmono": 1,
-    "statusbar-fix-obsidian": 1,
-    "render_switcher": 1,
-    "resampling-for-cheapies": 1,
-    "resonancefx": 1,
-    "1sOtoOo63t0d": 1,
-    "RiProG": 1,
-    "font_collection_robotocondensed": 1,
-    "font_collection_robotoflex": 1,
-    "font_collection_roboto": 1,
-    "rv4a_engine": 1,
-    "disable-rotate-suggest": 1,
-    "rotation_suggestions_toggle": 1,
-    "rsync": 1,
-    "dragonfire_thermal": 1,
-    "s3ra1n-usb": 1,
-    "samsung-dex-standalone-mode": 1,
-    "SamsungHealthSecurityProps": 1,
-    "saturation": 1,
-    "Scalpel": 1,
-    "scalpel": 1,
-    "selinux_permissive": 1,
-    "font_collection_sharetech": 1,
-    "shark8_gamemode": 1,
-    "shark8-smartrefresh": 1,
-    "shellscaled": 1,
-    "bdJJPDbVGjKU": 1,
-    "MagiskShowCameraSoundsModule": 1,
-    "SideKeyPlus": 1,
-    "sidewire": 1,
-    "Simple_BootloopSaver": 1,
-    "scenethesky": 1,
-    "smalipatcher_reborn": 1,
-    "smallbattery": 1,
-    "spkmsystemless": 1,
-    "SMB_Smart_Sync": 1,
-    "font_collection_smoochsans": 1,
-    "smoothflow": 1,
-    "smsforward": 1,
-    "font_collection_sofiasanscondensed": 1,
-    "font_collection_sofiasans": 1,
-    "SomcGameEnhancer-Upgrade": 1,
-    "BraviaEngine": 1,
-    "sortify": 2,
-    "sound_universal": 1,
-    "font_collection_sourcecodepro": 1,
-    "font_collection_sourcesans3": 1,
-    "font_collection_sourceserif4": 1,
-    "ezme-dex-space": 1,
-    "specter": 1,
-    "speedcool": 1,
-    "split": 1,
-    "devsp": 1,
-    "sqlite3": 1,
-    "SQLite3UniversalBinaries": 1,
-    "statusbarguard": 1,
-    "stellar": 1,
-    "stevenblock": 1,
-    "stylusctrl": 1,
-    "sub-store-runsv": 1,
-    "SuperuserListRestore": 1,
-    "SuperuserListBackup": 1,
-    "susdock": 1,
-    "susfs_lkm_x64": 1,
-    "SvcHub": 1,
-    "Swap-Disabler": 1,
-    "swapboost": 1,
-    "cacerts_bind_manager": 1,
-    "systemless-adblocker": 1,
-    "systemless_adblocker": 1,
-    "mkshrc": 1,
-    "node": 1,
-    "systemui_contacts": 1,
-    "magisk-tailscaled": 1,
-    "tailscale_root": 1,
-    "tailscale-bindhosts": 1,
-    "hdrfix_fp16_client_target": 1,
-    "tcl_power_menu": 1,
-    "tcp_optimiser": 3,
-    "teesim": 1,
-    "font_collection_teko": 1,
-    "TermuxRootMods": 1,
-    "TermuxSu": 1,
-    "tethys-tailscaled": 1,
-    "thor_auto_timezone": 1,
-    "font_collection_titilliumweb": 1,
-    "tq_autopatch": 1,
-    "tq_traders": 1,
-    "treat_wheel": 1,
-    "treble_su": 1,
-    "tree": 1,
-    "trustmycert": 1,
-    "mihomo_tproxy": 1,
-    "Turkish-Ad-Hosts": 1,
-    "com.MuratovAS.magisk.TurnOffNetwork": 1,
-    "TurnOffSensors": 1,
-    "tvremoteweb": 1,
-    "ttf-twemoji": 1,
-    "Twemoji-systemless": 1,
-    "twrp-keep": 1,
-    "ubuntu-chroot": 1,
-    "UbuntuFontVinaooo": 1,
-    "font_collection_unicaone": 1,
-    "unicode_font_set": 1,
-    "unityfix": 1,
-    "unlimited-hotspot": 1,
-    "upx-ndk": 1,
-    "usb-arsenal": 1,
-    "usbmassstorage": 1,
-    "safetynet-fix": 1,
-    "Vazirmatn-Regular": 1,
-    "vbmeta_disguiser": 1,
-    "vgd": 1,
-    "video-to-bootanimation": 1,
-    "font_collection_viga": 1,
-    "Viper4-XF": 1,
-    "VolteWifiCallingEnabler": 1,
-    "volumesteps": 1,
-    "volumeperapp": 1,
-    "vpn_share_proxy": 1,
-    "vpn_tether": 1,
-    "font_collection_vt323": 1,
-    "vintf-bypass": 1,
-    "vulkan_hwui": 1,
-    "wallet_card_audit": 1,
-    "inactivity_reboot": 1,
-    "com.dergoogler.mmrl.wx": 1,
-    "webview_optimizer": 1,
-    "wg-shield": 1,
-    "wg-user": 1,
-    "wifi-bonding-nolog": 1,
-    "wifienhan": 1,
-    "wcg_f946b": 1,
-    "wifi7_lab_safe": 1,
-    "DisableCell": 1,
-    "qgcP03aUu-Rq": 1,
-    "wadbd": 1,
-    "kaina": 1,
-    "uu-wheel-evdev": 1,
-    "xiaomiplaystorefix": 1,
-    "xiaomi_usb_sec_bypass": 1,
-    "xmlpak-RE": 1,
-    "pdx213_assistant_camera_remap": 1,
-    "xray4magisk": 1,
-    "Xtreme-Battery-Saver": 2,
-    "y700_device_name": 1,
-    "Yandex_DNS4Magisk-Basic": 1,
-    "Yandex_DNS4Magisk-Family": 1,
-    "Yandex_DNS4Magisk-Safe": 1,
-    "YAKT": 1,
-    "yt-morphe": 2,
-    "ytrevancedinject": 1,
-    "ytm-morphe-arm64": 2,
-    "yukizygisk": 1,
-    "zapret-ksu": 1,
-    "font_collection_zendots": 1,
-    "SL8541E_Config_Fix": 1,
-    "zerotier": 1,
-    "zram16": 1,
-    "lz4kds_sddc": 1,
-    "zram-swap-manager": 1,
-    "zygisk_zram": 1,
-    "zygisk_clipboard_whitelist": 1,
-    "zygisk_frida_gadget": 1,
-    "zygisk_fusehide": 1,
-    "zygisk_ifw_enhance": 1,
-    "zygisk-module-xfingerprint-pay-all": 1,
-    "zygiskfrida": 2,
-    "gs_quick_reload": 1,
-    "QSC_Battery": 1,
-    "clipshield": 1,
-    "genshin_bootanim": 1,
-    "wzn01": 2,
-    "thermocharge": 1,
-    "hoshitele": 1,
-    "icbc_daily_water": 1,
-    "CertBridge": 1,
-    "Lowlife": 1,
-    "MemoryOpt": 2,
-    "asoulopt": 3,
-    "neozygisk": 2,
-    "playintegrityfork": 2,
-    "HyperOSMonetProject": 2,
-    "Monet-All": 2,
-    "ZygiskNext": 2,
-    "lsposed_riru": 2,
-    "lsposed_zygisk": 2,
-    "riru_core": 2,
-    "riru_sui": 2,
-    "uperf_games": 2,
-    "zygisk_sui": 2,
-    "dt2w-fix": 1,
-    "ios-emoji": 1,
-    "msd": 1,
-    "music-morphe": 1,
-    "teesimulator": 1,
-    "teesimulator-rs": 1,
-    "tricky-addon-enhanced": 1,
-    "tricky-addon-target-list": 1,
-    "vector": 1,
-    "youtube-morphe": 1,
-    "zygisk-next": 1,
-    "frosty": 1,
-    "livebootmodule": 1,
-    "integrity-box": 1,
-    "meowzygisk": 1,
-    "cpu-screenoff": 1,
-    "android_luks_mounter": 1,
-    "termuxsu": 1,
-    "imgdrive": 1,
-    "tricky-store": 1,
-    "alwaysstrong": 1,
-    "alwaysstrong-inject": 1,
-    "alwaysstrong-nopif": 1,
-    "BCR": 1,
-    "NoHello": 1,
-    "PIF-Inject": 1,
-    "PIF-Next": 1,
-    "PlayIntegrityFork": 1,
-    "RE-LSP": 1,
-    "SMTW": 1,
-    "Unlimited-GooglePhotosBackupMod": 1,
-    "susfs": 1,
-    "systemapp_nuker": 1,
-    "trickystore_OSS": 1
+    "AdGuardHome": 1,
+    "AshLooper": 1,
+    "Custom-Certificate-Authorities": 1,
+    "DynamicSystemTweaks": 1,
+    "HyperUnlocked": 2,
+    "Infamick_script": 1,
+    "NovaInstaller": 1,
+    "ZRAM-Module": 3,
+    "abootloop": 6,
+    "acc": 3,
+    "adb_root": 1,
+    "audio-jitter-silencer": 2,
+    "audio-misc-settings": 2,
+    "bootanimation-module-ronux": 1,
+    "box_for_root": 1,
+    "com.chiller3.alterinstaller": 1,
+    "disable-low-ram": 2,
+    "fastcharge-next": 1,
+    "hifi-maximizer-mod": 1,
+    "high_perf_dac": 1,
+    "hma_oss_zygisk": 2,
+    "kp_enhancer": 1,
+    "livebootmagisk": 2,
+    "magisk-swapspace": 2,
+    "mm": 3,
+    "net-switch": 6,
+    "openeuicc": 1,
+    "playintegrityfix": 10,
+    "rezygisk": 5,
+    "systemless-hosts-KernelSU-module": 2,
+    "universal-gms-doze": 3,
+    "uperf": 5,
+    "zapret": 1,
+    "zygisk-assistant": 5,
+    "zygisk-sui": 4,
+    "zygisk_nohello": 1,
+    "zygisk_vector": 4,
+    "bindhosts": 14,
+    "mmrl_wpd": 10,
+    "BetterKnownInstalled": 3,
+    "Re-Malwack": 2,
+    "TA_utl": 6,
+    "acp": 1,
+    "aml": 1,
+    "cubic-adblock": 2,
+    "djs": 2,
+    "flagsecurepatcher": 3,
+    "iOS_Emoji": 3,
+    "lune_bridge": 2,
+    "magisk-wifiadb": 1,
+    "meta-overlayfs": 1,
+    "sensitive_props": 3,
+    "susfs4ksu": 7,
+    "system_app_nuker": 2,
+    "tricky_store": 10,
+    "usb-samplerate-unlocker": 2,
+    "vbmeta-fixer": 1,
+    "zygisk-detach": 10,
+    "zygisk_lsposed": 9,
+    "zygisksu": 9,
+    "com.chiller3.msd": 1,
+    "hybrid_mount": 3,
+    "BuiltIn-BusyBox": 1,
+    "CustomizedNavbar": 1,
+    "GMSDoze": 1,
+    "Luz-Nocturna_Modded": 1,
+    "NoProcStatRestriction": 1,
+    "QS_Rectangulares": 1,
+    "StevenBlock": 3,
+    "SystemlessDebloater": 2,
+    "ToyBox-Ext": 1,
+    "YetAnotherBootloopProtector": 1,
+    "audio-samplerate-changer": 1,
+    "chroot-distro": 2,
+    "custom-certificate-authorities": 1,
+    "data_backup": 1,
+    "data_isolation_support": 1,
+    "data_restore_Courier": 1,
+    "drc-remover": 1,
+    "enable-blurs": 1,
+    "isodrive": 1,
+    "magisk-autoboot": 1,
+    "magisk_proc_monitor": 1,
+    "oneplus-8series-9r-camera-unlocker": 1,
+    "open_fonts": 1,
+    "open_webview": 2,
+    "selinux_mode": 1,
+    "supl-replacer": 1,
+    "systemui-bootloop": 1,
+    "trichromelibrary-squoosh": 1,
+    "AZenith": 2,
+    "COPG": 4,
+    "encore": 4,
+    "mountify": 5,
+    "xhhttp": 1,
+    "altdb": 1,
+    "auriya": 1,
+    "device_faker": 1,
+    "duck-toolbox": 1,
+    "hypercool": 1,
+    "KernelSU-Tuner": 1,
+    "ksuGrantToast": 1,
+    "lkm4ctr": 1,
+    "magic_mount_rs": 1,
+    "MagicNet": 1,
+    "MoveCertificate": 1,
+    "netproxy": 1,
+    "oh_my_keymint": 2,
+    "ReSuSFS": 1,
+    "zygisknextsu": 1,
+    "zygisk_shamiko": 8,
+    "gitmigrator": 2,
+    "Yurikey": 2,
+    "com.chiller3.bcr": 2,
+    "cache_cleaner": 2,
+    "asoul_affinity_opt": 2,
+    "busybox-ndk": 2,
+    "Malwack": 1,
+    "MiXplorer": 1,
+    "Xtreme-Battery-Saver": 1,
+    "adb-ndk": 1,
+    "gcc_on_android": 1,
+    "magisk_overlayfs": 1,
+    "tcp_optimiser": 2,
+    "bypasser": 1,
+    "aa4mg": 1,
+    "COPG-VD": 1,
+    "vdbackup": 1,
+    "fas_rs": 1,
+    "hostsredirect": 1,
+    "magisk_custompinyindictionary_fcitx": 1,
+    "meta-hybrid": 1,
+    "wzn01": 1,
+    "hid-gadget-module": 1,
+    "adguardcert": 1,
+    "Kernel_Module_Loader": 1,
+    "fake_sudo": 1,
+    "aegis_firewall": 1,
+    "magisk-frida": 1,
+    "yt-morphe": 1,
+    "ytm-morphe-arm64": 1,
+    "Circle.to.Search": 1,
+    "PixelifyPhotos": 1,
+    "careful_optimization": 1,
+    "huskydg_bootloopsaver": 1,
+    "mtu-fix": 1,
+    "oneshot-extended": 1,
+    "zygiskfrida": 1,
+    "MemoryOpt": 1,
+    "asoulopt": 2,
+    "neozygisk": 1,
+    "playintegrityfork": 1,
+    "sortify": 1,
+    "HyperOSMonetProject": 1,
+    "Monet-All": 1,
+    "ZygiskNext": 1,
+    "lsposed_riru": 1,
+    "lsposed_zygisk": 1,
+    "riru_core": 1,
+    "riru_sui": 1,
+    "uperf_games": 1,
+    "zygisk_sui": 1
   },
   "ksu_origins": {
     "https://github.com/rrr333nnn333/brene": "catalog",

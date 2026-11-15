@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": 1794754302,
+  "generated": 1794754596,
   "repositories": {
     "cabiamdos/my-mmrl-repository": {
       "kind": "mmrl",
@@ -139,13 +139,6 @@
       "last_error": "HTTPError",
       "checked": 1794754302
     },
-    "googlers-repo/mmrl_installer_api_test": {
-      "kind": "none",
-      "status": "unmatched",
-      "repository": "Googlers-Repo/mmrl_installer_api_test",
-      "last_error": "HTTPError",
-      "checked": 1794754302
-    },
     "googlers-repo/node_magisk-module_install-prototype": {
       "kind": "none",
       "status": "unmatched",
@@ -180,14 +173,6 @@
       "status": "unmatched",
       "repository": "luna0beron/project-lun3-prototype",
       "last_error": "HTTPError",
-      "checked": 1794754302
-    },
-    "mmrlapp/template-repository": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/MMRLApp/template-repository/master/json/modules.json",
-      "modules": 31,
-      "status": "found",
-      "repository": "MMRLApp/template-repository",
       "checked": 1794754302
     },
     "natsumerinchan/celica-magisk-modules-repo": {
@@ -272,14 +257,6 @@
       "modules": 44,
       "status": "found",
       "repository": "uonou/mmrl-repo",
-      "checked": 1794754302
-    },
-    "stupidgiraffe/android-root-feed-bridge": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/json/modules.json",
-      "modules": 820,
-      "status": "found",
-      "repository": "stupidgiraffe/android-root-feed-bridge",
       "checked": 1794754302
     },
     "pycmshoma/customizednavbar_archived": {

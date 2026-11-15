@@ -5,7 +5,7 @@
   "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794754302.0
+    "timestamp": 1794754596.0
   },
   "modules": [
     {
@@ -1682,31 +1682,6 @@
       "size": 5957370
     },
     {
-      "id": "android_enhancer",
-      "name": "Android Enhancer",
-      "author": "iamlooper @ github",
-      "version": "v1.4.0",
-      "versionCode": 15,
-      "track": {
-        "type": "ONLINE_JSON",
-        "added": 1723905223.0,
-        "source": "https://github.com/iamlooper/Android-Enhancer-Module"
-      },
-      "versions": [
-        {
-          "versionCode": 15,
-          "version": "v1.4.0",
-          "timestamp": 1730894450.0,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/android_enhancer/v1.4.0_15.zip",
-          "size": 2868891,
-          "changelog": "https://gr.dergoogler.com/gmr/modules/android_enhancer/v1.4.0_15.md"
-        }
-      ],
-      "verified": false,
-      "description": "A revolutionary android optimizer.",
-      "size": 2868891
-    },
-    {
       "id": "android_luks_mounter",
       "name": "Android LUKS Mounter",
       "author": "Rex Ackermann",
@@ -1880,7 +1855,7 @@
         {
           "versionCode": 8,
           "version": "v1.3.4",
-          "timestamp": 1794748959.0,
+          "timestamp": 1794717479.0,
           "zipUrl": "https://github.com/Magisk-Modules-Alt-Repo/abootloop/releases/download/v1.3.4/abootloop.zip",
           "size": 5011,
           "changelog": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/abootloop/main/changelog.md"
@@ -3333,7 +3308,7 @@
         {
           "versionCode": 199424,
           "version": "3.11",
-          "timestamp": 1794748959.0,
+          "timestamp": 1794717479.0,
           "zipUrl": "https://github.com/chenxiaolong/BCR/releases/download/v3.11/BCR-3.11-release.zip",
           "size": 2787358,
           "changelog": "https://github.com/chenxiaolong/BCR/raw/v3.11/app/magisk/updates/release/changelog.txt"
@@ -13870,7 +13845,7 @@
         {
           "versionCode": 17260301,
           "version": "17.26.3-1",
-          "timestamp": 1794748959.0,
+          "timestamp": 1794717479.0,
           "zipUrl": "https://github.com/ViRb3/magisk-frida/releases/download/17.26.3-1/MagiskFrida-17.26.3-1.zip",
           "size": 146764687,
           "changelog": "https://raw.githubusercontent.com/ViRb3/magisk-frida/master/CHANGELOG.md"
@@ -15632,7 +15607,7 @@
         {
           "versionCode": 54,
           "version": "v1.2",
-          "timestamp": 1794748959.0,
+          "timestamp": 1794717479.0,
           "zipUrl": "https://github.com/Rem01Gaming/net-switch/releases/download/1.2/net-switch-1.2-54-64b5764-release.zip",
           "size": 18560,
           "changelog": "https://raw.githubusercontent.com/Rem01Gaming/net-switch/main/changelog.md"
@@ -24179,7 +24154,7 @@
         {
           "versionCode": 3080,
           "version": "v2.2",
-          "timestamp": 1794748959.0,
+          "timestamp": 1794717479.0,
           "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/v2.2/Vector-v2.2-3080-Release.zip",
           "size": 9316843,
           "changelog": "https://raw.githubusercontent.com/JingMatrix/Vector/master/zygisk/changelog.md"
@@ -25805,7 +25780,7 @@
         {
           "versionCode": 164,
           "version": "v21.30.216 (patches 2.2.0.mpp)",
-          "timestamp": 1794748959.0,
+          "timestamp": 1794717479.0,
           "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/164/youtube-morphe-module-v21.30.216-all.zip",
           "size": 237034800,
           "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-extended/update/build.md"
@@ -25880,7 +25855,7 @@
         {
           "versionCode": 164,
           "version": "v9.30.53 (patches 2.2.0.mpp)",
-          "timestamp": 1794748959.0,
+          "timestamp": 1794717479.0,
           "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/164/youtube-music-morphe-module-v9.30.53-arm64-v8a.zip",
           "size": 69192690,
           "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-extended/update/build.md"
@@ -25974,7 +25949,7 @@
         {
           "versionCode": 310,
           "version": "3.1.0",
-          "timestamp": 1794748959.0,
+          "timestamp": 1794717479.0,
           "zipUrl": "https://github.com/Yurii0307/yurikey/releases/download/v3.1.0/Yurikey-v3.1.0.signed.zip",
           "changelog": "https://raw.githubusercontent.com/Yurii0307/yurikey/main/changelog.md"
         }
