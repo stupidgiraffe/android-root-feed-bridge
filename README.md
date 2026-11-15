@@ -1,46 +1,142 @@
-# Android Root Feed Bridge
+<div align="center">
 
-[![Update Root Module Feeds](https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml/badge.svg)](https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml)
+<img src="assets/root-feed-banner.jpg" alt="Root Feed Bridge — a luminous modular cube linking Android root module repositories" width="100%" />
 
-**A free, automatically updated MMRL + KernelSU Next companion to [Best Root Apps for Android](https://krishna3163.github.io/best-root-apps-for-android/).** It preserves the entire discovery catalog, inspects official module release ZIPs, and publishes two manager-native formats without mirroring any binaries.
+# Root Feed Bridge
 
-## Add the feeds
+### One catalog. Two module managers. Automatic updates.
 
-**MMRL** → Repositories → Add. Paste the **base URL**, including the trailing slash:
+Discover Android root tools from **[Best Root Apps for Android](https://krishna3163.github.io/best-root-apps-for-android/)**, with ready-to-add repositories for **[MMRL](https://github.com/MMRLApp/MMRL)** and **[KernelSU Next](https://github.com/KernelSU-Next/KernelSU-Next)**.
+
+<p>
+  <a href="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml"><img alt="Daily feed build" src="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml/badge.svg" /></a>
+  <img alt="Free and open catalog" src="https://img.shields.io/badge/Free-forever-00bfa5?style=flat-square" />
+  <img alt="Automatic daily refresh" src="https://img.shields.io/badge/Auto--sync-daily-64748b?style=flat-square" />
+  <a href="https://buymeacoffee.com/stupidgiraffe"><img alt="Support development on Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=000000&style=flat-square" /></a>
+</p>
+
+<p>
+  <a href="#-add-to-mmrl"><strong>📦 Add to MMRL</strong></a>
+  &nbsp; · &nbsp;
+  <a href="#-add-to-kernelsu-next"><strong>⚡ Add to KernelSU Next</strong></a>
+  &nbsp; · &nbsp;
+  <a href="report.json"><strong>📊 Live coverage</strong></a>
+  &nbsp; · &nbsp;
+  <a href="#-support-development"><strong>☕ Support</strong></a>
+</p>
+
+</div>
+
+---
+
+## 📦 Add to MMRL
+
+In **MMRL → Repos → +**, paste this **base URL** (including the trailing slash):
 
 ```text
 https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/
 ```
 
-**KernelSU Next** → Module repository → Manage repositories → Add. Paste the **full JSON URL**:
+MMRL reads our [module index](json/modules.json) and displays each qualifying module's version, metadata, and original developer-hosted ZIP. The banner at the top of this README also appears in MMRL's repository card.
+
+## ⚡ Add to KernelSU Next
+
+In **KernelSU Next → Module Repository → Manage Repositories → Add**, paste this **JSON file URL**:
 
 ```text
 https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/ksu/modules.json
 ```
 
-These formats are intentionally different: KernelSU Next will **not** import the MMRL JSON format, and MMRL expects the base URL rather than a `modules.json` file.
+KernelSU Next uses a different format. This feed includes only validated repositories whose latest GitHub release contains a single ZIP, because its manager selects that ZIP itself.
 
-## What it includes
+> [!IMPORTANT]
+> The **MMRL URL is a folder**, while the **KernelSU Next URL is a JSON file**. The two are not interchangeable.
 
-| Output | Description | View |
-| --- | --- | --- |
-| Complete discovery | Every upstream README entry, plus Morphe patched APKs and extra configured trackers | [Browse JSON](discovery.json) |
-| MMRL repository | Inspected GitHub release ZIPs with root-level `module.prop` | [MMRL modules](json/modules.json) |
-| KernelSU Next repository | Single-ZIP official GitHub releases the manager can consume reliably | [KernelSU modules](ksu/modules.json) |
-| Live audit | Counts, scan coverage and exclusion reasons | [Coverage report](report.json) |
+## ✨ What's inside?
 
-**Why aren't the module counts equal to the full catalog?** The original website includes regular APKs, LSPosed apps, Shizuku utilities, documentation, and device-specific projects. Those are discoverable but are not automatically installable root modules. KernelSU Next is also more restrictive because its app picks the first ZIP in a GitHub release. Alternative forks of the same module can appear individually there; MMRL can represent only one per module ID.
+| | Collection | What you'll find |
+|:--:|---|---|
+| 🧭 | **[Complete catalog](discovery.json)** | Original upstream entries, including root apps, Shizuku tools, LSPosed utilities, GitLab, Codeberg, Play Store links, and Morphe patched APKs |
+| 📦 | **[MMRL modules](json/modules.json)** | GitHub release ZIPs inspected for a valid root-level `module.prop`; one listing per module ID |
+| ⚡ | **[KernelSU Next modules](ksu/modules.json)** | Eligible single-ZIP release repositories, including separate forks when applicable |
+| 📈 | **[Live coverage report](report.json)** | Exact discovery counts, successful module inspections, exclusions, and scan progress |
 
-Everything in `discovery.json` retains its original upstream link and classification. Non-GitHub projects (Codeberg, GitLab, Google Play, etc.) remain discoverable even if their binaries aren't eligible for the installation feeds.
+<div align="center">
 
-## Automatic updates
+<a href="report.json"><img alt="MMRL module count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Fandroid-root-feed-bridge%2Fmain%2Freport.json&query=%24.mmrl_modules&label=MMRL%20modules&color=0891b2&style=for-the-badge" /></a>
+<a href="report.json"><img alt="KernelSU Next module count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Fandroid-root-feed-bridge%2Fmain%2Freport.json&query=%24.kernelsu_next_modules&label=KernelSU%20Next&color=7c3aed&style=for-the-badge" /></a>
+<a href="report.json"><img alt="Total discovery entries" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Fandroid-root-feed-bridge%2Fmain%2Freport.json&query=%24.catalog_entries&label=Catalog%20entries&color=0f766e&style=for-the-badge" /></a>
 
-GitHub Actions refreshes the catalog **daily around 18:17 JST**, prioritizing newly discovered projects, then checking current release versions. Previous inspection results are cached and reused. Upstream ZIPs are inspected without installing or executing them. Validation prevents empty or unexpectedly shrunken indexes from overwriting known-good data.
+<sub>These counts come from the live generated report, not hardcoded values.</sub>
 
-- [Latest builds and their logs](https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml)
-- [Pipeline architecture, source contracts and limits](docs/ARCHITECTURE.md)
-- [Original upstream catalog repository](https://github.com/krishna3163/best-root-apps-for-android)
+</div>
 
-**Safety:** `module.prop` confirms a package's structure, **not** whether it is trustworthy, compatible with your phone, or safe to flash. Check the project before installing. No root module is installed automatically. Proprietary packages are not republished; downloads come from developers' own GitHub releases.
+## 🔄 How it works
 
-This independent bridge is not affiliated with or endorsed by the original catalog maintainer, MMRL, KernelSU, or module authors.
+```text
+ Best Root Apps for Android
+           │
+  Read original catalog + release trackers
+           │
+   Check original GitHub releases
+           │
+  Inspect ZIP structure and module.prop
+           │
+     ┌─────┴───────────┐
+     │                 │
+  MMRL feed      KernelSU Next feed
+     │                 │
+     └──────┬──────────┘
+            │
+   Publish only after validation
+```
+
+- **Daily updates:** GitHub Actions refreshes around **18:17 JST** with no server or account required on your phone.
+- **New discoveries:** New upstream catalog projects become discoverable automatically. Compatible module ZIP releases are added after inspection.
+- **No rehosting:** ZIPs remain on the developers' original GitHub releases.
+- **Failure protection:** Tests and schema checks run before publication. Suspiciously large drops preserve the last published feed.
+- **No automatic flashing:** Adding this repo does not install or enable modules.
+
+Regular APKs, LSPosed apps, Shizuku tools and projects with no valid release ZIP belong in **discovery**, not a flashable-module feed. Package structure checks are **not** security audits or device compatibility guarantees.
+
+<details>
+<summary><strong>🔧 Maintainer information, validation and troubleshooting</strong></summary>
+
+The repository is intentionally small and serverless.
+
+- [Current automation status](https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml)
+- [Coverage and exclusion reasons](report.json)
+- [Architecture, data boundaries and update policy](docs/ARCHITECTURE.md)
+- [MMRL JSON output](json/modules.json) · [KernelSU Next JSON output](ksu/modules.json)
+- [Updater source](scripts/update.py) · [Validation source](scripts/validate.py)
+- [Original source catalog](https://github.com/krishna3163/best-root-apps-for-android)
+
+To refresh manually, open **Actions → Update Root Module Feeds → Run workflow**. If MMRL shows an older count or banner, tap **Update** on the repository card. GitHub may occasionally delay scheduled actions; the repository is intended to be hands-off, not guaranteed to require zero maintenance forever.
+
+</details>
+
+## ☕ Support development
+
+<div align="center">
+
+If this bridge saves you from hunting down module downloads and checking repositories by hand, a coffee helps support future improvements and upkeep.
+
+<a href="https://buymeacoffee.com/stupidgiraffe"><img src="https://raw.githubusercontent.com/stupidgiraffe/Kizuku/main/docs/media/buy-me-a-coffee-qr.png" alt="QR code for Buy Me a Coffee: stupidgiraffe" width="152" height="152" /></a>
+
+<br />
+
+<a href="https://buymeacoffee.com/stupidgiraffe"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20this%20project-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" /></a>
+
+<sub>Completely optional. The feeds remain free.</sub>
+
+</div>
+
+---
+
+<div align="center">
+
+**Made for the Android rooting community** · Maintained by [stupidgiraffe](https://github.com/stupidgiraffe)
+
+<sub>Catalog data belongs to its respective authors. This independent project is not affiliated with or endorsed by the source maintainer, MMRL, KernelSU Next, or module developers. Inspect what you flash.</sub>
+
+</div>
