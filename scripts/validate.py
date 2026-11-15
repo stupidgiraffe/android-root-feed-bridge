@@ -60,7 +60,7 @@ def validate():
                     f"missing ZIP size: {identifier}")
             uri = version["zipUrl"]
             require(isinstance(uri, str) and
-                    uri.startswith(source + "/releases/download/") and
+                    uri.lower().startswith(source.lower() + "/releases/download/") and
                     uri.lower().endswith(".zip"),
                     f"download does not belong to source release: {identifier}")
     ksu_repos = set()
