@@ -342,16 +342,19 @@ def main():
     }
 
     # Stage all serializable outputs in memory before touching disk.
+    cover = ("https://raw.githubusercontent.com/stupidgiraffe/"
+             "android-root-feed-bridge/main/assets/root-feed-banner.jpg")
     mmrl = {
         "name": "Root Feed Bridge (Best Root Apps)",
         "website": "https://github.com/stupidgiraffe/android-root-feed-bridge",
+        "cover": cover,
         "description": "Original developers' GitHub release ZIPs with root-level module.prop inspected.",
         "metadata": {"version": 1, "timestamp": float(now)},
         "modules": modules,
     }
     config = {
         "name": mmrl["name"], "website": mmrl["website"],
-        "description": mmrl["description"],
+        "cover": cover, "description": mmrl["description"],
     }
     write_json(ROOT / "json/modules.json", mmrl)
     write_json(ROOT / "json/config.json", config)
