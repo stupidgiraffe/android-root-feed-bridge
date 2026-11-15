@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/root-feed-banner.jpg" alt="Root Feed Bridge — a luminous modular cube linking Android root module repositories" width="100%" />
+<img src="assets/root-feed-banner.jpg" alt="RootAtlas — a luminous modular cube linking Android root module repositories" width="100%" />
 
-<h1>Root Feed Bridge</h1>
+<h1>RootAtlas</h1>
 
-<h3>Many repositories. Two module managers. One home.</h3>
+<h3>The federated index for Android root modules.</h3>
 
-<p>Unify trusted-source root module catalogs, independent MMRL repositories, and KernelSU Next manifests under two easy-to-add feeds. Includes the complete <strong><a href="https://krishna3163.github.io/best-root-apps-for-android/">Best Root Apps for Android</a></strong> discovery catalog, with automatic daily updates.</p>
+<p>Find more Android modules without adding dozens of repos. RootAtlas combines MMRL feeds, KernelSU Next manifests, independently discovered GitHub repositories, and the complete <strong><a href="https://krishna3163.github.io/best-root-apps-for-android/">Best Root Apps for Android</a></strong> discovery catalog, with automatic daily updates.</p>
 
 <p>
   <a href="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml"><img alt="Daily feed build" src="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml/badge.svg" /></a>
@@ -56,7 +56,7 @@ KernelSU Next uses a different format. This feed merges our inspected single-ZIP
 
 | | Collection | What you'll find |
 |:--:|---|---|
-| 🧭 | **[Complete catalog](discovery.json)** | Original upstream entries, including root apps, Shizuku tools, LSPosed utilities, GitLab, Codeberg, Play Store links, and Morphe patched APKs |
+| 🧭 | **[Best Root Apps catalog](discovery.json)** | Original upstream entries, including root apps, Shizuku tools, LSPosed utilities, GitLab, Codeberg, Play Store links, and Morphe patched APKs |
 | 📦 | **[MMRL modules](json/modules.json)** | Combined index from our inspected catalog and other MMRL repository feeds; duplicates resolved by module ID |
 | ⚡ | **[KernelSU Next modules](ksu/modules.json)** | Our inspected sources plus official KernelSU Next open-source and metamodule manifests, deduped by repository |
 | 📈 | **[Live coverage report](report.json)** | Exact discovery counts, successful module inspections, exclusions, and scan progress |
@@ -74,23 +74,21 @@ KernelSU Next uses a different format. This feed merges our inspected single-ZIP
 ## 🔄 How it works
 
 ```text
-  Best Root Apps      MMRL official directory
-  + verified ZIPs     + independent MMRL feeds
-          \             /
-           Normalize & deduplicate
-                    |
-        Unified MMRL modules.json
-                    |
-       +------------------------+
-       |                        |
-       + KernelSU Next official manifests
-       |                        |
-       Unified KernelSU Next modules.json
-                    |
-        Validate → publish daily
+Best Root Apps ──────┐
+MMRL directory ──────┤
+Curated MMRL feeds ──┤
+GitHub repo discovery┤ → validate → merge → deduplicate
+KernelSU manifests ──┘                   |
+                           ┌─────────────┴───────────┐
+                           |                         |
+                       MMRL JSON             KernelSU Next JSON
+                           |                         |
+                           └── daily GitHub Actions ─┘
 ```
 
-- **Daily updates:** GitHub Actions refreshes around **18:17 JST**. New repositories from MMRL's official directory are added automatically.
+- **Daily updates:** GitHub Actions refreshes around **18:17 JST**, including newly registered MMRL sources and previously discovered repositories.
+- **Independent GitHub discovery:** bounded repository searches check public `modules.json` and `json/modules.json` for valid manager-specific entries; candidates that fail validation are excluded.
+- **Different safety tiers:** upstream feeds supply module metadata; RootAtlas does not audit every external ZIP or guarantee compatibility.
 - **Your existing sources:** We started with the repository URLs recovered from your MMRL app, plus official discovery feeds. Your phone does **not** need to remain connected.
 - **One source, one record:** MMRL deduplicates by module ID; KernelSU Next deduplicates by GitHub source repository.
 - **Failure protection:** Broken JSON, missing required timestamps and failed feeds cannot invalidate the combined repository. Previously successful upstream data is cached.
@@ -100,7 +98,8 @@ KernelSU Next uses a different format. This feed merges our inspected single-ZIP
 
 ### 📡 Upstream sources and transparency
 
-- **[Configured repositories](sources/federation.json):** the curated starting set of MMRL sources, official directory URL, and KernelSU Next manifests.
+- **[Configured repositories](sources/federation.json):** the curated starting sources, MMRL directory, and KernelSU Next manifests.
+- **[Discovered repositories](source-discovery-state.json):** independent GitHub feeds found through scheduled searches, with public source URLs and inspection timestamps.
 - **[Coverage and source-health report](report.json):** live counts, successful feeds, failed feeds, and filtered entries.
 - **[Module provenance](federation-provenance.json):** records which catalog or repository supplied each displayed module.
 - **[Processing architecture](docs/ARCHITECTURE.md):** merge rules, caching, validation and limitations.
@@ -145,6 +144,6 @@ To refresh manually, open **Actions → Update Root Module Feeds → Run workflo
 
 <strong>Made for the Android rooting community</strong> · Maintained by <a href="https://github.com/stupidgiraffe">stupidgiraffe</a>
 
-<sub>Catalog data belongs to its respective authors. This independent project is not affiliated with or endorsed by the source maintainer, MMRL, KernelSU Next, or module developers. Inspect what you flash.</sub>
+<sub>Catalog data belongs to its respective authors. This independent index is not affiliated with or endorsed by source maintainers, MMRL, KernelSU Next, or module developers. Inspect what you flash.</sub>
 
 </div>
