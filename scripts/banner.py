@@ -9,7 +9,7 @@ import math
 import random
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 WIDTH, HEIGHT = 1280, 625
 OUTPUT = Path(__file__).resolve().parents[1] / "assets" / "root-feed-banner.jpg"
@@ -163,6 +163,23 @@ def main():
         a = round(2.0 * (n / 80))
         od.rectangle((n, n, WIDTH - n, HEIGHT - n), outline=(0, 0, 6, a), width=2)
     img = Image.alpha_composite(img, overlay).convert("RGB")
+
+    # Quiet, legible project identity in the safe bottom-left edge.
+    logo = ImageDraw.Draw(img)
+    try:
+        title_font = ImageFont.truetype(
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 43)
+        subtitle_font = ImageFont.truetype(
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 15)
+    except OSError:
+        title_font = ImageFont.load_default()
+        subtitle_font = ImageFont.load_default()
+    logo.line([(44, 485), (166, 485)], fill=(45, 221, 240), width=3)
+    logo.text((43, 507), "ROOTATLAS", font=title_font,
+              fill=(211, 250, 255), stroke_width=1, stroke_fill=(4, 32, 47))
+    logo.text((45, 569), "FEDERATED ANDROID ROOT MODULES",
+              font=subtitle_font, fill=(113, 209, 232))
+
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     img.save(OUTPUT, format="JPEG", quality=85, optimize=True, progressive=True,
              subsampling=0)
