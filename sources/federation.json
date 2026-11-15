@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "mmrl_directory": "https://raw.githubusercontent.com/MMRLApp/Discovery/main/json/remotes.json",
+  "mmrl": [
+    "https://gr.dergoogler.com/gmr/",
+    "https://magisk-modules-alt-repo.github.io/json-v2/",
+    "https://apt.izzysoft.de/magisk/",
+    "https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/",
+    "https://natsumerinchan.github.io/celica-magisk-modules-repo/",
+    "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/",
+    "https://leloubil.github.io/magisk-repo/",
+    "https://misak10.github.io/mmrl-repo/",
+    "https://zguation-projects.github.io/ZG-R/",
+    "https://mrepo.rem01gaming.dev/",
+    "https://ssmg4.github.io/SSR/",
+    "https://juliazero.github.io/mrbj/",
+    "https://shamratrh-web.github.io/mmrl-repo/",
+    "https://cabiamdos.github.io/my-mmrl-repository/",
+    "https://mystster.github.io/module-repo/",
+    "https://vc-teahouse.github.io/magisk-module-repo/",
+    "https://zelect0r.github.io/zamr/",
+    "https://yukari0201.github.io/mmrl-repo/",
+    "https://privshell.github.io/privshell-repo/",
+    "https://mmrl.dev/repo/",
+    "https://mmrl.dev/repo/ksu/",
+    "https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/"
+  ],
+  "ksunext": [
+    {
+      "name": "KernelSU Next official open-source",
+      "url": "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/modules.json",
+      "enabled": true
+    },
+    {
+      "name": "KernelSU Next official metamodules",
+      "url": "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/meta_modules.json",
+      "enabled": true
+    },
+    {
+      "name": "KernelSU Next non-free (opt-in)",
+      "url": "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/non_free_modules.json",
+      "enabled": false
+    }
+  ]
+}
