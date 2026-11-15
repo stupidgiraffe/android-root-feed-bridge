@@ -25,6 +25,12 @@ def validate():
     report = load("report.json")
 
     require(mmrl.get("name") == config.get("name"), "MMRL config name mismatch")
+    cover = "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/assets/root-feed-banner.jpg"
+    require(mmrl.get("cover") == cover and config.get("cover") == cover,
+            "MMRL cover is missing or incorrectly linked")
+    banner = ROOT / "assets/root-feed-banner.jpg"
+    require(banner.is_file() and banner.stat().st_size > 5000,
+            "rendered JPG banner missing or empty")
     require(isinstance(mmrl.get("metadata", {}).get("timestamp"), (float, int)),
             "MMRL metadata timestamp missing")
     require(mmrl.get("metadata", {}).get("version") == 1, "MMRL metadata version")
