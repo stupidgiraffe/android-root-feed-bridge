@@ -229,18 +229,32 @@ def collect_repositories(entries: list[dict]):
 def create_indexes(discovery: dict, state: dict, now: int):
     repos = collect_repositories(discovery["entries"])
     modules, ksu, seen_ids = [], [], set()
-    for key in sorted(repos):
+    # Prefer the newest inspected release when forks publish the same
+    # module.prop id. MMRL supports one ID per feed; alternative repositories
+    # remain individually discoverable in KernelSU Next.
+    for key in sorted(repos, key=lambda k: (-state.get(k, {}).get("timestamp", 0), k)):
         item, entry = repos[key], state.get(key, {})
         if not entry.get("valid"):
             continue
         prop = entry.get("prop") or {}
         identifier = prop.get("id")
-        if not identifier or identifier in seen_ids:
+        if not identifier:
             continue
-        seen_ids.add(identifier)
         code = int(prop["versionCode"])
         url = "https://github.com/" + item["repository"]
         description = (prop.get("description") or item["description"])[:500]
+        if not description:
+            description = "Root module; inspect upstream source for compatibility."
+        # KernelSU Next dedupes by name + repoUrl, not module.prop ID.
+        if entry.get("zip_count") == 1 and entry.get("valid_zip_count", 1) == 1:
+            ksu.append({
+                "name": prop["name"], "description": description[:350],
+                "author": prop.get("author") or item["repository"].split("/")[0],
+                "repoUrl": url, "visibility": 1,
+            })
+        if identifier in seen_ids:
+            continue
+        seen_ids.add(identifier)
         modules.append({
             "id": identifier, "name": prop["name"], "version": prop["version"],
             "versionCode": code,
@@ -254,14 +268,6 @@ def create_indexes(discovery: dict, state: dict, now: int):
                 "size": int(entry["size"]),
             }],
         })
-        # In KernelSU Next the app selects the first ZIP from /releases/latest,
-        # not the ZIP our generator selected. Exclude releases with >1 ZIP.
-        if entry.get("zip_count") == 1 and entry.get("valid_zip_count", 1) == 1:
-            ksu.append({
-                "name": prop["name"], "description": description[:350],
-                "author": prop.get("author") or item["repository"].split("/")[0],
-                "repoUrl": url, "visibility": 1,
-            })
     modules.sort(key=lambda m: (m["name"].casefold(), m["id"]))
     ksu.sort(key=lambda m: (m["name"].casefold(), m["repoUrl"]))
     return modules, ksu
