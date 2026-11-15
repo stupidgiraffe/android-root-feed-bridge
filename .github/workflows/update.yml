@@ -1,0 +1,33 @@
+name: Update Root Module Feeds
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 9 * * *' # daily; about 18:17 JST
+permissions:
+  contents: write
+concurrency:
+  group: root-feed-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Generate feeds
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update.py
+      - name: Validate feeds
+        run: python scripts/validate.py
+      - name: Publish validated data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add json/modules.json ksu/modules.json discovery.json state.json
+          git diff --cached --quiet || (git commit -m 'chore: refresh verified root module feeds' && git push)
