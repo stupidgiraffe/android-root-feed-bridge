@@ -34,6 +34,21 @@ def validate():
     federation_state = load("federation-state.json")
     provenance = load("federation-provenance.json")
     config_sources = load("sources/federation.json")
+    search_state = load("source-discovery-state.json")
+    require(search_state.get("version") == 1, "independent source-discovery state schema")
+    search_repos = search_state.get("repositories")
+    require(isinstance(search_repos, dict), "source-discovery repositories missing")
+    for key, entry in search_repos.items():
+        repo = entry.get("repository", "").casefold()
+        require(repo != "stupidgiraffe/android-root-feed-bridge",
+                "source-discovery must not recursively import RootAtlas")
+        require("template" not in repo.split("/")[-1],
+                "demo/template repositories must never enter source index")
+        if entry.get("status") == "found":
+            require(https_url(entry.get("url")),
+                    "discovered source must use HTTPS")
+            require(entry.get("kind") in ("mmrl", "ksunext"),
+                    "unrecognized discovered source type")
 
     require(mmrl.get("name") == config.get("name"), "MMRL config name mismatch")
     require(mmrl.get("cover") == COVER and config.get("cover") == COVER,
@@ -169,6 +184,9 @@ def validate():
     require(report.get("checked_repositories") <= report.get("github_repositories"),
             "catalog coverage mismatch")
     federation_report = report.get("federation", {})
+    discovered_count = sum(entry.get("status") == "found" for entry in search_repos.values())
+    require(federation_report.get("independent_discovery", {}).get("discovered_feeds")
+            == discovered_count, "discovered source count mismatch")
     require(federation_report.get("unified_mmrl_modules") == len(mmrl["modules"]),
             "federation MMRL count mismatch")
     require(federation_report.get("unified_ksu_modules") == len(ksu),
