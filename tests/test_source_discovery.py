@@ -15,7 +15,7 @@ class DiscoveryTests(unittest.TestCase):
 
     def test_never_index_ourselves_or_repository_templates(self):
         from scripts.source_discovery import eligible_repository
-        self.assertFalse(eligible_repository("stupidgiraffe/android-root-feed-bridge"))
+        self.assertFalse(eligible_repository("stupidgiraffe/rootatlas"))
         self.assertFalse(eligible_repository("MMRLApp/template-repository"))
         self.assertFalse(eligible_repository("somebody/mmrl-example"))
         self.assertTrue(eligible_repository("uonou/mmrl-repo"))
