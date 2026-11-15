@@ -309,7 +309,7 @@ def main():
         from federation import federate
     except ModuleNotFoundError:  # test/import path from the repository root
         from scripts.federation import federate
-    modules, ksu, federation_state, federation_audit, federation_report = federate(
+    modules, ksu, federation_state, federation_audit, federation_report, search_state = federate(
         ROOT, base_modules, base_ksu,
         lambda url: read_json(url, limit=16 * 1024 * 1024), now
     )
@@ -360,10 +360,10 @@ def main():
     cover = ("https://raw.githubusercontent.com/stupidgiraffe/"
              "android-root-feed-bridge/main/assets/root-feed-banner.jpg")
     mmrl = {
-        "name": "Root Feed Bridge — Unified Modules",
+        "name": "RootAtlas — Android Module Index",
         "website": "https://github.com/stupidgiraffe/android-root-feed-bridge",
         "cover": cover,
-        "description": "Federated MMRL and KernelSU Next module sources alongside Best Root Apps catalog.",
+        "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync.",
         "metadata": {"version": 1, "timestamp": float(now)},
         "modules": modules,
     }
@@ -378,6 +378,7 @@ def main():
     write_json(ROOT / "report.json", report)
     write_json(ROOT / "federation-state.json", federation_state)
     write_json(ROOT / "federation-provenance.json", federation_audit)
+    write_json(ROOT / "source-discovery-state.json", search_state)
     write_json(ROOT / "state.json", {"schema_version": 2, "generated": now, "repos": state})
     print("RESULT " + json.dumps(report, sort_keys=True))
 
