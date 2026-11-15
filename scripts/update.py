@@ -63,9 +63,9 @@ def request(url: str, *, limit: int = MAX_SOURCE_BYTES, timeout: int = 25) -> by
         return body
 
 
-def read_json(url: str, *, optional: bool = False):
+def read_json(url: str, *, optional: bool = False, limit: int = MAX_SOURCE_BYTES):
     try:
-        return json.loads(request(url).decode("utf-8"))
+        return json.loads(request(url, limit=limit).decode("utf-8"))
     except urllib.error.HTTPError as exc:
         if optional and exc.code in (404, 410, 422):
             return None
@@ -304,7 +304,15 @@ def main():
             for future in as_completed(futures):
                 state[futures[future]] = future.result()
 
-    modules, ksu = create_indexes(discovery, state, now)
+    base_modules, base_ksu = create_indexes(discovery, state, now)
+    try:
+        from federation import federate
+    except ModuleNotFoundError:  # test/import path from the repository root
+        from scripts.federation import federate
+    modules, ksu, federation_state, federation_audit, federation_report = federate(
+        ROOT, base_modules, base_ksu,
+        lambda url: read_json(url, limit=16 * 1024 * 1024), now
+    )
     previous_modules = json_file(ROOT / "json/modules.json", {"modules": []}).get("modules", [])
     if not modules:
         raise RuntimeError("Zero valid modules; refusing to publish empty feeds")
@@ -320,6 +328,10 @@ def main():
         "valid_module_repositories": valid,
         "mmrl_modules": len(modules),
         "kernelsu_next_modules": len(ksu),
+        "catalog_mmrl_modules": len(base_modules),
+        "catalog_kernelsu_next_modules": len(base_ksu),
+        "federated_mmrl_sources": federation_report["mmrl_upstream_sources"],
+        "federated_ksu_sources": federation_report["ksu_upstream_sources"],
     })
     report = {
         "updated": now, "source": SOURCE,
@@ -334,6 +346,9 @@ def main():
         "verified_module_repositories": valid,
         "mmrl_modules": len(modules),
         "kernelsu_next_modules": len(ksu),
+        "catalog_mmrl_modules": len(base_modules),
+        "catalog_ksu_modules": len(base_ksu),
+        "federation": federation_report,
         "exclusions_by_reason": {
             reason: sum(v.get("reason") == reason for v in state.values())
             for reason in sorted({v.get("reason") for v in state.values() if v.get("reason")})
@@ -345,10 +360,10 @@ def main():
     cover = ("https://raw.githubusercontent.com/stupidgiraffe/"
              "android-root-feed-bridge/main/assets/root-feed-banner.jpg")
     mmrl = {
-        "name": "Root Feed Bridge (Best Root Apps)",
+        "name": "Root Feed Bridge — Unified Modules",
         "website": "https://github.com/stupidgiraffe/android-root-feed-bridge",
         "cover": cover,
-        "description": "Original developers' GitHub release ZIPs with root-level module.prop inspected.",
+        "description": "Federated MMRL and KernelSU Next module sources alongside Best Root Apps catalog.",
         "metadata": {"version": 1, "timestamp": float(now)},
         "modules": modules,
     }
@@ -361,6 +376,8 @@ def main():
     write_json(ROOT / "ksu/modules.json", ksu)
     write_json(ROOT / "discovery.json", discovery)
     write_json(ROOT / "report.json", report)
+    write_json(ROOT / "federation-state.json", federation_state)
+    write_json(ROOT / "federation-provenance.json", federation_audit)
     write_json(ROOT / "state.json", {"schema_version": 2, "generated": now, "repos": state})
     print("RESULT " + json.dumps(report, sort_keys=True))
 
