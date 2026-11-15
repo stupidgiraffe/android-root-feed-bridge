@@ -39,7 +39,7 @@ BLOCKED_ASSETS = (
     "magisk-manager", "manager-only", "boot.img", "vendor_boot",
 )
 HEADERS = {
-    "User-Agent": "android-root-feed-bridge/2.0 (+https://github.com/stupidgiraffe/android-root-feed-bridge)",
+    "User-Agent": "android-root-feed-bridge/2.0 (+https://github.com/stupidgiraffe/rootatlas)",
     "Accept": "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
 }
@@ -361,7 +361,7 @@ def main():
              "android-root-feed-bridge/main/assets/root-feed-banner.jpg")
     mmrl = {
         "name": "RootAtlas — Android Module Index",
-        "website": "https://github.com/stupidgiraffe/android-root-feed-bridge",
+        "website": "https://github.com/stupidgiraffe/rootatlas",
         "cover": cover,
         "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync.",
         "metadata": {"version": 1, "timestamp": float(now)},
