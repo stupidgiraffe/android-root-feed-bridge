@@ -1,5 +1,6 @@
 {
   "name": "Root Feed Bridge (Best Root Apps)",
   "website": "https://github.com/stupidgiraffe/android-root-feed-bridge",
+  "cover": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/assets/root-feed-banner.jpg",
   "description": "Original developers' GitHub release ZIPs with root-level module.prop inspected."
 }

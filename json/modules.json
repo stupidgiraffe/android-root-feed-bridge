@@ -1,10 +1,11 @@
 {
   "name": "Root Feed Bridge (Best Root Apps)",
   "website": "https://github.com/stupidgiraffe/android-root-feed-bridge",
+  "cover": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/assets/root-feed-banner.jpg",
   "description": "Original developers' GitHub release ZIPs with root-level module.prop inspected.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794741340.0
+    "timestamp": 1794747047.0
   },
   "modules": [
     {
@@ -4035,25 +4036,25 @@
     {
       "id": "hypercool",
       "name": "HyperCool - Heat & Battery Fix",
-      "version": "v2.3.1",
-      "versionCode": 231,
+      "version": "v2.3.2",
+      "versionCode": 232,
       "author": "Yudharn",
       "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
       "homepage": "https://github.com/yudharn/hypercool",
-      "size": 333819,
+      "size": 334072,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794740166.0,
+        "added": 1794746772.0,
         "source": "https://github.com/yudharn/hypercool"
       },
       "versions": [
         {
-          "version": "v2.3.1",
-          "versionCode": 231,
-          "zipUrl": "https://github.com/yudharn/HyperCool/releases/download/v2.3.1/HyperCool_v2.3.1.zip",
-          "timestamp": 1794740166.0,
-          "size": 333819
+          "version": "v2.3.2",
+          "versionCode": 232,
+          "zipUrl": "https://github.com/yudharn/HyperCool/releases/download/v2.3.2/HyperCool_v2.3.2.zip",
+          "timestamp": 1794746772.0,
+          "size": 334072
         }
       ]
     },
@@ -9160,25 +9161,25 @@
     {
       "id": "wg-user",
       "name": "wg-user — Userspace WireGuard Proxy",
-      "version": "0.3.1",
-      "versionCode": 7,
+      "version": "0.3.2",
+      "versionCode": 8,
       "author": "wg-user contributors",
       "description": "Auto-starts a userspace WireGuard client and exposes it as a SOCKS5/HTTP proxy on 127.0.0.1. No TUN device. Multi-arch, multi-root (KSU/Magisk/APatch). Optional wstunnel obfuscation for mobile. WebUI included.",
       "homepage": "https://github.com/loficore/wg-user",
-      "size": 14972497,
+      "size": 14986441,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794740210.0,
+        "added": 1794742945.0,
         "source": "https://github.com/loficore/wg-user"
       },
       "versions": [
         {
-          "version": "0.3.1",
-          "versionCode": 7,
-          "zipUrl": "https://github.com/loficore/wg-user/releases/download/v0.3.1/wg-user-0.3.1.zip",
-          "timestamp": 1794740210.0,
-          "size": 14972497
+          "version": "0.3.2",
+          "versionCode": 8,
+          "zipUrl": "https://github.com/loficore/wg-user/releases/download/v0.3.2/wg-user-0.3.2.zip",
+          "timestamp": 1794742945.0,
+          "size": 14986441
         }
       ]
     },
