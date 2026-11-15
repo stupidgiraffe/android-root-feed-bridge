@@ -25,13 +25,23 @@ QUERY_PER_PAGE = 45
 MAX_INDEX = 4 * 1024 * 1024
 REPOSITORY = re.compile(r"^[A-Za-z0-9-]+/[A-Za-z0-9_.-]+$")
 VERSION = 1
+SELF_REPO = "stupidgiraffe/android-root-feed-bridge"
+SKIP_NAME_TOKENS = ("template", "example", "demo", "installer_api_test", "gh-repo-clone")
+
+
+
+def eligible_repository(full: str) -> bool:
+    if not REPOSITORY.fullmatch(full) or full.casefold() == SELF_REPO:
+        return False
+    name = full.split("/")[-1].lower()
+    return not any(token in name for token in SKIP_NAME_TOKENS)
 
 
 def candidate_urls(repo: dict) -> list[tuple[str, str]]:
     """Prefer raw GitHub URLs: they work even when Pages is disabled."""
     full = repo.get("full_name") or ""
     branch = repo.get("default_branch") or "main"
-    if not REPOSITORY.fullmatch(full) or not re.fullmatch(r"[A-Za-z0-9_.\-/]+", branch):
+    if not eligible_repository(full) or not re.fullmatch(r"[A-Za-z0-9_.\-/]+", branch):
         return []
     owner, name = full.split("/")
     raw = f"https://raw.githubusercontent.com/{owner}/{name}/{branch}/"
@@ -97,7 +107,7 @@ def search_github(get_json, now: int):
                     raise ValueError("Unexpected GitHub search result")
                 for item in response["items"]:
                     full = item.get("full_name") or ""
-                    if (not REPOSITORY.fullmatch(full) or item.get("archived") or
+                    if (not eligible_repository(full) or item.get("archived") or
                             item.get("fork") or not item.get("default_branch") or
                             item.get("size", 0) == 0):
                         continue
@@ -119,7 +129,7 @@ def discover(previous: dict, get_json, now: int):
         if not isinstance(saved, dict):
             continue
         repo = saved.get("repository")
-        if isinstance(repo, str) and REPOSITORY.fullmatch(repo):
+        if isinstance(repo, str) and eligible_repository(repo):
             known[key] = saved.copy()
     todo = []
     for key, item in found.items():
