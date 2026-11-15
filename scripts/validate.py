@@ -71,7 +71,10 @@ def validate():
                 "malformed KernelSU Next item")
         require(entry.get("visibility") == 1, "KSU visibility")
         source = entry["repoUrl"]
-        require(source in sources, f"KSU source not validated by MMRL feed: {source}")
+        repo_key = source.removeprefix("https://github.com/").casefold()
+        state_entry = state.get("repos", {}).get(repo_key, {})
+        require(state_entry.get("valid") is True and state_entry.get("zip_count") == 1,
+                f"KSU source is not a validated single-ZIP release: {source}")
         require(source not in ksu_repos, f"duplicate KSU repository: {source}")
         ksu_repos.add(source)
 
