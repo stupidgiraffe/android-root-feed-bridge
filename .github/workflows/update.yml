@@ -17,7 +17,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,9 +31,13 @@ jobs:
         run: python scripts/update.py
       - name: Validate feeds
         run: python scripts/validate.py
+      - name: Report coverage
+        run: |
+          echo '## Android Root Feed Bridge' >> "$GITHUB_STEP_SUMMARY"
+          python -c 'import json; r=json.load(open("report.json")); [print("- " + k.replace("_", " ") + ": " + str(v)) for k,v in r.items() if isinstance(v,int)]' | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Publish validated data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add json/modules.json ksu/modules.json discovery.json state.json
+          git add json/modules.json json/config.json ksu/modules.json discovery.json report.json state.json
           git diff --cached --quiet || (git commit -m 'chore: refresh verified root module feeds' && git push)
