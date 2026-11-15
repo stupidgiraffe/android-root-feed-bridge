@@ -9,7 +9,7 @@
 <p>Find more Android modules without adding dozens of repos. RootAtlas combines MMRL feeds, KernelSU Next manifests, independently discovered GitHub repositories, and the complete <strong><a href="https://krishna3163.github.io/best-root-apps-for-android/">Best Root Apps for Android</a></strong> discovery catalog, with automatic daily updates.</p>
 
 <p>
-  <a href="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml"><img alt="Daily feed build" src="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml/badge.svg" /></a>
+  <a href="https://github.com/stupidgiraffe/rootatlas/actions/workflows/update.yml"><img alt="Daily feed build" src="https://github.com/stupidgiraffe/rootatlas/actions/workflows/update.yml/badge.svg" /></a>
   <img alt="Free and open catalog" src="https://img.shields.io/badge/Free-to%20use-00bfa5?style=flat-square" />
   <img alt="Automatic daily refresh" src="https://img.shields.io/badge/Auto--sync-daily-64748b?style=flat-square" />
   <a href="https://buymeacoffee.com/stupidgiraffe"><img alt="Support development on Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=000000&style=flat-square" /></a>
@@ -29,12 +29,15 @@
 
 ---
 
+> [!IMPORTANT]
+> **Repository renamed to RootAtlas.** Old raw-file subscriptions may not redirect after the rename. Replace them with the new URLs below.
+
 ## 📦 Add to MMRL
 
 In **MMRL → Repos → +**, paste this **base URL** (including the trailing slash):
 
 ```text
-https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/
+https://raw.githubusercontent.com/stupidgiraffe/rootatlas/main/
 ```
 
 MMRL reads our [unified module index](json/modules.json) and displays both inspected Best Root Apps releases and modules from other curated MMRL repositories. The banner above also appears in MMRL's repository card.
@@ -44,7 +47,7 @@ MMRL reads our [unified module index](json/modules.json) and displays both inspe
 In **KernelSU Next → Module Repository → Manage Repositories → Add**, paste this **JSON file URL**:
 
 ```text
-https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/ksu/modules.json
+https://raw.githubusercontent.com/stupidgiraffe/rootatlas/main/ksu/modules.json
 ```
 
 KernelSU Next uses a different format. This feed merges our inspected single-ZIP sources with the official KernelSU Next open-source and metamodule manifests. The manager fetches each upstream repository's release when you select a module.
@@ -111,7 +114,7 @@ The MMRL app and KernelSU Next require **different JSON schemas**. The two impor
 
 The repository is intentionally small and serverless.
 
-- [Current automation status](https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml)
+- [Current automation status](https://github.com/stupidgiraffe/rootatlas/actions/workflows/update.yml)
 - [Coverage and exclusion reasons](report.json)
 - [Architecture, data boundaries and update policy](docs/ARCHITECTURE.md)
 - [MMRL JSON output](json/modules.json) · [KernelSU Next JSON output](ksu/modules.json)
