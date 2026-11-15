@@ -1,5 +1,5 @@
 {
-  "generated": 1794731813,
+  "generated": 1794734559,
   "repos": {
     "badaccuracyid/a2dpforce": {
       "checked": 1794731821,
@@ -13,7 +13,11 @@
       "release_id": 430984684,
       "valid": false
     },
-    "easyllls/applist": {},
+    "easyllls/applist": {
+      "checked": 1794734568,
+      "release_id": null,
+      "valid": false
+    },
     "1zumiii/appopsnext": {
       "checked": 1794731814,
       "release_id": 445152375,
@@ -63,14 +67,38 @@
     "zilewang7/hyperos4smallwindowinputfilter": {},
     "nikakvo/ipset-arm64": {},
     "marshalrotation/kernelsu-android-system-manager": {},
-    "dedeadend/killmyapps": {},
+    "dedeadend/killmyapps": {
+      "checked": 1794734565,
+      "release_id": 389358404,
+      "valid": false
+    },
     "kogeler/lsposed-ghost": {},
     "zazaulola/lsposed-ringconn-notification-vibrator": {},
-    "equapcheats/mi-tools-lite": {},
+    "equapcheats/mi-tools-lite": {
+      "checked": 1794734569,
+      "release_id": null,
+      "valid": false
+    },
     "mmrlapp/mmrl": {},
     "uonou/mmrl-repo": {},
     "shengqiangdd/moduforge": {},
-    "chandr1000/nm-compat-scanner": {},
+    "chandr1000/nm-compat-scanner": {
+      "checked": 1794734561,
+      "release_id": 374143799,
+      "valid": true,
+      "prop": {
+        "id": "nm_scanner",
+        "name": "NM/ZM Conflict Scanner",
+        "version": "v1.0",
+        "versionCode": "1",
+        "author": "chandr1000",
+        "description": "Scan-only tool. Detects shell commands in installed modules that may conflict with NoMount/ZeroMount. Runs during install, prints results, then aborts (no module is left behind)."
+      },
+      "zip": "https://github.com/chandr1000/nm-compat-scanner/releases/download/v1.1/nm-scanner-module-v1.1.zip",
+      "zip_count": 1,
+      "timestamp": 1787280942,
+      "size": 8980
+    },
     "nullcpy/nullcpy.github.io": {},
     "bouteillepleine/oneplus_dialer_universal": {
       "checked": 1794731823,
@@ -88,7 +116,11 @@
     "samson910022/pixelify-google-photos-modern": {},
     "priv-kit/priv-kit": {},
     "poppabuzz/privatednstoggle": {},
-    "elhizazi1/shizucorefetch": {},
+    "elhizazi1/shizucorefetch": {
+      "checked": 1794734568,
+      "release_id": 382323592,
+      "valid": false
+    },
     "rd227/shizuku-ftp": {},
     "0xdad0/ssl-kill-switch-lsposed": {
       "checked": 1794731814,
@@ -97,7 +129,11 @@
     },
     "ssmg4/ssr": {},
     "itsmelissadev/swiftsense": {},
-    "djunekz/termux-app-store": {},
+    "djunekz/termux-app-store": {
+      "checked": 1794734566,
+      "release_id": 442016170,
+      "valid": false
+    },
     "nikescar/uad-shizuku": {},
     "khancorporation/vinstall": {},
     "ayane-04/wathemer": {
@@ -132,7 +168,23 @@
       "valid": false
     },
     "yusufwn/deep-sleep-apps-android": {},
-    "danish3311/disable-fuse-bpf": {},
+    "danish3311/disable-fuse-bpf": {
+      "checked": 1794734565,
+      "release_id": 375057355,
+      "valid": true,
+      "prop": {
+        "id": "disable-fuse-bpf",
+        "name": "Disable FUSE-BPF",
+        "version": "1.0.0",
+        "versionCode": "100",
+        "author": "Danish Ali",
+        "description": "Disables FUSE-BPF to restore Android/data access on affected ROMs and kernels."
+      },
+      "zip": "https://github.com/danish3311/disable-fuse-bpf/releases/download/v1.0.0/Disable-FUSE-BPF-v1.0.0.zip",
+      "zip_count": 1,
+      "timestamp": 1787438350,
+      "size": 2146
+    },
     "naufalist/lsposed-module-android-vpn-detection-bypass": {},
     "nikhilkain/modex": {},
     "staneswilson/revanced-photos": {},
@@ -172,7 +224,23 @@
     "xdreizein666/smalipatcherex-cli": {},
     "yuhold/storage-spoof": {},
     "lshfgj/telecast": {},
-    "darkaxt/thorautotimezone": {},
+    "darkaxt/thorautotimezone": {
+      "checked": 1794734566,
+      "release_id": 375322440,
+      "valid": true,
+      "prop": {
+        "id": "thor_auto_timezone",
+        "name": "Thor Automatic Time Zone",
+        "version": "1.0.0",
+        "versionCode": "10000",
+        "author": "Darkaxt",
+        "description": "Native offline location time zone provider for the Android 13 AYN Thor"
+      },
+      "zip": "https://github.com/Darkaxt/ThorAutoTimeZone/releases/download/v1.0.0/Thor-Automatic-Time-Zone-v1.0.0.zip",
+      "zip_count": 1,
+      "timestamp": 1787518210,
+      "size": 27376644
+    },
     "sevcator/zapret-pocket": {},
     "takeruf/android-perapp-language-selector": {},
     "paasann210/aoa-touch": {},
@@ -248,7 +316,11 @@
       "release_id": 377596520,
       "valid": false
     },
-    "darkpandawarrior/kmp-app-template": {},
+    "darkpandawarrior/kmp-app-template": {
+      "checked": 1794734565,
+      "release_id": 359368276,
+      "valid": false
+    },
     "akuatech/ksupatcher": {
       "checked": 1794731818,
       "release_id": 412197537,
@@ -258,7 +330,11 @@
     "vladimiracunadev-create/rootcause-mobile-inspector": {},
     "ritel-t/samsungregionoverride": {},
     "sora520/xiaomi-clock-witness": {},
-    "exalab/anlinux-app": {},
+    "exalab/anlinux-app": {
+      "checked": 1794734569,
+      "release_id": 435746533,
+      "valid": false
+    },
     "vibetgram/app": {},
     "lili679280/asterisk-ike-bypass": {},
     "imnoammm/claude-code-magisk": {},
@@ -270,28 +346,88 @@
     },
     "xposed-modules-repo/com.fuck.iab": {},
     "samirsawarkar/handover": {},
-    "ce11kjw/junkclean-app": {},
-    "fedefluork/multistore": {},
+    "ce11kjw/junkclean-app": {
+      "checked": 1794734561,
+      "release_id": 379833971,
+      "valid": false
+    },
+    "fedefluork/multistore": {
+      "checked": 1794734570,
+      "release_id": 395499402,
+      "valid": false
+    },
     "aiy365/oneplus-coloros-debloat": {
       "checked": 1794731817,
       "release_id": 378333209,
       "valid": false
     },
-    "christuo-dev/oneplus15-beidou-gnss-guard": {},
-    "communism420/openadb": {},
+    "christuo-dev/oneplus15-beidou-gnss-guard": {
+      "checked": 1794734563,
+      "release_id": 378175886,
+      "valid": true,
+      "prop": {
+        "id": "oneplus15_bds_guard",
+        "name": "OnePlus 15 BeiDou GNSS Guard",
+        "version": "0.4.1",
+        "versionCode": "8",
+        "author": "christuo-dev",
+        "description": "Repairs both Qualcomm GNSS EFS masks to 0x5905 and reloads GNSS after SIM/eSIM changes. CPH2749/24863 only."
+      },
+      "zip": "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard/releases/download/v0.4.1/oneplus15_bds_guard-v0.4.1.zip",
+      "zip_count": 1,
+      "timestamp": 1787872775,
+      "size": 28067
+    },
+    "communism420/openadb": {
+      "checked": 1794734563,
+      "release_id": 378187987,
+      "valid": false
+    },
     "jehan593/ownscreen": {},
-    "delusions6515/sub-store-module": {},
+    "delusions6515/sub-store-module": {
+      "checked": 1794734566,
+      "release_id": 420712703,
+      "valid": false
+    },
     "philiphall6/tcl-power-menu-r51mt05": {},
     "hyperramzey/wcg_f946b": {},
     "kogeler/zygveil": {},
-    "flexingg/blue-brick": {},
+    "flexingg/blue-brick": {
+      "checked": 1794734571,
+      "release_id": null,
+      "valid": false
+    },
     "zyy0106/calculator": {},
     "gjr787878/deviceresetspoofer": {},
-    "chorusfruit-233/gki-wifi-ksu": {},
+    "chorusfruit-233/gki-wifi-ksu": {
+      "checked": 1794734562,
+      "release_id": null,
+      "valid": false
+    },
     "jaypsmall/hexrootscan": {},
-    "enddream-zm/lowlife": {},
+    "enddream-zm/lowlife": {
+      "checked": 1794734569,
+      "release_id": 430087598,
+      "valid": true,
+      "prop": {
+        "id": "Lowlife",
+        "name": "躺平青年",
+        "version": "v3.0",
+        "versionCode": "300",
+        "author": "ENDDREAM",
+        "description": "• 【v3.0】模块已打包为独立 APK，桌面图标直接启动\\n• 修复 LSPosed 无法正常工作\\n• 提供 KernelSU 模块的重载服务\\n• 提供 越狱模式 环境下的基础环境隐藏"
+      },
+      "zip": "https://github.com/ENDDREAM-ZM/Lowlife/releases/download/v3.0/Lowlife-v3.0.zip",
+      "zip_count": 1,
+      "timestamp": 1793468543,
+      "size": 3033103
+    },
     "zhu-junwei/magisk-openlist": {},
-    "estifanos58/multi-space-launcher": {},
+    "estifanos58/multi-space-launcher": {
+      "checked": 1794734569,
+      "release_id": null,
+      "valid": false
+    },
     "guy48942-creator/netguard-python-root": {},
     "yu1101610062/opd2515-anti-root-dialog-blocker": {},
     "odorizzioficial/otimizadordroid": {},
@@ -301,7 +437,11 @@
     "ritikthakur22/battery-info_app": {},
     "sysadmindoc/fileexplorer": {},
     "kernelsu-next/kpatch-next": {},
-    "faaramadhan2/magisk-node.js": {},
+    "faaramadhan2/magisk-node.js": {
+      "checked": 1794734570,
+      "release_id": null,
+      "valid": false
+    },
     "yzy806806/meshdesk-android": {},
     "h3nnes/mtbtool-android-app": {},
     "ucnacdx2/netcertfix": {},
@@ -355,7 +495,11 @@
     },
     "yyds314/screenshotcenter": {},
     "wangtong10086/xiaomi13-lsposed-compat": {},
-    "dursunyartasi/app-store-review-playbook": {},
+    "dursunyartasi/app-store-review-playbook": {
+      "checked": 1794734568,
+      "release_id": null,
+      "valid": false
+    },
     "blauewelt/blauewelt.github.io": {
       "checked": 1794731823,
       "release_id": null,
@@ -384,8 +528,28 @@
       "timestamp": 1794715799,
       "size": 4119439
     },
-    "drizzy07x/supercharger_pixel_9_series": {},
-    "dupdatesystem/upgradeall": {},
+    "drizzy07x/supercharger_pixel_9_series": {
+      "checked": 1794734567,
+      "release_id": 362754227,
+      "valid": true,
+      "prop": {
+        "id": "p9pxl_supercharger",
+        "name": "Pixel 9 Series Supercharger",
+        "version": "v2.6.7",
+        "versionCode": "26007",
+        "author": "Drizzy_07",
+        "description": "Status: v2.6.7 | Integrated Thermal | Thermal off by default"
+      },
+      "zip": "https://github.com/Drizzy07x/Supercharger_Pixel_9_Series/releases/download/v2.6.7/Pixel-9-Series-Supercharger-v2.6.7.zip",
+      "zip_count": 1,
+      "timestamp": 1785450192,
+      "size": 68740
+    },
+    "dupdatesystem/upgradeall": {
+      "checked": 1794734568,
+      "release_id": 100583597,
+      "valid": false
+    },
     "agusromerol/video-boost-ao": {
       "checked": 1794731817,
       "release_id": 380282405,
@@ -396,7 +560,11 @@
     "rexiop/appopsstudio": {},
     "nalbe/blackview-shark8-logspam-cosmetics": {},
     "nalbe/blackview-shark8-vulkan-hwui-patch": {},
-    "eidd1435/eidroot": {},
+    "eidd1435/eidroot": {
+      "checked": 1794734568,
+      "release_id": null,
+      "valid": false
+    },
     "yaswanthme007/field-triage": {},
     "justin-reid/floating-dpad": {},
     "moloo4ni/fod-fix-obsidian": {},
@@ -434,7 +602,11 @@
       "valid": false
     },
     "moloo4ni/statusbar-fix-obsidian": {},
-    "depaolaluigi123/stereoanalogrecorder": {},
+    "depaolaluigi123/stereoanalogrecorder": {
+      "checked": 1794734566,
+      "release_id": 382429476,
+      "valid": false
+    },
     "yume-chan/volumemanager": {},
     "akash-sriram/brave-nightly-patches": {
       "checked": 1794731817,
@@ -443,7 +615,11 @@
     },
     "hirakm/coredevicetrust": {},
     "nanbengxian-cyber/dafeiyu-qq-bot": {},
-    "fahadbinhussain/glitchdraft": {},
+    "fahadbinhussain/glitchdraft": {
+      "checked": 1794734570,
+      "release_id": 439223624,
+      "valid": false
+    },
     "mdliad-se/hiberna": {},
     "moranyue/nodhcphostname": {},
     "iviesever/rooted-android-game-vm": {},
@@ -454,7 +630,23 @@
     },
     "mosesozana14-gif/shizuku-bridge-apk": {},
     "mosesozana14-gif/shizuku-shell-apk": {},
-    "disc0nnctd/tvremoteweb": {},
+    "disc0nnctd/tvremoteweb": {
+      "checked": 1794734567,
+      "release_id": 409697265,
+      "valid": true,
+      "prop": {
+        "id": "tvremoteweb",
+        "name": "TVRemoteWeb",
+        "version": "1.2.0",
+        "versionCode": "120",
+        "author": "disc0nnctd",
+        "description": "Phone remote, mouse drag, picture profiles, monitoring, and photo-assisted projector alignment."
+      },
+      "zip": "https://github.com/disc0nnctd/TVRemoteWeb/releases/download/v1.2.0/tvremoteweb-v1.2.0.zip",
+      "zip_count": 1,
+      "timestamp": 1791726663,
+      "size": 1147937
+    },
     "kepatotorica/unscopemydata": {},
     "nauraafii/ytrvx-module": {},
     "hrishi2861/alioth-loud": {},
@@ -489,7 +681,11 @@
       "release_id": 434967312,
       "valid": false
     },
-    "coco0081/gamaspace": {},
+    "coco0081/gamaspace": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "wxz2672554287/lenovo-tab-ultrahdr-fix": {},
     "techjarves/mobile-harness": {},
     "koaan/oplus-region-unlock": {},
@@ -519,7 +715,11 @@
     "mrxsin/gmailhideads": {},
     "onepause/hnetwork": {},
     "sysadmindoc/localandroidstore": {},
-    "faaramadhann/magisk-python": {},
+    "faaramadhann/magisk-python": {
+      "checked": 1794734570,
+      "release_id": null,
+      "valid": false
+    },
     "mistu01/mffmv14": {},
     "xm1437/shizako": {},
     "mrxsin/threadshideads": {},
@@ -542,15 +742,27 @@
       "size": 870940
     },
     "foxlost/universal-miracast-sink": {},
-    "cmyfqwq/webauthn-for-webview-shells": {},
+    "cmyfqwq/webauthn-for-webview-shells": {
+      "checked": 1794734563,
+      "release_id": 383570465,
+      "valid": false
+    },
     "jevcje0-gif/arabic-and-english-ios-fonts-magisk-module": {},
-    "davi0777s/axis-android-research": {},
+    "davi0777s/axis-android-research": {
+      "checked": 1794734565,
+      "release_id": 383838290,
+      "valid": false
+    },
     "hxreborn/gh-fast-pass": {},
     "rushgovernor/kernelsu-android-root-suite": {},
     "hxreborn/pixelinjector": {},
     "qq2893989063/radio-info-app": {},
     "hxreborn/revanced-magisk-module": {},
-    "eva-hollow001/salt-music-ttml-lsp": {},
+    "eva-hollow001/salt-music-ttml-lsp": {
+      "checked": 1794734569,
+      "release_id": 383952700,
+      "valid": false
+    },
     "ruyisio/vpn-share-proxy": {},
     "bileizhen/xblocker": {
       "checked": 1794731822,
@@ -565,18 +777,34 @@
     "iodn/android-kernel-tweaker": {},
     "marufmoinuddin/aod-timeout-module": {},
     "kurumilog/deyandex": {},
-    "ceigt/geolocation": {},
+    "ceigt/geolocation": {
+      "checked": 1794734561,
+      "release_id": 426363685,
+      "valid": false
+    },
     "hidemyemulator/hidemyemulator": {},
-    "coldp/hyperchanger": {},
+    "coldp/hyperchanger": {
+      "checked": 1794734563,
+      "release_id": 436788127,
+      "valid": false
+    },
     "ruix156/io.github.ruix156.bilivestealth": {},
-    "cyaseriv1-cloud/profesorbode-mobile": {},
+    "cyaseriv1-cloud/profesorbode-mobile": {
+      "checked": 1794734564,
+      "release_id": null,
+      "valid": false
+    },
     "greencus/samsunga32-wireless-adapter-shim": {},
     "moodyawhvh/scrcpy-chinese": {},
     "shaunkleyn/service-keeper": {},
     "nalbe/shark8-gsi-logspam-cosmetics": {},
     "kveld9/thatkernel": {},
     "jairaj08/android-bootanimation-module": {},
-    "droidutility/droidutility": {},
+    "droidutility/droidutility": {
+      "checked": 1794734567,
+      "release_id": null,
+      "valid": false
+    },
     "wsk-build/dshbox": {},
     "rehmanalidevpro/flutter_root_jailbreak_checker": {},
     "yamenfhamsy-member/netwall": {},
@@ -588,8 +816,28 @@
     "winkmoon/qq-ai-reply-assistant": {},
     "onnxscibroccoli/shizuku-silent-mic": {},
     "sukura-v/virtual-location": {},
-    "davnozdu/vr-usb-monitor": {},
-    "cherwing/xiaomi_usb_security_bypass": {},
+    "davnozdu/vr-usb-monitor": {
+      "checked": 1794734565,
+      "release_id": 386123331,
+      "valid": false
+    },
+    "cherwing/xiaomi_usb_security_bypass": {
+      "checked": 1794734562,
+      "release_id": 384895539,
+      "valid": true,
+      "prop": {
+        "id": "xiaomi_usb_sec_bypass",
+        "name": "Xiaomi USB Security Bypass",
+        "version": "v1.0",
+        "versionCode": "1",
+        "author": "CHERWIN",
+        "description": "Enable \"USB debugging (Security settings)\" / \"USB install\" / fastboot on rooted MIUI without Mi account & SIM. Sets persist.security.adbinstall, persist.security.adbinput, persist.fastboot.enable to 1 on every boot so scrcpy/Total Control etc. can inject input."
+      },
+      "zip": "https://github.com/CHERWING/xiaomi_usb_security_bypass/releases/download/v1.0/xiaomi_usb_security_bypass_v1.0.zip",
+      "zip_count": 1,
+      "timestamp": 1788884952,
+      "size": 10156
+    },
     "xusoku/android-frida-network-hook": {},
     "vriz47/dnsperapp": {},
     "gehbfarr5/doubao-letter-longpress-voice": {},
@@ -612,10 +860,22 @@
     "knockoutbury-1938/mobogenie-full-version": {},
     "thunderkex/revancex": {},
     "yizhiyonggangdexiaojia/xjvpn": {},
-    "cnwhcmc/appusagewatch-v1.4.1-v1.0.0": {},
-    "danielmoon82/danielmoon82.github.io": {},
+    "cnwhcmc/appusagewatch-v1.4.1-v1.0.0": {
+      "checked": 1794734563,
+      "release_id": 403372817,
+      "valid": false
+    },
+    "danielmoon82/danielmoon82.github.io": {
+      "checked": 1794734565,
+      "release_id": null,
+      "valid": false
+    },
     "gegedevs/dnsresolve-termux": {},
-    "faaramadhann/faacc": {},
+    "faaramadhann/faacc": {
+      "checked": 1794734570,
+      "release_id": null,
+      "valid": false
+    },
     "1ndevelopment/ghostlock-s26": {
       "checked": 1794731814,
       "release_id": 387476901,
@@ -626,12 +886,48 @@
     "nurullo1411/nurullo1411.github.io": {},
     "tezrane555-cyber/omega-terminal": {},
     "popslublukust961/root-genius-full-version": {},
-    "charlesgool/smb_smart_sync": {},
+    "charlesgool/smb_smart_sync": {
+      "checked": 1794734562,
+      "release_id": 387047139,
+      "valid": true,
+      "prop": {
+        "id": "SMB_Smart_Sync",
+        "name": "SMB智能同步",
+        "version": "v1.3.0",
+        "versionCode": "20260911",
+        "author": "Charles_Gool",
+        "description": "智能同步 SMB 照相馆内容。功能：自动限频降速、唤醒 Google Photos 同步、检测 UI 进度并自动锁屏。支持全局 config 配置。"
+      },
+      "zip": "https://github.com/CharlesGool/SMB_Smart_Sync/releases/download/v1.3.0/SMB_Smart_Sync_release_v1.3.0.zip",
+      "zip_count": 1,
+      "timestamp": 1789132211,
+      "size": 23497230
+    },
     "mystichero1/systemdebloater": {},
     "oleksii-klots/tv-app-lock": {},
-    "cyanoge1-netizen/viper4android-jamesdsp-hybrid": {},
+    "cyanoge1-netizen/viper4android-jamesdsp-hybrid": {
+      "checked": 1794734564,
+      "release_id": 387425816,
+      "valid": false
+    },
     "frostre1997/zproot": {},
-    "dr-tsng/altdb": {},
+    "dr-tsng/altdb": {
+      "checked": 1794734567,
+      "release_id": 416260918,
+      "valid": true,
+      "prop": {
+        "id": "altdb",
+        "name": "altdb",
+        "version": "v0.3.0",
+        "versionCode": "28",
+        "author": "Nullptr",
+        "description": "Alternative adb server over local network"
+      },
+      "zip": "https://github.com/Dr-TSNG/altdb/releases/download/0.3.0/altdb-v0.3.0-arm64.zip",
+      "zip_count": 1,
+      "timestamp": 1792302382,
+      "size": 1407652
+    },
     "benimaru-x1k/benimaru": {
       "checked": 1794731822,
       "release_id": 445281572,
@@ -644,8 +940,16 @@
     },
     "jun430/g750-boost": {},
     "nemarpuc/libaoa_hid": {},
-    "chimpanzicloud/magisk-microg": {},
-    "decarlofreelance/nethunter-kernel-wahoo": {},
+    "chimpanzicloud/magisk-microg": {
+      "checked": 1794734562,
+      "release_id": 389925726,
+      "valid": false
+    },
+    "decarlofreelance/nethunter-kernel-wahoo": {
+      "checked": 1794734565,
+      "release_id": null,
+      "valid": false
+    },
     "oonid/pr": {},
     "k3noxofficial/shizuku-fdroid-repo": {},
     "mrxsin/syncthing-liveupdate": {},
@@ -655,7 +959,11 @@
       "valid": false
     },
     "lxrdspro/app-disabler": {},
-    "congsmile/appguard-ai": {},
+    "congsmile/appguard-ai": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "yuyaniel/audio-route-lock": {},
     "baidaofu/deepseek-grayunlock": {
       "checked": 1794731821,
@@ -667,14 +975,38 @@
       "release_id": 405339146,
       "valid": false
     },
-    "dat-hoangnguyentuandat/hermesandroid": {},
+    "dat-hoangnguyentuandat/hermesandroid": {
+      "checked": 1794734565,
+      "release_id": 432462549,
+      "valid": true,
+      "prop": {
+        "id": "hermesandroid",
+        "name": "HermesAndroid",
+        "version": "1.0.1",
+        "versionCode": "101",
+        "author": "TDat",
+        "description": "Install Hermes Agent on Android Root via Magisk/KernelSU."
+      },
+      "zip": "https://github.com/dat-hoangnguyentuandat/HermesAndroid/releases/download/v1.0.1/HermesAndroid-v1.0.1.zip",
+      "zip_count": 1,
+      "timestamp": 1793696245,
+      "size": 2495463
+    },
     "neflalabs/hidethatpeoples": {},
     "ian1254/lcpatch": {},
     "xposed-modules-repo/net.wowsoftware.hidemyemulator": {},
     "kennethbicocchi/oculus-go-revival": {},
     "zorrobyte/razr-fold-2026-display": {},
-    "czeyu31/recentshider": {},
-    "echu2237/sidebar-hyperos": {},
+    "czeyu31/recentshider": {
+      "checked": 1794734564,
+      "release_id": 445206255,
+      "valid": false
+    },
+    "echu2237/sidebar-hyperos": {
+      "checked": 1794734568,
+      "release_id": 387984823,
+      "valid": false
+    },
     "yotsuki-taylor/yotsuki-taylor.github.io": {},
     "thelok1s/florida-zygisk": {},
     "cameleonnbss/galaxyhz": {
@@ -712,7 +1044,11 @@
       "valid": false
     },
     "vaddempudignanesh/aura-ctrl-lsposed": {},
-    "faaramadhann/faa-app-freeze": {},
+    "faaramadhann/faa-app-freeze": {
+      "checked": 1794734570,
+      "release_id": null,
+      "valid": false
+    },
     "bs1388/ghostshare": {
       "checked": 1794731823,
       "release_id": 421425610,
@@ -721,14 +1057,38 @@
     "honkonx/kairos-lab": {},
     "maksim-venus/magisk-sms-forward": {},
     "hhhbwc/pico4-fw-anchor": {},
-    "cxorz/simpledisablesecureflag": {},
+    "cxorz/simpledisablesecureflag": {
+      "checked": 1794734564,
+      "release_id": 389196016,
+      "valid": false
+    },
     "lonevertex/smscfixer": {},
     "gaoyan1232023/wireless-adb_magisk-model": {},
     "jaydenchan1027/applingo": {},
     "freeteaspoon/biometrichaptic": {},
-    "dodoaaaa/darq": {},
+    "dodoaaaa/darq": {
+      "checked": 1794734567,
+      "release_id": null,
+      "valid": false
+    },
     "m4mental/gboard-rgb-studio": {},
-    "ethanm6/google-sans-flex-magisk": {},
+    "ethanm6/google-sans-flex-magisk": {
+      "checked": 1794734569,
+      "release_id": 421281673,
+      "valid": true,
+      "prop": {
+        "id": "UnFont",
+        "name": "Font Google Sans Flex",
+        "version": "v1.4.1-auto",
+        "versionCode": "141",
+        "author": "ethanm6, forked from AndroSYNC",
+        "description": "Systemlessly replaces Android system fonts with Google Sans Flex (official v4.005, internally renamed Roboto for correct Gecko/Firefox rendering) + Google Sans fallback for Cyrillic/Greek + stock Roboto safety net for everything else. Auto-installs full Roboto set + compatibility goodies, no prompts."
+      },
+      "zip": "https://github.com/ethanm6/google-sans-flex-magisk/releases/download/v1.4.1-auto/Google_Sans_Flex_v1.4.1-auto.zip",
+      "zip_count": 1,
+      "timestamp": 1792709835,
+      "size": 3436042
+    },
     "juren233/hyperlyrics-enhanced": {},
     "cameleonnbss/originos-toolkit": {
       "checked": 1794731824,
@@ -736,13 +1096,29 @@
       "valid": false
     },
     "xykalnotkel/overlayops": {},
-    "dottoxd/qcom-diag-lisa": {},
+    "dottoxd/qcom-diag-lisa": {
+      "checked": 1794734567,
+      "release_id": 390608691,
+      "valid": false
+    },
     "vwv2005/recents-keeper": {},
     "unofficialvim/redmagicfancontrol": {},
-    "cozyre/root_proj": {},
-    "deserthouse/sdk-pruner": {},
+    "cozyre/root_proj": {
+      "checked": 1794734564,
+      "release_id": null,
+      "valid": false
+    },
+    "deserthouse/sdk-pruner": {
+      "checked": 1794734566,
+      "release_id": 444681165,
+      "valid": false
+    },
     "noblekr/zeekr-adapt": {},
-    "ciphvanta/android-phone-optimize": {},
+    "ciphvanta/android-phone-optimize": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "makuro-arisaka/android17-lhdc-a2dp-universal": {},
     "brons0n/ebay-ocr": {
       "checked": 1794731823,
@@ -753,7 +1129,11 @@
     "predefine0960/genshinplus": {},
     "wlworks/jogapp": {},
     "melleeyyy/melleeyyy.github.io": {},
-    "deserthouse/prunoid": {},
+    "deserthouse/prunoid": {
+      "checked": 1794734566,
+      "release_id": 444681165,
+      "valid": false
+    },
     "nalbe/shark8-systemui-contacts-fix": {},
     "nalbe/shark8-treble-su-fix": {},
     "timschneeb/shizustore": {},
@@ -799,18 +1179,34 @@
       "timestamp": 1789791678,
       "size": 10839
     },
-    "ejaircastillo/note10-rescue-hid": {},
+    "ejaircastillo/note10-rescue-hid": {
+      "checked": 1794734568,
+      "release_id": 392530290,
+      "valid": false
+    },
     "iflyabd/nowifi-adb": {},
     "kaitongxx/thor-pathfinder": {},
-    "dobrianskyi/xiaomi-redmi-note-15-pro-5g-lineageos": {},
-    "chenchaosuperman-cell/android-hotspot-web": {},
+    "dobrianskyi/xiaomi-redmi-note-15-pro-5g-lineageos": {
+      "checked": 1794734567,
+      "release_id": null,
+      "valid": false
+    },
+    "chenchaosuperman-cell/android-hotspot-web": {
+      "checked": 1794734561,
+      "release_id": null,
+      "valid": false
+    },
     "official-arvind/cameratools": {},
     "anasabdullh/debloat-hyperos-app": {
       "checked": 1794731819,
       "release_id": 392209460,
       "valid": false
     },
-    "chill-astro/foss-root-checker": {},
+    "chill-astro/foss-root-checker": {
+      "checked": 1794734562,
+      "release_id": 429850096,
+      "valid": false
+    },
     "iamcanincan/hardcrop": {},
     "asadman1523/pixel-private-space-shortcuts": {
       "checked": 1794731820,
@@ -818,7 +1214,11 @@
       "valid": false
     },
     "u-rtrdd-fyi/recents-clear-all": {},
-    "dawuzzz/xiaoaicast-pro": {},
+    "dawuzzz/xiaoaicast-pro": {
+      "checked": 1794734565,
+      "release_id": 392358082,
+      "valid": false
+    },
     "suifonouyang-sudo/appvolumebooster": {},
     "att083/foldpatch": {
       "checked": 1794731820,
@@ -841,7 +1241,23 @@
     "hhhhanasak1/astellkern-sp3000-firmware-switcher": {},
     "polarissdesu/better-am": {},
     "zeninxop/blackbox": {},
-    "ctrl-mietze/cathook-multitask-launcher": {},
+    "ctrl-mietze/cathook-multitask-launcher": {
+      "checked": 1794734564,
+      "release_id": 394330046,
+      "valid": true,
+      "prop": {
+        "id": "catcore_multitask_root",
+        "name": "CatCore MultiTask Optional Root Module",
+        "version": "2.0.0",
+        "versionCode": "20008",
+        "author": "CatCore / ctrl-mietze",
+        "description": "Optional systemless root module for CatCore MultiTask V2 root ActivityManager task creation, fallback sessions, telemetry and temporary session priority. Zygisk is detected when present but is not required."
+      },
+      "zip": "https://github.com/ctrl-mietze/CatHook-MultiTask-Launcher/releases/download/v2.0.0.0/CatCore-MultiTask-Optional-Root-Module-v2.0.0.0.zip",
+      "zip_count": 2,
+      "timestamp": 1790142897,
+      "size": 4570
+    },
     "84593320z/gkd-": {
       "checked": 1794731816,
       "release_id": 442990023,
@@ -876,11 +1292,23 @@
     "yumamax3/tethys-tailscaled": {},
     "jaseunda/uls": {},
     "lorenzoc01/cieid-bypass-root-check": {},
-    "chs-haple/combinedstatus": {},
-    "communitypokeorg/discord-split-view": {},
+    "chs-haple/combinedstatus": {
+      "checked": 1794734563,
+      "release_id": 439099024,
+      "valid": false
+    },
+    "communitypokeorg/discord-split-view": {
+      "checked": 1794734564,
+      "release_id": null,
+      "valid": false
+    },
     "stevennodock/duomix-fader": {},
     "uraniam9/lost-xposed": {},
-    "deserthouse/opticon": {},
+    "deserthouse/opticon": {
+      "checked": 1794734566,
+      "release_id": 419955123,
+      "valid": false
+    },
     "takamiyananaka/qqemojireactor": {},
     "shen-tsung/root-notes": {},
     "baimacao/sl8541e-heshuicheng-device-optimization-module": {
@@ -910,11 +1338,47 @@
     "gasciljh/dnscrypt-proxy-webui": {},
     "lemniskett/e3372droid": {},
     "lj5201lj/lj5201lj.github.io": {},
-    "cicerothoma/memhogs-android": {},
+    "cicerothoma/memhogs-android": {
+      "checked": 1794734563,
+      "release_id": 423597583,
+      "valid": false
+    },
     "literallyaxo/quest2-touch-on-quest3": {},
     "scorparc/scorparc.github.io": {},
-    "e3n-glotm/wifi7-lab-safe": {},
-    "ddceka/android-analytics-disabler": {},
+    "e3n-glotm/wifi7-lab-safe": {
+      "checked": 1794734568,
+      "release_id": 435226873,
+      "valid": true,
+      "prop": {
+        "id": "wifi7_lab_safe",
+        "name": "WiFi 7 Lab Full Control",
+        "version": "v1.5.0",
+        "versionCode": "150",
+        "author": "E3N",
+        "description": "驱动:待读取 | 系统:待读取 | 请求:US | TX:N/A [未验证]"
+      },
+      "zip": "https://github.com/E3N-glotm/WiFi7-Lab-Safe/releases/download/v1.5.0/WiFi7-Lab-Safe-v1.5.0.zip",
+      "zip_count": 1,
+      "timestamp": 1793884637,
+      "size": 17212
+    },
+    "ddceka/android-analytics-disabler": {
+      "checked": 1794734565,
+      "release_id": 431391292,
+      "valid": true,
+      "prop": {
+        "id": "AnalyticsDisabler",
+        "name": "Analytics Disabler for Android",
+        "version": "v8.4",
+        "versionCode": "12",
+        "author": "CEKA",
+        "description": "Analytics Disabler for Android"
+      },
+      "zip": "https://github.com/ddCeka/Android-Analytics-Disabler/releases/download/v8.4/dss-v8.4.zip",
+      "zip_count": 1,
+      "timestamp": 1793619566,
+      "size": 7637
+    },
     "balabalanl/bluetooth-key-manager": {
       "checked": 1794731821,
       "release_id": 397153935,
@@ -927,10 +1391,18 @@
     "tbc0309/kpa-modules": {},
     "zy0x/lynx": {},
     "lukumaki/moto-g54-rom-migration-toolkit": {},
-    "coding-no/potato-fps-surya": {},
+    "coding-no/potato-fps-surya": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "flux-sniffer-mods/titan-2-elite-telephoto-fix": {},
     "luqin2007/ugreen-hitune-unlock": {},
-    "communitypokeorg/android-settings-browser": {},
+    "communitypokeorg/android-settings-browser": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "lordarrin/beszel-agent-magisk": {},
     "talgorhythmic/dirac-universal-magisk-module": {},
     "akswap/dualstaprofilemanager": {
@@ -985,7 +1457,11 @@
       "valid": false
     },
     "lswlc33/edge_download_change": {},
-    "cvhhji/engineermodecompat": {},
+    "cvhhji/engineermodecompat": {
+      "checked": 1794734564,
+      "release_id": 397543571,
+      "valid": false
+    },
     "broknhrt2562/finevolume": {
       "checked": 1794731823,
       "release_id": 399171439,
@@ -995,7 +1471,11 @@
     "talsec/free-rasp-cordova": {},
     "talsec/free-rasp-flutter": {},
     "talsec/free-rasp-reactnative": {},
-    "chs-haple/guiyuan": {},
+    "chs-haple/guiyuan": {
+      "checked": 1794734563,
+      "release_id": 439099024,
+      "valid": false
+    },
     "yass5002/magisk-hub": {},
     "mirrorwitch/magiskal-fonts": {},
     "llp2333/netproxy-xtls-kernelsu": {},
@@ -1018,7 +1498,11 @@
     "jvgamesmvp-hue/jvgamesmvp-hue.github.io": {},
     "powercess/mbrain": {},
     "petittux1/mirafix": {},
-    "cheeseburger08/region-switch": {},
+    "cheeseburger08/region-switch": {
+      "checked": 1794734561,
+      "release_id": null,
+      "valid": false
+    },
     "hu847266h/scene-unlock-toolkit": {},
     "saadnahid7/smalipatcherreborn": {},
     "gogibeta/stop-apps-public": {},
@@ -1068,7 +1552,23 @@
       "release_id": 397787324,
       "valid": false
     },
-    "exloud/render-switcher": {},
+    "exloud/render-switcher": {
+      "checked": 1794734570,
+      "release_id": 404336499,
+      "valid": true,
+      "prop": {
+        "id": "render_switcher",
+        "name": "Render Switcher",
+        "version": "v1.0.2",
+        "versionCode": "102",
+        "author": "EXLOUD",
+        "description": "Per-app HWUI renderer isolation (Vulkan / OpenGL)."
+      },
+      "zip": "https://github.com/EXLOUD/Render-Switcher/releases/download/v1.0.2/Render_Switcher_v1.0.2.zip",
+      "zip_count": 1,
+      "timestamp": 1791263316,
+      "size": 723501
+    },
     "wahaha232/reward-ad-guard": {},
     "ndoo/sonim-xp8-gsi": {},
     "antoniomalheirs/sound_and_emoji_ios": {
@@ -1077,7 +1577,11 @@
       "valid": false
     },
     "layiix11/x-keepalive": {},
-    "fimallory/xposedgoogleloc": {},
+    "fimallory/xposedgoogleloc": {
+      "checked": 1794734571,
+      "release_id": 401703940,
+      "valid": false
+    },
     "udmodz0/adb-cloner": {},
     "mkonic/atrium-link": {},
     "shitianyaa/friendlyschool": {},
@@ -1089,7 +1593,23 @@
       "release_id": 420613944,
       "valid": false
     },
-    "ethanm6/noto-emoji-magisk": {},
+    "ethanm6/noto-emoji-magisk": {
+      "checked": 1794734569,
+      "release_id": 401575267,
+      "valid": true,
+      "prop": {
+        "id": "NotoColorEmojiCurrent",
+        "name": "Noto Color Emoji (Current)",
+        "version": "v2.057-20260911",
+        "versionCode": "20260911",
+        "author": "ethanm6",
+        "description": "Systemlessly replaces the stock emoji font with the current build straight from Google's googlefonts/noto-emoji repo — same art style Pixel ships, just not frozen at whatever Unicode version your ROM shipped with. A CI job checks upstream daily and cuts a new release automatically when Google updates it."
+      },
+      "zip": "https://github.com/ethanm6/noto-emoji-magisk/releases/download/v2.057-20260911/NotoColorEmoji_v2.057-20260911.zip",
+      "zip_count": 1,
+      "timestamp": 1790920958,
+      "size": 9949385
+    },
     "akswap/poco-f7-crdroid17-wifi7-dualsta": {
       "checked": 1794731818,
       "release_id": 402353719,
@@ -1122,9 +1642,21 @@
     },
     "jhihhe/doula-douyin-lsposed": {},
     "sqkl520/dsh-fcl-android-launcher": {},
-    "chr243/farrow": {},
-    "farzanshibu/hivebench": {},
-    "fauzi882/lsposed-module-template": {},
+    "chr243/farrow": {
+      "checked": 1794734562,
+      "release_id": 438820074,
+      "valid": false
+    },
+    "farzanshibu/hivebench": {
+      "checked": 1794734570,
+      "release_id": 402986112,
+      "valid": false
+    },
+    "fauzi882/lsposed-module-template": {
+      "checked": 1794734570,
+      "release_id": null,
+      "valid": false
+    },
     "hydryanamyrly33-rgb/nara-ultra-v32-mobile": {},
     "inexunx/nexscreen": {},
     "longkrichamp-sketch/orcapeek": {},
@@ -1151,9 +1683,29 @@
     "jpinert/android-dsp-wakeword": {},
     "kero309x/anghamiplus-patches": {},
     "venkras/dialerpatch": {},
-    "elvex10/galaxy-multiuser": {},
+    "elvex10/galaxy-multiuser": {
+      "checked": 1794734568,
+      "release_id": 404429869,
+      "valid": true,
+      "prop": {
+        "id": "galaxy-multiuser",
+        "name": "Galaxy multiuser enabler",
+        "version": "1.0",
+        "versionCode": "1",
+        "author": "Elvex10",
+        "description": "KernelSU module for enabling Android multi-user properties on Samsung Galaxy devices."
+      },
+      "zip": "https://github.com/Elvex10/galaxy-multiuser/releases/download/v1.0/galaxy-multiuser.zip",
+      "zip_count": 1,
+      "timestamp": 1791271999,
+      "size": 740
+    },
     "vitalto/gcam-shutter-sound": {},
-    "dollarser/helix-agent": {},
+    "dollarser/helix-agent": {
+      "checked": 1794734567,
+      "release_id": null,
+      "valid": false
+    },
     "tsangasuna/hoshitele-dns-module": {},
     "bmjubairdadu/kernel-loader": {
       "checked": 1794731823,
@@ -1184,7 +1736,11 @@
     "supermanzdev/spotifyleanbackhook": {},
     "saladinlorenz/androidvps-rootfs": {},
     "tcbomc/appvolume": {},
-    "destory1984/destory1984.github.io": {},
+    "destory1984/destory1984.github.io": {
+      "checked": 1794734566,
+      "release_id": null,
+      "valid": false
+    },
     "mizuno-sachiko/easytier-magisk": {},
     "vorobeyyyyyy/geelynavbar": {},
     "imkamaran/hidemydevice": {},
@@ -1236,7 +1792,11 @@
     "h3n1x0s/bubblefix": {},
     "teapieyyds/device-check": {},
     "zephyr7030/droidbridge": {},
-    "corespaceteam/hmspace": {},
+    "corespaceteam/hmspace": {
+      "checked": 1794734564,
+      "release_id": null,
+      "valid": false
+    },
     "rudiseran/magisk-syscerts-burp-caido": {},
     "linoleic/multiroute": {},
     "baidaofu/niji-local": {
@@ -1249,20 +1809,44 @@
     "monem-benjeddou/quietnet": {},
     "lucasvasconcelosrocha-ui/swiftvault": {},
     "waenhancerx/waenhancerx": {},
-    "chxcodepro/wifi-cloak": {},
+    "chxcodepro/wifi-cloak": {
+      "checked": 1794734563,
+      "release_id": 406559180,
+      "valid": false
+    },
     "bl3xand/apk-toolbox": {
       "checked": 1794731822,
       "release_id": 426938341,
       "valid": false
     },
-    "cinitdev/appopt": {},
+    "cinitdev/appopt": {
+      "checked": 1794734563,
+      "release_id": 362328325,
+      "valid": true,
+      "prop": {
+        "id": "AppOpt",
+        "name": "AppOpt 线程优化",
+        "version": "v1.8.2",
+        "versionCode": "182",
+        "author": "suto & 一只小柒夏",
+        "description": "按规则将应用/游戏线程绑定到指定 CPU 核心的线程优化模块, 支持 包名=auto 自动校准生成大小核分配规则。配置文件: /data/adb/modules/AppOpt/config/applist.conf"
+      },
+      "zip": "https://github.com/cinitdev/AppOpt/releases/download/v1.8.2/AppOpt.zip",
+      "zip_count": 1,
+      "timestamp": 1785405204,
+      "size": 8633833
+    },
     "catlinux/bootlink": {
       "checked": 1794731824,
       "release_id": null,
       "valid": false
     },
     "r00t-n0v4/daemonsec-toolkit-netguard-": {},
-    "coppfe/fixme-android-module-scripts": {},
+    "coppfe/fixme-android-module-scripts": {
+      "checked": 1794734564,
+      "release_id": null,
+      "valid": false
+    },
     "ayusmannanda/fridamanager": {
       "checked": 1794731822,
       "release_id": 405943803,
@@ -1299,7 +1883,11 @@
       "timestamp": 1791464809,
       "size": 4418
     },
-    "codeyumx/picofacetracking": {},
+    "codeyumx/picofacetracking": {
+      "checked": 1794734564,
+      "release_id": 443887354,
+      "valid": false
+    },
     "7waynelee/pixel5-kernelsu-next": {
       "checked": 1794731815,
       "release_id": null,
@@ -1330,23 +1918,43 @@
     "intelarc/ayaneo-rgb-control": {},
     "guige101/bluedx": {},
     "masitankitavim-ux/codex-android": {},
-    "clozya/hookxbud": {},
+    "clozya/hookxbud": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "lowrck/mygica-mxl692-tv": {},
     "abhi-ram-init/networktoggle": {
       "checked": 1794731815,
       "release_id": null,
       "valid": false
     },
-    "contenere-cos/ohoplus": {},
+    "contenere-cos/ohoplus": {
+      "checked": 1794734564,
+      "release_id": 409805984,
+      "valid": false
+    },
     "simonschubert/omalauncher": {},
     "gooesman/phone-remote-lock": {},
-    "fixz232/pseudo-stersu": {},
-    "eigenlux-ai/roamer": {},
+    "fixz232/pseudo-stersu": {
+      "checked": 1794734571,
+      "release_id": 408817395,
+      "valid": false
+    },
+    "eigenlux-ai/roamer": {
+      "checked": 1794734568,
+      "release_id": 410632881,
+      "valid": false
+    },
     "nade-is-not-a-dev/roblox-pointercapture-fix": {},
     "vaas1k/simcountry": {},
     "shopshphereofficial-dev/twinspace": {},
     "soufied/zapret-ksu": {},
-    "feg55/zarp-android": {},
+    "feg55/zarp-android": {
+      "checked": 1794734570,
+      "release_id": 433012023,
+      "valid": false
+    },
     "9m2pju/9m2pju-android-auto-apk-installer": {
       "checked": 1794731815,
       "release_id": null,
@@ -1375,7 +1983,11 @@
     "ymgpwcca/facebookgoodies": {},
     "xjoker/frida-magisk": {},
     "ylh440104/kernelsu-tuner": {},
-    "chazpounder78/keylightkeeper": {},
+    "chazpounder78/keylightkeeper": {
+      "checked": 1794734562,
+      "release_id": null,
+      "valid": false
+    },
     "naplon74/magisk-pluskey": {},
     "moylali/otgmaster": {},
     "wesbos/photo-frame-dashboard": {},
@@ -1393,7 +2005,11 @@
     "picqueanthony-arch/dante-os": {},
     "skaminullah4-afk/firewall": {},
     "mikary29/hdaudio-magisk-module": {},
-    "daryan044/linux-launcher": {},
+    "daryan044/linux-launcher": {
+      "checked": 1794734565,
+      "release_id": 437591827,
+      "valid": false
+    },
     "medinaluis85/medinaluis85.github.io": {},
     "rishichamp/rootpow": {},
     "vip-svip/sy-fusion": {},
@@ -1456,7 +2072,11 @@
     "leobastiani/mobile-data-auto-off": {},
     "kuomartin/moonclicker": {},
     "nameisjayant/react-native-in-app-update": {},
-    "cis-c0/rfsentinel": {},
+    "cis-c0/rfsentinel": {
+      "checked": 1794734563,
+      "release_id": 444873550,
+      "valid": false
+    },
     "rizulsharma-2003/running-device": {},
     "armandocoroneo/shaketowakej6": {
       "checked": 1794731820,
@@ -1471,12 +2091,20 @@
     "zafxyra/zafxyragent": {},
     "mapxn/android-dial-from-home": {},
     "pallabkumars/android-mods": {},
-    "christianrowlands/android-network-survey-rooted": {},
+    "christianrowlands/android-network-survey-rooted": {
+      "checked": 1794734563,
+      "release_id": 413127466,
+      "valid": false
+    },
     "hex91/appinspector": {},
     "misaka24/astraea_link": {},
     "mdsadman2004/bayan-quranic-arabic": {},
     "q307334735/charging": {},
-    "delishworks-design/cody": {},
+    "delishworks-design/cody": {
+      "checked": 1794734565,
+      "release_id": null,
+      "valid": false
+    },
     "azyrn/deepdoze-enforcer": {
       "checked": 1794731821,
       "release_id": 366406370,
@@ -1508,7 +2136,11 @@
     "vip-svip/sy": {},
     "pccr10001/voany": {},
     "heshamnoaman/volteenabler": {},
-    "dmitthedazed/am-glass": {},
+    "dmitthedazed/am-glass": {
+      "checked": 1794734567,
+      "release_id": 425028883,
+      "valid": false
+    },
     "milkei/audio-focus-mixer": {},
     "warleysr/dechainer": {},
     "ihandmine/dexripper": {},
@@ -1518,7 +2150,11 @@
     "zhangdunlong/groupguard-magisk": {},
     "hozin-king/hozin-api-spoofer": {},
     "thewildjames/magisk-tailscaled": {},
-    "cxc1992-bit/neta-x-toolbox": {},
+    "cxc1992-bit/neta-x-toolbox": {
+      "checked": 1794734564,
+      "release_id": null,
+      "valid": false
+    },
     "rahmansayed81-prog/quranroots": {},
     "sawan4art/rootgenie": {},
     "liyw0205/sidekeyplus": {},
@@ -1526,12 +2162,24 @@
     "konanguyen/trustmycert": {},
     "soskn/volumesteps": {},
     "tmiland-lab/adb-android-backup": {},
-    "droidforgeindo/dfdetector": {},
+    "droidforgeindo/dfdetector": {
+      "checked": 1794734568,
+      "release_id": 419419446,
+      "valid": false
+    },
     "kaguyaluna2333/io.github.kaguyaluna2333.copymangaadhook": {},
     "superz1402/linuxify": {},
-    "dottoxd/netmanager": {},
+    "dottoxd/netmanager": {
+      "checked": 1794734567,
+      "release_id": 429955453,
+      "valid": false
+    },
     "nwokike/proot-distro": {},
-    "ethanm6/status-bar-brightness-slider": {},
+    "ethanm6/status-bar-brightness-slider": {
+      "checked": 1794734569,
+      "release_id": 416220707,
+      "valid": false
+    },
     "imnoammm/aa-mods": {},
     "jon2g/aa_keyboard_unlock": {},
     "pironjulien/android-computer-use": {},
@@ -1549,7 +2197,23 @@
       "release_id": 426847543,
       "valid": false
     },
-    "duyquang6/maple-mono-android": {},
+    "duyquang6/maple-mono-android": {
+      "checked": 1794734568,
+      "release_id": 416406720,
+      "valid": true,
+      "prop": {
+        "id": "maple_mono_font",
+        "name": "Maple Mono system font",
+        "version": "7.9",
+        "versionCode": "79",
+        "author": "ligt",
+        "description": "Replaces Roboto, Google Sans and the monospace font with Maple Mono NL v7.9 (variable wght). Disable this module to restore the stock fonts."
+      },
+      "zip": "https://github.com/duyquang6/maple-mono-android/releases/download/v7.9/maple_mono_font.zip",
+      "zip_count": 1,
+      "timestamp": 1792322473,
+      "size": 1192423
+    },
     "nikitos4683/nzapret": {},
     "ymgpwcca/privacydisplayplus": {},
     "yusif7595-afk/shizuku-app-blocker": {},
@@ -1593,16 +2257,56 @@
     "yulebest/workbuddy2api-magisk": {},
     "qianchenjun/alipay-lite-xposed": {},
     "riberojuanca/bubble-android": {},
-    "etcherfx/camerarefreshfix": {},
+    "etcherfx/camerarefreshfix": {
+      "checked": 1794734569,
+      "release_id": 416882755,
+      "valid": false
+    },
     "shreeharsh-patil/clone-app": {},
     "wenlaojp/dsh-alpine-ksu": {},
     "vaxzel/edgegestures-controller": {},
-    "faaramadhann/gamecore-builtin": {},
+    "faaramadhann/gamecore-builtin": {
+      "checked": 1794734570,
+      "release_id": 417242660,
+      "valid": false
+    },
     "haintrainn/grapheneos-firewall-app": {},
     "idex-maker/idex-maker.github.io": {},
-    "chengdong-yu/imei-privacy": {},
+    "chengdong-yu/imei-privacy": {
+      "checked": 1794734562,
+      "release_id": 417430045,
+      "valid": true,
+      "prop": {
+        "id": "imei_privacy",
+        "name": "IMEI Privacy Shield",
+        "version": "1.4.7",
+        "versionCode": "13",
+        "author": "dsh",
+        "description": "查找设备自动适配、自检及失败断网保护（需 root+LSPosed，完整安装后重启）"
+      },
+      "zip": "https://github.com/Chengdong-Yu/IMEI-Privacy/releases/download/v1.4.7/IMEI-Privacy-v1.4.7.zip",
+      "zip_count": 1,
+      "timestamp": 1792422068,
+      "size": 8689000
+    },
     "yashoncode/konnect-tv": {},
-    "cyanmint/lkm4ctr": {},
+    "cyanmint/lkm4ctr": {
+      "checked": 1794734565,
+      "release_id": 415938124,
+      "valid": true,
+      "prop": {
+        "id": "lkm4ctr",
+        "name": "lkm4ctr Kernel Module",
+        "version": "4.0.5",
+        "versionCode": "40005",
+        "author": "cyanmint",
+        "description": "Auto-load lkm4ctr.ko enables Docker and containers on all currently released arm64 Android GKI KMIs; no custom kernel flash."
+      },
+      "zip": "https://github.com/cyanmint/lkm4ctr/releases/download/4.0.5/lkm4ctr-kernelsu-module.zip",
+      "zip_count": 1,
+      "timestamp": 1792255814,
+      "size": 27300879
+    },
     "pwnpot/logster": {},
     "hittygubby/maxikin": {},
     "pironjulien/nexusandroid": {},
@@ -1614,9 +2318,17 @@
     "fordel225/xrds-rearcanvas-studio": {},
     "verybaaad/znnext": {},
     "k3v1991/adguarddns4magisk-family": {},
-    "empcoorg/android-editor": {},
+    "empcoorg/android-editor": {
+      "checked": 1794734568,
+      "release_id": null,
+      "valid": false
+    },
     "imkamaran/appguard": {},
-    "eithonx/buttonsilencer": {},
+    "eithonx/buttonsilencer": {
+      "checked": 1794734568,
+      "release_id": 385543353,
+      "valid": false
+    },
     "k3v1991/comodo-securedns4magisk": {},
     "k3v1991/dns.watch4magisk": {},
     "bluescorpiovr/galaxyxr-modules": {
@@ -1641,11 +2353,35 @@
     "hakai963/headless-android": {},
     "k3v1991/how-to-uninstall-android-apps-non-root": {},
     "k3v1991/install-adb-and-fastboot-on-android-devices": {},
-    "etcherfx/lensunlock": {},
+    "etcherfx/lensunlock": {
+      "checked": 1794734569,
+      "release_id": 417950045,
+      "valid": false
+    },
     "k3v1991/level3dns4magisk": {},
-    "efface-yyy/lineageos-miuicam-odin": {},
+    "efface-yyy/lineageos-miuicam-odin": {
+      "checked": 1794734568,
+      "release_id": 423586262,
+      "valid": false
+    },
     "qvq9999/memkeep": {},
-    "colorxi/mithermaltuner": {},
+    "colorxi/mithermaltuner": {
+      "checked": 1794734564,
+      "release_id": 418349813,
+      "valid": true,
+      "prop": {
+        "id": "mi_thermal_tuner",
+        "name": "MiThermal Tuner",
+        "version": "v1.2.0",
+        "versionCode": "10200",
+        "author": "达人怪",
+        "description": "小米温控实时监控与调节：解密/修改 mi_thermald 场景配置，实时限制 CPU/GPU/充电电流，附图形界面 App。作者：达人怪（微信 UVWAPP）"
+      },
+      "zip": "https://github.com/colorXi/MiThermalTuner/releases/download/v1.2.0/MiThermalTuner-v1.2.0.zip",
+      "zip_count": 1,
+      "timestamp": 1792497712,
+      "size": 46786
+    },
     "hanhan-ggit/pixelotashield": {},
     "rawracli/playstore-hidegames": {},
     "ayoubvvch/privapp-systemizer-magisk": {
@@ -1665,7 +2401,11 @@
       "timestamp": 1792485318,
       "size": 28350
     },
-    "felipegatoloko10/punk-app": {},
+    "felipegatoloko10/punk-app": {
+      "checked": 1794734570,
+      "release_id": 420009923,
+      "valid": false
+    },
     "k3v1991/quad9dns4magisk": {},
     "sw1313/rk3588-playback-fix": {},
     "22cms/sing-for-android": {
@@ -1706,11 +2446,31 @@
     "orev7s/pillarbox": {},
     "fq77/qinoteapp": {},
     "zubairehmad/shizuku_installer": {},
-    "damien-llado/snapkey-mapper": {},
+    "damien-llado/snapkey-mapper": {
+      "checked": 1794734564,
+      "release_id": 444768383,
+      "valid": false
+    },
     "monarchsofchaos004-gif/splitaudio": {},
     "poordevcode/termux-android-studio": {},
     "geethut-stack/trimall": {},
-    "deserthouse/twemoji-resurrection": {},
+    "deserthouse/twemoji-resurrection": {
+      "checked": 1794734566,
+      "release_id": 387468267,
+      "valid": true,
+      "prop": {
+        "id": "Twemoji-systemless",
+        "name": "Twemoji Resurrection",
+        "version": "v17.0.3 (59)",
+        "versionCode": "59",
+        "author": "Gontier Julien, deserthouse",
+        "description": "Systemlessly replaces your system emoji with Twemoji. Self-mounts on KernelSU/SukiSU/APatch without a mount metamodule; on Magisk the native Magic Mount is used."
+      },
+      "zip": "https://github.com/deserthouse/twemoji-resurrection/releases/download/v17.0.3/Twemoji-Resurrection-17.0.3-ksu.zip",
+      "zip_count": 1,
+      "timestamp": 1789191652,
+      "size": 3382591
+    },
     "misakidebugged/virtual-xbox-controller-android": {},
     "husniheartnet/android-rust-taskmanager": {},
     "gizawnahom/appwall": {},
@@ -1721,9 +2481,17 @@
     "mubai-meng/fkcoloros": {},
     "wzuivcsyuiopas-cmd/foldapplayout": {},
     "privshell/forge-git": {},
-    "chri-gassner/hushpane": {},
+    "chri-gassner/hushpane": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "rushiranpise/lsposed-modules-manager": {},
-    "chentianxiong123/magisk-chroot-boot": {},
+    "chentianxiong123/magisk-chroot-boot": {
+      "checked": 1794734561,
+      "release_id": 432221683,
+      "valid": false
+    },
     "3dhaoxinren/miaomo": {
       "checked": 1794731815,
       "release_id": null,
@@ -1763,7 +2531,11 @@
       "release_id": null,
       "valid": false
     },
-    "conmeosoma/bravia-safe-optimizer": {},
+    "conmeosoma/bravia-safe-optimizer": {
+      "checked": 1794734564,
+      "release_id": null,
+      "valid": false
+    },
     "yaseen91479/echoroute": {},
     "privshell/gitmigrator-ksu": {},
     "nrowa/lg-v50-ntcode-popup-blocker": {},
@@ -1789,21 +2561,53 @@
     },
     "man15h/tellyscope": {},
     "slopport/tq-android-perf": {},
-    "de4869/tunclash": {},
+    "de4869/tunclash": {
+      "checked": 1794734566,
+      "release_id": 423462311,
+      "valid": true,
+      "prop": {
+        "id": "mihomo_tproxy",
+        "name": "TunClash 内核",
+        "version": "v1.3.0",
+        "versionCode": "13",
+        "author": "TunClash",
+        "description": "Root 级 mihomo 透明代理（TUN 全局接管，不占用 VPN 入口）。内置 WebUI，可脱离 App 独立使用；配合 TunClash App 体验更佳。"
+      },
+      "zip": "https://github.com/De4869/tunclash/releases/download/v1.3.0/TunClash-Module-v1.3.0.zip",
+      "zip_count": 1,
+      "timestamp": 1792939486,
+      "size": 27467132
+    },
     "kepsilent/appstart-confirm-module": {},
     "btsearch/bunnylock": {
       "checked": 1794731823,
       "release_id": 443485929,
       "valid": false
     },
-    "ciroxtreme/cirofreezer": {},
+    "ciroxtreme/cirofreezer": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "vickyvirgian/cleanyourheadunit": {},
     "hdjdjdguahsh-debug/control-your-phone": {},
-    "droidforgeindo/dfdeviceinfo": {},
+    "droidforgeindo/dfdeviceinfo": {
+      "checked": 1794734567,
+      "release_id": 431169520,
+      "valid": false
+    },
     "jisvrin/doubletaptorch": {},
-    "crossly/galaxy-watch-tweaker": {},
+    "crossly/galaxy-watch-tweaker": {
+      "checked": 1794734564,
+      "release_id": 422374190,
+      "valid": false
+    },
     "vaccreate/glyphkeeper": {},
-    "coldmew/hush": {},
+    "coldmew/hush": {
+      "checked": 1794734563,
+      "release_id": 438439829,
+      "valid": false
+    },
     "the-marox/hyperdesktopunlock": {},
     "teamjcd/joycondroidcompanion": {},
     "tophtab/lsp-store": {},
@@ -1870,8 +2674,16 @@
       "release_id": 424262107,
       "valid": false
     },
-    "dr-essence/nothing-launcher-plus": {},
-    "dajeovv/opencode-android": {},
+    "dr-essence/nothing-launcher-plus": {
+      "checked": 1794734567,
+      "release_id": null,
+      "valid": false
+    },
+    "dajeovv/opencode-android": {
+      "checked": 1794734564,
+      "release_id": 445001109,
+      "valid": false
+    },
     "qy-25123/phoneagent": {},
     "ahmedvohra/pixel-8-battery-health": {
       "checked": 1794731817,
@@ -1948,11 +2760,23 @@
     "sinnermm/dplus": {},
     "sinnermm/dyquality": {},
     "sinnermm/dyquality-pro": {},
-    "felipembassi/felipembassi.github.io": {},
+    "felipembassi/felipembassi.github.io": {
+      "checked": 1794734570,
+      "release_id": null,
+      "valid": false
+    },
     "xulthikrorth-hue/gamepad-bridge": {},
     "nikakvo/lan-cloak-arm64": {},
-    "dixonsolutions/lindroids": {},
-    "dengjzy/nobs-android": {},
+    "dixonsolutions/lindroids": {
+      "checked": 1794734566,
+      "release_id": 445751919,
+      "valid": false
+    },
+    "dengjzy/nobs-android": {
+      "checked": 1794734566,
+      "release_id": null,
+      "valid": false
+    },
     "000mak/quantix-theme-suite": {
       "checked": 1794731814,
       "release_id": null,
@@ -1981,7 +2805,11 @@
     "rifatrajbd/nestbox-an-android-emulator-support-lineage-os": {},
     "woand/shitjumpingvm": {},
     "mrraita/sound-tweaks": {},
-    "chattytoaster/tgtwsskipfix": {},
+    "chattytoaster/tgtwsskipfix": {
+      "checked": 1794734561,
+      "release_id": 427375859,
+      "valid": false
+    },
     "2108282/zram-lz4kds-sddc-houji-6.1": {
       "checked": 1794731814,
       "release_id": 427429608,
@@ -2002,19 +2830,39 @@
     "saturntt/among-us-120-fps-unlocker-for-android": {},
     "karvanidx/appman": {},
     "sevincfurkan/noads": {},
-    "egor2342424241/redmagicdualspace": {},
+    "egor2342424241/redmagicdualspace": {
+      "checked": 1794734568,
+      "release_id": null,
+      "valid": false
+    },
     "hashirsaifi001-dot/refreshlock-": {},
     "gorban-dev/rustore-fastlane-plugin": {},
-    "dhangofa/xiaomi_cnap_fix": {},
+    "dhangofa/xiaomi_cnap_fix": {
+      "checked": 1794734566,
+      "release_id": 428793064,
+      "valid": false
+    },
     "ravindu644/android-bridge": {},
-    "chenyubo10665/autotask": {},
+    "chenyubo10665/autotask": {
+      "checked": 1794734562,
+      "release_id": 437428764,
+      "valid": false
+    },
     "afrizz19/com.lyricstatusbar.app": {
       "checked": 1794731816,
       "release_id": 429955252,
       "valid": false
     },
-    "danmo1857/danmo-z9-178-root": {},
-    "eternal-dash/dashfile_manager": {},
+    "danmo1857/danmo-z9-178-root": {
+      "checked": 1794734565,
+      "release_id": 429903902,
+      "valid": false
+    },
+    "eternal-dash/dashfile_manager": {
+      "checked": 1794734571,
+      "release_id": 444279360,
+      "valid": false
+    },
     "jackwener/dsh-android": {},
     "magiskpc/magisk-desktop": {},
     "needanapp-de/myzel": {},
@@ -2028,7 +2876,11 @@
     "iimacgyverii/signaldeck": {},
     "jbinder/smsd": {},
     "silasdv/taskdeck": {},
-    "dcryptoniun/cleanbot": {},
+    "dcryptoniun/cleanbot": {
+      "checked": 1794734565,
+      "release_id": null,
+      "valid": false
+    },
     "shiyidzyk/device-owner-app": {},
     "amjadodeh/hans-wehr-app": {
       "checked": 1794731819,
@@ -2045,13 +2897,21 @@
     "ronukuigo/show-taps-revived": {},
     "gmtr244/splitgate-android": {},
     "nosiybugs/uu-wheel-evdev": {},
-    "davidglt/wireless-debugging": {},
+    "davidglt/wireless-debugging": {
+      "checked": 1794734565,
+      "release_id": null,
+      "valid": false
+    },
     "fynks/awesome-temporary-root": {},
     "kailashrs/camx-fullsize": {},
     "ribosomek/gboardtweak": {},
     "okamitimo233/gmscore-slim": {},
     "kailashrs/infinitylock-app": {},
-    "daofengql/jidian": {},
+    "daofengql/jidian": {
+      "checked": 1794734565,
+      "release_id": null,
+      "valid": false
+    },
     "loukious/konoha-android17-6.18": {},
     "sharkskin/lsp-hook-location": {},
     "yuxiximyxx/magicxm4": {},
@@ -2094,7 +2954,23 @@
     "syedtahseen/zorken": {},
     "lizereride90/botfarm": {},
     "ricardojrgpimentel/cachalote": {},
-    "dr-essence/cmf-true-stereo": {},
+    "dr-essence/cmf-true-stereo": {
+      "checked": 1794734567,
+      "release_id": 438369970,
+      "valid": true,
+      "prop": {
+        "id": "cmf_stereo",
+        "name": "CMF Phone 1 Dual Speaker (mono / stereo)",
+        "version": "v1.0.9-beta",
+        "versionCode": "1090",
+        "author": "Dr.Essence",
+        "description": "Real left/right stereo on the CMF Phone 1 (A015) from the earpiece and the bottom speaker, following the screen when the phone is turned. Mono (stock, with Awinic speaker protection) or Stereo, switched at once from the app, stereoctl or the Action button. Patches only this phone's verified vendor files; back to mono after two failed boots."
+      },
+      "zip": "https://github.com/Dr-Essence/CMF-true-stereo/releases/download/v1.0.9-beta/CMF-true-stereo-v1.0.9-beta.zip",
+      "zip_count": 1,
+      "timestamp": 1794155493,
+      "size": 336528
+    },
     "shivam01anand/hisense-just-the-apps": {},
     "iliyian/k80-zorn-bbr": {},
     "simonleen22/keva-app": {},
@@ -2102,7 +2978,11 @@
     "mikeyphw/mmrl-lsposed": {},
     "thoitiettxl-cyber/pi-sing": {},
     "kinginu/pixelmask": {},
-    "cccoddad/splashguard": {},
+    "cccoddad/splashguard": {
+      "checked": 1794734561,
+      "release_id": null,
+      "valid": false
+    },
     "vxuwu/vpn-tether-router": {},
     "hxfuxyy/zetacard": {},
     "mrkurt/audio-router": {},
@@ -2112,14 +2992,26 @@
     "smr518/honor-v8-gms": {},
     "iacbi/iacbi.github.io": {},
     "nangongjing1/misans-module-for-magisk": {},
-    "cq61tech/mycolourfulgesture": {},
-    "chuccp/nestspace": {},
+    "cq61tech/mycolourfulgesture": {
+      "checked": 1794734564,
+      "release_id": 440396558,
+      "valid": false
+    },
+    "chuccp/nestspace": {
+      "checked": 1794734563,
+      "release_id": 441144231,
+      "valid": false
+    },
     "tothanggtvt/open-adblock": {},
     "yashjitpal/pixel-now-playing-universal": {},
     "steimerbyte/profile-optimizer": {},
     "goodjoe-2049/steam-nova": {},
     "nekuzaky/android-network-monitor": {},
-    "cheney34/apple-input-for-sogou": {},
+    "cheney34/apple-input-for-sogou": {
+      "checked": 1794734561,
+      "release_id": 441631961,
+      "valid": false
+    },
     "romanfabio/automations": {},
     "akane599/coulomb": {
       "checked": 1794731817,
@@ -2176,7 +3068,11 @@
     },
     "xioo0317/appbackup": {},
     "skypin969/clear-by-skypin": {},
-    "fellnessme/coloros-stylus-penpad": {},
+    "fellnessme/coloros-stylus-penpad": {
+      "checked": 1794734571,
+      "release_id": 437352669,
+      "valid": false
+    },
     "unvoiddd/dolphy-app": {},
     "ahmed2111x/falcon_integrity_fix": {
       "checked": 1794731817,
@@ -2204,7 +3100,11 @@
       "release_id": null,
       "valid": false
     },
-    "estopia/nudge": {},
+    "estopia/nudge": {
+      "checked": 1794734569,
+      "release_id": 437631113,
+      "valid": false
+    },
     "loukious/onyx-android17-6.18": {},
     "s540d/s540d.github.io": {},
     "abdulsamad/warden": {
@@ -2227,7 +3127,11 @@
       "valid": false
     },
     "senterprisehub/netshield-root": {},
-    "dr-essence/nothing2something": {},
+    "dr-essence/nothing2something": {
+      "checked": 1794734567,
+      "release_id": null,
+      "valid": false
+    },
     "starshadows/ntfy-android-lsposed": {},
     "qutaiba-khader/recentappstv": {},
     "kqar/reticle": {},
@@ -2251,8 +3155,16 @@
     "involvex/kiln": {},
     "yqing004-boop/magpie-android": {},
     "mahmoodana1/mahmoodana1.github.io": {},
-    "cj7-cyber/mlbbboost": {},
-    "cj7-cyber/module-magisk-fpsboost": {},
+    "cj7-cyber/mlbbboost": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
+    "cj7-cyber/module-magisk-fpsboost": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "qaq-ciallo/mokrrun": {},
     "rtzhang1202/nothing-update-fix": {},
     "aldiidodi97/pangolin": {
@@ -2267,7 +3179,11 @@
     "frtymn/tv-debloater": {},
     "n2ray/xdesk": {},
     "kilolonion/agent-vscreen": {},
-    "cj7-cyber/ai-cleaning-pro-": {},
+    "cj7-cyber/ai-cleaning-pro-": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "nightmean/android-adb-over-tcp-at-boot": {},
     "yourooni/barswipe": {},
     "alex17273747576777/gltools-reborn": {
@@ -2352,9 +3268,17 @@
     "vd171/vd-backup": {},
     "wfire06100/wallet-card-audit": {},
     "meetox80/zflip3": {},
-    "dima-xd/armbat": {},
+    "dima-xd/armbat": {
+      "checked": 1794734566,
+      "release_id": 441667967,
+      "valid": false
+    },
     "hafiezanarman/bootloop-protection-v1.1": {},
-    "fk0u/cleanyourtv-tahoe": {},
+    "fk0u/cleanyourtv-tahoe": {
+      "checked": 1794734571,
+      "release_id": 445426914,
+      "valid": false
+    },
     "zycalone/dsh-termux-oneclick": {},
     "hongphong5115/edgetoedgecutout": {},
     "mods-center/hyperos-rust-launcher-mod": {},
@@ -2374,12 +3298,48 @@
       "valid": false
     },
     "silica-github/anyconnectunmetered": {},
-    "cpufreestyle/bg-keepalive": {},
+    "cpufreestyle/bg-keepalive": {
+      "checked": 1794734564,
+      "release_id": 444147075,
+      "valid": true,
+      "prop": {
+        "id": "bg_keepalive",
+        "name": "Background Keepalive",
+        "version": "v3.3",
+        "versionCode": "7",
+        "author": "michaelqiu",
+        "description": "Keeps user-selected apps background-exempt and restores dropped accessibility bindings every 3 minutes, without rebinding services that are already healthy."
+      },
+      "zip": "https://github.com/cpufreestyle/bg-keepalive/releases/download/v3.3/bg_keepalive-v3.3.zip",
+      "zip_count": 1,
+      "timestamp": 1794569259,
+      "size": 2736
+    },
     "ritikthakur22/brightnesscontrol": {},
     "udunuss/dexplus": {},
-    "droidforgeindo/dfisol": {},
+    "droidforgeindo/dfisol": {
+      "checked": 1794734567,
+      "release_id": 443870255,
+      "valid": false
+    },
     "lan13443/google-photo-on-xringo1": {},
-    "caullenomdahl/grab-netprinter": {},
+    "caullenomdahl/grab-netprinter": {
+      "checked": 1794734561,
+      "release_id": 444257977,
+      "valid": true,
+      "prop": {
+        "id": "grab-netprinter",
+        "name": "GrabNetPrinter",
+        "version": "1.1.1",
+        "versionCode": "3",
+        "author": "GrabNetPrinter contributors",
+        "description": "Optional support module: seeds a legacy config file and log for the GrabNetPrinter LSPosed module. The normal configuration is done in the GrabNetPrinter settings app."
+      },
+      "zip": "https://github.com/CaullenOmdahl/grab-netprinter/releases/download/v1.1.1/grab-netprinter-1.1.1.zip",
+      "zip_count": 1,
+      "timestamp": 1794576220,
+      "size": 4376
+    },
     "blueokanna/oneplus_beast": {
       "checked": 1794731823,
       "release_id": 444199371,
@@ -2425,22 +3385,54 @@
       "release_id": 443796010,
       "valid": false
     },
-    "dsy-star/adukit": {},
+    "dsy-star/adukit": {
+      "checked": 1794734568,
+      "release_id": null,
+      "valid": false
+    },
     "akashthakur4553/android-ios-makeover": {
       "checked": 1794731817,
       "release_id": null,
       "valid": false
     },
     "op30mmd/audiorouter": {},
-    "doezer/caros-profile-switcher": {},
+    "doezer/caros-profile-switcher": {
+      "checked": 1794734567,
+      "release_id": 259810186,
+      "valid": true,
+      "prop": {
+        "id": "caros-switcher",
+        "name": "CarOS Profile Switcher (Wired & Wireless AA)",
+        "version": "0.2.3",
+        "versionCode": "4",
+        "author": "Vincent+ChatGPT",
+        "description": "Auto WIRED/WIRELESS switching + Smart WiFi + Nova default + fast charge limit. Config: /sdcard/CarOS/config.env. v0.2.3: Smart WiFi + VW Polo 6 compatible + Auto permissions"
+      },
+      "zip": "https://github.com/Doezer/CarOS-Profile-Switcher/releases/download/v0.2.3/CarOS_Profile_Switcher-v0.2.3.zip",
+      "zip_count": 1,
+      "timestamp": 1762331475,
+      "size": 8054
+    },
     "marcoslor/contigua": {},
     "gwenz2/driontune": {},
-    "epochmachin/epochmachin.github.io": {},
+    "epochmachin/epochmachin.github.io": {
+      "checked": 1794734569,
+      "release_id": null,
+      "valid": false
+    },
     "lyravoid/finasu": {},
-    "derisra/geopinprivate": {},
+    "derisra/geopinprivate": {
+      "checked": 1794734566,
+      "release_id": 445046634,
+      "valid": false
+    },
     "hiruko-puppetmaster/infinix-loading-bootanimation": {},
     "stupidgiraffe/kizuku": {},
-    "corespaceteam/mmspace": {},
+    "corespaceteam/mmspace": {
+      "checked": 1794734564,
+      "release_id": 445315389,
+      "valid": false
+    },
     "abidakbar1994/nethunter-kernel-for-oneplus-6t-": {
       "checked": 1794731817,
       "release_id": 445313073,
@@ -2505,7 +3497,11 @@
       "valid": false
     },
     "sukisu-ultra/sukisu-ultra": {},
-    "dergoogler/mmrl": {},
+    "dergoogler/mmrl": {
+      "checked": 1794734566,
+      "release_id": 294473037,
+      "valid": false
+    },
     "kernelsu-next/kpatch-next-module": {},
     "rikj000/magisk-manager-for-recovery-mode": {},
     "kernelsu-modules-repo/meta-overlayfs": {},
@@ -2528,9 +3524,29 @@
     },
     "yuzakikokuban/meta-hybrid_mount": {},
     "kernelsu-modules-repo/meta-mm": {},
-    "enginex0/zeromount": {},
+    "enginex0/zeromount": {
+      "checked": 1794734568,
+      "release_id": 309132804,
+      "valid": false
+    },
     "jingmatrix/vector": {},
-    "dr-tsng/zygisknext": {},
+    "dr-tsng/zygisknext": {
+      "checked": 1794734567,
+      "release_id": 437695261,
+      "valid": true,
+      "prop": {
+        "id": "zygisksu",
+        "name": "Zygisk Next",
+        "version": "1.5.3 (880-22a1bf5-release)",
+        "versionCode": "880",
+        "author": "LSPosed Developers",
+        "description": "Standalone implementation of Zygisk."
+      },
+      "zip": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.5.3/Zygisk-Next-1.5.3-880-22a1bf5-release.zip",
+      "zip_count": 1,
+      "timestamp": 1794069131,
+      "size": 6638473
+    },
     "jingmatrix/neozygisk": {},
     "performanc/rezygisk": {},
     "rrr333nnn333/brene": {},
@@ -2538,19 +3554,107 @@
     "jingmatrix/teesimulator": {},
     "sidex15/susfs4ksu-module": {},
     "lsposed/lsposed.github.io": {},
-    "evoker0/alwaysstrong": {},
-    "flipphoneguy/dirtysepolicy_bypass": {},
-    "dr-tsng/hide-my-applist": {},
-    "elcapitanoe/komodo-build-prop": {},
+    "evoker0/alwaysstrong": {
+      "checked": 1794734569,
+      "release_id": null,
+      "valid": false
+    },
+    "flipphoneguy/dirtysepolicy_bypass": {
+      "checked": 1794734571,
+      "release_id": 332043651,
+      "valid": true,
+      "prop": {
+        "id": "dirtysepbypass",
+        "name": "DirtySepolicy Bypass",
+        "version": "v3.0.0",
+        "versionCode": "30000",
+        "author": "local",
+        "description": "Defeats all versions of DirtySepolicy up to v2.2. Intercepts /sys/fs/selinux/access, /status, /context and /proc/*/attr/* to hide framework types, mask allow rules, and fix seqno/policyload counters."
+      },
+      "zip": "https://github.com/flipphoneguy/DirtySepolicy_Bypass/releases/download/v3.0.0/dirtysepbypass.zip",
+      "zip_count": 2,
+      "timestamp": 1780191328,
+      "size": 11133
+    },
+    "dr-tsng/hide-my-applist": {
+      "checked": 1794734567,
+      "release_id": 363581106,
+      "valid": false
+    },
+    "elcapitanoe/komodo-build-prop": {
+      "checked": 1794734568,
+      "release_id": 443738829,
+      "valid": true,
+      "prop": {
+        "id": "Komodo_beta_Props",
+        "name": "Pixel 9 Pro XL (KOMODO_BETA) Props",
+        "version": "2026-10-05",
+        "versionCode": "261005",
+        "author": "Elcapitanoe, Tesla",
+        "description": "Spoof your device props to KOMODO_BETA [DP11.261030.003] (Oct 2026)"
+      },
+      "zip": "https://github.com/Elcapitanoe/Komodo-Build-Prop/releases/download/v26.1113/Komodo_beta_DP11.261030.003.zip",
+      "zip_count": 1,
+      "timestamp": 1794536410,
+      "size": 70966
+    },
     "mhmrdd/nohello": {},
     "qwq233/ohmykeymint": {},
     "kowx712/playintegrityfix": {},
     "osm0sis/playintegrityfork": {},
-    "daboynb/playcurlnext": {},
+    "daboynb/playcurlnext": {
+      "checked": 1794734565,
+      "release_id": 279353795,
+      "valid": true,
+      "prop": {
+        "id": "playcurlNEXT",
+        "name": "playcurlNEXT",
+        "version": "v1.19",
+        "versionCode": "119",
+        "author": "daboynb",
+        "description": "Automatic fingerprint downloader for play integrity fix."
+      },
+      "zip": "https://github.com/daboynb/playcurlNEXT/releases/download/v1.19/playcurlNEXT.zip",
+      "zip_count": 1,
+      "timestamp": 1769173070,
+      "size": 18441
+    },
     "performanc/treat-wheel-zygisk": {},
     "pixel-props/sensitive-props": {},
-    "dpejoh/specter": {},
-    "enginex0/teesimulator-rs": {},
+    "dpejoh/specter": {
+      "checked": 1794734567,
+      "release_id": 440095742,
+      "valid": true,
+      "prop": {
+        "id": "specter",
+        "name": "Specter",
+        "version": "2.0.0",
+        "versionCode": "20021",
+        "author": "dpejoh",
+        "description": "Unified Play Integrity and root hiding stack for Android"
+      },
+      "zip": "https://github.com/dpejoh/specter/releases/download/v2.0.0/specter-v2.0.0.zip",
+      "zip_count": 1,
+      "timestamp": 1794298614,
+      "size": 600058
+    },
+    "enginex0/teesimulator-rs": {
+      "checked": 1794734569,
+      "release_id": 342022599,
+      "valid": true,
+      "prop": {
+        "id": "tricky_store",
+        "name": "TEESimulator-RS",
+        "version": "v6.0.1-282",
+        "versionCode": "282",
+        "author": "JingMatrix, Enginex0",
+        "description": "Software simulation for Android hardware-backed key pairs with key attestation"
+      },
+      "zip": "https://github.com/Enginex0/TEESimulator-RS/releases/download/v6.0.1-282/TEESimulator-RS-v6.0.1-282-Release.zip",
+      "zip_count": 2,
+      "timestamp": 1781884487,
+      "size": 2765128
+    },
     "kowx712/tricky-addon-update-target-list": {},
     "5ec1cff/trickystore": {
       "checked": 1794731815,
@@ -2586,14 +3690,34 @@
       "timestamp": 1787691399,
       "size": 1289252
     },
-    "dpejoh/yurikey": {},
+    "dpejoh/yurikey": {
+      "checked": 1794734567,
+      "release_id": 333484921,
+      "valid": true,
+      "prop": {
+        "id": "Yurikey",
+        "name": "Yurikey Manager",
+        "version": "v3.0.6",
+        "versionCode": "306",
+        "author": "Yurikey Dev",
+        "description": "A systemless module to get strong integrity so easily"
+      },
+      "zip": "https://github.com/Yurii0307/yurikey/releases/download/v3.0.6/Yurikey-v3.0.6.signed.zip",
+      "zip_count": 1,
+      "timestamp": 1780459566,
+      "size": 420143
+    },
     "snake-4/zygisk-assistant": {},
     "magisk-modules-alt-repo/abootloop": {},
     "ripperhybrid/ashlooper": {},
     "magisk-modules-alt-repo/yetanotherbootloopprotector": {},
     "reveny/android-native-root-detector": {},
     "rrr333nnn333/duck-detector-refactoring": {},
-    "eltavine/duck-detector-refactoring": {},
+    "eltavine/duck-detector-refactoring": {
+      "checked": 1794734568,
+      "release_id": null,
+      "valid": false
+    },
     "apkunpacker/magiskdetection": {
       "checked": 1794731819,
       "release_id": null,
@@ -2609,7 +3733,23 @@
     "rabehx/securify": {},
     "hddq/magisk-cromite-webview": {},
     "magisk-modules-alt-repo/disable-low-ram": {},
-    "chickendrop89/hyperos-accessibility-fix": {},
+    "chickendrop89/hyperos-accessibility-fix": {
+      "checked": 1794734562,
+      "release_id": 356469610,
+      "valid": true,
+      "prop": {
+        "id": "hyperos-accessibility-fix",
+        "name": "HyperOS accessibility fix",
+        "version": "1.0.5",
+        "versionCode": "105",
+        "author": "chkndrp",
+        "description": "Stop HyperOS from randomly disabling accessibility services | Click Action to view logs"
+      },
+      "zip": "https://github.com/chkndrp/hyperos-accessibility-fix/releases/download/1.0.5/hyperos-accessibility-fix.zip",
+      "zip_count": 1,
+      "timestamp": 1784512147,
+      "size": 23459
+    },
     "mods-center/hyperos-security-center": {},
     "insertx2k/multiuseruienabler": {},
     "selfref/noogle-magisk": {},
@@ -2651,7 +3791,11 @@
     "robotxm/bettermiuiexpress": {},
     "hchenx/clipboardlist": {},
     "mods-center/coloros_control_center": {},
-    "custombeta/fingerprint-cataloge": {},
+    "custombeta/fingerprint-cataloge": {
+      "checked": 1794734564,
+      "release_id": 348621291,
+      "valid": false
+    },
     "howiehchen/xiaomihelper": {},
     "ukriu/hyperunlocked": {},
     "yunzia/hyperstar": {},
@@ -2663,8 +3807,16 @@
     "pigerzhu/onelab": {},
     "supermarsx/magisk-samsung-dex-standalone-mode": {},
     "timschneeb/onyxtweaks": {},
-    "dhd2280/oxygen-customizer": {},
-    "commandprompt-wang/betterzuikey": {},
+    "dhd2280/oxygen-customizer": {
+      "checked": 1794734566,
+      "release_id": 185631305,
+      "valid": false
+    },
+    "commandprompt-wang/betterzuikey": {
+      "checked": 1794734563,
+      "release_id": 433642742,
+      "valid": false
+    },
     "xposed-modules-repo/xyz.cirno.unfuckzui": {},
     "qwqawa64/zux-ztool": {},
     "symbuzzer/livebootmodule": {},
@@ -2672,29 +3824,89 @@
     "magisk-modules-alt-repo/video-to-bootanimation": {},
     "samolego/canta": {},
     "sunilpaulmathew/de-bloater": {},
-    "enginex0/scalpel": {},
-    "chisewaguri/systemapp_nuker": {},
+    "enginex0/scalpel": {
+      "checked": 1794734569,
+      "release_id": 300018651,
+      "valid": true,
+      "prop": {
+        "id": "scalpel",
+        "name": "Scalpel",
+        "version": "v0.1.27",
+        "versionCode": "0127",
+        "author": "Enginex0",
+        "description": "Debloat system apps + systemize user apps"
+      },
+      "zip": "https://github.com/Enginex0/Scalpel/releases/download/v0.1.27/scalpel-v0.1.27.zip",
+      "zip_count": 2,
+      "timestamp": 1774236439,
+      "size": 3916593
+    },
+    "chisewaguri/systemapp_nuker": {
+      "checked": 1794734563,
+      "release_id": 402328550,
+      "valid": true,
+      "prop": {
+        "id": "system_app_nuker",
+        "name": "App Nuker",
+        "version": "v2.2.6",
+        "versionCode": "226",
+        "author": "ChiseWaguri & Contributors",
+        "description": "WebUI-based debloater and whiteout creator"
+      },
+      "zip": "https://github.com/chisewaguri/systemapp_nuker/releases/download/v2.2.6/SAN_v2.2.6.zip",
+      "zip_count": 1,
+      "timestamp": 1791002193,
+      "size": 784050
+    },
     "buttercookie42/disabletargetapiblock": {
       "checked": 1794731824,
       "release_id": 255440101,
       "valid": false
     },
-    "droid-ify/client": {},
+    "droid-ify/client": {
+      "checked": 1794734567,
+      "release_id": 387672891,
+      "valid": false
+    },
     "aistra0528/hail": {
       "checked": 1794731817,
       "release_id": 376945348,
       "valid": false
     },
     "j-hc/zygisk-detach": {},
-    "chenxiaolong/alterinstaller": {},
+    "chenxiaolong/alterinstaller": {
+      "checked": 1794734562,
+      "release_id": 345567761,
+      "valid": true,
+      "prop": {
+        "id": "com.chiller3.alterinstaller",
+        "name": "AlterInstaller",
+        "version": "v2.4",
+        "versionCode": "132096",
+        "author": "chenxiaolong",
+        "description": "Change PackageManager installer fields on boot"
+      },
+      "zip": "https://github.com/chenxiaolong/AlterInstaller/releases/download/v2.4/AlterInstaller-2.4-release.zip",
+      "zip_count": 1,
+      "timestamp": 1782516428,
+      "size": 167413
+    },
     "whyorean/aurorastore": {},
     "meraazi/auto-uninstaller": {},
     "tinyhai/banuninstall": {},
     "pixel-props/betterknowninstalled": {},
     "wxxsfxyzm/installerx-revived": {},
     "hamza417/inure": {},
-    "chimioo/inxlocker": {},
-    "davidberdik/let-me-downgrade": {},
+    "chimioo/inxlocker": {
+      "checked": 1794734562,
+      "release_id": 416296076,
+      "valid": false
+    },
+    "davidberdik/let-me-downgrade": {
+      "checked": 1794734565,
+      "release_id": 342631840,
+      "valid": false
+    },
     "neoapplications/neo-store": {},
     "smartpack/packagemanager": {},
     "himanshujjp/playstoreselfupdateblocker": {},
@@ -2710,7 +3922,11 @@
     "mirfatif/permissionmanagerx": {},
     "tornaco/thanox": {},
     "infamousmick/infamick-script": {},
-    "cioccarellia/androoster": {},
+    "cioccarellia/androoster": {
+      "checked": 1794734563,
+      "release_id": 206236686,
+      "valid": false
+    },
     "liliya2727/azenith": {},
     "alirezaparsi/copg": {
       "checked": 1794731818,
@@ -2731,7 +3947,11 @@
     },
     "vd171/copg-vd": {},
     "ps2classicsvault/dynamic-system-tweaks-magisk-module": {},
-    "feravolt/fde.ai-docs": {},
+    "feravolt/fde.ai-docs": {
+      "checked": 1794734570,
+      "release_id": 373207921,
+      "valid": false
+    },
     "aestasbritannia/hydro-br-leur": {
       "checked": 1794731816,
       "release_id": 310469070,
@@ -2755,7 +3975,11 @@
     "topnotchfreaks/tnf_tweaker": {},
     "i-taylo/iunlockergl": {},
     "raajk20pro/kernelenhancer": {},
-    "fatalcoder524/kernelflasher": {},
+    "fatalcoder524/kernelflasher": {
+      "checked": 1794734570,
+      "release_id": 233734396,
+      "valid": false
+    },
     "libxzr/konabess": {},
     "konabess-next/konabess-next": {},
     "abhay-byte/mkm": {
@@ -2766,12 +3990,44 @@
     "juaniman/perfmtk": {},
     "rve27/rvkernel-manager": {},
     "zuanvfx01/zkm": {},
-    "chickendrop89/magisk-swapspace": {},
+    "chickendrop89/magisk-swapspace": {
+      "checked": 1794734562,
+      "release_id": 259030177,
+      "valid": true,
+      "prop": {
+        "id": "magisk-swapspace",
+        "name": "Magisk SwapSpace",
+        "version": "v2.4",
+        "versionCode": "24",
+        "author": "chickendrop89",
+        "description": "Create a persistent swap space on android (magiskswap in terminal)"
+      },
+      "zip": "https://github.com/chkndrp/magisk-swapspace/releases/download/2.4/magiskswapspace.zip",
+      "zip_count": 1,
+      "timestamp": 1762036455,
+      "size": 27562
+    },
     "weirdmidas/skysceneaddon": {},
     "rompelhd/swap-disabler": {},
     "yadavnikhil03/swapboost-pro": {},
     "furlc/zram-module": {},
-    "drsexo/frosty": {},
+    "drsexo/frosty": {
+      "checked": 1794734568,
+      "release_id": 441047767,
+      "valid": true,
+      "prop": {
+        "id": "Frosty",
+        "name": "Frosty - Battery Saver",
+        "version": "4.6",
+        "versionCode": "46",
+        "author": "DrSexo",
+        "description": "Maximum battery saving and GMS optimization. Freeze GMS services, enable doze, nuke logs, apply kernel tweaks. Use WebUI button to edit settings."
+      },
+      "zip": "https://github.com/Drsexo/Frosty/releases/download/4.6/Frosty-4.6.zip",
+      "zip_count": 1,
+      "timestamp": 1794353017,
+      "size": 861599
+    },
     "binarynoise/xposedmodulets": {
       "checked": 1794731822,
       "release_id": 254781290,
@@ -2779,15 +4035,55 @@
     },
     "mlm-games/batstats": {},
     "kaminarich/batteryhoney": {},
-    "draumaz/dozedisabler": {},
-    "farfromrefug/enforcedoze": {},
+    "draumaz/dozedisabler": {
+      "checked": 1794734567,
+      "release_id": 234419307,
+      "valid": true,
+      "prop": {
+        "id": "dozedisabler",
+        "name": "Doze Disabler",
+        "version": "1.2",
+        "versionCode": "3",
+        "author": "draumaz",
+        "description": "Disable Doze on boot, ensuring timely notifications. Expect slightly increased battery usage."
+      },
+      "zip": "https://github.com/draumaz/dozedisabler/releases/download/1.2/dozedisabler-1.2.zip",
+      "zip_count": 1,
+      "timestamp": 1753241688,
+      "size": 1926
+    },
+    "farfromrefug/enforcedoze": {
+      "checked": 1794734570,
+      "release_id": 310757379,
+      "valid": false
+    },
     "skyghost090/extreme-gms-doze": {},
     "kaushikieeee/ghostgms": {},
     "tatshsiow/hyperoptimize": {},
     "xposed-modules-repo/com.op.lspdoze": {},
     "nowakelock/nowakelock": {},
-    "epicmann24/oosgms-optimiser": {},
-    "dijia1124/plusplusbattery": {},
+    "epicmann24/oosgms-optimiser": {
+      "checked": 1794734569,
+      "release_id": 253903786,
+      "valid": true,
+      "prop": {
+        "id": "OOSGMS-OPTIMISER",
+        "name": "Oxygen OS + GMS optimiser",
+        "version": "v1.0.8",
+        "versionCode": "9",
+        "author": "Epicmann24",
+        "description": "Disable some telementry and bloat"
+      },
+      "zip": "https://github.com/epicmann24/OOSGMS-OPTIMISER/releases/download/v1.0.8/OOSGMS-OPTIMISER.zip",
+      "zip_count": 1,
+      "timestamp": 1760278400,
+      "size": 6209
+    },
+    "dijia1124/plusplusbattery": {
+      "checked": 1794734566,
+      "release_id": 264594829,
+      "valid": false
+    },
     "quantom2/realme-gt3-neo5-cpu-limiter": {},
     "marspatrick/universal-gms-doze": {},
     "magisk-modules-alt-repo/xtreme-battery-saver": {},
@@ -2809,7 +4105,23 @@
       "timestamp": 1750848724,
       "size": 941
     },
-    "dev97633/fastcharge-next": {},
+    "dev97633/fastcharge-next": {
+      "checked": 1794734566,
+      "release_id": 308001234,
+      "valid": true,
+      "prop": {
+        "id": "fastcharge-next",
+        "name": "FastCharge Next",
+        "version": "2.0.2",
+        "versionCode": "200",
+        "author": "DEV",
+        "description": "Safely nudge charging current with thermal guard."
+      },
+      "zip": "https://github.com/Dev97633/Fastcharge-next/releases/download/v2.0.2/fastcharge-next-v2.0.2.zip",
+      "zip_count": 1,
+      "timestamp": 1775992646,
+      "size": 20647
+    },
     "northmendo/appzuku": {},
     "unknuw/background-app-slayer": {},
     "aurora-nasa-1/deepsuppressor": {
@@ -2829,7 +4141,23 @@
       "timestamp": 1748760855,
       "size": 2272374
     },
-    "drsexo/greenify4magisk-ksu-reborn": {},
+    "drsexo/greenify4magisk-ksu-reborn": {
+      "checked": 1794734568,
+      "release_id": 286880474,
+      "valid": true,
+      "prop": {
+        "id": "Greenify4MagiskKSUReborn",
+        "name": "Greenify Systemizer",
+        "version": "5.1.1.3",
+        "versionCode": "5113",
+        "author": "DrSexo",
+        "description": "Integrates Greenify as a privileged system app to enable boost mode™, with automatic bulk app list generation."
+      },
+      "zip": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn/releases/download/v5.1.1.3/Greenify4Magisk-KSU-Reborn-v5.1.1.3.zip",
+      "zip_count": 1,
+      "timestamp": 1771252622,
+      "size": 3154802
+    },
     "adil192/no_more_background": {
       "checked": 1794731816,
       "release_id": 363538006,
@@ -2864,7 +4192,11 @@
       "timestamp": 1787535828,
       "size": 258303
     },
-    "demonnica/adaway-helper": {},
+    "demonnica/adaway-helper": {
+      "checked": 1794734566,
+      "release_id": null,
+      "valid": false
+    },
     "xposed-modules-repo/com.close.hook.ads": {},
     "pass-with-high-score/blockads-android": {},
     "pantsufan/blockads": {},
@@ -2880,26 +4212,66 @@
     "magisk-modules-alt-repo/systemless-adblocker": {},
     "ukanth/afwall": {},
     "kin69/athena": {},
-    "dorumrr/de1984": {},
+    "dorumrr/de1984": {
+      "checked": 1794734567,
+      "release_id": 425811536,
+      "valid": false
+    },
     "mirfatif/fyrypt": {},
     "rem01gaming/net-switch": {},
     "m66b/netguard": {},
-    "emanuele-f/pcapdroid": {},
+    "emanuele-f/pcapdroid": {
+      "checked": 1794734568,
+      "release_id": 392508400,
+      "valid": false
+    },
     "ahmetcanarslan/shizuwall": {
       "checked": 1794731817,
       "release_id": 438442132,
       "valid": false
     },
-    "deltazefiro/amarok-hider": {},
+    "deltazefiro/amarok-hider": {
+      "checked": 1794734565,
+      "release_id": 290163277,
+      "valid": false
+    },
     "nitsuya/donottryaccessibility": {},
-    "dorian399/greendothide": {},
+    "dorian399/greendothide": {
+      "checked": 1794734567,
+      "release_id": 412546588,
+      "valid": false
+    },
     "xfqwdsj/iamnotadeveloper": {},
-    "cookieof/imagecopyhide": {},
+    "cookieof/imagecopyhide": {
+      "checked": 1794734564,
+      "release_id": 220784802,
+      "valid": true,
+      "prop": {
+        "id": "image_copy_hide",
+        "name": "ImageCopyHide",
+        "version": "1.0",
+        "versionCode": "2",
+        "author": "openError",
+        "description": "自动复制DCIM文件夹中的文件到/sdcard/wot/cptp目录中并隐藏文件,含开关与日志功能"
+      },
+      "zip": "https://github.com/cookieof/ImageCopyHide/releases/download/V1.0/ImageCopyHide-v1.0.zip",
+      "zip_count": 1,
+      "timestamp": 1748085097,
+      "size": 1854
+    },
     "jhl337/oplus16_hidezoomwindow": {},
-    "dorumrr/privacyflip": {},
+    "dorumrr/privacyflip": {
+      "checked": 1794734567,
+      "release_id": 426091548,
+      "valid": false
+    },
     "sp11xy/stealthdebug": {},
     "lz233/tarnhelm": {},
-    "dszsu/transparent_screenshot": {},
+    "dszsu/transparent_screenshot": {
+      "checked": 1794734568,
+      "release_id": 432148724,
+      "valid": false
+    },
     "katelynthestargazer/turnoffsensors-magisk": {},
     "lsposed/disableflagsecure": {},
     "j-hc/flagsecurepatcher": {},
@@ -2930,7 +4302,11 @@
     "zeltnamizake/drificrack": {},
     "j-hc/ih8securelock": {},
     "hang666/justtrustmepro": {},
-    "chickendrop89/oneshot-extended": {},
+    "chickendrop89/oneshot-extended": {
+      "checked": 1794734562,
+      "release_id": null,
+      "valid": false
+    },
     "khiqwq/pinguard": {},
     "shivamxd6/simple-flag-secure": {},
     "iodn/tap-ducky": {},
@@ -2939,7 +4315,11 @@
     "pyshivam/geergit-discussion": {},
     "xposed-modules-repo/com.wowsoftware.hidemyandroid": {},
     "jqssun/android-mac-editor": {},
-    "davidberdik/macsposed": {},
+    "davidberdik/macsposed": {
+      "checked": 1794734565,
+      "release_id": 371531760,
+      "valid": false
+    },
     "busung-dev/spoofmydevice": {
       "checked": 1794731824,
       "release_id": 356338688,
@@ -2955,19 +4335,51 @@
     "hxreborn/amznkiller": {},
     "xposed-modules-repo/com.niki.breeno.openai": {},
     "lllucccian/deekseep": {},
-    "crazyphil/digitales-amt-liberator": {},
-    "dumbaspl/eds-ng-crack": {},
+    "crazyphil/digitales-amt-liberator": {
+      "checked": 1794734564,
+      "release_id": 194296697,
+      "valid": false
+    },
+    "dumbaspl/eds-ng-crack": {
+      "checked": 1794734568,
+      "release_id": 252122116,
+      "valid": false
+    },
     "fzer0x/dev.fzer0x.fucksolidexplorer": {},
-    "eritpchy/fingerprintpay": {},
+    "eritpchy/fingerprintpay": {
+      "checked": 1794734569,
+      "release_id": 420207075,
+      "valid": true,
+      "prop": {
+        "id": "zygisk-module-xfingerprint-pay-all",
+        "name": "Zygisk - 指纹支付",
+        "version": "v7.0.1",
+        "versionCode": "63",
+        "author": "Jason Eric",
+        "description": "让微信、支付宝、淘宝、QQ、云闪付支持指纹支付 Fingerprint pay for WeChat, Alipay, Taobao, QQ and UnionPay."
+      },
+      "zip": "https://github.com/eritpchy/FingerprintPay/releases/download/7.0.1-ci/zygisk-module-xfingerprint-pay-all-v7.0.1-release.zip",
+      "zip_count": 1,
+      "timestamp": 1792637004,
+      "size": 4597808
+    },
     "mango0oo/g-news-control": {},
     "hxreborn/gboard-material-expressive-black": {},
-    "chenyue404/gboardhook": {},
+    "chenyue404/gboardhook": {
+      "checked": 1794734562,
+      "release_id": 405259798,
+      "valid": false
+    },
     "mino260806/keyboardgpt": {},
     "nawafcode/keyflux": {},
     "niki914/agentic-nexus": {},
     "h3nnes/nsg-tweaks": {},
     "hxreborn/playstore-adblock": {},
-    "dertyp7214/rboardthememanagerv3": {},
+    "dertyp7214/rboardthememanagerv3": {
+      "checked": 1794734566,
+      "release_id": 275641957,
+      "valid": false
+    },
     "amarinne/spicy-ex": {
       "checked": 1794731818,
       "release_id": 430408487,
@@ -2978,7 +4390,11 @@
     "tianci-sh/xptranslatetext": {},
     "revealedsouleven/xposedphotosfix": {},
     "xposed-modules-repo/ru.bluecat.yandexmapspatcher": {},
-    "errorman-awful/ymdownloaderxposed": {},
+    "errorman-awful/ymdownloaderxposed": {
+      "checked": 1794734569,
+      "release_id": 269331238,
+      "valid": false
+    },
     "hsskyboy/bbzq": {},
     "c0c0b01/kettuxposed": {
       "checked": 1794731824,
@@ -2995,7 +4411,11 @@
       "valid": false
     },
     "xposed-modules-repo/lin.xposed": {},
-    "cinit/qauxiliary": {},
+    "cinit/qauxiliary": {
+      "checked": 1794734563,
+      "release_id": 346792285,
+      "valid": false
+    },
     "oneqaqone/qfun": {},
     "callng/tcqt": {
       "checked": 1794731824,
@@ -3019,7 +4439,11 @@
     },
     "xposed-modules-repo/ru.mike.sidestories": {},
     "xposed-modules-repo/com.my.televip": {},
-    "cinit/tmoe": {},
+    "cinit/tmoe": {
+      "checked": 1794734563,
+      "release_id": null,
+      "valid": false
+    },
     "twyora/douyinenhancer": {},
     "0mnr0/tiktokantiburn": {
       "checked": 1794731814,
@@ -3030,10 +4454,18 @@
     "hdshare/wauxiliary_public": {},
     "libingtong/wepadbridge": {},
     "xposed-modules-repo/com.skyhand.sinahelper": {},
-    "dev4mod/waenhancer": {},
+    "dev4mod/waenhancer": {
+      "checked": 1794734566,
+      "release_id": 437806357,
+      "valid": false
+    },
     "mubashardev/waenhancerx": {},
     "revealedsouleven/waplusxposed": {},
-    "crimera/piko": {},
+    "crimera/piko": {
+      "checked": 1794734564,
+      "release_id": 440367926,
+      "valid": false
+    },
     "xposed-modules-repo/one.dot.rex": {},
     "jingmatrix/chromext": {},
     "jigurolgc/bettervia": {},
@@ -3043,7 +4475,11 @@
       "release_id": 258580762,
       "valid": false
     },
-    "duhmatt/fxxk-mibrowser": {},
+    "duhmatt/fxxk-mibrowser": {
+      "checked": 1794734568,
+      "release_id": 382284246,
+      "valid": false
+    },
     "lm060719/io.mo.glassmic": {},
     "nexalloy/nexalloy": {},
     "magisk-modules-alt-repo/oneplus-8series-9r-camera-unlocker": {},
@@ -3072,7 +4508,11 @@
     "xayahsususu/android-databackup": {},
     "neoapplications/neo-backup": {},
     "hddq/restoid": {},
-    "d4rken-org/sdmaid-se": {},
+    "d4rken-org/sdmaid-se": {
+      "checked": 1794734564,
+      "release_id": 417604438,
+      "valid": false
+    },
     "s123123sd/smartclear": {},
     "weirdmidas/basiccleaner": {},
     "araafroyall/cleaner-royall": {
@@ -3083,13 +4523,45 @@
     "flycom-e/clearbox": {},
     "rhythmcache/partition-backup": {},
     "theblazehen/sd_flasher": {},
-    "enginex0/usbmassstorage": {},
+    "enginex0/usbmassstorage": {
+      "checked": 1794734569,
+      "release_id": 304731556,
+      "valid": true,
+      "prop": {
+        "id": "usbmassstorage",
+        "name": "USB Mass Storage",
+        "version": "v5.0",
+        "versionCode": "500",
+        "author": "Enginex0",
+        "description": "💾 USB Mass Storage gadget controller · Turn your phone into a USB drive · KernelSU / Magisk / APatch"
+      },
+      "zip": "https://github.com/Enginex0/UsbMassStorage/releases/download/v5.0/UsbMassStorage-v5.0.zip",
+      "zip_count": 2,
+      "timestamp": 1775143920,
+      "size": 6138629
+    },
     "mahmud0808/colorblendr": {},
     "richardluo0/global-icon-pack-android": {},
     "kiminonawaresa/hyperlight": {},
     "mods-center/hyperos-theme-manager": {},
     "mahmud0808/iconify": {},
-    "fakerieh/lite-blur-control-center-for-hyperos2": {},
+    "fakerieh/lite-blur-control-center-for-hyperos2": {
+      "checked": 1794734571,
+      "release_id": 323645900,
+      "valid": true,
+      "prop": {
+        "id": "LiteBlur",
+        "name": "Lite Blur HyperOS 2.0 & 2.2",
+        "version": "Lite (Animation ver.)",
+        "versionCode": "100",
+        "author": "Fakh",
+        "description": "Release blur on HyperOS 2.0 & 2.2 but LIGHTER! (some features are disabled so that's why it's lighter) ported from garnet"
+      },
+      "zip": "https://github.com/fakerieh/Lite-Blur-Control-Center-for-HyperOS/releases/download/RELEASE-16-MAY-2026/Lite.Blur.HyperOS.2.0.2.2.-.Animation.zip",
+      "zip_count": 13,
+      "timestamp": 1778924122,
+      "size": 32038310
+    },
     "kaerushi/monetify": {},
     "goooler/lawnchairrelease": {},
     "sdex/activitymanager": {},
@@ -3108,21 +4580,49 @@
     "magisk-modules-alt-repo/hidenavbar": {},
     "hxreborn/qs-boundless-tiles": {},
     "young-lord/hiderecent": {},
-    "elilei/multifingergesturex": {},
+    "elilei/multifingergesturex": {
+      "checked": 1794734568,
+      "release_id": 351050899,
+      "valid": false
+    },
     "tanujnotes/ogesture": {},
     "itoseo/opluskey": {},
     "tymwitko/recents": {},
     "hxreborn/three-finger-swipe": {},
     "hepolise/volumekeytrackcontrolmodule": {},
-    "farfromrefug/volumescroll": {},
-    "dedeadend/evilfont": {},
+    "farfromrefug/volumescroll": {
+      "checked": 1794734570,
+      "release_id": 253421966,
+      "valid": false
+    },
+    "dedeadend/evilfont": {
+      "checked": 1794734565,
+      "release_id": 368538411,
+      "valid": false
+    },
     "ripperhybrid/fontcraft": {},
     "jingmatrix/fontloader": {},
     "mars-wave/jetbrains-font-magisk-module": {},
     "n4bi10p/ios-emoji": {},
     "jingmatrix/magiskfonts": {},
     "keinta15/magisk-ios-emoji": {},
-    "dethbyte64/magisk-minecraft-font": {},
+    "dethbyte64/magisk-minecraft-font": {
+      "checked": 1794734566,
+      "release_id": 217685961,
+      "valid": true,
+      "prop": {
+        "id": "MinecraftFont",
+        "name": "MinecraftFont",
+        "version": "1.0.0",
+        "versionCode": "100",
+        "author": "DethByte64",
+        "description": "Systemless Minecraft Font"
+      },
+      "zip": "https://github.com/DethByte64/Magisk-Minecraft-Font/releases/download/v1.0.0/MinecraftFont.zip",
+      "zip_count": 1,
+      "timestamp": 1746819273,
+      "size": 21931
+    },
     "numbersf/makefontsgreatagain": {},
     "adivenxnataly/misans": {
       "checked": 1794731816,
@@ -3155,7 +4655,11 @@
     },
     "xposed-modules-repo/io.github.howard20181.notificationiconfix": {},
     "hxreborn/punch-hole-download-progress": {},
-    "domi04151309/alwayson": {},
+    "domi04151309/alwayson": {
+      "checked": 1794734567,
+      "release_id": 217792998,
+      "valid": false
+    },
     "andrea-lyz/coloros-live-lyrics-bridge": {
       "checked": 1794731819,
       "release_id": 439952597,
@@ -3175,7 +4679,11 @@
     },
     "kwensiu/dpis": {},
     "thesandipv/pointer_replacer": {},
-    "dantmnf/pseudodcdimming": {},
+    "dantmnf/pseudodcdimming": {
+      "checked": 1794734565,
+      "release_id": 226215300,
+      "valid": false
+    },
     "kazutoiris/pureshot": {},
     "astoritin/rotationsuggestionsclosed": {
       "checked": 1794731821,
@@ -3263,15 +4771,55 @@
       "size": 18038
     },
     "twoone-3/adguardhomeforroot": {},
-    "elowry/dnstoggle": {},
+    "elowry/dnstoggle": {
+      "checked": 1794734568,
+      "release_id": 438192039,
+      "valid": false
+    },
     "luferos/forcedns_magisk-kernelsu": {},
     "ingozenz/personaldnsfilter": {},
-    "desktopecho/pi-hole-for-android": {},
+    "desktopecho/pi-hole-for-android": {
+      "checked": 1794734566,
+      "release_id": 203367325,
+      "valid": false
+    },
     "tkocean/aurora": {},
     "taamarin/box_for_magisk": {},
-    "chizi-0618/box4magisk": {},
+    "chizi-0618/box4magisk": {
+      "checked": 1794734563,
+      "release_id": 175161730,
+      "valid": true,
+      "prop": {
+        "id": "box4",
+        "name": "box4magisk",
+        "version": "v5.1",
+        "versionCode": "2024091613",
+        "author": "CHIZI-0618",
+        "description": "Use sing-box, clash, v2ray, xray tunnel proxy on Android devices."
+      },
+      "zip": "https://github.com/CHIZI-0618/box4magisk/releases/download/v5.1/box4_v5.1.zip",
+      "zip_count": 1,
+      "timestamp": 1726465322,
+      "size": 39555
+    },
     "omegaplexx/happwner": {},
-    "fanju6/netproxy-magisk": {},
+    "fanju6/netproxy-magisk": {
+      "checked": 1794734570,
+      "release_id": 442680485,
+      "valid": true,
+      "prop": {
+        "id": "netproxy",
+        "name": "NetProxy",
+        "version": "v8.7.0",
+        "versionCode": "1100",
+        "author": "Fanju",
+        "description": "基于 sing-box 内核的透明代理工具"
+      },
+      "zip": "https://github.com/Fanju6/NetProxy-Magisk/releases/download/v8.7.0/NetProxy_v8.7.0_1100.zip",
+      "zip_count": 1,
+      "timestamp": 1794472839,
+      "size": 27525137
+    },
     "ruslanuc/novpndetect": {},
     "bluecat300/novpndetectenhanced": {
       "checked": 1794731823,
@@ -3288,7 +4836,23 @@
     "mygod/vpnhotspot": {},
     "sevcator/zapret-magisk": {},
     "game-over-op/zdt-d": {},
-    "eventlowop/zerotier-magisk": {},
+    "eventlowop/zerotier-magisk": {
+      "checked": 1794734570,
+      "release_id": 211743732,
+      "valid": true,
+      "prop": {
+        "id": "zerotier",
+        "name": "ZeroTier for Magisk",
+        "version": "v1.14.0",
+        "versionCode": "114",
+        "author": "eventlOwOp",
+        "description": "zerotier for magisk"
+      },
+      "zip": "https://github.com/eventlOwOp/zerotier-magisk/releases/download/v1.14.2-2/zerotier-magisk-aarch64-gcc-e2c0c3a.zip",
+      "zip_count": 6,
+      "timestamp": 1744351021,
+      "size": 1817867
+    },
     "lightjunction/magicnet": {},
     "newfuture/magisk-modules": {},
     "buttercookie42/simbadroid": {
@@ -3296,7 +4860,23 @@
       "release_id": 256150632,
       "valid": false
     },
-    "fatalcoder524/tcp_optimiser_module": {},
+    "fatalcoder524/tcp_optimiser_module": {
+      "checked": 1794734570,
+      "release_id": 347245792,
+      "valid": true,
+      "prop": {
+        "id": "tcp_optimiser",
+        "name": "TCP Optimiser",
+        "version": "2.5",
+        "versionCode": "17",
+        "author": "fatalcoder524",
+        "description": "TCP Optimisations & update tcp_cong_algo based on interface"
+      },
+      "zip": "https://github.com/fatalcoder524/TCP_Optimiser_Module/releases/download/v2.5/TCP_Optimiser-2.5-17.zip",
+      "zip_count": 1,
+      "timestamp": 1782886958,
+      "size": 396040
+    },
     "buffcow/hyper5gswitch": {
       "checked": 1794731824,
       "release_id": null,
@@ -3323,7 +4903,11 @@
       "release_id": 417125183,
       "valid": false
     },
-    "cxorz/anywhere": {},
+    "cxorz/anywhere": {
+      "checked": 1794734564,
+      "release_id": 445406142,
+      "valid": false
+    },
     "jqssun/android-gps-setter": {},
     "auag0/hidemocklocation": {
       "checked": 1794731820,
@@ -3362,14 +4946,42 @@
     "yinwanxi/uperf-game-turbo": {},
     "nitanmarcel/boosteroidplus": {},
     "termux/termux-app": {},
-    "digijeth/vm_magisk_module": {},
-    "dp-hridayan/ashellyou": {},
+    "digijeth/vm_magisk_module": {
+      "checked": 1794734566,
+      "release_id": null,
+      "valid": false
+    },
+    "dp-hridayan/ashellyou": {
+      "checked": 1794734567,
+      "release_id": 327717052,
+      "valid": false
+    },
     "ishu43642/termux-root-recovery-tool": {},
     "rompelhd/termuxrootmods": {},
-    "evdenis/adb_root": {},
+    "evdenis/adb_root": {
+      "checked": 1794734569,
+      "release_id": 291298847,
+      "valid": true,
+      "prop": {
+        "id": "adb_root",
+        "name": "ADB Root",
+        "version": "v2.0",
+        "versionCode": "2",
+        "author": "Denis Efremov (@evdenis)",
+        "description": "Allows to \"adb root\" regardless of props settings and skips usb keys auth. Kind of \"adbd Insecure\" as a Magisk Module. Arm64 only. Android 9/10 only."
+      },
+      "zip": "https://github.com/evdenis/adb_root/releases/download/v2.0/adb_root-v2.0.zip",
+      "zip_count": 1,
+      "timestamp": 1772187907,
+      "size": 677181
+    },
     "warren-bank/android-adb-over-wifi": {},
     "thepedroo/debugassistant": {},
-    "droserasprout/io.drsr.hotspotadb": {},
+    "droserasprout/io.drsr.hotspotadb": {
+      "checked": 1794734567,
+      "release_id": 355999375,
+      "valid": false
+    },
     "tytydraco/ladb": {},
     "hxreborn/log-catcher": {},
     "mrh929/magisk-wifiadb": {},
@@ -3385,17 +4997,41 @@
       "valid": false
     },
     "mrakorez/py2droid": {},
-    "evdenis/selinux_permissive": {},
+    "evdenis/selinux_permissive": {
+      "checked": 1794734569,
+      "release_id": 294274209,
+      "valid": true,
+      "prop": {
+        "id": "selinux_permissive",
+        "name": "SELinux Permissive",
+        "version": "v3.1",
+        "versionCode": "4",
+        "author": "Denis Efremov (@evdenis)",
+        "description": "Switch SELinux to permissive mode and hide permissive state from apps."
+      },
+      "zip": "https://github.com/evdenis/selinux_permissive/releases/download/v3.1/selinux_permissive-v3.1.zip",
+      "zip_count": 1,
+      "timestamp": 1772904261,
+      "size": 3466
+    },
     "hmndev-tech/shevery": {},
     "rikkaapps/shizuku": {},
     "hansobored/zygisk-loader": {},
     "ravindu644/droidspaces-oss": {},
     "hansobored/auto-linux": {},
-    "cipherswami/boot-nethunter": {},
+    "cipherswami/boot-nethunter": {
+      "checked": 1794734563,
+      "release_id": 342072936,
+      "valid": false
+    },
     "magisk-modules-alt-repo/chroot-distro": {},
     "nicup14/debdroid": {},
     "mgksu/dockerd": {},
-    "desktopecho/trixie.apk": {},
+    "desktopecho/trixie.apk": {
+      "checked": 1794734566,
+      "release_id": 264388254,
+      "valid": false
+    },
     "ravindu644/ubuntu-chroot": {},
     "poweran2020/crond4android": {},
     "afan4724/gyrohook": {
@@ -3417,11 +5053,31 @@
     "newfuture/rclone-fuse3-magisk": {},
     "katelynthestargazer/rsync-magisk": {},
     "xposed-modules-repo/com.sui.advancedpowermenu": {},
-    "daisukikaffuchino/rebootnya": {},
+    "daisukikaffuchino/rebootnya": {
+      "checked": 1794734564,
+      "release_id": 373601979,
+      "valid": false
+    },
     "hxreborn/cleanshare": {},
     "kaduvert/aclipboardmanager": {},
     "yureitzk/nophotopickerapi": {},
-    "chenxiaolong/bcr": {},
+    "chenxiaolong/bcr": {
+      "checked": 1794734562,
+      "release_id": 413371032,
+      "valid": true,
+      "prop": {
+        "id": "com.chiller3.bcr",
+        "name": "BCR",
+        "version": "v3.11",
+        "versionCode": "199424",
+        "author": "chenxiaolong",
+        "description": "Basic Call Recorder"
+      },
+      "zip": "https://github.com/chenxiaolong/BCR/releases/download/v3.11/BCR-3.11-release.zip",
+      "zip_count": 1,
+      "timestamp": 1792032821,
+      "size": 2787358
+    },
     "xiaomihongzhaji/xposedforwardsms": {},
     "sameerasw/essentials": {},
     "lzghzr/apatch_kpm": {},

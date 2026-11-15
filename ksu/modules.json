@@ -1,5 +1,33 @@
 [
   {
+    "name": "ADB Root",
+    "description": "Allows to \"adb root\" regardless of props settings and skips usb keys auth. Kind of \"adbd Insecure\" as a Magisk Module. Arm64 only. Android 9/10 only.",
+    "author": "Denis Efremov (@evdenis)",
+    "repoUrl": "https://github.com/evdenis/adb_root",
+    "visibility": 1
+  },
+  {
+    "name": "altdb",
+    "description": "Alternative adb server over local network",
+    "author": "Nullptr",
+    "repoUrl": "https://github.com/dr-tsng/altdb",
+    "visibility": 1
+  },
+  {
+    "name": "AlterInstaller",
+    "description": "Change PackageManager installer fields on boot",
+    "author": "chenxiaolong",
+    "repoUrl": "https://github.com/chenxiaolong/AlterInstaller",
+    "visibility": 1
+  },
+  {
+    "name": "Analytics Disabler for Android",
+    "description": "Analytics Disabler for Android",
+    "author": "CEKA",
+    "repoUrl": "https://github.com/ddceka/android-analytics-disabler",
+    "visibility": 1
+  },
+  {
     "name": "Android PPPoE Enabler",
     "description": "Enables PPPoE dialing capability on Android 13+ using pppd 2.5.3-dev.",
     "author": "Brill",
@@ -21,6 +49,20 @@
     "visibility": 1
   },
   {
+    "name": "App Nuker",
+    "description": "WebUI-based debloater and whiteout creator",
+    "author": "ChiseWaguri & Contributors",
+    "repoUrl": "https://github.com/ChiseWaguri/systemapp_nuker",
+    "visibility": 1
+  },
+  {
+    "name": "AppOpt 线程优化",
+    "description": "按规则将应用/游戏线程绑定到指定 CPU 核心的线程优化模块, 支持 包名=auto 自动校准生成大小核分配规则。配置文件: /data/adb/modules/AppOpt/config/applist.conf",
+    "author": "suto & 一只小柒夏",
+    "repoUrl": "https://github.com/cinitdev/appopt",
+    "visibility": 1
+  },
+  {
     "name": "AY Lightning Pro",
     "description": "AY Lightning Pro v12 | Ultimate Black & Gold | Capability-aware controls | Reversible changes | OEM thermal protection preserved",
     "author": "Eng/ Ahmed Yasir",
@@ -28,10 +70,38 @@
     "visibility": 1
   },
   {
+    "name": "Background Keepalive",
+    "description": "Keeps user-selected apps background-exempt and restores dropped accessibility bindings every 3 minutes, without rebinding services that are already healthy.",
+    "author": "michaelqiu",
+    "repoUrl": "https://github.com/cpufreestyle/bg-keepalive",
+    "visibility": 1
+  },
+  {
+    "name": "BCR",
+    "description": "Basic Call Recorder",
+    "author": "chenxiaolong",
+    "repoUrl": "https://github.com/chenxiaolong/BCR",
+    "visibility": 1
+  },
+  {
     "name": "bindhosts",
     "description": "Systemless hosts for APatch, KernelSU and Magisk",
     "author": "xx, KOWX712",
     "repoUrl": "https://github.com/bindhosts/bindhosts",
+    "visibility": 1
+  },
+  {
+    "name": "box4magisk",
+    "description": "Use sing-box, clash, v2ray, xray tunnel proxy on Android devices.",
+    "author": "CHIZI-0618",
+    "repoUrl": "https://github.com/CHIZI-0618/box4magisk",
+    "visibility": 1
+  },
+  {
+    "name": "CarOS Profile Switcher (Wired & Wireless AA)",
+    "description": "Auto WIRED/WIRELESS switching + Smart WiFi + Nova default + fast charge limit. Config: /sdcard/CarOS/config.env. v0.2.3: Smart WiFi + VW Polo 6 compatible + Auto permissions",
+    "author": "Vincent+ChatGPT",
+    "repoUrl": "https://github.com/doezer/caros-profile-switcher",
     "visibility": 1
   },
   {
@@ -56,6 +126,13 @@
     "visibility": 1
   },
   {
+    "name": "CMF Phone 1 Dual Speaker (mono / stereo)",
+    "description": "Real left/right stereo on the CMF Phone 1 (A015) from the earpiece and the bottom speaker, following the screen when the phone is turned. Mono (stock, with Awinic speaker protection) or Stereo, switched at once from the app, stereoctl or the Action button. Patches only this phone's verified vendor files; back to mono after two failed boots.",
+    "author": "Dr.Essence",
+    "repoUrl": "https://github.com/dr-essence/cmf-true-stereo",
+    "visibility": 1
+  },
+  {
     "name": "CODM 120 FPS + Control (cualquier telefono, cualquier cuenta) · by AJ",
     "description": "by AJ. 120 FPS de CODM en cualquier telefono Android 11+ con root y cualquier cuenta: descubre paquetes global/Garena/Tencent/VNG, sigue la cuenta activa, mantiene el 120 ya activado en el juego y guarda/restaura los originales por cuenta. En dm3q conserva el spoof NX789J + capa Vulkan + audio verificados; en el resto no toca identidad (spoof=compa",
     "author": "AJ",
@@ -77,10 +154,24 @@
     "visibility": 1
   },
   {
+    "name": "Disable FUSE-BPF",
+    "description": "Disables FUSE-BPF to restore Android/data access on affected ROMs and kernels.",
+    "author": "Danish Ali",
+    "repoUrl": "https://github.com/danish3311/disable-fuse-bpf",
+    "visibility": 1
+  },
+  {
     "name": "Disable Touch + Backlight for Foxxd A67L",
     "description": "Disables touchscreen & backlight brightness at boot",
     "author": "1ndevelopment",
     "repoUrl": "https://github.com/1ndevelopment/foxxd_a67l_touch_backlight_disabler",
+    "visibility": 1
+  },
+  {
+    "name": "Doze Disabler",
+    "description": "Disable Doze on boot, ensuring timely notifications. Expect slightly increased battery usage.",
+    "author": "draumaz",
+    "repoUrl": "https://github.com/draumaz/dozedisabler",
     "visibility": 1
   },
   {
@@ -119,6 +210,20 @@
     "visibility": 1
   },
   {
+    "name": "FastCharge Next",
+    "description": "Safely nudge charging current with thermal guard.",
+    "author": "DEV",
+    "repoUrl": "https://github.com/Dev97633/Fastcharge-next",
+    "visibility": 1
+  },
+  {
+    "name": "Font Google Sans Flex",
+    "description": "Systemlessly replaces Android system fonts with Google Sans Flex (official v4.005, internally renamed Roboto for correct Gecko/Firefox rendering) + Google Sans fallback for Cyrillic/Greek + stock Roboto safety net for everything else. Auto-installs full Roboto set + compatibility goodies, no prompts.",
+    "author": "ethanm6, forked from AndroSYNC",
+    "repoUrl": "https://github.com/ethanm6/google-sans-flex-magisk",
+    "visibility": 1
+  },
+  {
     "name": "FOXXD A67L Incoming Call Fix",
     "description": "Fixes incoming calls on FOXXD A67L (SC9863A) with GSI. AT&T requires VoLTE. Uses stock Unisoc IMS stack (com.spreadtrum.ims) instead of FLOSS IMS. Includes ims_bridged daemon, IImsRadio AIDL client, and VoLTE enablement.",
     "author": "1ndevelopment",
@@ -130,6 +235,20 @@
     "description": "Seamless Frida Server installation and management for rooted Android devices",
     "author": "AyusmanNanda",
     "repoUrl": "https://github.com/ayusmannanda/fridamanager",
+    "visibility": 1
+  },
+  {
+    "name": "Frosty - Battery Saver",
+    "description": "Maximum battery saving and GMS optimization. Freeze GMS services, enable doze, nuke logs, apply kernel tweaks. Use WebUI button to edit settings.",
+    "author": "DrSexo",
+    "repoUrl": "https://github.com/Drsexo/Frosty",
+    "visibility": 1
+  },
+  {
+    "name": "Galaxy multiuser enabler",
+    "description": "KernelSU module for enabling Android multi-user properties on Samsung Galaxy devices.",
+    "author": "Elvex10",
+    "repoUrl": "https://github.com/elvex10/galaxy-multiuser",
     "visibility": 1
   },
   {
@@ -161,6 +280,27 @@
     "visibility": 1
   },
   {
+    "name": "GrabNetPrinter",
+    "description": "Optional support module: seeds a legacy config file and log for the GrabNetPrinter LSPosed module. The normal configuration is done in the GrabNetPrinter settings app.",
+    "author": "GrabNetPrinter contributors",
+    "repoUrl": "https://github.com/caullenomdahl/grab-netprinter",
+    "visibility": 1
+  },
+  {
+    "name": "Greenify Systemizer",
+    "description": "Integrates Greenify as a privileged system app to enable boost mode™, with automatic bulk app list generation.",
+    "author": "DrSexo",
+    "repoUrl": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn",
+    "visibility": 1
+  },
+  {
+    "name": "HermesAndroid",
+    "description": "Install Hermes Agent on Android Root via Magisk/KernelSU.",
+    "author": "TDat",
+    "repoUrl": "https://github.com/dat-hoangnguyentuandat/hermesandroid",
+    "visibility": 1
+  },
+  {
     "name": "High Performance DAC",
     "description": "Kernel-level audio tuning module for Qualcomm devices that enables existing WCD9xx codec performance modes when supported by the kernel.",
     "author": "ahkehra",
@@ -179,6 +319,27 @@
     "description": "A magisk module for devices running on Dimensity flagship platforms and OnePlus, Realme devices. FOSS [M]",
     "author": "AB & Ray",
     "repoUrl": "https://github.com/AestasBritannia/Hydro-Br-leur",
+    "visibility": 1
+  },
+  {
+    "name": "HyperOS accessibility fix",
+    "description": "Stop HyperOS from randomly disabling accessibility services | Click Action to view logs",
+    "author": "chkndrp",
+    "repoUrl": "https://github.com/chickendrop89/hyperos-accessibility-fix",
+    "visibility": 1
+  },
+  {
+    "name": "ImageCopyHide",
+    "description": "自动复制DCIM文件夹中的文件到/sdcard/wot/cptp目录中并隐藏文件,含开关与日志功能",
+    "author": "openError",
+    "repoUrl": "https://github.com/cookieof/ImageCopyHide",
+    "visibility": 1
+  },
+  {
+    "name": "IMEI Privacy Shield",
+    "description": "查找设备自动适配、自检及失败断网保护（需 root+LSPosed，完整安装后重启）",
+    "author": "dsh",
+    "repoUrl": "https://github.com/chengdong-yu/imei-privacy",
     "visibility": 1
   },
   {
@@ -203,6 +364,41 @@
     "visibility": 1
   },
   {
+    "name": "lkm4ctr Kernel Module",
+    "description": "Auto-load lkm4ctr.ko enables Docker and containers on all currently released arm64 Android GKI KMIs; no custom kernel flash.",
+    "author": "cyanmint",
+    "repoUrl": "https://github.com/cyanmint/lkm4ctr",
+    "visibility": 1
+  },
+  {
+    "name": "Magisk SwapSpace",
+    "description": "Create a persistent swap space on android (magiskswap in terminal)",
+    "author": "chickendrop89",
+    "repoUrl": "https://github.com/chickendrop89/magisk-swapspace",
+    "visibility": 1
+  },
+  {
+    "name": "Maple Mono system font",
+    "description": "Replaces Roboto, Google Sans and the monospace font with Maple Mono NL v7.9 (variable wght). Disable this module to restore the stock fonts.",
+    "author": "ligt",
+    "repoUrl": "https://github.com/duyquang6/maple-mono-android",
+    "visibility": 1
+  },
+  {
+    "name": "MinecraftFont",
+    "description": "Systemless Minecraft Font",
+    "author": "DethByte64",
+    "repoUrl": "https://github.com/DethByte64/Magisk-Minecraft-Font",
+    "visibility": 1
+  },
+  {
+    "name": "MiThermal Tuner",
+    "description": "小米温控实时监控与调节：解密/修改 mi_thermald 场景配置，实时限制 CPU/GPU/充电电流，附图形界面 App。作者：达人怪（微信 UVWAPP）",
+    "author": "达人怪",
+    "repoUrl": "https://github.com/colorxi/mithermaltuner",
+    "visibility": 1
+  },
+  {
     "name": "MITM CA System Trust",
     "description": "Trust custom interception CA certificates (Proxyman, Charles, Burp Suite, Wireshark) system-wide. Additive only: stock certificates are never removed or overwritten.",
     "author": "bapirex",
@@ -217,10 +413,31 @@
     "visibility": 1
   },
   {
+    "name": "NetProxy",
+    "description": "基于 sing-box 内核的透明代理工具",
+    "author": "Fanju",
+    "repoUrl": "https://github.com/Fanju6/NetProxy-Magisk",
+    "visibility": 1
+  },
+  {
     "name": "NLSound",
     "description": "This module globally improves audio quality when recording video/audio and listening to audio on your device. Support: @nlsound_support | Channel: @nlsound_updates",
     "author": "NLSound Team",
     "repoUrl": "https://github.com/Briclyaz/NLSound_module_QCom",
+    "visibility": 1
+  },
+  {
+    "name": "NM/ZM Conflict Scanner",
+    "description": "Scan-only tool. Detects shell commands in installed modules that may conflict with NoMount/ZeroMount. Runs during install, prints results, then aborts (no module is left behind).",
+    "author": "chandr1000",
+    "repoUrl": "https://github.com/chandr1000/nm-compat-scanner",
+    "visibility": 1
+  },
+  {
+    "name": "Noto Color Emoji (Current)",
+    "description": "Systemlessly replaces the stock emoji font with the current build straight from Google's googlefonts/noto-emoji repo — same art style Pixel ships, just not frozen at whatever Unicode version your ROM shipped with. A CI job checks upstream daily and cuts a new release automatically when Google updates it.",
+    "author": "ethanm6",
+    "repoUrl": "https://github.com/ethanm6/noto-emoji-magisk",
     "visibility": 1
   },
   {
@@ -231,10 +448,24 @@
     "visibility": 1
   },
   {
+    "name": "OnePlus 15 BeiDou GNSS Guard",
+    "description": "Repairs both Qualcomm GNSS EFS masks to 0x5905 and reloads GNSS after SIM/eSIM changes. CPH2749/24863 only.",
+    "author": "christuo-dev",
+    "repoUrl": "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard",
+    "visibility": 1
+  },
+  {
     "name": "OneUI 7 Emoji Pack",
     "description": "**Default emojis may restore after reinstalling/updating apps or clearing app data. Tap the Action button to apply OneUI emojis. If the issue persists, reboot your device.**",
     "author": "𝙰𝚛𝚊𝚗𝚢𝚊🧃 || t.me/aloozchips",
     "repoUrl": "https://github.com/aloozchips/OneUIEmojiPack",
+    "visibility": 1
+  },
+  {
+    "name": "Oxygen OS + GMS optimiser",
+    "description": "Disable some telementry and bloat",
+    "author": "Epicmann24",
+    "repoUrl": "https://github.com/epicmann24/OOSGMS-OPTIMISER",
     "visibility": 1
   },
   {
@@ -252,6 +483,20 @@
     "visibility": 1
   },
   {
+    "name": "Pixel 9 Pro XL (KOMODO_BETA) Props",
+    "description": "Spoof your device props to KOMODO_BETA [DP11.261030.003] (Oct 2026)",
+    "author": "Elcapitanoe, Tesla",
+    "repoUrl": "https://github.com/Elcapitanoe/Komodo-Build-Prop",
+    "visibility": 1
+  },
+  {
+    "name": "Pixel 9 Series Supercharger",
+    "description": "Status: v2.6.7 | Integrated Thermal | Thermal off by default",
+    "author": "Drizzy_07",
+    "repoUrl": "https://github.com/drizzy07x/supercharger_pixel_9_series",
+    "visibility": 1
+  },
+  {
     "name": "Pixel Launcher (Android 11)",
     "description": "Android 11 sistem düzeyinde Pixel Launcher modülü.",
     "author": "Google LLC",
@@ -266,6 +511,13 @@
     "visibility": 1
   },
   {
+    "name": "playcurlNEXT",
+    "description": "Automatic fingerprint downloader for play integrity fix.",
+    "author": "daboynb",
+    "repoUrl": "https://github.com/daboynb/playcurlNEXT",
+    "visibility": 1
+  },
+  {
     "name": "PrivApp Systemizer (Modern)",
     "description": "Modern systemless app systemizer for Android 10-15+ with interactive KsuWebUI interface and CLI. Converts user apps, split APKs, and standalone APKs into system priv-app or app.",
     "author": "Ayoubvvch",
@@ -277,6 +529,13 @@
     "description": "Dashboard WebUI serbaguna untuk Android. Mendukung Box for Root (Taamarin). Port 80. Akses dari http://IP_HP_KAMU.",
     "author": "MarkX (@ntpsbl)",
     "repoUrl": "https://github.com/adrianageng7/projectx-webui",
+    "visibility": 1
+  },
+  {
+    "name": "Render Switcher",
+    "description": "Per-app HWUI renderer isolation (Vulkan / OpenGL).",
+    "author": "EXLOUD",
+    "repoUrl": "https://github.com/exloud/render-switcher",
     "visibility": 1
   },
   {
@@ -308,6 +567,20 @@
     "visibility": 1
   },
   {
+    "name": "SELinux Permissive",
+    "description": "Switch SELinux to permissive mode and hide permissive state from apps.",
+    "author": "Denis Efremov (@evdenis)",
+    "repoUrl": "https://github.com/evdenis/selinux_permissive",
+    "visibility": 1
+  },
+  {
+    "name": "SMB智能同步",
+    "description": "智能同步 SMB 照相馆内容。功能：自动限频降速、唤醒 Google Photos 同步、检测 UI 进度并自动锁屏。支持全局 config 配置。",
+    "author": "Charles_Gool",
+    "repoUrl": "https://github.com/charlesgool/smb_smart_sync",
+    "visibility": 1
+  },
+  {
     "name": "Sound universal 🎧",
     "description": "Liquid-glass audio DSP WebUI with config import/export; native effects need a compatible legacy/HIDL audio HAL; hook overlay is staged under system/<partition> and verified live (boot check + Check hook button).",
     "author": "Rye | credit: ryetechnologia",
@@ -315,10 +588,52 @@
     "visibility": 1
   },
   {
+    "name": "Specter",
+    "description": "Unified Play Integrity and root hiding stack for Android",
+    "author": "dpejoh",
+    "repoUrl": "https://github.com/dpejoh/specter",
+    "visibility": 1
+  },
+  {
+    "name": "TCP Optimiser",
+    "description": "TCP Optimisations & update tcp_cong_algo based on interface",
+    "author": "fatalcoder524",
+    "repoUrl": "https://github.com/fatalcoder524/TCP_Optimiser_Module",
+    "visibility": 1
+  },
+  {
+    "name": "Thor Automatic Time Zone",
+    "description": "Native offline location time zone provider for the Android 13 AYN Thor",
+    "author": "Darkaxt",
+    "repoUrl": "https://github.com/darkaxt/thorautotimezone",
+    "visibility": 1
+  },
+  {
     "name": "Tricky Store",
     "description": "A trick of keystore",
     "author": "5ec1cff, aviraxp and Cyberenchanter",
     "repoUrl": "https://github.com/5ec1cff/TrickyStore",
+    "visibility": 1
+  },
+  {
+    "name": "TunClash 内核",
+    "description": "Root 级 mihomo 透明代理（TUN 全局接管，不占用 VPN 入口）。内置 WebUI，可脱离 App 独立使用；配合 TunClash App 体验更佳。",
+    "author": "TunClash",
+    "repoUrl": "https://github.com/de4869/tunclash",
+    "visibility": 1
+  },
+  {
+    "name": "TVRemoteWeb",
+    "description": "Phone remote, mouse drag, picture profiles, monitoring, and photo-assisted projector alignment.",
+    "author": "disc0nnctd",
+    "repoUrl": "https://github.com/disc0nnctd/tvremoteweb",
+    "visibility": 1
+  },
+  {
+    "name": "Twemoji Resurrection",
+    "description": "Systemlessly replaces your system emoji with Twemoji. Self-mounts on KernelSU/SukiSU/APatch without a mount metamodule; on Magisk the native Magic Mount is used.",
+    "author": "Gontier Julien, deserthouse",
+    "repoUrl": "https://github.com/deserthouse/twemoji-resurrection",
     "visibility": 1
   },
   {
@@ -336,6 +651,27 @@
     "visibility": 1
   },
   {
+    "name": "WiFi 7 Lab Full Control",
+    "description": "驱动:待读取 | 系统:待读取 | 请求:US | TX:N/A [未验证]",
+    "author": "E3N",
+    "repoUrl": "https://github.com/e3n-glotm/wifi7-lab-safe",
+    "visibility": 1
+  },
+  {
+    "name": "Xiaomi USB Security Bypass",
+    "description": "Enable \"USB debugging (Security settings)\" / \"USB install\" / fastboot on rooted MIUI without Mi account & SIM. Sets persist.security.adbinstall, persist.security.adbinput, persist.fastboot.enable to 1 on every boot so scrcpy/Total Control etc. can inject input.",
+    "author": "CHERWIN",
+    "repoUrl": "https://github.com/cherwing/xiaomi_usb_security_bypass",
+    "visibility": 1
+  },
+  {
+    "name": "Yurikey Manager",
+    "description": "A systemless module to get strong integrity so easily",
+    "author": "Yurikey Dev",
+    "repoUrl": "https://github.com/dpejoh/yurikey",
+    "visibility": 1
+  },
+  {
     "name": "ZRAM LZ4KDS (SDDC 去重 + 回写) - 小米14 专版",
     "description": "用 crystal_hybridswap 整套 zram 驱动替换 stock zram.ko, 启用 LZ4KDS = LZ4KD + SDDC 跨页去重(REF/ALIAS/DELTA)。专为小米14 (houji) 6.1.x 内核定制编译。",
     "author": "Huawei, whitewhale0612原创, Wcoom仓库, 移植适配:2108282",
@@ -343,10 +679,31 @@
     "visibility": 1
   },
   {
+    "name": "Zygisk - 指纹支付",
+    "description": "让微信、支付宝、淘宝、QQ、云闪付支持指纹支付 Fingerprint pay for WeChat, Alipay, Taobao, QQ and UnionPay.",
+    "author": "Jason Eric",
+    "repoUrl": "https://github.com/eritpchy/FingerprintPay",
+    "visibility": 1
+  },
+  {
+    "name": "Zygisk Next",
+    "description": "Standalone implementation of Zygisk.",
+    "author": "LSPosed Developers",
+    "repoUrl": "https://github.com/Dr-TSNG/ZygiskNext",
+    "visibility": 1
+  },
+  {
     "name": "✨ COPG SPOOF ✨",
     "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
     "author": "AlirezaParsi",
     "repoUrl": "https://github.com/AlirezaParsi/COPG",
+    "visibility": 1
+  },
+  {
+    "name": "躺平青年",
+    "description": "• 【v3.0】模块已打包为独立 APK，桌面图标直接启动\\n• 修复 LSPosed 无法正常工作\\n• 提供 KernelSU 模块的重载服务\\n• 提供 越狱模式 环境下的基础环境隐藏",
+    "author": "ENDDREAM",
+    "repoUrl": "https://github.com/enddream-zm/lowlife",
     "visibility": 1
   }
 ]

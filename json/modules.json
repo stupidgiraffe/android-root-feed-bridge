@@ -4,9 +4,105 @@
   "description": "Verified root module ZIPs discovered in Best Root Apps for Android.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794731813.0
+    "timestamp": 1794734559.0
   },
   "modules": [
+    {
+      "id": "adb_root",
+      "name": "ADB Root",
+      "version": "v2.0",
+      "versionCode": 2,
+      "author": "Denis Efremov (@evdenis)",
+      "description": "Allows to \"adb root\" regardless of props settings and skips usb keys auth. Kind of \"adbd Insecure\" as a Magisk Module. Arm64 only. Android 9/10 only.",
+      "homepage": "https://github.com/evdenis/adb_root",
+      "size": 677181,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1772187907.0,
+        "source": "https://github.com/evdenis/adb_root"
+      },
+      "versions": [
+        {
+          "version": "v2.0",
+          "versionCode": 2,
+          "zipUrl": "https://github.com/evdenis/adb_root/releases/download/v2.0/adb_root-v2.0.zip",
+          "timestamp": 1772187907.0
+        }
+      ]
+    },
+    {
+      "id": "altdb",
+      "name": "altdb",
+      "version": "v0.3.0",
+      "versionCode": 28,
+      "author": "Nullptr",
+      "description": "Alternative adb server over local network",
+      "homepage": "https://github.com/dr-tsng/altdb",
+      "size": 1407652,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792302382.0,
+        "source": "https://github.com/dr-tsng/altdb"
+      },
+      "versions": [
+        {
+          "version": "v0.3.0",
+          "versionCode": 28,
+          "zipUrl": "https://github.com/Dr-TSNG/altdb/releases/download/0.3.0/altdb-v0.3.0-arm64.zip",
+          "timestamp": 1792302382.0
+        }
+      ]
+    },
+    {
+      "id": "com.chiller3.alterinstaller",
+      "name": "AlterInstaller",
+      "version": "v2.4",
+      "versionCode": 132096,
+      "author": "chenxiaolong",
+      "description": "Change PackageManager installer fields on boot",
+      "homepage": "https://github.com/chenxiaolong/AlterInstaller",
+      "size": 167413,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1782516428.0,
+        "source": "https://github.com/chenxiaolong/AlterInstaller"
+      },
+      "versions": [
+        {
+          "version": "v2.4",
+          "versionCode": 132096,
+          "zipUrl": "https://github.com/chenxiaolong/AlterInstaller/releases/download/v2.4/AlterInstaller-2.4-release.zip",
+          "timestamp": 1782516428.0
+        }
+      ]
+    },
+    {
+      "id": "AnalyticsDisabler",
+      "name": "Analytics Disabler for Android",
+      "version": "v8.4",
+      "versionCode": 12,
+      "author": "CEKA",
+      "description": "Analytics Disabler for Android",
+      "homepage": "https://github.com/ddceka/android-analytics-disabler",
+      "size": 7637,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1793619566.0,
+        "source": "https://github.com/ddceka/android-analytics-disabler"
+      },
+      "versions": [
+        {
+          "version": "v8.4",
+          "versionCode": 12,
+          "zipUrl": "https://github.com/ddCeka/Android-Analytics-Disabler/releases/download/v8.4/dss-v8.4.zip",
+          "timestamp": 1793619566.0
+        }
+      ]
+    },
     {
       "id": "pppoe-enabler",
       "name": "Android PPPoE Enabler",
@@ -80,6 +176,54 @@
       ]
     },
     {
+      "id": "system_app_nuker",
+      "name": "App Nuker",
+      "version": "v2.2.6",
+      "versionCode": 226,
+      "author": "ChiseWaguri & Contributors",
+      "description": "WebUI-based debloater and whiteout creator",
+      "homepage": "https://github.com/ChiseWaguri/systemapp_nuker",
+      "size": 784050,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1791002193.0,
+        "source": "https://github.com/ChiseWaguri/systemapp_nuker"
+      },
+      "versions": [
+        {
+          "version": "v2.2.6",
+          "versionCode": 226,
+          "zipUrl": "https://github.com/chisewaguri/systemapp_nuker/releases/download/v2.2.6/SAN_v2.2.6.zip",
+          "timestamp": 1791002193.0
+        }
+      ]
+    },
+    {
+      "id": "AppOpt",
+      "name": "AppOpt 线程优化",
+      "version": "v1.8.2",
+      "versionCode": 182,
+      "author": "suto & 一只小柒夏",
+      "description": "按规则将应用/游戏线程绑定到指定 CPU 核心的线程优化模块, 支持 包名=auto 自动校准生成大小核分配规则。配置文件: /data/adb/modules/AppOpt/config/applist.conf",
+      "homepage": "https://github.com/cinitdev/appopt",
+      "size": 8633833,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1785405204.0,
+        "source": "https://github.com/cinitdev/appopt"
+      },
+      "versions": [
+        {
+          "version": "v1.8.2",
+          "versionCode": 182,
+          "zipUrl": "https://github.com/cinitdev/AppOpt/releases/download/v1.8.2/AppOpt.zip",
+          "timestamp": 1785405204.0
+        }
+      ]
+    },
+    {
       "id": "eng_ahmed_yasir_screen_gov",
       "name": "AY Lightning Pro",
       "version": "v12.0.0",
@@ -104,6 +248,54 @@
       ]
     },
     {
+      "id": "bg_keepalive",
+      "name": "Background Keepalive",
+      "version": "v3.3",
+      "versionCode": 7,
+      "author": "michaelqiu",
+      "description": "Keeps user-selected apps background-exempt and restores dropped accessibility bindings every 3 minutes, without rebinding services that are already healthy.",
+      "homepage": "https://github.com/cpufreestyle/bg-keepalive",
+      "size": 2736,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794569259.0,
+        "source": "https://github.com/cpufreestyle/bg-keepalive"
+      },
+      "versions": [
+        {
+          "version": "v3.3",
+          "versionCode": 7,
+          "zipUrl": "https://github.com/cpufreestyle/bg-keepalive/releases/download/v3.3/bg_keepalive-v3.3.zip",
+          "timestamp": 1794569259.0
+        }
+      ]
+    },
+    {
+      "id": "com.chiller3.bcr",
+      "name": "BCR",
+      "version": "v3.11",
+      "versionCode": 199424,
+      "author": "chenxiaolong",
+      "description": "Basic Call Recorder",
+      "homepage": "https://github.com/chenxiaolong/BCR",
+      "size": 2787358,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792032821.0,
+        "source": "https://github.com/chenxiaolong/BCR"
+      },
+      "versions": [
+        {
+          "version": "v3.11",
+          "versionCode": 199424,
+          "zipUrl": "https://github.com/chenxiaolong/BCR/releases/download/v3.11/BCR-3.11-release.zip",
+          "timestamp": 1792032821.0
+        }
+      ]
+    },
+    {
       "id": "bindhosts",
       "name": "bindhosts",
       "version": "v2.1.5",
@@ -124,6 +316,78 @@
           "versionCode": 215,
           "zipUrl": "https://github.com/bindhosts/bindhosts/releases/download/v2.1.5/bindhosts.zip",
           "timestamp": 1787535828.0
+        }
+      ]
+    },
+    {
+      "id": "box4",
+      "name": "box4magisk",
+      "version": "v5.1",
+      "versionCode": 2024091613,
+      "author": "CHIZI-0618",
+      "description": "Use sing-box, clash, v2ray, xray tunnel proxy on Android devices.",
+      "homepage": "https://github.com/CHIZI-0618/box4magisk",
+      "size": 39555,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1726465322.0,
+        "source": "https://github.com/CHIZI-0618/box4magisk"
+      },
+      "versions": [
+        {
+          "version": "v5.1",
+          "versionCode": 2024091613,
+          "zipUrl": "https://github.com/CHIZI-0618/box4magisk/releases/download/v5.1/box4_v5.1.zip",
+          "timestamp": 1726465322.0
+        }
+      ]
+    },
+    {
+      "id": "caros-switcher",
+      "name": "CarOS Profile Switcher (Wired & Wireless AA)",
+      "version": "0.2.3",
+      "versionCode": 4,
+      "author": "Vincent+ChatGPT",
+      "description": "Auto WIRED/WIRELESS switching + Smart WiFi + Nova default + fast charge limit. Config: /sdcard/CarOS/config.env. v0.2.3: Smart WiFi + VW Polo 6 compatible + Auto permissions",
+      "homepage": "https://github.com/doezer/caros-profile-switcher",
+      "size": 8054,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1762331475.0,
+        "source": "https://github.com/doezer/caros-profile-switcher"
+      },
+      "versions": [
+        {
+          "version": "0.2.3",
+          "versionCode": 4,
+          "zipUrl": "https://github.com/Doezer/CarOS-Profile-Switcher/releases/download/v0.2.3/CarOS_Profile_Switcher-v0.2.3.zip",
+          "timestamp": 1762331475.0
+        }
+      ]
+    },
+    {
+      "id": "catcore_multitask_root",
+      "name": "CatCore MultiTask Optional Root Module",
+      "version": "2.0.0",
+      "versionCode": 20008,
+      "author": "CatCore / ctrl-mietze",
+      "description": "Optional systemless root module for CatCore MultiTask V2 root ActivityManager task creation, fallback sessions, telemetry and temporary session priority. Zygisk is detected when present but is not required.",
+      "homepage": "https://github.com/ctrl-mietze/cathook-multitask-launcher",
+      "size": 4570,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1790142897.0,
+        "source": "https://github.com/ctrl-mietze/cathook-multitask-launcher"
+      },
+      "versions": [
+        {
+          "version": "2.0.0",
+          "versionCode": 20008,
+          "zipUrl": "https://github.com/ctrl-mietze/CatHook-MultiTask-Launcher/releases/download/v2.0.0.0/CatCore-MultiTask-Optional-Root-Module-v2.0.0.0.zip",
+          "timestamp": 1790142897.0
         }
       ]
     },
@@ -200,6 +464,30 @@
       ]
     },
     {
+      "id": "cmf_stereo",
+      "name": "CMF Phone 1 Dual Speaker (mono / stereo)",
+      "version": "v1.0.9-beta",
+      "versionCode": 1090,
+      "author": "Dr.Essence",
+      "description": "Real left/right stereo on the CMF Phone 1 (A015) from the earpiece and the bottom speaker, following the screen when the phone is turned. Mono (stock, with Awinic speaker protection) or Stereo, switched at once from the app, stereoctl or the Action button. Patches only this phone's verified vendor files; back to mono after two failed boots.",
+      "homepage": "https://github.com/dr-essence/cmf-true-stereo",
+      "size": 336528,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794155493.0,
+        "source": "https://github.com/dr-essence/cmf-true-stereo"
+      },
+      "versions": [
+        {
+          "version": "v1.0.9-beta",
+          "versionCode": 1090,
+          "zipUrl": "https://github.com/Dr-Essence/CMF-true-stereo/releases/download/v1.0.9-beta/CMF-true-stereo-v1.0.9-beta.zip",
+          "timestamp": 1794155493.0
+        }
+      ]
+    },
+    {
       "id": "codm_s23_120",
       "name": "CODM 120 FPS + Control (cualquier telefono, cualquier cuenta) · by AJ",
       "version": "v5.1",
@@ -272,6 +560,54 @@
       ]
     },
     {
+      "id": "dirtysepbypass",
+      "name": "DirtySepolicy Bypass",
+      "version": "v3.0.0",
+      "versionCode": 30000,
+      "author": "local",
+      "description": "Defeats all versions of DirtySepolicy up to v2.2. Intercepts /sys/fs/selinux/access, /status, /context and /proc/*/attr/* to hide framework types, mask allow rules, and fix seqno/policyload counters.",
+      "homepage": "https://github.com/flipphoneguy/DirtySepolicy_Bypass",
+      "size": 11133,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1780191328.0,
+        "source": "https://github.com/flipphoneguy/DirtySepolicy_Bypass"
+      },
+      "versions": [
+        {
+          "version": "v3.0.0",
+          "versionCode": 30000,
+          "zipUrl": "https://github.com/flipphoneguy/DirtySepolicy_Bypass/releases/download/v3.0.0/dirtysepbypass.zip",
+          "timestamp": 1780191328.0
+        }
+      ]
+    },
+    {
+      "id": "disable-fuse-bpf",
+      "name": "Disable FUSE-BPF",
+      "version": "1.0.0",
+      "versionCode": 100,
+      "author": "Danish Ali",
+      "description": "Disables FUSE-BPF to restore Android/data access on affected ROMs and kernels.",
+      "homepage": "https://github.com/danish3311/disable-fuse-bpf",
+      "size": 2146,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1787438350.0,
+        "source": "https://github.com/danish3311/disable-fuse-bpf"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionCode": 100,
+          "zipUrl": "https://github.com/danish3311/disable-fuse-bpf/releases/download/v1.0.0/Disable-FUSE-BPF-v1.0.0.zip",
+          "timestamp": 1787438350.0
+        }
+      ]
+    },
+    {
       "id": "touchscreen_backlight_disabler",
       "name": "Disable Touch + Backlight for Foxxd A67L",
       "version": "v1.1",
@@ -292,6 +628,30 @@
           "versionCode": 2,
           "zipUrl": "https://github.com/1ndevelopment/FOXXD_A67L_touch_backlight_disabler/releases/download/v1.1/FOXXD_A67L_touch_backlight_disabler-v1.1.zip",
           "timestamp": 1788629468.0
+        }
+      ]
+    },
+    {
+      "id": "dozedisabler",
+      "name": "Doze Disabler",
+      "version": "1.2",
+      "versionCode": 3,
+      "author": "draumaz",
+      "description": "Disable Doze on boot, ensuring timely notifications. Expect slightly increased battery usage.",
+      "homepage": "https://github.com/draumaz/dozedisabler",
+      "size": 1926,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1753241688.0,
+        "source": "https://github.com/draumaz/dozedisabler"
+      },
+      "versions": [
+        {
+          "version": "1.2",
+          "versionCode": 3,
+          "zipUrl": "https://github.com/draumaz/dozedisabler/releases/download/1.2/dozedisabler-1.2.zip",
+          "timestamp": 1753241688.0
         }
       ]
     },
@@ -416,6 +776,54 @@
       ]
     },
     {
+      "id": "fastcharge-next",
+      "name": "FastCharge Next",
+      "version": "2.0.2",
+      "versionCode": 200,
+      "author": "DEV",
+      "description": "Safely nudge charging current with thermal guard.",
+      "homepage": "https://github.com/Dev97633/Fastcharge-next",
+      "size": 20647,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1775992646.0,
+        "source": "https://github.com/Dev97633/Fastcharge-next"
+      },
+      "versions": [
+        {
+          "version": "2.0.2",
+          "versionCode": 200,
+          "zipUrl": "https://github.com/Dev97633/Fastcharge-next/releases/download/v2.0.2/fastcharge-next-v2.0.2.zip",
+          "timestamp": 1775992646.0
+        }
+      ]
+    },
+    {
+      "id": "UnFont",
+      "name": "Font Google Sans Flex",
+      "version": "v1.4.1-auto",
+      "versionCode": 141,
+      "author": "ethanm6, forked from AndroSYNC",
+      "description": "Systemlessly replaces Android system fonts with Google Sans Flex (official v4.005, internally renamed Roboto for correct Gecko/Firefox rendering) + Google Sans fallback for Cyrillic/Greek + stock Roboto safety net for everything else. Auto-installs full Roboto set + compatibility goodies, no prompts.",
+      "homepage": "https://github.com/ethanm6/google-sans-flex-magisk",
+      "size": 3436042,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792709835.0,
+        "source": "https://github.com/ethanm6/google-sans-flex-magisk"
+      },
+      "versions": [
+        {
+          "version": "v1.4.1-auto",
+          "versionCode": 141,
+          "zipUrl": "https://github.com/ethanm6/google-sans-flex-magisk/releases/download/v1.4.1-auto/Google_Sans_Flex_v1.4.1-auto.zip",
+          "timestamp": 1792709835.0
+        }
+      ]
+    },
+    {
       "id": "FOXXD_A67L_CallFix",
       "name": "FOXXD A67L Incoming Call Fix",
       "version": "v1.0",
@@ -460,6 +868,54 @@
           "versionCode": 1,
           "zipUrl": "https://github.com/AyusmanNanda/FridaManager/releases/download/v1.0.0/module.v1.0.0.zip",
           "timestamp": 1791390545.0
+        }
+      ]
+    },
+    {
+      "id": "Frosty",
+      "name": "Frosty - Battery Saver",
+      "version": "4.6",
+      "versionCode": 46,
+      "author": "DrSexo",
+      "description": "Maximum battery saving and GMS optimization. Freeze GMS services, enable doze, nuke logs, apply kernel tweaks. Use WebUI button to edit settings.",
+      "homepage": "https://github.com/Drsexo/Frosty",
+      "size": 861599,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794353017.0,
+        "source": "https://github.com/Drsexo/Frosty"
+      },
+      "versions": [
+        {
+          "version": "4.6",
+          "versionCode": 46,
+          "zipUrl": "https://github.com/Drsexo/Frosty/releases/download/4.6/Frosty-4.6.zip",
+          "timestamp": 1794353017.0
+        }
+      ]
+    },
+    {
+      "id": "galaxy-multiuser",
+      "name": "Galaxy multiuser enabler",
+      "version": "1.0",
+      "versionCode": 1,
+      "author": "Elvex10",
+      "description": "KernelSU module for enabling Android multi-user properties on Samsung Galaxy devices.",
+      "homepage": "https://github.com/elvex10/galaxy-multiuser",
+      "size": 740,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1791271999.0,
+        "source": "https://github.com/elvex10/galaxy-multiuser"
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/Elvex10/galaxy-multiuser/releases/download/v1.0/galaxy-multiuser.zip",
+          "timestamp": 1791271999.0
         }
       ]
     },
@@ -560,6 +1016,78 @@
       ]
     },
     {
+      "id": "grab-netprinter",
+      "name": "GrabNetPrinter",
+      "version": "1.1.1",
+      "versionCode": 3,
+      "author": "GrabNetPrinter contributors",
+      "description": "Optional support module: seeds a legacy config file and log for the GrabNetPrinter LSPosed module. The normal configuration is done in the GrabNetPrinter settings app.",
+      "homepage": "https://github.com/caullenomdahl/grab-netprinter",
+      "size": 4376,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794576220.0,
+        "source": "https://github.com/caullenomdahl/grab-netprinter"
+      },
+      "versions": [
+        {
+          "version": "1.1.1",
+          "versionCode": 3,
+          "zipUrl": "https://github.com/CaullenOmdahl/grab-netprinter/releases/download/v1.1.1/grab-netprinter-1.1.1.zip",
+          "timestamp": 1794576220.0
+        }
+      ]
+    },
+    {
+      "id": "Greenify4MagiskKSUReborn",
+      "name": "Greenify Systemizer",
+      "version": "5.1.1.3",
+      "versionCode": 5113,
+      "author": "DrSexo",
+      "description": "Integrates Greenify as a privileged system app to enable boost mode™, with automatic bulk app list generation.",
+      "homepage": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn",
+      "size": 3154802,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1771252622.0,
+        "source": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn"
+      },
+      "versions": [
+        {
+          "version": "5.1.1.3",
+          "versionCode": 5113,
+          "zipUrl": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn/releases/download/v5.1.1.3/Greenify4Magisk-KSU-Reborn-v5.1.1.3.zip",
+          "timestamp": 1771252622.0
+        }
+      ]
+    },
+    {
+      "id": "hermesandroid",
+      "name": "HermesAndroid",
+      "version": "1.0.1",
+      "versionCode": 101,
+      "author": "TDat",
+      "description": "Install Hermes Agent on Android Root via Magisk/KernelSU.",
+      "homepage": "https://github.com/dat-hoangnguyentuandat/hermesandroid",
+      "size": 2495463,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1793696245.0,
+        "source": "https://github.com/dat-hoangnguyentuandat/hermesandroid"
+      },
+      "versions": [
+        {
+          "version": "1.0.1",
+          "versionCode": 101,
+          "zipUrl": "https://github.com/dat-hoangnguyentuandat/HermesAndroid/releases/download/v1.0.1/HermesAndroid-v1.0.1.zip",
+          "timestamp": 1793696245.0
+        }
+      ]
+    },
+    {
       "id": "high_perf_dac",
       "name": "High Performance DAC",
       "version": "v7.0-beta",
@@ -628,6 +1156,78 @@
           "versionCode": 1051,
           "zipUrl": "https://github.com/AestasBritannia/Hydro-Br-leur/releases/download/7.2/Hydrostellaire.Chocolate.zip",
           "timestamp": 1776446065.0
+        }
+      ]
+    },
+    {
+      "id": "hyperos-accessibility-fix",
+      "name": "HyperOS accessibility fix",
+      "version": "1.0.5",
+      "versionCode": 105,
+      "author": "chkndrp",
+      "description": "Stop HyperOS from randomly disabling accessibility services | Click Action to view logs",
+      "homepage": "https://github.com/chickendrop89/hyperos-accessibility-fix",
+      "size": 23459,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1784512147.0,
+        "source": "https://github.com/chickendrop89/hyperos-accessibility-fix"
+      },
+      "versions": [
+        {
+          "version": "1.0.5",
+          "versionCode": 105,
+          "zipUrl": "https://github.com/chkndrp/hyperos-accessibility-fix/releases/download/1.0.5/hyperos-accessibility-fix.zip",
+          "timestamp": 1784512147.0
+        }
+      ]
+    },
+    {
+      "id": "image_copy_hide",
+      "name": "ImageCopyHide",
+      "version": "1.0",
+      "versionCode": 2,
+      "author": "openError",
+      "description": "自动复制DCIM文件夹中的文件到/sdcard/wot/cptp目录中并隐藏文件,含开关与日志功能",
+      "homepage": "https://github.com/cookieof/ImageCopyHide",
+      "size": 1854,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1748085097.0,
+        "source": "https://github.com/cookieof/ImageCopyHide"
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "versionCode": 2,
+          "zipUrl": "https://github.com/cookieof/ImageCopyHide/releases/download/V1.0/ImageCopyHide-v1.0.zip",
+          "timestamp": 1748085097.0
+        }
+      ]
+    },
+    {
+      "id": "imei_privacy",
+      "name": "IMEI Privacy Shield",
+      "version": "1.4.7",
+      "versionCode": 13,
+      "author": "dsh",
+      "description": "查找设备自动适配、自检及失败断网保护（需 root+LSPosed，完整安装后重启）",
+      "homepage": "https://github.com/chengdong-yu/imei-privacy",
+      "size": 8689000,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792422068.0,
+        "source": "https://github.com/chengdong-yu/imei-privacy"
+      },
+      "versions": [
+        {
+          "version": "1.4.7",
+          "versionCode": 13,
+          "zipUrl": "https://github.com/Chengdong-Yu/IMEI-Privacy/releases/download/v1.4.7/IMEI-Privacy-v1.4.7.zip",
+          "timestamp": 1792422068.0
         }
       ]
     },
@@ -704,6 +1304,150 @@
       ]
     },
     {
+      "id": "LiteBlur",
+      "name": "Lite Blur HyperOS 2.0 & 2.2",
+      "version": "Lite (Animation ver.)",
+      "versionCode": 100,
+      "author": "Fakh",
+      "description": "Release blur on HyperOS 2.0 & 2.2 but LIGHTER! (some features are disabled so that's why it's lighter) ported from garnet",
+      "homepage": "https://github.com/fakerieh/Lite-Blur-Control-Center-For-HyperOS2",
+      "size": 32038310,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1778924122.0,
+        "source": "https://github.com/fakerieh/Lite-Blur-Control-Center-For-HyperOS2"
+      },
+      "versions": [
+        {
+          "version": "Lite (Animation ver.)",
+          "versionCode": 100,
+          "zipUrl": "https://github.com/fakerieh/Lite-Blur-Control-Center-for-HyperOS/releases/download/RELEASE-16-MAY-2026/Lite.Blur.HyperOS.2.0.2.2.-.Animation.zip",
+          "timestamp": 1778924122.0
+        }
+      ]
+    },
+    {
+      "id": "lkm4ctr",
+      "name": "lkm4ctr Kernel Module",
+      "version": "4.0.5",
+      "versionCode": 40005,
+      "author": "cyanmint",
+      "description": "Auto-load lkm4ctr.ko enables Docker and containers on all currently released arm64 Android GKI KMIs; no custom kernel flash.",
+      "homepage": "https://github.com/cyanmint/lkm4ctr",
+      "size": 27300879,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792255814.0,
+        "source": "https://github.com/cyanmint/lkm4ctr"
+      },
+      "versions": [
+        {
+          "version": "4.0.5",
+          "versionCode": 40005,
+          "zipUrl": "https://github.com/cyanmint/lkm4ctr/releases/download/4.0.5/lkm4ctr-kernelsu-module.zip",
+          "timestamp": 1792255814.0
+        }
+      ]
+    },
+    {
+      "id": "magisk-swapspace",
+      "name": "Magisk SwapSpace",
+      "version": "v2.4",
+      "versionCode": 24,
+      "author": "chickendrop89",
+      "description": "Create a persistent swap space on android (magiskswap in terminal)",
+      "homepage": "https://github.com/chickendrop89/magisk-swapspace",
+      "size": 27562,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1762036455.0,
+        "source": "https://github.com/chickendrop89/magisk-swapspace"
+      },
+      "versions": [
+        {
+          "version": "v2.4",
+          "versionCode": 24,
+          "zipUrl": "https://github.com/chkndrp/magisk-swapspace/releases/download/2.4/magiskswapspace.zip",
+          "timestamp": 1762036455.0
+        }
+      ]
+    },
+    {
+      "id": "maple_mono_font",
+      "name": "Maple Mono system font",
+      "version": "7.9",
+      "versionCode": 79,
+      "author": "ligt",
+      "description": "Replaces Roboto, Google Sans and the monospace font with Maple Mono NL v7.9 (variable wght). Disable this module to restore the stock fonts.",
+      "homepage": "https://github.com/duyquang6/maple-mono-android",
+      "size": 1192423,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792322473.0,
+        "source": "https://github.com/duyquang6/maple-mono-android"
+      },
+      "versions": [
+        {
+          "version": "7.9",
+          "versionCode": 79,
+          "zipUrl": "https://github.com/duyquang6/maple-mono-android/releases/download/v7.9/maple_mono_font.zip",
+          "timestamp": 1792322473.0
+        }
+      ]
+    },
+    {
+      "id": "MinecraftFont",
+      "name": "MinecraftFont",
+      "version": "1.0.0",
+      "versionCode": 100,
+      "author": "DethByte64",
+      "description": "Systemless Minecraft Font",
+      "homepage": "https://github.com/DethByte64/Magisk-Minecraft-Font",
+      "size": 21931,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1746819273.0,
+        "source": "https://github.com/DethByte64/Magisk-Minecraft-Font"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionCode": 100,
+          "zipUrl": "https://github.com/DethByte64/Magisk-Minecraft-Font/releases/download/v1.0.0/MinecraftFont.zip",
+          "timestamp": 1746819273.0
+        }
+      ]
+    },
+    {
+      "id": "mi_thermal_tuner",
+      "name": "MiThermal Tuner",
+      "version": "v1.2.0",
+      "versionCode": 10200,
+      "author": "达人怪",
+      "description": "小米温控实时监控与调节：解密/修改 mi_thermald 场景配置，实时限制 CPU/GPU/充电电流，附图形界面 App。作者：达人怪（微信 UVWAPP）",
+      "homepage": "https://github.com/colorxi/mithermaltuner",
+      "size": 46786,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792497712.0,
+        "source": "https://github.com/colorxi/mithermaltuner"
+      },
+      "versions": [
+        {
+          "version": "v1.2.0",
+          "versionCode": 10200,
+          "zipUrl": "https://github.com/colorXi/MiThermalTuner/releases/download/v1.2.0/MiThermalTuner-v1.2.0.zip",
+          "timestamp": 1792497712.0
+        }
+      ]
+    },
+    {
       "id": "mitm-ca-system",
       "name": "MITM CA System Trust",
       "version": "v1.0.0",
@@ -752,6 +1496,30 @@
       ]
     },
     {
+      "id": "netproxy",
+      "name": "NetProxy",
+      "version": "v8.7.0",
+      "versionCode": 1100,
+      "author": "Fanju",
+      "description": "基于 sing-box 内核的透明代理工具",
+      "homepage": "https://github.com/Fanju6/NetProxy-Magisk",
+      "size": 27525137,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794472839.0,
+        "source": "https://github.com/Fanju6/NetProxy-Magisk"
+      },
+      "versions": [
+        {
+          "version": "v8.7.0",
+          "versionCode": 1100,
+          "zipUrl": "https://github.com/Fanju6/NetProxy-Magisk/releases/download/v8.7.0/NetProxy_v8.7.0_1100.zip",
+          "timestamp": 1794472839.0
+        }
+      ]
+    },
+    {
       "id": "NLSound",
       "name": "NLSound",
       "version": "v4.5",
@@ -772,6 +1540,30 @@
           "versionCode": 1720,
           "zipUrl": "https://github.com/Briclyaz/NLSound/releases/download/v4.5/NLSound.v4.5.Qcom.Devices.zip",
           "timestamp": 1790533228.0
+        }
+      ]
+    },
+    {
+      "id": "nm_scanner",
+      "name": "NM/ZM Conflict Scanner",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "chandr1000",
+      "description": "Scan-only tool. Detects shell commands in installed modules that may conflict with NoMount/ZeroMount. Runs during install, prints results, then aborts (no module is left behind).",
+      "homepage": "https://github.com/chandr1000/nm-compat-scanner",
+      "size": 8980,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1787280942.0,
+        "source": "https://github.com/chandr1000/nm-compat-scanner"
+      },
+      "versions": [
+        {
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/chandr1000/nm-compat-scanner/releases/download/v1.1/nm-scanner-module-v1.1.zip",
+          "timestamp": 1787280942.0
         }
       ]
     },
@@ -800,6 +1592,30 @@
       ]
     },
     {
+      "id": "NotoColorEmojiCurrent",
+      "name": "Noto Color Emoji (Current)",
+      "version": "v2.057-20260911",
+      "versionCode": 20260911,
+      "author": "ethanm6",
+      "description": "Systemlessly replaces the stock emoji font with the current build straight from Google's googlefonts/noto-emoji repo — same art style Pixel ships, just not frozen at whatever Unicode version your ROM shipped with. A CI job checks upstream daily and cuts a new release automatically when Google updates it.",
+      "homepage": "https://github.com/ethanm6/noto-emoji-magisk",
+      "size": 9949385,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1790920958.0,
+        "source": "https://github.com/ethanm6/noto-emoji-magisk"
+      },
+      "versions": [
+        {
+          "version": "v2.057-20260911",
+          "versionCode": 20260911,
+          "zipUrl": "https://github.com/ethanm6/noto-emoji-magisk/releases/download/v2.057-20260911/NotoColorEmoji_v2.057-20260911.zip",
+          "timestamp": 1790920958.0
+        }
+      ]
+    },
+    {
       "id": "nx789j_autobrightness_test",
       "name": "NX789J Auto Brightness",
       "version": "1.0.0",
@@ -820,6 +1636,30 @@
           "versionCode": 2,
           "zipUrl": "https://github.com/aleopho/NX789J-AutoBrightness/releases/download/v1.0.0/NX789J-AutoBrightness-Magisk-v1.0.0.zip",
           "timestamp": 1791464809.0
+        }
+      ]
+    },
+    {
+      "id": "oneplus15_bds_guard",
+      "name": "OnePlus 15 BeiDou GNSS Guard",
+      "version": "0.4.1",
+      "versionCode": 8,
+      "author": "christuo-dev",
+      "description": "Repairs both Qualcomm GNSS EFS masks to 0x5905 and reloads GNSS after SIM/eSIM changes. CPH2749/24863 only.",
+      "homepage": "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard",
+      "size": 28067,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1787872775.0,
+        "source": "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard"
+      },
+      "versions": [
+        {
+          "version": "0.4.1",
+          "versionCode": 8,
+          "zipUrl": "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard/releases/download/v0.4.1/oneplus15_bds_guard-v0.4.1.zip",
+          "timestamp": 1787872775.0
         }
       ]
     },
@@ -896,6 +1736,30 @@
       ]
     },
     {
+      "id": "OOSGMS-OPTIMISER",
+      "name": "Oxygen OS + GMS optimiser",
+      "version": "v1.0.8",
+      "versionCode": 9,
+      "author": "Epicmann24",
+      "description": "Disable some telementry and bloat",
+      "homepage": "https://github.com/epicmann24/OOSGMS-OPTIMISER",
+      "size": 6209,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1760278400.0,
+        "source": "https://github.com/epicmann24/OOSGMS-OPTIMISER"
+      },
+      "versions": [
+        {
+          "version": "v1.0.8",
+          "versionCode": 9,
+          "zipUrl": "https://github.com/epicmann24/OOSGMS-OPTIMISER/releases/download/v1.0.8/OOSGMS-OPTIMISER.zip",
+          "timestamp": 1760278400.0
+        }
+      ]
+    },
+    {
       "id": "PerfGame",
       "name": "PerfGame",
       "version": "v2.0-release",
@@ -944,6 +1808,54 @@
       ]
     },
     {
+      "id": "Komodo_beta_Props",
+      "name": "Pixel 9 Pro XL (KOMODO_BETA) Props",
+      "version": "2026-10-05",
+      "versionCode": 261005,
+      "author": "Elcapitanoe, Tesla",
+      "description": "Spoof your device props to KOMODO_BETA [DP11.261030.003] (Oct 2026)",
+      "homepage": "https://github.com/Elcapitanoe/Komodo-Build-Prop",
+      "size": 70966,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794536410.0,
+        "source": "https://github.com/Elcapitanoe/Komodo-Build-Prop"
+      },
+      "versions": [
+        {
+          "version": "2026-10-05",
+          "versionCode": 261005,
+          "zipUrl": "https://github.com/Elcapitanoe/Komodo-Build-Prop/releases/download/v26.1113/Komodo_beta_DP11.261030.003.zip",
+          "timestamp": 1794536410.0
+        }
+      ]
+    },
+    {
+      "id": "p9pxl_supercharger",
+      "name": "Pixel 9 Series Supercharger",
+      "version": "v2.6.7",
+      "versionCode": 26007,
+      "author": "Drizzy_07",
+      "description": "Status: v2.6.7 | Integrated Thermal | Thermal off by default",
+      "homepage": "https://github.com/drizzy07x/supercharger_pixel_9_series",
+      "size": 68740,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1785450192.0,
+        "source": "https://github.com/drizzy07x/supercharger_pixel_9_series"
+      },
+      "versions": [
+        {
+          "version": "v2.6.7",
+          "versionCode": 26007,
+          "zipUrl": "https://github.com/Drizzy07x/Supercharger_Pixel_9_Series/releases/download/v2.6.7/Pixel-9-Series-Supercharger-v2.6.7.zip",
+          "timestamp": 1785450192.0
+        }
+      ]
+    },
+    {
       "id": "pixel_launcher_modulu",
       "name": "Pixel Launcher (Android 11)",
       "version": "v1.0",
@@ -988,6 +1900,30 @@
           "versionCode": 542,
           "zipUrl": "https://github.com/anirudhgupta109/PixelXpert-Next/releases/download/v6.1.4/PixelXpert-Next.zip",
           "timestamp": 1794384284.0
+        }
+      ]
+    },
+    {
+      "id": "playcurlNEXT",
+      "name": "playcurlNEXT",
+      "version": "v1.19",
+      "versionCode": 119,
+      "author": "daboynb",
+      "description": "Automatic fingerprint downloader for play integrity fix.",
+      "homepage": "https://github.com/daboynb/playcurlNEXT",
+      "size": 18441,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1769173070.0,
+        "source": "https://github.com/daboynb/playcurlNEXT"
+      },
+      "versions": [
+        {
+          "version": "v1.19",
+          "versionCode": 119,
+          "zipUrl": "https://github.com/daboynb/playcurlNEXT/releases/download/v1.19/playcurlNEXT.zip",
+          "timestamp": 1769173070.0
         }
       ]
     },
@@ -1060,6 +1996,30 @@
           "versionCode": 24,
           "zipUrl": "https://github.com/loganmaxx/ProjectX-WebUI/releases/download/v2.3.1/ProjectX_Magisk.zip",
           "timestamp": 1793091137.0
+        }
+      ]
+    },
+    {
+      "id": "render_switcher",
+      "name": "Render Switcher",
+      "version": "v1.0.2",
+      "versionCode": 102,
+      "author": "EXLOUD",
+      "description": "Per-app HWUI renderer isolation (Vulkan / OpenGL).",
+      "homepage": "https://github.com/exloud/render-switcher",
+      "size": 723501,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1791263316.0,
+        "source": "https://github.com/exloud/render-switcher"
+      },
+      "versions": [
+        {
+          "version": "v1.0.2",
+          "versionCode": 102,
+          "zipUrl": "https://github.com/EXLOUD/Render-Switcher/releases/download/v1.0.2/Render_Switcher_v1.0.2.zip",
+          "timestamp": 1791263316.0
         }
       ]
     },
@@ -1160,6 +2120,78 @@
       ]
     },
     {
+      "id": "scalpel",
+      "name": "Scalpel",
+      "version": "v0.1.27",
+      "versionCode": 127,
+      "author": "Enginex0",
+      "description": "Debloat system apps + systemize user apps",
+      "homepage": "https://github.com/Enginex0/Scalpel",
+      "size": 3916593,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1774236439.0,
+        "source": "https://github.com/Enginex0/Scalpel"
+      },
+      "versions": [
+        {
+          "version": "v0.1.27",
+          "versionCode": 127,
+          "zipUrl": "https://github.com/Enginex0/Scalpel/releases/download/v0.1.27/scalpel-v0.1.27.zip",
+          "timestamp": 1774236439.0
+        }
+      ]
+    },
+    {
+      "id": "selinux_permissive",
+      "name": "SELinux Permissive",
+      "version": "v3.1",
+      "versionCode": 4,
+      "author": "Denis Efremov (@evdenis)",
+      "description": "Switch SELinux to permissive mode and hide permissive state from apps.",
+      "homepage": "https://github.com/evdenis/selinux_permissive",
+      "size": 3466,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1772904261.0,
+        "source": "https://github.com/evdenis/selinux_permissive"
+      },
+      "versions": [
+        {
+          "version": "v3.1",
+          "versionCode": 4,
+          "zipUrl": "https://github.com/evdenis/selinux_permissive/releases/download/v3.1/selinux_permissive-v3.1.zip",
+          "timestamp": 1772904261.0
+        }
+      ]
+    },
+    {
+      "id": "SMB_Smart_Sync",
+      "name": "SMB智能同步",
+      "version": "v1.3.0",
+      "versionCode": 20260911,
+      "author": "Charles_Gool",
+      "description": "智能同步 SMB 照相馆内容。功能：自动限频降速、唤醒 Google Photos 同步、检测 UI 进度并自动锁屏。支持全局 config 配置。",
+      "homepage": "https://github.com/charlesgool/smb_smart_sync",
+      "size": 23497230,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1789132211.0,
+        "source": "https://github.com/charlesgool/smb_smart_sync"
+      },
+      "versions": [
+        {
+          "version": "v1.3.0",
+          "versionCode": 20260911,
+          "zipUrl": "https://github.com/CharlesGool/SMB_Smart_Sync/releases/download/v1.3.0/SMB_Smart_Sync_release_v1.3.0.zip",
+          "timestamp": 1789132211.0
+        }
+      ]
+    },
+    {
       "id": "sound_universal",
       "name": "Sound universal 🎧",
       "version": "v0.5.3",
@@ -1180,6 +2212,30 @@
           "versionCode": 503,
           "zipUrl": "https://github.com/andresuhensleeby-a11y/Sound-Universal-update/releases/download/Tag/Sound_universal_Rye_v0_5_3.zip",
           "timestamp": 1792325724.0
+        }
+      ]
+    },
+    {
+      "id": "specter",
+      "name": "Specter",
+      "version": "2.0.0",
+      "versionCode": 20021,
+      "author": "dpejoh",
+      "description": "Unified Play Integrity and root hiding stack for Android",
+      "homepage": "https://github.com/dpejoh/specter",
+      "size": 600058,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794298614.0,
+        "source": "https://github.com/dpejoh/specter"
+      },
+      "versions": [
+        {
+          "version": "2.0.0",
+          "versionCode": 20021,
+          "zipUrl": "https://github.com/dpejoh/specter/releases/download/v2.0.0/specter-v2.0.0.zip",
+          "timestamp": 1794298614.0
         }
       ]
     },
@@ -1208,6 +2264,54 @@
       ]
     },
     {
+      "id": "tcp_optimiser",
+      "name": "TCP Optimiser",
+      "version": "2.5",
+      "versionCode": 17,
+      "author": "fatalcoder524",
+      "description": "TCP Optimisations & update tcp_cong_algo based on interface",
+      "homepage": "https://github.com/fatalcoder524/TCP_Optimiser_Module",
+      "size": 396040,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1782886958.0,
+        "source": "https://github.com/fatalcoder524/TCP_Optimiser_Module"
+      },
+      "versions": [
+        {
+          "version": "2.5",
+          "versionCode": 17,
+          "zipUrl": "https://github.com/fatalcoder524/TCP_Optimiser_Module/releases/download/v2.5/TCP_Optimiser-2.5-17.zip",
+          "timestamp": 1782886958.0
+        }
+      ]
+    },
+    {
+      "id": "thor_auto_timezone",
+      "name": "Thor Automatic Time Zone",
+      "version": "1.0.0",
+      "versionCode": 10000,
+      "author": "Darkaxt",
+      "description": "Native offline location time zone provider for the Android 13 AYN Thor",
+      "homepage": "https://github.com/darkaxt/thorautotimezone",
+      "size": 27376644,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1787518210.0,
+        "source": "https://github.com/darkaxt/thorautotimezone"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionCode": 10000,
+          "zipUrl": "https://github.com/Darkaxt/ThorAutoTimeZone/releases/download/v1.0.0/Thor-Automatic-Time-Zone-v1.0.0.zip",
+          "timestamp": 1787518210.0
+        }
+      ]
+    },
+    {
       "id": "tricky_store",
       "name": "Tricky Store",
       "version": "v1.4.1 (245-72b2e84-release)",
@@ -1228,6 +2332,102 @@
           "versionCode": 245,
           "zipUrl": "https://github.com/5ec1cff/TrickyStore/releases/download/1.4.1/Tricky-Store-v1.4.1-245-72b2e84-release.zip",
           "timestamp": 1762077397.0
+        }
+      ]
+    },
+    {
+      "id": "mihomo_tproxy",
+      "name": "TunClash 内核",
+      "version": "v1.3.0",
+      "versionCode": 13,
+      "author": "TunClash",
+      "description": "Root 级 mihomo 透明代理（TUN 全局接管，不占用 VPN 入口）。内置 WebUI，可脱离 App 独立使用；配合 TunClash App 体验更佳。",
+      "homepage": "https://github.com/de4869/tunclash",
+      "size": 27467132,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792939486.0,
+        "source": "https://github.com/de4869/tunclash"
+      },
+      "versions": [
+        {
+          "version": "v1.3.0",
+          "versionCode": 13,
+          "zipUrl": "https://github.com/De4869/tunclash/releases/download/v1.3.0/TunClash-Module-v1.3.0.zip",
+          "timestamp": 1792939486.0
+        }
+      ]
+    },
+    {
+      "id": "tvremoteweb",
+      "name": "TVRemoteWeb",
+      "version": "1.2.0",
+      "versionCode": 120,
+      "author": "disc0nnctd",
+      "description": "Phone remote, mouse drag, picture profiles, monitoring, and photo-assisted projector alignment.",
+      "homepage": "https://github.com/disc0nnctd/tvremoteweb",
+      "size": 1147937,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1791726663.0,
+        "source": "https://github.com/disc0nnctd/tvremoteweb"
+      },
+      "versions": [
+        {
+          "version": "1.2.0",
+          "versionCode": 120,
+          "zipUrl": "https://github.com/disc0nnctd/TVRemoteWeb/releases/download/v1.2.0/tvremoteweb-v1.2.0.zip",
+          "timestamp": 1791726663.0
+        }
+      ]
+    },
+    {
+      "id": "Twemoji-systemless",
+      "name": "Twemoji Resurrection",
+      "version": "v17.0.3 (59)",
+      "versionCode": 59,
+      "author": "Gontier Julien, deserthouse",
+      "description": "Systemlessly replaces your system emoji with Twemoji. Self-mounts on KernelSU/SukiSU/APatch without a mount metamodule; on Magisk the native Magic Mount is used.",
+      "homepage": "https://github.com/deserthouse/twemoji-resurrection",
+      "size": 3382591,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1789191652.0,
+        "source": "https://github.com/deserthouse/twemoji-resurrection"
+      },
+      "versions": [
+        {
+          "version": "v17.0.3 (59)",
+          "versionCode": 59,
+          "zipUrl": "https://github.com/deserthouse/twemoji-resurrection/releases/download/v17.0.3/Twemoji-Resurrection-17.0.3-ksu.zip",
+          "timestamp": 1789191652.0
+        }
+      ]
+    },
+    {
+      "id": "usbmassstorage",
+      "name": "USB Mass Storage",
+      "version": "v5.0",
+      "versionCode": 500,
+      "author": "Enginex0",
+      "description": "💾 USB Mass Storage gadget controller · Turn your phone into a USB drive · KernelSU / Magisk / APatch",
+      "homepage": "https://github.com/Enginex0/UsbMassStorage",
+      "size": 6138629,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1775143920.0,
+        "source": "https://github.com/Enginex0/UsbMassStorage"
+      },
+      "versions": [
+        {
+          "version": "v5.0",
+          "versionCode": 500,
+          "zipUrl": "https://github.com/Enginex0/UsbMassStorage/releases/download/v5.0/UsbMassStorage-v5.0.zip",
+          "timestamp": 1775143920.0
         }
       ]
     },
@@ -1280,6 +2480,78 @@
       ]
     },
     {
+      "id": "wifi7_lab_safe",
+      "name": "WiFi 7 Lab Full Control",
+      "version": "v1.5.0",
+      "versionCode": 150,
+      "author": "E3N",
+      "description": "驱动:待读取 | 系统:待读取 | 请求:US | TX:N/A [未验证]",
+      "homepage": "https://github.com/e3n-glotm/wifi7-lab-safe",
+      "size": 17212,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1793884637.0,
+        "source": "https://github.com/e3n-glotm/wifi7-lab-safe"
+      },
+      "versions": [
+        {
+          "version": "v1.5.0",
+          "versionCode": 150,
+          "zipUrl": "https://github.com/E3N-glotm/WiFi7-Lab-Safe/releases/download/v1.5.0/WiFi7-Lab-Safe-v1.5.0.zip",
+          "timestamp": 1793884637.0
+        }
+      ]
+    },
+    {
+      "id": "xiaomi_usb_sec_bypass",
+      "name": "Xiaomi USB Security Bypass",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "CHERWIN",
+      "description": "Enable \"USB debugging (Security settings)\" / \"USB install\" / fastboot on rooted MIUI without Mi account & SIM. Sets persist.security.adbinstall, persist.security.adbinput, persist.fastboot.enable to 1 on every boot so scrcpy/Total Control etc. can inject input.",
+      "homepage": "https://github.com/cherwing/xiaomi_usb_security_bypass",
+      "size": 10156,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1788884952.0,
+        "source": "https://github.com/cherwing/xiaomi_usb_security_bypass"
+      },
+      "versions": [
+        {
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/CHERWING/xiaomi_usb_security_bypass/releases/download/v1.0/xiaomi_usb_security_bypass_v1.0.zip",
+          "timestamp": 1788884952.0
+        }
+      ]
+    },
+    {
+      "id": "Yurikey",
+      "name": "Yurikey Manager",
+      "version": "v3.0.6",
+      "versionCode": 306,
+      "author": "Yurikey Dev",
+      "description": "A systemless module to get strong integrity so easily",
+      "homepage": "https://github.com/dpejoh/yurikey",
+      "size": 420143,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1780459566.0,
+        "source": "https://github.com/dpejoh/yurikey"
+      },
+      "versions": [
+        {
+          "version": "v3.0.6",
+          "versionCode": 306,
+          "zipUrl": "https://github.com/Yurii0307/yurikey/releases/download/v3.0.6/Yurikey-v3.0.6.signed.zip",
+          "timestamp": 1780459566.0
+        }
+      ]
+    },
+    {
       "id": "SL8541E_Config_Fix",
       "name": "zero-sl8541e和顺成方案设备优化·无音效",
       "version": "2.1.4",
@@ -1300,6 +2572,30 @@
           "versionCode": 34,
           "zipUrl": "https://github.com/Baimacao/SL8541E-Heshuicheng-Device-Optimization-Module/releases/download/v2.1.4/SL8541E_Config_Fix_v2.1.4_HSC.zip",
           "timestamp": 1793516085.0
+        }
+      ]
+    },
+    {
+      "id": "zerotier",
+      "name": "ZeroTier for Magisk",
+      "version": "v1.14.0",
+      "versionCode": 114,
+      "author": "eventlOwOp",
+      "description": "zerotier for magisk",
+      "homepage": "https://github.com/eventlOwOp/zerotier-magisk",
+      "size": 1817867,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1744351021.0,
+        "source": "https://github.com/eventlOwOp/zerotier-magisk"
+      },
+      "versions": [
+        {
+          "version": "v1.14.0",
+          "versionCode": 114,
+          "zipUrl": "https://github.com/eventlOwOp/zerotier-magisk/releases/download/v1.14.2-2/zerotier-magisk-aarch64-gcc-e2c0c3a.zip",
+          "timestamp": 1744351021.0
         }
       ]
     },
@@ -1328,6 +2624,54 @@
       ]
     },
     {
+      "id": "zygisk-module-xfingerprint-pay-all",
+      "name": "Zygisk - 指纹支付",
+      "version": "v7.0.1",
+      "versionCode": 63,
+      "author": "Jason Eric",
+      "description": "让微信、支付宝、淘宝、QQ、云闪付支持指纹支付 Fingerprint pay for WeChat, Alipay, Taobao, QQ and UnionPay.",
+      "homepage": "https://github.com/eritpchy/FingerprintPay",
+      "size": 4597808,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792637004.0,
+        "source": "https://github.com/eritpchy/FingerprintPay"
+      },
+      "versions": [
+        {
+          "version": "v7.0.1",
+          "versionCode": 63,
+          "zipUrl": "https://github.com/eritpchy/FingerprintPay/releases/download/7.0.1-ci/zygisk-module-xfingerprint-pay-all-v7.0.1-release.zip",
+          "timestamp": 1792637004.0
+        }
+      ]
+    },
+    {
+      "id": "zygisksu",
+      "name": "Zygisk Next",
+      "version": "1.5.3 (880-22a1bf5-release)",
+      "versionCode": 880,
+      "author": "LSPosed Developers",
+      "description": "Standalone implementation of Zygisk.",
+      "homepage": "https://github.com/Dr-TSNG/ZygiskNext",
+      "size": 6638473,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794069131.0,
+        "source": "https://github.com/Dr-TSNG/ZygiskNext"
+      },
+      "versions": [
+        {
+          "version": "1.5.3 (880-22a1bf5-release)",
+          "versionCode": 880,
+          "zipUrl": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.5.3/Zygisk-Next-1.5.3-880-22a1bf5-release.zip",
+          "timestamp": 1794069131.0
+        }
+      ]
+    },
+    {
       "id": "COPG",
       "name": "✨ COPG SPOOF ✨",
       "version": "7.7.2",
@@ -1348,6 +2692,30 @@
           "versionCode": 772,
           "zipUrl": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.2/COPG-v7.7.2.zip",
           "timestamp": 1794235267.0
+        }
+      ]
+    },
+    {
+      "id": "Lowlife",
+      "name": "躺平青年",
+      "version": "v3.0",
+      "versionCode": 300,
+      "author": "ENDDREAM",
+      "description": "• 【v3.0】模块已打包为独立 APK，桌面图标直接启动\\n• 修复 LSPosed 无法正常工作\\n• 提供 KernelSU 模块的重载服务\\n• 提供 越狱模式 环境下的基础环境隐藏",
+      "homepage": "https://github.com/enddream-zm/lowlife",
+      "size": 3033103,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1793468543.0,
+        "source": "https://github.com/enddream-zm/lowlife"
+      },
+      "versions": [
+        {
+          "version": "v3.0",
+          "versionCode": 300,
+          "zipUrl": "https://github.com/ENDDREAM-ZM/Lowlife/releases/download/v3.0/Lowlife-v3.0.zip",
+          "timestamp": 1793468543.0
         }
       ]
     }
