@@ -131,10 +131,10 @@ Providers outside GitHub (GitLab, Codeberg, Play Store, official sites) are incl
 | `ksu/modules.json` | KernelSU Next | Array with name, author, description, repoUrl and visibility |
 
 Paste into MMRL (base directory):
-`https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/`
+`https://raw.githubusercontent.com/stupidgiraffe/rootatlas/main/`
 
 Paste into KernelSU Next (JSON file):
-`https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/ksu/modules.json`
+`https://raw.githubusercontent.com/stupidgiraffe/rootatlas/main/ksu/modules.json`
 
 ## Installation boundary
 
@@ -154,6 +154,6 @@ GitHub may delay or suspend scheduled workflows and provider formats or rate lim
 
 ## Operational verification
 
-View [workflow runs](https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml) and [live coverage report](../report.json). Both installation indexes are validated in CI, but **real-device import and installation remain separate acceptance tests**.
+View [workflow runs](https://github.com/stupidgiraffe/rootatlas/actions/workflows/update.yml) and [live coverage report](../report.json). Both installation indexes are validated in CI, but **real-device import and installation remain separate acceptance tests**.
 
 Manual rerun: GitHub → Actions → Update RootAtlas Module Feeds → Run workflow.
