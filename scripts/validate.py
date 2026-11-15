@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MAX_INT = 2_147_483_647
-COVER = "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/assets/root-feed-banner.jpg"
+COVER = "https://raw.githubusercontent.com/stupidgiraffe/rootatlas/main/assets/root-feed-banner.jpg"
 TRACK_TYPES = {"GIT", "ONLINE_ZIP", "ONLINE_JSON", "UNKNOWN", "LOCAL_JSON", "LOCAL_ZIP"}
 
 
@@ -40,7 +40,7 @@ def validate():
     require(isinstance(search_repos, dict), "source-discovery repositories missing")
     for key, entry in search_repos.items():
         repo = entry.get("repository", "").casefold()
-        require(repo != "stupidgiraffe/android-root-feed-bridge",
+        require(repo != "stupidgiraffe/rootatlas",
                 "source-discovery must not recursively import RootAtlas")
         require("template" not in repo.split("/")[-1],
                 "demo/template repositories must never enter source index")
