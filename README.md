@@ -2,11 +2,11 @@
 
 <img src="assets/root-feed-banner.jpg" alt="Root Feed Bridge — a luminous modular cube linking Android root module repositories" width="100%" />
 
-# Root Feed Bridge
+<h1>Root Feed Bridge</h1>
 
-### One catalog. Two module managers. Automatic updates.
+<h3>One catalog. Two module managers. Automatic updates.</h3>
 
-Discover Android root tools from **[Best Root Apps for Android](https://krishna3163.github.io/best-root-apps-for-android/)**, with ready-to-add repositories for **[MMRL](https://github.com/MMRLApp/MMRL)** and **[KernelSU Next](https://github.com/KernelSU-Next/KernelSU-Next)**.
+<p>Discover Android root tools from <strong><a href="https://krishna3163.github.io/best-root-apps-for-android/">Best Root Apps for Android</a></strong>, with ready-to-add repositories for <strong><a href="https://github.com/MMRLApp/MMRL">MMRL</a></strong> and <strong><a href="https://github.com/KernelSU-Next/KernelSU-Next">KernelSU Next</a></strong>.</p>
 
 <p>
   <a href="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml"><img alt="Daily feed build" src="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml/badge.svg" /></a>
@@ -119,7 +119,7 @@ To refresh manually, open **Actions → Update Root Module Feeds → Run workflo
 
 <div align="center">
 
-If this bridge saves you from hunting down module downloads and checking repositories by hand, a coffee helps support future improvements and upkeep.
+<p>If this bridge saves you from hunting down module downloads and checking repositories by hand, a coffee helps support future improvements and upkeep.</p>
 
 <a href="https://buymeacoffee.com/stupidgiraffe"><img src="https://raw.githubusercontent.com/stupidgiraffe/Kizuku/main/docs/media/buy-me-a-coffee-qr.png" alt="QR code for Buy Me a Coffee: stupidgiraffe" width="152" height="152" /></a>
 
@@ -135,7 +135,7 @@ If this bridge saves you from hunting down module downloads and checking reposit
 
 <div align="center">
 
-**Made for the Android rooting community** · Maintained by [stupidgiraffe](https://github.com/stupidgiraffe)
+<strong>Made for the Android rooting community</strong> · Maintained by <a href="https://github.com/stupidgiraffe">stupidgiraffe</a>
 
 <sub>Catalog data belongs to its respective authors. This independent project is not affiliated with or endorsed by the source maintainer, MMRL, KernelSU Next, or module developers. Inspect what you flash.</sub>
 
