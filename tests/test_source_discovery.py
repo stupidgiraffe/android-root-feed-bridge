@@ -13,6 +13,13 @@ class DiscoveryTests(unittest.TestCase):
         self.assertTrue(all(u.startswith("https://") for _, u in links))
         self.assertEqual(candidate_urls({"full_name": "../../bad", "default_branch": "main"}), [])
 
+    def test_never_index_ourselves_or_repository_templates(self):
+        from scripts.source_discovery import eligible_repository
+        self.assertFalse(eligible_repository("stupidgiraffe/android-root-feed-bridge"))
+        self.assertFalse(eligible_repository("MMRLApp/template-repository"))
+        self.assertFalse(eligible_repository("somebody/mmrl-example"))
+        self.assertTrue(eligible_repository("uonou/mmrl-repo"))
+
     def test_only_valid_mmrl_indices_are_accepted(self):
         item = {"full_name": "Example/MMRL-Repo", "default_branch": "main"}
         good = {
