@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "generated": 1794754302,
+  "repositories": {
+    "cabiamdos/my-mmrl-repository": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/cabiamdos/my-mmrl-repository/master/json/modules.json",
+      "modules": 3,
+      "status": "found",
+      "repository": "cabiamdos/my-mmrl-repository",
+      "checked": 1794754302
+    },
+    "brz0x100/mmrl-repo": {
+      "kind": "mmrl",
+      "url": "https://brz0x100.github.io/mmrl-repo/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "brz0x100/mmrl-repo",
+      "checked": 1794754302
+    },
+    "bnsmb/magisk-modules": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "bnsmb/magisk-modules",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "bnsmb/magisk-module-with-clang19": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "bnsmb/Magisk-Module-with-clang19",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "bnsmb/magisk-module-with-clang20": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "bnsmb/Magisk-Module-with-clang20",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "deeshawna84/magisk-modules-alt-repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "DeeShawna84/magisk-modules-alt-repo",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "abocn/modules": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "abocn/modules",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "devroot-magisk/magisk-module-repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Devroot-magisk/Magisk-module-repo",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "digijeth/magisk_module_manager_repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "DigijEth/Magisk_Module_Manager_Repo",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "easakaza/kalinethunter-magisk-modules-repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "EasaKaza/KaliNethunter-Magisk-Modules-Repo",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "gabrielmmf/remove-storage.xml": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "gabrielmmf/remove-storage.xml",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "hiighbob/mmrlrepo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/hiighbob/MmrlRepo/master/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "hiighbob/MmrlRepo",
+      "checked": 1794754302
+    },
+    "floweringnights/scarletwitchoverlay": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "floweringnights/scarletwitchoverlay",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "fullydeepak/googlesansfontmm": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "fullyDeepak/GoogleSansFontMM",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "jasonalorance/intjlo-mmrl-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/JasonALorance/INTJLo-MMRL-Repo/master/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "JasonALorance/INTJLo-MMRL-Repo",
+      "checked": 1794754302
+    },
+    "kawaii-beans/magiskfonts": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "kawaii-beans/Magiskfonts",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "liuran001/magisk-modules-repo_fast": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "liuran001/Magisk-Modules-Repo_Fast",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "ilhan-athn7/freedreno_turnip-ci": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "ilhan-athn7/freedreno_turnip-CI",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "llucs/f-gisk": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Llucs/f-gisk",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "googlers-repo/mmrl_installer_api_test": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Googlers-Repo/mmrl_installer_api_test",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "googlers-repo/node_magisk-module_install-prototype": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Googlers-Repo/node_magisk-module_install-prototype",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "anonymousik/magisk_module_ferro_repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "anonymousik/MAGISK_MODULE_FERRO_REPO",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "googlers-repo/magisk-module-repo-builder": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Googlers-Repo/Magisk-Module-Repo-Builder",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "mystster/module-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/mystster/module-repo/master/json/modules.json",
+      "modules": 10,
+      "status": "found",
+      "repository": "mystster/module-repo",
+      "checked": 1794754302
+    },
+    "luna0beron/project-lun3-prototype": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "luna0beron/project-lun3-prototype",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "mmrlapp/template-repository": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/MMRLApp/template-repository/master/json/modules.json",
+      "modules": 31,
+      "status": "found",
+      "repository": "MMRLApp/template-repository",
+      "checked": 1794754302
+    },
+    "natsumerinchan/celica-magisk-modules-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/natsumerinchan/celica-magisk-modules-repo/main/json/modules.json",
+      "modules": 4,
+      "status": "found",
+      "repository": "natsumerinchan/celica-magisk-modules-repo",
+      "checked": 1794754302
+    },
+    "magisk-modules-alt-repo/magisk-module-koruri-font": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Magisk-Modules-Alt-Repo/magisk-module-koruri-font",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "magisk-modules-alt-repo/magisk-module-mejiro-font": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Magisk-Modules-Alt-Repo/magisk-module-mejiro-font",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "mathcarneiro90/magisk-modules-alt-repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Mathcarneiro90/Magisk-Modules-Alt-Repo",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "privshell/privshell-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/privshell/privshell-repo/master/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "privshell/privshell-repo",
+      "checked": 1794754302
+    },
+    "script-or-script/fluttertap-mmrl": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/json/modules.json",
+      "modules": 1,
+      "status": "found",
+      "repository": "script-or-script/FlutterTap-mmrl",
+      "checked": 1794754302
+    },
+    "ravenwolf1998/mmrl-magisk-module-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/RavenWolf1998/MMRL-Magisk-Module-Repo/main/json/modules.json",
+      "modules": 4,
+      "status": "found",
+      "repository": "RavenWolf1998/MMRL-Magisk-Module-Repo",
+      "checked": 1794754302
+    },
+    "rikj000/magisk-modules-rikj000-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/Rikj000/Magisk-Modules-Rikj000-Repo/development/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "Rikj000/Magisk-Modules-Rikj000-Repo",
+      "checked": 1794754302
+    },
+    "pavelc4/auriya": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "pavelc4/auriya",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "shamratrh-web/mmrl-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/json/modules.json",
+      "modules": 23,
+      "status": "found",
+      "repository": "shamratrh-web/mmrl-repo",
+      "checked": 1794754302
+    },
+    "uonou/mmrl-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/uonou/mmrl-repo/main/json/modules.json",
+      "modules": 44,
+      "status": "found",
+      "repository": "uonou/mmrl-repo",
+      "checked": 1794754302
+    },
+    "stupidgiraffe/android-root-feed-bridge": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/json/modules.json",
+      "modules": 820,
+      "status": "found",
+      "repository": "stupidgiraffe/android-root-feed-bridge",
+      "checked": 1794754302
+    },
+    "pycmshoma/customizednavbar_archived": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "PycmShoma/CustomizedNavbar_Archived",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "qzlin/magisk-modules-alt-repo-json": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "QZLin/Magisk-Modules-Alt-Repo-json",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "vd171/vd-modules": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/json/modules.json",
+      "modules": 4,
+      "status": "found",
+      "repository": "VD171/VD-Modules",
+      "checked": 1794754302
+    },
+    "vc-teahouse/magisk-module-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/vc-teahouse/magisk-module-repo/master/json/modules.json",
+      "modules": 14,
+      "status": "found",
+      "repository": "vc-teahouse/magisk-module-repo",
+      "checked": 1794754302
+    },
+    "spam71923-bot/mmrl": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "spam71923-bot/MMRL",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "urielcrak/https-github.com-magisk-modules-repo-magiskhidepropsconf": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Urielcrak/https-github.com-Magisk-Modules-Repo-MagiskHidePropsConf",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "viralbanda/nothingify-magisk": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "viralbanda/Nothingify-Magisk",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "yukari0201/mmrl-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/json/modules.json",
+      "modules": 18,
+      "status": "found",
+      "repository": "Yukari0201/mmrl-repo",
+      "checked": 1794754302
+    },
+    "w1s3one805/https-github.com-magisk-modules-alt-repo-onecontroller.git-to-w1s3one805": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "w1s3one805/https-github.com-Magisk-Modules-Alt-Repo-OneController.git-to-w1s3one805",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "w1s3one805/magisk-modules-alt-repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "w1s3one805/Magisk-Modules-Alt-Repo",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "w1s3one805/magisk-module-alt-repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "w1s3one805/Magisk-Module-Alt-Repo",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "mmrlapp/mmrl": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "MMRLApp/MMRL",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "vaginessa/magisk-modules-repo": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "vaginessa/magisk-modules-repo",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    },
+    "neternels/neternels-modules": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Neternels/NetErnels-Modules",
+      "last_error": "HTTPError",
+      "checked": 1794754302
+    }
+  }
+}

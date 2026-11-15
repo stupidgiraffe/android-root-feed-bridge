@@ -1,6 +1,6 @@
 {
-  "name": "Root Feed Bridge — Unified Modules",
+  "name": "RootAtlas — Android Module Index",
   "website": "https://github.com/stupidgiraffe/android-root-feed-bridge",
   "cover": "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/assets/root-feed-banner.jpg",
-  "description": "Federated MMRL and KernelSU Next module sources alongside Best Root Apps catalog."
+  "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync."
 }
