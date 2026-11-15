@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated": 1794754745,
+  "generated": 1794756954,
   "repos": {
     "badaccuracyid/a2dpforce": {
       "checked": 1794731821,
@@ -74,7 +74,8 @@
       "timestamp": 1794057670,
       "size": 7419649,
       "asset_name": "BFR-WEBUI-Magisk-v1.2.8-nomodem.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "readonlynux/bootanimation-module": {
       "checked": 1794754753,
@@ -94,7 +95,8 @@
       "timestamp": 1792252722,
       "size": 13974,
       "asset_name": "bootanimation-module-v1.3-stable.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "itachi-re/bootanimation-template": {
       "checked": 1794740547,
@@ -121,7 +123,8 @@
       "zip": "https://github.com/tsaQB/cliproxyapi-android/releases/download/v8.0.72/cliproxyapi-magisk.zip",
       "zip_count": 1,
       "timestamp": 1794717948,
-      "size": 28164957
+      "size": 28164957,
+      "last_error": "HTTPError"
     },
     "susuya962/cnsimspoof": {
       "checked": 1794740770,
@@ -182,7 +185,8 @@
       "timestamp": 1787312388,
       "size": 5132,
       "asset_name": "hide-virt-apex-su-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "zilewang7/hyperos4smallwindowinputfilter": {
       "checked": 1794740779,
@@ -208,7 +212,8 @@
       "timestamp": 1794402939,
       "size": 229202,
       "asset_name": "ipset-arm64-v7.24-r15.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "marshalrotation/kernelsu-android-system-manager": {
       "checked": 1794740756,
@@ -271,7 +276,8 @@
       "zip": "https://github.com/chandr1000/nm-compat-scanner/releases/download/v1.1/nm-scanner-module-v1.1.zip",
       "zip_count": 1,
       "timestamp": 1787280942,
-      "size": 8980
+      "size": 8980,
+      "last_error": "HTTPError"
     },
     "nullcpy/nullcpy.github.io": {
       "checked": 1794740762,
@@ -308,7 +314,8 @@
       "timestamp": 1787294695,
       "size": 1283409,
       "asset_name": "patch-inline-trackmotion-v2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "as-tsaqib/picoclaw-module": {
       "checked": 1794731820,
@@ -464,7 +471,8 @@
       "zip": "https://github.com/danish3311/disable-fuse-bpf/releases/download/v1.0.0/Disable-FUSE-BPF-v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1787438350,
-      "size": 2146
+      "size": 2146,
+      "last_error": "HTTPError"
     },
     "naufalist/lsposed-module-android-vpn-detection-bypass": {
       "checked": 1794740759,
@@ -588,7 +596,8 @@
       "zip": "https://github.com/guocheng1378/miclaw-api/releases/download/v1.0.0/MiclawAPI-v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1785817038,
-      "size": 634618
+      "size": 634618,
+      "last_error": "HTTPError"
     },
     "guocheng1378/miclawapibridge": {
       "checked": 1794740544,
@@ -661,7 +670,8 @@
       "zip": "https://github.com/Darkaxt/ThorAutoTimeZone/releases/download/v1.0.0/Thor-Automatic-Time-Zone-v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1787518210,
-      "size": 27376644
+      "size": 27376644,
+      "last_error": "HTTPError"
     },
     "sevcator/zapret-pocket": {
       "checked": 1794754745,
@@ -711,7 +721,8 @@
       "zip": "https://github.com/jiyin004-jpg/ommega/releases/download/v1.7.17/ommega-a-release-1.7.17.zip",
       "zip_count": 2,
       "timestamp": 1794591232,
-      "size": 25231820
+      "size": 25231820,
+      "last_error": "HTTPError"
     },
     "nexuverse-labs/oxypin": {
       "checked": 1794740760,
@@ -743,7 +754,8 @@
       "timestamp": 1776818999,
       "size": 6826,
       "asset_name": "s3ra1n-usb-v0.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "niki914/zafiro": {
       "checked": 1794740761,
@@ -777,7 +789,8 @@
       "zip": "https://github.com/Arimacose/Keep_default_assistant_as_Gemini/releases/download/v1.0.0/Gemini-Default-Assistant-Keeper-v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1787723972,
-      "size": 7714
+      "size": 7714,
+      "last_error": "HTTPError"
     },
     "nateafish/ldac-a2dp-priority": {
       "checked": 1794740759,
@@ -849,7 +862,8 @@
       "timestamp": 1793138171,
       "size": 3905888,
       "asset_name": "VolumePerApp-magisk-v0.4.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kreza6173-pixel/android-app-hub": {
       "checked": 1794740750,
@@ -906,7 +920,8 @@
       "zip": "https://github.com/2erTwo6/Dropbear-SSH-Android-Module/releases/download/1.5.0/dropbear-ksu-v1.5.0-arm64.zip",
       "zip_count": 1,
       "timestamp": 1793769445,
-      "size": 2354459
+      "size": 2354459,
+      "last_error": "HTTPError"
     },
     "staleroot/fuck-iab": {
       "checked": 1794740769,
@@ -1058,7 +1073,8 @@
       "zip": "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard/releases/download/v0.4.1/oneplus15_bds_guard-v0.4.1.zip",
       "zip_count": 1,
       "timestamp": 1787872775,
-      "size": 28067
+      "size": 28067,
+      "last_error": "HTTPError"
     },
     "communism420/openadb": {
       "checked": 1794734563,
@@ -1093,7 +1109,8 @@
       "timestamp": 1788001686,
       "size": 12282,
       "asset_name": "tcl-power-menu-v1.0-magisk.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hyperramzey/wcg_f946b": {
       "checked": 1794754749,
@@ -1110,7 +1127,8 @@
       "zip": "https://github.com/HyperRamzey/wcg_f946b/releases/download/v1.1.0/wcg_f946b-v1.1.0.zip",
       "zip_count": 1,
       "timestamp": 1787892671,
-      "size": 9231
+      "size": 9231,
+      "last_error": "HTTPError"
     },
     "kogeler/zygveil": {
       "checked": 1794740750,
@@ -1159,7 +1177,8 @@
       "zip": "https://github.com/ENDDREAM-ZM/Lowlife/releases/download/v3.0/Lowlife-v3.0.zip",
       "zip_count": 1,
       "timestamp": 1793468543,
-      "size": 3033103
+      "size": 3033103,
+      "last_error": "HTTPError"
     },
     "zhu-junwei/magisk-openlist": {
       "checked": 1794754749,
@@ -1276,7 +1295,8 @@
       "zip": "https://github.com/Bouteillepleine/NoMount-Suite/releases/download/v1.3.212/00_NoMount-Module-v1.3.212.zip",
       "zip_count": 2,
       "timestamp": 1794588203,
-      "size": 928765
+      "size": 928765,
+      "last_error": "HTTPError"
     },
     "sysadmindoc/phonefork": {
       "checked": 1794740770,
@@ -1323,7 +1343,8 @@
       "zip": "https://github.com/JoinChang/tailscale-root/releases/download/v0.3.0/tailscale-root-v0.3.0.zip",
       "zip_count": 1,
       "timestamp": 1793865162,
-      "size": 129696
+      "size": 129696,
+      "last_error": "HTTPError"
     },
     "mishkarala/wifi-4g-enhanced-mostly-poco-f3": {
       "checked": 1794754751,
@@ -1343,7 +1364,8 @@
       "timestamp": 1789593658,
       "size": 6509,
       "asset_name": "wifienhan_v4.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "zhangbaoshengrio/android-picker-sort": {
       "checked": 1794740778,
@@ -1366,7 +1388,8 @@
       "zip": "https://github.com/GJR787878/auto-create-app-storage/releases/download/v2.4/auto-create-app-storage.zip",
       "zip_count": 1,
       "timestamp": 1790622264,
-      "size": 1796
+      "size": 1796,
+      "last_error": "HTTPError"
     },
     "geiserx/cashpilot-android": {
       "checked": 1794740543,
@@ -1442,7 +1465,8 @@
       "zip": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.23/ReSuSFS.zip",
       "zip_count": 1,
       "timestamp": 1792750946,
-      "size": 267182
+      "size": 267182,
+      "last_error": "HTTPError"
     },
     "yyds314/screenshotcenter": {
       "checked": 1794740778,
@@ -1517,7 +1541,8 @@
       "zip": "https://github.com/alienware377/RootlessViPER4Android/releases/download/v4.6.0/RootfulViPER4Android-engine-module-v4.6.0.zip",
       "zip_count": 1,
       "timestamp": 1794715799,
-      "size": 4119439
+      "size": 4119439,
+      "last_error": "HTTPError"
     },
     "drizzy07x/supercharger_pixel_9_series": {
       "checked": 1794754749,
@@ -1534,7 +1559,8 @@
       "zip": "https://github.com/Drizzy07x/Supercharger_Pixel_9_Series/releases/download/v2.6.7/Pixel-9-Series-Supercharger-v2.6.7.zip",
       "zip_count": 1,
       "timestamp": 1785450192,
-      "size": 68740
+      "size": 68740,
+      "last_error": "HTTPError"
     },
     "dupdatesystem/upgradeall": {
       "checked": 1794734568,
@@ -1588,7 +1614,8 @@
       "timestamp": 1788485916,
       "size": 418558,
       "asset_name": "vulkan_hwui-v2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "eidd1435/eidroot": {
       "checked": 1794734568,
@@ -1625,7 +1652,8 @@
       "timestamp": 1788369736,
       "size": 17726,
       "asset_name": "FODFixObsidian-v1.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ntilau/intare": {
       "checked": 1794740761,
@@ -1658,7 +1686,8 @@
       "zip": "https://github.com/anirudhgupta109/PixelXpert-Next/releases/download/v6.1.4/PixelXpert-Next.zip",
       "zip_count": 1,
       "timestamp": 1794384284,
-      "size": 2825948
+      "size": 2825948,
+      "last_error": "HTTPError"
     },
     "alliottech/quick-adb": {
       "checked": 1794731818,
@@ -1683,7 +1712,8 @@
       "timestamp": 1788283118,
       "size": 11590,
       "asset_name": "StatusbarFixObsidian-v1.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "depaolaluigi123/stereoanalogrecorder": {
       "checked": 1794734566,
@@ -1766,7 +1796,8 @@
       "zip": "https://github.com/disc0nnctd/TVRemoteWeb/releases/download/v1.2.0/tvremoteweb-v1.2.0.zip",
       "zip_count": 1,
       "timestamp": 1791726663,
-      "size": 1147937
+      "size": 1147937,
+      "last_error": "HTTPError"
     },
     "kepatotorica/unscopemydata": {
       "checked": 1794740749,
@@ -1795,7 +1826,8 @@
       "zip": "https://github.com/Hrishi2861/Alioth-Loud/releases/download/v0.3.4/alioth-loud-v0.3.4.zip",
       "zip_count": 1,
       "timestamp": 1788512727,
-      "size": 1005376
+      "size": 1005376,
+      "last_error": "HTTPError"
     },
     "zjz-beiming/donottryaccessibility-reborn": {
       "checked": 1794740779,
@@ -1866,7 +1898,8 @@
       "timestamp": 1788491943,
       "size": 88431,
       "asset_name": "webview-optimizer.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "jamamjadalone/android-biometric-bypass-lsposed": {
       "checked": 1794740548,
@@ -1894,7 +1927,8 @@
       "zip": "https://github.com/AlexDev404/cloudflared-magisk/releases/download/2026.8.2/cloudflared_2026.8.2.zip",
       "zip_count": 1,
       "timestamp": 1788539953,
-      "size": 17832734
+      "size": 17832734,
+      "last_error": "HTTPError"
     },
     "arora-sir/darq-reborn": {
       "checked": 1794731820,
@@ -1983,7 +2017,8 @@
       "zip": "https://github.com/1ndevelopment/FOXXD_A67L_touch_backlight_disabler/releases/download/v1.1/FOXXD_A67L_touch_backlight_disabler-v1.1.zip",
       "zip_count": 1,
       "timestamp": 1788629468,
-      "size": 5529
+      "size": 5529,
+      "last_error": "HTTPError"
     },
     "hankaviator/geo-intent-fix": {
       "checked": 1794740544,
@@ -2031,7 +2066,8 @@
       "timestamp": 1791930999,
       "size": 34516632,
       "asset_name": "mffm-runtime-2026.10.14.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xm1437/shizako": {
       "checked": 1794740775,
@@ -2066,7 +2102,8 @@
       "zip": "https://github.com/1ndevelopment/UniSoc_GSI_CallFix/releases/download/v1.0/FOXXD_A67L_CallFix_v1.0.zip",
       "zip_count": 1,
       "timestamp": 1780673251,
-      "size": 870940
+      "size": 870940,
+      "last_error": "HTTPError"
     },
     "foxlost/universal-miracast-sink": {
       "checked": 1794754749,
@@ -2083,7 +2120,8 @@
       "zip": "https://github.com/FoxLost/universal-miracast-sink/releases/download/v1.4/magisk-miracast-sink-v1.4.zip",
       "zip_count": 1,
       "timestamp": 1788685308,
-      "size": 8282102
+      "size": 8282102,
+      "last_error": "HTTPError"
     },
     "cmyfqwq/webauthn-for-webview-shells": {
       "checked": 1794734563,
@@ -2105,7 +2143,8 @@
       "zip": "https://github.com/jevcje0-gif/Arabic-and-English-IOS-fonts-magisk-module/releases/download/Android/IOS.Fonts.zip",
       "zip_count": 1,
       "timestamp": 1788741533,
-      "size": 568196
+      "size": 568196,
+      "last_error": "HTTPError"
     },
     "davi0777s/axis-android-research": {
       "checked": 1794734565,
@@ -2162,7 +2201,8 @@
       "timestamp": 1788705531,
       "size": 1055594,
       "asset_name": "vpn-share-proxy.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "bileizhen/xblocker": {
       "checked": 1794731822,
@@ -2189,7 +2229,8 @@
       "zip": "https://github.com/iodn/android-kernel-tweaker/releases/download/v2.2/AKTune-v2.2.zip",
       "zip_count": 1,
       "timestamp": 1788809981,
-      "size": 16718
+      "size": 16718,
+      "last_error": "HTTPError"
     },
     "marufmoinuddin/aod-timeout-module": {
       "checked": 1794740756,
@@ -2329,7 +2370,8 @@
       "zip": "https://github.com/CHERWING/xiaomi_usb_security_bypass/releases/download/v1.0/xiaomi_usb_security_bypass_v1.0.zip",
       "zip_count": 1,
       "timestamp": 1788884952,
-      "size": 10156
+      "size": 10156,
+      "last_error": "HTTPError"
     },
     "xusoku/android-frida-network-hook": {
       "checked": 1794740776,
@@ -2412,7 +2454,8 @@
       "zip": "https://github.com/jojobear691/TermuxRootMods-KSU-Toolkit/releases/download/v2.0.0/TermuxRootMods-KSU-Toolkit-v2.0.0.zip",
       "zip_count": 1,
       "timestamp": 1788985183,
-      "size": 221518
+      "size": 221518,
+      "last_error": "HTTPError"
     },
     "ruvyrom/uraam": {
       "checked": 1794740766,
@@ -2438,7 +2481,8 @@
       "timestamp": 1788988440,
       "size": 41287125,
       "asset_name": "zygisk_frida_gadget-v17.18.0-1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "javsaia/androidduo": {
       "checked": 1794740548,
@@ -2538,7 +2582,8 @@
       "zip": "https://github.com/GegeDevs/DNSResolve-Termux/releases/download/v1.0.1/dnsresolve-v1.0.1.zip",
       "zip_count": 1,
       "timestamp": 1789186850,
-      "size": 3223
+      "size": 3223,
+      "last_error": "HTTPError"
     },
     "faaramadhann/faacc": {
       "checked": 1794734570,
@@ -2595,7 +2640,8 @@
       "zip": "https://github.com/CharlesGool/SMB_Smart_Sync/releases/download/v1.3.0/SMB_Smart_Sync_release_v1.3.0.zip",
       "zip_count": 1,
       "timestamp": 1789132211,
-      "size": 23497230
+      "size": 23497230,
+      "last_error": "HTTPError"
     },
     "mystichero1/systemdebloater": {
       "checked": 1794740758,
@@ -2634,7 +2680,8 @@
       "zip": "https://github.com/Dr-TSNG/altdb/releases/download/0.3.0/altdb-v0.3.0-arm64.zip",
       "zip_count": 1,
       "timestamp": 1792302382,
-      "size": 1407652
+      "size": 1407652,
+      "last_error": "HTTPError"
     },
     "benimaru-x1k/benimaru": {
       "checked": 1794731822,
@@ -2664,7 +2711,8 @@
       "timestamp": 1790195233,
       "size": 59363,
       "asset_name": "g750-boost_v2.2.11.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nemarpuc/libaoa_hid": {
       "checked": 1794740760,
@@ -2747,7 +2795,8 @@
       "zip": "https://github.com/dat-hoangnguyentuandat/HermesAndroid/releases/download/v1.0.1/HermesAndroid-v1.0.1.zip",
       "zip_count": 1,
       "timestamp": 1793696245,
-      "size": 2495463
+      "size": 2495463,
+      "last_error": "HTTPError"
     },
     "neflalabs/hidethatpeoples": {
       "checked": 1794740760,
@@ -2830,7 +2879,8 @@
       "zip": "https://github.com/cameleonnbss/GalaxyHz/releases/download/v2.3/force_120hz_x1s.zip",
       "zip_count": 1,
       "timestamp": 1789408132,
-      "size": 10365
+      "size": 10365,
+      "last_error": "HTTPError"
     },
     "mengwuzhuanshou/honorlsposedfix": {
       "checked": 1794754751,
@@ -2850,7 +2900,8 @@
       "timestamp": 1791247033,
       "size": 5549,
       "asset_name": "honor_lsp_fix_v1.0.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "1ndevelopment/pm-install-from-anywhere": {
       "checked": 1794731814,
@@ -2912,7 +2963,8 @@
       "timestamp": 1789548081,
       "size": 12719,
       "asset_name": "smsforward-v1.2.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hhhbwc/pico4-fw-anchor": {
       "checked": 1794740545,
@@ -2971,7 +3023,8 @@
       "zip": "https://github.com/ethanm6/google-sans-flex-magisk/releases/download/v1.4.1-auto/Google_Sans_Flex_v1.4.1-auto.zip",
       "zip_count": 1,
       "timestamp": 1792709835,
-      "size": 3436042
+      "size": 3436042,
+      "last_error": "HTTPError"
     },
     "juren233/hyperlyrics-enhanced": {
       "checked": 1794740748,
@@ -3046,7 +3099,8 @@
       "timestamp": 1791900787,
       "size": 63423,
       "asset_name": "android17-lhdc-a2dp-universal.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "brons0n/ebay-ocr": {
       "checked": 1794731823,
@@ -3100,7 +3154,8 @@
       "timestamp": 1789694698,
       "size": 1130,
       "asset_name": "systemui_contacts-v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nalbe/shark8-treble-su-fix": {
       "checked": 1794754752,
@@ -3120,7 +3175,8 @@
       "timestamp": 1789688400,
       "size": 984,
       "asset_name": "shark8-treble-su-fix-v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "timschneeb/shizustore": {
       "checked": 1794740772,
@@ -3167,7 +3223,8 @@
       "timestamp": 1789779401,
       "size": 6446,
       "asset_name": "duraspeed-off-v1.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "bmjubairdadu/kernel-loder": {
       "checked": 1794740541,
@@ -3197,7 +3254,8 @@
       "timestamp": 1790091595,
       "size": 7155,
       "asset_name": "MicFix_v1.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "bapirex/mitm-ca-system": {
       "checked": 1794754747,
@@ -3214,7 +3272,8 @@
       "zip": "https://github.com/bapirex/mitm-ca-system/releases/download/v1.0.0/mitm-ca-system-v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1789791678,
-      "size": 10839
+      "size": 10839,
+      "last_error": "HTTPError"
     },
     "ejaircastillo/note10-rescue-hid": {
       "checked": 1794734568,
@@ -3346,7 +3405,8 @@
       "timestamp": 1789977258,
       "size": 18569,
       "asset_name": "status-bar-guard-v2.6.1-1742099.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yukoimi/storagefix": {
       "checked": 1794740777,
@@ -3383,7 +3443,8 @@
       "timestamp": 1790194018,
       "size": 9787,
       "asset_name": "aod-battery-saver-override-0.2.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hhhhanasak1/astellkern-sp3000-firmware-switcher": {
       "checked": 1794740545,
@@ -3417,7 +3478,8 @@
       "zip": "https://github.com/ctrl-mietze/CatHook-MultiTask-Launcher/releases/download/v2.0.0.0/CatCore-MultiTask-Optional-Root-Module-v2.0.0.0.zip",
       "zip_count": 2,
       "timestamp": 1790142897,
-      "size": 4570
+      "size": 4570,
+      "last_error": "HTTPError"
     },
     "84593320z/gkd-": {
       "checked": 1794731816,
@@ -3460,7 +3522,8 @@
       "timestamp": 1790042404,
       "size": 14141,
       "asset_name": "shark8-gamemode-gsi-v1.0.0-kernelsu.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nalbe/shark8-smartrefresh-gsi": {
       "checked": 1794754752,
@@ -3480,7 +3543,8 @@
       "timestamp": 1791033138,
       "size": 7113,
       "asset_name": "shark8-smartrefresh-v1.7.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "sharonro25/sharonro25.github.io": {
       "checked": 1794740768,
@@ -3538,7 +3602,8 @@
       "timestamp": 1790030352,
       "size": 6611,
       "asset_name": "ZRAM_Turbo_v2.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "guillaume-behr/abp": {
       "checked": 1794740544,
@@ -3671,7 +3736,8 @@
       "zip": "https://github.com/Baimacao/SL8541E-Heshuicheng-Device-Optimization-Module/releases/download/v2.1.4/SL8541E_Config_Fix_v2.1.4_HSC.zip",
       "zip_count": 4,
       "timestamp": 1793516085,
-      "size": 165218
+      "size": 165218,
+      "last_error": "HTTPError"
     },
     "socketflip-app/socketflip": {
       "checked": 1794740769,
@@ -3705,7 +3771,8 @@
       "zip": "https://github.com/gasciljh/dnscrypt-proxy-webui/releases/download/v1.6.0/dnscrypt-webui-1.6.0-module.zip",
       "zip_count": 1,
       "timestamp": 1794571139,
-      "size": 34811456
+      "size": 34811456,
+      "last_error": "HTTPError"
     },
     "lemniskett/e3372droid": {
       "checked": 1794740751,
@@ -3742,7 +3809,8 @@
       "timestamp": 1790273321,
       "size": 11376,
       "asset_name": "q2touch_on_q3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "scorparc/scorparc.github.io": {
       "checked": 1794740767,
@@ -3765,7 +3833,8 @@
       "zip": "https://github.com/E3N-glotm/WiFi7-Lab-Safe/releases/download/v1.5.0/WiFi7-Lab-Safe-v1.5.0.zip",
       "zip_count": 1,
       "timestamp": 1793884637,
-      "size": 17212
+      "size": 17212,
+      "last_error": "HTTPError"
     },
     "ddceka/android-analytics-disabler": {
       "checked": 1794754748,
@@ -3782,7 +3851,8 @@
       "zip": "https://github.com/ddCeka/Android-Analytics-Disabler/releases/download/v8.4/dss-v8.4.zip",
       "zip_count": 1,
       "timestamp": 1793619566,
-      "size": 7637
+      "size": 7637,
+      "last_error": "HTTPError"
     },
     "balabalanl/bluetooth-key-manager": {
       "checked": 1794731821,
@@ -3912,7 +3982,8 @@
       "timestamp": 1790649621,
       "size": 8352,
       "asset_name": "beszel-agent-magisk-v1.2.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "talgorhythmic/dirac-universal-magisk-module": {
       "checked": 1794754746,
@@ -3955,7 +4026,8 @@
       "zip": "https://github.com/Bouteillepleine/DuckMock/releases/download/v1.4.3/DuckMock-1.4.3-release.zip",
       "zip_count": 1,
       "timestamp": 1790503971,
-      "size": 1089136
+      "size": 1089136,
+      "last_error": "HTTPError"
     },
     "sampple-korea/honeyboard-x": {
       "checked": 1794740767,
@@ -3981,7 +4053,8 @@
       "timestamp": 1790467601,
       "size": 21693,
       "asset_name": "lockjaw-v1.0-beta.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "0ch4/mrx-w09-apptwin-unlocked": {
       "checked": 1794731814,
@@ -4017,7 +4090,8 @@
       "timestamp": 1791786488,
       "size": 148408,
       "asset_name": "XiaomiAutomation-v0.13.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "verybaaad/zygisknextnext": {
       "checked": 1794754747,
@@ -4037,7 +4111,8 @@
       "timestamp": 1794747577,
       "size": 6148462,
       "asset_name": "ZNNext-v2.18.0.1-409-14c2bdd-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "zjns/adbstayawake": {
       "checked": 1794740779,
@@ -4092,7 +4167,8 @@
       "timestamp": 1791036038,
       "size": 25865,
       "asset_name": "TermuxSu-v2.7.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "mkdls/uecapupdater": {
       "checked": 1794740757,
@@ -4186,7 +4262,8 @@
       "timestamp": 1794530383,
       "size": 18734923,
       "asset_name": "NetProxy_v7.7.0_609.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ascen1ty/oslokrok": {
       "checked": 1794731820,
@@ -4276,7 +4353,8 @@
       "timestamp": 1790767968,
       "size": 15315,
       "asset_name": "Mirafix-v1.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "cheeseburger08/region-switch": {
       "checked": 1794734561,
@@ -4306,7 +4384,8 @@
       "timestamp": 1791264517,
       "size": 1096930,
       "asset_name": "SmaliPatcherReborn-module-v0.5.0-dev.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "gogibeta/stop-apps-public": {
       "checked": 1794740543,
@@ -4337,7 +4416,8 @@
       "timestamp": 1792603152,
       "size": 5757894,
       "asset_name": "AxionRecents-v1.2.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ragnarokchan/fiio-m15-apple-music-fix": {
       "checked": 1794740764,
@@ -4363,7 +4443,8 @@
       "timestamp": 1790870532,
       "size": 4534519,
       "asset_name": "BlackGlowFixMarble-v0.3-A17-KSU.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "tbc0309/myuppy-font-crdroid12": {
       "checked": 1794754746,
@@ -4454,7 +4535,8 @@
       "timestamp": 1794525246,
       "size": 562937,
       "asset_name": "wg-shield-arm64-v2.9.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yuriibishchuk/android-optimizer-app": {
       "checked": 1794740778,
@@ -4512,7 +4594,8 @@
       "zip": "https://github.com/fouc3-mirror/hyperos-flclash-vpn-fix/releases/download/v1.0.0/hyperos-flclash-vpn-fix-v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1790875951,
-      "size": 6378
+      "size": 6378,
+      "last_error": "HTTPError"
     },
     "big-dictator/liquidtab": {
       "checked": 1794731822,
@@ -4545,7 +4628,8 @@
       "zip": "https://github.com/EXLOUD/Render-Switcher/releases/download/v1.0.2/Render_Switcher_v1.0.2.zip",
       "zip_count": 1,
       "timestamp": 1791263316,
-      "size": 723501
+      "size": 723501,
+      "last_error": "HTTPError"
     },
     "wahaha232/reward-ad-guard": {
       "checked": 1794740774,
@@ -4646,7 +4730,8 @@
       "zip": "https://github.com/ethanm6/noto-emoji-magisk/releases/download/v2.057-20260911/NotoColorEmoji_v2.057-20260911.zip",
       "zip_count": 1,
       "timestamp": 1790920958,
-      "size": 9949385
+      "size": 9949385,
+      "last_error": "HTTPError"
     },
     "akswap/poco-f7-crdroid17-wifi7-dualsta": {
       "checked": 1794754746,
@@ -4663,7 +4748,8 @@
       "zip": "https://github.com/akswap/poco-f7-crdroid17-wifi7-dualsta/releases/download/v1.5.3/POCO-F7-crDroid13-A17-WiFi7-6GHz-320MHz-v1.2-UNIFIED.zip",
       "zip_count": 3,
       "timestamp": 1791007955,
-      "size": 831365
+      "size": 831365,
+      "last_error": "HTTPError"
     },
     "nautymac/redmagic-3d-launcher": {
       "checked": 1794740760,
@@ -4750,7 +4836,8 @@
       "zip": "https://github.com/brill594/PPPoE_For_Android/releases/download/v1.0.0/pppoe-enabler.zip",
       "zip_count": 1,
       "timestamp": 1762574348,
-      "size": 2104420
+      "size": 2104420,
+      "last_error": "HTTPError"
     },
     "landslide3154/shitu-android": {
       "checked": 1794740751,
@@ -4802,7 +4889,8 @@
       "zip": "https://github.com/Elvex10/galaxy-multiuser/releases/download/v1.0/galaxy-multiuser.zip",
       "zip_count": 1,
       "timestamp": 1791271999,
-      "size": 740
+      "size": 740,
+      "last_error": "HTTPError"
     },
     "vitalto/gcam-shutter-sound": {
       "checked": 1794740774,
@@ -4865,7 +4953,8 @@
       "timestamp": 1791208189,
       "size": 17205167,
       "asset_name": "MiCloud-A16-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "sunmughan/mobile-harness-extended": {
       "checked": 1794740770,
@@ -4925,7 +5014,8 @@
       "timestamp": 1791296581,
       "size": 7179824,
       "asset_name": "easytier-magisk-2.7.0-1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "vorobeyyyyyy/geelynavbar": {
       "checked": 1794740774,
@@ -4965,7 +5055,8 @@
       "zip": "https://github.com/barsikus007/ksu-webui-module-template/releases/download/v1.0.0/ksu-webui-module-template_v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1766072855,
-      "size": 11196
+      "size": 11196,
+      "last_error": "HTTPError"
     },
     "ohmk1811/mobsentry": {
       "checked": 1794740762,
@@ -4991,7 +5082,8 @@
       "timestamp": 1791300249,
       "size": 7561,
       "asset_name": "shark8-adb-wifi-lan-persistent-6.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nalbe/shark8-damon-reclaim-off": {
       "checked": 1794754752,
@@ -5011,7 +5103,8 @@
       "timestamp": 1791227516,
       "size": 1919,
       "asset_name": "shark8-damon-reclaim-off-1.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hik0w/tiktokpatchxposed": {
       "checked": 1794740545,
@@ -5045,7 +5138,8 @@
       "zip": "https://github.com/c0d3h01/androidtweaker/releases/download/1.5.0/androidTweaker_v1.5.0.zip",
       "zip_count": 1,
       "timestamp": 1786030009,
-      "size": 1591898
+      "size": 1591898,
+      "last_error": "HTTPError"
     },
     "lotfibennour/andromarchy": {
       "checked": 1794740753,
@@ -5159,7 +5253,8 @@
       "zip": "https://github.com/cinitdev/AppOpt/releases/download/v1.8.2/AppOpt.zip",
       "zip_count": 1,
       "timestamp": 1785405204,
-      "size": 8633833
+      "size": 8633833,
+      "last_error": "HTTPError"
     },
     "catlinux/bootlink": {
       "checked": 1794731824,
@@ -5192,7 +5287,8 @@
       "zip": "https://github.com/AyusmanNanda/FridaManager/releases/download/v1.0.0/module.v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1791390545,
-      "size": 25245012
+      "size": 25245012,
+      "last_error": "HTTPError"
     },
     "sabbirafat96/iosxandroid": {
       "checked": 1794740767,
@@ -5221,7 +5317,8 @@
       "zip": "https://github.com/aleopho/NX789J-AutoBrightness/releases/download/v1.0.0/NX789J-AutoBrightness-Magisk-v1.0.0.zip",
       "zip_count": 1,
       "timestamp": 1791464809,
-      "size": 4418
+      "size": 4418,
+      "last_error": "HTTPError"
     },
     "codeyumx/picofacetracking": {
       "checked": 1794734564,
@@ -5262,7 +5359,8 @@
       "timestamp": 1791433675,
       "size": 92980,
       "asset_name": "watchdog-1.3.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "robbyczgw-cla/activity-plus-android": {
       "checked": 1794740766,
@@ -5305,7 +5403,8 @@
       "timestamp": 1791562663,
       "size": 667918,
       "asset_name": "FastAnimation.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "loyality7/headless-android-sdk": {
       "checked": 1794740753,
@@ -5348,7 +5447,8 @@
       "timestamp": 1791489115,
       "size": 310143,
       "asset_name": "Spoof-GT50Pro.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yq200013/steer-android": {
       "checked": 1794740777,
@@ -5407,7 +5507,8 @@
       "timestamp": 1791733468,
       "size": 4983476,
       "asset_name": "codex_android-v1.6.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "clozya/hookxbud": {
       "checked": 1794734563,
@@ -5521,7 +5622,8 @@
       "zip": "https://github.com/ahmedyasir2023/AY-Lightning-Pro/releases/download/12.0.0/AY_Lightning_Pro_v12.0.0_Ultimate_Black_Gold_KernelSU_Magisk.zip",
       "zip_count": 1,
       "timestamp": 1792807543,
-      "size": 147316
+      "size": 147316,
+      "last_error": "HTTPError"
     },
     "mattewbel/bluedotoff": {
       "checked": 1794740756,
@@ -5606,7 +5708,8 @@
       "timestamp": 1792666895,
       "size": 5371,
       "asset_name": "pluskey-v0.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "moylali/otgmaster": {
       "checked": 1794740758,
@@ -5691,7 +5794,8 @@
       "timestamp": 1794258862,
       "size": 1715796,
       "asset_name": "HDAudio.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "daryan044/linux-launcher": {
       "checked": 1794734565,
@@ -5757,7 +5861,8 @@
       "zip": "https://github.com/atrejokm301/HilightLink/releases/download/2026.10.12/HilightLink-module.zip",
       "zip_count": 1,
       "timestamp": 1791860915,
-      "size": 1092487
+      "size": 1092487,
+      "last_error": "HTTPError"
     },
     "leohearts/i-dont-want-to-catch-up": {
       "checked": 1794754751,
@@ -5777,7 +5882,8 @@
       "timestamp": 1791898722,
       "size": 5682,
       "asset_name": "i-dont-want-to-catch-up.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "good-joe2049/millennium": {
       "checked": 1794740543,
@@ -5813,7 +5919,8 @@
       "timestamp": 1791889452,
       "size": 913,
       "asset_name": "zram16_v1.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "aminoda/rinigan-app": {
       "checked": 1794731819,
@@ -5984,7 +6091,8 @@
       "zip": "https://github.com/Azyrn/DeepDoze-Enforcer/releases/download/v3.5.2/DeepDoze-Enforcer-v3.5.2.zip",
       "zip_count": 1,
       "timestamp": 1786052095,
-      "size": 679091
+      "size": 679091,
+      "last_error": "HTTPError"
     },
     "ziyuw-plank/gboard-gloss": {
       "checked": 1794740779,
@@ -6194,7 +6302,8 @@
       "timestamp": 1792162418,
       "size": 49439,
       "asset_name": "SideKeyPlus-module.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "sorubedo/sub-store-magisk-runsv": {
       "checked": 1794754746,
@@ -6235,7 +6344,8 @@
       "timestamp": 1794607538,
       "size": 688011,
       "asset_name": "TrustMyCert-1.1.0-aa9c3aa.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "soskn/volumesteps": {
       "checked": 1794754746,
@@ -6386,7 +6496,8 @@
       "zip": "https://github.com/duyquang6/maple-mono-android/releases/download/v7.9/maple_mono_font.zip",
       "zip_count": 1,
       "timestamp": 1792322473,
-      "size": 1192423
+      "size": 1192423,
+      "last_error": "HTTPError"
     },
     "nikitos4683/nzapret": {
       "checked": 1794754752,
@@ -6406,7 +6517,8 @@
       "timestamp": 1792317124,
       "size": 18171098,
       "asset_name": "nzapret-v4.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ymgpwcca/privacydisplayplus": {
       "checked": 1794740777,
@@ -6435,7 +6547,8 @@
       "zip": "https://github.com/andresuhensleeby-a11y/Sound-Universal-update/releases/download/Tag/Sound_universal_Rye_v0_5_3.zip",
       "zip_count": 1,
       "timestamp": 1792325724,
-      "size": 204022
+      "size": 204022,
+      "last_error": "HTTPError"
     },
     "andresuhensleeby-a11y/sound-universal-update-5.1.4": {
       "checked": 1794754747,
@@ -6452,7 +6565,8 @@
       "zip": "https://github.com/andresuhensleeby-a11y/Sound-Universal-update-5.1.4/releases/download/New/Sound_universal_Rye_v0_5_4.zip",
       "zip_count": 1,
       "timestamp": 1792326251,
-      "size": 206191
+      "size": 206191,
+      "last_error": "HTTPError"
     },
     "gothwadtech/storeapp": {
       "checked": 1794740544,
@@ -6542,7 +6656,8 @@
       "zip": "https://github.com/Chengdong-Yu/IMEI-Privacy/releases/download/v1.4.7/IMEI-Privacy-v1.4.7.zip",
       "zip_count": 1,
       "timestamp": 1792422068,
-      "size": 8689000
+      "size": 8689000,
+      "last_error": "HTTPError"
     },
     "yashoncode/konnect-tv": {
       "checked": 1794740777,
@@ -6565,7 +6680,8 @@
       "zip": "https://github.com/cyanmint/lkm4ctr/releases/download/4.0.5/lkm4ctr-kernelsu-module.zip",
       "zip_count": 1,
       "timestamp": 1792255814,
-      "size": 27300879
+      "size": 27300879,
+      "last_error": "HTTPError"
     },
     "pwnpot/logster": {
       "checked": 1794740764,
@@ -6652,7 +6768,8 @@
       "timestamp": 1794747577,
       "size": 6148462,
       "asset_name": "ZNNext-v2.18.0.1-409-14c2bdd-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "k3v1991/adguarddns4magisk-family": {
       "checked": 1794754750,
@@ -6672,7 +6789,8 @@
       "timestamp": 1700924531,
       "size": 24481,
       "asset_name": "AdGuardDNS4Magisk-Family.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "empcoorg/android-editor": {
       "checked": 1794734568,
@@ -6707,7 +6825,8 @@
       "timestamp": 1653308948,
       "size": 5622,
       "asset_name": "Comodo-SecureDNS4Magisk_v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "k3v1991/dns.watch4magisk": {
       "checked": 1794754750,
@@ -6727,7 +6846,8 @@
       "timestamp": 1653309282,
       "size": 5611,
       "asset_name": "DNS-WATCH4Magisk_v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "bluescorpiovr/galaxyxr-modules": {
       "checked": 1794754747,
@@ -6744,7 +6864,8 @@
       "zip": "https://github.com/BlueScorpioVR/galaxyxr-modules/releases/download/window-curvature/v0.1.3/gxr-window-curvature-0.1.3-experimental-disabled.zip",
       "zip_count": 1,
       "timestamp": 1793062954,
-      "size": 25403881
+      "size": 25403881,
+      "last_error": "HTTPError"
     },
     "k3v1991/green2priv": {
       "checked": 1794754750,
@@ -6764,7 +6885,8 @@
       "timestamp": 1653305479,
       "size": 4381489,
       "asset_name": "Green2Priv-v4.7.5.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "k3v1991/green2priv-beta": {
       "checked": 1794754750,
@@ -6784,7 +6906,8 @@
       "timestamp": 1679839116,
       "size": 4640288,
       "asset_name": "Green2Priv-Beta-v5.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hakai963/headless-android": {
       "checked": 1794740544,
@@ -6826,7 +6949,8 @@
       "timestamp": 1653308780,
       "size": 5593,
       "asset_name": "Level3DNS4Magisk_v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "efface-yyy/lineageos-miuicam-odin": {
       "checked": 1794734568,
@@ -6851,7 +6975,8 @@
       "timestamp": 1792553406,
       "size": 93433,
       "asset_name": "MemKeepPlus-v3.5.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "colorxi/mithermaltuner": {
       "checked": 1794754748,
@@ -6868,7 +6993,8 @@
       "zip": "https://github.com/colorXi/MiThermalTuner/releases/download/v1.2.0/MiThermalTuner-v1.2.0.zip",
       "zip_count": 1,
       "timestamp": 1792497712,
-      "size": 46786
+      "size": 46786,
+      "last_error": "HTTPError"
     },
     "hanhan-ggit/pixelotashield": {
       "checked": 1794740544,
@@ -6896,7 +7022,8 @@
       "zip": "https://github.com/Ayoubvvch/privapp-systemizer-magisk/releases/download/v1.1.0/privapp-systemizer-magisk.zip",
       "zip_count": 1,
       "timestamp": 1792485318,
-      "size": 28350
+      "size": 28350,
+      "last_error": "HTTPError"
     },
     "felipegatoloko10/punk-app": {
       "checked": 1794734570,
@@ -6921,7 +7048,8 @@
       "timestamp": 1653304615,
       "size": 5596,
       "asset_name": "Quad9DNS4Magisk_v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "sw1313/rk3588-playback-fix": {
       "checked": 1794740770,
@@ -6955,7 +7083,8 @@
       "zip": "https://github.com/Ayoubvvch/sshserver-magisk/releases/download/v1.4.1/sshserver-magisk.zip",
       "zip_count": 1,
       "timestamp": 1792488264,
-      "size": 1372737
+      "size": 1372737,
+      "last_error": "HTTPError"
     },
     "k3v1991/yandex-dns4magisk-basic": {
       "checked": 1794754750,
@@ -6975,7 +7104,8 @@
       "timestamp": 1653306482,
       "size": 5609,
       "asset_name": "Yandex-DNS4Magisk-Basic_v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "k3v1991/yandex-dns4magisk-family": {
       "checked": 1794754750,
@@ -6995,7 +7125,8 @@
       "timestamp": 1653306262,
       "size": 5613,
       "asset_name": "Yandex-DNS4Magisk-Family_v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "k3v1991/yandex-dns4magisk-safe": {
       "checked": 1794754750,
@@ -7015,7 +7146,8 @@
       "timestamp": 1653306068,
       "size": 5612,
       "asset_name": "Yandex-DNS4Magisk-Safe_v1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "imkamaran/adbcontroller": {
       "checked": 1794740546,
@@ -7096,7 +7228,8 @@
       "timestamp": 1792565193,
       "size": 4974611,
       "asset_name": "phoneserver-1.3.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "orev7s/pillarbox": {
       "checked": 1794754752,
@@ -7116,7 +7249,8 @@
       "timestamp": 1792529848,
       "size": 4065,
       "asset_name": "PillarBox-Module-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "fq77/qinoteapp": {
       "checked": 1794740542,
@@ -7166,7 +7300,8 @@
       "zip": "https://github.com/deserthouse/twemoji-resurrection/releases/download/v17.0.3/Twemoji-Resurrection-17.0.3-ksu.zip",
       "zip_count": 1,
       "timestamp": 1789191652,
-      "size": 3382591
+      "size": 3382591,
+      "last_error": "HTTPError"
     },
     "misakidebugged/virtual-xbox-controller-android": {
       "checked": 1794740757,
@@ -7252,7 +7387,8 @@
       "timestamp": 1792611920,
       "size": 14404,
       "asset_name": "forge_git-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "chri-gassner/hushpane": {
       "checked": 1794734563,
@@ -7317,7 +7453,8 @@
       "timestamp": 1792601911,
       "size": 15146,
       "asset_name": "Split-Module-v2.0.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "andresuhensleeby-a11y/thermal-fire-universal-v1.4.0": {
       "checked": 1794754747,
@@ -7334,7 +7471,8 @@
       "zip": "https://github.com/andresuhensleeby-a11y/THERMAL-FIRE-UNIVERSAL-v1.4.0/releases/download/3.1.0/Ryefire-v3_1_0.zip",
       "zip_count": 1,
       "timestamp": 1792620231,
-      "size": 163676
+      "size": 163676,
+      "last_error": "HTTPError"
     },
     "yjzsg/toshiba-65u6900c-tv-kit": {
       "checked": 1794740777,
@@ -7402,7 +7540,8 @@
       "timestamp": 1792838714,
       "size": 13540,
       "asset_name": "gitmigrator-102-v1.0.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nrowa/lg-v50-ntcode-popup-blocker": {
       "checked": 1794740761,
@@ -7428,7 +7567,8 @@
       "timestamp": 1792697233,
       "size": 128994,
       "asset_name": "moto_g15_raw_v4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hozin-king/separate-sound": {
       "checked": 1794740545,
@@ -7456,7 +7596,8 @@
       "zip": "https://github.com/alpha-liu-01/StylusCtrl/releases/download/v0.5.0/stylusctrl-arm.zip",
       "zip_count": 2,
       "timestamp": 1794020053,
-      "size": 63132
+      "size": 63132,
+      "last_error": "HTTPError"
     },
     "man15h/tellyscope": {
       "checked": 1794740755,
@@ -7500,7 +7641,8 @@
       "zip": "https://github.com/De4869/tunclash/releases/download/v1.3.0/TunClash-Module-v1.3.0.zip",
       "zip_count": 1,
       "timestamp": 1792939486,
-      "size": 27467132
+      "size": 27467132,
+      "last_error": "HTTPError"
     },
     "kepsilent/appstart-confirm-module": {
       "checked": 1794740749,
@@ -7621,7 +7763,8 @@
       "timestamp": 1793516860,
       "size": 16300,
       "asset_name": "PLF110-Touch-Rate-Sync-v1.0.7.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xboom-sl/qmg-studio": {
       "checked": 1794740775,
@@ -7675,7 +7818,8 @@
       "timestamp": 1793246959,
       "size": 21586,
       "asset_name": "AnyKeybox_module-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "privshell/apex-apps": {
       "checked": 1794754752,
@@ -7695,7 +7839,8 @@
       "timestamp": 1792929008,
       "size": 29009,
       "asset_name": "apex_apps-102-v1.0.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "moscow146/callbridge": {
       "checked": 1794754751,
@@ -7715,7 +7860,8 @@
       "timestamp": 1794149472,
       "size": 5555197,
       "asset_name": "callbridge-magisk.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "pgntgz/clipbait": {
       "checked": 1794740763,
@@ -7741,7 +7887,8 @@
       "timestamp": 1793567123,
       "size": 127096,
       "asset_name": "GPSLocker-v1.0.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "tittiesmyluv/layerctl": {
       "checked": 1794740772,
@@ -7769,7 +7916,8 @@
       "zip": "https://github.com/ahmeturesin/Magisk-Module-Android-11-pixel-launcher/releases/download/magisk/Pixellauncher11.zip",
       "zip_count": 1,
       "timestamp": 1792932983,
-      "size": 5435364
+      "size": 5435364,
+      "last_error": "HTTPError"
     },
     "narakai/magisk-vpn-tether": {
       "checked": 1794754752,
@@ -7789,7 +7937,8 @@
       "timestamp": 1793534409,
       "size": 6856,
       "asset_name": "vpn-tether-v1.1.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "lordof21/opendex": {
       "checked": 1794740753,
@@ -7842,7 +7991,8 @@
       "timestamp": 1793109789,
       "size": 550521,
       "asset_name": "usb-arsenal-v1.6.2-94de82a.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nihildigit/ytplus": {
       "checked": 1794740760,
@@ -7879,7 +8029,8 @@
       "timestamp": 1793004242,
       "size": 3252,
       "asset_name": "Disable-Default-Game-Frame-Rate-v1.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "arora-sir/dualclone": {
       "checked": 1794731820,
@@ -7958,7 +8109,8 @@
       "timestamp": 1793532835,
       "size": 42792,
       "asset_name": "Any_CA-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "wonton1984/boox-leaf2-edge-avoidance": {
       "checked": 1794740775,
@@ -8006,7 +8158,8 @@
       "timestamp": 1793052248,
       "size": 8352,
       "asset_name": "gifboot.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "qptqpt199-prog/niken": {
       "checked": 1794740764,
@@ -8035,7 +8188,8 @@
       "zip": "https://github.com/loganmaxx/ProjectX-WebUI/releases/download/v2.3.1/ProjectX_Magisk.zip",
       "zip_count": 1,
       "timestamp": 1793091137,
-      "size": 28267816
+      "size": 28267816,
+      "last_error": "HTTPError"
     },
     "rdevz-ph/redirectguard": {
       "checked": 1794740765,
@@ -8084,7 +8238,8 @@
       "timestamp": 1793088861,
       "size": 174398,
       "asset_name": "XiaomiPlayStoreFix-1.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "pisces19860207/zhengdao": {
       "checked": 1794740763,
@@ -8116,7 +8271,8 @@
       "timestamp": 1794674765,
       "size": 15174,
       "asset_name": "ACC-Automatic-Cache-Cleaner-v1.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yusufnoor786/android_kernel_google_gs-6.1_kernelsu": {
       "checked": 1794740778,
@@ -8151,7 +8307,8 @@
       "zip": "https://github.com/AJfiles/COD-Mobile-120fps-magisk/releases/download/v5.1/codm_s23_120_v5.1.zip",
       "zip_count": 1,
       "timestamp": 1793168833,
-      "size": 95786
+      "size": 95786,
+      "last_error": "HTTPError"
     },
     "sinnermm/dplus": {
       "checked": 1794740768,
@@ -8200,7 +8357,8 @@
       "timestamp": 1793562526,
       "size": 703126,
       "asset_name": "lan-cloak-arm64-v1.0-r1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "dixonsolutions/lindroids": {
       "checked": 1794734566,
@@ -8321,7 +8479,8 @@
       "zip": "https://github.com/2108282/zram-lz4kds-sddc-houji-6.1/releases/download/v7.6-houji-6.1/zram-lz4kds-sddc-houji-6.1.zip",
       "zip_count": 1,
       "timestamp": 1793244153,
-      "size": 206203
+      "size": 206203,
+      "last_error": "HTTPError"
     },
     "saturntt/among-us-120-fps-unlocker-for-android": {
       "checked": 1794740767,
@@ -8379,7 +8538,8 @@
       "timestamp": 1793702089,
       "size": 249759,
       "asset_name": "android-bridge-module-v1.2.0-023bee7.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "chenyubo10665/autotask": {
       "checked": 1794734562,
@@ -8538,7 +8698,8 @@
       "timestamp": 1794135033,
       "size": 290228,
       "asset_name": "xiaomi-pad5-mouse-wheel-invert-v1.7.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "davidglt/wireless-debugging": {
       "checked": 1794734565,
@@ -8568,7 +8729,8 @@
       "timestamp": 1793628327,
       "size": 15791,
       "asset_name": "camx_fullsize-v0.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ribosomek/gboardtweak": {
       "checked": 1794740765,
@@ -8643,7 +8805,8 @@
       "zip": "https://github.com/bennybrit/Pixel-5G-Enabler/releases/download/v1.0.1/Pixel-5G-Enabler-1.0.1.zip",
       "zip_count": 1,
       "timestamp": 1793617799,
-      "size": 842435
+      "size": 842435,
+      "last_error": "HTTPError"
     },
     "mor4land/poco-m5-hyperos3-lockscreen": {
       "checked": 1794754751,
@@ -8663,7 +8826,8 @@
       "timestamp": 1793609248,
       "size": 65729314,
       "asset_name": "POCO_M5_HyperOS3_Lockscreen_Port-v3.0.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "sfsakhawat999/reelsblock": {
       "checked": 1794740768,
@@ -8785,7 +8949,8 @@
       "zip": "https://github.com/Dr-Essence/CMF-true-stereo/releases/download/v1.0.9-beta/CMF-true-stereo-v1.0.9-beta.zip",
       "zip_count": 1,
       "timestamp": 1794155493,
-      "size": 336528
+      "size": 336528,
+      "last_error": "HTTPError"
     },
     "shivam01anand/hisense-just-the-apps": {
       "checked": 1794740768,
@@ -8911,7 +9076,8 @@
       "timestamp": 1793885303,
       "size": 24139002,
       "asset_name": "MiSans-Module-for-MIUI_V1.3.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "cq61tech/mycolourfulgesture": {
       "checked": 1794734564,
@@ -9019,7 +9185,8 @@
       "timestamp": 1794746772,
       "size": 334072,
       "asset_name": "HyperCool_v2.3.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "imsteazyyy/icon-formatter": {
       "checked": 1794740547,
@@ -9041,7 +9208,8 @@
       "zip": "https://github.com/AlbatrossMicrosystems/lazarus-xposed/releases/download/v2.3/lazarus_sepolicy-v1.0.zip",
       "zip_count": 1,
       "timestamp": 1794498484,
-      "size": 465
+      "size": 465,
+      "last_error": "HTTPError"
     },
     "aquaticazelf/oppo-a5s-custom-rom": {
       "checked": 1794731820,
@@ -9133,7 +9301,8 @@
       "zip": "https://github.com/AHMED2111X/falcon_integrity_fix/releases/download/v3.30.2/FALCONINTEGITY_FIX_V3.30.zip",
       "zip_count": 1,
       "timestamp": 1794590903,
-      "size": 4934829
+      "size": 4934829,
+      "last_error": "HTTPError"
     },
     "zanoshky/firewall-app": {
       "checked": 1794740778,
@@ -9434,7 +9603,8 @@
       "timestamp": 1794161535,
       "size": 2578,
       "asset_name": "adb-over-tcp-at-boot-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yourooni/barswipe": {
       "checked": 1794740777,
@@ -9462,7 +9632,8 @@
       "zip": "https://github.com/andyching168/gwallet-cardart/releases/download/v2.2/gwallet-cardart-v2.2.zip",
       "zip_count": 1,
       "timestamp": 1794297169,
-      "size": 12419
+      "size": 12419,
+      "last_error": "HTTPError"
     },
     "huijui-forge/huijui_module_repo": {
       "checked": 1794740545,
@@ -9562,7 +9733,8 @@
       "zip": "https://github.com/AetherMagee/android-sshd/releases/download/v0.1.0/android-sshd-v0.1.0.zip",
       "zip_count": 1,
       "timestamp": 1794414238,
-      "size": 2435606
+      "size": 2435606,
+      "last_error": "HTTPError"
     },
     "hafiezanarman/cj7x-mlbb-boost-universal-v1.1.0": {
       "checked": 1794754749,
@@ -9579,7 +9751,8 @@
       "zip": "https://github.com/Hafiezanarman/CJ7x-MLBB-Boost-universal-v1.1.0/releases/download/v1.1.0/CJ7x-MLBB-Boost-universal-v1.1.0.zip",
       "zip_count": 2,
       "timestamp": 1794383928,
-      "size": 19734
+      "size": 19734,
+      "last_error": "HTTPError"
     },
     "0xgh0stri13y/clean-your-mobile": {
       "checked": 1794731814,
@@ -9636,7 +9809,8 @@
       "zip": "https://github.com/idklelpigeon/Liveboot-Enhanced/releases/download/v1.0/LiveBoot_Enhanced_v1.0.zip",
       "zip_count": 1,
       "timestamp": 1794407844,
-      "size": 1607766
+      "size": 1607766,
+      "last_error": "HTTPError"
     },
     "hafiezanarman/magisk-all-in-one-v1": {
       "checked": 1794740544,
@@ -9713,7 +9887,8 @@
       "timestamp": 1794400478,
       "size": 592789,
       "asset_name": "cover-v0.3.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "dima-xd/armbat": {
       "checked": 1794734566,
@@ -9735,7 +9910,8 @@
       "zip": "https://github.com/Hafiezanarman/bootloop-protection-v1.1/releases/download/bootloop-protection-v1.1/bootloop-protection-v1.1.zip",
       "zip_count": 1,
       "timestamp": 1794500600,
-      "size": 3363
+      "size": 3363,
+      "last_error": "HTTPError"
     },
     "fk0u/cleanyourtv-tahoe": {
       "checked": 1794734571,
@@ -9771,7 +9947,8 @@
       "timestamp": 1794717138,
       "size": 37189502,
       "asset_name": "HyperOS4_RustLauncherMod_v1.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "1953187487/isposed-manager": {
       "checked": 1794731814,
@@ -9818,7 +9995,8 @@
       "timestamp": 1794738943,
       "size": 56218,
       "asset_name": "thermocharge-v1.3.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "bafusword/xincheng-accel": {
       "checked": 1794731821,
@@ -9846,7 +10024,8 @@
       "zip": "https://github.com/cpufreestyle/bg-keepalive/releases/download/v3.3/bg_keepalive-v3.3.zip",
       "zip_count": 1,
       "timestamp": 1794569259,
-      "size": 2736
+      "size": 2736,
+      "last_error": "HTTPError"
     },
     "ritikthakur22/brightnesscontrol": {
       "checked": 1794754753,
@@ -9866,7 +10045,8 @@
       "timestamp": 1782961141,
       "size": 2251,
       "asset_name": "CustomMinBrightness.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "udunuss/dexplus": {
       "checked": 1794740773,
@@ -9900,7 +10080,8 @@
       "zip": "https://github.com/CaullenOmdahl/grab-netprinter/releases/download/v1.1.1/grab-netprinter-1.1.1.zip",
       "zip_count": 1,
       "timestamp": 1794576220,
-      "size": 4376
+      "size": 4376,
+      "last_error": "HTTPError"
     },
     "blueokanna/oneplus_beast": {
       "checked": 1794754747,
@@ -9917,7 +10098,8 @@
       "zip": "https://github.com/blueokanna/OnePlus_Beast/releases/download/v2.6.1/OnePlus_Universal_Wi-Fi_Beast_v2.6.1.zip",
       "zip_count": 2,
       "timestamp": 1794572643,
-      "size": 33666
+      "size": 33666,
+      "last_error": "HTTPError"
     },
     "ban-sky/openeuicc_for_magisk": {
       "checked": 1794754747,
@@ -9934,7 +10116,8 @@
       "zip": "https://github.com/ban-sky/OpenEUICC_for_Magisk/releases/download/v3.814/OpenEUICC-Magisk_module-3.814.zip",
       "zip_count": 2,
       "timestamp": 1794582757,
-      "size": 13233963
+      "size": 13233963,
+      "last_error": "HTTPError"
     },
     "redderlabs/poda": {
       "checked": 1794740765,
@@ -9978,7 +10161,8 @@
       "timestamp": 1794573097,
       "size": 650040,
       "asset_name": "Viper4-XF-v2.1.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ritikthakur22/wifi_analyzer_app": {
       "checked": 1794740766,
@@ -10022,7 +10206,8 @@
       "zip": "https://github.com/Doezer/CarOS-Profile-Switcher/releases/download/v0.2.3/CarOS_Profile_Switcher-v0.2.3.zip",
       "zip_count": 1,
       "timestamp": 1762331475,
-      "size": 8054
+      "size": 8054,
+      "last_error": "HTTPError"
     },
     "marcoslor/contigua": {
       "checked": 1794740756,
@@ -10066,7 +10251,8 @@
       "zip": "https://github.com/hiruko-puppetmaster/Infinix-Loading-Bootanimation/releases/download/v1.0.0/INFINIX_Bootanimation.zip",
       "zip_count": 1,
       "timestamp": 1794668598,
-      "size": 25742409
+      "size": 25742409,
+      "last_error": "HTTPError"
     },
     "stupidgiraffe/kizuku": {
       "checked": 1794740770,
@@ -10140,7 +10326,8 @@
       "zip": "https://github.com/1213015988/verity-guard/releases/download/v1.5.0/verity-guard-v1.5.0.zip",
       "zip_count": 1,
       "timestamp": 1794640978,
-      "size": 60794
+      "size": 60794,
+      "last_error": "HTTPError"
     },
     "loficore/wg-user": {
       "checked": 1794754751,
@@ -10160,7 +10347,8 @@
       "timestamp": 1794742945,
       "size": 14986441,
       "asset_name": "wg-user-0.3.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "tiann/kernelsu": {
       "checked": 1794740772,
@@ -10236,7 +10424,8 @@
       "timestamp": 1768902502,
       "size": 1042014,
       "asset_name": "KPatch-Next-Module.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "rikj000/magisk-manager-for-recovery-mode": {
       "checked": 1794754753,
@@ -10256,7 +10445,8 @@
       "timestamp": 1772289925,
       "size": 24535,
       "asset_name": "MagiskManagerForRecovery_v12_202602280.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kernelsu-modules-repo/meta-overlayfs": {
       "checked": 1794754750,
@@ -10276,7 +10466,8 @@
       "timestamp": 1764680234,
       "size": 451415,
       "asset_name": "meta-overlayfs-13100-1.3.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "backslashxx/mountify": {
       "checked": 1794754747,
@@ -10293,7 +10484,8 @@
       "zip": "https://github.com/backslashxx/mountify/releases/download/205/mountify.zip",
       "zip_count": 1,
       "timestamp": 1792046370,
-      "size": 554882
+      "size": 554882,
+      "last_error": "HTTPError"
     },
     "yuzakikokuban/meta-hybrid_mount": {
       "checked": 1794754748,
@@ -10334,7 +10526,8 @@
       "timestamp": 1768129375,
       "size": 141592,
       "asset_name": "meta-magic_mount-v1.0.1-sprout-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "enginex0/zeromount": {
       "checked": 1794734568,
@@ -10356,7 +10549,8 @@
       "zip": "https://github.com/JingMatrix/Vector/releases/download/v2.2/Vector-v2.2-3080-Release.zip",
       "zip_count": 2,
       "timestamp": 1785836309,
-      "size": 9316843
+      "size": 9316843,
+      "last_error": "HTTPError"
     },
     "dr-tsng/zygisknext": {
       "checked": 1794754749,
@@ -10373,7 +10567,8 @@
       "zip": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.5.3/Zygisk-Next-1.5.3-880-22a1bf5-release.zip",
       "zip_count": 1,
       "timestamp": 1794069131,
-      "size": 6638473
+      "size": 6638473,
+      "last_error": "HTTPError"
     },
     "jingmatrix/neozygisk": {
       "checked": 1794754750,
@@ -10390,7 +10585,8 @@
       "zip": "https://github.com/JingMatrix/NeoZygisk/releases/download/v2.4/NeoZygisk-v2.4-289-release.zip",
       "zip_count": 2,
       "timestamp": 1786215827,
-      "size": 2401208
+      "size": 2401208,
+      "last_error": "HTTPError"
     },
     "performanc/rezygisk": {
       "checked": 1794754752,
@@ -10410,7 +10606,8 @@
       "timestamp": 1778454538,
       "size": 506334,
       "asset_name": "ReZygisk-v1.0.0-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "rrr333nnn333/brene": {
       "checked": 1794754753,
@@ -10430,7 +10627,8 @@
       "timestamp": 1793582584,
       "size": 121461,
       "asset_name": "BRENE-v0.0.75.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "frknkrc44/hma-oss": {
       "checked": 1794754749,
@@ -10447,7 +10645,8 @@
       "zip": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-175/HMA-OSS-ZYGISK-oss-175-release.zip",
       "zip_count": 2,
       "timestamp": 1793961447,
-      "size": 2582384
+      "size": 2582384,
+      "last_error": "HTTPError"
     },
     "jingmatrix/teesimulator": {
       "checked": 1794754750,
@@ -10464,7 +10663,8 @@
       "zip": "https://github.com/JingMatrix/TEESimulator/releases/download/v4.0/TEESimulator-v4.0-34-Release.zip",
       "zip_count": 2,
       "timestamp": 1786438946,
-      "size": 16702783
+      "size": 16702783,
+      "last_error": "HTTPError"
     },
     "sidex15/susfs4ksu-module": {
       "checked": 1794754746,
@@ -10513,7 +10713,8 @@
       "zip": "https://github.com/flipphoneguy/DirtySepolicy_Bypass/releases/download/v3.0.0/dirtysepbypass.zip",
       "zip_count": 2,
       "timestamp": 1780191328,
-      "size": 11133
+      "size": 11133,
+      "last_error": "HTTPError"
     },
     "dr-tsng/hide-my-applist": {
       "checked": 1794734567,
@@ -10535,7 +10736,8 @@
       "zip": "https://github.com/Elcapitanoe/Komodo-Build-Prop/releases/download/v26.1113/Komodo_beta_DP11.261030.003.zip",
       "zip_count": 1,
       "timestamp": 1794536410,
-      "size": 70966
+      "size": 70966,
+      "last_error": "HTTPError"
     },
     "mhmrdd/nohello": {
       "checked": 1794754751,
@@ -10555,7 +10757,8 @@
       "timestamp": 1748661117,
       "size": 568365,
       "asset_name": "Nohello-v0.0.7-53-4d53ecf-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "qwq233/ohmykeymint": {
       "checked": 1794754752,
@@ -10575,7 +10778,8 @@
       "timestamp": 1793941233,
       "size": 4930351,
       "asset_name": "OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kowx712/playintegrityfix": {
       "checked": 1794754750,
@@ -10595,7 +10799,8 @@
       "timestamp": 1792073506,
       "size": 692511,
       "asset_name": "PlayIntegrityFix_v4.9-inject-s.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "osm0sis/playintegrityfork": {
       "checked": 1794754752,
@@ -10615,7 +10820,8 @@
       "timestamp": 1793671301,
       "size": 341951,
       "asset_name": "PlayIntegrityFork-v19.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "daboynb/playcurlnext": {
       "checked": 1794754748,
@@ -10632,7 +10838,8 @@
       "zip": "https://github.com/daboynb/playcurlNEXT/releases/download/v1.19/playcurlNEXT.zip",
       "zip_count": 1,
       "timestamp": 1769173070,
-      "size": 18441
+      "size": 18441,
+      "last_error": "HTTPError"
     },
     "performanc/treat-wheel-zygisk": {
       "checked": 1794754752,
@@ -10652,7 +10859,8 @@
       "timestamp": 1790012776,
       "size": 233358,
       "asset_name": "TreatWheel.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "pixel-props/sensitive-props": {
       "checked": 1794740763,
@@ -10675,7 +10883,8 @@
       "zip": "https://github.com/dpejoh/specter/releases/download/v2.0.0/specter-v2.0.0.zip",
       "zip_count": 1,
       "timestamp": 1794298614,
-      "size": 600058
+      "size": 600058,
+      "last_error": "HTTPError"
     },
     "enginex0/teesimulator-rs": {
       "checked": 1794754749,
@@ -10692,7 +10901,8 @@
       "zip": "https://github.com/Enginex0/TEESimulator-RS/releases/download/v6.0.1-282/TEESimulator-RS-v6.0.1-282-Release.zip",
       "zip_count": 2,
       "timestamp": 1781884487,
-      "size": 2765128
+      "size": 2765128,
+      "last_error": "HTTPError"
     },
     "kowx712/tricky-addon-update-target-list": {
       "checked": 1794754750,
@@ -10712,7 +10922,8 @@
       "timestamp": 1782029961,
       "size": 3203800,
       "asset_name": "TrickyAddonModule-v4.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "5ec1cff/trickystore": {
       "checked": 1794754746,
@@ -10729,7 +10940,8 @@
       "zip": "https://github.com/5ec1cff/TrickyStore/releases/download/1.4.1/Tricky-Store-v1.4.1-245-72b2e84-release.zip",
       "zip_count": 1,
       "timestamp": 1762077397,
-      "size": 2840600
+      "size": 2840600,
+      "last_error": "HTTPError"
     },
     "beakthoven/trickystoreoss": {
       "checked": 1794754747,
@@ -10746,7 +10958,8 @@
       "zip": "https://github.com/beakthoven/TrickyStoreOSS/releases/download/v3.1.0/Tricky-Store-OSS-v3.1.0-172-41383f5-Release.zip",
       "zip_count": 1,
       "timestamp": 1787691399,
-      "size": 1289252
+      "size": 1289252,
+      "last_error": "HTTPError"
     },
     "dpejoh/yurikey": {
       "checked": 1794754748,
@@ -10763,7 +10976,8 @@
       "zip": "https://github.com/Yurii0307/yurikey/releases/download/v3.0.6/Yurikey-v3.0.6.signed.zip",
       "zip_count": 1,
       "timestamp": 1780459566,
-      "size": 420143
+      "size": 420143,
+      "last_error": "HTTPError"
     },
     "snake-4/zygisk-assistant": {
       "checked": 1794754746,
@@ -10804,7 +11018,8 @@
       "timestamp": 1741587012,
       "size": 5011,
       "asset_name": "abootloop.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ripperhybrid/ashlooper": {
       "checked": 1794754753,
@@ -10824,7 +11039,8 @@
       "timestamp": 1793860707,
       "size": 1272374,
       "asset_name": "AshReXcue_Bootloop_Protector_10.1_201.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "magisk-modules-alt-repo/yetanotherbootloopprotector": {
       "checked": 1794754751,
@@ -10844,7 +11060,8 @@
       "timestamp": 1775546806,
       "size": 55026,
       "asset_name": "YetAnotherBootloopProtector-138-v8.138-6537c16.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "reveny/android-native-root-detector": {
       "checked": 1794740765,
@@ -10913,7 +11130,8 @@
       "timestamp": 1750516037,
       "size": 2144,
       "asset_name": "disable-low-ram_v1.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "chickendrop89/hyperos-accessibility-fix": {
       "checked": 1794754748,
@@ -10930,7 +11148,8 @@
       "zip": "https://github.com/chkndrp/hyperos-accessibility-fix/releases/download/1.0.5/hyperos-accessibility-fix.zip",
       "zip_count": 1,
       "timestamp": 1784512147,
-      "size": 23459
+      "size": 23459,
+      "last_error": "HTTPError"
     },
     "mods-center/hyperos-security-center": {
       "checked": 1794754751,
@@ -10950,7 +11169,8 @@
       "timestamp": 1794224527,
       "size": 88663203,
       "asset_name": "HyperOS_SecurityV8@kashis_cringey_stuffs.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "insertx2k/multiuseruienabler": {
       "checked": 1794754749,
@@ -10967,7 +11187,8 @@
       "zip": "https://github.com/InsertX2k/multiuseruienabler/releases/download/v1.0/multiuseruienabler.zip",
       "zip_count": 1,
       "timestamp": 1739999743,
-      "size": 2252
+      "size": 2252,
+      "last_error": "HTTPError"
     },
     "selfref/noogle-magisk": {
       "checked": 1794754753,
@@ -10987,7 +11208,8 @@
       "timestamp": 1794539264,
       "size": 85477670,
       "asset_name": "noogle-unbundle-fossify-v2026.11.13.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "jqssun/android-se-access": {
       "checked": 1794740748,
@@ -11013,7 +11235,8 @@
       "timestamp": 1786193559,
       "size": 8306,
       "asset_name": "TWRP_A_B_Retention_Script-Magisk-1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "reveny/android-vbmeta-fixer": {
       "checked": 1794754753,
@@ -11033,7 +11256,8 @@
       "timestamp": 1746861615,
       "size": 3235488,
       "asset_name": "vbmeta-fixer-v1.2.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "astoritin/vbmetadisguiser": {
       "checked": 1794754747,
@@ -11050,7 +11274,8 @@
       "zip": "https://github.com/Astoritin/VBMetaDisguiser/releases/download/v1.4.0/VBMetaDisguiser-v1.4.0.zip",
       "zip_count": 1,
       "timestamp": 1761807568,
-      "size": 14187
+      "size": 14187,
+      "last_error": "HTTPError"
     },
     "siavash79/pixelxpert": {
       "checked": 1794754746,
@@ -11096,7 +11321,8 @@
       "timestamp": 1769097601,
       "size": 4321643,
       "asset_name": "PixelUpdater-v0.210-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "zacharee/tweaker": {
       "checked": 1794740778,
@@ -11174,7 +11400,8 @@
       "timestamp": 1792385416,
       "size": 33958781,
       "asset_name": "ColorOS_plugin_mod_V4@kashis_cringey_stuffs.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "custombeta/fingerprint-cataloge": {
       "checked": 1794734564,
@@ -11243,7 +11470,8 @@
       "timestamp": 1782326429,
       "size": 624739,
       "asset_name": "KnoxPatch-Enhancer-v0.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xposed-modules-repo/qyz.onedesign": {
       "checked": 1794740776,
@@ -11348,7 +11576,8 @@
       "zip": "https://github.com/John0n1/SMbootFX/releases/download/3.1.0/android-black-on-pink-bootfx-3.1.0-magisk.zip",
       "zip_count": 40,
       "timestamp": 1788049344,
-      "size": 3623164
+      "size": 3623164,
+      "last_error": "HTTPError"
     },
     "magisk-modules-alt-repo/video-to-bootanimation": {
       "checked": 1794754751,
@@ -11368,7 +11597,8 @@
       "timestamp": 1762696683,
       "size": 33272083,
       "asset_name": "video-to-bootanimation-offline-V8.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "samolego/canta": {
       "checked": 1794740767,
@@ -11397,7 +11627,8 @@
       "zip": "https://github.com/Enginex0/Scalpel/releases/download/v0.1.27/scalpel-v0.1.27.zip",
       "zip_count": 2,
       "timestamp": 1774236439,
-      "size": 3916593
+      "size": 3916593,
+      "last_error": "HTTPError"
     },
     "chisewaguri/systemapp_nuker": {
       "checked": 1794754748,
@@ -11414,7 +11645,8 @@
       "zip": "https://github.com/chisewaguri/systemapp_nuker/releases/download/v2.2.6/SAN_v2.2.6.zip",
       "zip_count": 1,
       "timestamp": 1791002193,
-      "size": 784050
+      "size": 784050,
+      "last_error": "HTTPError"
     },
     "muntashirakon/appmanager": {
       "checked": 1794740758,
@@ -11452,7 +11684,8 @@
       "zip": "https://github.com/j-hc/zygisk-detach/releases/download/v1.24.0/zygisk-detach-v1.24.0.zip",
       "zip_count": 1,
       "timestamp": 1789936239,
-      "size": 371409
+      "size": 371409,
+      "last_error": "HTTPError"
     },
     "chenxiaolong/alterinstaller": {
       "checked": 1794754748,
@@ -11469,7 +11702,8 @@
       "zip": "https://github.com/chenxiaolong/AlterInstaller/releases/download/v2.4/AlterInstaller-2.4-release.zip",
       "zip_count": 1,
       "timestamp": 1782516428,
-      "size": 167413
+      "size": 167413,
+      "last_error": "HTTPError"
     },
     "whyorean/aurorastore": {
       "checked": 1794740774,
@@ -11507,7 +11741,8 @@
       "timestamp": 1789085175,
       "size": 3022006,
       "asset_name": "BetterKnownInstalled-v1.6.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "wxxsfxyzm/installerx-revived": {
       "checked": 1794740775,
@@ -11603,7 +11838,8 @@
       "zip": "https://github.com/Infamousmick/Infamick-script/releases/download/v3.3/Infamick-script-v3.3_MAGISK.zip",
       "zip_count": 1,
       "timestamp": 1776260338,
-      "size": 23487
+      "size": 23487,
+      "last_error": "HTTPError"
     },
     "cioccarellia/androoster": {
       "checked": 1794734563,
@@ -11628,7 +11864,8 @@
       "timestamp": 1792766759,
       "size": 9981861,
       "asset_name": "AZenith-5.3-2049-56aa3446-Stellars-Beta.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "alirezaparsi/copg": {
       "checked": 1794754746,
@@ -11645,7 +11882,8 @@
       "zip": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.2/COPG-v7.7.2.zip",
       "zip_count": 1,
       "timestamp": 1794235267,
-      "size": 10634913
+      "size": 10634913,
+      "last_error": "HTTPError"
     },
     "vd171/copg-vd": {
       "checked": 1794754747,
@@ -11686,7 +11924,8 @@
       "timestamp": 1793172623,
       "size": 9364,
       "asset_name": "DynamicSystemTweaks-v4.9.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "feravolt/fde.ai-docs": {
       "checked": 1794734570,
@@ -11708,7 +11947,8 @@
       "zip": "https://github.com/AestasBritannia/Hydro-Br-leur/releases/download/7.2/Hydrostellaire.Chocolate.zip",
       "zip_count": 1,
       "timestamp": 1776446065,
-      "size": 3476112
+      "size": 3476112,
+      "last_error": "HTTPError"
     },
     "kyliekyler/magnetar": {
       "checked": 1794754750,
@@ -11728,7 +11968,8 @@
       "timestamp": 1756522114,
       "size": 852186,
       "asset_name": "MAGNETAR.19.6.0.YANKEE.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "llucs/speedcool-magisk-module": {
       "checked": 1794754751,
@@ -11748,7 +11989,8 @@
       "timestamp": 1779790072,
       "size": 16448,
       "asset_name": "SpeedCool_v2.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kanaodnd/stellar-tweaks": {
       "checked": 1794754750,
@@ -11768,7 +12010,8 @@
       "timestamp": 1789833530,
       "size": 2684589,
       "asset_name": "Stellar-v22.0-release5.3-VoyagingAstralist-25926.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "topnotchfreaks/tnf_tweaker": {
       "checked": 1794740772,
@@ -11791,7 +12034,8 @@
       "zip": "https://github.com/i-Taylo/iUnlockerGL/releases/download/v1.1.5-r4/iUnlocker-GLTool-for-android-v1.1.5-r4.zip",
       "zip_count": 1,
       "timestamp": 1767042940,
-      "size": 25969823
+      "size": 25969823,
+      "last_error": "HTTPError"
     },
     "raajk20pro/kernelenhancer": {
       "checked": 1794754752,
@@ -11811,7 +12055,8 @@
       "timestamp": 1794208435,
       "size": 2631758,
       "asset_name": "KernelEnhancerV6.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "fatalcoder524/kernelflasher": {
       "checked": 1794734570,
@@ -11853,7 +12098,8 @@
       "timestamp": 1791677394,
       "size": 302435,
       "asset_name": "PerfMTKv17.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "rve27/rvkernel-manager": {
       "checked": 1794740767,
@@ -11882,7 +12128,8 @@
       "zip": "https://github.com/chkndrp/magisk-swapspace/releases/download/2.4/magiskswapspace.zip",
       "zip_count": 1,
       "timestamp": 1762036455,
-      "size": 27562
+      "size": 27562,
+      "last_error": "HTTPError"
     },
     "weirdmidas/skysceneaddon": {
       "checked": 1794754747,
@@ -11923,7 +12170,8 @@
       "timestamp": 1737234591,
       "size": 2288,
       "asset_name": "Swap-Disabler-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yadavnikhil03/swapboost-pro": {
       "checked": 1794754748,
@@ -11961,7 +12209,8 @@
       "zip": "https://github.com/FurLC/ZRAM-Module/releases/download/v1.3.0/ZRAM-Module-v1.3.0.zip",
       "zip_count": 1,
       "timestamp": 1748694202,
-      "size": 4187
+      "size": 4187,
+      "last_error": "HTTPError"
     },
     "drsexo/frosty": {
       "checked": 1794754749,
@@ -11978,7 +12227,8 @@
       "zip": "https://github.com/Drsexo/Frosty/releases/download/4.6/Frosty-4.6.zip",
       "zip_count": 1,
       "timestamp": 1794353017,
-      "size": 861599
+      "size": 861599,
+      "last_error": "HTTPError"
     },
     "binarynoise/xposedmodulets": {
       "checked": 1794731822,
@@ -12009,7 +12259,8 @@
       "timestamp": 1769239535,
       "size": 450464,
       "asset_name": "Battery.Honey.7.2.Awaken.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "draumaz/dozedisabler": {
       "checked": 1794754749,
@@ -12026,7 +12277,8 @@
       "zip": "https://github.com/draumaz/dozedisabler/releases/download/1.2/dozedisabler-1.2.zip",
       "zip_count": 1,
       "timestamp": 1753241688,
-      "size": 1926
+      "size": 1926,
+      "last_error": "HTTPError"
     },
     "farfromrefug/enforcedoze": {
       "checked": 1794734570,
@@ -12108,7 +12360,8 @@
       "zip": "https://github.com/epicmann24/OOSGMS-OPTIMISER/releases/download/v1.0.8/OOSGMS-OPTIMISER.zip",
       "zip_count": 1,
       "timestamp": 1760278400,
-      "size": 6209
+      "size": 6209,
+      "last_error": "HTTPError"
     },
     "dijia1124/plusplusbattery": {
       "checked": 1794734566,
@@ -12133,7 +12386,8 @@
       "timestamp": 1756196868,
       "size": 14669,
       "asset_name": "Realme-GT3-neo5-CPU-limiter_1.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "marspatrick/universal-gms-doze": {
       "checked": 1794754751,
@@ -12153,7 +12407,8 @@
       "timestamp": 1787002544,
       "size": 25171,
       "asset_name": "gms_1.9.11.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "magisk-modules-alt-repo/xtreme-battery-saver": {
       "checked": 1794740755,
@@ -12197,7 +12452,8 @@
       "zip": "https://github.com/AbhishekTor55/charging-bypass-magisk/releases/download/untagged-831450a552014cfd8ec4/charging-bypass-v1.0.zip",
       "zip_count": 1,
       "timestamp": 1750848724,
-      "size": 941
+      "size": 941,
+      "last_error": "HTTPError"
     },
     "dev97633/fastcharge-next": {
       "checked": 1794754748,
@@ -12214,7 +12470,8 @@
       "zip": "https://github.com/Dev97633/Fastcharge-next/releases/download/v2.0.2/fastcharge-next-v2.0.2.zip",
       "zip_count": 1,
       "timestamp": 1775992646,
-      "size": 20647
+      "size": 20647,
+      "last_error": "HTTPError"
     },
     "northmendo/appzuku": {
       "checked": 1794740761,
@@ -12258,7 +12515,8 @@
       "zip": "https://github.com/Aurora-Nasa-1/DeepSuppressor/releases/download/v0.2.0/DeepSuppressor_f414499.zip",
       "zip_count": 1,
       "timestamp": 1748760855,
-      "size": 2272374
+      "size": 2272374,
+      "last_error": "HTTPError"
     },
     "drsexo/greenify4magisk-ksu-reborn": {
       "checked": 1794754749,
@@ -12275,7 +12533,8 @@
       "zip": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn/releases/download/v5.1.1.3/Greenify4Magisk-KSU-Reborn-v5.1.1.3.zip",
       "zip_count": 1,
       "timestamp": 1771252622,
-      "size": 3154802
+      "size": 3154802,
+      "last_error": "HTTPError"
     },
     "adil192/no_more_background": {
       "checked": 1794731816,
@@ -12319,7 +12578,8 @@
       "zip": "https://github.com/bindhosts/bindhosts/releases/download/v2.1.5/bindhosts.zip",
       "zip_count": 1,
       "timestamp": 1787535828,
-      "size": 258303
+      "size": 258303,
+      "last_error": "HTTPError"
     },
     "demonnica/adaway-helper": {
       "checked": 1794734566,
@@ -12356,7 +12616,8 @@
       "timestamp": 1793544482,
       "size": 538508,
       "asset_name": "BlockAds-v2.74.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "vaz15k/cubic-adblock": {
       "checked": 1794754747,
@@ -12407,7 +12668,8 @@
       "timestamp": 1788919026,
       "size": 1618052,
       "asset_name": "MagicalProtection-mv19-hv121.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "pantsufan/magisk-ad-blocking-module": {
       "checked": 1794754752,
@@ -12427,7 +12689,8 @@
       "timestamp": 1793544524,
       "size": 932268,
       "asset_name": "BlockAds-v3.83.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "lm060719/io.mo.mnblocker": {
       "checked": 1794740752,
@@ -12474,7 +12737,8 @@
       "timestamp": 1794382985,
       "size": 459862,
       "asset_name": "StevenBlock.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "symbuzzer/systemless-hosts-kernelsu-module": {
       "checked": 1794754746,
@@ -12515,7 +12779,8 @@
       "timestamp": 1740233971,
       "size": 477226,
       "asset_name": "Systemless_Adblocker_V1.11.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ukanth/afwall": {
       "checked": 1794740773,
@@ -12558,7 +12823,8 @@
       "timestamp": 1738816237,
       "size": 18560,
       "asset_name": "net-switch-1.2-54-64b5764-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "m66b/netguard": {
       "checked": 1794740754,
@@ -12613,7 +12879,8 @@
       "zip": "https://github.com/cookieof/ImageCopyHide/releases/download/V1.0/ImageCopyHide-v1.0.zip",
       "zip_count": 1,
       "timestamp": 1748085097,
-      "size": 1854
+      "size": 1854,
+      "last_error": "HTTPError"
     },
     "jhl337/oplus16_hidezoomwindow": {
       "checked": 1794740548,
@@ -12660,7 +12927,8 @@
       "timestamp": 1774724671,
       "size": 2081,
       "asset_name": "TurnOffSensors-Magisk.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "lsposed/disableflagsecure": {
       "checked": 1794740753,
@@ -12683,7 +12951,8 @@
       "zip": "https://github.com/j-hc/FlagSecurePatcher/releases/download/r17/flag-secure-patcher-r17.zip",
       "zip_count": 1,
       "timestamp": 1759957329,
-      "size": 4653307
+      "size": 4653307,
+      "last_error": "HTTPError"
     },
     "ys1231/movecertificate": {
       "checked": 1794754748,
@@ -12736,7 +13005,8 @@
       "timestamp": 1747813890,
       "size": 6808,
       "asset_name": "AlwaysTrustUserCerts_v1.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "blassgo/android-flagsecure-disabler": {
       "checked": 1794731823,
@@ -12776,7 +13046,8 @@
       "timestamp": 1733427552,
       "size": 3781,
       "asset_name": "Cert-Fixer.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "magisk-modules-alt-repo/custom-certificate-authorities": {
       "checked": 1794754751,
@@ -12796,7 +13067,8 @@
       "timestamp": 1781501940,
       "size": 3774,
       "asset_name": "Custom_Certificate_Authorities_v1.2.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yujiacheng1996/custom-certificates": {
       "checked": 1794754748,
@@ -12845,7 +13117,8 @@
       "zip": "https://github.com/j-hc/ih8SecureLock/releases/download/v11/ih8SecureLock-v11.zip",
       "zip_count": 1,
       "timestamp": 1792271285,
-      "size": 16181
+      "size": 16181,
+      "last_error": "HTTPError"
     },
     "hang666/justtrustmepro": {
       "checked": 1794740544,
@@ -12988,7 +13261,8 @@
       "timestamp": 1789640610,
       "size": 216361,
       "asset_name": "GPhotosUnlimited-v5.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hxreborn/amznkiller": {
       "checked": 1794740545,
@@ -13037,7 +13311,8 @@
       "zip": "https://github.com/eritpchy/FingerprintPay/releases/download/7.0.1-ci/zygisk-module-xfingerprint-pay-all-v7.0.1-release.zip",
       "zip_count": 1,
       "timestamp": 1792637004,
-      "size": 4597808
+      "size": 4597808,
+      "last_error": "HTTPError"
     },
     "mango0oo/g-news-control": {
       "checked": 1794754751,
@@ -13057,7 +13332,8 @@
       "timestamp": 1758321590,
       "size": 4030,
       "asset_name": "G-News.Control.V2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hxreborn/gboard-material-expressive-black": {
       "checked": 1794740546,
@@ -13383,7 +13659,8 @@
       "timestamp": 1750658986,
       "size": 2090817,
       "asset_name": "OnePlus-8Series-9R-Camera-Unlocker-v1.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "marsgao/io.github.marsgao.speed": {
       "checked": 1794740756,
@@ -13475,7 +13752,8 @@
       "timestamp": 1794749961,
       "size": 7112462,
       "asset_name": "Sortify-v5.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xayahsususu/android-databackup": {
       "checked": 1794740775,
@@ -13517,7 +13795,8 @@
       "timestamp": 1740814788,
       "size": 3318200,
       "asset_name": "AutoPurge_1.0.12.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "weirdmidas/basiccleaner": {
       "checked": 1794754747,
@@ -13560,7 +13839,8 @@
       "zip": "https://github.com/FLYCOM-E/ClearBox/releases/download/101-V5.2.1/ClearBox-V5.2.1-101.zip",
       "zip_count": 1,
       "timestamp": 1791898747,
-      "size": 3287499
+      "size": 3287499,
+      "last_error": "HTTPError"
     },
     "rhythmcache/partition-backup": {
       "checked": 1794754753,
@@ -13580,7 +13860,8 @@
       "timestamp": 1751373333,
       "size": 38480,
       "asset_name": "partition-backup-magisk-module-5d1c7b4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "theblazehen/sd_flasher": {
       "checked": 1794740771,
@@ -13603,7 +13884,8 @@
       "zip": "https://github.com/Enginex0/UsbMassStorage/releases/download/v5.0/UsbMassStorage-v5.0.zip",
       "zip_count": 2,
       "timestamp": 1775143920,
-      "size": 6138629
+      "size": 6138629,
+      "last_error": "HTTPError"
     },
     "mahmud0808/colorblendr": {
       "checked": 1794740755,
@@ -13641,7 +13923,8 @@
       "timestamp": 1790422151,
       "size": 60123971,
       "asset_name": "HyperOS_ThemeManagerV7@kashis_cringey_stuffs.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "mahmud0808/iconify": {
       "checked": 1794740755,
@@ -13664,7 +13947,8 @@
       "zip": "https://github.com/fakerieh/Lite-Blur-Control-Center-for-HyperOS/releases/download/RELEASE-16-MAY-2026/Lite.Blur.HyperOS.2.0.2.2.-.Animation.zip",
       "zip_count": 13,
       "timestamp": 1778924122,
-      "size": 32038310
+      "size": 32038310,
+      "last_error": "HTTPError"
     },
     "kaerushi/monetify": {
       "checked": 1794740748,
@@ -13707,7 +13991,8 @@
       "timestamp": 1791091257,
       "size": 35156481,
       "asset_name": "HyperOS_AppVaultV5@kashis_cringey_stuffs.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "mods-center/hyperos-launcher": {
       "checked": 1794754751,
@@ -13727,7 +14012,8 @@
       "timestamp": 1791944151,
       "size": 29316196,
       "asset_name": "HyperOS_LauncherV7.5F@kashis_cringey_stuffs.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hddq/launcher3-quicklaunch": {
       "checked": 1794740544,
@@ -13752,7 +14038,8 @@
       "timestamp": 1690904241,
       "size": 5832261,
       "asset_name": "NovaInstaller.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "wizpizz/onepluspluslauncher": {
       "checked": 1794740775,
@@ -13828,7 +14115,8 @@
       "timestamp": 1782187704,
       "size": 11824591,
       "asset_name": "HideNavBar.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hxreborn/qs-boundless-tiles": {
       "checked": 1794740546,
@@ -13901,7 +14189,8 @@
       "timestamp": 1786611190,
       "size": 2535838,
       "asset_name": "FontCraftPro_V7.5_By_RipperHybrid.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "jingmatrix/fontloader": {
       "checked": 1794754750,
@@ -13918,7 +14207,8 @@
       "zip": "https://github.com/JingMatrix/FontLoader/releases/download/v1.1.0/FontLoader-release.zip",
       "zip_count": 2,
       "timestamp": 1753275213,
-      "size": 27600
+      "size": 27600,
+      "last_error": "HTTPError"
     },
     "mars-wave/jetbrains-font-magisk-module": {
       "checked": 1794754751,
@@ -13938,7 +14228,8 @@
       "timestamp": 1758248311,
       "size": 509058,
       "asset_name": "magisk-jetbrains-mono-system-font.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "n4bi10p/ios-emoji": {
       "checked": 1794754751,
@@ -13958,7 +14249,8 @@
       "timestamp": 1783978394,
       "size": 34517593,
       "asset_name": "iOS_Emoji_KSU-v2.051-flashable.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "jingmatrix/magiskfonts": {
       "checked": 1794740548,
@@ -13983,7 +14275,8 @@
       "timestamp": 1782413177,
       "size": 34470804,
       "asset_name": "Magisk_iOS_Emoji_26.4.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "dethbyte64/magisk-minecraft-font": {
       "checked": 1794754748,
@@ -14000,7 +14293,8 @@
       "zip": "https://github.com/DethByte64/Magisk-Minecraft-Font/releases/download/v1.0.0/MinecraftFont.zip",
       "zip_count": 1,
       "timestamp": 1746819273,
-      "size": 21931
+      "size": 21931,
+      "last_error": "HTTPError"
     },
     "numbersf/makefontsgreatagain": {
       "checked": 1794740762,
@@ -14028,7 +14322,8 @@
       "zip": "https://github.com/AloozChips/OneUIEmojiPack/releases/download/v7.1/OneUI_Emoji_Pack-v7.1.zip",
       "zip_count": 1,
       "timestamp": 1749908800,
-      "size": 18622714
+      "size": 18622714,
+      "last_error": "HTTPError"
     },
     "losketch/unicodefontset-magisk-module": {
       "checked": 1794754751,
@@ -14048,7 +14343,8 @@
       "timestamp": 1787064887,
       "size": 81331860,
       "asset_name": "UnicodeFontSet-CBDT-module.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kvmy666/-autoexpandnotifications": {
       "checked": 1794740751,
@@ -14105,7 +14401,8 @@
       "timestamp": 1765526220,
       "size": 75912170,
       "asset_name": "HyperOS_AOD_V3@kashis_cringey_stuffs.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xlexip/adaptive-theme": {
       "checked": 1794740775,
@@ -14156,7 +14453,8 @@
       "zip": "https://github.com/Astoritin/RotationSuggestionsToggle/releases/download/v1.0/RotationSuggestionsToggle-1.0.zip",
       "zip_count": 1,
       "timestamp": 1763536901,
-      "size": 4418
+      "size": 4418,
+      "last_error": "HTTPError"
     },
     "likelikeslike/viperfx_re": {
       "checked": 1794740752,
@@ -14185,7 +14483,8 @@
       "zip": "https://github.com/james34602/JamesDSPManager/releases/download/28Nov2023/jdsp_v6.0.zip",
       "zip_count": 1,
       "timestamp": 1701522243,
-      "size": 25983796
+      "size": 25983796,
+      "last_error": "HTTPError"
     },
     "briclyaz/nlsound_module_qcom": {
       "checked": 1794754748,
@@ -14202,7 +14501,8 @@
       "zip": "https://github.com/Briclyaz/NLSound/releases/download/v4.5/NLSound.v4.5.Qcom.Devices.zip",
       "zip_count": 1,
       "timestamp": 1790533228,
-      "size": 51262
+      "size": 51262,
+      "last_error": "HTTPError"
     },
     "wstxda/viperfx-re-releases": {
       "checked": 1794740775,
@@ -14228,7 +14528,8 @@
       "timestamp": 1782026825,
       "size": 20466,
       "asset_name": "magisk-module-audio-jitter-silencer-v1.0.11.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "auag0/disableaudiofocus": {
       "checked": 1794731820,
@@ -14271,7 +14572,8 @@
       "timestamp": 1793025937,
       "size": 28426,
       "asset_name": "magisk-module-audio-misc-v1.3.12.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "magisk-modules-alt-repo/audio-samplerate-changer": {
       "checked": 1794754751,
@@ -14291,7 +14593,8 @@
       "timestamp": 1778311771,
       "size": 44564,
       "asset_name": "magisk-module-audio-samplerate-changer-v1.1.10-1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ahmed-alnassif/dsp-audiofix": {
       "checked": 1794754746,
@@ -14308,7 +14611,8 @@
       "zip": "https://github.com/ahmed-alnassif/DSP-AudioFix/releases/download/v1.0/DSP-AudioFix.zip",
       "zip_count": 1,
       "timestamp": 1772310185,
-      "size": 16835
+      "size": 16835,
+      "last_error": "HTTPError"
     },
     "reiryuki/hi-res-audio-enabler-magisk-module": {
       "checked": 1794740765,
@@ -14352,7 +14656,8 @@
       "zip": "https://github.com/ahkehra/high_perf_dac/releases/download/v7/high_perf_dac-v7.0-beta.zip",
       "zip_count": 1,
       "timestamp": 1767853095,
-      "size": 18038
+      "size": 18038,
+      "last_error": "HTTPError"
     },
     "twoone-3/adguardhomeforroot": {
       "checked": 1794754747,
@@ -14398,7 +14703,8 @@
       "timestamp": 1789415310,
       "size": 10372,
       "asset_name": "forcedns_3.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ingozenz/personaldnsfilter": {
       "checked": 1794740547,
@@ -14467,7 +14773,8 @@
       "zip": "https://github.com/CHIZI-0618/box4magisk/releases/download/v5.1/box4_v5.1.zip",
       "zip_count": 1,
       "timestamp": 1726465322,
-      "size": 39555
+      "size": 39555,
+      "last_error": "HTTPError"
     },
     "omegaplexx/happwner": {
       "checked": 1794740762,
@@ -14490,7 +14797,8 @@
       "zip": "https://github.com/Fanju6/NetProxy-Magisk/releases/download/v8.7.0/NetProxy_v8.7.0_1100.zip",
       "zip_count": 1,
       "timestamp": 1794472839,
-      "size": 27525137
+      "size": 27525137,
+      "last_error": "HTTPError"
     },
     "ruslanuc/novpndetect": {
       "checked": 1794740766,
@@ -14566,7 +14874,8 @@
       "zip": "https://github.com/eventlOwOp/zerotier-magisk/releases/download/v1.14.2-2/zerotier-magisk-aarch64-gcc-e2c0c3a.zip",
       "zip_count": 6,
       "timestamp": 1744351021,
-      "size": 1817867
+      "size": 1817867,
+      "last_error": "HTTPError"
     },
     "lightjunction/magicnet": {
       "checked": 1794754751,
@@ -14586,7 +14895,8 @@
       "timestamp": 1794386279,
       "size": 3463139,
       "asset_name": "MagicNet-core.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "newfuture/magisk-modules": {
       "checked": 1794740760,
@@ -14614,7 +14924,8 @@
       "zip": "https://github.com/fatalcoder524/TCP_Optimiser_Module/releases/download/v2.5/TCP_Optimiser-2.5-17.zip",
       "zip_count": 1,
       "timestamp": 1782886958,
-      "size": 396040
+      "size": 396040,
+      "last_error": "HTTPError"
     },
     "buffcow/hyper5gswitch": {
       "checked": 1794731824,
@@ -14644,7 +14955,8 @@
       "timestamp": 1752833727,
       "size": 8734883,
       "asset_name": "nothing-euicc.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ravindu644/virtualap": {
       "checked": 1794740764,
@@ -14673,7 +14985,8 @@
       "zip": "https://github.com/Googlers-Repo/wpd/releases/download/v7.0.0/mmrl_wpd-7.0.0.zip",
       "zip_count": 1,
       "timestamp": 1791647077,
-      "size": 293353
+      "size": 293353,
+      "last_error": "HTTPError"
     },
     "mlm-games/wifi-exporter": {
       "checked": 1794740757,
@@ -14758,7 +15071,8 @@
       "timestamp": 1789763074,
       "size": 19491,
       "asset_name": "Magisk_AsoulOpt_Kana.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "rem01gaming/encore": {
       "checked": 1794754753,
@@ -14778,7 +15092,8 @@
       "timestamp": 1791241496,
       "size": 2309385,
       "asset_name": "encore-5.2.2-1571-47cdb70-main.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "loggingnewmemory/encorinvest": {
       "checked": 1794740752,
@@ -14804,7 +15119,8 @@
       "timestamp": 1794653062,
       "size": 3924157,
       "asset_name": "v4.0FPS_Limitations_patcher@kashis_cringey_stuffs.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yadavnikhil03/gameunlocker": {
       "checked": 1794740776,
@@ -14839,7 +15155,8 @@
       "zip": "https://github.com/adivenxnataly/PerfGame/releases/download/2.0-release/PerfGamev2.0-release.zip",
       "zip_count": 1,
       "timestamp": 1747037187,
-      "size": 1127322
+      "size": 1127322,
+      "last_error": "HTTPError"
     },
     "yinwanxi/uperf-game-turbo": {
       "checked": 1794754748,
@@ -14907,7 +15224,8 @@
       "timestamp": 1778023212,
       "size": 313626,
       "asset_name": "TermuxRootMods-v1.0.22.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "evdenis/adb_root": {
       "checked": 1794754749,
@@ -14924,7 +15242,8 @@
       "zip": "https://github.com/evdenis/adb_root/releases/download/v2.0/adb_root-v2.0.zip",
       "zip_count": 1,
       "timestamp": 1772187907,
-      "size": 677181
+      "size": 677181,
+      "last_error": "HTTPError"
     },
     "warren-bank/android-adb-over-wifi": {
       "checked": 1794740774,
@@ -14964,7 +15283,8 @@
       "zip": "https://github.com/hxreborn/Log-Catcher/releases/download/v23.2/hxr_logcat.zip",
       "zip_count": 1,
       "timestamp": 1773532288,
-      "size": 49851
+      "size": 49851,
+      "last_error": "HTTPError"
     },
     "mrh929/magisk-wifiadb": {
       "checked": 1794754751,
@@ -14984,7 +15304,8 @@
       "timestamp": 1739639347,
       "size": 4331,
       "asset_name": "magisk-wifiadb.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "smooth-e/wireless-adb-switch": {
       "checked": 1794740769,
@@ -15043,7 +15364,8 @@
       "timestamp": 1791052491,
       "size": 17850466,
       "asset_name": "py2droid-v0.3.7.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "evdenis/selinux_permissive": {
       "checked": 1794754749,
@@ -15060,7 +15382,8 @@
       "zip": "https://github.com/evdenis/selinux_permissive/releases/download/v3.1/selinux_permissive-v3.1.zip",
       "zip_count": 1,
       "timestamp": 1772904261,
-      "size": 3466
+      "size": 3466,
+      "last_error": "HTTPError"
     },
     "hmndev-tech/shevery": {
       "checked": 1794740545,
@@ -15112,7 +15435,8 @@
       "timestamp": 1749630520,
       "size": 18891,
       "asset_name": "chroot-distro.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nicup14/debdroid": {
       "checked": 1794754752,
@@ -15132,7 +15456,8 @@
       "timestamp": 1794678824,
       "size": 3688534,
       "asset_name": "DebDroid-module.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "mgksu/dockerd": {
       "checked": 1794754751,
@@ -15152,7 +15477,8 @@
       "timestamp": 1748509458,
       "size": 71573162,
       "asset_name": "Magisk-Dockerd-v28.2.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "desktopecho/trixie.apk": {
       "checked": 1794734566,
@@ -15177,7 +15503,8 @@
       "timestamp": 1774285149,
       "size": 1472756,
       "asset_name": "update-CLI.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "poweran2020/crond4android": {
       "checked": 1794754752,
@@ -15197,7 +15524,8 @@
       "timestamp": 1786097048,
       "size": 17390,
       "asset_name": "crond4android-v1.1.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "afan4724/gyrohook": {
       "checked": 1794731816,
@@ -15222,7 +15550,8 @@
       "timestamp": 1768905586,
       "size": 3344368,
       "asset_name": "hid-gadget-module-v1.38.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "bartixxx32/opflashcontrol-app": {
       "checked": 1794731822,
@@ -15252,7 +15581,8 @@
       "timestamp": 1794142102,
       "size": 28265337,
       "asset_name": "magisk-rclone_arm64-v8a.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "katelynthestargazer/rsync-magisk": {
       "checked": 1794754750,
@@ -15272,7 +15602,8 @@
       "timestamp": 1761812089,
       "size": 879235,
       "asset_name": "rsync-magisk.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xposed-modules-repo/com.sui.advancedpowermenu": {
       "checked": 1794740776,
@@ -15317,7 +15648,8 @@
       "zip": "https://github.com/chenxiaolong/BCR/releases/download/v3.11/BCR-3.11-release.zip",
       "zip_count": 1,
       "timestamp": 1792032821,
-      "size": 2787358
+      "size": 2787358,
+      "last_error": "HTTPError"
     },
     "xiaomihongzhaji/xposedforwardsms": {
       "checked": 1794740775,
@@ -15349,7 +15681,8 @@
       "timestamp": 1794242114,
       "size": 84857,
       "asset_name": "NoMount-kpm_2.2.0-20261022.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nativestar/kernelsugranttoast": {
       "checked": 1794754752,
@@ -15369,7 +15702,8 @@
       "timestamp": 1792829886,
       "size": 291063,
       "asset_name": "KernelSUGrantToast.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "wstxda/switchai": {
       "checked": 1794740775,
