@@ -24,8 +24,7 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(framework_badges("FOSS [M] [K] [LSP]"), ["Magisk", "KernelSU", "LSPosed"])
 
     def test_all_entries_preserved(self):
-        text = "\n".join([
-            "<!-- AUTO-DISCOVERED-ROOT-APPS:START -->",
+        text = "\n".join(["<!-- AUTO-DISCOVERED-ROOT-APPS:START -->"] + [
             row(f"App {i}", f"https://github.com/user/repo{i}", "Shizuku app")
             for i in range(1002)
         ]) + "\n<!-- AUTO-DISCOVERED-ROOT-APPS:END -->\n" + row(
