@@ -1,4 +1,36 @@
-# Architecture and operating plan
+# RootAtlas — architecture, provenance and operational policy
+
+## Independent source discovery
+
+`scripts/source_discovery.py` also searches public GitHub **repositories** every
+daily run, rather than trusting a fixed list of URLs. Eight bounded GitHub
+repository-search requests rotate broad queries, and up to 96 eligible
+repositories are probed per execution. A repository is accepted only after its
+public `json/modules.json` (MMRL) or `modules.json` (KernelSU Next) passes
+schema checks and includes real, valid records. Results are saved in
+[`source-discovery-state.json`](../source-discovery-state.json), including
+negative responses and last-check dates. Negative candidates can be retried
+after 14 days. A temporary GitHub search failure retains previous discoveries.
+
+Search results are **not** proof of a safe module. We exclude our own feed to
+prevent recursion, and skip templates, demos, examples, and empty repositories.
+An auto-discovered module ID can **never override** one already supplied by
+the established catalog or curated sources, even if it advertises an inflated
+version code. Competing sources and their origins remain auditable.
+
+GitHub searches are bounded, do not cover every host, may miss repositories,
+and respect the platform's rate limits. This is a continuously expanding index,
+**not** a verified claim to index every root-related repository in existence.
+
+## Why Xposed/LSPosed is separate
+
+The official [Xposed Module Repository](https://modules.lsposed.org/) already
+indexes Xposed/LSPosed APKs, and
+[the community Xposed directory](https://github.com/rushiranpise/xposed-modules)
+also updates automatically. APK artifacts should not appear as installable
+Magisk/KernelSU ZIP modules. RootAtlas links to these resources but deliberately
+does not merge their APKs into MMRL/KernelSU Next feeds. A distinct, clearly
+labeled Xposed-only JSON could be considered without conflating install formats.
 
 ## Federated repository sources (November 2026)
 
@@ -33,10 +65,11 @@ version codes in Kotlin's Int range, valid HTTPS ZIP URLs, and **real numeric
 timestamps on every published version**. Invalid versions are removed; modules
 with no valid versions are excluded. Missing timestamps are never invented.
 
-Duplicate MMRL IDs resolve deterministically: higher `versionCode` wins,
-then newest release timestamp; exact ties keep the incumbent source. Catalog
-metadata initially wins ties, but can be superseded by a newer tracked
-release. Separate competing entries are recorded in
+Duplicate MMRL IDs resolve deterministically: the inspected catalog
+establishes the baseline; curated upstream repositories can supersede it with
+a higher `versionCode` (then newer release timestamp). Uncurated
+auto-discovered repositories are **additions only** and cannot supersede any
+existing ID. Distinct sources and collisions are recorded in
 [`federation-provenance.json`](../federation-provenance.json). KernelSU Next
 deduplicates by canonical GitHub `repoUrl`; upstream banners and licenses can
 enrich an existing entry without introducing a duplicate.
@@ -123,4 +156,4 @@ GitHub may delay or suspend scheduled workflows and provider formats or rate lim
 
 View [workflow runs](https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml) and [live coverage report](../report.json). Both installation indexes are validated in CI, but **real-device import and installation remain separate acceptance tests**.
 
-Manual rerun: GitHub → Actions → Update Root Module Feeds → Run workflow.
+Manual rerun: GitHub → Actions → Update RootAtlas Module Feeds → Run workflow.
