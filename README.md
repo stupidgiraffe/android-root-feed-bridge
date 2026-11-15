@@ -10,7 +10,7 @@
 
 <p>
   <a href="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml"><img alt="Daily feed build" src="https://github.com/stupidgiraffe/android-root-feed-bridge/actions/workflows/update.yml/badge.svg" /></a>
-  <img alt="Free and open catalog" src="https://img.shields.io/badge/Free-forever-00bfa5?style=flat-square" />
+  <img alt="Free and open catalog" src="https://img.shields.io/badge/Free-to%20use-00bfa5?style=flat-square" />
   <img alt="Automatic daily refresh" src="https://img.shields.io/badge/Auto--sync-daily-64748b?style=flat-square" />
   <a href="https://buymeacoffee.com/stupidgiraffe"><img alt="Support development on Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=000000&style=flat-square" /></a>
 </p>
