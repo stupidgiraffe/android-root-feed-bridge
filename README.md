@@ -66,9 +66,9 @@ KernelSU Next uses a different format. This feed merges our inspected single-ZIP
 
 <div align="center">
 
-<a href="report.json"><img alt="MMRL module count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Fandroid-root-feed-bridge%2Fmain%2Freport.json&query=%24.mmrl_modules&label=MMRL%20modules&color=0891b2&style=for-the-badge" /></a>
-<a href="report.json"><img alt="KernelSU Next module count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Fandroid-root-feed-bridge%2Fmain%2Freport.json&query=%24.kernelsu_next_modules&label=KernelSU%20Next&color=7c3aed&style=for-the-badge" /></a>
-<a href="report.json"><img alt="Total discovery entries" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Fandroid-root-feed-bridge%2Fmain%2Freport.json&query=%24.catalog_entries&label=Catalog%20entries&color=0f766e&style=for-the-badge" /></a>
+<a href="report.json"><img alt="MMRL module count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Frootatlas%2Fmain%2Freport.json&query=%24.mmrl_modules&label=MMRL%20modules&color=0891b2&style=for-the-badge" /></a>
+<a href="report.json"><img alt="KernelSU Next module count" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Frootatlas%2Fmain%2Freport.json&query=%24.kernelsu_next_modules&label=KernelSU%20Next&color=7c3aed&style=for-the-badge" /></a>
+<a href="report.json"><img alt="Total discovery entries" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstupidgiraffe%2Frootatlas%2Fmain%2Freport.json&query=%24.catalog_entries&label=Catalog%20entries&color=0f766e&style=for-the-badge" /></a>
 
 <sub>These counts come from the live generated report, not hardcoded values.</sub>
 
