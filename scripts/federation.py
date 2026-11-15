@@ -251,12 +251,16 @@ def merge(base_mmrl: list, base_ksu: list, states: dict):
         chosen[base["id"]] = copy.deepcopy(base)
         origins[base["id"]] = {"kind": "catalog", "url": base.get("homepage", "")}
     external = []
-    for key, state in sorted(states.items()):
+    # Curated sources are evaluated before uncurated GitHub discoveries.
+    # Automatically discovered repositories must NEVER shadow an existing
+    # module ID, even with a forged higher versionCode.
+    for key, state in sorted(states.items(), key=lambda pair: (
+        1 if pair[1].get("tier") == "discovered" else 0, pair[0])):
         if state.get("kind") != "mmrl":
             continue
         for item in state.get("entries", []):
-            external.append((item, state["source"]))
-    for item, origin in external:
+            external.append((item, state["source"], state.get("tier", "curated")))
+    for item, origin, tier in external:
         identifier = item["id"]
         incumbent = chosen.get(identifier)
         if incumbent is None:
@@ -264,6 +268,9 @@ def merge(base_mmrl: list, base_ksu: list, states: dict):
             origins[identifier] = {"kind": "mmrl", "url": origin}
             continue
         conflict_counts[identifier] = conflict_counts.get(identifier, 0) + 1
+        if tier == "discovered":
+            # Do not let a random search result usurp known publishers.
+            continue
         # VersionCode is the primary ordering for Android modules; stable
         # ordering means exact ties continue using existing/catalog source.
         if (item["versionCode"], item["versions"][0]["timestamp"]) > (
@@ -302,6 +309,8 @@ def federate(root: Path, base_mmrl: list, base_ksu: list, request_json, now: int
     except (FileNotFoundError, ValueError):
         pass
     mmrl_urls, ksu_sources, notes = gather_feeds(config, request_json)
+    curated_mmrl = set(mmrl_urls)
+    curated_ksu = {entry["url"] for entry in ksu_sources}
 
     try:
         from source_discovery import discover
@@ -326,6 +335,12 @@ def federate(root: Path, base_mmrl: list, base_ksu: list, request_json, now: int
     ksu_sources = list({s["url"]: s for s in ksu_sources}.values())
 
     states, report = fetch_all(mmrl_urls, ksu_sources, request_json, old, now)
+    for value in states.values():
+        if value["kind"] == "mmrl":
+            base = value["url"][:-len("json/modules.json")] if value["url"].endswith("json/modules.json") else ""
+            value["tier"] = "curated" if base in curated_mmrl else "discovered"
+        elif value["kind"] == "ksunext":
+            value["tier"] = "curated" if value["url"] in curated_ksu else "discovered"
     if not states:
         raise RuntimeError("No usable federation sources; preserving existing outputs")
     mmrl, ksu, audit = merge(base_mmrl, base_ksu, states)
