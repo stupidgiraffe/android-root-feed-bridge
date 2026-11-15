@@ -42,7 +42,7 @@
     "pending_repositories": 0,
     "valid_module_repositories": 414,
     "mmrl_modules": 400,
-    "kernelsu_next_modules": 354
+    "kernelsu_next_modules": 364
   },
   "entries": [
     {
@@ -36849,5 +36849,5 @@
       "build_type": "release"
     }
   ],
-  "updated": 1794741122
+  "updated": 1794741340
 }

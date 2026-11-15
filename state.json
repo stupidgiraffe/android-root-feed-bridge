@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated": 1794741122,
+  "generated": 1794741340,
   "repos": {
     "badaccuracyid/a2dpforce": {
       "checked": 1794731821,
@@ -57,7 +57,7 @@
       "reason": "no_valid_module_zip"
     },
     "latifangren/bfr-webui-go": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 437590322,
       "valid": true,
       "prop": {
@@ -77,7 +77,7 @@
       "reason": "verified_zip_metadata"
     },
     "readonlynux/bootanimation-module": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 415905749,
       "valid": true,
       "prop": {
@@ -107,7 +107,7 @@
       "valid": false
     },
     "as-tsaqib/cliproxyapi-module": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 445816164,
       "valid": true,
       "prop": {
@@ -165,7 +165,7 @@
       "reason": "no_valid_module_zip"
     },
     "serkenn/hide-virt-apex-su": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 374359911,
       "valid": true,
       "prop": {
@@ -191,7 +191,7 @@
       "reason": "no_valid_module_zip"
     },
     "nikakvo/ipset-arm64": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 441716805,
       "valid": true,
       "prop": {
@@ -257,7 +257,7 @@
       "reason": "no_latest_release"
     },
     "chandr1000/nm-compat-scanner": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 374143799,
       "valid": true,
       "prop": {
@@ -291,7 +291,7 @@
       "reason": "no_latest_release"
     },
     "lanrhyme/patch-inline-trackmotion": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 374213492,
       "valid": true,
       "prop": {
@@ -450,7 +450,7 @@
       "reason": "no_latest_release"
     },
     "danish3311/disable-fuse-bpf": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 375057355,
       "valid": true,
       "prop": {
@@ -547,7 +547,8 @@
       "timestamp": 1787551955,
       "size": 10210,
       "asset_name": "AOD-Wallpaper-Module-v2.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "qinghemuyu/hidhide-module": {
       "checked": 1794740764,
@@ -573,7 +574,7 @@
       "reason": "no_latest_release"
     },
     "guocheng1378/miclaw-api": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 364616925,
       "valid": true,
       "prop": {
@@ -646,7 +647,7 @@
       "reason": "no_valid_module_zip"
     },
     "darkaxt/thorautotimezone": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 375322440,
       "valid": true,
       "prop": {
@@ -680,7 +681,8 @@
       "timestamp": 1793792613,
       "size": 27515717,
       "asset_name": "zapret-pocket.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "takeruf/android-perapp-language-selector": {
       "checked": 1794740770,
@@ -695,7 +697,7 @@
       "reason": "no_latest_release"
     },
     "jiyin004-jpg/ommega": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 444528285,
       "valid": true,
       "prop": {
@@ -724,7 +726,7 @@
       "reason": "no_valid_module_zip"
     },
     "noxproductions/t3ra1n": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 311992735,
       "valid": true,
       "prop": {
@@ -761,7 +763,7 @@
       "valid": false
     },
     "arimacose/keep_default_assistant_as_gemini": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 376909494,
       "valid": true,
       "prop": {
@@ -830,7 +832,7 @@
       "reason": "no_valid_module_zip"
     },
     "portablediag/volumeperapp": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 426027275,
       "valid": true,
       "prop": {
@@ -890,7 +892,7 @@
       "valid": false
     },
     "2ertwo6/dropbear-ssh-android-module": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 433540023,
       "valid": true,
       "prop": {
@@ -945,7 +947,8 @@
       "timestamp": 1794462903,
       "size": 29010,
       "asset_name": "mbox-v1.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "vladimiracunadev-create/rootcause-mobile-inspector": {
       "checked": 1794740774,
@@ -1005,7 +1008,8 @@
       "timestamp": 1787902737,
       "size": 20352173,
       "asset_name": "CLIProxyAPI_Magisk_v1.2.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ahmetcanarslan/clonecat": {
       "checked": 1794731817,
@@ -1040,7 +1044,7 @@
       "valid": false
     },
     "christuo-dev/oneplus15-beidou-gnss-guard": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 378175886,
       "valid": true,
       "prop": {
@@ -1072,7 +1076,7 @@
       "valid": false
     },
     "philiphall6/tcl-power-menu-r51mt05": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 378959406,
       "valid": true,
       "prop": {
@@ -1092,7 +1096,7 @@
       "reason": "verified_zip_metadata"
     },
     "hyperramzey/wcg_f946b": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 378266568,
       "valid": true,
       "prop": {
@@ -1141,7 +1145,7 @@
       "valid": false
     },
     "enddream-zm/lowlife": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 430087598,
       "valid": true,
       "prop": {
@@ -1175,7 +1179,8 @@
       "timestamp": 1792988303,
       "size": 41156601,
       "asset_name": "magisk-openlist-386-lite-v4.2.9.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "estifanos58/multi-space-launcher": {
       "checked": 1794734569,
@@ -1257,7 +1262,7 @@
       "reason": "no_valid_module_zip"
     },
     "bouteillepleine/nomount-suite": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 444476399,
       "valid": true,
       "prop": {
@@ -1304,7 +1309,7 @@
       "reason": "no_valid_module_zip"
     },
     "joinchang/tailscale-root": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 434911889,
       "valid": true,
       "prop": {
@@ -1321,7 +1326,7 @@
       "size": 129696
     },
     "mishkarala/wifi-4g-enhanced-mostly-poco-f3": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 390281553,
       "valid": true,
       "prop": {
@@ -1347,7 +1352,7 @@
       "reason": "no_latest_release"
     },
     "gjr787878/auto-create-app-storage": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 398540750,
       "valid": true,
       "prop": {
@@ -1398,7 +1403,8 @@
       "timestamp": 1647199438,
       "size": 7675,
       "asset_name": "POP-ZRAM_Magisk.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yusuf6411/powerboost": {
       "checked": 1794741136,
@@ -1418,10 +1424,11 @@
       "timestamp": 1788183469,
       "size": 28520,
       "asset_name": "PowerBoost_v1.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ahmed-alnassif/resusfs": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 421706714,
       "valid": true,
       "prop": {
@@ -1496,7 +1503,7 @@
       "reason": "no_valid_module_zip"
     },
     "alienware377/rootlessviper4android": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 445801596,
       "valid": true,
       "prop": {
@@ -1513,7 +1520,7 @@
       "size": 4119439
     },
     "drizzy07x/supercharger_pixel_9_series": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 362754227,
       "valid": true,
       "prop": {
@@ -1564,7 +1571,7 @@
       "reason": "ambiguous_multiple_module_ids"
     },
     "nalbe/blackview-shark8-vulkan-hwui-patch": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 382425788,
       "valid": true,
       "prop": {
@@ -1601,7 +1608,7 @@
       "reason": "no_latest_release"
     },
     "moloo4ni/fod-fix-obsidian": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 381445169,
       "valid": true,
       "prop": {
@@ -1637,7 +1644,7 @@
       "valid": false
     },
     "anirudhgupta109/pixelxpert-next": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 441390883,
       "valid": true,
       "prop": {
@@ -1659,7 +1666,7 @@
       "valid": false
     },
     "moloo4ni/statusbar-fix-obsidian": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 380690911,
       "valid": true,
       "prop": {
@@ -1745,7 +1752,7 @@
       "reason": "no_latest_release"
     },
     "disc0nnctd/tvremoteweb": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 409697265,
       "valid": true,
       "prop": {
@@ -1774,7 +1781,7 @@
       "reason": "ambiguous_multiple_module_ids"
     },
     "hrishi2861/alioth-loud": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 382596703,
       "valid": true,
       "prop": {
@@ -1820,7 +1827,8 @@
       "timestamp": 1792642924,
       "size": 44018062,
       "asset_name": "magisk-alist-v3.66.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "luckyabsoluter/master-duel-android-adb-user-changer": {
       "checked": 1794740754,
@@ -1841,7 +1849,7 @@
       "reason": "no_latest_release"
     },
     "lusmaysh/webview-optimizer": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 382456562,
       "valid": true,
       "prop": {
@@ -1872,7 +1880,7 @@
       "reason": "no_valid_module_zip"
     },
     "alexdev404/cloudflared-magisk": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 382877886,
       "valid": true,
       "prop": {
@@ -1916,7 +1924,8 @@
       "timestamp": 1788587844,
       "size": 1356,
       "asset_name": "TB710FU-HDR-fp16-.-v1.1.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "techjarves/mobile-harness": {
       "checked": 1794740771,
@@ -1960,7 +1969,7 @@
       "reason": "no_valid_module_zip"
     },
     "1ndevelopment/foxxd_a67l_touch_backlight_disabler": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 383319532,
       "valid": true,
       "prop": {
@@ -2005,7 +2014,7 @@
       "valid": false
     },
     "mistu01/mffmv14": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 412166873,
       "valid": true,
       "prop": {
@@ -2043,7 +2052,7 @@
       "reason": "no_valid_module_zip"
     },
     "1ndevelopment/unisoc_gsi_callfix": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 335006947,
       "valid": true,
       "prop": {
@@ -2060,7 +2069,7 @@
       "size": 870940
     },
     "foxlost/universal-miracast-sink": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 383522479,
       "valid": true,
       "prop": {
@@ -2082,7 +2091,7 @@
       "valid": false
     },
     "jevcje0-gif/arabic-and-english-ios-fonts-magisk-module": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 383767849,
       "valid": true,
       "prop": {
@@ -2136,7 +2145,7 @@
       "valid": false
     },
     "ruyisio/vpn-share-proxy": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 383616834,
       "valid": true,
       "prop": {
@@ -2166,7 +2175,7 @@
       "valid": false
     },
     "iodn/android-kernel-tweaker": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 384286064,
       "valid": true,
       "prop": {
@@ -2306,7 +2315,7 @@
       "valid": false
     },
     "cherwing/xiaomi_usb_security_bypass": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 384895539,
       "valid": true,
       "prop": {
@@ -2374,7 +2383,8 @@
       "timestamp": 1789761883,
       "size": 2600811,
       "asset_name": "Turnip-26.2.3-MAGISK-KSU.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "glinte/pipuncap": {
       "checked": 1794740543,
@@ -2388,7 +2398,7 @@
       "reason": "no_latest_release"
     },
     "jojobear691/termuxrootmods-ksu-toolkit": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 385818511,
       "valid": true,
       "prop": {
@@ -2411,7 +2421,7 @@
       "reason": "no_valid_module_zip"
     },
     "leolovenet/zygisk-fridagadget": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 385850941,
       "valid": true,
       "prop": {
@@ -2459,7 +2469,8 @@
       "timestamp": 1789076797,
       "size": 9019,
       "asset_name": "crdroid-a16-skip-lockscreen-v1.0.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nhatkyanhphan/freezing_application": {
       "checked": 1794740760,
@@ -2513,7 +2524,7 @@
       "valid": false
     },
     "gegedevs/dnsresolve-termux": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 387452184,
       "valid": true,
       "prop": {
@@ -2570,7 +2581,7 @@
       "reason": "no_latest_release"
     },
     "charlesgool/smb_smart_sync": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 387047139,
       "valid": true,
       "prop": {
@@ -2609,7 +2620,7 @@
       "valid": false
     },
     "dr-tsng/altdb": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 416260918,
       "valid": true,
       "prop": {
@@ -2636,7 +2647,7 @@
       "valid": false
     },
     "jun430/g750-boost": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 395031917,
       "valid": true,
       "prop": {
@@ -2722,7 +2733,7 @@
       "valid": false
     },
     "dat-hoangnguyentuandat/hermesandroid": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 432462549,
       "valid": true,
       "prop": {
@@ -2767,7 +2778,8 @@
       "timestamp": 1794633955,
       "size": 593751,
       "asset_name": "proteus-v1.0-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kennethbicocchi/oculus-go-revival": {
       "checked": 1794740749,
@@ -2804,7 +2816,7 @@
       "reason": "no_valid_module_zip"
     },
     "cameleonnbss/galaxyhz": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 388595327,
       "valid": true,
       "prop": {
@@ -2821,7 +2833,7 @@
       "size": 10365
     },
     "mengwuzhuanshou/honorlsposedfix": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 404197597,
       "valid": true,
       "prop": {
@@ -2883,7 +2895,7 @@
       "valid": false
     },
     "maksim-venus/magisk-sms-forward": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 389755440,
       "valid": true,
       "prop": {
@@ -2945,7 +2957,7 @@
       "reason": "no_valid_module_zip"
     },
     "ethanm6/google-sans-flex-magisk": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 421281673,
       "valid": true,
       "prop": {
@@ -3017,7 +3029,7 @@
       "valid": false
     },
     "makuro-arisaka/android17-lhdc-a2dp-universal": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 411750994,
       "valid": true,
       "prop": {
@@ -3071,7 +3083,7 @@
       "valid": false
     },
     "nalbe/shark8-systemui-contacts-fix": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 391155331,
       "valid": true,
       "prop": {
@@ -3091,7 +3103,7 @@
       "reason": "verified_zip_metadata"
     },
     "nalbe/shark8-treble-su-fix": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 391122650,
       "valid": true,
       "prop": {
@@ -3134,10 +3146,11 @@
       "timestamp": 1790858757,
       "size": 25943798,
       "asset_name": "AdGuardHome-Android-Module-0.1.20-agh-0.107.79.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ovehbe/duraspeed-off": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 391866162,
       "valid": true,
       "prop": {
@@ -3167,7 +3180,7 @@
       "valid": false
     },
     "kiran-embedded/micfix-magisk-module": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 393875013,
       "valid": true,
       "prop": {
@@ -3187,7 +3200,7 @@
       "reason": "verified_zip_metadata"
     },
     "bapirex/mitm-ca-system": {
-      "checked": 1794741124,
+      "checked": 1794741341,
       "release_id": 391911718,
       "valid": true,
       "prop": {
@@ -3306,7 +3319,8 @@
       "timestamp": 1790846300,
       "size": 63692,
       "asset_name": "LuneBridge-v2.0.5.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "sergeron/mixflipcontinuitymanager": {
       "checked": 1794740767,
@@ -3315,7 +3329,7 @@
       "reason": "no_valid_module_zip"
     },
     "nadelacruz-00/status-bar-guard": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 392776406,
       "valid": true,
       "prop": {
@@ -3352,7 +3366,7 @@
       "reason": "no_latest_release"
     },
     "mirsella/aod-battery-saver-override": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 395017697,
       "valid": true,
       "prop": {
@@ -3389,7 +3403,7 @@
       "reason": "no_valid_module_zip"
     },
     "ctrl-mietze/cathook-multitask-launcher": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 394330046,
       "valid": true,
       "prop": {
@@ -3429,7 +3443,7 @@
       "reason": "no_valid_module_zip"
     },
     "nalbe/shark8-gamemode-gsi": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 393405898,
       "valid": true,
       "prop": {
@@ -3449,7 +3463,7 @@
       "reason": "verified_zip_metadata"
     },
     "nalbe/shark8-smartrefresh-gsi": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 402519780,
       "valid": true,
       "prop": {
@@ -3503,10 +3517,11 @@
       "timestamp": 1790048215,
       "size": 830,
       "asset_name": "Y700-English-Device-Name-v1.0.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kyubiez96/zram-turbo": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 393341115,
       "valid": true,
       "prop": {
@@ -3588,7 +3603,8 @@
       "timestamp": 1790108732,
       "size": 9365877,
       "asset_name": "tethys-tailscaled-v1.98.8-tethys.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "jaseunda/uls": {
       "checked": 1794740548,
@@ -3641,7 +3657,7 @@
       "reason": "no_latest_release"
     },
     "baimacao/sl8541e-heshuicheng-device-optimization-module": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 430412970,
       "valid": true,
       "prop": {
@@ -3675,7 +3691,7 @@
       "valid": false
     },
     "gasciljh/dnscrypt-proxy-webui": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 444175103,
       "valid": true,
       "prop": {
@@ -3709,7 +3725,7 @@
       "valid": false
     },
     "literallyaxo/quest2-touch-on-quest3": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 395942016,
       "valid": true,
       "prop": {
@@ -3735,7 +3751,7 @@
       "reason": "no_latest_release"
     },
     "e3n-glotm/wifi7-lab-safe": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 435226873,
       "valid": true,
       "prop": {
@@ -3752,7 +3768,7 @@
       "size": 17212
     },
     "ddceka/android-analytics-disabler": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 431391292,
       "valid": true,
       "prop": {
@@ -3796,7 +3812,8 @@
       "timestamp": 1794717948,
       "size": 28164957,
       "asset_name": "cliproxyapi-magisk.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "jainhardik120/idlesaver": {
       "checked": 1794740548,
@@ -3826,7 +3843,8 @@
       "timestamp": 1790947344,
       "size": 1846,
       "asset_name": "KPA_Sitronix_Fix_v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "zy0x/lynx": {
       "checked": 1794741136,
@@ -3846,7 +3864,8 @@
       "timestamp": 1719852457,
       "size": 970396,
       "asset_name": "Lynx.-.Velocity.v2.9.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "lukumaki/moto-g54-rom-migration-toolkit": {
       "checked": 1794740754,
@@ -3876,7 +3895,7 @@
       "valid": false
     },
     "lordarrin/beszel-agent-magisk": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 398781159,
       "valid": true,
       "prop": {
@@ -3913,7 +3932,8 @@
       "timestamp": 1794543822,
       "size": 5989533,
       "asset_name": "dirac_universal-v1.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "akswap/dualstaprofilemanager": {
       "checked": 1794731818,
@@ -3921,7 +3941,7 @@
       "valid": false
     },
     "bouteillepleine/duckmock": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 397598832,
       "valid": true,
       "prop": {
@@ -3944,7 +3964,7 @@
       "reason": "no_valid_module_zip"
     },
     "scozzadroid-cpu/lockjaw-magisk-ksu": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 397440357,
       "valid": true,
       "prop": {
@@ -3980,7 +4000,7 @@
       "reason": "no_valid_module_zip"
     },
     "petittux1/xiaomiautomation": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 410256975,
       "valid": true,
       "prop": {
@@ -4017,7 +4037,8 @@
       "timestamp": 1794738738,
       "size": 11368756,
       "asset_name": "ZNNext-v2.18.0-406-a5d3ce6-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "zjns/adbstayawake": {
       "checked": 1794740779,
@@ -4055,7 +4076,7 @@
       "reason": "no_latest_release"
     },
     "mariayuno/termuxsu-magisk": {
-      "checked": 1794741130,
+      "checked": 1794741346,
       "release_id": 402536872,
       "valid": true,
       "prop": {
@@ -4149,7 +4170,7 @@
       "reason": "no_latest_release"
     },
     "llp2333/netproxy-xtls-kernelsu": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 443676803,
       "valid": true,
       "prop": {
@@ -4202,7 +4223,8 @@
       "timestamp": 1784512018,
       "size": 1196953,
       "asset_name": "TCP_Optimiser_RS-v3.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "2113apps/verified-android-apps": {
       "checked": 1794731814,
@@ -4238,7 +4260,7 @@
       "reason": "no_valid_module_zip"
     },
     "petittux1/mirafix": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 399981384,
       "valid": true,
       "prop": {
@@ -4268,7 +4290,7 @@
       "valid": false
     },
     "saadnahid7/smalipatcherreborn": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 404348156,
       "valid": true,
       "prop": {
@@ -4299,7 +4321,7 @@
       "reason": "no_valid_module_zip"
     },
     "l3fel/axionrecents": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 419842543,
       "valid": true,
       "prop": {
@@ -4325,7 +4347,7 @@
       "reason": "no_valid_module_zip"
     },
     "sakthibalank-f/marble-poco-f5-black-glow-fix": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 401127787,
       "valid": true,
       "prop": {
@@ -4362,7 +4384,8 @@
       "timestamp": 1790834042,
       "size": 30353578,
       "asset_name": "MYuppy-Font-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "oskarmroczkowski-dev/old-phone-plex-server": {
       "checked": 1794740762,
@@ -4415,7 +4438,7 @@
       "valid": false
     },
     "nikakvo/wg-shield-arm64": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 443619356,
       "valid": true,
       "prop": {
@@ -4476,7 +4499,7 @@
       "reason": "no_valid_module_zip"
     },
     "fouc3-mirror/hyperos-flclash-vpn-fix": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 401198592,
       "valid": true,
       "prop": {
@@ -4509,7 +4532,7 @@
       "valid": false
     },
     "exloud/render-switcher": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 404336499,
       "valid": true,
       "prop": {
@@ -4589,7 +4612,8 @@
       "timestamp": 1791007277,
       "size": 21269,
       "asset_name": "gs_guard-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "starkag/guardian": {
       "checked": 1794740769,
@@ -4609,7 +4633,7 @@
       "valid": false
     },
     "ethanm6/noto-emoji-magisk": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 401575267,
       "valid": true,
       "prop": {
@@ -4626,7 +4650,7 @@
       "size": 9949385
     },
     "akswap/poco-f7-crdroid17-wifi7-dualsta": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 402353719,
       "valid": true,
       "prop": {
@@ -4713,7 +4737,7 @@
       "reason": "no_valid_module_zip"
     },
     "brill594/pppoe_for_android": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 260812554,
       "valid": true,
       "prop": {
@@ -4765,7 +4789,7 @@
       "reason": "no_valid_module_zip"
     },
     "elvex10/galaxy-multiuser": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 404429869,
       "valid": true,
       "prop": {
@@ -4810,7 +4834,8 @@
       "timestamp": 1791206281,
       "size": 13651045,
       "asset_name": "hoshitele-dns-module.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "bmjubairdadu/kernel-loader": {
       "checked": 1794740541,
@@ -4824,7 +4849,7 @@
       "reason": "no_valid_module_zip"
     },
     "mben25/micloud-a16": {
-      "checked": 1794741130,
+      "checked": 1794741346,
       "release_id": 403762705,
       "valid": true,
       "prop": {
@@ -4884,7 +4909,7 @@
       "valid": false
     },
     "mizuno-sachiko/easytier-magisk": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 404816860,
       "valid": true,
       "prop": {
@@ -4927,7 +4952,7 @@
       "reason": "no_latest_release"
     },
     "barsikus007/ksu-webui-module-template": {
-      "checked": 1794741124,
+      "checked": 1794741341,
       "release_id": 271490841,
       "valid": true,
       "prop": {
@@ -4950,7 +4975,7 @@
       "reason": "no_latest_release"
     },
     "nalbe/shark8-adb-wifi-lan-persistent": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 404879391,
       "valid": true,
       "prop": {
@@ -4970,7 +4995,7 @@
       "reason": "verified_zip_metadata"
     },
     "nalbe/shark8-damon-reclaim-off": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 404038945,
       "valid": true,
       "prop": {
@@ -5007,7 +5032,7 @@
       "reason": "no_valid_module_zip"
     },
     "c0d3h01/androidtweaker": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 366322811,
       "valid": true,
       "prop": {
@@ -5121,7 +5146,7 @@
       "valid": false
     },
     "cinitdev/appopt": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 362328325,
       "valid": true,
       "prop": {
@@ -5154,7 +5179,7 @@
       "valid": false
     },
     "ayusmannanda/fridamanager": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 405943803,
       "valid": true,
       "prop": {
@@ -5183,7 +5208,7 @@
       "reason": "no_valid_module_zip"
     },
     "aleopho/nx789j-autobrightness": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 406838455,
       "valid": true,
       "prop": {
@@ -5221,7 +5246,7 @@
       "valid": false
     },
     "radito/watchdog": {
-      "checked": 1794741132,
+      "checked": 1794741349,
       "release_id": 406412028,
       "valid": true,
       "prop": {
@@ -5264,7 +5289,7 @@
       "reason": "no_valid_module_zip"
     },
     "sabbirafat96/fast-animation-stable-fps-": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 408099704,
       "valid": true,
       "prop": {
@@ -5307,7 +5332,7 @@
       "reason": "no_latest_release"
     },
     "sabbirafat96/spoof-gt-50-pro": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 407208130,
       "valid": true,
       "prop": {
@@ -5366,7 +5391,7 @@
       "valid": false
     },
     "masitankitavim-ux/codex-android": {
-      "checked": 1794741130,
+      "checked": 1794741346,
       "release_id": 409759769,
       "valid": true,
       "prop": {
@@ -5463,7 +5488,8 @@
       "timestamp": 1793102489,
       "size": 46322,
       "asset_name": "zapret-ksu-module.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "feg55/zarp-android": {
       "checked": 1794734570,
@@ -5482,7 +5508,7 @@
       "reason": "no_valid_module_zip"
     },
     "ahmedyasir2023/ay-lightning-pro": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 422458420,
       "valid": true,
       "prop": {
@@ -5534,7 +5560,8 @@
       "timestamp": 1794632703,
       "size": 49610610,
       "asset_name": "frida-magisk-17.26.3-arm64-v8a.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ylh440104/kernelsu-tuner": {
       "checked": 1794741136,
@@ -5554,7 +5581,8 @@
       "timestamp": 1794271059,
       "size": 107758,
       "asset_name": "KernelSU-Tuner-30060-v3.6.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "chazpounder78/keylightkeeper": {
       "checked": 1794734562,
@@ -5562,7 +5590,7 @@
       "valid": false
     },
     "naplon74/magisk-pluskey": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 420612844,
       "valid": true,
       "prop": {
@@ -5647,7 +5675,7 @@
       "reason": "no_latest_release"
     },
     "mikary29/hdaudio-magisk-module": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 439652860,
       "valid": true,
       "prop": {
@@ -5716,7 +5744,7 @@
       "valid": false
     },
     "atrejokm301/hilightlink": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 411212536,
       "valid": true,
       "prop": {
@@ -5733,7 +5761,7 @@
       "size": 1092487
     },
     "leohearts/i-dont-want-to-catch-up": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 411716003,
       "valid": true,
       "prop": {
@@ -5769,7 +5797,7 @@
       "valid": false
     },
     "kahramanedit/redmagic-11-pro-zram-16gb-ramslider": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 411581277,
       "valid": true,
       "prop": {
@@ -5894,7 +5922,8 @@
       "timestamp": 1791916831,
       "size": 2955064,
       "asset_name": "aiagent_for_root_phone_v1.7.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "mapxn/android-dial-from-home": {
       "checked": 1794740756,
@@ -5942,7 +5971,7 @@
       "valid": false
     },
     "azyrn/deepdoze-enforcer": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 366406370,
       "valid": true,
       "prop": {
@@ -6004,7 +6033,8 @@
       "timestamp": 1794670434,
       "size": 4521698,
       "asset_name": "susfs_lkm_x64.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "sway4all/sways-deep-builder": {
       "checked": 1794740770,
@@ -6030,7 +6060,8 @@
       "timestamp": 1793391337,
       "size": 81003945,
       "asset_name": "FX-v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "pccr10001/voany": {
       "checked": 1794740762,
@@ -6100,7 +6131,8 @@
       "timestamp": 1792132105,
       "size": 16995,
       "asset_name": "groupguard-magisk-v1.1.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hozin-king/hozin-api-spoofer": {
       "checked": 1794740545,
@@ -6125,7 +6157,8 @@
       "timestamp": 1793868575,
       "size": 31512074,
       "asset_name": "Wild_Tailscale-v2.11.0.0-full.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "cxc1992-bit/neta-x-toolbox": {
       "checked": 1794734564,
@@ -6145,7 +6178,7 @@
       "reason": "no_latest_release"
     },
     "liyw0205/sidekeyplus": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 415077971,
       "valid": true,
       "prop": {
@@ -6182,10 +6215,11 @@
       "timestamp": 1794719770,
       "size": 38039429,
       "asset_name": "sub-store-runsv-2.44.14-r3.8294c361aae7-arm64-v8a.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "konanguyen/trustmycert": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 444786902,
       "valid": true,
       "prop": {
@@ -6222,7 +6256,8 @@
       "timestamp": 1792146989,
       "size": 7323,
       "asset_name": "VolumeSteps-1.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "tmiland-lab/adb-android-backup": {
       "checked": 1794740772,
@@ -6338,7 +6373,7 @@
       "valid": false
     },
     "duyquang6/maple-mono-android": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 416406720,
       "valid": true,
       "prop": {
@@ -6355,7 +6390,7 @@
       "size": 1192423
     },
     "nikitos4683/nzapret": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 416367130,
       "valid": true,
       "prop": {
@@ -6387,7 +6422,7 @@
       "reason": "no_valid_module_zip"
     },
     "andresuhensleeby-a11y/sound-universal-update": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 416431032,
       "valid": true,
       "prop": {
@@ -6404,7 +6439,7 @@
       "size": 204022
     },
     "andresuhensleeby-a11y/sound-universal-update-5.1.4": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 416435445,
       "valid": true,
       "prop": {
@@ -6494,7 +6529,7 @@
       "valid": false
     },
     "chengdong-yu/imei-privacy": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 417430045,
       "valid": true,
       "prop": {
@@ -6517,7 +6552,7 @@
       "reason": "no_valid_module_zip"
     },
     "cyanmint/lkm4ctr": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 415938124,
       "valid": true,
       "prop": {
@@ -6568,7 +6603,8 @@
       "timestamp": 1793548592,
       "size": 918328,
       "asset_name": "ResonanceFX-v2.2.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "souzzaaxzy/turbokn": {
       "checked": 1794740769,
@@ -6617,10 +6653,11 @@
       "timestamp": 1794738738,
       "size": 11368756,
       "asset_name": "ZNNext-v2.18.0-406-a5d3ce6-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "k3v1991/adguarddns4magisk-family": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 131434657,
       "valid": true,
       "prop": {
@@ -6655,7 +6692,7 @@
       "valid": false
     },
     "k3v1991/comodo-securedns4magisk": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 67537579,
       "valid": true,
       "prop": {
@@ -6675,7 +6712,7 @@
       "reason": "verified_zip_metadata"
     },
     "k3v1991/dns.watch4magisk": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 67538193,
       "valid": true,
       "prop": {
@@ -6695,7 +6732,7 @@
       "reason": "verified_zip_metadata"
     },
     "bluescorpiovr/galaxyxr-modules": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 424928335,
       "valid": true,
       "prop": {
@@ -6712,7 +6749,7 @@
       "size": 25403881
     },
     "k3v1991/green2priv": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 67533100,
       "valid": true,
       "prop": {
@@ -6732,7 +6769,7 @@
       "reason": "verified_zip_metadata"
     },
     "k3v1991/green2priv-beta": {
-      "checked": 1794741127,
+      "checked": 1794741345,
       "release_id": 96935914,
       "valid": true,
       "prop": {
@@ -6774,7 +6811,7 @@
       "valid": false
     },
     "k3v1991/level3dns4magisk": {
-      "checked": 1794741127,
+      "checked": 1794741345,
       "release_id": 67537333,
       "valid": true,
       "prop": {
@@ -6799,7 +6836,7 @@
       "valid": false
     },
     "qvq9999/memkeep": {
-      "checked": 1794741132,
+      "checked": 1794741349,
       "release_id": 419115434,
       "valid": true,
       "prop": {
@@ -6819,7 +6856,7 @@
       "reason": "verified_zip_metadata"
     },
     "colorxi/mithermaltuner": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 418349813,
       "valid": true,
       "prop": {
@@ -6847,7 +6884,7 @@
       "reason": "no_valid_module_zip"
     },
     "ayoubvvch/privapp-systemizer-magisk": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 418167721,
       "valid": true,
       "prop": {
@@ -6869,7 +6906,7 @@
       "valid": false
     },
     "k3v1991/quad9dns4magisk": {
-      "checked": 1794741127,
+      "checked": 1794741345,
       "release_id": 67531926,
       "valid": true,
       "prop": {
@@ -6906,7 +6943,7 @@
       "reason": "no_valid_module_zip"
     },
     "ayoubvvch/sshserver-magisk": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 418220012,
       "valid": true,
       "prop": {
@@ -6923,7 +6960,7 @@
       "size": 1372737
     },
     "k3v1991/yandex-dns4magisk-basic": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 67534345,
       "valid": true,
       "prop": {
@@ -6943,7 +6980,7 @@
       "reason": "verified_zip_metadata"
     },
     "k3v1991/yandex-dns4magisk-family": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 67534090,
       "valid": true,
       "prop": {
@@ -6963,7 +7000,7 @@
       "reason": "verified_zip_metadata"
     },
     "k3v1991/yandex-dns4magisk-safe": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 67533806,
       "valid": true,
       "prop": {
@@ -7040,10 +7077,11 @@
       "timestamp": 1794048649,
       "size": 89356,
       "asset_name": "noemulator-v0.8.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kailoinf/phoneserver": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 419237908,
       "valid": true,
       "prop": {
@@ -7063,7 +7101,7 @@
       "reason": "verified_zip_metadata"
     },
     "orev7s/pillarbox": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 418869597,
       "valid": true,
       "prop": {
@@ -7116,7 +7154,7 @@
       "valid": false
     },
     "deserthouse/twemoji-resurrection": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 387468267,
       "valid": true,
       "prop": {
@@ -7183,7 +7221,8 @@
       "timestamp": 1793414877,
       "size": 24863,
       "asset_name": "ExtraDim-v3.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "mubai-meng/fkcoloros": {
       "checked": 1794740758,
@@ -7198,7 +7237,7 @@
       "reason": "no_latest_release"
     },
     "privshell/forge-git": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 419984465,
       "valid": true,
       "prop": {
@@ -7263,7 +7302,7 @@
       "reason": "no_latest_release"
     },
     "orev7s/split": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 419820866,
       "valid": true,
       "prop": {
@@ -7283,7 +7322,7 @@
       "reason": "verified_zip_metadata"
     },
     "andresuhensleeby-a11y/thermal-fire-universal-v1.4.0": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 420100416,
       "valid": true,
       "prop": {
@@ -7323,7 +7362,8 @@
       "timestamp": 1793868575,
       "size": 31512074,
       "asset_name": "Wild_Tailscale-v2.11.0.0-full.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "279296927/alipay-home-clean": {
       "checked": 1794731814,
@@ -7347,7 +7387,7 @@
       "reason": "no_valid_module_zip"
     },
     "privshell/gitmigrator-ksu": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 422670415,
       "valid": true,
       "prop": {
@@ -7373,7 +7413,7 @@
       "reason": "no_latest_release"
     },
     "rchrdariza/moto-g15-raw": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 421113718,
       "valid": true,
       "prop": {
@@ -7404,7 +7444,7 @@
       "reason": "no_valid_module_zip"
     },
     "alpha-liu-01/stylusctrl": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 437279552,
       "valid": true,
       "prop": {
@@ -7444,10 +7484,11 @@
       "timestamp": 1793984173,
       "size": 26356435,
       "asset_name": "tq-android-perf-2.6.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "de4869/tunclash": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 423462311,
       "valid": true,
       "prop": {
@@ -7523,7 +7564,8 @@
       "timestamp": 1792920482,
       "size": 18599,
       "asset_name": "GlyphKeeper-v1.5.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "coldmew/hush": {
       "checked": 1794734563,
@@ -7554,7 +7596,8 @@
       "timestamp": 1787262111,
       "size": 242573,
       "asset_name": "JoyConDroidCompanion-1.1.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "tophtab/lsp-store": {
       "checked": 1794740772,
@@ -7563,7 +7606,7 @@
       "reason": "no_valid_module_zip"
     },
     "lenluxue/plf110-touch-rate-sync": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 430417797,
       "valid": true,
       "prop": {
@@ -7617,7 +7660,7 @@
       "valid": false
     },
     "rgws-liulai/anykeybox_module": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 427457037,
       "valid": true,
       "prop": {
@@ -7637,7 +7680,7 @@
       "reason": "verified_zip_metadata"
     },
     "privshell/apex-apps": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 423367863,
       "valid": true,
       "prop": {
@@ -7657,7 +7700,7 @@
       "reason": "verified_zip_metadata"
     },
     "moscow146/callbridge": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 438311903,
       "valid": true,
       "prop": {
@@ -7683,7 +7726,7 @@
       "reason": "no_valid_module_zip"
     },
     "nikakvo/gps-locker": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 430856993,
       "valid": true,
       "prop": {
@@ -7714,7 +7757,7 @@
       "valid": false
     },
     "ahmeturesin/magisk-module-android-11-pixel-launcher": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 423403595,
       "valid": true,
       "prop": {
@@ -7731,7 +7774,7 @@
       "size": 5435364
     },
     "narakai/magisk-vpn-tether": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 430553703,
       "valid": true,
       "prop": {
@@ -7780,10 +7823,11 @@
       "timestamp": 1793985391,
       "size": 26363503,
       "asset_name": "tq-traders-1.5.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ravindu644/usb-arsenal": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 425538450,
       "valid": true,
       "prop": {
@@ -7820,7 +7864,7 @@
       "reason": "no_valid_module_zip"
     },
     "justmlc4real/disable-default-game-frame-rate": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 424014062,
       "valid": true,
       "prop": {
@@ -7899,7 +7943,7 @@
       "reason": "no_latest_release"
     },
     "rgws-liulai/any_ca": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 430540176,
       "valid": true,
       "prop": {
@@ -7947,7 +7991,7 @@
       "reason": "no_latest_release"
     },
     "kahramanedit/magisk-gifboot": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 424819124,
       "valid": true,
       "prop": {
@@ -7979,7 +8023,7 @@
       "reason": "no_valid_module_zip"
     },
     "adrianageng7/projectx-webui": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 425213500,
       "valid": true,
       "prop": {
@@ -8025,7 +8069,7 @@
       "valid": false
     },
     "leapdragon/xiaomiplaystorefix": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 425178752,
       "valid": true,
       "prop": {
@@ -8057,7 +8101,7 @@
       "reason": "no_valid_module_zip"
     },
     "raafi-abir/acc-automatic-cache-cleaner": {
-      "checked": 1794741132,
+      "checked": 1794741349,
       "release_id": 445440961,
       "valid": true,
       "prop": {
@@ -8095,7 +8139,7 @@
       "reason": "no_valid_module_zip"
     },
     "ajfiles/call-of-duty-mobile-120fps-magisk": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 426327012,
       "valid": true,
       "prop": {
@@ -8141,7 +8185,7 @@
       "reason": "no_latest_release"
     },
     "nikakvo/lan-cloak-arm64": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 430816397,
       "valid": true,
       "prop": {
@@ -8265,7 +8309,7 @@
       "valid": false
     },
     "2108282/zram-lz4kds-sddc-houji-6.1": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 427429608,
       "valid": true,
       "prop": {
@@ -8320,7 +8364,7 @@
       "valid": false
     },
     "ravindu644/android-bridge": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 432555904,
       "valid": true,
       "prop": {
@@ -8479,7 +8523,7 @@
       "valid": false
     },
     "nosiybugs/uu-wheel-evdev": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 438182446,
       "valid": true,
       "prop": {
@@ -8509,7 +8553,7 @@
       "valid": false
     },
     "kailashrs/camx-fullsize": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 431534075,
       "valid": true,
       "prop": {
@@ -8587,7 +8631,7 @@
       "reason": "no_valid_module_zip"
     },
     "bennybrit/pixel-5g-enabler": {
-      "checked": 1794741124,
+      "checked": 1794741341,
       "release_id": 431343574,
       "valid": true,
       "prop": {
@@ -8604,7 +8648,7 @@
       "size": 842435
     },
     "mor4land/poco-m5-hyperos3-lockscreen": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 431234343,
       "valid": true,
       "prop": {
@@ -8729,7 +8773,7 @@
       "reason": "no_valid_module_zip"
     },
     "dr-essence/cmf-true-stereo": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 438369970,
       "valid": true,
       "prop": {
@@ -8792,7 +8836,8 @@
       "timestamp": 1793854724,
       "size": 36026,
       "asset_name": "Pi-Sing-v1.8.6.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kinginu/pixelmask": {
       "checked": 1794740750,
@@ -8851,7 +8896,7 @@
       "valid": false
     },
     "nangongjing1/misans-module-for-magisk": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 435238660,
       "valid": true,
       "prop": {
@@ -8976,7 +9021,8 @@
       "timestamp": 1794740166,
       "size": 333819,
       "asset_name": "HyperCool_v2.3.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "imsteazyyy/icon-formatter": {
       "checked": 1794740547,
@@ -8984,7 +9030,7 @@
       "valid": false
     },
     "albatrossmicrosystems/lazarus-xposed": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 443162162,
       "valid": true,
       "prop": {
@@ -9061,7 +9107,8 @@
       "timestamp": 1794003971,
       "size": 7387,
       "asset_name": "CLEAR-BY-SKYPIN-v9.6.9.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "fellnessme/coloros-stylus-penpad": {
       "checked": 1794734571,
@@ -9075,7 +9122,7 @@
       "reason": "no_valid_module_zip"
     },
     "ahmed2111x/falcon_integrity_fix": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 444522731,
       "valid": true,
       "prop": {
@@ -9264,7 +9311,8 @@
       "timestamp": 1794389090,
       "size": 2932,
       "asset_name": "force-skiavk-v1.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "involvex/kiln": {
       "checked": 1794740547,
@@ -9328,7 +9376,8 @@
       "timestamp": 1794589164,
       "size": 4924869,
       "asset_name": "phhims_volte-v0.3.3.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "mrsoheyl/soligeram": {
       "checked": 1794740758,
@@ -9371,7 +9420,7 @@
       "valid": false
     },
     "nightmean/android-adb-over-tcp-at-boot": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 438426841,
       "valid": true,
       "prop": {
@@ -9402,7 +9451,7 @@
       "valid": false
     },
     "andyching168/gwallet-cardart": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 440075743,
       "valid": true,
       "prop": {
@@ -9480,7 +9529,8 @@
       "timestamp": 1794293449,
       "size": 66982,
       "asset_name": "SmoothFlow_5.0.5_OPD2513.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "rnjnkr/tizentube-cobalt-google-assistant-bridge": {
       "checked": 1794740766,
@@ -9501,7 +9551,7 @@
       "reason": "no_valid_module_zip"
     },
     "aethermagee/android-sshd": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 441931749,
       "valid": true,
       "prop": {
@@ -9518,7 +9568,7 @@
       "size": 2435606
     },
     "hafiezanarman/cj7x-mlbb-boost-universal-v1.1.0": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 441385989,
       "valid": true,
       "prop": {
@@ -9575,7 +9625,7 @@
       "reason": "no_valid_module_zip"
     },
     "idklelpigeon/liveboot-enhanced": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 441813995,
       "valid": true,
       "prop": {
@@ -9624,7 +9674,8 @@
       "timestamp": 1794541736,
       "size": 49628589,
       "asset_name": "VD-Backup-v1.07-universal-lite.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "wfire06100/wallet-card-audit": {
       "checked": 1794741135,
@@ -9644,10 +9695,11 @@
       "timestamp": 1794409853,
       "size": 15230,
       "asset_name": "wallet-card-audit-v0.5.13.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "meetox80/zflip3": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 441670075,
       "valid": true,
       "prop": {
@@ -9672,7 +9724,7 @@
       "valid": false
     },
     "hafiezanarman/bootloop-protection-v1.1": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 443207980,
       "valid": true,
       "prop": {
@@ -9705,7 +9757,7 @@
       "valid": false
     },
     "mods-center/hyperos-rust-launcher-mod": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 445810495,
       "valid": true,
       "prop": {
@@ -9752,7 +9804,7 @@
       "reason": "no_valid_module_zip"
     },
     "luoyi0914/thermocharge": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 445978478,
       "valid": true,
       "prop": {
@@ -9783,7 +9835,7 @@
       "reason": "no_valid_module_zip"
     },
     "cpufreestyle/bg-keepalive": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 444147075,
       "valid": true,
       "prop": {
@@ -9800,7 +9852,7 @@
       "size": 2736
     },
     "ritikthakur22/brightnesscontrol": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 347806249,
       "valid": true,
       "prop": {
@@ -9837,7 +9889,7 @@
       "reason": "no_valid_module_zip"
     },
     "caullenomdahl/grab-netprinter": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 444257977,
       "valid": true,
       "prop": {
@@ -9854,7 +9906,7 @@
       "size": 4376
     },
     "blueokanna/oneplus_beast": {
-      "checked": 1794741124,
+      "checked": 1794741341,
       "release_id": 444199371,
       "valid": true,
       "prop": {
@@ -9871,7 +9923,7 @@
       "size": 33666
     },
     "ban-sky/openeuicc_for_magisk": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 444378158,
       "valid": true,
       "prop": {
@@ -9912,7 +9964,7 @@
       "reason": "no_latest_release"
     },
     "justadeayo/viper4-xf": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 444206640,
       "valid": true,
       "prop": {
@@ -9959,7 +10011,7 @@
       "reason": "no_valid_module_zip"
     },
     "doezer/caros-profile-switcher": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 259810186,
       "valid": true,
       "prop": {
@@ -10003,7 +10055,7 @@
       "valid": false
     },
     "hiruko-puppetmaster/infinix-loading-bootanimation": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 445376316,
       "valid": true,
       "prop": {
@@ -10077,7 +10129,7 @@
       "valid": false
     },
     "1213015988/verity-guard": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 445109198,
       "valid": true,
       "prop": {
@@ -10094,7 +10146,7 @@
       "size": 60794
     },
     "loficore/wg-user": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 445989999,
       "valid": true,
       "prop": {
@@ -10170,7 +10222,7 @@
       "valid": false
     },
     "kernelsu-next/kpatch-next-module": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 278188079,
       "valid": true,
       "prop": {
@@ -10190,7 +10242,7 @@
       "reason": "verified_zip_metadata"
     },
     "rikj000/magisk-manager-for-recovery-mode": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 291643590,
       "valid": true,
       "prop": {
@@ -10210,7 +10262,7 @@
       "reason": "verified_zip_metadata"
     },
     "kernelsu-modules-repo/meta-overlayfs": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 266718219,
       "valid": true,
       "prop": {
@@ -10230,7 +10282,7 @@
       "reason": "verified_zip_metadata"
     },
     "backslashxx/mountify": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 413490532,
       "valid": true,
       "prop": {
@@ -10264,10 +10316,11 @@
       "timestamp": 1794656373,
       "size": 5453903,
       "asset_name": "Hybrid-Mount-6.2.6-2168.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kernelsu-modules-repo/meta-mm": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 275808944,
       "valid": true,
       "prop": {
@@ -10292,7 +10345,7 @@
       "valid": false
     },
     "jingmatrix/vector": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 364754868,
       "valid": true,
       "prop": {
@@ -10309,7 +10362,7 @@
       "size": 9316843
     },
     "dr-tsng/zygisknext": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 437695261,
       "valid": true,
       "prop": {
@@ -10326,7 +10379,7 @@
       "size": 6638473
     },
     "jingmatrix/neozygisk": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 367279392,
       "valid": true,
       "prop": {
@@ -10343,7 +10396,7 @@
       "size": 2401208
     },
     "performanc/rezygisk": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 320195646,
       "valid": true,
       "prop": {
@@ -10363,7 +10416,7 @@
       "reason": "verified_zip_metadata"
     },
     "rrr333nnn333/brene": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 430979867,
       "valid": true,
       "prop": {
@@ -10383,7 +10436,7 @@
       "reason": "verified_zip_metadata"
     },
     "frknkrc44/hma-oss": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 436374012,
       "valid": true,
       "prop": {
@@ -10400,7 +10453,7 @@
       "size": 2582384
     },
     "jingmatrix/teesimulator": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 368439339,
       "valid": true,
       "prop": {
@@ -10434,7 +10487,8 @@
       "timestamp": 1785057061,
       "size": 911798,
       "asset_name": "ksu_module_susfs_1.5.2+.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "lsposed/lsposed.github.io": {
       "checked": 1794740753,
@@ -10448,7 +10502,7 @@
       "valid": false
     },
     "flipphoneguy/dirtysepolicy_bypass": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 332043651,
       "valid": true,
       "prop": {
@@ -10470,7 +10524,7 @@
       "valid": false
     },
     "elcapitanoe/komodo-build-prop": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 443738829,
       "valid": true,
       "prop": {
@@ -10487,7 +10541,7 @@
       "size": 70966
     },
     "mhmrdd/nohello": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 222195186,
       "valid": true,
       "prop": {
@@ -10507,7 +10561,7 @@
       "reason": "verified_zip_metadata"
     },
     "qwq233/ohmykeymint": {
-      "checked": 1794741132,
+      "checked": 1794741349,
       "release_id": 436106663,
       "valid": true,
       "prop": {
@@ -10527,7 +10581,7 @@
       "reason": "verified_zip_metadata"
     },
     "kowx712/playintegrityfix": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 413890831,
       "valid": true,
       "prop": {
@@ -10547,7 +10601,7 @@
       "reason": "verified_zip_metadata"
     },
     "osm0sis/playintegrityfork": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 432187980,
       "valid": true,
       "prop": {
@@ -10567,7 +10621,7 @@
       "reason": "verified_zip_metadata"
     },
     "daboynb/playcurlnext": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 279353795,
       "valid": true,
       "prop": {
@@ -10584,7 +10638,7 @@
       "size": 18441
     },
     "performanc/treat-wheel-zygisk": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 388705800,
       "valid": true,
       "prop": {
@@ -10610,7 +10664,7 @@
       "reason": "no_latest_release"
     },
     "dpejoh/specter": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 440095742,
       "valid": true,
       "prop": {
@@ -10627,7 +10681,7 @@
       "size": 600058
     },
     "enginex0/teesimulator-rs": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 342022599,
       "valid": true,
       "prop": {
@@ -10644,7 +10698,7 @@
       "size": 2765128
     },
     "kowx712/tricky-addon-update-target-list": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 342482467,
       "valid": true,
       "prop": {
@@ -10664,7 +10718,7 @@
       "reason": "verified_zip_metadata"
     },
     "5ec1cff/trickystore": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 259064898,
       "valid": true,
       "prop": {
@@ -10681,7 +10735,7 @@
       "size": 2840600
     },
     "beakthoven/trickystoreoss": {
-      "checked": 1794741124,
+      "checked": 1794741341,
       "release_id": 376711143,
       "valid": true,
       "prop": {
@@ -10698,7 +10752,7 @@
       "size": 1289252
     },
     "dpejoh/yurikey": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 333484921,
       "valid": true,
       "prop": {
@@ -10732,10 +10786,11 @@
       "timestamp": 1740269915,
       "size": 392961,
       "asset_name": "Zygisk-Assistant-v2.1.4-1013f8a-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "magisk-modules-alt-repo/abootloop": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 204652885,
       "valid": true,
       "prop": {
@@ -10755,7 +10810,7 @@
       "reason": "verified_zip_metadata"
     },
     "ripperhybrid/ashlooper": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 434859217,
       "valid": true,
       "prop": {
@@ -10775,7 +10830,7 @@
       "reason": "verified_zip_metadata"
     },
     "magisk-modules-alt-repo/yetanotherbootloopprotector": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 305959968,
       "valid": true,
       "prop": {
@@ -10844,7 +10899,7 @@
       "valid": false
     },
     "magisk-modules-alt-repo/disable-low-ram": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 226838483,
       "valid": true,
       "prop": {
@@ -10864,7 +10919,7 @@
       "reason": "verified_zip_metadata"
     },
     "chickendrop89/hyperos-accessibility-fix": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 356469610,
       "valid": true,
       "prop": {
@@ -10881,7 +10936,7 @@
       "size": 23459
     },
     "mods-center/hyperos-security-center": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 439061688,
       "valid": true,
       "prop": {
@@ -10901,7 +10956,7 @@
       "reason": "verified_zip_metadata"
     },
     "insertx2k/multiuseruienabler": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 201288643,
       "valid": true,
       "prop": {
@@ -10918,7 +10973,7 @@
       "size": 2252
     },
     "selfref/noogle-magisk": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 443768024,
       "valid": true,
       "prop": {
@@ -10944,7 +10999,7 @@
       "reason": "no_valid_module_zip"
     },
     "magisk-modules-repo/twrp-keep": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 367201729,
       "valid": true,
       "prop": {
@@ -10964,7 +11019,7 @@
       "reason": "verified_zip_metadata"
     },
     "reveny/android-vbmeta-fixer": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 217767297,
       "valid": true,
       "prop": {
@@ -10984,7 +11039,7 @@
       "reason": "verified_zip_metadata"
     },
     "astoritin/vbmetadisguiser": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 258375373,
       "valid": true,
       "prop": {
@@ -11018,7 +11073,8 @@
       "timestamp": 1765974446,
       "size": 4407264,
       "asset_name": "PixelXpert.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "basgame1/pixelify-next": {
       "checked": 1794731822,
@@ -11026,7 +11082,7 @@
       "valid": false
     },
     "pixelupdater/pixelupdater": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 279015455,
       "valid": true,
       "prop": {
@@ -11104,7 +11160,7 @@
       "valid": false
     },
     "mods-center/coloros_control_center": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 416911565,
       "valid": true,
       "prop": {
@@ -11151,7 +11207,8 @@
       "timestamp": 1792004362,
       "size": 80321,
       "asset_name": "HyperUnlocked.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "yunzia/hyperstar": {
       "checked": 1794740778,
@@ -11172,7 +11229,7 @@
       "reason": "no_valid_module_zip"
     },
     "salvogiangri/knoxpatch": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 344301347,
       "valid": true,
       "prop": {
@@ -11227,7 +11284,8 @@
       "timestamp": 1776291737,
       "size": 8169,
       "asset_name": "magisk-samsung-dex-standalone-mode.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "timschneeb/onyxtweaks": {
       "checked": 1794740772,
@@ -11275,10 +11333,11 @@
       "timestamp": 1788429420,
       "size": 2253060,
       "asset_name": "livebootmodule.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "john0n1/smbootfx": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 379138211,
       "valid": true,
       "prop": {
@@ -11295,7 +11354,7 @@
       "size": 3623164
     },
     "magisk-modules-alt-repo/video-to-bootanimation": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 260928445,
       "valid": true,
       "prop": {
@@ -11327,7 +11386,7 @@
       "reason": "no_valid_module_zip"
     },
     "enginex0/scalpel": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 300018651,
       "valid": true,
       "prop": {
@@ -11344,7 +11403,7 @@
       "size": 3916593
     },
     "chisewaguri/systemapp_nuker": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 402328550,
       "valid": true,
       "prop": {
@@ -11382,7 +11441,7 @@
       "valid": false
     },
     "j-hc/zygisk-detach": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 392564652,
       "valid": true,
       "prop": {
@@ -11399,7 +11458,7 @@
       "size": 371409
     },
     "chenxiaolong/alterinstaller": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 345567761,
       "valid": true,
       "prop": {
@@ -11434,7 +11493,7 @@
       "reason": "no_valid_module_zip"
     },
     "pixel-props/betterknowninstalled": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 386701291,
       "valid": true,
       "prop": {
@@ -11533,7 +11592,7 @@
       "reason": "no_valid_module_zip"
     },
     "infamousmick/infamick-script": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 309369832,
       "valid": true,
       "prop": {
@@ -11555,7 +11614,7 @@
       "valid": false
     },
     "liliya2727/azenith": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 421959908,
       "valid": true,
       "prop": {
@@ -11575,7 +11634,7 @@
       "reason": "verified_zip_metadata"
     },
     "alirezaparsi/copg": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 439247624,
       "valid": true,
       "prop": {
@@ -11609,10 +11668,11 @@
       "timestamp": 1794363698,
       "size": 599062,
       "asset_name": "COPG-VD-v6.11-vd.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ps2classicsvault/dynamic-system-tweaks-magisk-module": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 426368982,
       "valid": true,
       "prop": {
@@ -11637,7 +11697,7 @@
       "valid": false
     },
     "aestasbritannia/hydro-br-leur": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 310469070,
       "valid": true,
       "prop": {
@@ -11654,7 +11714,7 @@
       "size": 3476112
     },
     "kyliekyler/magnetar": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 243620312,
       "valid": true,
       "prop": {
@@ -11674,7 +11734,7 @@
       "reason": "verified_zip_metadata"
     },
     "llucs/speedcool-magisk-module": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 329350490,
       "valid": true,
       "prop": {
@@ -11694,7 +11754,7 @@
       "reason": "verified_zip_metadata"
     },
     "kanaodnd/stellar-tweaks": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 392099516,
       "valid": true,
       "prop": {
@@ -11720,7 +11780,7 @@
       "reason": "no_valid_module_zip"
     },
     "i-taylo/iunlockergl": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 273285264,
       "valid": true,
       "prop": {
@@ -11737,7 +11797,7 @@
       "size": 25969823
     },
     "raajk20pro/kernelenhancer": {
-      "checked": 1794741132,
+      "checked": 1794741349,
       "release_id": 438828883,
       "valid": true,
       "prop": {
@@ -11779,7 +11839,7 @@
       "valid": false
     },
     "juaniman/perfmtk": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 409284116,
       "valid": true,
       "prop": {
@@ -11811,7 +11871,7 @@
       "reason": "no_valid_module_zip"
     },
     "chickendrop89/magisk-swapspace": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 259030177,
       "valid": true,
       "prop": {
@@ -11845,10 +11905,11 @@
       "timestamp": 1791335622,
       "size": 57406,
       "asset_name": "SkyScene.Add-on.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "rompelhd/swap-disabler": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 195479067,
       "valid": true,
       "prop": {
@@ -11885,10 +11946,11 @@
       "timestamp": 1781609364,
       "size": 3264,
       "asset_name": "SwapBoost-Pro-1.1.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "furlc/zram-module": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 222215093,
       "valid": true,
       "prop": {
@@ -11905,7 +11967,7 @@
       "size": 4187
     },
     "drsexo/frosty": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 441047767,
       "valid": true,
       "prop": {
@@ -11933,7 +11995,7 @@
       "reason": "no_valid_module_zip"
     },
     "kaminarich/batteryhoney": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 279602449,
       "valid": true,
       "prop": {
@@ -11953,7 +12015,7 @@
       "reason": "verified_zip_metadata"
     },
     "draumaz/dozedisabler": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 234419307,
       "valid": true,
       "prop": {
@@ -11992,7 +12054,8 @@
       "timestamp": 1752453735,
       "size": 14209,
       "asset_name": "Extreme.Gms.Doze.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "kaushikieeee/ghostgms": {
       "checked": 1794740749,
@@ -12018,7 +12081,8 @@
       "timestamp": 1785238494,
       "size": 17984,
       "asset_name": "HyperOptimize_v1.0.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xposed-modules-repo/com.op.lspdoze": {
       "checked": 1794740776,
@@ -12033,7 +12097,7 @@
       "reason": "no_valid_module_zip"
     },
     "epicmann24/oosgms-optimiser": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 253903786,
       "valid": true,
       "prop": {
@@ -12055,7 +12119,7 @@
       "valid": false
     },
     "quantom2/realme-gt3-neo5-cpu-limiter": {
-      "checked": 1794741132,
+      "checked": 1794741349,
       "release_id": 242491699,
       "valid": true,
       "prop": {
@@ -12075,7 +12139,7 @@
       "reason": "verified_zip_metadata"
     },
     "marspatrick/universal-gms-doze": {
-      "checked": 1794741130,
+      "checked": 1794741346,
       "release_id": 371964576,
       "valid": true,
       "prop": {
@@ -12118,10 +12182,11 @@
       "timestamp": 1697485571,
       "size": 206783,
       "asset_name": "acc_v2023.10.16_202310160.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "abhishektor55/charging-bypass-magisk": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 227640501,
       "valid": true,
       "prop": {
@@ -12138,7 +12203,7 @@
       "size": 941
     },
     "dev97633/fastcharge-next": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 308001234,
       "valid": true,
       "prop": {
@@ -12178,10 +12243,11 @@
       "timestamp": 1749085886,
       "size": 2865099,
       "asset_name": "BAS.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "aurora-nasa-1/deepsuppressor": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 222264286,
       "valid": true,
       "prop": {
@@ -12198,7 +12264,7 @@
       "size": 2272374
     },
     "drsexo/greenify4magisk-ksu-reborn": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 286880474,
       "valid": true,
       "prop": {
@@ -12242,7 +12308,7 @@
       "valid": false
     },
     "bindhosts/bindhosts": {
-      "checked": 1794741124,
+      "checked": 1794741341,
       "release_id": 375389916,
       "valid": true,
       "prop": {
@@ -12276,7 +12342,7 @@
       "reason": "no_valid_module_zip"
     },
     "pantsufan/blockads": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 430648243,
       "valid": true,
       "prop": {
@@ -12313,7 +12379,8 @@
       "timestamp": 1794260603,
       "size": 3742026,
       "asset_name": "Cubic-AdBlock.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "hxreborn/discover-ads-filter": {
       "checked": 1794740546,
@@ -12326,7 +12393,7 @@
       "valid": false
     },
     "programminghoch10/magicalprotection": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 385174428,
       "valid": true,
       "prop": {
@@ -12346,7 +12413,7 @@
       "reason": "verified_zip_metadata"
     },
     "pantsufan/magisk-ad-blocking-module": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 430648662,
       "valid": true,
       "prop": {
@@ -12389,10 +12456,11 @@
       "timestamp": 1775066617,
       "size": 2843070,
       "asset_name": "Re-Malwack_v8.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "mikropsoft/stevenblock": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 441366342,
       "valid": true,
       "prop": {
@@ -12429,10 +12497,11 @@
       "timestamp": 1758865264,
       "size": 25541,
       "asset_name": "systemless-hosts-KernelSU-module.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "magisk-modules-alt-repo/systemless-adblocker": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 201847465,
       "valid": true,
       "prop": {
@@ -12475,7 +12544,7 @@
       "reason": "no_valid_module_zip"
     },
     "rem01gaming/net-switch": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 198736063,
       "valid": true,
       "prop": {
@@ -12533,7 +12602,7 @@
       "reason": "no_valid_module_zip"
     },
     "cookieof/imagecopyhide": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 220784802,
       "valid": true,
       "prop": {
@@ -12577,7 +12646,7 @@
       "valid": false
     },
     "katelynthestargazer/turnoffsensors-magisk": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 302733925,
       "valid": true,
       "prop": {
@@ -12603,7 +12672,7 @@
       "reason": "no_valid_module_zip"
     },
     "j-hc/flagsecurepatcher": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 253161948,
       "valid": true,
       "prop": {
@@ -12637,7 +12706,8 @@
       "timestamp": 1788355407,
       "size": 571640,
       "asset_name": "MoveCertificate-v1.6.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xposed-modules-repo/com.simo.ssl.killer": {
       "checked": 1794740776,
@@ -12652,7 +12722,7 @@
       "reason": "no_valid_module_zip"
     },
     "nvisosecurity/alwaystrustusercerts": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 219985165,
       "valid": true,
       "prop": {
@@ -12692,7 +12762,7 @@
       "valid": false
     },
     "pwnlogs/cert-fixer": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 189262541,
       "valid": true,
       "prop": {
@@ -12712,7 +12782,7 @@
       "reason": "verified_zip_metadata"
     },
     "magisk-modules-alt-repo/custom-certificate-authorities": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 339346882,
       "valid": true,
       "prop": {
@@ -12749,7 +12819,8 @@
       "timestamp": 1793081028,
       "size": 98906,
       "asset_name": "custom-certificates-v3.6.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "aakif17/disable_usb_debugging": {
       "checked": 1794731815,
@@ -12763,7 +12834,7 @@
       "reason": "no_valid_module_zip"
     },
     "j-hc/ih8securelock": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 416059406,
       "valid": true,
       "prop": {
@@ -12824,7 +12895,8 @@
       "timestamp": 1794218023,
       "size": 928204,
       "asset_name": "device_faker_v1.7.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "sidex15/deviceidchanger": {
       "checked": 1794741134,
@@ -12844,7 +12916,8 @@
       "timestamp": 1764517502,
       "size": 5074556,
       "asset_name": "DeviceID-Changer.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "pyshivam/geergit-discussion": {
       "checked": 1794740764,
@@ -12870,7 +12943,8 @@
       "timestamp": 1794555276,
       "size": 593751,
       "asset_name": "proteus-v1.0-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "jqssun/android-mac-editor": {
       "checked": 1794740748,
@@ -12900,7 +12974,7 @@
       "reason": "no_valid_module_zip"
     },
     "rev4n1/gphotosunlimited": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 390616282,
       "valid": true,
       "prop": {
@@ -12952,7 +13026,7 @@
       "valid": false
     },
     "eritpchy/fingerprintpay": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 420207075,
       "valid": true,
       "prop": {
@@ -12969,7 +13043,7 @@
       "size": 4597808
     },
     "mango0oo/g-news-control": {
-      "checked": 1794741130,
+      "checked": 1794741346,
       "release_id": 248739683,
       "valid": true,
       "prop": {
@@ -13295,7 +13369,7 @@
       "reason": "no_valid_module_zip"
     },
     "magisk-modules-alt-repo/oneplus-8series-9r-camera-unlocker": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 226962362,
       "valid": true,
       "prop": {
@@ -13404,7 +13478,8 @@
       "timestamp": 1768845653,
       "size": 128000,
       "asset_name": "Sortify-v4.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "xayahsususu/android-databackup": {
       "checked": 1794740775,
@@ -13429,7 +13504,7 @@
       "valid": false
     },
     "s123123sd/smartclear": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 203153974,
       "valid": true,
       "prop": {
@@ -13466,7 +13541,8 @@
       "timestamp": 1757897548,
       "size": 717013,
       "asset_name": "Basic.Cleaner.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "araafroyall/cleaner-royall": {
       "checked": 1794731820,
@@ -13474,7 +13550,7 @@
       "valid": false
     },
     "flycom-e/clearbox": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 411715996,
       "valid": true,
       "prop": {
@@ -13491,7 +13567,7 @@
       "size": 3287499
     },
     "rhythmcache/partition-backup": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 229104002,
       "valid": true,
       "prop": {
@@ -13517,7 +13593,7 @@
       "reason": "no_valid_module_zip"
     },
     "enginex0/usbmassstorage": {
-      "checked": 1794741125,
+      "checked": 1794741343,
       "release_id": 304731556,
       "valid": true,
       "prop": {
@@ -13552,7 +13628,7 @@
       "reason": "no_valid_module_zip"
     },
     "mods-center/hyperos-theme-manager": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 397210471,
       "valid": true,
       "prop": {
@@ -13578,7 +13654,7 @@
       "reason": "no_valid_module_zip"
     },
     "fakerieh/lite-blur-control-center-for-hyperos2": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 323645900,
       "valid": true,
       "prop": {
@@ -13618,7 +13694,7 @@
       "reason": "no_valid_module_zip"
     },
     "mods-center/hyperos-app-vault": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 402853801,
       "valid": true,
       "prop": {
@@ -13638,7 +13714,7 @@
       "reason": "verified_zip_metadata"
     },
     "mods-center/hyperos-launcher": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 412274052,
       "valid": true,
       "prop": {
@@ -13663,7 +13739,7 @@
       "valid": false
     },
     "minionguyjpro/novainstaller": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 114675195,
       "valid": true,
       "prop": {
@@ -13718,7 +13794,8 @@
       "timestamp": 1745506922,
       "size": 28999,
       "asset_name": "Hide-Navbar-Keyboard_v2.7.1.FINAL.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "tomakino/lyricon": {
       "checked": 1794740772,
@@ -13738,7 +13815,7 @@
       "valid": false
     },
     "magisk-modules-alt-repo/hidenavbar": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 343270998,
       "valid": true,
       "prop": {
@@ -13811,7 +13888,7 @@
       "valid": false
     },
     "ripperhybrid/fontcraft": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 369780950,
       "valid": true,
       "prop": {
@@ -13831,7 +13908,7 @@
       "reason": "verified_zip_metadata"
     },
     "jingmatrix/fontloader": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 234549158,
       "valid": true,
       "prop": {
@@ -13848,7 +13925,7 @@
       "size": 27600
     },
     "mars-wave/jetbrains-font-magisk-module": {
-      "checked": 1794741130,
+      "checked": 1794741346,
       "release_id": 248471433,
       "valid": true,
       "prop": {
@@ -13868,7 +13945,7 @@
       "reason": "verified_zip_metadata"
     },
     "n4bi10p/ios-emoji": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 353442693,
       "valid": true,
       "prop": {
@@ -13893,7 +13970,7 @@
       "valid": false
     },
     "keinta15/magisk-ios-emoji": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 344914478,
       "valid": true,
       "prop": {
@@ -13913,7 +13990,7 @@
       "reason": "verified_zip_metadata"
     },
     "dethbyte64/magisk-minecraft-font": {
-      "checked": 1794741125,
+      "checked": 1794741342,
       "release_id": 217685961,
       "valid": true,
       "prop": {
@@ -13941,7 +14018,7 @@
       "valid": false
     },
     "aloozchips/oneuiemojipack": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 225335697,
       "valid": true,
       "prop": {
@@ -13958,7 +14035,7 @@
       "size": 18622714
     },
     "losketch/unicodefontset-magisk-module": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 372432783,
       "valid": true,
       "prop": {
@@ -14015,7 +14092,7 @@
       "valid": false
     },
     "mods-center/hyperos-aod": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 269794434,
       "valid": true,
       "prop": {
@@ -14069,7 +14146,7 @@
       "reason": "no_valid_module_zip"
     },
     "astoritin/rotationsuggestionsclosed": {
-      "checked": 1794741123,
+      "checked": 1794741341,
       "release_id": 263519537,
       "valid": true,
       "prop": {
@@ -14098,7 +14175,7 @@
       "reason": "no_latest_release"
     },
     "james34602/jamesdspmanager": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 132377566,
       "valid": true,
       "prop": {
@@ -14115,7 +14192,7 @@
       "size": 25983796
     },
     "briclyaz/nlsound_module_qcom": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 397758968,
       "valid": true,
       "prop": {
@@ -14138,7 +14215,7 @@
       "reason": "no_valid_module_zip"
     },
     "magisk-modules-alt-repo/audio-jitter-silencer": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 342475572,
       "valid": true,
       "prop": {
@@ -14181,7 +14258,7 @@
       "reason": "no_valid_module_zip"
     },
     "magisk-modules-alt-repo/audio-misc-settings": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 424369003,
       "valid": true,
       "prop": {
@@ -14201,7 +14278,7 @@
       "reason": "verified_zip_metadata"
     },
     "magisk-modules-alt-repo/audio-samplerate-changer": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 319874264,
       "valid": true,
       "prop": {
@@ -14221,7 +14298,7 @@
       "reason": "verified_zip_metadata"
     },
     "ahmed-alnassif/dsp-audiofix": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 291677707,
       "valid": true,
       "prop": {
@@ -14261,10 +14338,11 @@
       "timestamp": 1788104826,
       "size": 48182,
       "asset_name": "magisk-hifi-maximizer-mod-v2.6.0.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "ahkehra/high_perf_dac": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 275047335,
       "valid": true,
       "prop": {
@@ -14298,7 +14376,8 @@
       "timestamp": 1793106671,
       "size": 11321973,
       "asset_name": "AdGuardHomeForRoot_arm64.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "elowry/dnstoggle": {
       "checked": 1794734568,
@@ -14306,7 +14385,7 @@
       "valid": false
     },
     "luferos/forcedns_magisk-kernelsu": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 388667054,
       "valid": true,
       "prop": {
@@ -14353,7 +14432,8 @@
       "timestamp": 1764755428,
       "size": 22577,
       "asset_name": "Aurora.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "taamarin/box_for_magisk": {
       "checked": 1794741134,
@@ -14373,10 +14453,11 @@
       "timestamp": 1757076322,
       "size": 76249,
       "asset_name": "box_for_root-v1.10.2.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "chizi-0618/box4magisk": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 175161730,
       "valid": true,
       "prop": {
@@ -14399,7 +14480,7 @@
       "reason": "no_valid_module_zip"
     },
     "fanju6/netproxy-magisk": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 442680485,
       "valid": true,
       "prop": {
@@ -14466,7 +14547,8 @@
       "timestamp": 1793792613,
       "size": 27515717,
       "asset_name": "zapret-pocket.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "game-over-op/zdt-d": {
       "checked": 1794740543,
@@ -14474,7 +14556,7 @@
       "valid": false
     },
     "eventlowop/zerotier-magisk": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 211743732,
       "valid": true,
       "prop": {
@@ -14491,7 +14573,7 @@
       "size": 1817867
     },
     "lightjunction/magicnet": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 441417042,
       "valid": true,
       "prop": {
@@ -14522,7 +14604,7 @@
       "valid": false
     },
     "fatalcoder524/tcp_optimiser_module": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 347245792,
       "valid": true,
       "prop": {
@@ -14549,7 +14631,7 @@
       "valid": false
     },
     "reindex-ot/nothing-euicc": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 233465465,
       "valid": true,
       "prop": {
@@ -14581,7 +14663,7 @@
       "reason": "no_valid_module_zip"
     },
     "googlers-repo/wpd": {
-      "checked": 1794741126,
+      "checked": 1794741344,
       "release_id": 409041068,
       "valid": true,
       "prop": {
@@ -14663,7 +14745,7 @@
       "reason": "no_valid_module_zip"
     },
     "nakixii/magisk_asoulopt": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 391764285,
       "valid": true,
       "prop": {
@@ -14683,7 +14765,7 @@
       "reason": "verified_zip_metadata"
     },
     "rem01gaming/encore": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 404157719,
       "valid": true,
       "prop": {
@@ -14709,7 +14791,7 @@
       "reason": "no_valid_module_zip"
     },
     "mods-center/fps-limitation-patcher": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 445220288,
       "valid": true,
       "prop": {
@@ -14747,7 +14829,7 @@
       "reason": "no_valid_module_zip"
     },
     "adivenxnataly/perfgame": {
-      "checked": 1794741122,
+      "checked": 1794741340,
       "release_id": 217908954,
       "valid": true,
       "prop": {
@@ -14781,7 +14863,8 @@
       "timestamp": 1785489525,
       "size": 1972827,
       "asset_name": "Uperf_Game_Turbo-1.51.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     },
     "nitanmarcel/boosteroidplus": {
       "checked": 1794740761,
@@ -14811,7 +14894,7 @@
       "valid": false
     },
     "rompelhd/termuxrootmods": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 318100777,
       "valid": true,
       "prop": {
@@ -14831,7 +14914,7 @@
       "reason": "verified_zip_metadata"
     },
     "evdenis/adb_root": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 291298847,
       "valid": true,
       "prop": {
@@ -14871,7 +14954,7 @@
       "reason": "no_latest_release"
     },
     "hxreborn/log-catcher": {
-      "checked": 1794741127,
+      "checked": 1794741344,
       "release_id": 297086946,
       "valid": true,
       "prop": {
@@ -14888,7 +14971,7 @@
       "size": 49851
     },
     "mrh929/magisk-wifiadb": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 200533517,
       "valid": true,
       "prop": {
@@ -14947,7 +15030,7 @@
       "valid": false
     },
     "mrakorez/py2droid": {
-      "checked": 1794741131,
+      "checked": 1794741347,
       "release_id": 402640631,
       "valid": true,
       "prop": {
@@ -14967,7 +15050,7 @@
       "reason": "verified_zip_metadata"
     },
     "evdenis/selinux_permissive": {
-      "checked": 1794741126,
+      "checked": 1794741343,
       "release_id": 294274209,
       "valid": true,
       "prop": {
@@ -15016,7 +15099,7 @@
       "valid": false
     },
     "magisk-modules-alt-repo/chroot-distro": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 224529444,
       "valid": true,
       "prop": {
@@ -15036,7 +15119,7 @@
       "reason": "verified_zip_metadata"
     },
     "nicup14/debdroid": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 445481852,
       "valid": true,
       "prop": {
@@ -15056,7 +15139,7 @@
       "reason": "verified_zip_metadata"
     },
     "mgksu/dockerd": {
-      "checked": 1794741130,
+      "checked": 1794741347,
       "release_id": 221770018,
       "valid": true,
       "prop": {
@@ -15081,7 +15164,7 @@
       "valid": false
     },
     "ravindu644/ubuntu-chroot": {
-      "checked": 1794741133,
+      "checked": 1794741349,
       "release_id": 300311220,
       "valid": true,
       "prop": {
@@ -15101,7 +15184,7 @@
       "reason": "verified_zip_metadata"
     },
     "poweran2020/crond4android": {
-      "checked": 1794741132,
+      "checked": 1794741348,
       "release_id": 366663418,
       "valid": true,
       "prop": {
@@ -15126,7 +15209,7 @@
       "valid": false
     },
     "kelexine/hid-gadget-module": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 278207026,
       "valid": true,
       "prop": {
@@ -15156,7 +15239,7 @@
       "valid": false
     },
     "newfuture/rclone-fuse3-magisk": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 438242605,
       "valid": true,
       "prop": {
@@ -15176,7 +15259,7 @@
       "reason": "verified_zip_metadata"
     },
     "katelynthestargazer/rsync-magisk": {
-      "checked": 1794741128,
+      "checked": 1794741345,
       "release_id": 258391318,
       "valid": true,
       "prop": {
@@ -15224,7 +15307,7 @@
       "reason": "no_valid_module_zip"
     },
     "chenxiaolong/bcr": {
-      "checked": 1794741124,
+      "checked": 1794741342,
       "release_id": 413371032,
       "valid": true,
       "prop": {
@@ -15253,7 +15336,7 @@
       "reason": "no_valid_module_zip"
     },
     "lzghzr/apatch_kpm": {
-      "checked": 1794741129,
+      "checked": 1794741346,
       "release_id": 439379224,
       "valid": true,
       "prop": {
@@ -15273,7 +15356,7 @@
       "reason": "verified_zip_metadata"
     },
     "nativestar/kernelsugranttoast": {
-      "checked": 1794741131,
+      "checked": 1794741348,
       "release_id": 422604109,
       "valid": true,
       "prop": {
@@ -15322,7 +15405,8 @@
       "timestamp": 1770354192,
       "size": 1453631,
       "asset_name": "Sui-v13.5.4.3_577-c5cbf06-release.zip",
-      "reason": "verified_zip_metadata"
+      "reason": "verified_zip_metadata",
+      "last_error": "HTTPError"
     }
   }
 }

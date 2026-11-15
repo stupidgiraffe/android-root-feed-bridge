@@ -4,7 +4,7 @@
   "description": "Original developers' GitHub release ZIPs with root-level module.prop inspected.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794741122.0
+    "timestamp": 1794741340.0
   },
   "modules": [
     {
@@ -234,26 +234,26 @@
     },
     {
       "id": "AdGuardHome",
-      "name": "AdGuardHome Android Module",
-      "version": "0.1.20",
-      "versionCode": 2026100120,
-      "author": "snowzlmbot",
-      "description": "[安装后请重启] 支持 KernelSU WebUI；首次启动后可查看运行状态和模式",
-      "homepage": "https://github.com/snowzlmbot/adguardhome-android-module",
-      "size": 25943798,
+      "name": "AdGuardHome for Root",
+      "version": "20261027",
+      "versionCode": 55,
+      "author": "twoone3",
+      "description": "none",
+      "homepage": "https://github.com/twoone-3/AdGuardHomeForRoot",
+      "size": 11321973,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1790858757.0,
-        "source": "https://github.com/snowzlmbot/adguardhome-android-module"
+        "added": 1793106671.0,
+        "source": "https://github.com/twoone-3/AdGuardHomeForRoot"
       },
       "versions": [
         {
-          "version": "0.1.20",
-          "versionCode": 2026100120,
-          "zipUrl": "https://github.com/snowzlmbot/AdGuardHome-Android-Module/releases/download/module-v0.1.20/AdGuardHome-Android-Module-0.1.20-agh-0.107.79.zip",
-          "timestamp": 1790858757.0,
-          "size": 25943798
+          "version": "20261027",
+          "versionCode": 55,
+          "zipUrl": "https://github.com/twoone-3/AdGuardHomeForRoot/releases/download/20261027/AdGuardHomeForRoot_arm64.zip",
+          "timestamp": 1793106671.0,
+          "size": 11321973
         }
       ]
     },
@@ -1260,25 +1260,25 @@
     {
       "id": "SH_Blocker",
       "name": "BlockADs",
-      "version": "v2.74",
+      "version": "v3.83",
       "versionCode": 7,
       "author": "Kninja",
       "description": "🔥️ Say Goodbye To Ads Forever",
-      "homepage": "https://github.com/pantsufan/BlockAds",
-      "size": 538508,
+      "homepage": "https://github.com/pantsufan/Magisk-Ad-Blocking-Module",
+      "size": 932268,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1793544482.0,
-        "source": "https://github.com/pantsufan/BlockAds"
+        "added": 1793544524.0,
+        "source": "https://github.com/pantsufan/Magisk-Ad-Blocking-Module"
       },
       "versions": [
         {
-          "version": "v2.74",
+          "version": "v3.83",
           "versionCode": 7,
-          "zipUrl": "https://github.com/pantsufan/BlockAds/releases/download/v2.74/BlockAds-v2.74.zip",
-          "timestamp": 1793544482.0,
-          "size": 538508
+          "zipUrl": "https://github.com/pantsufan/Magisk-Ad-Blocking-Module/releases/download/v3.83/BlockAds-v3.83.zip",
+          "timestamp": 1793544524.0,
+          "size": 932268
         }
       ]
     },
@@ -6684,26 +6684,26 @@
     },
     {
       "id": "playintegrityfix",
-      "name": "Play Integrity Fix [INJECT]",
-      "version": "v4.9-inject-s",
-      "versionCode": 490,
-      "author": "chiteroman, KOWX712",
-      "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
-      "homepage": "https://github.com/KOWX712/PlayIntegrityFix",
-      "size": 692511,
+      "name": "Play Integrity Fork",
+      "version": "v19",
+      "versionCode": 190000,
+      "author": "osm0sis & chiteroman @ xda-developers",
+      "description": "Fix Play Integrity <A13 verdicts and Google Wallet/RCS on Android 7+",
+      "homepage": "https://github.com/osm0sis/PlayIntegrityFork",
+      "size": 341951,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1792073506.0,
-        "source": "https://github.com/KOWX712/PlayIntegrityFix"
+        "added": 1793671301.0,
+        "source": "https://github.com/osm0sis/PlayIntegrityFork"
       },
       "versions": [
         {
-          "version": "v4.9-inject-s",
-          "versionCode": 490,
-          "zipUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.9-inject-s/PlayIntegrityFix_v4.9-inject-s.zip",
-          "timestamp": 1792073506.0,
-          "size": 692511
+          "version": "v19",
+          "versionCode": 190000,
+          "zipUrl": "https://github.com/osm0sis/PlayIntegrityFork/releases/download/v19/PlayIntegrityFork-v19.zip",
+          "timestamp": 1793671301.0,
+          "size": 341951
         }
       ]
     },
@@ -6939,20 +6939,20 @@
       "versionCode": 23,
       "author": "Wowsoftware",
       "description": "❌ Inactive — Zygisk engine for HideMyAndroid + HideMyEmulator. Enable Zygisk, then reboot.",
-      "homepage": "https://github.com/Xposed-Modules-Repo/com.wowsoftware.hidemyandroid",
+      "homepage": "https://github.com/xposed-modules-repo/net.wowsoftware.hidemyemulator",
       "size": 593751,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794555276.0,
-        "source": "https://github.com/Xposed-Modules-Repo/com.wowsoftware.hidemyandroid"
+        "added": 1794633955.0,
+        "source": "https://github.com/xposed-modules-repo/net.wowsoftware.hidemyemulator"
       },
       "versions": [
         {
           "version": "v1.0 (release)",
           "versionCode": 23,
-          "zipUrl": "https://github.com/Xposed-Modules-Repo/com.wowsoftware.hidemyandroid/releases/download/179-1.7.9/proteus-v1.0-release.zip",
-          "timestamp": 1794555276.0,
+          "zipUrl": "https://github.com/Xposed-Modules-Repo/net.wowsoftware.hidemyemulator/releases/download/8-1.7/proteus-v1.0-release.zip",
+          "timestamp": 1794633955.0,
           "size": 593751
         }
       ]
@@ -7635,25 +7635,25 @@
     {
       "id": "sound_universal",
       "name": "Sound universal 🎧",
-      "version": "v0.5.3",
-      "versionCode": 503,
+      "version": "v0.5.4",
+      "versionCode": 504,
       "author": "Rye | credit: ryetechnologia",
       "description": "Liquid-glass audio DSP WebUI with config import/export; native effects need a compatible legacy/HIDL audio HAL; hook overlay is staged under system/<partition> and verified live (boot check + Check hook button).",
-      "homepage": "https://github.com/andresuhensleeby-a11y/sound-universal-update",
-      "size": 204022,
+      "homepage": "https://github.com/andresuhensleeby-a11y/sound-universal-update-5.1.4",
+      "size": 206191,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1792325724.0,
-        "source": "https://github.com/andresuhensleeby-a11y/sound-universal-update"
+        "added": 1792326251.0,
+        "source": "https://github.com/andresuhensleeby-a11y/sound-universal-update-5.1.4"
       },
       "versions": [
         {
-          "version": "v0.5.3",
-          "versionCode": 503,
-          "zipUrl": "https://github.com/andresuhensleeby-a11y/Sound-Universal-update/releases/download/Tag/Sound_universal_Rye_v0_5_3.zip",
-          "timestamp": 1792325724.0,
-          "size": 204022
+          "version": "v0.5.4",
+          "versionCode": 504,
+          "zipUrl": "https://github.com/andresuhensleeby-a11y/Sound-Universal-update-5.1.4/releases/download/New/Sound_universal_Rye_v0_5_4.zip",
+          "timestamp": 1792326251.0,
+          "size": 206191
         }
       ]
     },
@@ -8160,25 +8160,25 @@
     {
       "id": "tcp_optimiser",
       "name": "TCP Optimiser",
-      "version": "2.5",
-      "versionCode": 17,
-      "author": "fatalcoder524",
-      "description": "TCP Optimisations & update tcp_cong_algo based on interface",
-      "homepage": "https://github.com/fatalcoder524/TCP_Optimiser_Module",
-      "size": 396040,
+      "version": "3.0.0",
+      "versionCode": 30,
+      "author": "fatalcoder524 & axymorrsen",
+      "description": "TCP Optimiser v3.0.0 — Initialising...",
+      "homepage": "https://github.com/zhanfg/tcp_optimiser_rs",
+      "size": 1196953,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1782886958.0,
-        "source": "https://github.com/fatalcoder524/TCP_Optimiser_Module"
+        "added": 1784512018.0,
+        "source": "https://github.com/zhanfg/tcp_optimiser_rs"
       },
       "versions": [
         {
-          "version": "2.5",
-          "versionCode": 17,
-          "zipUrl": "https://github.com/fatalcoder524/TCP_Optimiser_Module/releases/download/v2.5/TCP_Optimiser-2.5-17.zip",
-          "timestamp": 1782886958.0,
-          "size": 396040
+          "version": "3.0.0",
+          "versionCode": 30,
+          "zipUrl": "https://github.com/Zhanfg/TCP_Optimiser_RS/releases/download/v3.0.0/TCP_Optimiser_RS-v3.0.0.zip",
+          "timestamp": 1784512018.0,
+          "size": 1196953
         }
       ]
     },
@@ -8434,26 +8434,26 @@
     },
     {
       "id": "tricky_store",
-      "name": "Tricky Store",
-      "version": "v1.4.1 (245-72b2e84-release)",
-      "versionCode": 245,
-      "author": "5ec1cff, aviraxp and Cyberenchanter",
-      "description": "A trick of keystore",
-      "homepage": "https://github.com/5ec1cff/TrickyStore",
-      "size": 2840600,
+      "name": "Tricky Store OSS",
+      "version": "v3.1.0 (172-41383f5-release)",
+      "versionCode": 172,
+      "author": "beakthoven",
+      "description": "A trick of keystore but open source.",
+      "homepage": "https://github.com/beakthoven/TrickyStoreOSS",
+      "size": 1289252,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1762077397.0,
-        "source": "https://github.com/5ec1cff/TrickyStore"
+        "added": 1787691399.0,
+        "source": "https://github.com/beakthoven/TrickyStoreOSS"
       },
       "versions": [
         {
-          "version": "v1.4.1 (245-72b2e84-release)",
-          "versionCode": 245,
-          "zipUrl": "https://github.com/5ec1cff/TrickyStore/releases/download/1.4.1/Tricky-Store-v1.4.1-245-72b2e84-release.zip",
-          "timestamp": 1762077397.0,
-          "size": 2840600
+          "version": "v3.1.0 (172-41383f5-release)",
+          "versionCode": 172,
+          "zipUrl": "https://github.com/beakthoven/TrickyStoreOSS/releases/download/v3.1.0/Tricky-Store-OSS-v3.1.0-172-41383f5-Release.zip",
+          "timestamp": 1787691399.0,
+          "size": 1289252
         }
       ]
     },
