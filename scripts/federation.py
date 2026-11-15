@@ -183,7 +183,7 @@ def gather_feeds(config: dict, get_json):
             mmrl.update(canonical_base(url) for url in remote)
         except (OSError, ValueError, TypeError, RuntimeError) as exc:
             notes.append(f"Official MMRL directory unavailable: {type(exc).__name__}")
-    self_base = canonical_base("https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/")
+    self_base = canonical_base("https://raw.githubusercontent.com/stupidgiraffe/rootatlas/main/")
     mmrl.discard(self_base)
     ksu = [entry for entry in config["ksunext"] if entry.get("enabled", False)]
     return sorted(mmrl), ksu, notes
