@@ -122,6 +122,22 @@ To refresh manually, open **Actions → Update Root Module Feeds → Run workflo
 
 </details>
 
+## 🧩 Xposed and LSPosed
+
+RootAtlas deliberately does **not** turn Xposed/LSPosed APKs into
+Magisk/KernelSU flashable modules. That ecosystem already has a dedicated
+and actively updated [official Xposed Module Repository](https://modules.lsposed.org/)
+and a separate [community Xposed directory](https://github.com/rushiranpise/xposed-modules).
+Use those for APK-based modules; the two RootAtlas feeds remain for root ZIPs.
+
+## 🤝 Open-source and contributions
+
+RootAtlas's original indexer code is [MIT licensed](LICENSE). Original
+module authors retain ownership and licensing of their binaries and metadata.
+To propose missing sources, report a broken feed or improve the pipeline, see
+[Contributing](CONTRIBUTING.md) and the
+[technical architecture](docs/ARCHITECTURE.md).
+
 ## ☕ Support development
 
 <div align="center">
