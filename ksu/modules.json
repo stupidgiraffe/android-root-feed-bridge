@@ -1,9 +1,72 @@
 [
   {
+    "name": ".BRENE - SuSFS",
+    "description": "KernelSU module with SuSFS support and more",
+    "author": "rrr333nnn333, simonpunk, KOWX712",
+    "repoUrl": "https://github.com/rrr333nnn333/BRENE",
+    "visibility": 1
+  },
+  {
+    "name": "2.051 iOS Emoji font",
+    "description": "Dual-compatible iOS-style emoji module for Magisk and KernelSU (Noto 2.051).",
+    "author": "N4bi10p",
+    "repoUrl": "https://github.com/n4bi10p/Ios-emoji",
+    "visibility": 1
+  },
+  {
+    "name": "A-SOUL Games Optimization",
+    "description": "Game threads tweaker for Android.",
+    "author": "nakixii",
+    "repoUrl": "https://github.com/nakixii/Magisk_AsoulOpt",
+    "visibility": 1
+  },
+  {
+    "name": "ACC - Automatic Cache Cleaner",
+    "description": "Cache: calculating...",
+    "author": "raafi-abir",
+    "repoUrl": "https://github.com/raafi-abir/acc-automatic-cache-cleaner",
+    "visibility": 1
+  },
+  {
+    "name": "ADB over TCP at Boot",
+    "description": "Starts authenticated ADB over TCP at boot for Tailscale without Wi-Fi.",
+    "author": "NightMean",
+    "repoUrl": "https://github.com/nightmean/android-adb-over-tcp-at-boot",
+    "visibility": 1
+  },
+  {
+    "name": "ADB Over Wi-Fi (Persistent, LAN-locked)",
+    "description": "adbd TCP on port 5555 from boot, firewalled to the live wlan0 subnet. A netlink watcher retargets the LAN rule on every Wi-Fi connect/disconnect, so debug ADB comes up exactly when Wi-Fi does. Port, IPv4/IPv6 ranges, and an optional gate on the network the phone is on come from a config file. USB adb unaffected. No init changes, no overlays.",
+    "author": "Bastet",
+    "repoUrl": "https://github.com/nalbe/shark8-adb-wifi-lan-persistent",
+    "visibility": 1
+  },
+  {
     "name": "ADB Root",
     "description": "Allows to \"adb root\" regardless of props settings and skips usb keys auth. Kind of \"adbd Insecure\" as a Magisk Module. Arm64 only. Android 9/10 only.",
     "author": "Denis Efremov (@evdenis)",
     "repoUrl": "https://github.com/evdenis/adb_root",
+    "visibility": 1
+  },
+  {
+    "name": "AdGuardDNS4Magisk-Family",
+    "description": "Using the AdGuard DNS system-lessy.",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/adguarddns4magisk-family",
+    "visibility": 1
+  },
+  {
+    "name": "AdGuardHome Android Module",
+    "description": "[安装后请重启] 支持 KernelSU WebUI；首次启动后可查看运行状态和模式",
+    "author": "snowzlmbot",
+    "repoUrl": "https://github.com/snowzlmbot/adguardhome-android-module",
+    "visibility": 1
+  },
+  {
+    "name": "AI Agent (Notif)",
+    "description": "Local AI agent for Android. Multi-provider (Gemini / OpenRouter-OpenAI-compatible) with phone-control tools (open_app, open_path, open_url, web_search, run_shell, file ops) and automatic model fallback. Live chat UI with real-time progress and tappable suggestion chips (SSE). Tap the 'AI Agent' notification to open the chat. Set provider/API key in",
+    "author": "ZahrulObey",
+    "repoUrl": "https://github.com/zafxyra/zafxyragent",
     "visibility": 1
   },
   {
@@ -35,10 +98,24 @@
     "visibility": 1
   },
   {
+    "name": "Always Trust User Certificates",
+    "description": "Copy user certs to the system trust store",
+    "author": "Jeroen Beckers (NVISO.eu)",
+    "repoUrl": "https://github.com/NVISOsecurity/AlwaysTrustUserCerts",
+    "visibility": 1
+  },
+  {
     "name": "Analytics Disabler for Android",
     "description": "Analytics Disabler for Android",
     "author": "CEKA",
     "repoUrl": "https://github.com/ddceka/android-analytics-disabler",
+    "visibility": 1
+  },
+  {
+    "name": "Android Bridge",
+    "description": "Lets root in a container open a shell on Android as the shell user, like adb shell. Add a bind mount of /dev/android-bridge to each container that needs it.",
+    "author": "ravindu644",
+    "repoUrl": "https://github.com/ravindu644/android-bridge",
     "visibility": 1
   },
   {
@@ -57,9 +134,44 @@
   },
   {
     "name": "AndroidTweaker",
-    "description": "Android Performance Enhancer - Kernel Manager, Magisk module. See project",
+    "description": "Android Performance Enhancer - Kernel Manager, Magisk module.",
     "author": "@c0d3h01 (GitHub)",
     "repoUrl": "https://github.com/c0d3h01/androidtweaker",
+    "visibility": 1
+  },
+  {
+    "name": "Anti bootloop",
+    "description": "Bootloop protection",
+    "author": "nedorazrab0",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/abootloop",
+    "visibility": 1
+  },
+  {
+    "name": "Any - CA",
+    "description": "📦 No certificates yet — open the WebUI to import a CA certificate.",
+    "author": "RGWS-LiuLai",
+    "repoUrl": "https://github.com/rgws-liulai/any_ca",
+    "visibility": 1
+  },
+  {
+    "name": "AnyKeybox - module",
+    "description": "📦 No CA imported yet — open the WebUI and select a keybox.xml to install certificates.",
+    "author": "RGWS-LiuLai",
+    "repoUrl": "https://github.com/rgws-liulai/anykeybox_module",
+    "visibility": 1
+  },
+  {
+    "name": "AOD Battery Saver Override",
+    "description": "Keep Always On Display available during Battery Saver. Action restores the previous AOD policy and disables the module.",
+    "author": "mirsella",
+    "repoUrl": "https://github.com/mirsella/aod-battery-saver-override",
+    "visibility": 1
+  },
+  {
+    "name": "APEX // APPS",
+    "description": "App manager with WebUI. Review and disable preinstalled apps with snapshot restore, freeze apps, control background permissions, back up app data, and tune battery policy per app.",
+    "author": "privshell",
+    "repoUrl": "https://github.com/privshell/apex-apps",
     "visibility": 1
   },
   {
@@ -77,10 +189,59 @@
     "visibility": 1
   },
   {
+    "name": "AshReXcue BootLoop Protector",
+    "description": "🔰 Your safety net for bad modules. Catches boot loops, disables the culprits.",
+    "author": "AshBorn (@Ripper_Hybrid)",
+    "repoUrl": "https://github.com/RipperHybrid/AshLooper",
+    "visibility": 1
+  },
+  {
+    "name": "Audio jitter silencer",
+    "description": "Disabling very large audio jitter generators (w.r.t. battery draining & optimizations, and wireless connectivity) for reducing audio jitter distortion on all digital audio outputs.",
+    "author": "zyhk",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer",
+    "visibility": 1
+  },
+  {
+    "name": "Audio misc. settings",
+    "description": "Setting audio misc. configuration values (e.g. 100 volume steps, raising the resampling quality, disabling the effects framework, etc.)",
+    "author": "zyhk",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings",
+    "visibility": 1
+  },
+  {
+    "name": "Audio samplerate changer",
+    "description": "A Magisk module changing audio samplerates at the system-wide mixer for the best Hi-Fi experience.",
+    "author": "zyhk",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/audio-samplerate-changer",
+    "visibility": 1
+  },
+  {
+    "name": "Aurora",
+    "description": "Positioning executable files within the (/system/bin) directory facilitates the invocation and execution of system functions.",
+    "author": "Tkocean",
+    "repoUrl": "https://github.com/Tkocean/Aurora",
+    "visibility": 1
+  },
+  {
     "name": "AutoCreateAppStorageDir",
     "description": "自动补全缺失的 /storage/emulated/0/Android/data/<pkg>/{files,cache} 与 Android/obb 目录，修复APP假\"存储空间不足\"报错。监听应用安装事件自动创建。v2.0 新增 LSPosed 管理界面，支持手动检测和修复。",
     "author": "GJR787878",
     "repoUrl": "https://github.com/gjr787878/auto-create-app-storage",
+    "visibility": 1
+  },
+  {
+    "name": "AutoPurge",
+    "description": "【模块启动中,等待到达设定时间刷新ing..】                                                                                            -> 默认启动时间为每日凌晨12点整                                                                                            -> 模块配置目录位于:/sdcard/Android/Clear/清理垃圾/",
+    "author": "Fleshy grape",
+    "repoUrl": "https://github.com/S123123sd/SmartClear",
+    "visibility": 1
+  },
+  {
+    "name": "Axion Recents",
+    "description": "适用于 Motorola Android 16 的堆叠式（桌面风格）最近任务栏。",
+    "author": "L3FeL",
+    "repoUrl": "https://github.com/l3fel/axionrecents",
     "visibility": 1
   },
   {
@@ -91,10 +252,31 @@
     "visibility": 1
   },
   {
+    "name": "AZenith火",
+    "description": "One, Two, Three! AZenith has arrived!",
+    "author": "ArchHaven Developers",
+    "repoUrl": "https://github.com/Liliya2727/AZenith",
+    "visibility": 1
+  },
+  {
     "name": "Background Keepalive",
     "description": "Keeps user-selected apps background-exempt and restores dropped accessibility bindings every 3 minutes, without rebinding services that are already healthy.",
     "author": "michaelqiu",
     "repoUrl": "https://github.com/cpufreestyle/bg-keepalive",
+    "visibility": 1
+  },
+  {
+    "name": "Basic Cleaner",
+    "description": "A basic cleaning module that focuses on applying cleanings of: application cache and junk, zipalign, fstrim and clean/syncronize ART/DEX files. You are also able to customize the cleaning time for each task.",
+    "author": "@WeridMidas",
+    "repoUrl": "https://github.com/WeirdMidas/BasicCleaner",
+    "visibility": 1
+  },
+  {
+    "name": "Battery Honey",
+    "description": "A Battery and Power Optimizer",
+    "author": "kaminarich",
+    "repoUrl": "https://github.com/kaminarich/BatteryHoney",
     "visibility": 1
   },
   {
@@ -105,10 +287,45 @@
     "visibility": 1
   },
   {
+    "name": "Beszel Agent",
+    "description": "Runs beszel-agent as a Magisk/KernelSU service for system monitoring",
+    "author": "LordArrin",
+    "repoUrl": "https://github.com/lordarrin/beszel-agent-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "BetterKnownInstalled (BKI)",
+    "description": "Patching (installer, installerUid, installInitiator, installOriginator) in packages.xml for defeating DroidGuard: UNKNOWN_INSTALLED",
+    "author": "@T3SL4",
+    "repoUrl": "https://github.com/Pixel-Props/BetterKnownInstalled",
+    "visibility": 1
+  },
+  {
     "name": "bindhosts",
     "description": "Systemless hosts for APatch, KernelSU and Magisk",
     "author": "xx, KOWX712",
     "repoUrl": "https://github.com/bindhosts/bindhosts",
+    "visibility": 1
+  },
+  {
+    "name": "Black Color Glow Fix (marble, A17)",
+    "description": "Removes screen glow on black on POCO F5 (marble). Display calibration JSON + panel XML from Evolution-X vendor commit cb5cb30.",
+    "author": "painflictor",
+    "repoUrl": "https://github.com/sakthibalank-f/marble-poco-f5-black-glow-fix",
+    "visibility": 1
+  },
+  {
+    "name": "BlockADs",
+    "description": "🔥️ Say Goodbye To Ads Forever",
+    "author": "Kninja",
+    "repoUrl": "https://github.com/pantsufan/BlockAds",
+    "visibility": 1
+  },
+  {
+    "name": "Bootanimation",
+    "description": "Bootanimation module without OverlayFS",
+    "author": "readonlynux",
+    "repoUrl": "https://github.com/readonlynux/bootanimation-module",
     "visibility": 1
   },
   {
@@ -119,10 +336,38 @@
     "visibility": 1
   },
   {
+    "name": "Box for Magisk/KernelSU/APatch",
+    "description": "use sing-box, clash, v2ray, hysteria and xray for tunnel proxy on android device",
+    "author": "taamarin.t.me",
+    "repoUrl": "https://github.com/taamarin/box_for_magisk",
+    "visibility": 1
+  },
+  {
+    "name": "Box KernelSU",
+    "description": "Use Mihomo on Android devices.",
+    "author": "桉陌",
+    "repoUrl": "https://github.com/xrz324/mbox-ksu",
+    "visibility": 1
+  },
+  {
     "name": "box4magisk",
     "description": "Use sing-box, clash, v2ray, xray tunnel proxy on Android devices.",
     "author": "CHIZI-0618",
     "repoUrl": "https://github.com/CHIZI-0618/box4magisk",
+    "visibility": 1
+  },
+  {
+    "name": "CallBridge",
+    "description": "Installs CallBridge as a privileged system app so it can capture call audio.",
+    "author": "Moscow146",
+    "repoUrl": "https://github.com/moscow146/callbridge",
+    "visibility": 1
+  },
+  {
+    "name": "CamX Full-Size QCFA",
+    "description": "50 MP on the main, ultrawide and HP9 for third-party apps (exposeFullSizeForQCFA + sensor-mode rules) and hidden-camera access for PhotonCamera and Open Camera. Pair with OriTweaks \"Full resolution in camera apps\".",
+    "author": "kailashrs",
+    "repoUrl": "https://github.com/kailashrs/camx-fullsize",
     "visibility": 1
   },
   {
@@ -133,10 +378,31 @@
     "visibility": 1
   },
   {
+    "name": "Cert Fixer",
+    "description": "Copies all the CA Certificates found in User Certs to System Certs (Tested in Android API 35)",
+    "author": "pwnlogs",
+    "repoUrl": "https://github.com/pwnlogs/cert-fixer",
+    "visibility": 1
+  },
+  {
     "name": "Charging Bypass for Miatoll (v3)",
     "description": "Improved version with reliable screen detection and faster charging control.",
     "author": "Abhishek (LinuxRootHackers)",
     "repoUrl": "https://github.com/AbhishekTor55/charging-bypass-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "chroot-distro",
+    "description": "Install Gnu/Linux distributions on Android",
+    "author": "@YasserNull",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/chroot-distro",
+    "visibility": 1
+  },
+  {
+    "name": "CLEAR BY SKYPIN",
+    "description": "Junk cleaner for cache, logs, empty folders, duplicates, FSTRIM and more. Telegram @Skypin969. Usage in Termux: su, then clearopt",
+    "author": "Skypin (@Skypin969)",
+    "repoUrl": "https://github.com/skypin969/clear-by-skypin",
     "visibility": 1
   },
   {
@@ -154,6 +420,13 @@
     "visibility": 1
   },
   {
+    "name": "CLIProxyAPI Standalone",
+    "description": "Standalone CLIProxyAPI runtime for Magisk KernelSU and APatch",
+    "author": "repository-harness",
+    "repoUrl": "https://github.com/thoitiettxl-cyber/cli-proxy-api",
+    "visibility": 1
+  },
+  {
     "name": "Cloudflared",
     "description": "Bundles the cloudflared binary system-wide (systemless, on PATH as `cloudflared`), ships a static /etc/resolv.conf fallback and a CA bundle for cloudflared's TLS verification (Android has neither in the paths a plain Go binary expects), auto-starts a configured named tunnel on boot, and provides `cloudflared-ctl` for start/stop/status/logs from the",
     "author": "you",
@@ -168,10 +441,94 @@
     "visibility": 1
   },
   {
+    "name": "Codex CLI for Android",
+    "description": "把 Codex CLI 装进安卓：内置本机 LLM 网关（Responses->chat 协议转换）+ 网页控制台（可切换上游接口与模型、明暗主题、处理过程实时滚动、技能管理、定时任务）+ devctl（在手机上 SSH 控制其他设备）。浏览器访问 http://<手机IP>:8787",
+    "author": "codexweb",
+    "repoUrl": "https://github.com/masitankitavim-ux/codex-android",
+    "visibility": 1
+  },
+  {
     "name": "CODM 120 FPS + Control (cualquier telefono, cualquier cuenta) · by AJ",
     "description": "by AJ. 120 FPS de CODM en cualquier telefono Android 11+ con root y cualquier cuenta: descubre paquetes global/Garena/Tencent/VNG, sigue la cuenta activa, mantiene el 120 ya activado en el juego y guarda/restaura los originales por cuenta. En dm3q conserva el spoof NX789J + capa Vulkan + audio verificados; en el resto no toca identidad (spoof=compa",
     "author": "AJ",
     "repoUrl": "https://github.com/ajfiles/call-of-duty-mobile-120fps-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "ColorOS Plugin Mod",
+    "description": "Join our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/Mods-Center/ColorOS_Control_Center",
+    "visibility": 1
+  },
+  {
+    "name": "ComodoSecureDNS4Magisk",
+    "description": "Comodo Secure DNS systemless",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/comodo-securedns4magisk",
+    "visibility": 1
+  },
+  {
+    "name": "COPG-VD",
+    "description": "Spoof your device.",
+    "author": "fork by VD171",
+    "repoUrl": "https://github.com/VD171/COPG-VD",
+    "visibility": 1
+  },
+  {
+    "name": "CPU Limiter for GT3/neo5",
+    "description": "Slow down CPU cores to save more battery on idle. Highly customizable in most aspects, chose configuration on install, restore settings when update and more! Note: developed for GT3/neo5, but have compability mode for other devices. Now with fresh new random descriptions!",
+    "author": "Quantom (a.k.a. Quantom2)",
+    "repoUrl": "https://github.com/Quantom2/Realme-GT3-neo5-CPU-limiter",
+    "visibility": 1
+  },
+  {
+    "name": "crDroid A16 Skip Lockscreen",
+    "description": "Keeps a PIN enrolled (isDeviceSecure=true) but disables the lockscreen UI on wake. Re-applies Profiles DISABLE after the post-reboot PIN. ONLY crDroid/Lineage Android 16 + org.lineageos.profiles.",
+    "author": "zarkentroska",
+    "repoUrl": "https://github.com/zarkentroska/crdroid-a16-skip-lockscreen",
+    "visibility": 1
+  },
+  {
+    "name": "Crond For Android",
+    "description": "Busybox Crond with service scripts for Android",
+    "author": "powerAn2020",
+    "repoUrl": "https://github.com/powerAn2020/crond4android",
+    "visibility": 1
+  },
+  {
+    "name": "Cubic-AdBlock",
+    "description": "A simple AdBlock based on the hosts file.",
+    "author": "Vaz15k",
+    "repoUrl": "https://github.com/Vaz15k/Cubic-AdBlock",
+    "visibility": 1
+  },
+  {
+    "name": "Custom Certificate Authorities",
+    "description": "Moves user-installed CA certificates to the system trust store with automatic DER-to-PEM conversion and full Android 14+ support (APEX + legacy paths).",
+    "author": "whalehub & Loukious",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities",
+    "visibility": 1
+  },
+  {
+    "name": "Custom Certificates",
+    "description": "A Magisk module which adds custom certificates to the system trust store.",
+    "author": "YujiaCheng1996",
+    "repoUrl": "https://github.com/YujiaCheng1996/custom-certificates",
+    "visibility": 1
+  },
+  {
+    "name": "Custom Minimum Brightness",
+    "description": "Systemless RRO Overlay that natively changes Android's hardcoded minimum brightness from 379 to 20. Replaces the old script method.",
+    "author": "Ritik Thakur",
+    "repoUrl": "https://github.com/ritikthakur22/brightnesscontrol",
+    "visibility": 1
+  },
+  {
+    "name": "DAMON Reclaim Off (zram churn fix)",
+    "description": "Stops the damon_reclaim DAMON kernel thread from page-ing anonymous app memory into zram via process_madvise(MADV_PAGEOUT) with no memory pressure. It ran a 5-9 GiB region at min_age=30s and skip_anon=N, spiking pswpout while every LRU reclaim counter stayed at zero. Cuts pswpout ~500/s and pgmajfault ~800/s to a flat 0/s floor, with bursts up to ~",
+    "author": "Bastet",
+    "repoUrl": "https://github.com/nalbe/shark8-damon-reclaim-off",
     "visibility": 1
   },
   {
@@ -189,6 +546,34 @@
     "visibility": 1
   },
   {
+    "name": "Device Faker",
+    "description": "使用Zygisk实现自定义配置对应用伪装机型",
+    "author": "酷安@瓦力喀/GitHub@Seyud",
+    "repoUrl": "https://github.com/Seyud/device_faker",
+    "visibility": 1
+  },
+  {
+    "name": "DeviceID/SSAID Changer",
+    "description": "A simple WebUI Module to change SSAID/DeviceID on Rooted Android Devices with Apatch, KSU (And its forks), or Magisk.",
+    "author": "sidex15",
+    "repoUrl": "https://github.com/sidex15/deviceidchanger",
+    "visibility": 1
+  },
+  {
+    "name": "Dirac Universal - Port from Oplus Ossi",
+    "description": "Dirac audio for any device. Bundles the control service, my own custom DiracUI app, and a headphone filter database that combines multiple devices. Not affiliated with Dirac Research.",
+    "author": "TAlgorhythmic",
+    "repoUrl": "https://github.com/talgorhythmic/dirac-universal-magisk-module",
+    "visibility": 1
+  },
+  {
+    "name": "Disable Default Game Frame Rate",
+    "description": "Keeps the default game frame rate limit disabled after reboot.",
+    "author": "JustMLC",
+    "repoUrl": "https://github.com/justmlc4real/disable-default-game-frame-rate",
+    "visibility": 1
+  },
+  {
     "name": "Disable FUSE-BPF",
     "description": "Disables FUSE-BPF to restore Android/data access on affected ROMs and kernels.",
     "author": "Danish Ali",
@@ -196,10 +581,24 @@
     "visibility": 1
   },
   {
+    "name": "Disable Low Ram Flag",
+    "description": "This module disable ro.config.low_ram flag on Android Go edition",
+    "author": "sekedus",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/disable-low-ram",
+    "visibility": 1
+  },
+  {
     "name": "Disable Touch + Backlight for Foxxd A67L",
     "description": "Disables touchscreen & backlight brightness at boot",
     "author": "1ndevelopment",
     "repoUrl": "https://github.com/1ndevelopment/foxxd_a67l_touch_backlight_disabler",
+    "visibility": 1
+  },
+  {
+    "name": "DNS.WATCH4Magisk",
+    "description": "DNS.WATCH DNS systemless",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/dns.watch4magisk",
     "visibility": 1
   },
   {
@@ -214,6 +613,20 @@
     "description": "Menyediakan /etc/resolv.conf (Google DNS 8.8.8.8/8.8.4.4/1.1.1.1) via overlay /system/etc supaya Go binary di Termux (crane, gh, dll) bisa resolve DNS. Tidak mengubah DNS Android normal.",
     "author": "GegeDevs",
     "repoUrl": "https://github.com/gegedevs/dnsresolve-termux",
+    "visibility": 1
+  },
+  {
+    "name": "Dockerd",
+    "description": "Docker For Android",
+    "author": "repotitan",
+    "repoUrl": "https://github.com/mgksu/dockerd",
+    "visibility": 1
+  },
+  {
+    "name": "Doze AOD Wallpaper",
+    "description": "Enable wallpaper on Always-On Display and raise doze brightness. Brightness: 40 (set via Action/WebUI). Framework: AOD wallpaper + doze brightness. Clean uninstall restores stock settings.",
+    "author": "pavel",
+    "repoUrl": "https://github.com/xpasha/dozeaodwallpaper",
     "visibility": 1
   },
   {
@@ -252,10 +665,59 @@
     "visibility": 1
   },
   {
+    "name": "DuraSpeed Off",
+    "description": "Disables MediaTek DuraSpeed (app + engine) and Android's cached-app freezer so background apps stay alive with the screen off.",
+    "author": "Mr. Meowgi",
+    "repoUrl": "https://github.com/ovehbe/duraspeed-off",
+    "visibility": 1
+  },
+  {
+    "name": "DynamicSystemTweaks",
+    "description": "Improves system performance without battery loss or overheating, module does not support APatch (Android 10+)",
+    "author": "Cyberdev",
+    "repoUrl": "https://github.com/PS2ClassicsVault/Dynamic-System-Tweaks-Magisk-Module",
+    "visibility": 1
+  },
+  {
+    "name": "EasyTier for Magisk",
+    "description": "Root EasyTier with private TOML configuration and Android VPN coexistence. Requires Termux Python. No persistent wake lock.",
+    "author": "contributors",
+    "repoUrl": "https://github.com/mizuno-sachiko/easytier-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "Encore Tweaks",
+    "description": "Special performance module for your Device.",
+    "author": "Rem01Gaming",
+    "repoUrl": "https://github.com/Rem01Gaming/encore",
+    "visibility": 1
+  },
+  {
+    "name": "Extra Dim (Android 8-17+)",
+    "description": "Extra Dim for ROMs that lack it, Android 8 to 17+: root helper + bundled Quick Settings tile, works on Magisk, KernelSU and APatch without a root grant. Made with ❤️ by t.me/Shivraj_editx",
+    "author": "Shivraj_editx",
+    "repoUrl": "https://github.com/shivrajtode/extradim-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "Extreme Gms Doze",
+    "description": "Module to kill gms on screen off",
+    "author": "Skyghost090",
+    "repoUrl": "https://github.com/Skyghost090/Extreme-Gms-Doze",
+    "visibility": 1
+  },
+  {
     "name": "FALCON INTEGRITY FIX",
     "description": "Play Integrity fix for Magisk / KernelSU / KernelSU Next / APatch. TrickyStore OSS keystore engine, PlayIntegrityFork fingerprint spoofing, bundled keybox (exp: 25-11-2026), app hiding, keybox status notifications and the FALCON TRICKY Web UI. Android 10-17.",
     "author": "ABUFARID | Telegram:@falcon_kernel",
     "repoUrl": "https://github.com/ahmed2111x/falcon_integrity_fix",
+    "visibility": 1
+  },
+  {
+    "name": "Fast Animation",
+    "description": "Smooth • Fast • Gaming — Force GPU rendering & boost FPS for rooted Android. 🎮",
+    "author": "Sabbir Senpai",
+    "repoUrl": "https://github.com/sabbirafat96/fast-animation-stable-fps-",
     "visibility": 1
   },
   {
@@ -280,6 +742,20 @@
     "visibility": 1
   },
   {
+    "name": "Flip3 Cover",
+    "description": "Keeps Android on the main screen when folded and gives the 512x260 cover its own screen.",
+    "author": "kotwicha",
+    "repoUrl": "https://github.com/meetox80/zflip3",
+    "visibility": 1
+  },
+  {
+    "name": "FOD Fix for Redmi Note 14 Pro 4G",
+    "description": "Under-display fingerprint (FOD) helper for Redmi Note 14 Pro 4G (obsidian) on GSI: HBM/backlight boost daemon, Jiiov calibration recovery, bootloop guard.",
+    "author": "moloo4ni",
+    "repoUrl": "https://github.com/moloo4ni/fod-fix-obsidian",
+    "visibility": 1
+  },
+  {
     "name": "Font Google Sans Flex",
     "description": "Systemlessly replaces Android system fonts with Google Sans Flex (official v4.005, internally renamed Roboto for correct Gecko/Firefox rendering) + Google Sans fallback for Cyrillic/Greek + stock Roboto safety net for everything else. Auto-installs full Roboto set + compatibility goodies, no prompts.",
     "author": "ethanm6, forked from AndroSYNC",
@@ -287,10 +763,45 @@
     "visibility": 1
   },
   {
+    "name": "FontCraft",
+    "description": "Stylish fonts & emojis for a personalized experience.",
+    "author": "AshBorn (@Ripper_Hybrid)",
+    "repoUrl": "https://github.com/RipperHybrid/FontCraft",
+    "visibility": 1
+  },
+  {
+    "name": "Force DNS Table (Cloudflare 1.1.1.1)",
+    "description": "Secuestra el tráfico DNS (puerto 53) hacia 1.1.1.1 usando Cadenas Personalizadas de iptables. Excluye tráfico de red local para no romper portales cautivos ni VPNs.",
+    "author": "LuferOS",
+    "repoUrl": "https://github.com/LuferOS/forcedns_Magisk-kernelsu",
+    "visibility": 1
+  },
+  {
+    "name": "Force skiavk",
+    "description": "Draws the Android UI with Vulkan instead of OpenGL ES (debug.hwui.renderer=skiavk). Can fix rendering glitches such as a garbled fingerprint animation.",
+    "author": "Silvertax",
+    "repoUrl": "https://github.com/silvertax/force-skiavk",
+    "visibility": 1
+  },
+  {
+    "name": "FORGE // GIT",
+    "description": "GitHub client inside your root manager. Repos, Actions, releases, push and full API access with your personal access token. Keys stay root-only.",
+    "author": "kreza6173-pixel",
+    "repoUrl": "https://github.com/privshell/forge-git",
+    "visibility": 1
+  },
+  {
     "name": "FOXXD A67L Incoming Call Fix",
     "description": "Fixes incoming calls on FOXXD A67L (SC9863A) with GSI. AT&T requires VoLTE. Uses stock Unisoc IMS stack (com.spreadtrum.ims) instead of FLOSS IMS. Includes ims_bridged daemon, IImsRadio AIDL client, and VoLTE enablement.",
     "author": "1ndevelopment",
     "repoUrl": "https://github.com/1ndevelopment/unisoc_gsi_callfix",
+    "visibility": 1
+  },
+  {
+    "name": "FPS Limitations Patcher",
+    "description": "Removes the FPS and performance limits set by PowerKeeper and Joyose on MIUI / HyperOS. Join to our channel for more stuff: t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/Mods-Center/FPS-Limitation-Patcher",
     "visibility": 1
   },
   {
@@ -305,6 +816,27 @@
     "description": "Maximum battery saving and GMS optimization. Freeze GMS services, enable doze, nuke logs, apply kernel tweaks. Use WebUI button to edit settings.",
     "author": "DrSexo",
     "repoUrl": "https://github.com/Drsexo/Frosty",
+    "visibility": 1
+  },
+  {
+    "name": "FX",
+    "description": "FX 1.0.0：本地 Hosts 与订阅路由分离，包含独立证书子模块。",
+    "author": "PrivacyGuard",
+    "repoUrl": "https://github.com/vip-svip/sy",
+    "visibility": 1
+  },
+  {
+    "name": "G-News Control",
+    "description": "Control the Google News feed. Control via the >_SCRIPT button or with the 'gnc' command in the terminal.",
+    "author": "mango0o",
+    "repoUrl": "https://github.com/mango0oo/G-News-Control",
+    "visibility": 1
+  },
+  {
+    "name": "G750 Boost (Game GPU Floor)",
+    "description": "游戏GPU地板/上限档位模块，适配 SM8650/SM8750/SM8850（8 Gen3 / 8 Elite / 8 Elite Gen5）。游戏运行时接管 GPU 地板（min_pwrlevel 主通道 + devfreq/min_freq 软下限 + /sys/kernel/gpu MHz 通道三路同步），上限（max_pwrlevel / max_gpuclk / gpu_max_clock）常驻保护防止被游戏或其他模块拉低，退出自动恢复。WebUI 自定义地板/上限档位 (127.0.0.1:8778 / KernelSU 内嵌)；v2.2.0 新增液态玻璃 WebUI：系统相册选壁纸（含目录/手输降级）、透明度可调、浅色/暗色/跟随系统三态主题、手机单列与平板双栏自适应。",
+    "author": "雨色",
+    "repoUrl": "https://github.com/jun430/g750-boost",
     "visibility": 1
   },
   {
@@ -329,10 +861,45 @@
     "visibility": 1
   },
   {
+    "name": "Game Shield 环境隔离与诊断",
+    "description": "环境检测 / 游戏兼容模式(模块停用与恢复) / 诊断日志与报告。不绕过反作弊、不修改游戏、不隐藏进程。",
+    "author": "GameShield",
+    "repoUrl": "https://github.com/youtiaoll1745055735-afk/gameshield",
+    "visibility": 1
+  },
+  {
     "name": "Gemini Default Assistant Keeper",
     "description": "Keeps Google/Gemini as Android's default assistant on HyperOS, repairs role and VoiceInteractionService drift, applies required app-ops, and thaws the Gemini interactor cgroup if needed.",
     "author": "Arimacose",
     "repoUrl": "https://github.com/arimacose/keep_default_assistant_as_gemini",
+    "visibility": 1
+  },
+  {
+    "name": "GIF/Video Boot Animasyon Yapici",
+    "description": "WebUI'den GIF/video secip cihazin ekran cozunurlugune uygun boot animasyonu olusturur",
+    "author": "you",
+    "repoUrl": "https://github.com/kahramanedit/magisk-gifboot",
+    "visibility": 1
+  },
+  {
+    "name": "Git Migrator",
+    "description": "AMOLED WebUI to back up GitHub repos, move them (all branches/tags/history) to a new account, upload folders and fix old-username links. Needs Termux (git + python).",
+    "author": "privshell",
+    "repoUrl": "https://github.com/privshell/gitmigrator-ksu",
+    "visibility": 1
+  },
+  {
+    "name": "Glyph Keeper",
+    "description": "Управление Glyph для Nothing Phone (2a) через sysfs. Обход сброса режима и ручное управление.",
+    "author": "CHBP_X",
+    "repoUrl": "https://github.com/vaccreate/glyphkeeper",
+    "visibility": 1
+  },
+  {
+    "name": "Google Photos Unlimited Backup",
+    "description": "Google Photos Unlimited Backup by Spoofing into Pixel XL.",
+    "author": "Rev4N - Credits to osm0sis & chiteroman",
+    "repoUrl": "https://github.com/Rev4N1/GPhotosUnlimited",
     "visibility": 1
   },
   {
@@ -343,10 +910,31 @@
     "visibility": 1
   },
   {
+    "name": "GPS Locker",
+    "description": "Keeps the GPS locked on its satellites while you switch between navigation apps, with a Quick Settings tile, a live satellite notification and a WebUI.",
+    "author": "Tears Burn (nikakvo)",
+    "repoUrl": "https://github.com/nikakvo/gps-locker",
+    "visibility": 1
+  },
+  {
     "name": "GrabNetPrinter",
     "description": "Optional support module: seeds a legacy config file and log for the GrabNetPrinter LSPosed module. The normal configuration is done in the GrabNetPrinter settings app.",
     "author": "GrabNetPrinter contributors",
     "repoUrl": "https://github.com/caullenomdahl/grab-netprinter",
+    "visibility": 1
+  },
+  {
+    "name": "Green2Priv",
+    "description": "A Module to make Greenify work as a privileged App (Faster Hibernation & systemlessly)",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/green2priv",
+    "visibility": 1
+  },
+  {
+    "name": "Green2Priv (Beta)",
+    "description": "A Module to make Greenify work as a privileged App (Faster Hibernation & systemlessly)",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/green2priv-beta",
     "visibility": 1
   },
   {
@@ -357,10 +945,52 @@
     "visibility": 1
   },
   {
+    "name": "GroupGuard Telegram Bot",
+    "description": "Telegram 群管理机器人开机自启与保活模块。基于 Termux 原生 Python 运行，内置看门狗自动重启、环境自适应探测、交互式配置向导。需已 root 并安装 Termux。配套项目：telegram-group-manager",
+    "author": "GroupGuard Contributors",
+    "repoUrl": "https://github.com/zhangdunlong/groupguard-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "HD Audio",
+    "description": "SoundMod of goodies.",
+    "author": "Michael C Swartout",
+    "repoUrl": "https://github.com/mikary29/hdaudio-magisk-module",
+    "visibility": 1
+  },
+  {
     "name": "HermesAndroid",
     "description": "Install Hermes Agent on Android Root via Magisk/KernelSU.",
     "author": "TDat",
     "repoUrl": "https://github.com/dat-hoangnguyentuandat/hermesandroid",
+    "visibility": 1
+  },
+  {
+    "name": "HID Gadget",
+    "description": "USB HID Gadget with dependency-free C-based TUI keyboard and auto-recovery.",
+    "author": "kelexine",
+    "repoUrl": "https://github.com/kelexine/hid-gadget-module",
+    "visibility": 1
+  },
+  {
+    "name": "Hide Navbar Keyboard",
+    "description": "Hide Navbar Keyboard when keyboard appears. Fully compatible with Android 10 to 15+ including AOSP, OSS, MIUI, and HyperOS ROMs.",
+    "author": "@unknuw x ChatGPT",
+    "repoUrl": "https://github.com/UNKNUW/Hide-Navbar-Keyboard",
+    "visibility": 1
+  },
+  {
+    "name": "Hide virt-apex su",
+    "description": "Detaches the tmpfs that temporary-root exploits stack over /apex/com.android.virt/bin (it contains nothing but a su binary) from the zygote mount namespaces, restoring the real APEX bin. That directory is on every app's PATH, so PATH-scanning root checks find su instantly.",
+    "author": "serkenn",
+    "repoUrl": "https://github.com/serkenn/hide-virt-apex-su",
+    "visibility": 1
+  },
+  {
+    "name": "Hifi Maximizer",
+    "description": "A module for maximizing the digital audio fidelity by reducing jitters on audio outputs (USB DACs, Bluetooth a2dp, DLNA, etc.)",
+    "author": "zyhk",
+    "repoUrl": "https://github.com/yzyhk904/hifi-maximizer-mod",
     "visibility": 1
   },
   {
@@ -378,10 +1008,45 @@
     "visibility": 1
   },
   {
+    "name": "Honor LSPosed System Scope Fix",
+    "description": "Fixes LSPosed v2 system-scope modules not injecting into system_server on Honor MagicOS 10 (Android 16 / LDY-AN00). Root cause: Honor PackageParser calls ActivityManager.isSystemReady() via HnPackageUtils, which NPEs inside the lspd daemon (ActivityManagerInternal == null), causing system-scope modules to be silently dropped from the system_server ",
+    "author": "mengwuzhuanshou",
+    "repoUrl": "https://github.com/mengwuzhuanshou/honorlsposedfix",
+    "visibility": 1
+  },
+  {
+    "name": "Hybrid Mount",
+    "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
+    "author": "Hybrid Mount Developers",
+    "repoUrl": "https://github.com/YuzakiKokuban/meta-hybrid_mount",
+    "visibility": 1
+  },
+  {
     "name": "Hydrostellaire 沨莹",
-    "description": "A magisk module for devices running on Dimensity flagship platforms and OnePlus, Realme devices. FOSS [M]",
+    "description": "A magisk module for devices running on Dimensity flagship platforms and OnePlus, Realme devices.",
     "author": "AB & Ray",
     "repoUrl": "https://github.com/AestasBritannia/Hydro-Br-leur",
+    "visibility": 1
+  },
+  {
+    "name": "Hyper Optimize",
+    "description": "Tune HyperOS System and Kernel parameters to reduce power consumption",
+    "author": "Tatsh",
+    "repoUrl": "https://github.com/TatshSiow/HyperOptimize",
+    "visibility": 1
+  },
+  {
+    "name": "HyperCool - Heat & Battery Fix",
+    "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+    "author": "Yudharn",
+    "repoUrl": "https://github.com/yudharn/hypercool",
+    "visibility": 1
+  },
+  {
+    "name": "HyperOS 4 Launcher Mod (Rust/Flutter)",
+    "description": "Patched HyperOS 4 launcher (native Dock, soft glass, search app, icons, widgets, recents) + HyperLauncherExt settings app. Telegram: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/hyperos-rust-launcher-mod",
     "visibility": 1
   },
   {
@@ -389,6 +1054,34 @@
     "description": "Stop HyperOS from randomly disabling accessibility services | Click Action to view logs",
     "author": "chkndrp",
     "repoUrl": "https://github.com/chickendrop89/hyperos-accessibility-fix",
+    "visibility": 1
+  },
+  {
+    "name": "HyperOS AOD Mod",
+    "description": "Modified HyperOS AOD App by Mods Center. Join for more stuff: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/Mods-Center/HyperOS-AOD",
+    "visibility": 1
+  },
+  {
+    "name": "HyperOS App Vault Mod",
+    "description": "Join our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/Mods-Center/HyperOS-App-Vault",
+    "visibility": 1
+  },
+  {
+    "name": "HyperUnlocked",
+    "description": "Unlock high-end Xiaomi features on all of your Xiaomi devices!",
+    "author": "ukriu",
+    "repoUrl": "https://github.com/ukriu/HyperUnlocked",
+    "visibility": 1
+  },
+  {
+    "name": "I Don't Want To Catch Up",
+    "description": "Android 17 empty notification shade: drops the trophy and \"You're all caught up\" for the notification history icon and \"No notifications\". Tapping still opens notification history.",
+    "author": "Leohearts",
+    "repoUrl": "https://github.com/leohearts/i-dont-want-to-catch-up",
     "visibility": 1
   },
   {
@@ -427,10 +1120,24 @@
     "visibility": 1
   },
   {
+    "name": "iOS 26.4 Emoji font",
+    "description": "Systemlessly replaces emoji font with iOS 26.4 Emoji",
+    "author": "Keinta15",
+    "repoUrl": "https://github.com/Keinta15/Magisk-iOS-Emoji",
+    "visibility": 1
+  },
+  {
     "name": "IOS Fonts",
     "description": "System-wide Arabic and English IOS fonts for Android",
     "author": "Jevc",
     "repoUrl": "https://github.com/jevcje0-gif/arabic-and-english-ios-fonts-magisk-module",
+    "visibility": 1
+  },
+  {
+    "name": "ipset (arm64)",
+    "description": "IP-level blocklists (ipset + iptables/ip6tables) | installed",
+    "author": "Tears Burn",
+    "repoUrl": "https://github.com/nikakvo/ipset-arm64",
     "visibility": 1
   },
   {
@@ -448,6 +1155,41 @@
     "visibility": 1
   },
   {
+    "name": "JetBrains Mono System Font",
+    "description": "Replaces the system Roboto font with JetBrains Mono.",
+    "author": "Mars-Wave",
+    "repoUrl": "https://github.com/Mars-Wave/jetbrains-font-magisk-module",
+    "visibility": 1
+  },
+  {
+    "name": "Joy-Con Droid Companion",
+    "description": "Companion module for Joy-Con Droid",
+    "author": "TeamJCD",
+    "repoUrl": "https://github.com/teamjcd/joycondroidcompanion",
+    "visibility": 1
+  },
+  {
+    "name": "KernelEnhancer",
+    "description": "Precision Kernel Tuning for Harmonized Performance. Game Mode, WebUI, arm64 / arm / x86_64 / x86 / riscv64.",
+    "author": "@RAAJK20Pro",
+    "repoUrl": "https://github.com/RAAJK20Pro/KernelEnhancer",
+    "visibility": 1
+  },
+  {
+    "name": "KernelSU Grant Toast",
+    "description": "(❌Disabled)Show a root granted toast like Magisk.",
+    "author": "NativeStar",
+    "repoUrl": "https://github.com/NativeStar/KernelSUGrantToast",
+    "visibility": 1
+  },
+  {
+    "name": "KernelSU Tuner",
+    "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+    "author": "ylh440104",
+    "repoUrl": "https://github.com/ylh440104/kernelsu-tuner",
+    "visibility": 1
+  },
+  {
     "name": "KernelSU/Apatch/Magisk WebUI Module Template",
     "description": "A template for creating KernelSU/Apatch/Magisk modules with WebUI",
     "author": "barsikus007",
@@ -455,10 +1197,52 @@
     "visibility": 1
   },
   {
+    "name": "KPA Sitronix Fix",
+    "description": "Pauses the faulty Sitronix health-monitor loop without disabling touchscreen input.",
+    "author": "IMNKS.COM",
+    "repoUrl": "https://github.com/tbc0309/kpa-modules",
+    "visibility": 1
+  },
+  {
+    "name": "KPatch-Next",
+    "description": "Standalone implementation of KPM support for Magisk/KernelSU",
+    "author": "rifsxd, KOWX712",
+    "repoUrl": "https://github.com/KernelSU-Next/KPatch-Next-Module",
+    "visibility": 1
+  },
+  {
+    "name": "LAN Cloak Arm64",
+    "description": "Hides the phone on Wi-Fi networks: clean DHCP, no mDNS / SSDP / LLMNR announcements. Status: Init",
+    "author": "Tears Burn",
+    "repoUrl": "https://github.com/nikakvo/lan-cloak-arm64",
+    "visibility": 1
+  },
+  {
     "name": "Lazarus - SELinux rule",
     "description": "Lets system_server start the boot animation (fake reboot in io.github.albatrossmicrosystems.lazarus).",
     "author": "Niik",
     "repoUrl": "https://github.com/albatrossmicrosystems/lazarus-xposed",
+    "visibility": 1
+  },
+  {
+    "name": "Level3DNS4Magisk",
+    "description": "Level3 DNS systemless",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/level3dns4magisk",
+    "visibility": 1
+  },
+  {
+    "name": "LHDC A2DP Enabler (Android 17 universal)",
+    "description": "自动定位 audio_policy_configuration.xml，把 A2DP 输出端口迁进 bluetooth module 并声明 AUDIO_FORMAT_LHDC，让 Android 17 的原生 LHDC 真正出声。面向「LHDC 协商成功但完全无声」的 AOSP 蓝牙栈 + 高通音频 HAL 混合架构设备。",
+    "author": "Makuro-Arisaka",
+    "repoUrl": "https://github.com/makuro-arisaka/android17-lhdc-a2dp-universal",
+    "visibility": 1
+  },
+  {
+    "name": "LiveBoot",
+    "description": "A Magisk, KernelSU and APatch module that enables unix-style (verbose) boot animation for Android devices",
+    "author": "Ali Beyaz (avalibeyaz.com/github)",
+    "repoUrl": "https://github.com/symbuzzer/livebootmodule",
     "visibility": 1
   },
   {
@@ -476,10 +1260,59 @@
     "visibility": 1
   },
   {
+    "name": "Lockjaw - anti-forensic USB lockdown (Magisk/KernelSU)",
+    "description": "⏳ Installed: activates on next boot.",
+    "author": "scozzadroid-cpu",
+    "repoUrl": "https://github.com/scozzadroid-cpu/lockjaw-magisk-ksu",
+    "visibility": 1
+  },
+  {
     "name": "Log Catcher",
     "description": "Captures logcat and kernel messages during boot, archived as timestamped tarballs.",
     "author": "MlgmXyysd, Howard20181, hxreborn",
     "repoUrl": "https://github.com/hxreborn/Log-Catcher",
+    "visibility": 1
+  },
+  {
+    "name": "Lune Bridge",
+    "description": "Warmer, darker, calmer screens. Candlelight to 1700K, dimming below the panel minimum, flicker-safe mode for PWM eye strain, and Quiet Field to stop apps waking you. Companion to SonoLune.",
+    "author": "uraniam9",
+    "repoUrl": "https://github.com/uraniam9/lune-bridge",
+    "visibility": 1
+  },
+  {
+    "name": "Lʏɴx - Vᴇʟᴏᴄɪᴛʏ",
+    "description": "[ ⚡Gᴇᴛ Sᴛᴀʀᴛᴇᴅ ] God Speed and Smart Thinks💫",
+    "author": "ɴᴏɪʀ",
+    "repoUrl": "https://github.com/zy0x/lynx",
+    "visibility": 1
+  },
+  {
+    "name": "Magic Mount",
+    "description": "An implementation of a metamodule using Magic Mount",
+    "author": "7a72",
+    "repoUrl": "https://github.com/KernelSU-Modules-Repo/meta-mm",
+    "visibility": 1
+  },
+  {
+    "name": "MagicalProtection",
+    "description": "Magisk-only completely systemless adblocking.",
+    "author": "programminghoch10",
+    "repoUrl": "https://github.com/programminghoch10/MagicalProtection",
+    "visibility": 1
+  },
+  {
+    "name": "Magisk Alist",
+    "description": "Run Alist server in background with Magisk",
+    "author": "zjw",
+    "repoUrl": "https://github.com/zhu-junwei/magisk-alist",
+    "visibility": 1
+  },
+  {
+    "name": "Magisk Manager for Recovery Mode (mm)",
+    "description": "Easily manage your Magisk v19-30 Modules by running \"*/mm\" or \"sh /sdcard/mm\" from a terminal session in your custom recovery! (e.g. TWRP)",
+    "author": "VR25 & Rikj000 @ XDA-Developers",
+    "repoUrl": "https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode",
     "visibility": 1
   },
   {
@@ -490,6 +1323,20 @@
     "visibility": 1
   },
   {
+    "name": "MagiskWiFiADB",
+    "description": "A module that maintains ADB availability.",
+    "author": "mrh929",
+    "repoUrl": "https://github.com/mrh929/magisk-wifiadb",
+    "visibility": 1
+  },
+  {
+    "name": "MAGNETAR",
+    "description": "Device Performance Optimizer — Aims To Provide An Optimal Experience At Every Usage Scenario",
+    "author": "Kyliekyler",
+    "repoUrl": "https://github.com/Kyliekyler/MAGNETAR",
+    "visibility": 1
+  },
+  {
     "name": "Maple Mono system font",
     "description": "Replaces Roboto, Google Sans and the monospace font with Maple Mono NL v7.9 (variable wght). Disable this module to restore the stock fonts.",
     "author": "ligt",
@@ -497,10 +1344,31 @@
     "visibility": 1
   },
   {
+    "name": "MemKeep++",
+    "description": "内存压缩 + 后台保活 · ZRAM 容量/算法自选 · 保活三档 · 内置 WebUI，保存即生效（容量改动需重启）",
+    "author": "qvq9999",
+    "repoUrl": "https://github.com/qvq9999/memkeep",
+    "visibility": 1
+  },
+  {
+    "name": "MicFix Speaker-Mic TX (v1.2)",
+    "description": "A robust audio route reset module. Automatically re-initializes handset microphones during incoming/outgoing calls to prevent audio loss. Includes boot-time optimization by freezing specific heavy apps until manually opened.",
+    "author": "kiran-embedded",
+    "repoUrl": "https://github.com/kiran-embedded/micfix-magisk-module",
+    "visibility": 1
+  },
+  {
     "name": "MiclawAPI",
     "description": "Exposes Miclaw as an OpenAI-compatible HTTP API on localhost:9120",
     "author": "MiclawAPI",
     "repoUrl": "https://github.com/guocheng1378/miclaw-api",
+    "visibility": 1
+  },
+  {
+    "name": "MiCloud A16",
+    "description": "Mi Account + Xiaomi Cloud + MiCloud Sync + Cloud Backup, stock and Xiaomi-signed, extracted from the garnet HyperOS CN fastboot ROM OS3.0.306.0.WNRCNXM (Android 16, SDK 36). Requires HyperCore-A16. arm64-v8a, SDK 34+.",
+    "author": "mbenanaya",
+    "repoUrl": "https://github.com/mben25/micloud-a16",
     "visibility": 1
   },
   {
@@ -518,6 +1386,13 @@
     "visibility": 1
   },
   {
+    "name": "Mirafix—解决投屏",
+    "description": "修复小米/HyperOS 原生投屏 1008 报错（HyperCeiler 截屏开关/FLAG_SECURE 冲突导致 secure buffer → qbuf -22）。Fixes the stock Miracast 1008 error on HyperOS (secure buffer → qbuf -22) by patching libsurfaceflinger on-device; auto-detects model & OS, works with Magisk/Alpha and KernelSU.",
+    "author": "Petittux",
+    "repoUrl": "https://github.com/petittux1/mirafix",
+    "visibility": 1
+  },
+  {
     "name": "MiThermal Tuner",
     "description": "小米温控实时监控与调节：解密/修改 mi_thermald 场景配置，实时限制 CPU/GPU/充电电流，附图形界面 App。作者：达人怪（微信 UVWAPP）",
     "author": "达人怪",
@@ -532,6 +1407,41 @@
     "visibility": 1
   },
   {
+    "name": "MIUI字体",
+    "description": "①替换系统字体为MiSans ②支持MIUI系统级多重字重 ③加入Android 18 Emoji(2.057) 字体",
+    "author": "南宫镜",
+    "repoUrl": "https://github.com/nangongjing1/misans-module-for-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "Modded HyperOS Launcher",
+    "description": "Join our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/Mods-Center/HyperOS-Launcher",
+    "visibility": 1
+  },
+  {
+    "name": "Modded Security Center",
+    "description": "Modified Security Center by Mods Center. Join for more stuffs: t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/Mods-Center/HyperOS-Security-Center",
+    "visibility": 1
+  },
+  {
+    "name": "Modded Theme Manager",
+    "description": "Modified Theme Manager by Mods Center. Join channel for interesting stuffs: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/Mods-Center/HyperOS-Theme-Manager",
+    "visibility": 1
+  },
+  {
+    "name": "Moto G15 RAW16 unlock",
+    "description": "Exposes RAW16 on rear (4080x3072) and front (3264x2448) cameras via a patched libmtkcam_metastore.so bind mount. Stock lib sha256 d4d71c54 required.",
+    "author": "richard",
+    "repoUrl": "https://github.com/rchrdariza/moto-g15-raw",
+    "visibility": 1
+  },
+  {
     "name": "mountify",
     "description": "Globally mounted modules via OverlayFS.",
     "author": "xx, KOWX712",
@@ -539,10 +1449,38 @@
     "visibility": 1
   },
   {
+    "name": "MoveCertificate",
+    "description": "Supports magiskv20.4+/kernelsu/APatch Android 7-16 move certificates",
+    "author": "Contributors",
+    "repoUrl": "https://github.com/ys1231/MoveCertificate",
+    "visibility": 1
+  },
+  {
     "name": "Multi User UI Enabler",
     "description": "A magisk module that tries to enable Multi User UI by systemlessly changing build.prop to enable it.",
     "author": "ziad_mrx",
     "repoUrl": "https://github.com/InsertX2k/multiuseruienabler",
+    "visibility": 1
+  },
+  {
+    "name": "MYuppy Font",
+    "description": "Systemless MYuppy font for Android 16. Requires a KernelSU system-mount metamodule.",
+    "author": "IMNKS.COM",
+    "repoUrl": "https://github.com/tbc0309/myuppy-font-crdroid12",
+    "visibility": 1
+  },
+  {
+    "name": "NavTweaks (former Fullscren/Immersive gestures) (Q-W)",
+    "description": "Customize Android 10-16's navigation gestures",
+    "author": "DanGLES3",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/HideNavBar",
+    "visibility": 1
+  },
+  {
+    "name": "Net Switch",
+    "description": "Isolate apps from Internet access.",
+    "author": "Rem01Gaming",
+    "repoUrl": "https://github.com/Rem01Gaming/net-switch",
     "visibility": 1
   },
   {
@@ -567,10 +1505,38 @@
     "visibility": 1
   },
   {
+    "name": "NoEmulator",
+    "description": "Hides Android emulator artifacts from apps using SUSFS kernel rules. Requires susfs4ksu-lkm-x64. x86_64 only.",
+    "author": "ymuu",
+    "repoUrl": "https://github.com/ymuuuu/noemulator",
+    "visibility": 1
+  },
+  {
+    "name": "NoMount-kpm",
+    "description": "通过 NoMount KPM 加载模块中的系统应用和文件。",
+    "author": "maxsteeel, Codex",
+    "repoUrl": "https://github.com/lzghzr/APatch_kpm",
+    "visibility": 1
+  },
+  {
+    "name": "Nothing EUICC Force Enabler",
+    "description": "Nothing System LPA (EUICC) Force Enabler.",
+    "author": "Re*Index.(ot_inc)",
+    "repoUrl": "https://github.com/reindex-ot/nothing-euicc",
+    "visibility": 1
+  },
+  {
     "name": "Noto Color Emoji (Current)",
     "description": "Systemlessly replaces the stock emoji font with the current build straight from Google's googlefonts/noto-emoji repo — same art style Pixel ships, just not frozen at whatever Unicode version your ROM shipped with. A CI job checks upstream daily and cuts a new release automatically when Google updates it.",
     "author": "ethanm6",
     "repoUrl": "https://github.com/ethanm6/noto-emoji-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "NovaInstaller",
+    "description": "Installs the Nova Launcher to '/system/app/' on Android.",
+    "author": "Minionguyjpro",
+    "repoUrl": "https://github.com/Minionguyjpro/NovaInstaller",
     "visibility": 1
   },
   {
@@ -581,10 +1547,24 @@
     "visibility": 1
   },
   {
+    "name": "nzapret",
+    "description": "Android DPI-bypass utility built on nfqws2 and iptables, inspired by ideas from bol-van/zapret2.",
+    "author": "nikitos4683",
+    "repoUrl": "https://github.com/nikitos4683/nzapret",
+    "visibility": 1
+  },
+  {
     "name": "OnePlus 15 BeiDou GNSS Guard",
     "description": "Repairs both Qualcomm GNSS EFS masks to 0x5905 and reloads GNSS after SIM/eSIM changes. CPH2749/24863 only.",
     "author": "christuo-dev",
     "repoUrl": "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard",
+    "visibility": 1
+  },
+  {
+    "name": "OnePlus 8 Series & 9R Camera Unlocker",
+    "description": "Unlocks features like 48MP RAW10 support, auxiliary lenses (in custom ROMs only), Zero Shutter Lag (ZSL), etc. on the OnePlus 8, 8 Pro, 8T, and 9R.",
+    "author": "shadowstep @ XDA",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker",
     "visibility": 1
   },
   {
@@ -595,6 +1575,13 @@
     "visibility": 1
   },
   {
+    "name": "OverlayFS MetaModule",
+    "description": "An implementation of a metamodule using OverlayFS for KernelSU",
+    "author": "KernelSU Developers",
+    "repoUrl": "https://github.com/KernelSU-Modules-Repo/meta-overlayfs",
+    "visibility": 1
+  },
+  {
     "name": "Oxygen OS + GMS optimiser",
     "description": "Disable some telementry and bloat",
     "author": "Epicmann24",
@@ -602,10 +1589,59 @@
     "visibility": 1
   },
   {
+    "name": "Partition Backup",
+    "description": "Utility to backup or save Android device partitions.",
+    "author": "rhythmcache.t.me",
+    "repoUrl": "https://github.com/rhythmcache/partition-backup",
+    "visibility": 1
+  },
+  {
+    "name": "Patch Inline TrackMotion",
+    "description": "Patches inlined trackMotion in enqueueDispatchEntryLocked to disable stylus-hover touch blocking",
+    "author": "lanrhyme",
+    "repoUrl": "https://github.com/lanrhyme/patch-inline-trackmotion",
+    "visibility": 1
+  },
+  {
     "name": "PerfGame",
     "description": "Enable custom resolution & frame-rate mechanism for your game.",
     "author": "Adinata | @Adivenxnataly",
     "repoUrl": "https://github.com/adivenxnataly/PerfGame",
+    "visibility": 1
+  },
+  {
+    "name": "PerfMTK",
+    "description": "Just type \"su -c perfmtk\" in terminal(Termux) or install PerfMTK Manager App",
+    "author": "JUANIMAN",
+    "repoUrl": "https://github.com/JUANIMAN/PerfMTK",
+    "visibility": 1
+  },
+  {
+    "name": "PhhIms VoLTE (r8q)",
+    "description": "Open-source IMS (PhhIms) for VoLTE on the Galaxy S20 FE Snapdragon (r8q). Tested with o2 Germany, testers with other carriers wanted. Action button shows the VoLTE status. Boot-loop protected, log: /data/adb/phhims-volte.log",
+    "author": "buddi0812, o2 edit: Silvertax",
+    "repoUrl": "https://github.com/silvertax/phhims-volte-o2",
+    "visibility": 1
+  },
+  {
+    "name": "Phone Data Server",
+    "description": "Expose device telemetry (battery, CPU, GPU, memory, storage, thermal, network, Wi-Fi, processes, packages) as JSON over a RESTful HTTP API, plus periodic POST push to your own cloud endpoint. Includes a WebUI in the manager (open the module card, press WebUI), and a browser dashboard on the listen port. Action button shows status + token. Also keep",
+    "author": "Kairo",
+    "repoUrl": "https://github.com/kailoinf/phoneserver",
+    "visibility": 1
+  },
+  {
+    "name": "Pi-Sing",
+    "description": "🔴 Stopped | sing-box + TPROXY",
+    "author": "Pi",
+    "repoUrl": "https://github.com/thoitiettxl-cyber/pi-sing",
+    "visibility": 1
+  },
+  {
+    "name": "PillarBox",
+    "description": "Per-app 4:3 aspect engine for wide tablets. Selected apps render at a true 4:3 viewport, iPad style. Pair with the PillarBox app.",
+    "author": "orev7s",
+    "repoUrl": "https://github.com/orev7s/pillarbox",
     "visibility": 1
   },
   {
@@ -637,6 +1673,20 @@
     "visibility": 1
   },
   {
+    "name": "Pixel Xpert",
+    "description": "Xposed based module for customizations on Pixel roms. Android 13+",
+    "author": "Pixel Xpert Team",
+    "repoUrl": "https://github.com/siavash79/PixelXpert",
+    "visibility": 1
+  },
+  {
+    "name": "PixelUpdater",
+    "description": "Pixel OTA updater",
+    "author": "Pixel Updater contributors",
+    "repoUrl": "https://github.com/PixelUpdater/PixelUpdater",
+    "visibility": 1
+  },
+  {
     "name": "PixelXpert-Next",
     "description": "Xposed based module for customizations on Pixel roms. Android 13+",
     "author": "PixelXpert-Next Team",
@@ -644,10 +1694,52 @@
     "visibility": 1
   },
   {
+    "name": "Play Integrity Fix [INJECT]",
+    "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
+    "author": "chiteroman, KOWX712",
+    "repoUrl": "https://github.com/KOWX712/PlayIntegrityFix",
+    "visibility": 1
+  },
+  {
     "name": "playcurlNEXT",
     "description": "Automatic fingerprint downloader for play integrity fix.",
     "author": "daboynb",
     "repoUrl": "https://github.com/daboynb/playcurlNEXT",
+    "visibility": 1
+  },
+  {
+    "name": "PLF110 Touch-Rate-Sync",
+    "description": "PLF110/S3910 KernelSU 触控上报率同步：低开销 BusyBox 后台，3 秒显示轮询与 1.5 秒触控读回。",
+    "author": "lenluxue",
+    "repoUrl": "https://github.com/lenluxue/plf110-touch-rate-sync",
+    "visibility": 1
+  },
+  {
+    "name": "Plus Key Remapper",
+    "description": "Choose what the OnePlus Nord 5 Plus Key does (presets or custom command).",
+    "author": "naplon74",
+    "repoUrl": "https://github.com/naplon74/magisk-pluskey",
+    "visibility": 1
+  },
+  {
+    "name": "POCO M5 HyperOS 3 Super Lockscreen Port",
+    "description": "Портирование кастомизации экрана блокировки HyperOS 3 (Super Lockscreen, Depth Wallpaper 3D, кастомные часы Magazine/Classic/Rhombus, стили шрифтов, питомцы, русский язык) на POCO M5 (rock) под управлением HyperOS 1 (Android 14).",
+    "author": "Mor4land",
+    "repoUrl": "https://github.com/mor4land/poco-m5-hyperos3-lockscreen",
+    "visibility": 1
+  },
+  {
+    "name": "POP-ZRAM",
+    "description": "POP-ZRAM enables ZRAM and makes it 4 Gigabyte on your device!",
+    "author": "@Siimsek",
+    "repoUrl": "https://github.com/siimsek/pop-zram",
+    "visibility": 1
+  },
+  {
+    "name": "PowerBoost",
+    "description": "Intelligent Android performance, battery, and thermal optimization platform with adaptive profiles",
+    "author": "Yusuf Mohammed",
+    "repoUrl": "https://github.com/yusuf6411/powerboost",
     "visibility": 1
   },
   {
@@ -665,10 +1757,59 @@
     "visibility": 1
   },
   {
+    "name": "Proteus",
+    "description": "❌ Inactive — Zygisk engine for HideMyAndroid + HideMyEmulator. Enable Zygisk, then reboot.",
+    "author": "Wowsoftware",
+    "repoUrl": "https://github.com/Xposed-Modules-Repo/com.wowsoftware.hidemyandroid",
+    "visibility": 1
+  },
+  {
+    "name": "Py2Droid",
+    "description": "CPython 3.14.8 for Android",
+    "author": "Mrakorez",
+    "repoUrl": "https://github.com/Mrakorez/py2droid",
+    "visibility": 1
+  },
+  {
+    "name": "Quad9DNS4Magisk",
+    "description": "Quad9 DNS systemless",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/quad9dns4magisk",
+    "visibility": 1
+  },
+  {
+    "name": "Quest 2 Touch on Quest 3",
+    "description": "Lets Quest 2 Touch controllers pair and track on a Quest 3. Requires Magisk OverlayFS.",
+    "author": "LiterallyAxo",
+    "repoUrl": "https://github.com/literallyaxo/quest2-touch-on-quest3",
+    "visibility": 1
+  },
+  {
+    "name": "Re-Malwack | Not just a normal ad-blocker module ✨",
+    "description": "A fully-fledged ad-block module. Contains all your needs ✨",
+    "author": "ZG089",
+    "repoUrl": "https://github.com/ZG089/Re-Malwack",
+    "visibility": 1
+  },
+  {
+    "name": "Redmi Note 14 Pro 4G Statusbar Height Fix",
+    "description": "Fixes status bar and Quick Settings height on Redmi Note 14 Pro 4G (obsidian) running Android 15/16 GSIs.",
+    "author": "moloo4ni",
+    "repoUrl": "https://github.com/moloo4ni/statusbar-fix-obsidian",
+    "visibility": 1
+  },
+  {
     "name": "Render Switcher",
     "description": "Per-app HWUI renderer isolation (Vulkan / OpenGL).",
     "author": "EXLOUD",
     "repoUrl": "https://github.com/exloud/render-switcher",
+    "visibility": 1
+  },
+  {
+    "name": "ResonanceFX",
+    "description": "Free and open-source audio effects engine by Xeloria.",
+    "author": "Xeloria",
+    "repoUrl": "https://github.com/xeloria/resonancefx",
     "visibility": 1
   },
   {
@@ -693,10 +1834,31 @@
     "visibility": 1
   },
   {
+    "name": "rsync binary for magisk",
+    "description": "Installs static rsync binary to /system/bin",
+    "author": "Adalyn",
+    "repoUrl": "https://github.com/KatelynTheStargazer/rsync-magisk",
+    "visibility": 1
+  },
+  {
     "name": "Ryefire",
     "description": "One module. Three modes. One-tap performance. AUTOMATIC / BALANCE / EXTREME: deteksi game & benchmark otomatis, CPU/GPU terverifikasi, proteksi termal OEM tetap aktif.",
     "author": "ryetechnologia",
     "repoUrl": "https://github.com/andresuhensleeby-a11y/thermal-fire-universal-v1.4.0",
+    "visibility": 1
+  },
+  {
+    "name": "s3ra1n USB HAL Guard",
+    "description": "Grants palera1n exclusive USB access by suspending Android USB HAL services and using kernel USB authorization control. Required for the t3ra1n jailbreak tool.",
+    "author": "Noxbit",
+    "repoUrl": "https://github.com/noxproductions/t3ra1n",
+    "visibility": 1
+  },
+  {
+    "name": "Samsung DeX standalone mode",
+    "description": "Patch `floating_feature.xml` to enable Samsung Dex standalone mode, available on devices supporting at least one Dex mode.",
+    "author": "supermarsx",
+    "repoUrl": "https://github.com/supermarsx/magisk-samsung-dex-standalone-mode",
     "visibility": 1
   },
   {
@@ -707,10 +1869,66 @@
     "visibility": 1
   },
   {
+    "name": "Shark8 MTK game mode trigger (GSI)",
+    "description": "Feeds the stock MTK power HAL (HIDL IMtkPower::notifyAppState) with the foreground app/activity that the GSI framework no longer reports, so the vendor game profiles in /vendor/etc/power_app_cfg.xml apply again. Pure trigger, no binary patches, no policy.",
+    "author": "Jan",
+    "repoUrl": "https://github.com/nalbe/shark8-gamemode-gsi",
+    "visibility": 1
+  },
+  {
+    "name": "Shark8 SmartRefresh",
+    "description": "Fix screen tearing by keeping the MTK display low-power path out of the vblank path (mtk_drm_idlemgr no longer cycles drm_crtc_vblank_off while the HWC is waiting), and replace MTK dynamic FPS with a clean touch-driven 60/120 Hz governor. No drm_crtc_vblank churn, no waitNextVsync EINVAL bursts.",
+    "author": "jan",
+    "repoUrl": "https://github.com/nalbe/shark8-smartrefresh-gsi",
+    "visibility": 1
+  },
+  {
+    "name": "SideKey+",
+    "description": "一加三段式侧边键与音量键增强，支持上拨、上复位、下拨、下复位、音量键单击/双击/长按、音量±同时按自定义动作，支持手电筒、打开应用、链接、微信/支付宝快捷入口和自定义 Shell",
+    "author": "余生只有凄渺",
+    "repoUrl": "https://github.com/liyw0205/sidekeyplus",
+    "visibility": 1
+  },
+  {
+    "name": "SkyScene Add-on",
+    "description": "A memory management optimization module for Android platforms. Repo: https://github.com/WeirdMidas/SkySceneAddon",
+    "author": "Matt Yang (Fork: WeirdMidas)",
+    "repoUrl": "https://github.com/WeirdMidas/SkySceneAddon",
+    "visibility": 1
+  },
+  {
+    "name": "Smali Patcher Reborn",
+    "description": "Patches your own services.jar on the device at install time: hide mock location, mock without mock-app permission, allow screenshots in secure windows, plus optional high-volume warning and GNSS off. Android 10 - 17.",
+    "author": "saadnahid7",
+    "repoUrl": "https://github.com/saadnahid7/smalipatcherreborn",
+    "visibility": 1
+  },
+  {
     "name": "SMB智能同步",
     "description": "智能同步 SMB 照相馆内容。功能：自动限频降速、唤醒 Google Photos 同步、检测 UI 进度并自动锁屏。支持全局 config 配置。",
     "author": "Charles_Gool",
     "repoUrl": "https://github.com/charlesgool/smb_smart_sync",
+    "visibility": 1
+  },
+  {
+    "name": "SmoothFlow 5.0.5 Open Source",
+    "description": "面向 OPD2513 的低开销 CPU 调度模块；逐节点快照与归属校验；不修改系统分区、GPU 或厂商温控策略。",
+    "author": "硕",
+    "repoUrl": "https://github.com/shuo67713-stack/smoothflow",
+    "visibility": 1
+  },
+  {
+    "name": "SMS Forward",
+    "description": "Forward SMS via Bark/SMTP with Magisk WebUI config (Android 9+)",
+    "author": "Maksim-venus",
+    "repoUrl": "https://github.com/maksim-venus/magisk-sms-forward",
+    "visibility": 1
+  },
+  {
+    "name": "Sortify",
+    "description": "Automatically organizes your downloads into categorized folders with improved stability. Now detects and moves duplicate files into a dedicated Duplicates folder, while still skipping hidden and incomplete files for safety.",
+    "author": "xCaptaiN09",
+    "repoUrl": "https://github.com/xCaptaiN09/Sortify",
     "visibility": 1
   },
   {
@@ -728,10 +1946,115 @@
     "visibility": 1
   },
   {
+    "name": "SpeedCool",
+    "description": "SpeedCool v2.4: Otimização térmica e de desempenho adaptativa. Versão refinada com motor de aprendizado integrado, resolução de conflitos unificada e suporte i18n automático.",
+    "author": "Llucs",
+    "repoUrl": "https://github.com/Llucs/SpeedCool-Magisk-Module",
+    "visibility": 1
+  },
+  {
+    "name": "Split",
+    "description": "Per-app audio focus with a KernelSU WebUI button. Pick which apps may play over others and which behave normally. Disabling it actually restores normal focus.",
+    "author": "orev7s",
+    "repoUrl": "https://github.com/orev7s/split",
+    "visibility": 1
+  },
+  {
+    "name": "Spoof GT 50 Pro",
+    "description": "Spoof your rooted device to GT 50 Pro, unlock frame rate up to 144 😈",
+    "author": "Sabbir Senpai",
+    "repoUrl": "https://github.com/sabbirafat96/spoof-gt-50-pro",
+    "visibility": 1
+  },
+  {
+    "name": "Status Bar Guard",
+    "description": "Per-app status bar and notification shade suppression. While a checked app is in the foreground the status bar is blanked and the shade cannot drop; everything is restored elsewhere. WebUI: app list with checkboxes, master mode, live status. Config: /data/adb/statusbarguard/apps.conf",
+    "author": "Omnibot",
+    "repoUrl": "https://github.com/nadelacruz-00/status-bar-guard",
+    "visibility": 1
+  },
+  {
+    "name": "Stellar Tweaks",
+    "description": "Optimization device performance during gaming while is saving good powersaving.",
+    "author": "@kanaochar",
+    "repoUrl": "https://github.com/kanaodnd/Stellar-Tweaks",
+    "visibility": 1
+  },
+  {
+    "name": "StevenBlock",
+    "description": "🛡️ Zero-bloat systemless ad blocker • 7 lists + add-ons • Live apply • WebUI • Reboot to finish setup",
+    "author": "mikropsoft",
+    "repoUrl": "https://github.com/mikropsoft/StevenBlock",
+    "visibility": 1
+  },
+  {
+    "name": "SUSFS LKM x86_64",
+    "description": "Loads the x86_64 susfs LKM at boot on the android12-5.10 .. android17-6.18 x86_64 GKI kernels, auto-selected by kernel release (runtime-tested on the Android 16 x86_64 emulator, android15-6.6; the rest are CI-built). sus_map now also hides mappings from /proc/<pid>/pagemap on x86_64. The /proc/susfs_* control nodes follow the KernelSU su gate only ",
+    "author": "ymuuu, inforcqb",
+    "repoUrl": "https://github.com/ymuuuu/susfs4ksu-lkm-x64",
+    "visibility": 1
+  },
+  {
+    "name": "SUSFS-FOR-KERNELSU",
+    "description": "An addon root hiding service for KernelSU compiled with patched kernel source.",
+    "author": "sidex15 & simonpunk",
+    "repoUrl": "https://github.com/sidex15/susfs4ksu-module",
+    "visibility": 1
+  },
+  {
+    "name": "Swap-Disabler",
+    "description": "Simple Swap Disabler",
+    "author": "Rompelhd",
+    "repoUrl": "https://github.com/rompelhd/Swap-Disabler",
+    "visibility": 1
+  },
+  {
+    "name": "SwapBoost",
+    "description": "It improves Performance by prioritizing zRAM.",
+    "author": "yadavnikhil03",
+    "repoUrl": "https://github.com/yadavnikhil03/SwapBoost-Pro",
+    "visibility": 1
+  },
+  {
+    "name": "Systemless Adblocker",
+    "description": "An efficient adblocker based out of @gloeyisk's systemless-host module with no user interface & the lastest hosts from github@StevenBlack",
+    "author": "burhanverse",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/systemless-adblocker",
+    "visibility": 1
+  },
+  {
+    "name": "systemless hosts KernelSU module",
+    "description": "Required module to use applications such as AdAway on KernelSU(-Next) and APatch",
+    "author": "symbuzzer (avalibeyaz.com/github)",
+    "repoUrl": "https://github.com/symbuzzer/systemless-hosts-KernelSU-module",
+    "visibility": 1
+  },
+  {
+    "name": "SystemUI contacts permission fix",
+    "description": "Grant READ_CONTACTS to com.android.systemui. Fixes black screen on any display config change (SystemUI used to crash on user-info refresh during density/font reconfig).",
+    "author": "Bastet",
+    "repoUrl": "https://github.com/nalbe/shark8-systemui-contacts-fix",
+    "visibility": 1
+  },
+  {
     "name": "Tailscale Root",
     "description": "Standalone root tailscaled with WebUI, one-tap Action toggle, and svm_guard watchdog. Coexists with sing-box eBPF. Config: /data/adb/tailscale/env",
     "author": "Lxns",
     "repoUrl": "https://github.com/joinchang/tailscale-root",
+    "visibility": 1
+  },
+  {
+    "name": "TB710FU HDR fp16 client target",
+    "description": "①开机设置 debug.sf.fp16_client_target=true(修复A16 UltraHDR图片高光钳白/过曝,实机验证有效) ②预建日志文件修复 /data/system/hdrfix.log 的 EACCES(root建+chown system)。卸载模块+重启即完全回退。",
+    "author": "alittlelove",
+    "repoUrl": "https://github.com/wxz2672554287/lenovo-tab-ultrahdr-fix",
+    "visibility": 1
+  },
+  {
+    "name": "TCL Power Menu",
+    "description": "Bluetooth Power key menu for TCL Android 11: standby first, no-countdown screen off, softer reboot, shutdown.",
+    "author": "philphall",
+    "repoUrl": "https://github.com/philiphall6/tcl-power-menu-r51mt05",
     "visibility": 1
   },
   {
@@ -749,10 +2072,59 @@
     "visibility": 1
   },
   {
+    "name": "TermuxSu",
+    "description": "Full native Termux shell from any root session. Correct UID/GID/groups, SELinux domain, MCS, mount namespace. Donorless architecture.",
+    "author": "mariayuno",
+    "repoUrl": "https://github.com/mariayuno/termuxsu-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "Tethys · tailscaled",
+    "description": "Tailscale userspace daemon for Android, rooted in /data/adb/tailscale. Built from the pinned v1.98.8 android patch series (12 patches, 53 files). Device: Pixel 6 Pro (arm64-v8a).",
+    "author": "Shiori Shorekeeper",
+    "repoUrl": "https://github.com/yumamax3/tethys-tailscaled",
+    "visibility": 1
+  },
+  {
     "name": "Thor Automatic Time Zone",
     "description": "Native offline location time zone provider for the Android 13 AYN Thor",
     "author": "Darkaxt",
     "repoUrl": "https://github.com/darkaxt/thorautotimezone",
+    "visibility": 1
+  },
+  {
+    "name": "TQ Android Perf (unofficial)",
+    "description": "Runtime engine patches for Titan Quest (Android, arm64): direct calls instead of PLT, sound and short-effect caches, attack-slot, shader-uniform, ray-box and path-end-point fixes, plus native replacements for hot engine helpers (bone and attachment-point math, name-map lookups, name and string compares, class-type checks, resource bookkeeping, shad",
+    "author": "tq-android-perf contributors",
+    "repoUrl": "https://github.com/slopport/tq-android-perf",
+    "visibility": 1
+  },
+  {
+    "name": "TQ Traders & Respec (unofficial)",
+    "description": "Titan Quest (Android, arm64): summon green (gold), blue and purple (paid with items of that color) traders with items up to your level, restock any merchant, reset skills (choose masteries again) and attributes, buy magic find and a larger area of effect for your skills and pets with gold. Menu: Perf (with tq-android-perf) or Mods button. Works alo",
+    "author": "tq-android-perf contributors",
+    "repoUrl": "https://github.com/slopport/tq-traders",
+    "visibility": 1
+  },
+  {
+    "name": "Treat Wheel",
+    "description": "The wheel to reinvent the new light.",
+    "author": "ThePedroo",
+    "repoUrl": "https://github.com/PerformanC/Treat-Wheel-Zygisk",
+    "visibility": 1
+  },
+  {
+    "name": "Treble Settings su paths",
+    "description": "Provide /system/xbin/su and /system/xbin/phh-su wrappers so Phh Treble Settings \"Restart SystemUI\" button can reach root",
+    "author": "Bastet",
+    "repoUrl": "https://github.com/nalbe/shark8-treble-su-fix",
+    "visibility": 1
+  },
+  {
+    "name": "Tricky Addon - Update Target List",
+    "description": "A WebUI to conifgure tricky store target.txt",
+    "author": "KOWX712",
+    "repoUrl": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
     "visibility": 1
   },
   {
@@ -770,6 +2142,13 @@
     "visibility": 1
   },
   {
+    "name": "Turn Off Sensors",
+    "description": "Automatically turn off device sensors on boot",
+    "author": "adalyn (trans rights)",
+    "repoUrl": "https://github.com/KatelynTheStargazer/TurnOffSensors-Magisk",
+    "visibility": 1
+  },
+  {
     "name": "TVRemoteWeb",
     "description": "Phone remote, mouse drag, picture profiles, monitoring, and photo-assisted projector alignment.",
     "author": "disc0nnctd",
@@ -784,6 +2163,27 @@
     "visibility": 1
   },
   {
+    "name": "TWRP A/B Retention Script",
+    "description": "Keep TWRP installed after an A/B OTA - Flash this after each OTA has installed, but before you install Magisk to Inactive Slot from the Magisk app",
+    "author": "osm0sis @ xda-developers",
+    "repoUrl": "https://github.com/Magisk-Modules-Repo/twrp-keep",
+    "visibility": 1
+  },
+  {
+    "name": "Uperf Game Turbo",
+    "description": "❤️欢迎使用Uperf Game Turbo！使用时有问题可反馈至yinwanxi0107@gmail.com❤️///❤️Step into Enhanced Gaming with Uperf Game Turbo！If you have any questions, please send feedback to yinwanxi0107@gmail.com❤️",
+    "author": "Matt Yang（吟惋兮改）",
+    "repoUrl": "https://github.com/yinwanxi/Uperf-Game-Turbo",
+    "visibility": 1
+  },
+  {
+    "name": "USB Arsenal",
+    "description": "Composite USB gadget builder: bootable storage, USB tethering and HID from one cable.",
+    "author": "ravindu644",
+    "repoUrl": "https://github.com/ravindu644/usb-arsenal",
+    "visibility": 1
+  },
+  {
     "name": "VBMeta Disguiser",
     "description": "Disguise VBMeta properties.",
     "author": "Astoritin",
@@ -791,10 +2191,101 @@
     "visibility": 1
   },
   {
+    "name": "VBMeta Fixer",
+    "description": "Reset the VBMeta digest property with the correct boot hash to fix detection",
+    "author": "Reveny",
+    "repoUrl": "https://github.com/reveny/Android-VBMeta-Fixer",
+    "visibility": 1
+  },
+  {
     "name": "verity-guard 分区守卫",
     "description": "BL 未解锁 + 已 root 的安全防护：1 建基线 → 2 备份 → 3 检测；命令行 sh /data/adb/vg",
     "author": "dsh",
     "repoUrl": "https://github.com/1213015988/verity-guard",
+    "visibility": 1
+  },
+  {
+    "name": "Viper4-XF",
+    "description": "Viper4-XF: ViPER4Android DSP with a KernelSU WebUI. Built on the reverse-engineered ViPER4Android driver.",
+    "author": "Justus26 (maintainer), pittvandewitt, MrWhite214, Zackptg5, Martmists, Iscle, llsl, Zhuhang, ViPER520",
+    "repoUrl": "https://github.com/justadeayo/viper4-xf",
+    "visibility": 1
+  },
+  {
+    "name": "Volume Steps",
+    "description": "Tune Android volume step counts (media/alarm/system/call via props, ring/notification via a root RRO). | 调整 Android 音量阶梯数量（媒体/闹钟/系统/通信用系统属性，铃音/通知用 root RRO 叠加层）。",
+    "author": "CHANGEME",
+    "repoUrl": "https://github.com/soskn/volumesteps",
+    "visibility": 1
+  },
+  {
+    "name": "VolumePerApp",
+    "description": "Installs VolumePerApp into /system/priv-app and grants MODIFY_AUDIO_ROUTING, so the app can register an AudioPolicy and give each app its own volume fader. Also suppresses the system volume warning at boot when the app asks for it.",
+    "author": "PortableDiag",
+    "repoUrl": "https://github.com/portablediag/volumeperapp",
+    "visibility": 1
+  },
+  {
+    "name": "VPN Share Proxy",
+    "description": "Hotspot-to-VPN share proxy native daemon (Netlink FIB + netfilter) for KernelSU/Magisk.",
+    "author": "VPN Share Proxy Team",
+    "repoUrl": "https://github.com/ruyisio/vpn-share-proxy",
+    "visibility": 1
+  },
+  {
+    "name": "VPN Tether (hotspot via VPN)",
+    "description": "Tap Action once to share the phone's VPN with its hotspot clients (DNS included). A small watcher keeps the rules applied (set AUTO=0 to disable).",
+    "author": "narakai",
+    "repoUrl": "https://github.com/narakai/magisk-vpn-tether",
+    "visibility": 1
+  },
+  {
+    "name": "Vulkan HWUI renderer",
+    "description": "Enable ro.hwui.use_vulkan=true for Vulkan HWUI renderer, ships vulkaninfo",
+    "author": "Bastet",
+    "repoUrl": "https://github.com/nalbe/blackview-shark8-vulkan-hwui-patch",
+    "visibility": 1
+  },
+  {
+    "name": "Wallet Card Audit",
+    "description": "Wallet audit with import, HAL forwarding, KeyId and finish event collection.",
+    "author": "wfire06100",
+    "repoUrl": "https://github.com/wfire06100/wallet-card-audit",
+    "visibility": 1
+  },
+  {
+    "name": "watchdog",
+    "description": "Reboot after a configurable duration of screen-off inactivity.",
+    "author": "radito",
+    "repoUrl": "https://github.com/radito/watchdog",
+    "visibility": 1
+  },
+  {
+    "name": "WebView Optimizer",
+    "description": "Optimizes Android WebView using custom command-line flags and dynamic Vulkan hardware buffer detection.",
+    "author": "Lusmaysh",
+    "repoUrl": "https://github.com/lusmaysh/webview-optimizer",
+    "visibility": 1
+  },
+  {
+    "name": "WG Shield Arm64",
+    "description": "Always-on kernel WireGuard / AmneziaWG tunnel without an app, with kill switch. Status: Init",
+    "author": "Tears Burn",
+    "repoUrl": "https://github.com/nikakvo/wg-shield-arm64",
+    "visibility": 1
+  },
+  {
+    "name": "wg-user — Userspace WireGuard Proxy",
+    "description": "Auto-starts a userspace WireGuard client and exposes it as a SOCKS5/HTTP proxy on 127.0.0.1. No TUN device. Multi-arch, multi-root (KSU/Magisk/APatch). Optional wstunnel obfuscation for mobile. WebUI included.",
+    "author": "wg-user contributors",
+    "repoUrl": "https://github.com/loficore/wg-user",
+    "visibility": 1
+  },
+  {
+    "name": "Wi-Fi | 4G Enhanced v4",
+    "description": "Adaptive Android 13-16 network optimizer for Qualcomm & MediaTek devices",
+    "author": "Resbet",
+    "repoUrl": "https://github.com/mishkarala/wifi-4g-enhanced-mostly-poco-f3",
     "visibility": 1
   },
   {
@@ -819,6 +2310,20 @@
     "visibility": 1
   },
   {
+    "name": "Xiaomi Pad 5 Mouse Wheel Invert",
+    "description": "Mouse wheel direction inversion for Xiaomi Pad 5 series (local apps + UU Remote); configurable target mice; stable uinput",
+    "author": "opencode",
+    "repoUrl": "https://github.com/nosiybugs/uu-wheel-evdev",
+    "visibility": 1
+  },
+  {
+    "name": "Xiaomi Play Store Fix",
+    "description": "Fixes Google Play Store crashes, stalled downloads and high CPU on Xiaomi/HyperOS ROMs with a buggy built-in Cronet (libcronet in the Tethering APEX). Zygisk only; no Xposed/LSPosed/Vector.",
+    "author": "leapdragon",
+    "repoUrl": "https://github.com/leapdragon/xiaomiplaystorefix",
+    "visibility": 1
+  },
+  {
     "name": "Xiaomi USB Security Bypass",
     "description": "Enable \"USB debugging (Security settings)\" / \"USB install\" / fastboot on rooted MIUI without Mi account & SIM. Sets persist.security.adbinstall, persist.security.adbinput, persist.fastboot.enable to 1 on every boot so scrcpy/Total Control etc. can inject input.",
     "author": "CHERWIN",
@@ -826,10 +2331,73 @@
     "visibility": 1
   },
   {
+    "name": "Y700 English Device Name",
+    "description": "Use LenovoTab LEGION Y700 Wuji for Lenovo ROM market, MTP, and user-visible device names.",
+    "author": "yapixel",
+    "repoUrl": "https://github.com/yapixel/y700-device-name",
+    "visibility": 1
+  },
+  {
+    "name": "Yandex.DNS4Magisk - Basic",
+    "description": "Yandex DNS systemless",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/yandex-dns4magisk-basic",
+    "visibility": 1
+  },
+  {
+    "name": "Yandex.DNS4Magisk - Family",
+    "description": "Yandex DNS systemless",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/yandex-dns4magisk-family",
+    "visibility": 1
+  },
+  {
+    "name": "Yandex.DNS4Magisk - Safe",
+    "description": "Yandex DNS systemless",
+    "author": "K3V1991",
+    "repoUrl": "https://github.com/k3v1991/yandex-dns4magisk-safe",
+    "visibility": 1
+  },
+  {
+    "name": "Yet Another Bootloop Protector",
+    "description": "This module try to detect and fix bootloops caused by Magisk modules.",
+    "author": "rhythmcache.t.me",
+    "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/YetAnotherBootloopProtector",
+    "visibility": 1
+  },
+  {
     "name": "Yurikey Manager",
     "description": "A systemless module to get strong integrity so easily",
     "author": "Yurikey Dev",
     "repoUrl": "https://github.com/dpejoh/yurikey",
+    "visibility": 1
+  },
+  {
+    "name": "zapret",
+    "description": "⚡ Bypass censorship via zapret on rooted Android devices",
+    "author": "sevcator",
+    "repoUrl": "https://github.com/sevcator/zapret-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "zapret KSU",
+    "description": "zapret (nfqws1 and nfqws2) DPI bypass with nftables/iptables routing. Controlled by the zapret-ksu app. Works with KernelSU, KernelSU-Next. Untested for Magisk and APatch.",
+    "author": "soufi",
+    "repoUrl": "https://github.com/soufied/zapret-ksu",
+    "visibility": 1
+  },
+  {
+    "name": "ZNNext",
+    "description": "Standalone Zygisk Next module loader.",
+    "author": "VeryBaaad",
+    "repoUrl": "https://github.com/verybaaad/znnext",
+    "visibility": 1
+  },
+  {
+    "name": "ZRAM 16GB (Genişletilmiş RAM)",
+    "description": "zram 12->16 GB (fstab overlay) + writeback 13-16 GB fstab dosyalari. Slider icin LSPosed modulu ayri.",
+    "author": "CLENIX",
+    "repoUrl": "https://github.com/kahramanedit/redmagic-11-pro-zram-16gb-ramslider",
     "visibility": 1
   },
   {
@@ -844,6 +2412,13 @@
     "description": "为内核提供ZRAM算法支持，请勿卸载",
     "author": "ShirkNeko, xiaoxiaow, FurLC",
     "repoUrl": "https://github.com/FurLC/ZRAM-Module",
+    "visibility": 1
+  },
+  {
+    "name": "Zygisk - Frida Gadget",
+    "description": "Configurable Zygisk loader for Frida Gadget",
+    "author": "leolovenet",
+    "repoUrl": "https://github.com/leolovenet/zygisk-fridagadget",
     "visibility": 1
   },
   {
@@ -872,6 +2447,27 @@
     "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
     "author": "AlirezaParsi",
     "repoUrl": "https://github.com/AlirezaParsi/COPG",
+    "visibility": 1
+  },
+  {
+    "name": "恒温充电 (ThermoCharge)",
+    "description": "以电池温度为被控量、充电电流为控制量的恒温充电控制器。温度锁在目标值,充电功率随散热条件自动浮动。基于 mca votable 的 Min 聚合,永远不会比系统原有保护更激进。",
+    "author": "酷安@玖清雨",
+    "repoUrl": "https://github.com/luoyi0914/thermocharge",
+    "visibility": 1
+  },
+  {
+    "name": "星屑☆テレパス",
+    "description": "本地部署AdGuardHome与SmartDNS以优化网络体验。升级刷入自动保留原配置（DNS重写/黑白名单等），模块不含任何个人数据",
+    "author": "ココロスペアキー",
+    "repoUrl": "https://github.com/tsangasuna/hoshitele-dns-module",
+    "visibility": 1
+  },
+  {
+    "name": "澎湃自动化—XiaomiAutomation",
+    "description": "澎湃自动化（XiaomiAutomation）：Xiaomi 17 Pro / HyperOS 4 的 root 自动化模块，多任务定时调度 + 任意 App 录制回放 + 内置工行每日浇水。支持每周选执行日、全场录取、锁屏图案解锁，内置任务可删。纯 root 直控（sendevent/screencap/getevent），无 Hook、无 Xposed、无无障碍。WebUI 支持 KernelSU/APatch，Magisk 配 KsuWebUI 或 MMRL。内置设备档案层，换机可自动检测屏幕参数。仅供技术学习研究，与工商银行官方无任何关联。 | XiaomiAutomation: a root automation module for Xiaomi 17 Pro / HyperOS",
+    "author": "petittux",
+    "repoUrl": "https://github.com/petittux1/xiaomiautomation",
     "visibility": 1
   },
   {
