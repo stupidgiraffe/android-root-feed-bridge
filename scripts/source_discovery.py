@@ -25,7 +25,7 @@ QUERY_PER_PAGE = 45
 MAX_INDEX = 4 * 1024 * 1024
 REPOSITORY = re.compile(r"^[A-Za-z0-9-]+/[A-Za-z0-9_.-]+$")
 VERSION = 1
-SELF_REPO = "stupidgiraffe/android-root-feed-bridge"
+SELF_REPO = "stupidgiraffe/rootatlas"
 SKIP_NAME_TOKENS = ("template", "example", "demo", "installer_api_test", "gh-repo-clone")
 
 
