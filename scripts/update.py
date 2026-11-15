@@ -20,7 +20,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
-from catalog import build_discovery
+try:
+    from catalog import build_discovery
+except ModuleNotFoundError:  # when imported from the repository root in unit tests
+    from scripts.catalog import build_discovery
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = "krishna3163/best-root-apps-for-android"
