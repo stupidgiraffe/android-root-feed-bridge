@@ -21,7 +21,7 @@ class FederationTests(unittest.TestCase):
     def test_source_dedup_and_self_exclusion(self):
         config = {
             "mmrl": ["https://example.org/repo", "https://example.org/repo//",
-                     "https://raw.githubusercontent.com/stupidgiraffe/android-root-feed-bridge/main/"],
+                     "https://raw.githubusercontent.com/stupidgiraffe/rootatlas/main/"],
             "mmrl_directory": "https://example.org/list.json",
             "ksunext": [{"name": "official", "url": "https://example.org/ksu.json",
                          "enabled": True},
