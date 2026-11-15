@@ -1,6 +1,12 @@
 name: Update Root Module Feeds
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/update.yml'
   schedule:
     - cron: '17 9 * * *' # daily; about 18:17 JST
 permissions:
