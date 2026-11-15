@@ -1,5 +1,67 @@
 # Architecture and operating plan
 
+## Federated repository sources (November 2026)
+
+The unified importer lives in `scripts/federation.py`, with curated sources in
+[`sources/federation.json`](../sources/federation.json). The seed list combines
+the MMRL repository URLs recovered (read-only) from the owner's Android MMRL
+database, known public MMRL indexes, and the
+[official MMRL discovery directory](https://github.com/MMRLApp/Discovery/blob/main/json/remotes.json).
+The directory is fetched daily, so new official listings can be discovered
+without updating our configuration.
+
+KernelSU Next imports the official open-source `modules.json` and
+`meta_modules.json`. Its separate `non_free_modules.json` is deliberately
+configured **disabled**, preserving the manager's normal opt-in distinction.
+
+MMRL and KernelSU Next consume fundamentally different formats. They have
+different import URLs, but each URL combines the eligible sources for that
+manager.
+
+### Data flow and trust boundaries
+
+```text
+Best Root Apps README + GitHub Releases -> static ZIP inspection -+
+                                                                  |
+Public MMRL directory + saved MMRL feeds -> schema validation ----+-> MMRL index
+                                                                  |
+Official KSU Next OSS + metamodule manifests -> schema validation +-> KSU index
+```
+
+External MMRL modules must have typed IDs, authors, supported track types,
+version codes in Kotlin's Int range, valid HTTPS ZIP URLs, and **real numeric
+timestamps on every published version**. Invalid versions are removed; modules
+with no valid versions are excluded. Missing timestamps are never invented.
+
+Duplicate MMRL IDs resolve deterministically: higher `versionCode` wins,
+then newest release timestamp; exact ties keep the incumbent source. Catalog
+metadata initially wins ties, but can be superseded by a newer tracked
+release. Separate competing entries are recorded in
+[`federation-provenance.json`](../federation-provenance.json). KernelSU Next
+deduplicates by canonical GitHub `repoUrl`; upstream banners and licenses can
+enrich an existing entry without introducing a duplicate.
+
+Source failures preserve last-successful normalized entries in
+[`federation-state.json`](../federation-state.json). Failed sources without
+cached data are skipped rather than publishing malformed entries. When the
+official directory is unreachable, the curated seed list remains usable.
+The [live report](../report.json) includes the number of feeds fetched,
+failures and excluded malformed modules.
+
+**Security distinction:** Our Best Root Apps ZIPs undergo static module.prop
+archive inspection, but imported MMRL feeds undergo *schema validation only*.
+Their referenced ZIP archives are **not** independently downloaded, inspected,
+or trusted by federation. Official KernelSU Next manifests are imported as
+published (and may use their own compatibility requirements). This project
+does not claim the resulting ZIPs are safe to install, nor does it modify the
+Android system.
+
+Only curated MMRL seeds and the official MMRL discovery directory are ingested,
+not arbitrary web search results. The goal is a broad, maintainable catalog,
+not a claim to have indexed every root module in existence.
+
+---
+
 ## Goal and completion criteria
 
 Mirror **all catalog metadata** published by [Best Root Apps for Android](https://krishna3163.github.io/best-root-apps-for-android/) while publishing only **inspected, installable root module ZIPs** to MMRL and KernelSU Next. The original author owns all source entries, downloads and licenses. We maintain indexes only.
