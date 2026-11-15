@@ -5,7 +5,7 @@
   "description": "Original developers' GitHub release ZIPs with root-level module.prop inspected.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794747047.0
+    "timestamp": 1794750596.0
   },
   "modules": [
     {
@@ -7611,25 +7611,25 @@
     {
       "id": "sortify",
       "name": "Sortify",
-      "version": "4.0",
-      "versionCode": 10,
+      "version": "5.0",
+      "versionCode": 11,
       "author": "xCaptaiN09",
-      "description": "Automatically organizes your downloads into categorized folders with improved stability. Now detects and moves duplicate files into a dedicated Duplicates folder, while still skipping hidden and incomplete files for safety.",
+      "description": "Offline download organization with preview, content-based duplicates, custom rules, history and Undo.",
       "homepage": "https://github.com/xCaptaiN09/Sortify",
-      "size": 128000,
+      "size": 7112462,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1768845653.0,
+        "added": 1794749961.0,
         "source": "https://github.com/xCaptaiN09/Sortify"
       },
       "versions": [
         {
-          "version": "4.0",
-          "versionCode": 10,
-          "zipUrl": "https://github.com/xCaptaiN09/Sortify/releases/download/v4.0/Sortify-v4.0.zip",
-          "timestamp": 1768845653.0,
-          "size": 128000
+          "version": "5.0",
+          "versionCode": 11,
+          "zipUrl": "https://github.com/xCaptaiN09/Sortify/releases/download/v5.0/Sortify-v5.0.zip",
+          "timestamp": 1794749961.0,
+          "size": 7112462
         }
       ]
     },
@@ -9611,25 +9611,25 @@
     {
       "id": "zygisknextsu",
       "name": "ZNNext",
-      "version": "v2.18.0 (406-a5d3ce6-release)",
-      "versionCode": 406,
+      "version": "v2.18.0.1 (409-14c2bdd-release)",
+      "versionCode": 409,
       "author": "VeryBaaad",
       "description": "Standalone Zygisk Next module loader.",
       "homepage": "https://github.com/verybaaad/znnext",
-      "size": 11368756,
+      "size": 6148462,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794738738.0,
+        "added": 1794747577.0,
         "source": "https://github.com/verybaaad/znnext"
       },
       "versions": [
         {
-          "version": "v2.18.0 (406-a5d3ce6-release)",
-          "versionCode": 406,
-          "zipUrl": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0/ZNNext-v2.18.0-406-a5d3ce6-release.zip",
-          "timestamp": 1794738738.0,
-          "size": 11368756
+          "version": "v2.18.0.1 (409-14c2bdd-release)",
+          "versionCode": 409,
+          "zipUrl": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.1/ZNNext-v2.18.0.1-409-14c2bdd-release.zip",
+          "timestamp": 1794747577.0,
+          "size": 6148462
         }
       ]
     },
