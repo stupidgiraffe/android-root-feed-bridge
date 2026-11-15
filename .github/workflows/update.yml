@@ -1,4 +1,4 @@
-name: Update Root Module Feeds
+name: Update RootAtlas Module Feeds
 on:
   workflow_dispatch:
   push:
@@ -44,5 +44,5 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/root-feed-banner.jpg json/modules.json json/config.json ksu/modules.json discovery.json report.json state.json federation-state.json federation-provenance.json
+          git add assets/root-feed-banner.jpg json/modules.json json/config.json ksu/modules.json discovery.json report.json state.json federation-state.json federation-provenance.json source-discovery-state.json
           git diff --cached --quiet || (git commit -m 'chore: refresh verified root module feeds' && git push)
