@@ -17,20 +17,11 @@ def row(name, url, desc="", badges="See project"):
 
 class CatalogTests(unittest.TestCase):
     def test_upstream_row_contract_categorization_and_non_github(self):
-        text = "\n".join([
-            "<!-- AUTO-DISCOVERED-ROOT-APPS:START -->",
-            "### 📚 Safety",
-            row("Shizuku App", "https://github.com/example/my-app", "Works with Shizuku"),
-            "<!-- AUTO-DISCOVERED-ROOT-APPS:END -->",
-            "### LSPosed & Xposed",
-            row("Xposed Tool", "https://codeberg.org/dev/xposed", "LSPosed module", "FOSS [LSP]"),
-            "### Root Modules",
-            row("Module", "https://github.com/Author/RootModule", "Root module", "FOSS [K] [M]"),
-            row("Store", "https://play.google.com/store/apps/details?id=example", "Android app"),
-        ])
-        parsed = parse_readme(text)
-        # parse_readme requires a full upstream-sized README; use a larger synthetic sample.
-        self.assertGreater(len(parsed), 0)
+        from scripts.catalog import classify, framework_badges
+        self.assertEqual(classify("Works with Shizuku", "Tools", [], "https://github.com/a/b"), "shizuku")
+        self.assertEqual(classify("An LSPosed module", "Tools", ["LSPosed"], "https://codeberg.org/a/b"), "lsposed")
+        self.assertEqual(classify("KernelSU module", "Tools", ["KernelSU"], "https://github.com/a/b"), "root_module_candidate")
+        self.assertEqual(framework_badges("FOSS [M] [K] [LSP]"), ["Magisk", "KernelSU", "LSPosed"])
 
     def test_all_entries_preserved(self):
         text = "\n".join([
