@@ -4,7 +4,8 @@
     "description": "KernelSU module with SuSFS support and more",
     "author": "rrr333nnn333, simonpunk, KOWX712",
     "repoUrl": "https://github.com/rrr333nnn333/BRENE",
-    "visibility": 1
+    "visibility": 1,
+    "license": "AGPL-3.0"
   },
   {
     "name": "2.051 iOS Emoji font",
@@ -305,7 +306,8 @@
     "description": "Systemless hosts for APatch, KernelSU and Magisk",
     "author": "xx, KOWX712",
     "repoUrl": "https://github.com/bindhosts/bindhosts",
-    "visibility": 1
+    "visibility": 1,
+    "license": "WTFPL"
   },
   {
     "name": "Black Color Glow Fix (marble, A17)",
@@ -362,6 +364,14 @@
     "author": "CHIZI-0618",
     "repoUrl": "https://github.com/CHIZI-0618/box4magisk",
     "visibility": 1
+  },
+  {
+    "name": "BreZygisk",
+    "description": "A ReZygisk Fork - Transparent implementation of Zygisk.",
+    "author": "rrr333nnn333 & The PerformanC Organization",
+    "repoUrl": "https://github.com/rrr333nnn333/BreZygisk",
+    "visibility": 1,
+    "license": "AGPL-3.0"
   },
   {
     "name": "CallBridge",
@@ -571,7 +581,8 @@
     "description": "A simple WebUI Module to change SSAID/DeviceID on Rooted Android Devices with Apatch, KSU (And its forks), or Magisk.",
     "author": "sidex15",
     "repoUrl": "https://github.com/sidex15/deviceidchanger",
-    "visibility": 1
+    "visibility": 1,
+    "license": "AGPL-3.0"
   },
   {
     "name": "Dirac Universal - Port from Oplus Ossi",
@@ -704,7 +715,9 @@
     "description": "Special performance module for your Device.",
     "author": "Rem01Gaming",
     "repoUrl": "https://github.com/Rem01Gaming/encore",
-    "visibility": 1
+    "visibility": 1,
+    "bannerUrl": "https://encore.rem01gaming.dev/ogp/default.webp",
+    "license": "Apache-2.0"
   },
   {
     "name": "Extra Dim (Android 8-17+)",
@@ -824,6 +837,14 @@
     "author": "AyusmanNanda",
     "repoUrl": "https://github.com/ayusmannanda/fridamanager",
     "visibility": 1
+  },
+  {
+    "name": "Frida Server for KernelSU",
+    "description": "Runs the official Frida Server under a Rust supervisor, with a Material 3 WebUI",
+    "author": "MiChongs",
+    "repoUrl": "https://github.com/MiChongs/Frida-RS",
+    "visibility": 1,
+    "license": "Unknown"
   },
   {
     "name": "Frosty - Battery Saver",
@@ -1022,11 +1043,27 @@
     "visibility": 1
   },
   {
+    "name": "HMA-OSS",
+    "description": "A Zygisk backend for HMA-OSS",
+    "author": "frknkrc44",
+    "repoUrl": "https://github.com/frknkrc44/HMA-OSS",
+    "visibility": 1,
+    "license": "AGPL-3.0"
+  },
+  {
     "name": "Honor LSPosed System Scope Fix",
     "description": "Fixes LSPosed v2 system-scope modules not injecting into system_server on Honor MagicOS 10 (Android 16 / LDY-AN00). Root cause: Honor PackageParser calls ActivityManager.isSystemReady() via HnPackageUtils, which NPEs inside the lspd daemon (ActivityManagerInternal == null), causing system-scope modules to be silently dropped from the system_server ",
     "author": "mengwuzhuanshou",
     "repoUrl": "https://github.com/mengwuzhuanshou/honorlsposedfix",
     "visibility": 1
+  },
+  {
+    "name": "Hybrid Mount",
+    "description": "Next Generation Mounting Metamodule with OverlayFS and Magic Mount",
+    "author": "Hybrid Mount Developers",
+    "repoUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount",
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "Hybrid Mount",
@@ -1089,7 +1126,9 @@
     "description": "Unlock high-end Xiaomi features on all of your Xiaomi devices!",
     "author": "ukriu",
     "repoUrl": "https://github.com/ukriu/HyperUnlocked",
-    "visibility": 1
+    "visibility": 1,
+    "bannerUrl": "https://raw.githubusercontent.com/ukriu/HyperUnlocked/refs/heads/main/banner/HyperUnlockedBanner.png",
+    "license": "GPL-3.0"
   },
   {
     "name": "I Don't Want To Catch Up",
@@ -1197,6 +1236,14 @@
     "visibility": 1
   },
   {
+    "name": "KernelSU Toolkit",
+    "description": "Small extensions on top of KernelSU v3. Mostly for debugging purposes",
+    "author": "xx, KOWX712",
+    "repoUrl": "https://github.com/rifsxd/ksu_toolkit",
+    "visibility": 1,
+    "license": "Unlicense"
+  },
+  {
     "name": "KernelSU Tuner",
     "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
     "author": "ylh440104",
@@ -1222,7 +1269,9 @@
     "description": "Standalone implementation of KPM support for Magisk/KernelSU",
     "author": "rifsxd, KOWX712",
     "repoUrl": "https://github.com/KernelSU-Next/KPatch-Next-Module",
-    "visibility": 1
+    "visibility": 1,
+    "bannerUrl": "https://raw.githubusercontent.com/KernelSU-Next/KPatch-Next-Module/main/module/banner.png",
+    "license": "GPL-3.0"
   },
   {
     "name": "LAN Cloak Arm64",
@@ -1306,7 +1355,8 @@
     "description": "An implementation of a metamodule using Magic Mount",
     "author": "7a72",
     "repoUrl": "https://github.com/KernelSU-Modules-Repo/meta-mm",
-    "visibility": 1
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "MagicalProtection",
@@ -1337,6 +1387,14 @@
     "visibility": 1
   },
   {
+    "name": "MagiskFrida",
+    "description": "Run frida-server on boot, always up-to-date",
+    "author": "ViRb3",
+    "repoUrl": "https://github.com/ViRb3/magisk-frida",
+    "visibility": 1,
+    "license": "Unknown"
+  },
+  {
     "name": "MagiskWiFiADB",
     "description": "A module that maintains ADB availability.",
     "author": "mrh929",
@@ -1363,6 +1421,23 @@
     "author": "qvq9999",
     "repoUrl": "https://github.com/qvq9999/memkeep",
     "visibility": 1
+  },
+  {
+    "name": "Meta Magic Mount RS",
+    "description": "An implementation of a metamodule using Magic Mount (Rust)",
+    "author": "7a72, Tools-cx-app, YuzakiKokuban",
+    "repoUrl": "https://github.com/Tools-cx-app/meta-magic_mount-rs",
+    "visibility": 1,
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "MFGA",
+    "description": "System-wide Font Overrider with Unique GMS Masking & Multi-Range Unicode Filter",
+    "author": "Numbersf",
+    "repoUrl": "https://github.com/Numbersf/MakeFontsGreatAgain",
+    "visibility": 1,
+    "bannerUrl": "https://raw.githubusercontent.com/Numbersf/MakeFontsGreatAgain/main/banner.png",
+    "license": "OFL-1.1"
   },
   {
     "name": "MicFix Speaker-Mic TX (v1.2)",
@@ -1460,7 +1535,8 @@
     "description": "Globally mounted modules via OverlayFS.",
     "author": "xx, KOWX712",
     "repoUrl": "https://github.com/backslashxx/mountify",
-    "visibility": 1
+    "visibility": 1,
+    "license": "Unlicense"
   },
   {
     "name": "MoveCertificate",
@@ -1489,6 +1565,14 @@
     "author": "DanGLES3",
     "repoUrl": "https://github.com/Magisk-Modules-Alt-Repo/HideNavBar",
     "visibility": 1
+  },
+  {
+    "name": "NeoZygisk",
+    "description": "Zygote injection with ptrace",
+    "author": "JingMatrix",
+    "repoUrl": "https://github.com/JingMatrix/NeoZygisk",
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "Net Switch",
@@ -1524,6 +1608,14 @@
     "author": "ymuu",
     "repoUrl": "https://github.com/ymuuuu/noemulator",
     "visibility": 1
+  },
+  {
+    "name": "NoMount",
+    "description": "A metamodule that replaces OverlayFS/MagicMount with VFS path redirection.",
+    "author": "maxsteeel",
+    "repoUrl": "https://github.com/maxsteeel/nomount",
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "NoMount-kpm",
@@ -1568,6 +1660,14 @@
     "visibility": 1
   },
   {
+    "name": "OhMyKeymint",
+    "description": "Custom keystore implementation for Android Keystore Spoofer",
+    "author": "James Clef",
+    "repoUrl": "https://github.com/qwq233/OhMyKeymint",
+    "visibility": 1,
+    "license": "AGPL-3.0"
+  },
+  {
     "name": "OnePlus 15 BeiDou GNSS Guard",
     "description": "Repairs both Qualcomm GNSS EFS masks to 0x5905 and reloads GNSS after SIM/eSIM changes. CPH2749/24863 only.",
     "author": "christuo-dev",
@@ -1593,7 +1693,8 @@
     "description": "An implementation of a metamodule using OverlayFS for KernelSU",
     "author": "KernelSU Developers",
     "repoUrl": "https://github.com/KernelSU-Modules-Repo/meta-overlayfs",
-    "visibility": 1
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "Oxygen OS + GMS optimiser",
@@ -1712,14 +1813,16 @@
     "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
     "author": "chiteroman, KOWX712",
     "repoUrl": "https://github.com/KOWX712/PlayIntegrityFix",
-    "visibility": 1
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "Play Integrity Fork",
     "description": "Fix Play Integrity <A13 verdicts and Google Wallet/RCS on Android 7+",
     "author": "osm0sis & chiteroman @ xda-developers",
     "repoUrl": "https://github.com/osm0sis/PlayIntegrityFork",
-    "visibility": 1
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "playcurlNEXT",
@@ -1817,7 +1920,9 @@
     "description": "A fully-fledged ad-block module. Contains all your needs ✨",
     "author": "ZG089",
     "repoUrl": "https://github.com/ZG089/Re-Malwack",
-    "visibility": 1
+    "visibility": 1,
+    "bannerUrl": "https://raw.githubusercontent.com/ZG089/Re-Malwack/main/module/banner.png",
+    "license": "GPL-3.0"
   },
   {
     "name": "Redmi Note 14 Pro 4G Statusbar Height Fix",
@@ -1846,6 +1951,14 @@
     "author": "ahmed-alnassif",
     "repoUrl": "https://github.com/ahmed-alnassif/resusfs",
     "visibility": 1
+  },
+  {
+    "name": "ReZygisk",
+    "description": "Standalone implementation of Zygisk",
+    "author": "The PerformanC Organization",
+    "repoUrl": "https://github.com/PerformanC/ReZygisk",
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "RootfulViPER4Android engine",
@@ -2034,7 +2147,9 @@
     "description": "An addon root hiding service for KernelSU compiled with patched kernel source.",
     "author": "sidex15 & simonpunk",
     "repoUrl": "https://github.com/sidex15/susfs4ksu-module",
-    "visibility": 1
+    "visibility": 1,
+    "bannerUrl": "https://raw.githubusercontent.com/sidex15/susfs4ksu-module/v1.5.2%2B/banner.png",
+    "license": "AGPL-3.0"
   },
   {
     "name": "Swap-Disabler",
@@ -2107,6 +2222,14 @@
     "visibility": 1
   },
   {
+    "name": "TEESimulator",
+    "description": "Software simulation for Android hardware-backed key pairs with key attestation",
+    "author": "JingMatrix",
+    "repoUrl": "https://github.com/JingMatrix/TEESimulator",
+    "visibility": 1,
+    "license": "GPL-3.0"
+  },
+  {
     "name": "Termux Root Modifications",
     "description": "Termux Root Modifications - The Way It Should Be",
     "author": "Rompelhd 🥵",
@@ -2174,7 +2297,8 @@
     "description": "A WebUI to conifgure tricky store target.txt",
     "author": "KOWX712",
     "repoUrl": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
-    "visibility": 1
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "Tricky Store",
@@ -2252,6 +2376,14 @@
     "author": "Reveny",
     "repoUrl": "https://github.com/reveny/Android-VBMeta-Fixer",
     "visibility": 1
+  },
+  {
+    "name": "Vector (LSP)",
+    "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 16",
+    "author": "JingMatrix and LSPosed Developers",
+    "repoUrl": "https://github.com/JingMatrix/Vector",
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "verity-guard 分区守卫",
@@ -2422,6 +2554,15 @@
     "visibility": 1
   },
   {
+    "name": "Yuri Keybox Manager",
+    "description": "A systemless module to get strong integrity so easily",
+    "author": "Yuri, Tam and Yurikey Developers",
+    "repoUrl": "https://github.com/Yurii0307/yurikey",
+    "visibility": 1,
+    "bannerUrl": "https://raw.githubusercontent.com/Yurii0307/yurikey/main/doc/banner.webp",
+    "license": "GPL-3.0"
+  },
+  {
     "name": "Yurikey Manager",
     "description": "A systemless module to get strong integrity so easily",
     "author": "Yurikey Dev",
@@ -2448,6 +2589,14 @@
     "author": "soufi",
     "repoUrl": "https://github.com/soufied/zapret-ksu",
     "visibility": 1
+  },
+  {
+    "name": "ZeroMount",
+    "description": "Mountless VFS-level redirection with OverlayFS and Magic Mount fallback. SUSFS integration, WebUI, bootloop guard.",
+    "author": "Enginex0",
+    "repoUrl": "https://github.com/Enginex0/zeromount",
+    "visibility": 1,
+    "license": "GPL-3.0"
   },
   {
     "name": "ZNNext",
@@ -2510,14 +2659,17 @@
     "description": "Detaches installed apps from Play Store",
     "author": "j-hc",
     "repoUrl": "https://github.com/j-hc/zygisk-detach",
-    "visibility": 1
+    "visibility": 1,
+    "license": "Apache-2.0"
   },
   {
     "name": "✨ COPG SPOOF ✨",
     "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
     "author": "AlirezaParsi",
     "repoUrl": "https://github.com/AlirezaParsi/COPG",
-    "visibility": 1
+    "visibility": 1,
+    "bannerUrl": "https://raw.githubusercontent.com/AlirezaParsi/COPG/JSON/banner.png",
+    "license": "Apache-2.0"
   },
   {
     "name": "恒温充电 (ThermoCharge)",

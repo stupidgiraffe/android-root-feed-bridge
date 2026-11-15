@@ -1,0 +1,3792 @@
+{
+  "module_origins": {
+    "brene": {
+      "kind": "catalog",
+      "url": "https://github.com/rrr333nnn333/BRENE"
+    },
+    "iOS_Emoji_KSU": {
+      "kind": "catalog",
+      "url": "https://github.com/n4bi10p/Ios-emoji"
+    },
+    "mffm_runtime": {
+      "kind": "catalog",
+      "url": "https://github.com/mistu01/mffmv14"
+    },
+    "asoul_affinity_opt": {
+      "kind": "catalog",
+      "url": "https://github.com/nakixii/Magisk_AsoulOpt"
+    },
+    "auto_cache_cleaner": {
+      "kind": "catalog",
+      "url": "https://github.com/raafi-abir/acc-automatic-cache-cleaner"
+    },
+    "adb_tcpip_boot": {
+      "kind": "catalog",
+      "url": "https://github.com/nightmean/android-adb-over-tcp-at-boot"
+    },
+    "adb_wifi": {
+      "kind": "catalog",
+      "url": "https://github.com/nalbe/shark8-adb-wifi-lan-persistent"
+    },
+    "adb_root": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "AdGuardDNS4Magisk-Family": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/adguarddns4magisk-family"
+    },
+    "AdGuardHome": {
+      "kind": "catalog",
+      "url": "https://github.com/twoone-3/AdGuardHomeForRoot"
+    },
+    "acc": {
+      "kind": "catalog",
+      "url": "https://github.com/VR-25/acc"
+    },
+    "aiagent": {
+      "kind": "catalog",
+      "url": "https://github.com/zafxyra/zafxyragent"
+    },
+    "aktune": {
+      "kind": "catalog",
+      "url": "https://github.com/iodn/android-kernel-tweaker"
+    },
+    "alioth_loud": {
+      "kind": "catalog",
+      "url": "https://github.com/hrishi2861/alioth-loud"
+    },
+    "altdb": {
+      "kind": "catalog",
+      "url": "https://github.com/dr-tsng/altdb"
+    },
+    "com.chiller3.alterinstaller": {
+      "kind": "catalog",
+      "url": "https://github.com/chenxiaolong/AlterInstaller"
+    },
+    "trustusercerts": {
+      "kind": "catalog",
+      "url": "https://github.com/NVISOsecurity/AlwaysTrustUserCerts"
+    },
+    "AnalyticsDisabler": {
+      "kind": "catalog",
+      "url": "https://github.com/ddceka/android-analytics-disabler"
+    },
+    "android_black_on_pink_boot_qmg": {
+      "kind": "catalog",
+      "url": "https://github.com/John0n1/SMbootFX"
+    },
+    "android-bridge": {
+      "kind": "catalog",
+      "url": "https://github.com/ravindu644/android-bridge"
+    },
+    "pppoe-enabler": {
+      "kind": "catalog",
+      "url": "https://github.com/brill594/pppoe_for_android"
+    },
+    "android-sshd": {
+      "kind": "catalog",
+      "url": "https://github.com/aethermagee/android-sshd"
+    },
+    "android_tweaker": {
+      "kind": "catalog",
+      "url": "https://github.com/c0d3h01/androidtweaker"
+    },
+    "abootloop": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "Any_CA": {
+      "kind": "catalog",
+      "url": "https://github.com/rgws-liulai/any_ca"
+    },
+    "AnyKeybox_module": {
+      "kind": "catalog",
+      "url": "https://github.com/rgws-liulai/anykeybox_module"
+    },
+    "aod-battery-saver-override": {
+      "kind": "catalog",
+      "url": "https://github.com/mirsella/aod-battery-saver-override"
+    },
+    "apex_apps": {
+      "kind": "catalog",
+      "url": "https://github.com/privshell/apex-apps"
+    },
+    "system_app_nuker": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "AppOpt": {
+      "kind": "catalog",
+      "url": "https://github.com/cinitdev/appopt"
+    },
+    "AshLooper": {
+      "kind": "catalog",
+      "url": "https://github.com/RipperHybrid/AshLooper"
+    },
+    "audio-jitter-silencer": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "audio-misc-settings": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "audio-samplerate-changer": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Aurora": {
+      "kind": "catalog",
+      "url": "https://github.com/Tkocean/Aurora"
+    },
+    "auto_create_app_storage": {
+      "kind": "catalog",
+      "url": "https://github.com/gjr787878/auto-create-app-storage"
+    },
+    "Clear_Rubbish": {
+      "kind": "catalog",
+      "url": "https://github.com/S123123sd/SmartClear"
+    },
+    "axion_recents": {
+      "kind": "catalog",
+      "url": "https://github.com/l3fel/axionrecents"
+    },
+    "eng_ahmed_yasir_screen_gov": {
+      "kind": "catalog",
+      "url": "https://github.com/ahmedyasir2023/ay-lightning-pro"
+    },
+    "AZenith": {
+      "kind": "catalog",
+      "url": "https://github.com/Liliya2727/AZenith"
+    },
+    "appslayer": {
+      "kind": "catalog",
+      "url": "https://github.com/UNKNUW/Background-App-Slayer"
+    },
+    "bg_keepalive": {
+      "kind": "catalog",
+      "url": "https://github.com/cpufreestyle/bg-keepalive"
+    },
+    "clean": {
+      "kind": "catalog",
+      "url": "https://github.com/WeirdMidas/BasicCleaner"
+    },
+    "batteryhoney": {
+      "kind": "catalog",
+      "url": "https://github.com/kaminarich/BatteryHoney"
+    },
+    "com.chiller3.bcr": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "beszel-agent": {
+      "kind": "catalog",
+      "url": "https://github.com/lordarrin/beszel-agent-magisk"
+    },
+    "BetterKnownInstalled": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "bfr_webui_go": {
+      "kind": "catalog",
+      "url": "https://github.com/latifangren/bfr-webui-go"
+    },
+    "bindhosts": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "BlackGlowFixMarble": {
+      "kind": "catalog",
+      "url": "https://github.com/sakthibalank-f/marble-poco-f5-black-glow-fix"
+    },
+    "SH_Blocker": {
+      "kind": "catalog",
+      "url": "https://github.com/pantsufan/Magisk-Ad-Blocking-Module"
+    },
+    "bootanimation-module-ronux": {
+      "kind": "catalog",
+      "url": "https://github.com/readonlynux/bootanimation-module"
+    },
+    "bootloop-protection": {
+      "kind": "catalog",
+      "url": "https://github.com/hafiezanarman/bootloop-protection-v1.1"
+    },
+    "box_for_root": {
+      "kind": "catalog",
+      "url": "https://github.com/taamarin/box_for_magisk"
+    },
+    "mbox": {
+      "kind": "catalog",
+      "url": "https://github.com/xrz324/mbox-ksu"
+    },
+    "box4": {
+      "kind": "catalog",
+      "url": "https://github.com/CHIZI-0618/box4magisk"
+    },
+    "callbridge": {
+      "kind": "catalog",
+      "url": "https://github.com/moscow146/callbridge"
+    },
+    "camx_fullsize": {
+      "kind": "catalog",
+      "url": "https://github.com/kailashrs/camx-fullsize"
+    },
+    "caros-switcher": {
+      "kind": "catalog",
+      "url": "https://github.com/doezer/caros-profile-switcher"
+    },
+    "catcore_multitask_root": {
+      "kind": "catalog",
+      "url": "https://github.com/ctrl-mietze/cathook-multitask-launcher"
+    },
+    "cert-fixer": {
+      "kind": "catalog",
+      "url": "https://github.com/pwnlogs/cert-fixer"
+    },
+    "chargingbypass_miatoll": {
+      "kind": "catalog",
+      "url": "https://github.com/AbhishekTor55/charging-bypass-magisk"
+    },
+    "chroot-distro": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "cj7x_mlbb_boost": {
+      "kind": "catalog",
+      "url": "https://github.com/hafiezanarman/cj7x-mlbb-boost-universal-v1.1.0"
+    },
+    "clear_by_skypin": {
+      "kind": "catalog",
+      "url": "https://github.com/skypin969/clear-by-skypin"
+    },
+    "wipe_cache": {
+      "kind": "catalog",
+      "url": "https://github.com/FLYCOM-E/ClearBox"
+    },
+    "cliproxyapi": {
+      "kind": "catalog",
+      "url": "https://github.com/as-tsaqib/cliproxyapi-module"
+    },
+    "cli_proxy_api": {
+      "kind": "catalog",
+      "url": "https://github.com/thoitiettxl-cyber/cli-proxy-api"
+    },
+    "cloudflared": {
+      "kind": "catalog",
+      "url": "https://github.com/alexdev404/cloudflared-magisk"
+    },
+    "cmf_stereo": {
+      "kind": "catalog",
+      "url": "https://github.com/dr-essence/cmf-true-stereo"
+    },
+    "codex_android": {
+      "kind": "catalog",
+      "url": "https://github.com/masitankitavim-ux/codex-android"
+    },
+    "codm_s23_120": {
+      "kind": "catalog",
+      "url": "https://github.com/ajfiles/call-of-duty-mobile-120fps-magisk"
+    },
+    "coloros_plugin_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/Mods-Center/ColorOS_Control_Center"
+    },
+    "Comodo_SecureDNS4Magisk": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/comodo-securedns4magisk"
+    },
+    "COPG-VD": {
+      "kind": "catalog",
+      "url": "https://github.com/VD171/COPG-VD"
+    },
+    "Quantom_Cpu_Limiter": {
+      "kind": "catalog",
+      "url": "https://github.com/Quantom2/Realme-GT3-neo5-CPU-limiter"
+    },
+    "crdroid_a16_skip_lockscreen": {
+      "kind": "catalog",
+      "url": "https://github.com/zarkentroska/crdroid-a16-skip-lockscreen"
+    },
+    "crond4android": {
+      "kind": "catalog",
+      "url": "https://github.com/powerAn2020/crond4android"
+    },
+    "cubic-adblock": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "Custom-Certificate-Authorities": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "custom-certificates": {
+      "kind": "catalog",
+      "url": "https://github.com/YujiaCheng1996/custom-certificates"
+    },
+    "custom-min-brightness": {
+      "kind": "catalog",
+      "url": "https://github.com/ritikthakur22/brightnesscontrol"
+    },
+    "damon_reclaim_off": {
+      "kind": "catalog",
+      "url": "https://github.com/nalbe/shark8-damon-reclaim-off"
+    },
+    "debdroid": {
+      "kind": "catalog",
+      "url": "https://github.com/NICUP14/DebDroid"
+    },
+    "deepdoze_enforcer": {
+      "kind": "catalog",
+      "url": "https://github.com/azyrn/deepdoze-enforcer"
+    },
+    "DeepSuppressor": {
+      "kind": "catalog",
+      "url": "https://github.com/Aurora-Nasa-1/DeepSuppressor"
+    },
+    "device_faker": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "deviceidchanger": {
+      "kind": "catalog",
+      "url": "https://github.com/sidex15/deviceidchanger"
+    },
+    "dirac_universal": {
+      "kind": "catalog",
+      "url": "https://github.com/talgorhythmic/dirac-universal-magisk-module"
+    },
+    "dirtysepbypass": {
+      "kind": "catalog",
+      "url": "https://github.com/flipphoneguy/DirtySepolicy_Bypass"
+    },
+    "disable_default_game_frame_rate": {
+      "kind": "catalog",
+      "url": "https://github.com/justmlc4real/disable-default-game-frame-rate"
+    },
+    "disable-fuse-bpf": {
+      "kind": "catalog",
+      "url": "https://github.com/danish3311/disable-fuse-bpf"
+    },
+    "disable-low-ram": {
+      "kind": "catalog",
+      "url": "https://github.com/Magisk-Modules-Alt-Repo/disable-low-ram"
+    },
+    "touchscreen_backlight_disabler": {
+      "kind": "catalog",
+      "url": "https://github.com/1ndevelopment/foxxd_a67l_touch_backlight_disabler"
+    },
+    "DNS_WATCH4Magisk": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/dns.watch4magisk"
+    },
+    "dnscrypt-proxy-webui": {
+      "kind": "catalog",
+      "url": "https://github.com/gasciljh/dnscrypt-proxy-webui"
+    },
+    "dnsresolve": {
+      "kind": "catalog",
+      "url": "https://github.com/gegedevs/dnsresolve-termux"
+    },
+    "dockerd": {
+      "kind": "catalog",
+      "url": "https://github.com/mgksu/dockerd"
+    },
+    "doze_aod_wallpaper": {
+      "kind": "catalog",
+      "url": "https://github.com/xpasha/dozeaodwallpaper"
+    },
+    "dozedisabler": {
+      "kind": "catalog",
+      "url": "https://github.com/draumaz/dozedisabler"
+    },
+    "sshserverpwd": {
+      "kind": "catalog",
+      "url": "https://github.com/ayoubvvch/sshserver-magisk"
+    },
+    "dropbear-ksu": {
+      "kind": "catalog",
+      "url": "https://github.com/2ertwo6/dropbear-ssh-android-module"
+    },
+    "dsp_audio_fix": {
+      "kind": "catalog",
+      "url": "https://github.com/ahmed-alnassif/DSP-AudioFix"
+    },
+    "duckmock": {
+      "kind": "catalog",
+      "url": "https://github.com/bouteillepleine/duckmock"
+    },
+    "duraspeed-off": {
+      "kind": "catalog",
+      "url": "https://github.com/ovehbe/duraspeed-off"
+    },
+    "DynamicSystemTweaks": {
+      "kind": "catalog",
+      "url": "https://github.com/PS2ClassicsVault/Dynamic-System-Tweaks-Magisk-Module"
+    },
+    "easytier_personal": {
+      "kind": "catalog",
+      "url": "https://github.com/mizuno-sachiko/easytier-magisk"
+    },
+    "encore": {
+      "kind": "catalog",
+      "url": "https://github.com/Rem01Gaming/encore"
+    },
+    "extradim": {
+      "kind": "catalog",
+      "url": "https://github.com/shivrajtode/extradim-magisk"
+    },
+    "extremegmsdoze": {
+      "kind": "catalog",
+      "url": "https://github.com/Skyghost090/Extreme-Gms-Doze"
+    },
+    "falcon_integrity_fix": {
+      "kind": "catalog",
+      "url": "https://github.com/ahmed2111x/falcon_integrity_fix"
+    },
+    "FastAnimation": {
+      "kind": "catalog",
+      "url": "https://github.com/sabbirafat96/fast-animation-stable-fps-"
+    },
+    "fastcharge-next": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "flagsecurepatcher": {
+      "kind": "catalog",
+      "url": "https://github.com/j-hc/FlagSecurePatcher"
+    },
+    "flclash_vpn_fix": {
+      "kind": "catalog",
+      "url": "https://github.com/fouc3-mirror/hyperos-flclash-vpn-fix"
+    },
+    "flip3_cover": {
+      "kind": "catalog",
+      "url": "https://github.com/meetox80/zflip3"
+    },
+    "FODFixObsidian": {
+      "kind": "catalog",
+      "url": "https://github.com/moloo4ni/fod-fix-obsidian"
+    },
+    "UnFont": {
+      "kind": "catalog",
+      "url": "https://github.com/ethanm6/google-sans-flex-magisk"
+    },
+    "font-loader": {
+      "kind": "catalog",
+      "url": "https://github.com/JingMatrix/FontLoader"
+    },
+    "StylizeText": {
+      "kind": "catalog",
+      "url": "https://github.com/RipperHybrid/FontCraft"
+    },
+    "force_dns_cf": {
+      "kind": "catalog",
+      "url": "https://github.com/LuferOS/forcedns_Magisk-kernelsu"
+    },
+    "force_skiavk": {
+      "kind": "catalog",
+      "url": "https://github.com/silvertax/force-skiavk"
+    },
+    "forge_git": {
+      "kind": "catalog",
+      "url": "https://github.com/privshell/forge-git"
+    },
+    "FOXXD_A67L_CallFix": {
+      "kind": "catalog",
+      "url": "https://github.com/1ndevelopment/unisoc_gsi_callfix"
+    },
+    "remove_fps_limits_69fps": {
+      "kind": "catalog",
+      "url": "https://github.com/Mods-Center/FPS-Limitation-Patcher"
+    },
+    "turnip-mesa": {
+      "kind": "catalog",
+      "url": "https://github.com/v3kt0r-87/mesa-turnip-builder"
+    },
+    "frida_magisk": {
+      "kind": "catalog",
+      "url": "https://github.com/xjoker/frida-magisk"
+    },
+    "fridamanager": {
+      "kind": "catalog",
+      "url": "https://github.com/ayusmannanda/fridamanager"
+    },
+    "Frosty": {
+      "kind": "catalog",
+      "url": "https://github.com/Drsexo/Frosty"
+    },
+    "privacyguard": {
+      "kind": "catalog",
+      "url": "https://github.com/vip-svip/sy"
+    },
+    "gnewscontrol": {
+      "kind": "catalog",
+      "url": "https://github.com/mango0oo/G-News-Control"
+    },
+    "g750-boost": {
+      "kind": "catalog",
+      "url": "https://github.com/jun430/g750-boost"
+    },
+    "galaxy-multiuser": {
+      "kind": "catalog",
+      "url": "https://github.com/elvex10/galaxy-multiuser"
+    },
+    "gxr_window_curvature": {
+      "kind": "catalog",
+      "url": "https://github.com/bluescorpiovr/galaxyxr-modules"
+    },
+    "force_120hz_x1s": {
+      "kind": "catalog",
+      "url": "https://github.com/cameleonnbss/galaxyhz"
+    },
+    "gs_guard": {
+      "kind": "catalog",
+      "url": "https://github.com/youtiaoll1745055735-afk/gameshield"
+    },
+    "gemini_default_assistant_keeper": {
+      "kind": "catalog",
+      "url": "https://github.com/arimacose/keep_default_assistant_as_gemini"
+    },
+    "gifboot": {
+      "kind": "catalog",
+      "url": "https://github.com/kahramanedit/magisk-gifboot"
+    },
+    "gitmigrator": {
+      "kind": "catalog",
+      "url": "https://github.com/privshell/gitmigrator-ksu"
+    },
+    "glyphkeeper": {
+      "kind": "catalog",
+      "url": "https://github.com/vaccreate/glyphkeeper"
+    },
+    "unlimitedphotos": {
+      "kind": "catalog",
+      "url": "https://github.com/Rev4N1/GPhotosUnlimited"
+    },
+    "wallet_cardart": {
+      "kind": "catalog",
+      "url": "https://github.com/andyching168/gwallet-cardart"
+    },
+    "gps-locker": {
+      "kind": "catalog",
+      "url": "https://github.com/nikakvo/gps-locker"
+    },
+    "grab-netprinter": {
+      "kind": "catalog",
+      "url": "https://github.com/caullenomdahl/grab-netprinter"
+    },
+    "Green2Priv": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/green2priv"
+    },
+    "Green2Priv-BETA": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/green2priv-beta"
+    },
+    "Greenify4MagiskKSUReborn": {
+      "kind": "catalog",
+      "url": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn"
+    },
+    "groupguard": {
+      "kind": "catalog",
+      "url": "https://github.com/zhangdunlong/groupguard-magisk"
+    },
+    "HDAudio": {
+      "kind": "catalog",
+      "url": "https://github.com/mikary29/hdaudio-magisk-module"
+    },
+    "hermesandroid": {
+      "kind": "catalog",
+      "url": "https://github.com/dat-hoangnguyentuandat/hermesandroid"
+    },
+    "hid-gadget": {
+      "kind": "catalog",
+      "url": "https://github.com/kelexine/hid-gadget-module"
+    },
+    "HideNavbarKeyboard": {
+      "kind": "catalog",
+      "url": "https://github.com/UNKNUW/Hide-Navbar-Keyboard"
+    },
+    "hide-virt-apex-su": {
+      "kind": "catalog",
+      "url": "https://github.com/serkenn/hide-virt-apex-su"
+    },
+    "hifi-maximizer-mod": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "high_perf_dac": {
+      "kind": "catalog",
+      "url": "https://github.com/ahkehra/high_perf_dac"
+    },
+    "hilightlink": {
+      "kind": "catalog",
+      "url": "https://github.com/atrejokm301/hilightlink"
+    },
+    "hma_oss_zygisk": {
+      "kind": "catalog",
+      "url": "https://github.com/frknkrc44/HMA-OSS"
+    },
+    "honor_lsp_fix": {
+      "kind": "catalog",
+      "url": "https://github.com/mengwuzhuanshou/honorlsposedfix"
+    },
+    "hybrid_mount": {
+      "kind": "catalog",
+      "url": "https://github.com/YuzakiKokuban/meta-hybrid_mount"
+    },
+    "ab_optimizer": {
+      "kind": "catalog",
+      "url": "https://github.com/AestasBritannia/Hydro-Br-leur"
+    },
+    "HyperOptimize_Tatsh": {
+      "kind": "catalog",
+      "url": "https://github.com/TatshSiow/HyperOptimize"
+    },
+    "hypercool": {
+      "kind": "catalog",
+      "url": "https://github.com/yudharn/hypercool"
+    },
+    "hyperos_rust_launcher_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/mods-center/hyperos-rust-launcher-mod"
+    },
+    "hyperos-accessibility-fix": {
+      "kind": "catalog",
+      "url": "https://github.com/chickendrop89/hyperos-accessibility-fix"
+    },
+    "miui_aod_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/Mods-Center/HyperOS-AOD"
+    },
+    "app_vault_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/Mods-Center/HyperOS-App-Vault"
+    },
+    "HyperUnlocked": {
+      "kind": "catalog",
+      "url": "https://github.com/ukriu/HyperUnlocked"
+    },
+    "i-dont-want-to-catch-up": {
+      "kind": "catalog",
+      "url": "https://github.com/leohearts/i-dont-want-to-catch-up"
+    },
+    "ih8SecureLock": {
+      "kind": "catalog",
+      "url": "https://github.com/j-hc/ih8SecureLock"
+    },
+    "image_copy_hide": {
+      "kind": "catalog",
+      "url": "https://github.com/cookieof/ImageCopyHide"
+    },
+    "imei_privacy": {
+      "kind": "catalog",
+      "url": "https://github.com/chengdong-yu/imei-privacy"
+    },
+    "Infamick_script": {
+      "kind": "catalog",
+      "url": "https://github.com/Infamousmick/Infamick-script"
+    },
+    "infinix_bootanimation": {
+      "kind": "catalog",
+      "url": "https://github.com/hiruko-puppetmaster/infinix-loading-bootanimation"
+    },
+    "iOS_Emoji": {
+      "kind": "catalog",
+      "url": "https://github.com/Keinta15/Magisk-iOS-Emoji"
+    },
+    "iosfont": {
+      "kind": "catalog",
+      "url": "https://github.com/jevcje0-gif/arabic-and-english-ios-fonts-magisk-module"
+    },
+    "ipset_arm64": {
+      "kind": "catalog",
+      "url": "https://github.com/nikakvo/ipset-arm64"
+    },
+    "Mjg2MjU1ODg0Mwo": {
+      "kind": "catalog",
+      "url": "https://github.com/i-Taylo/iUnlockerGL"
+    },
+    "ainur_jamesdsp": {
+      "kind": "catalog",
+      "url": "https://github.com/james34602/JamesDSPManager"
+    },
+    "MyJetBrainsMonoFont": {
+      "kind": "catalog",
+      "url": "https://github.com/Mars-Wave/jetbrains-font-magisk-module"
+    },
+    "JoyConDroidCompanion": {
+      "kind": "catalog",
+      "url": "https://github.com/teamjcd/joycondroidcompanion"
+    },
+    "KernelEnhancer": {
+      "kind": "catalog",
+      "url": "https://github.com/RAAJK20Pro/KernelEnhancer"
+    },
+    "ksuGrantToast": {
+      "kind": "catalog",
+      "url": "https://github.com/NativeStar/KernelSUGrantToast"
+    },
+    "KernelSU-Tuner": {
+      "kind": "catalog",
+      "url": "https://github.com/ylh440104/kernelsu-tuner"
+    },
+    "ksu-webui-module-template": {
+      "kind": "catalog",
+      "url": "https://github.com/barsikus007/ksu-webui-module-template"
+    },
+    "kp_enhancer": {
+      "kind": "catalog",
+      "url": "https://github.com/salvogiangri/KnoxPatch"
+    },
+    "kpa_sitronix_fix": {
+      "kind": "catalog",
+      "url": "https://github.com/tbc0309/kpa-modules"
+    },
+    "KPatch-Next": {
+      "kind": "catalog",
+      "url": "https://github.com/KernelSU-Next/KPatch-Next-Module"
+    },
+    "lan-cloak": {
+      "kind": "catalog",
+      "url": "https://github.com/nikakvo/lan-cloak-arm64"
+    },
+    "lazarus_sepolicy": {
+      "kind": "catalog",
+      "url": "https://github.com/albatrossmicrosystems/lazarus-xposed"
+    },
+    "Level3DNS4Magisk": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/level3dns4magisk"
+    },
+    "android17-lhdc-a2dp-universal": {
+      "kind": "catalog",
+      "url": "https://github.com/makuro-arisaka/android17-lhdc-a2dp-universal"
+    },
+    "LiteBlur": {
+      "kind": "catalog",
+      "url": "https://github.com/fakerieh/Lite-Blur-Control-Center-For-HyperOS2"
+    },
+    "livebootmagisk": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "liveboot_custom": {
+      "kind": "catalog",
+      "url": "https://github.com/idklelpigeon/liveboot-enhanced"
+    },
+    "lkm4ctr": {
+      "kind": "catalog",
+      "url": "https://github.com/cyanmint/lkm4ctr"
+    },
+    "physical_hardening": {
+      "kind": "catalog",
+      "url": "https://github.com/scozzadroid-cpu/lockjaw-magisk-ksu"
+    },
+    "hxr_logcat": {
+      "kind": "catalog",
+      "url": "https://github.com/hxreborn/Log-Catcher"
+    },
+    "lune_bridge": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "Lynx": {
+      "kind": "catalog",
+      "url": "https://github.com/zy0x/lynx"
+    },
+    "meta-mm": {
+      "kind": "catalog",
+      "url": "https://github.com/KernelSU-Modules-Repo/meta-mm"
+    },
+    "MagicalProtection": {
+      "kind": "catalog",
+      "url": "https://github.com/programminghoch10/MagicalProtection"
+    },
+    "MagicNet": {
+      "kind": "catalog",
+      "url": "https://github.com/LIghtJUNction/MagicNet"
+    },
+    "magisk-alist": {
+      "kind": "catalog",
+      "url": "https://github.com/zhu-junwei/magisk-alist"
+    },
+    "mm": {
+      "kind": "catalog",
+      "url": "https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode"
+    },
+    "magisk-openlist": {
+      "kind": "catalog",
+      "url": "https://github.com/zhu-junwei/magisk-openlist"
+    },
+    "magisk-swapspace": {
+      "kind": "catalog",
+      "url": "https://github.com/chickendrop89/magisk-swapspace"
+    },
+    "magisk-wifiadb": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "MAGNETAR": {
+      "kind": "catalog",
+      "url": "https://github.com/Kyliekyler/MAGNETAR"
+    },
+    "maple_mono_font": {
+      "kind": "catalog",
+      "url": "https://github.com/duyquang6/maple-mono-android"
+    },
+    "memkeep_plus": {
+      "kind": "catalog",
+      "url": "https://github.com/qvq9999/memkeep"
+    },
+    "micfix_speaker_tx_earpiece": {
+      "kind": "catalog",
+      "url": "https://github.com/kiran-embedded/micfix-magisk-module"
+    },
+    "miclaw-api": {
+      "kind": "catalog",
+      "url": "https://github.com/guocheng1378/miclaw-api"
+    },
+    "MiCloudA16": {
+      "kind": "catalog",
+      "url": "https://github.com/mben25/micloud-a16"
+    },
+    "MinecraftFont": {
+      "kind": "catalog",
+      "url": "https://github.com/DethByte64/Magisk-Minecraft-Font"
+    },
+    "miracast-sink-system": {
+      "kind": "catalog",
+      "url": "https://github.com/foxlost/universal-miracast-sink"
+    },
+    "mirafix": {
+      "kind": "catalog",
+      "url": "https://github.com/petittux1/mirafix"
+    },
+    "mi_thermal_tuner": {
+      "kind": "catalog",
+      "url": "https://github.com/colorxi/mithermaltuner"
+    },
+    "mitm-ca-system": {
+      "kind": "catalog",
+      "url": "https://github.com/bapirex/mitm-ca-system"
+    },
+    "MIUI_Font_Patch": {
+      "kind": "catalog",
+      "url": "https://github.com/nangongjing1/misans-module-for-magisk"
+    },
+    "miui_launcher_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/Mods-Center/HyperOS-Launcher"
+    },
+    "security_app_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/Mods-Center/HyperOS-Security-Center"
+    },
+    "miui_theme_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/Mods-Center/HyperOS-Theme-Manager"
+    },
+    "moto_g15_raw": {
+      "kind": "catalog",
+      "url": "https://github.com/rchrdariza/moto-g15-raw"
+    },
+    "mountify": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "MoveCertificate": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "multiuseruienabler": {
+      "kind": "catalog",
+      "url": "https://github.com/InsertX2k/multiuseruienabler"
+    },
+    "myuppy_font_a16": {
+      "kind": "catalog",
+      "url": "https://github.com/tbc0309/myuppy-font-crdroid12"
+    },
+    "HideNavBar": {
+      "kind": "catalog",
+      "url": "https://github.com/Magisk-Modules-Alt-Repo/HideNavBar"
+    },
+    "net-switch": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "netproxy": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "netproxy_xray": {
+      "kind": "catalog",
+      "url": "https://github.com/llp2333/netproxy-xtls-kernelsu"
+    },
+    "NLSound": {
+      "kind": "catalog",
+      "url": "https://github.com/Briclyaz/NLSound_module_QCom"
+    },
+    "nm_scanner": {
+      "kind": "catalog",
+      "url": "https://github.com/chandr1000/nm-compat-scanner"
+    },
+    "noemulator": {
+      "kind": "catalog",
+      "url": "https://github.com/ymuuuu/noemulator"
+    },
+    "zygisk_nohello": {
+      "kind": "catalog",
+      "url": "https://github.com/MhmRdd/NoHello"
+    },
+    "meta-nomount": {
+      "kind": "catalog",
+      "url": "https://github.com/bouteillepleine/nomount-suite"
+    },
+    "nomount": {
+      "kind": "catalog",
+      "url": "https://github.com/lzghzr/APatch_kpm"
+    },
+    "noogle-unbundle": {
+      "kind": "catalog",
+      "url": "https://github.com/SelfRef/noogle-magisk"
+    },
+    "nothing-euicc": {
+      "kind": "catalog",
+      "url": "https://github.com/reindex-ot/nothing-euicc"
+    },
+    "NotoColorEmojiCurrent": {
+      "kind": "catalog",
+      "url": "https://github.com/ethanm6/noto-emoji-magisk"
+    },
+    "NovaInstaller": {
+      "kind": "catalog",
+      "url": "https://github.com/Minionguyjpro/NovaInstaller"
+    },
+    "nx789j_autobrightness_test": {
+      "kind": "catalog",
+      "url": "https://github.com/aleopho/nx789j-autobrightness"
+    },
+    "nzapret": {
+      "kind": "catalog",
+      "url": "https://github.com/nikitos4683/nzapret"
+    },
+    "oh_my_keymint": {
+      "kind": "catalog",
+      "url": "https://github.com/qwq233/OhMyKeymint"
+    },
+    "ommega": {
+      "kind": "catalog",
+      "url": "https://github.com/jiyin004-jpg/ommega"
+    },
+    "oneplus15_bds_guard": {
+      "kind": "catalog",
+      "url": "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard"
+    },
+    "oneplus-8series-9r-camera-unlocker": {
+      "kind": "catalog",
+      "url": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker"
+    },
+    "oneplus_global_wifi_beast": {
+      "kind": "catalog",
+      "url": "https://github.com/blueokanna/oneplus_beast"
+    },
+    "OneUIEmojiPack": {
+      "kind": "catalog",
+      "url": "https://github.com/aloozchips/OneUIEmojiPack"
+    },
+    "openeuicc": {
+      "kind": "catalog",
+      "url": "https://github.com/ban-sky/openeuicc_for_magisk"
+    },
+    "meta-overlayfs": {
+      "kind": "catalog",
+      "url": "https://github.com/KernelSU-Modules-Repo/meta-overlayfs"
+    },
+    "OOSGMS-OPTIMISER": {
+      "kind": "catalog",
+      "url": "https://github.com/epicmann24/OOSGMS-OPTIMISER"
+    },
+    "partition-backup": {
+      "kind": "catalog",
+      "url": "https://github.com/rhythmcache/partition-backup"
+    },
+    "patch-inline-trackmotion": {
+      "kind": "catalog",
+      "url": "https://github.com/lanrhyme/patch-inline-trackmotion"
+    },
+    "PerfGame": {
+      "kind": "catalog",
+      "url": "https://github.com/adivenxnataly/PerfGame"
+    },
+    "perfmtk": {
+      "kind": "catalog",
+      "url": "https://github.com/JUANIMAN/PerfMTK"
+    },
+    "phhims_volte": {
+      "kind": "catalog",
+      "url": "https://github.com/silvertax/phhims-volte-o2"
+    },
+    "phoneserver": {
+      "kind": "catalog",
+      "url": "https://github.com/kailoinf/phoneserver"
+    },
+    "pi-sing": {
+      "kind": "catalog",
+      "url": "https://github.com/thoitiettxl-cyber/pi-sing"
+    },
+    "pillarbox": {
+      "kind": "catalog",
+      "url": "https://github.com/orev7s/pillarbox"
+    },
+    "pixel-5g-enabler": {
+      "kind": "catalog",
+      "url": "https://github.com/bennybrit/pixel-5g-enabler"
+    },
+    "Komodo_beta_Props": {
+      "kind": "catalog",
+      "url": "https://github.com/Elcapitanoe/Komodo-Build-Prop"
+    },
+    "p9pxl_supercharger": {
+      "kind": "catalog",
+      "url": "https://github.com/drizzy07x/supercharger_pixel_9_series"
+    },
+    "pixel_launcher_modulu": {
+      "kind": "catalog",
+      "url": "https://github.com/ahmeturesin/magisk-module-android-11-pixel-launcher"
+    },
+    "PixelXpert": {
+      "kind": "catalog",
+      "url": "https://github.com/siavash79/PixelXpert"
+    },
+    "com.github.pixelupdater.pixelupdater": {
+      "kind": "catalog",
+      "url": "https://github.com/PixelUpdater/PixelUpdater"
+    },
+    "PixelXpert-Next": {
+      "kind": "catalog",
+      "url": "https://github.com/anirudhgupta109/pixelxpert-next"
+    },
+    "playintegrityfix": {
+      "kind": "mmrl",
+      "url": "https://mystster.github.io/module-repo/"
+    },
+    "playcurlNEXT": {
+      "kind": "catalog",
+      "url": "https://github.com/daboynb/playcurlNEXT"
+    },
+    "plf110_touch_rate_sync": {
+      "kind": "catalog",
+      "url": "https://github.com/lenluxue/plf110-touch-rate-sync"
+    },
+    "pluskey": {
+      "kind": "catalog",
+      "url": "https://github.com/naplon74/magisk-pluskey"
+    },
+    "poco_f7_crdroid17_wifi7_6ghz": {
+      "kind": "catalog",
+      "url": "https://github.com/akswap/poco-f7-crdroid17-wifi7-dualsta"
+    },
+    "mirage_hyperos3_lockscreen_port": {
+      "kind": "catalog",
+      "url": "https://github.com/mor4land/poco-m5-hyperos3-lockscreen"
+    },
+    "POP-ZRAM": {
+      "kind": "catalog",
+      "url": "https://github.com/siimsek/pop-zram"
+    },
+    "powerboost": {
+      "kind": "catalog",
+      "url": "https://github.com/yusuf6411/powerboost"
+    },
+    "privapp_systemizer": {
+      "kind": "catalog",
+      "url": "https://github.com/ayoubvvch/privapp-systemizer-magisk"
+    },
+    "projectx-webui": {
+      "kind": "catalog",
+      "url": "https://github.com/adrianageng7/projectx-webui"
+    },
+    "proteus": {
+      "kind": "catalog",
+      "url": "https://github.com/xposed-modules-repo/net.wowsoftware.hidemyemulator"
+    },
+    "py2droid": {
+      "kind": "catalog",
+      "url": "https://github.com/Mrakorez/py2droid"
+    },
+    "Quad9DNS4Magisk": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/quad9dns4magisk"
+    },
+    "q2touch_on_q3": {
+      "kind": "catalog",
+      "url": "https://github.com/literallyaxo/quest2-touch-on-quest3"
+    },
+    "rclone": {
+      "kind": "catalog",
+      "url": "https://github.com/NewFuture/rclone-fuse3-magisk"
+    },
+    "Re-Malwack": {
+      "kind": "catalog",
+      "url": "https://github.com/ZG089/Re-Malwack"
+    },
+    "statusbar-fix-obsidian": {
+      "kind": "catalog",
+      "url": "https://github.com/moloo4ni/statusbar-fix-obsidian"
+    },
+    "render_switcher": {
+      "kind": "catalog",
+      "url": "https://github.com/exloud/render-switcher"
+    },
+    "resonancefx": {
+      "kind": "catalog",
+      "url": "https://github.com/xeloria/resonancefx"
+    },
+    "ReSuSFS": {
+      "kind": "catalog",
+      "url": "https://github.com/ahmed-alnassif/resusfs"
+    },
+    "rezygisk": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "rv4a_engine": {
+      "kind": "catalog",
+      "url": "https://github.com/alienware377/rootlessviper4android"
+    },
+    "rotation_suggestions_toggle": {
+      "kind": "catalog",
+      "url": "https://github.com/Astoritin/RotationSuggestionsClosed"
+    },
+    "rsync": {
+      "kind": "catalog",
+      "url": "https://github.com/KatelynTheStargazer/rsync-magisk"
+    },
+    "dragonfire_thermal": {
+      "kind": "catalog",
+      "url": "https://github.com/andresuhensleeby-a11y/thermal-fire-universal-v1.4.0"
+    },
+    "s3ra1n-usb": {
+      "kind": "catalog",
+      "url": "https://github.com/noxproductions/t3ra1n"
+    },
+    "samsung-dex-standalone-mode": {
+      "kind": "catalog",
+      "url": "https://github.com/supermarsx/magisk-samsung-dex-standalone-mode"
+    },
+    "scalpel": {
+      "kind": "catalog",
+      "url": "https://github.com/Enginex0/Scalpel"
+    },
+    "selinux_permissive": {
+      "kind": "catalog",
+      "url": "https://github.com/evdenis/selinux_permissive"
+    },
+    "shark8_gamemode": {
+      "kind": "catalog",
+      "url": "https://github.com/nalbe/shark8-gamemode-gsi"
+    },
+    "shark8-smartrefresh": {
+      "kind": "catalog",
+      "url": "https://github.com/nalbe/shark8-smartrefresh-gsi"
+    },
+    "SideKeyPlus": {
+      "kind": "catalog",
+      "url": "https://github.com/liyw0205/sidekeyplus"
+    },
+    "scenethesky": {
+      "kind": "catalog",
+      "url": "https://github.com/WeirdMidas/SkySceneAddon"
+    },
+    "smalipatcher_reborn": {
+      "kind": "catalog",
+      "url": "https://github.com/saadnahid7/smalipatcherreborn"
+    },
+    "SMB_Smart_Sync": {
+      "kind": "catalog",
+      "url": "https://github.com/charlesgool/smb_smart_sync"
+    },
+    "smoothflow": {
+      "kind": "catalog",
+      "url": "https://github.com/shuo67713-stack/smoothflow"
+    },
+    "smsforward": {
+      "kind": "catalog",
+      "url": "https://github.com/maksim-venus/magisk-sms-forward"
+    },
+    "sortify": {
+      "kind": "catalog",
+      "url": "https://github.com/xCaptaiN09/Sortify"
+    },
+    "sound_universal": {
+      "kind": "catalog",
+      "url": "https://github.com/andresuhensleeby-a11y/sound-universal-update-5.1.4"
+    },
+    "specter": {
+      "kind": "catalog",
+      "url": "https://github.com/dpejoh/specter"
+    },
+    "speedcool": {
+      "kind": "catalog",
+      "url": "https://github.com/Llucs/SpeedCool-Magisk-Module"
+    },
+    "split": {
+      "kind": "catalog",
+      "url": "https://github.com/orev7s/split"
+    },
+    "devsp": {
+      "kind": "catalog",
+      "url": "https://github.com/sabbirafat96/spoof-gt-50-pro"
+    },
+    "statusbarguard": {
+      "kind": "catalog",
+      "url": "https://github.com/nadelacruz-00/status-bar-guard"
+    },
+    "stellar": {
+      "kind": "catalog",
+      "url": "https://github.com/kanaodnd/Stellar-Tweaks"
+    },
+    "stevenblock": {
+      "kind": "catalog",
+      "url": "https://github.com/mikropsoft/StevenBlock"
+    },
+    "stylusctrl": {
+      "kind": "catalog",
+      "url": "https://github.com/alpha-liu-01/stylusctrl"
+    },
+    "sub-store-runsv": {
+      "kind": "catalog",
+      "url": "https://github.com/sorubedo/sub-store-magisk-runsv"
+    },
+    "susfs_lkm_x64": {
+      "kind": "catalog",
+      "url": "https://github.com/ymuuuu/susfs4ksu-lkm-x64"
+    },
+    "susfs4ksu": {
+      "kind": "catalog",
+      "url": "https://github.com/sidex15/susfs4ksu-module"
+    },
+    "Swap-Disabler": {
+      "kind": "catalog",
+      "url": "https://github.com/rompelhd/Swap-Disabler"
+    },
+    "swapboost": {
+      "kind": "catalog",
+      "url": "https://github.com/yadavnikhil03/SwapBoost-Pro"
+    },
+    "systemless_adblocker": {
+      "kind": "catalog",
+      "url": "https://github.com/Magisk-Modules-Alt-Repo/systemless-adblocker"
+    },
+    "systemless-hosts-KernelSU-module": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "systemui_contacts": {
+      "kind": "catalog",
+      "url": "https://github.com/nalbe/shark8-systemui-contacts-fix"
+    },
+    "magisk-tailscaled": {
+      "kind": "catalog",
+      "url": "https://github.com/thewildjames/magisk-tailscaled"
+    },
+    "tailscale_root": {
+      "kind": "catalog",
+      "url": "https://github.com/joinchang/tailscale-root"
+    },
+    "hdrfix_fp16_client_target": {
+      "kind": "catalog",
+      "url": "https://github.com/wxz2672554287/lenovo-tab-ultrahdr-fix"
+    },
+    "tcl_power_menu": {
+      "kind": "catalog",
+      "url": "https://github.com/philiphall6/tcl-power-menu-r51mt05"
+    },
+    "tcp_optimiser": {
+      "kind": "catalog",
+      "url": "https://github.com/zhanfg/tcp_optimiser_rs"
+    },
+    "teesim": {
+      "kind": "catalog",
+      "url": "https://github.com/JingMatrix/TEESimulator"
+    },
+    "TermuxRootMods": {
+      "kind": "catalog",
+      "url": "https://github.com/jojobear691/termuxrootmods-ksu-toolkit"
+    },
+    "TermuxSu": {
+      "kind": "catalog",
+      "url": "https://github.com/mariayuno/termuxsu-magisk"
+    },
+    "tethys-tailscaled": {
+      "kind": "catalog",
+      "url": "https://github.com/yumamax3/tethys-tailscaled"
+    },
+    "thor_auto_timezone": {
+      "kind": "catalog",
+      "url": "https://github.com/darkaxt/thorautotimezone"
+    },
+    "tq_autopatch": {
+      "kind": "catalog",
+      "url": "https://github.com/slopport/tq-android-perf"
+    },
+    "tq_traders": {
+      "kind": "catalog",
+      "url": "https://github.com/slopport/tq-traders"
+    },
+    "treat_wheel": {
+      "kind": "catalog",
+      "url": "https://github.com/PerformanC/Treat-Wheel-Zygisk"
+    },
+    "treble_su": {
+      "kind": "catalog",
+      "url": "https://github.com/nalbe/shark8-treble-su-fix"
+    },
+    "TA_utl": {
+      "kind": "mmrl",
+      "url": "https://juliazero.github.io/mrbj/"
+    },
+    "tricky_store": {
+      "kind": "mmrl",
+      "url": "https://juliazero.github.io/mrbj/"
+    },
+    "trustmycert": {
+      "kind": "catalog",
+      "url": "https://github.com/konanguyen/trustmycert"
+    },
+    "mihomo_tproxy": {
+      "kind": "catalog",
+      "url": "https://github.com/de4869/tunclash"
+    },
+    "TurnOffSensors": {
+      "kind": "catalog",
+      "url": "https://github.com/KatelynTheStargazer/TurnOffSensors-Magisk"
+    },
+    "tvremoteweb": {
+      "kind": "catalog",
+      "url": "https://github.com/disc0nnctd/tvremoteweb"
+    },
+    "Twemoji-systemless": {
+      "kind": "catalog",
+      "url": "https://github.com/deserthouse/twemoji-resurrection"
+    },
+    "twrp-keep": {
+      "kind": "catalog",
+      "url": "https://github.com/Magisk-Modules-Repo/twrp-keep"
+    },
+    "ubuntu-chroot": {
+      "kind": "catalog",
+      "url": "https://github.com/ravindu644/Ubuntu-Chroot"
+    },
+    "unicode_font_set": {
+      "kind": "catalog",
+      "url": "https://github.com/Losketch/UnicodeFontSet-magisk-module"
+    },
+    "universal-gms-doze": {
+      "kind": "catalog",
+      "url": "https://github.com/MarsPatrick/universal-gms-doze"
+    },
+    "uperf": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "usb-arsenal": {
+      "kind": "catalog",
+      "url": "https://github.com/ravindu644/usb-arsenal"
+    },
+    "usbmassstorage": {
+      "kind": "catalog",
+      "url": "https://github.com/Enginex0/UsbMassStorage"
+    },
+    "vbmeta_disguiser": {
+      "kind": "catalog",
+      "url": "https://github.com/Astoritin/VBMetaDisguiser"
+    },
+    "vbmeta-fixer": {
+      "kind": "catalog",
+      "url": "https://github.com/reveny/Android-VBMeta-Fixer"
+    },
+    "vdbackup": {
+      "kind": "catalog",
+      "url": "https://github.com/vd171/vd-backup"
+    },
+    "zygisk_vector": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "vgd": {
+      "kind": "catalog",
+      "url": "https://github.com/1213015988/verity-guard"
+    },
+    "video-to-bootanimation": {
+      "kind": "catalog",
+      "url": "https://github.com/Magisk-Modules-Alt-Repo/video-to-bootanimation"
+    },
+    "Viper4-XF": {
+      "kind": "catalog",
+      "url": "https://github.com/justadeayo/viper4-xf"
+    },
+    "volumesteps": {
+      "kind": "catalog",
+      "url": "https://github.com/soskn/volumesteps"
+    },
+    "volumeperapp": {
+      "kind": "catalog",
+      "url": "https://github.com/portablediag/volumeperapp"
+    },
+    "vpn_share_proxy": {
+      "kind": "catalog",
+      "url": "https://github.com/ruyisio/vpn-share-proxy"
+    },
+    "vpn_tether": {
+      "kind": "catalog",
+      "url": "https://github.com/narakai/magisk-vpn-tether"
+    },
+    "vulkan_hwui": {
+      "kind": "catalog",
+      "url": "https://github.com/nalbe/blackview-shark8-vulkan-hwui-patch"
+    },
+    "wallet_card_audit": {
+      "kind": "catalog",
+      "url": "https://github.com/wfire06100/wallet-card-audit"
+    },
+    "inactivity_reboot": {
+      "kind": "catalog",
+      "url": "https://github.com/radito/watchdog"
+    },
+    "webview_optimizer": {
+      "kind": "catalog",
+      "url": "https://github.com/lusmaysh/webview-optimizer"
+    },
+    "wg-shield": {
+      "kind": "catalog",
+      "url": "https://github.com/nikakvo/wg-shield-arm64"
+    },
+    "wg-user": {
+      "kind": "catalog",
+      "url": "https://github.com/loficore/wg-user"
+    },
+    "wifienhan": {
+      "kind": "catalog",
+      "url": "https://github.com/mishkarala/wifi-4g-enhanced-mostly-poco-f3"
+    },
+    "wcg_f946b": {
+      "kind": "catalog",
+      "url": "https://github.com/hyperramzey/wcg_f946b"
+    },
+    "wifi7_lab_safe": {
+      "kind": "catalog",
+      "url": "https://github.com/e3n-glotm/wifi7-lab-safe"
+    },
+    "mmrl_wpd": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "uu-wheel-evdev": {
+      "kind": "catalog",
+      "url": "https://github.com/nosiybugs/uu-wheel-evdev"
+    },
+    "xiaomiplaystorefix": {
+      "kind": "catalog",
+      "url": "https://github.com/leapdragon/xiaomiplaystorefix"
+    },
+    "xiaomi_usb_sec_bypass": {
+      "kind": "catalog",
+      "url": "https://github.com/cherwing/xiaomi_usb_security_bypass"
+    },
+    "y700_device_name": {
+      "kind": "catalog",
+      "url": "https://github.com/yapixel/y700-device-name"
+    },
+    "Yandex_DNS4Magisk-Basic": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/yandex-dns4magisk-basic"
+    },
+    "Yandex_DNS4Magisk-Family": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/yandex-dns4magisk-family"
+    },
+    "Yandex_DNS4Magisk-Safe": {
+      "kind": "catalog",
+      "url": "https://github.com/k3v1991/yandex-dns4magisk-safe"
+    },
+    "YetAnotherBootloopProtector": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Yurikey": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "zapret": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "zapret-ksu": {
+      "kind": "catalog",
+      "url": "https://github.com/soufied/zapret-ksu"
+    },
+    "SL8541E_Config_Fix": {
+      "kind": "catalog",
+      "url": "https://github.com/baimacao/sl8541e-heshuicheng-device-optimization-module"
+    },
+    "zerotier": {
+      "kind": "catalog",
+      "url": "https://github.com/eventlOwOp/zerotier-magisk"
+    },
+    "zygisknextsu": {
+      "kind": "catalog",
+      "url": "https://github.com/verybaaad/znnext"
+    },
+    "zram16": {
+      "kind": "catalog",
+      "url": "https://github.com/kahramanedit/redmagic-11-pro-zram-16gb-ramslider"
+    },
+    "lz4kds_sddc": {
+      "kind": "catalog",
+      "url": "https://github.com/2108282/zram-lz4kds-sddc-houji-6.1"
+    },
+    "zygisk_zram": {
+      "kind": "catalog",
+      "url": "https://github.com/kyubiez96/zram-turbo"
+    },
+    "ZRAM-Module": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "zygisk_frida_gadget": {
+      "kind": "catalog",
+      "url": "https://github.com/leolovenet/zygisk-fridagadget"
+    },
+    "zygisk-sui": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "zygisk-module-xfingerprint-pay-all": {
+      "kind": "catalog",
+      "url": "https://github.com/eritpchy/FingerprintPay"
+    },
+    "zygisk-assistant": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "zygisksu": {
+      "kind": "mmrl",
+      "url": "https://mystster.github.io/module-repo/"
+    },
+    "zygisk-detach": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "COPG": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "thermocharge": {
+      "kind": "catalog",
+      "url": "https://github.com/luoyi0914/thermocharge"
+    },
+    "hoshitele": {
+      "kind": "catalog",
+      "url": "https://github.com/tsangasuna/hoshitele-dns-module"
+    },
+    "icbc_daily_water": {
+      "kind": "catalog",
+      "url": "https://github.com/petittux1/xiaomiautomation"
+    },
+    "Lowlife": {
+      "kind": "catalog",
+      "url": "https://github.com/enddream-zm/lowlife"
+    },
+    "73sydney.coloursatmod": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "73sydney.displaytweaks": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "AOSPMods": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "AdGuardDNS4Magisk-IPv6": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "AppDataIsolation": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "AudioHDEnchancer": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "AutomaticSQLiteDBOptimizer": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "BuiltIn-BusyBox": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "CuRefreshRateTuner": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "CustomizedNavbar": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "DG": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "DisableCell": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "DisableFPSLimit": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "DisableGoogleAnalytics": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "DynamicSystemTweaks-arm64": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "GMSDoze": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "GMSDozeBlockFind": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "GMSDozeSimplified": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "Hc_memory": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "LowRAMFlagEnabler": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "Luz-Nocturna_Modded": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "MIUI-Debloater-Stage1": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "MagiskHideDenyBackup": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "MagiskHideDenyRestore": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "MagiskShowCameraSoundsModule": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "MountX": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "MyDNS": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "NavBar_Resize": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "NoProcStatRestriction": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "QS_Rectangulares": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "RiProG": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "SQLite3UniversalBinaries": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "SamsungHealthSecurityProps": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "Scalpel": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "StevenBlock": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "SuperuserListBackup": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "SuperuserListRestore": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "SystemlessDebloater": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "ToyBox-Ext": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Turkish-Ad-Hosts": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "Vazirmatn-Regular": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "VolteWifiCallingEnabler": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "acp": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "adawayadblocker": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "adrianmmiller.KSUdebloat": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "airgap": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "aml": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "antisafetycore": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "app-data-file-exec": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "au.com.dnscrypt-proxy": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "auriya": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "backtap": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "bladeSk_magisk-volume-steps": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "bloatwareslayer": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "blur-enabler": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "bypasser": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "cache_cleaner": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "chargemate": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "com.MuratovAS.magisk.TurnOffNetwork": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "com.chiller3.msd": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "custom-certificate-authorities": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "data_backup": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "data_isolation_support": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "data_restore_Courier": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "denylist_unmount": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "disable-rotate-suggest": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "disable_gms": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "djs": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "dnscrypt-proxy-android": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "dnscrypt-proxy-menu": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "documentsui_replacer": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "drc-remover": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "enable-blurs": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "encryptiondisguiser": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "extra-themed-icons": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "fdroid-priv-ext": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "fresh-emoji": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "ghostgms": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "hide-prop-los": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "ics-sounds": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "isodrive": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "itsybitsy": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "jdtoolbox": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "jefferderp.keyboardremaps": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "lin_os_swap_mod": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "lineage_dialer_rro": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "lmk_controller_feerd": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "magisk-autoboot": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "magisk-captive-manager": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "magisk_proc_monitor": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "magiskhide": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "microg_installer": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "mindetach": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "nfqttl": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "oled2lcd": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "open_fonts": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "open_webview": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "plasma-xperience": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "safetynet-fix": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "selinux_mode": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "sensitive_props": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "spkmsystemless": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "supl-replacer": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "systemui-bootloop": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "trichromelibrary-squoosh": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "unlimited-hotspot": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "usb-samplerate-unlocker": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "xray4magisk": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "yc_dfps": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "zoro.benojir.callrecorder": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "zram-swap-manager": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "zygisk_clipboard_whitelist": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "zygisk_ifw_enhance": {
+      "kind": "mmrl",
+      "url": "https://apt.izzysoft.de/magisk/"
+    },
+    "zygisk_lsposed": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "hid-gadget-module": {
+      "kind": "mmrl",
+      "url": "https://cabiamdos.github.io/my-mmrl-repository/"
+    },
+    "font_collection_adventpro": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_anonymouspro": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_anta": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_anton": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_antonio": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_archivo": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_archivonarrow": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_arimo": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_asimovian": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_audiowide": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_bangers": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_barlow": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_barlowcondensed": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_barlowsemicondensed": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_bebasneue": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_caacupeone": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_cairo": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_cantarell": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_chelseamarket": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_comfortaa": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_commissioner": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_cormorantgaramond": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_crimsontext": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_dmsans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_dmserifdisplay": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_dosis": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_dotgothic16": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_ebgaramond": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_encodesans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_encodesanscondensed": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_encodesanssemicondensed": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_figtree": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_firamono": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_firasans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_firasanscondensed": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_fjallaone": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_fraunces": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_geist": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_geo": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_ibmplexmono": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_ibmplexsans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_ibmplexsanscondensed": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_ibmplexserif": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_iceberg": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_iceland": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_inconsolata": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_instrumentsans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_instrumentserif": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_inter": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_intertight": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_jacquard12": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_jersey10": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_jersey15": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_jersey20": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_jersey25": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_jetbrainsmono": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_josefinsans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_kanit": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_lexend": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_librebaskerville": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_lilitaone": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_merriweather": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_michroma": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_montserrat": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_mukta": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_nanumgothic": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_notosans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_notosansmono": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_notoserif": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_novamono": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_nunito": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_nunitosans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_opensans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_oswald": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_outfit": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_playfairdisplay": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_poiretone": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_poppins": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_pragatinarrow": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_pressstart2p": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_prompt": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_ptmono": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_ptsansnarrow": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_ptserif": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_quantico": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_quicksand": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_raleway": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_redhatdisplay": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_redhatmono": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_roboto": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_robotocondensed": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_robotoflex": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_sharetech": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_smoochsans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_sofiasans": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_sofiasanscondensed": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_sourcecodepro": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_sourcesans3": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_sourceserif4": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_teko": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_titilliumweb": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_unicaone": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_viga": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_vt323": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "font_collection_zendots": {
+      "kind": "mmrl",
+      "url": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/"
+    },
+    "adb-ndk": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "amtsmagisk": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "busybox-ndk": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "ccbins": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "gcc_on_android": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "magic_mount_rs": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "mmrl": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "nano-ndk": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "powershell": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "wx_pty_x": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "zipsigner": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "zygisk_shamiko": {
+      "kind": "mmrl",
+      "url": "https://gr.dergoogler.com/gmr/"
+    },
+    "playintegrity": {
+      "kind": "mmrl",
+      "url": "https://juliazero.github.io/mrbj/"
+    },
+    "1_MARS_SOM_BASE-GEAR_FIRST": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "AFWall-Boot-AntiLeak": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Better-MIUI-Icons": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "BraviaEngine": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Bye-Blur": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Clash4Magisk": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "CloudflareDNS4Magisk": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "CloudflareDNS4Magisk-IPv6": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "DalvikHyperthreading": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Detach": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Evolve-Evo": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Fdroid-Priv": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "FluentEmojiMagisk": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "GMS-Doze_Block_FindMyDevice": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Google-Sans": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Google-Sans-Plus": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "GoogleDNS4Magisk": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "GoogleDNS4Magisk-IPv6": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "MacRandomizationEnabler": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Magisk-Captive-Control": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Magisk-DRM-Disabler": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Magisk-Tailscaled": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Malwack": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "MiXplorer": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "NavBar_Resize_AOSP": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "NavBar_Resize_MIUI": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "NoStorageRestrict": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "OneController": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "RTKS": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Simple_BootloopSaver": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "SomcGameEnhancer-Upgrade": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "UbuntuFontVinaooo": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "Xtreme-Battery-Saver": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "YAKT": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "backup": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "charch": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "charch_dinit": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "charch_openrc": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "charch_sshd": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "cmdpatch": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "compatible-magisk-mirroring": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "ezme-dex-space": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "ezme-nodebug": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "faina": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "fbind": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "frozen_magisk_app": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "gaming": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "gboard-dict-3": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "heimdall-ndk": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "kaina": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "lhroot": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "magic-flash": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "magisk-module-koruri-font": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "magisk-module-mejiro-font": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "magisk_overlayfs": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "microG-GApps": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "mkshrc": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "node": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "oneplusdotfix": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "pdx213_assistant_camera_remap": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "perf-limit-xiaomi-12": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "pixel-tensor-audio-decompressor": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "pmmp": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "qdl-ndk": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "resampling-for-cheapies": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "saturation": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "smallbattery": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "sqlite3": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "systemless-adblocker": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "tree": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "ttf-twemoji": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "unityfix": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "upx-ndk": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "vintf-bypass": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "wadbd": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "wifi-bonding-nolog": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "xhhttp": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "xmlpak-RE": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "ytrevancedinject": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
+    },
+    "1sOtoOo63t0d": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "bdJJPDbVGjKU": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "com.dergoogler.mmrl.wx": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "duck-toolbox": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "hybrid-mount": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "IK6cln023OA3": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "magisk": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "meta-overlayfsx": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "microg_installer_revived_again": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "misnomer": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "nextsusfs": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "psh": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "qgcP03aUu-Rq": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/"
+    },
+    "A-STEPS": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "cacerts_bind_manager": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "CertBridge": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "clipshield": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "clouddrive2_fuse_fix": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "coloros_wifi_sense": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "CRecordEvolution": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "enable_miui_adb": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "example_closed_module_demo": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "FreePPS": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "frida-ksu": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "genshin_bootanim": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "gs_quick_reload": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "kernelsu-tailscaled": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "ksuwebui_demo": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "magisk-netbird": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "oplus-cloud-block": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "power11": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "QSC_Battery": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "shellscaled": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "sidewire": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "susdock": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "SvcHub": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "tailscale-bindhosts": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "yukizygisk": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "zygisk_fusehide": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "adguardcert": {
+      "kind": "mmrl",
+      "url": "https://mystster.github.io/module-repo/"
+    },
+    "Kernel_Module_Loader": {
+      "kind": "mmrl",
+      "url": "https://natsumerinchan.github.io/celica-magisk-modules-repo/"
+    },
+    "fake_sudo": {
+      "kind": "mmrl",
+      "url": "https://natsumerinchan.github.io/celica-magisk-modules-repo/"
+    },
+    "aegis_firewall": {
+      "kind": "mmrl",
+      "url": "https://privshell.github.io/privshell-repo/"
+    },
+    "fluttertap": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/"
+    },
+    "aa4mg": {
+      "kind": "mmrl",
+      "url": "https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/"
+    },
+    "magisk-frida": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "yt-morphe": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "ytm-morphe-arm64": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "Circle.to.Search": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "PixelifyPhotos": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "careful_optimization": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "huskydg_bootloopsaver": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "mtu-fix": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "oneshot-extended": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "zygiskfrida": {
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+    },
+    "HyperOSMonetProject": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "Monet-All": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "ZygiskNext": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "asoulopt": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "lsposed_riru": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "lsposed_zygisk": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "riru_core": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "riru_sui": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "uperf_games": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "zygisk_sui": {
+      "kind": "mmrl",
+      "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "fas_rs": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "hostsredirect": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "magisk_custompinyindictionary_fcitx": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "meta-hybrid": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "wzn01": {
+      "kind": "mmrl",
+      "url": "https://yukari0201.github.io/mmrl-repo/"
+    },
+    "dt2w-fix": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "ios-emoji": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "msd": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "music-morphe": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "neozygisk": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "playintegrityfork": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "teesimulator": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "teesimulator-rs": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "tricky-addon-enhanced": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "tricky-addon-target-list": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "vector": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "youtube-morphe": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "zygisk-next": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "frosty": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "livebootmodule": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "integrity-box": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "meowzygisk": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "cpu-screenoff": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "android_luks_mounter": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "termuxsu": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "imgdrive": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "tricky-store": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "alwaysstrong": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "alwaysstrong-inject": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "alwaysstrong-nopif": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
+    "BCR": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "MemoryOpt": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "NoHello": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "PIF-Inject": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "PIF-Next": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "PlayIntegrityFork": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "RE-LSP": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "SMTW": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "Unlimited-GooglePhotosBackupMod": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "susfs": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "systemapp_nuker": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    },
+    "trickystore_OSS": {
+      "kind": "mmrl",
+      "url": "https://zguation-projects.github.io/ZG-R/"
+    }
+  },
+  "module_conflicts": {
+    "AdGuardHome": 1,
+    "AshLooper": 1,
+    "Custom-Certificate-Authorities": 1,
+    "DynamicSystemTweaks": 1,
+    "HyperUnlocked": 2,
+    "Infamick_script": 1,
+    "NovaInstaller": 1,
+    "ZRAM-Module": 2,
+    "abootloop": 4,
+    "acc": 3,
+    "adb_root": 1,
+    "audio-jitter-silencer": 2,
+    "audio-misc-settings": 2,
+    "bootanimation-module-ronux": 1,
+    "box_for_root": 1,
+    "com.chiller3.alterinstaller": 1,
+    "disable-low-ram": 2,
+    "fastcharge-next": 1,
+    "hifi-maximizer-mod": 1,
+    "high_perf_dac": 1,
+    "hma_oss_zygisk": 2,
+    "kp_enhancer": 1,
+    "livebootmagisk": 2,
+    "magisk-swapspace": 2,
+    "mm": 2,
+    "net-switch": 5,
+    "openeuicc": 1,
+    "playintegrityfix": 8,
+    "rezygisk": 4,
+    "systemless-hosts-KernelSU-module": 2,
+    "universal-gms-doze": 2,
+    "uperf": 3,
+    "zapret": 1,
+    "zygisk-assistant": 4,
+    "zygisk-sui": 3,
+    "zygisk_nohello": 1,
+    "zygisk_vector": 3,
+    "bindhosts": 7,
+    "mmrl_wpd": 4,
+    "BetterKnownInstalled": 2,
+    "Re-Malwack": 2,
+    "TA_utl": 5,
+    "acp": 1,
+    "aml": 1,
+    "cubic-adblock": 1,
+    "djs": 2,
+    "flagsecurepatcher": 2,
+    "iOS_Emoji": 3,
+    "lune_bridge": 2,
+    "magisk-wifiadb": 1,
+    "meta-overlayfs": 1,
+    "sensitive_props": 3,
+    "susfs4ksu": 4,
+    "system_app_nuker": 2,
+    "tricky_store": 7,
+    "usb-samplerate-unlocker": 2,
+    "vbmeta-fixer": 1,
+    "zygisk-detach": 7,
+    "zygisk_lsposed": 5,
+    "zygisksu": 6,
+    "com.chiller3.msd": 1,
+    "hybrid_mount": 3,
+    "BuiltIn-BusyBox": 1,
+    "CustomizedNavbar": 1,
+    "GMSDoze": 1,
+    "Luz-Nocturna_Modded": 1,
+    "NoProcStatRestriction": 1,
+    "QS_Rectangulares": 1,
+    "StevenBlock": 2,
+    "SystemlessDebloater": 2,
+    "ToyBox-Ext": 1,
+    "YetAnotherBootloopProtector": 1,
+    "audio-samplerate-changer": 1,
+    "chroot-distro": 2,
+    "custom-certificate-authorities": 1,
+    "data_backup": 1,
+    "data_isolation_support": 1,
+    "data_restore_Courier": 1,
+    "drc-remover": 1,
+    "enable-blurs": 1,
+    "isodrive": 1,
+    "magisk-autoboot": 1,
+    "magisk_proc_monitor": 1,
+    "oneplus-8series-9r-camera-unlocker": 1,
+    "open_fonts": 1,
+    "open_webview": 1,
+    "selinux_mode": 1,
+    "supl-replacer": 1,
+    "systemui-bootloop": 1,
+    "trichromelibrary-squoosh": 1,
+    "AZenith": 2,
+    "COPG": 4,
+    "encore": 3,
+    "mountify": 3,
+    "xhhttp": 1,
+    "altdb": 1,
+    "auriya": 1,
+    "device_faker": 1,
+    "duck-toolbox": 1,
+    "hypercool": 1,
+    "KernelSU-Tuner": 1,
+    "ksuGrantToast": 1,
+    "lkm4ctr": 1,
+    "magic_mount_rs": 1,
+    "MagicNet": 1,
+    "MoveCertificate": 1,
+    "netproxy": 1,
+    "oh_my_keymint": 2,
+    "ReSuSFS": 1,
+    "zygisknextsu": 1,
+    "zygisk_shamiko": 4,
+    "gitmigrator": 1,
+    "Yurikey": 1,
+    "com.chiller3.bcr": 1,
+    "cache_cleaner": 1,
+    "asoul_affinity_opt": 1,
+    "busybox-ndk": 1,
+    "Malwack": 1,
+    "MiXplorer": 1,
+    "Xtreme-Battery-Saver": 1,
+    "adb-ndk": 1,
+    "gcc_on_android": 1,
+    "magisk_overlayfs": 1,
+    "tcp_optimiser": 1
+  },
+  "ksu_origins": {
+    "https://github.com/rrr333nnn333/brene": "catalog",
+    "https://github.com/n4bi10p/ios-emoji": "catalog",
+    "https://github.com/nakixii/magisk_asoulopt": "catalog",
+    "https://github.com/raafi-abir/acc-automatic-cache-cleaner": "catalog",
+    "https://github.com/nightmean/android-adb-over-tcp-at-boot": "catalog",
+    "https://github.com/nalbe/shark8-adb-wifi-lan-persistent": "catalog",
+    "https://github.com/evdenis/adb_root": "catalog",
+    "https://github.com/k3v1991/adguarddns4magisk-family": "catalog",
+    "https://github.com/snowzlmbot/adguardhome-android-module": "catalog",
+    "https://github.com/zafxyra/zafxyragent": "catalog",
+    "https://github.com/iodn/android-kernel-tweaker": "catalog",
+    "https://github.com/hrishi2861/alioth-loud": "catalog",
+    "https://github.com/dr-tsng/altdb": "catalog",
+    "https://github.com/chenxiaolong/alterinstaller": "catalog",
+    "https://github.com/nvisosecurity/alwaystrustusercerts": "catalog",
+    "https://github.com/ddceka/android-analytics-disabler": "catalog",
+    "https://github.com/ravindu644/android-bridge": "catalog",
+    "https://github.com/brill594/pppoe_for_android": "catalog",
+    "https://github.com/aethermagee/android-sshd": "catalog",
+    "https://github.com/c0d3h01/androidtweaker": "catalog",
+    "https://github.com/magisk-modules-alt-repo/abootloop": "catalog",
+    "https://github.com/rgws-liulai/any_ca": "catalog",
+    "https://github.com/rgws-liulai/anykeybox_module": "catalog",
+    "https://github.com/mirsella/aod-battery-saver-override": "catalog",
+    "https://github.com/privshell/apex-apps": "catalog",
+    "https://github.com/chisewaguri/systemapp_nuker": "catalog",
+    "https://github.com/cinitdev/appopt": "catalog",
+    "https://github.com/ripperhybrid/ashlooper": "catalog",
+    "https://github.com/magisk-modules-alt-repo/audio-jitter-silencer": "catalog",
+    "https://github.com/magisk-modules-alt-repo/audio-misc-settings": "catalog",
+    "https://github.com/magisk-modules-alt-repo/audio-samplerate-changer": "catalog",
+    "https://github.com/tkocean/aurora": "catalog",
+    "https://github.com/gjr787878/auto-create-app-storage": "catalog",
+    "https://github.com/s123123sd/smartclear": "catalog",
+    "https://github.com/l3fel/axionrecents": "catalog",
+    "https://github.com/ahmedyasir2023/ay-lightning-pro": "catalog",
+    "https://github.com/liliya2727/azenith": "catalog",
+    "https://github.com/cpufreestyle/bg-keepalive": "catalog",
+    "https://github.com/weirdmidas/basiccleaner": "catalog",
+    "https://github.com/kaminarich/batteryhoney": "catalog",
+    "https://github.com/chenxiaolong/bcr": "catalog",
+    "https://github.com/lordarrin/beszel-agent-magisk": "catalog",
+    "https://github.com/pixel-props/betterknowninstalled": "catalog",
+    "https://github.com/bindhosts/bindhosts": "catalog",
+    "https://github.com/sakthibalank-f/marble-poco-f5-black-glow-fix": "catalog",
+    "https://github.com/pantsufan/blockads": "catalog",
+    "https://github.com/pantsufan/magisk-ad-blocking-module": "catalog",
+    "https://github.com/readonlynux/bootanimation-module": "catalog",
+    "https://github.com/hafiezanarman/bootloop-protection-v1.1": "catalog",
+    "https://github.com/taamarin/box_for_magisk": "catalog",
+    "https://github.com/xrz324/mbox-ksu": "catalog",
+    "https://github.com/chizi-0618/box4magisk": "catalog",
+    "https://github.com/moscow146/callbridge": "catalog",
+    "https://github.com/kailashrs/camx-fullsize": "catalog",
+    "https://github.com/doezer/caros-profile-switcher": "catalog",
+    "https://github.com/pwnlogs/cert-fixer": "catalog",
+    "https://github.com/abhishektor55/charging-bypass-magisk": "catalog",
+    "https://github.com/magisk-modules-alt-repo/chroot-distro": "catalog",
+    "https://github.com/skypin969/clear-by-skypin": "catalog",
+    "https://github.com/flycom-e/clearbox": "catalog",
+    "https://github.com/as-tsaqib/cliproxyapi-module": "catalog",
+    "https://github.com/tsaqb/cliproxyapi-android": "catalog",
+    "https://github.com/thoitiettxl-cyber/cli-proxy-api": "catalog",
+    "https://github.com/alexdev404/cloudflared-magisk": "catalog",
+    "https://github.com/dr-essence/cmf-true-stereo": "catalog",
+    "https://github.com/masitankitavim-ux/codex-android": "catalog",
+    "https://github.com/ajfiles/call-of-duty-mobile-120fps-magisk": "catalog",
+    "https://github.com/mods-center/coloros_control_center": "catalog",
+    "https://github.com/k3v1991/comodo-securedns4magisk": "catalog",
+    "https://github.com/vd171/copg-vd": "catalog",
+    "https://github.com/quantom2/realme-gt3-neo5-cpu-limiter": "catalog",
+    "https://github.com/zarkentroska/crdroid-a16-skip-lockscreen": "catalog",
+    "https://github.com/poweran2020/crond4android": "catalog",
+    "https://github.com/vaz15k/cubic-adblock": "catalog",
+    "https://github.com/magisk-modules-alt-repo/custom-certificate-authorities": "catalog",
+    "https://github.com/yujiacheng1996/custom-certificates": "catalog",
+    "https://github.com/ritikthakur22/brightnesscontrol": "catalog",
+    "https://github.com/nalbe/shark8-damon-reclaim-off": "catalog",
+    "https://github.com/azyrn/deepdoze-enforcer": "catalog",
+    "https://github.com/aurora-nasa-1/deepsuppressor": "catalog",
+    "https://github.com/seyud/device_faker": "catalog",
+    "https://github.com/sidex15/deviceidchanger": "catalog",
+    "https://github.com/talgorhythmic/dirac-universal-magisk-module": "catalog",
+    "https://github.com/justmlc4real/disable-default-game-frame-rate": "catalog",
+    "https://github.com/danish3311/disable-fuse-bpf": "catalog",
+    "https://github.com/magisk-modules-alt-repo/disable-low-ram": "catalog",
+    "https://github.com/1ndevelopment/foxxd_a67l_touch_backlight_disabler": "catalog",
+    "https://github.com/k3v1991/dns.watch4magisk": "catalog",
+    "https://github.com/gasciljh/dnscrypt-proxy-webui": "catalog",
+    "https://github.com/gegedevs/dnsresolve-termux": "catalog",
+    "https://github.com/mgksu/dockerd": "catalog",
+    "https://github.com/xpasha/dozeaodwallpaper": "catalog",
+    "https://github.com/draumaz/dozedisabler": "catalog",
+    "https://github.com/ayoubvvch/sshserver-magisk": "catalog",
+    "https://github.com/2ertwo6/dropbear-ssh-android-module": "catalog",
+    "https://github.com/ahmed-alnassif/dsp-audiofix": "catalog",
+    "https://github.com/bouteillepleine/duckmock": "catalog",
+    "https://github.com/ovehbe/duraspeed-off": "catalog",
+    "https://github.com/ps2classicsvault/dynamic-system-tweaks-magisk-module": "catalog",
+    "https://github.com/mizuno-sachiko/easytier-magisk": "catalog",
+    "https://github.com/rem01gaming/encore": "catalog",
+    "https://github.com/shivrajtode/extradim-magisk": "catalog",
+    "https://github.com/skyghost090/extreme-gms-doze": "catalog",
+    "https://github.com/ahmed2111x/falcon_integrity_fix": "catalog",
+    "https://github.com/sabbirafat96/fast-animation-stable-fps-": "catalog",
+    "https://github.com/dev97633/fastcharge-next": "catalog",
+    "https://github.com/j-hc/flagsecurepatcher": "catalog",
+    "https://github.com/fouc3-mirror/hyperos-flclash-vpn-fix": "catalog",
+    "https://github.com/meetox80/zflip3": "catalog",
+    "https://github.com/moloo4ni/fod-fix-obsidian": "catalog",
+    "https://github.com/ethanm6/google-sans-flex-magisk": "catalog",
+    "https://github.com/ripperhybrid/fontcraft": "catalog",
+    "https://github.com/luferos/forcedns_magisk-kernelsu": "catalog",
+    "https://github.com/silvertax/force-skiavk": "catalog",
+    "https://github.com/privshell/forge-git": "catalog",
+    "https://github.com/1ndevelopment/unisoc_gsi_callfix": "catalog",
+    "https://github.com/mods-center/fps-limitation-patcher": "catalog",
+    "https://github.com/ayusmannanda/fridamanager": "catalog",
+    "https://github.com/drsexo/frosty": "catalog",
+    "https://github.com/vip-svip/sy": "catalog",
+    "https://github.com/mango0oo/g-news-control": "catalog",
+    "https://github.com/jun430/g750-boost": "catalog",
+    "https://github.com/elvex10/galaxy-multiuser": "catalog",
+    "https://github.com/bluescorpiovr/galaxyxr-modules": "catalog",
+    "https://github.com/cameleonnbss/galaxyhz": "catalog",
+    "https://github.com/youtiaoll1745055735-afk/gameshield": "catalog",
+    "https://github.com/arimacose/keep_default_assistant_as_gemini": "catalog",
+    "https://github.com/kahramanedit/magisk-gifboot": "catalog",
+    "https://github.com/privshell/gitmigrator-ksu": "catalog",
+    "https://github.com/vaccreate/glyphkeeper": "catalog",
+    "https://github.com/rev4n1/gphotosunlimited": "catalog",
+    "https://github.com/andyching168/gwallet-cardart": "catalog",
+    "https://github.com/nikakvo/gps-locker": "catalog",
+    "https://github.com/caullenomdahl/grab-netprinter": "catalog",
+    "https://github.com/k3v1991/green2priv": "catalog",
+    "https://github.com/k3v1991/green2priv-beta": "catalog",
+    "https://github.com/drsexo/greenify4magisk-ksu-reborn": "catalog",
+    "https://github.com/zhangdunlong/groupguard-magisk": "catalog",
+    "https://github.com/mikary29/hdaudio-magisk-module": "catalog",
+    "https://github.com/dat-hoangnguyentuandat/hermesandroid": "catalog",
+    "https://github.com/kelexine/hid-gadget-module": "catalog",
+    "https://github.com/unknuw/hide-navbar-keyboard": "catalog",
+    "https://github.com/serkenn/hide-virt-apex-su": "catalog",
+    "https://github.com/yzyhk904/hifi-maximizer-mod": "catalog",
+    "https://github.com/ahkehra/high_perf_dac": "catalog",
+    "https://github.com/atrejokm301/hilightlink": "catalog",
+    "https://github.com/mengwuzhuanshou/honorlsposedfix": "catalog",
+    "https://github.com/yuzakikokuban/meta-hybrid_mount": "catalog",
+    "https://github.com/aestasbritannia/hydro-br-leur": "catalog",
+    "https://github.com/tatshsiow/hyperoptimize": "catalog",
+    "https://github.com/yudharn/hypercool": "catalog",
+    "https://github.com/mods-center/hyperos-rust-launcher-mod": "catalog",
+    "https://github.com/chickendrop89/hyperos-accessibility-fix": "catalog",
+    "https://github.com/mods-center/hyperos-aod": "catalog",
+    "https://github.com/mods-center/hyperos-app-vault": "catalog",
+    "https://github.com/ukriu/hyperunlocked": "catalog",
+    "https://github.com/leohearts/i-dont-want-to-catch-up": "catalog",
+    "https://github.com/j-hc/ih8securelock": "catalog",
+    "https://github.com/cookieof/imagecopyhide": "catalog",
+    "https://github.com/chengdong-yu/imei-privacy": "catalog",
+    "https://github.com/infamousmick/infamick-script": "catalog",
+    "https://github.com/hiruko-puppetmaster/infinix-loading-bootanimation": "catalog",
+    "https://github.com/keinta15/magisk-ios-emoji": "catalog",
+    "https://github.com/jevcje0-gif/arabic-and-english-ios-fonts-magisk-module": "catalog",
+    "https://github.com/nikakvo/ipset-arm64": "catalog",
+    "https://github.com/i-taylo/iunlockergl": "catalog",
+    "https://github.com/james34602/jamesdspmanager": "catalog",
+    "https://github.com/mars-wave/jetbrains-font-magisk-module": "catalog",
+    "https://github.com/teamjcd/joycondroidcompanion": "catalog",
+    "https://github.com/raajk20pro/kernelenhancer": "catalog",
+    "https://github.com/nativestar/kernelsugranttoast": "catalog",
+    "https://github.com/ylh440104/kernelsu-tuner": "catalog",
+    "https://github.com/barsikus007/ksu-webui-module-template": "catalog",
+    "https://github.com/tbc0309/kpa-modules": "catalog",
+    "https://github.com/kernelsu-next/kpatch-next-module": "catalog",
+    "https://github.com/nikakvo/lan-cloak-arm64": "catalog",
+    "https://github.com/albatrossmicrosystems/lazarus-xposed": "catalog",
+    "https://github.com/k3v1991/level3dns4magisk": "catalog",
+    "https://github.com/makuro-arisaka/android17-lhdc-a2dp-universal": "catalog",
+    "https://github.com/symbuzzer/livebootmodule": "catalog",
+    "https://github.com/idklelpigeon/liveboot-enhanced": "catalog",
+    "https://github.com/cyanmint/lkm4ctr": "catalog",
+    "https://github.com/scozzadroid-cpu/lockjaw-magisk-ksu": "catalog",
+    "https://github.com/hxreborn/log-catcher": "catalog",
+    "https://github.com/uraniam9/lune-bridge": "catalog",
+    "https://github.com/zy0x/lynx": "catalog",
+    "https://github.com/kernelsu-modules-repo/meta-mm": "catalog",
+    "https://github.com/programminghoch10/magicalprotection": "catalog",
+    "https://github.com/zhu-junwei/magisk-alist": "catalog",
+    "https://github.com/rikj000/magisk-manager-for-recovery-mode": "catalog",
+    "https://github.com/chickendrop89/magisk-swapspace": "catalog",
+    "https://github.com/mrh929/magisk-wifiadb": "catalog",
+    "https://github.com/kyliekyler/magnetar": "catalog",
+    "https://github.com/duyquang6/maple-mono-android": "catalog",
+    "https://github.com/qvq9999/memkeep": "catalog",
+    "https://github.com/kiran-embedded/micfix-magisk-module": "catalog",
+    "https://github.com/guocheng1378/miclaw-api": "catalog",
+    "https://github.com/mben25/micloud-a16": "catalog",
+    "https://github.com/dethbyte64/magisk-minecraft-font": "catalog",
+    "https://github.com/foxlost/universal-miracast-sink": "catalog",
+    "https://github.com/petittux1/mirafix": "catalog",
+    "https://github.com/colorxi/mithermaltuner": "catalog",
+    "https://github.com/bapirex/mitm-ca-system": "catalog",
+    "https://github.com/nangongjing1/misans-module-for-magisk": "catalog",
+    "https://github.com/mods-center/hyperos-launcher": "catalog",
+    "https://github.com/mods-center/hyperos-security-center": "catalog",
+    "https://github.com/mods-center/hyperos-theme-manager": "catalog",
+    "https://github.com/rchrdariza/moto-g15-raw": "catalog",
+    "https://github.com/backslashxx/mountify": "catalog",
+    "https://github.com/ys1231/movecertificate": "catalog",
+    "https://github.com/insertx2k/multiuseruienabler": "catalog",
+    "https://github.com/tbc0309/myuppy-font-crdroid12": "catalog",
+    "https://github.com/magisk-modules-alt-repo/hidenavbar": "catalog",
+    "https://github.com/rem01gaming/net-switch": "catalog",
+    "https://github.com/fanju6/netproxy-magisk": "catalog",
+    "https://github.com/briclyaz/nlsound_module_qcom": "catalog",
+    "https://github.com/chandr1000/nm-compat-scanner": "catalog",
+    "https://github.com/ymuuuu/noemulator": "catalog",
+    "https://github.com/lzghzr/apatch_kpm": "catalog",
+    "https://github.com/reindex-ot/nothing-euicc": "catalog",
+    "https://github.com/ethanm6/noto-emoji-magisk": "catalog",
+    "https://github.com/minionguyjpro/novainstaller": "catalog",
+    "https://github.com/aleopho/nx789j-autobrightness": "catalog",
+    "https://github.com/nikitos4683/nzapret": "catalog",
+    "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard": "catalog",
+    "https://github.com/magisk-modules-alt-repo/oneplus-8series-9r-camera-unlocker": "catalog",
+    "https://github.com/aloozchips/oneuiemojipack": "catalog",
+    "https://github.com/kernelsu-modules-repo/meta-overlayfs": "catalog",
+    "https://github.com/epicmann24/oosgms-optimiser": "catalog",
+    "https://github.com/rhythmcache/partition-backup": "catalog",
+    "https://github.com/lanrhyme/patch-inline-trackmotion": "catalog",
+    "https://github.com/adivenxnataly/perfgame": "catalog",
+    "https://github.com/juaniman/perfmtk": "catalog",
+    "https://github.com/silvertax/phhims-volte-o2": "catalog",
+    "https://github.com/kailoinf/phoneserver": "catalog",
+    "https://github.com/thoitiettxl-cyber/pi-sing": "catalog",
+    "https://github.com/orev7s/pillarbox": "catalog",
+    "https://github.com/bennybrit/pixel-5g-enabler": "catalog",
+    "https://github.com/elcapitanoe/komodo-build-prop": "catalog",
+    "https://github.com/drizzy07x/supercharger_pixel_9_series": "catalog",
+    "https://github.com/ahmeturesin/magisk-module-android-11-pixel-launcher": "catalog",
+    "https://github.com/siavash79/pixelxpert": "catalog",
+    "https://github.com/pixelupdater/pixelupdater": "catalog",
+    "https://github.com/anirudhgupta109/pixelxpert-next": "catalog",
+    "https://github.com/kowx712/playintegrityfix": "catalog",
+    "https://github.com/osm0sis/playintegrityfork": "catalog",
+    "https://github.com/daboynb/playcurlnext": "catalog",
+    "https://github.com/lenluxue/plf110-touch-rate-sync": "catalog",
+    "https://github.com/naplon74/magisk-pluskey": "catalog",
+    "https://github.com/mor4land/poco-m5-hyperos3-lockscreen": "catalog",
+    "https://github.com/siimsek/pop-zram": "catalog",
+    "https://github.com/yusuf6411/powerboost": "catalog",
+    "https://github.com/ayoubvvch/privapp-systemizer-magisk": "catalog",
+    "https://github.com/adrianageng7/projectx-webui": "catalog",
+    "https://github.com/xposed-modules-repo/com.wowsoftware.hidemyandroid": "catalog",
+    "https://github.com/xposed-modules-repo/net.wowsoftware.hidemyemulator": "catalog",
+    "https://github.com/mrakorez/py2droid": "catalog",
+    "https://github.com/k3v1991/quad9dns4magisk": "catalog",
+    "https://github.com/literallyaxo/quest2-touch-on-quest3": "catalog",
+    "https://github.com/zg089/re-malwack": "catalog",
+    "https://github.com/moloo4ni/statusbar-fix-obsidian": "catalog",
+    "https://github.com/exloud/render-switcher": "catalog",
+    "https://github.com/xeloria/resonancefx": "catalog",
+    "https://github.com/ahmed-alnassif/resusfs": "catalog",
+    "https://github.com/alienware377/rootlessviper4android": "catalog",
+    "https://github.com/astoritin/rotationsuggestionsclosed": "catalog",
+    "https://github.com/katelynthestargazer/rsync-magisk": "catalog",
+    "https://github.com/andresuhensleeby-a11y/thermal-fire-universal-v1.4.0": "catalog",
+    "https://github.com/noxproductions/t3ra1n": "catalog",
+    "https://github.com/supermarsx/magisk-samsung-dex-standalone-mode": "catalog",
+    "https://github.com/evdenis/selinux_permissive": "catalog",
+    "https://github.com/nalbe/shark8-gamemode-gsi": "catalog",
+    "https://github.com/nalbe/shark8-smartrefresh-gsi": "catalog",
+    "https://github.com/liyw0205/sidekeyplus": "catalog",
+    "https://github.com/weirdmidas/skysceneaddon": "catalog",
+    "https://github.com/saadnahid7/smalipatcherreborn": "catalog",
+    "https://github.com/charlesgool/smb_smart_sync": "catalog",
+    "https://github.com/shuo67713-stack/smoothflow": "catalog",
+    "https://github.com/maksim-venus/magisk-sms-forward": "catalog",
+    "https://github.com/xcaptain09/sortify": "catalog",
+    "https://github.com/andresuhensleeby-a11y/sound-universal-update": "catalog",
+    "https://github.com/andresuhensleeby-a11y/sound-universal-update-5.1.4": "catalog",
+    "https://github.com/dpejoh/specter": "catalog",
+    "https://github.com/llucs/speedcool-magisk-module": "catalog",
+    "https://github.com/orev7s/split": "catalog",
+    "https://github.com/sabbirafat96/spoof-gt-50-pro": "catalog",
+    "https://github.com/nadelacruz-00/status-bar-guard": "catalog",
+    "https://github.com/kanaodnd/stellar-tweaks": "catalog",
+    "https://github.com/mikropsoft/stevenblock": "catalog",
+    "https://github.com/ymuuuu/susfs4ksu-lkm-x64": "catalog",
+    "https://github.com/sidex15/susfs4ksu-module": "catalog",
+    "https://github.com/rompelhd/swap-disabler": "catalog",
+    "https://github.com/yadavnikhil03/swapboost-pro": "catalog",
+    "https://github.com/magisk-modules-alt-repo/systemless-adblocker": "catalog",
+    "https://github.com/symbuzzer/systemless-hosts-kernelsu-module": "catalog",
+    "https://github.com/nalbe/shark8-systemui-contacts-fix": "catalog",
+    "https://github.com/joinchang/tailscale-root": "catalog",
+    "https://github.com/wxz2672554287/lenovo-tab-ultrahdr-fix": "catalog",
+    "https://github.com/philiphall6/tcl-power-menu-r51mt05": "catalog",
+    "https://github.com/fatalcoder524/tcp_optimiser_module": "catalog",
+    "https://github.com/zhanfg/tcp_optimiser_rs": "catalog",
+    "https://github.com/rompelhd/termuxrootmods": "catalog",
+    "https://github.com/jojobear691/termuxrootmods-ksu-toolkit": "catalog",
+    "https://github.com/mariayuno/termuxsu-magisk": "catalog",
+    "https://github.com/yumamax3/tethys-tailscaled": "catalog",
+    "https://github.com/darkaxt/thorautotimezone": "catalog",
+    "https://github.com/slopport/tq-android-perf": "catalog",
+    "https://github.com/slopport/tq-traders": "catalog",
+    "https://github.com/performanc/treat-wheel-zygisk": "catalog",
+    "https://github.com/nalbe/shark8-treble-su-fix": "catalog",
+    "https://github.com/kowx712/tricky-addon-update-target-list": "catalog",
+    "https://github.com/5ec1cff/trickystore": "catalog",
+    "https://github.com/beakthoven/trickystoreoss": "catalog",
+    "https://github.com/de4869/tunclash": "catalog",
+    "https://github.com/katelynthestargazer/turnoffsensors-magisk": "catalog",
+    "https://github.com/disc0nnctd/tvremoteweb": "catalog",
+    "https://github.com/deserthouse/twemoji-resurrection": "catalog",
+    "https://github.com/magisk-modules-repo/twrp-keep": "catalog",
+    "https://github.com/yinwanxi/uperf-game-turbo": "catalog",
+    "https://github.com/ravindu644/usb-arsenal": "catalog",
+    "https://github.com/astoritin/vbmetadisguiser": "catalog",
+    "https://github.com/reveny/android-vbmeta-fixer": "catalog",
+    "https://github.com/1213015988/verity-guard": "catalog",
+    "https://github.com/justadeayo/viper4-xf": "catalog",
+    "https://github.com/soskn/volumesteps": "catalog",
+    "https://github.com/portablediag/volumeperapp": "catalog",
+    "https://github.com/ruyisio/vpn-share-proxy": "catalog",
+    "https://github.com/narakai/magisk-vpn-tether": "catalog",
+    "https://github.com/nalbe/blackview-shark8-vulkan-hwui-patch": "catalog",
+    "https://github.com/wfire06100/wallet-card-audit": "catalog",
+    "https://github.com/radito/watchdog": "catalog",
+    "https://github.com/lusmaysh/webview-optimizer": "catalog",
+    "https://github.com/nikakvo/wg-shield-arm64": "catalog",
+    "https://github.com/loficore/wg-user": "catalog",
+    "https://github.com/mishkarala/wifi-4g-enhanced-mostly-poco-f3": "catalog",
+    "https://github.com/hyperramzey/wcg_f946b": "catalog",
+    "https://github.com/e3n-glotm/wifi7-lab-safe": "catalog",
+    "https://github.com/googlers-repo/wpd": "catalog",
+    "https://github.com/nosiybugs/uu-wheel-evdev": "catalog",
+    "https://github.com/leapdragon/xiaomiplaystorefix": "catalog",
+    "https://github.com/cherwing/xiaomi_usb_security_bypass": "catalog",
+    "https://github.com/yapixel/y700-device-name": "catalog",
+    "https://github.com/k3v1991/yandex-dns4magisk-basic": "catalog",
+    "https://github.com/k3v1991/yandex-dns4magisk-family": "catalog",
+    "https://github.com/k3v1991/yandex-dns4magisk-safe": "catalog",
+    "https://github.com/magisk-modules-alt-repo/yetanotherbootloopprotector": "catalog",
+    "https://github.com/dpejoh/yurikey": "catalog",
+    "https://github.com/sevcator/zapret-magisk": "catalog",
+    "https://github.com/sevcator/zapret-pocket": "catalog",
+    "https://github.com/soufied/zapret-ksu": "catalog",
+    "https://github.com/verybaaad/znnext": "catalog",
+    "https://github.com/verybaaad/zygisknextnext": "catalog",
+    "https://github.com/kahramanedit/redmagic-11-pro-zram-16gb-ramslider": "catalog",
+    "https://github.com/2108282/zram-lz4kds-sddc-houji-6.1": "catalog",
+    "https://github.com/furlc/zram-module": "catalog",
+    "https://github.com/leolovenet/zygisk-fridagadget": "catalog",
+    "https://github.com/eritpchy/fingerprintpay": "catalog",
+    "https://github.com/dr-tsng/zygisknext": "catalog",
+    "https://github.com/j-hc/zygisk-detach": "catalog",
+    "https://github.com/alirezaparsi/copg": "catalog",
+    "https://github.com/luoyi0914/thermocharge": "catalog",
+    "https://github.com/tsangasuna/hoshitele-dns-module": "catalog",
+    "https://github.com/petittux1/xiaomiautomation": "catalog",
+    "https://github.com/enddream-zm/lowlife": "catalog",
+    "https://github.com/hybrid-mount/meta-hybrid_mount": "KernelSU Next official metamodules",
+    "https://github.com/tools-cx-app/meta-magic_mount-rs": "KernelSU Next official metamodules",
+    "https://github.com/enginex0/zeromount": "KernelSU Next official metamodules",
+    "https://github.com/maxsteeel/nomount": "KernelSU Next official metamodules",
+    "https://github.com/rifsxd/ksu_toolkit": "KernelSU Next official open-source",
+    "https://github.com/jingmatrix/teesimulator": "KernelSU Next official open-source",
+    "https://github.com/performanc/rezygisk": "KernelSU Next official open-source",
+    "https://github.com/rrr333nnn333/brezygisk": "KernelSU Next official open-source",
+    "https://github.com/yurii0307/yurikey": "KernelSU Next official open-source",
+    "https://github.com/jingmatrix/vector": "KernelSU Next official open-source",
+    "https://github.com/jingmatrix/neozygisk": "KernelSU Next official open-source",
+    "https://github.com/numbersf/makefontsgreatagain": "KernelSU Next official open-source",
+    "https://github.com/qwq233/ohmykeymint": "KernelSU Next official open-source",
+    "https://github.com/frknkrc44/hma-oss": "KernelSU Next official open-source",
+    "https://github.com/michongs/frida-rs": "KernelSU Next official open-source",
+    "https://github.com/virb3/magisk-frida": "KernelSU Next official open-source"
+  }
+}
