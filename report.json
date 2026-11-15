@@ -1,0 +1,20 @@
+{
+  "updated": 1794741122,
+  "source": "krishna3163/best-root-apps-for-android",
+  "catalog_entries": 1867,
+  "catalog_readme_entries": 1822,
+  "morphe_apks": 45,
+  "tracked_extras": 0,
+  "github_repositories": 1757,
+  "checked_repositories": 1757,
+  "pending_repositories": 0,
+  "checked_this_run": 414,
+  "verified_module_repositories": 414,
+  "mmrl_modules": 400,
+  "kernelsu_next_modules": 354,
+  "exclusions_by_reason": {
+    "ambiguous_multiple_module_ids": 14,
+    "no_latest_release": 265,
+    "no_valid_module_zip": 495
+  }
+}
