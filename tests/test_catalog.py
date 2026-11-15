@@ -65,6 +65,25 @@ class CatalogTests(unittest.TestCase):
         modules, ksu = feed.create_indexes(data, {"a/b": entry}, 1000)
         self.assertEqual(len(ksu), 1)
 
+    def test_same_id_forks_are_not_lost_in_kernel_su(self):
+        entries = {"entries": [
+            {"repository": "older/module", "name": "Older", "description": ""},
+            {"repository": "newer/module", "name": "Newer", "description": ""},
+        ]}
+        def state(repo, time):
+            return {"valid": True, "prop": {"id": "shared.id", "name": repo,
+                    "version": "1", "versionCode": "1", "author": "Author",
+                    "description": "Example"}, "size": 100,
+                    "zip": f"https://github.com/{repo}/releases/download/v1/m.zip",
+                    "zip_count": 1, "valid_zip_count": 1, "timestamp": time}
+        modules, ksu = feed.create_indexes(entries, {
+            "older/module": state("older/module", 100),
+            "newer/module": state("newer/module", 200),
+        }, 1000)
+        self.assertEqual(len(modules), 1)
+        self.assertEqual(modules[0]["homepage"], "https://github.com/newer/module")
+        self.assertEqual(len(ksu), 2)
+
     def test_cached_release_checked_timestamp_is_updated(self):
         saved = {"valid": True, "release_id": 55, "checked": 1, "prop": {"id": "t"}}
         original = feed.release
