@@ -94,6 +94,19 @@ class FederationTests(unittest.TestCase):
         self.assertEqual(next(i for i in k if i["repoUrl"].lower().endswith("/a"))["license"],
                          "GPL-3.0")
 
+    def test_discovered_malicious_version_cannot_shadow_catalog(self):
+        catalog = module("unique.module", 4, 50)
+        original_zip = catalog["versions"][0]["zipUrl"]
+        forged = normalize_mmrl(module("unique.module", 2_147_483_647, 200))
+        state = {"mmrl:https://unknown.test/json/modules.json": {
+            "kind": "mmrl", "source": "https://unknown.test/",
+            "tier": "discovered", "entries": [forged]}}
+        modules, _, audit = merge([catalog], [], state)
+        self.assertEqual(len(modules), 1)
+        self.assertEqual(modules[0]["versionCode"], 4)
+        self.assertEqual(modules[0]["versions"][0]["zipUrl"], original_zip)
+        self.assertEqual(audit["module_origins"]["unique.module"]["kind"], "catalog")
+
     def test_bad_index_refuses_empty_source(self):
         base = "https://example.org/"
         def fetch(_):
