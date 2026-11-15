@@ -4,7 +4,7 @@
   "description": "Verified root module ZIPs discovered in Best Root Apps for Android.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794734559.0
+    "timestamp": 1794740539.0
   },
   "modules": [
     {
@@ -28,6 +28,54 @@
           "versionCode": 2,
           "zipUrl": "https://github.com/evdenis/adb_root/releases/download/v2.0/adb_root-v2.0.zip",
           "timestamp": 1772187907.0
+        }
+      ]
+    },
+    {
+      "id": "aktune",
+      "name": "AKTune (Android Kernel Tweaker)",
+      "version": "v2.2",
+      "versionCode": 4,
+      "author": "NSLabs (KaijinLab)",
+      "description": "Adaptive kernel auto-tuner for CPU/GPU/scheduler/memory/I-O with capability detection and baseline restore.",
+      "homepage": "https://github.com/iodn/android-kernel-tweaker",
+      "size": 16718,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1788809981.0,
+        "source": "https://github.com/iodn/android-kernel-tweaker"
+      },
+      "versions": [
+        {
+          "version": "v2.2",
+          "versionCode": 4,
+          "zipUrl": "https://github.com/iodn/android-kernel-tweaker/releases/download/v2.2/AKTune-v2.2.zip",
+          "timestamp": 1788809981.0
+        }
+      ]
+    },
+    {
+      "id": "alioth_loud",
+      "name": "Alioth Loud",
+      "version": "v0.3.4",
+      "versionCode": 7,
+      "author": "f3",
+      "description": "[probe-verified for aliothin / HyperOS 1.0.10 CN] Volume ceiling removal for POCO F3. Layer 3 flattens the volume curve at boot (+12.7 dB at half volume, measured); layers 4a/4b add WCD headset gain and Cirrus CS35L41 amp gain, both off until you opt in. Patches live vendor configs at boot instead of shipping static files, so it survives HyperOS updates. NOTE: max volume is unchanged by design - see config.sh.",
+      "homepage": "https://github.com/hrishi2861/alioth-loud",
+      "size": 1005376,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1788512727.0,
+        "source": "https://github.com/hrishi2861/alioth-loud"
+      },
+      "versions": [
+        {
+          "version": "v0.3.4",
+          "versionCode": 7,
+          "zipUrl": "https://github.com/Hrishi2861/Alioth-Loud/releases/download/v0.3.4/alioth-loud-v0.3.4.zip",
+          "timestamp": 1788512727.0
         }
       ]
     },
@@ -100,6 +148,30 @@
           "versionCode": 12,
           "zipUrl": "https://github.com/ddCeka/Android-Analytics-Disabler/releases/download/v8.4/dss-v8.4.zip",
           "timestamp": 1793619566.0
+        }
+      ]
+    },
+    {
+      "id": "android_black_on_pink_boot_qmg",
+      "name": "Android Black on Pink SMbootFX",
+      "version": "3.1.0",
+      "versionCode": 310,
+      "author": "John0n1",
+      "description": "Android Black on Pink boot & shutdown animations for Samsung devices via Magisk overlay",
+      "homepage": "https://github.com/John0n1/SMbootFX",
+      "size": 3623164,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1788049344.0,
+        "source": "https://github.com/John0n1/SMbootFX"
+      },
+      "versions": [
+        {
+          "version": "3.1.0",
+          "versionCode": 310,
+          "zipUrl": "https://github.com/John0n1/SMbootFX/releases/download/3.1.0/android-black-on-pink-bootfx-3.1.0-magisk.zip",
+          "timestamp": 1788049344.0
         }
       ]
     },
@@ -224,6 +296,30 @@
       ]
     },
     {
+      "id": "auto_create_app_storage",
+      "name": "AutoCreateAppStorageDir",
+      "version": "2.4",
+      "versionCode": 6,
+      "author": "GJR787878",
+      "description": "自动补全缺失的 /storage/emulated/0/Android/data/<pkg>/{files,cache} 与 Android/obb 目录，修复APP假\"存储空间不足\"报错。监听应用安装事件自动创建。v2.0 新增 LSPosed 管理界面，支持手动检测和修复。",
+      "homepage": "https://github.com/gjr787878/auto-create-app-storage",
+      "size": 1796,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1790622264.0,
+        "source": "https://github.com/gjr787878/auto-create-app-storage"
+      },
+      "versions": [
+        {
+          "version": "2.4",
+          "versionCode": 6,
+          "zipUrl": "https://github.com/GJR787878/auto-create-app-storage/releases/download/v2.4/auto-create-app-storage.zip",
+          "timestamp": 1790622264.0
+        }
+      ]
+    },
+    {
       "id": "eng_ahmed_yasir_screen_gov",
       "name": "AY Lightning Pro",
       "version": "v12.0.0",
@@ -320,6 +416,30 @@
       ]
     },
     {
+      "id": "bootloop-protection",
+      "name": "Bootloop Protection",
+      "version": "1.1",
+      "versionCode": 2,
+      "author": "CJ7xGAMING",
+      "description": "Automatically disables Magisk modules after repeated failed boots.",
+      "homepage": "https://github.com/hafiezanarman/bootloop-protection-v1.1",
+      "size": 3363,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794500600.0,
+        "source": "https://github.com/hafiezanarman/bootloop-protection-v1.1"
+      },
+      "versions": [
+        {
+          "version": "1.1",
+          "versionCode": 2,
+          "zipUrl": "https://github.com/Hafiezanarman/bootloop-protection-v1.1/releases/download/bootloop-protection-v1.1/bootloop-protection-v1.1.zip",
+          "timestamp": 1794500600.0
+        }
+      ]
+    },
+    {
       "id": "box4",
       "name": "box4magisk",
       "version": "v5.1",
@@ -412,6 +532,54 @@
           "versionCode": 1,
           "zipUrl": "https://github.com/AbhishekTor55/charging-bypass-magisk/releases/download/untagged-831450a552014cfd8ec4/charging-bypass-v1.0.zip",
           "timestamp": 1750848724.0
+        }
+      ]
+    },
+    {
+      "id": "cj7x_mlbb_boost",
+      "name": "CJ7x MLBB Game Boost",
+      "version": "v1.1.0",
+      "versionCode": 10100,
+      "author": "CJ7xGAMING",
+      "description": "Boost performa khusus Mobile Legends: Bang Bang (com.mobile.legends). Saat game berjalan: CPU/GPU mode performa, RAM dibersihkan, aplikasi background ditutup. Otomatis kembali normal saat keluar game. Game dan aplikasi lain tidak disentuh. CLI: mlbbboost. Opsional: overlay lib .so systemless (mlbbboost libs).",
+      "homepage": "https://github.com/hafiezanarman/cj7x-mlbb-boost-universal-v1.1.0",
+      "size": 19734,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794383928.0,
+        "source": "https://github.com/hafiezanarman/cj7x-mlbb-boost-universal-v1.1.0"
+      },
+      "versions": [
+        {
+          "version": "v1.1.0",
+          "versionCode": 10100,
+          "zipUrl": "https://github.com/Hafiezanarman/CJ7x-MLBB-Boost-universal-v1.1.0/releases/download/v1.1.0/CJ7x-MLBB-Boost-universal-v1.1.0.zip",
+          "timestamp": 1794383928.0
+        }
+      ]
+    },
+    {
+      "id": "wipe_cache",
+      "name": "ClearBox",
+      "version": "V5.2.1",
+      "versionCode": 101,
+      "author": "FlyCome",
+      "description": "A Cleaner & More...",
+      "homepage": "https://github.com/FLYCOM-E/ClearBox",
+      "size": 3287499,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1791898747.0,
+        "source": "https://github.com/FLYCOM-E/ClearBox"
+      },
+      "versions": [
+        {
+          "version": "V5.2.1",
+          "versionCode": 101,
+          "zipUrl": "https://github.com/FLYCOM-E/ClearBox/releases/download/101-V5.2.1/ClearBox-V5.2.1-101.zip",
+          "timestamp": 1791898747.0
         }
       ]
     },
@@ -632,6 +800,54 @@
       ]
     },
     {
+      "id": "dnscrypt-proxy-webui",
+      "name": "DNSCrypt Proxy (Smart Filter)",
+      "version": "v1.6.0",
+      "versionCode": 1060000,
+      "author": "gasciljh",
+      "description": "Smart DNS filtering with DNSCrypt. Local resolver on 127.0.0.1:5354, per-profile HaGeZi blocklists (Light→Ultimate), bilingual WebUI (EN/AR), JSON metrics Dashboard, installable PWA, 10-layer user-data preservation with transactional upgrades and recovery mode. v1.6.0 fixes WebUI timezone display and updates PWA assets. Zero telemetry.",
+      "homepage": "https://github.com/gasciljh/dnscrypt-proxy-webui",
+      "size": 34811456,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794571139.0,
+        "source": "https://github.com/gasciljh/dnscrypt-proxy-webui"
+      },
+      "versions": [
+        {
+          "version": "v1.6.0",
+          "versionCode": 1060000,
+          "zipUrl": "https://github.com/gasciljh/dnscrypt-proxy-webui/releases/download/v1.6.0/dnscrypt-webui-1.6.0-module.zip",
+          "timestamp": 1794571139.0
+        }
+      ]
+    },
+    {
+      "id": "dnsresolve",
+      "name": "DNSResolve",
+      "version": "v1.0.1",
+      "versionCode": 1001,
+      "author": "GegeDevs",
+      "description": "Menyediakan /etc/resolv.conf (Google DNS 8.8.8.8/8.8.4.4/1.1.1.1) via overlay /system/etc supaya Go binary di Termux (crane, gh, dll) bisa resolve DNS. Tidak mengubah DNS Android normal.",
+      "homepage": "https://github.com/gegedevs/dnsresolve-termux",
+      "size": 3223,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1789186850.0,
+        "source": "https://github.com/gegedevs/dnsresolve-termux"
+      },
+      "versions": [
+        {
+          "version": "v1.0.1",
+          "versionCode": 1001,
+          "zipUrl": "https://github.com/GegeDevs/DNSResolve-Termux/releases/download/v1.0.1/dnsresolve-v1.0.1.zip",
+          "timestamp": 1789186850.0
+        }
+      ]
+    },
+    {
       "id": "dozedisabler",
       "name": "Doze Disabler",
       "version": "1.2",
@@ -800,6 +1016,54 @@
       ]
     },
     {
+      "id": "flagsecurepatcher",
+      "name": "FlagSecurePatcher",
+      "version": "r17",
+      "versionCode": 17,
+      "author": "j-hc",
+      "description": "Prevent apps from blocking and listening to your screenshots",
+      "homepage": "https://github.com/j-hc/FlagSecurePatcher",
+      "size": 4653307,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1759957329.0,
+        "source": "https://github.com/j-hc/FlagSecurePatcher"
+      },
+      "versions": [
+        {
+          "version": "r17",
+          "versionCode": 17,
+          "zipUrl": "https://github.com/j-hc/FlagSecurePatcher/releases/download/r17/flag-secure-patcher-r17.zip",
+          "timestamp": 1759957329.0
+        }
+      ]
+    },
+    {
+      "id": "flclash_vpn_fix",
+      "name": "FlClash VPN Fix (HyperOS appop)",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "author": "DSH",
+      "description": "修复 HyperOS / MIUI 上 FlClash 无法创建 VPN 的问题：开机自动把 com.follow.clash 的 FOREGROUND_SERVICE_SPECIAL_USE appop 设回 allow，并在被系统改回 ignore 时自动纠正。该 appop 被置为 ignore 会导致 VpnService 以 specialUse 类型启动前台服务时抛 SecurityException 并被立即销毁，tun0 无法建立、流量不被接管。仅调整 appop，不挂载、不修改任何系统文件。",
+      "homepage": "https://github.com/fouc3-mirror/hyperos-flclash-vpn-fix",
+      "size": 6378,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1790875951.0,
+        "source": "https://github.com/fouc3-mirror/hyperos-flclash-vpn-fix"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/fouc3-mirror/hyperos-flclash-vpn-fix/releases/download/v1.0.0/hyperos-flclash-vpn-fix-v1.0.0.zip",
+          "timestamp": 1790875951.0
+        }
+      ]
+    },
+    {
       "id": "UnFont",
       "name": "Font Google Sans Flex",
       "version": "v1.4.1-auto",
@@ -820,6 +1084,30 @@
           "versionCode": 141,
           "zipUrl": "https://github.com/ethanm6/google-sans-flex-magisk/releases/download/v1.4.1-auto/Google_Sans_Flex_v1.4.1-auto.zip",
           "timestamp": 1792709835.0
+        }
+      ]
+    },
+    {
+      "id": "font-loader",
+      "name": "Font Loader",
+      "version": "1.1.0",
+      "versionCode": 3,
+      "author": "JingMatrix, Rikka",
+      "description": "Preload font modules for Android 12. Do not enable useless DenyList and use hide module for hiding ROOT instead!",
+      "homepage": "https://github.com/JingMatrix/FontLoader",
+      "size": 27600,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1753275213.0,
+        "source": "https://github.com/JingMatrix/FontLoader"
+      },
+      "versions": [
+        {
+          "version": "1.1.0",
+          "versionCode": 3,
+          "zipUrl": "https://github.com/JingMatrix/FontLoader/releases/download/v1.1.0/FontLoader-release.zip",
+          "timestamp": 1753275213.0
         }
       ]
     },
@@ -1136,6 +1424,30 @@
       ]
     },
     {
+      "id": "hma_oss_zygisk",
+      "name": "HMA-OSS Zygisk",
+      "version": "oss-175",
+      "versionCode": 7304658,
+      "author": "frknkrc44",
+      "description": "A Zygisk backend for HMA-OSS",
+      "homepage": "https://github.com/frknkrc44/HMA-OSS",
+      "size": 2582384,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1793961447.0,
+        "source": "https://github.com/frknkrc44/HMA-OSS"
+      },
+      "versions": [
+        {
+          "version": "oss-175",
+          "versionCode": 7304658,
+          "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-175/HMA-OSS-ZYGISK-oss-175-release.zip",
+          "timestamp": 1793961447.0
+        }
+      ]
+    },
+    {
       "id": "ab_optimizer",
       "name": "Hydrostellaire 沨莹",
       "version": "✮Chocolate✮",
@@ -1180,6 +1492,30 @@
           "versionCode": 105,
           "zipUrl": "https://github.com/chkndrp/hyperos-accessibility-fix/releases/download/1.0.5/hyperos-accessibility-fix.zip",
           "timestamp": 1784512147.0
+        }
+      ]
+    },
+    {
+      "id": "ih8SecureLock",
+      "name": "ih8SecureLock",
+      "version": "v11",
+      "versionCode": 11,
+      "author": "j-hc",
+      "description": "Prevent apps from blocking and listening to your screenshots with Zygisk",
+      "homepage": "https://github.com/j-hc/ih8SecureLock",
+      "size": 16181,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792271285.0,
+        "source": "https://github.com/j-hc/ih8SecureLock"
+      },
+      "versions": [
+        {
+          "version": "v11",
+          "versionCode": 11,
+          "zipUrl": "https://github.com/j-hc/ih8SecureLock/releases/download/v11/ih8SecureLock-v11.zip",
+          "timestamp": 1792271285.0
         }
       ]
     },
@@ -1232,26 +1568,122 @@
       ]
     },
     {
-      "id": "kl_selinux_fix",
-      "name": "Kernel Driver SELinux & Node Fixer",
-      "version": "v1.0",
-      "versionCode": 100,
-      "author": "bmjubairdadu",
-      "description": "Fixes Android 12/13/14 SELinux restrictions that block ueventd from creating /dev character device nodes for kernel drivers. Works with Magisk, KernelSU, and APatch.",
-      "homepage": "https://github.com/bmjubairdadu/kernel-loader",
-      "size": 2312,
+      "id": "Infamick_script",
+      "name": "Infamick Script",
+      "version": "v3.3",
+      "versionCode": 202506121,
+      "author": "@Infamousmick",
+      "description": "A powerful system utility script for rooted Android devices",
+      "homepage": "https://github.com/Infamousmick/Infamick-script",
+      "size": 23487,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794689956.0,
-        "source": "https://github.com/bmjubairdadu/kernel-loader"
+        "added": 1776260338.0,
+        "source": "https://github.com/Infamousmick/Infamick-script"
       },
       "versions": [
         {
-          "version": "v1.0",
-          "versionCode": 100,
-          "zipUrl": "https://github.com/bmjubairdadu/kernel-loader/releases/download/v5.9/Kernel_SELinux_Node_Fixer.zip",
-          "timestamp": 1794689956.0
+          "version": "v3.3",
+          "versionCode": 202506121,
+          "zipUrl": "https://github.com/Infamousmick/Infamick-script/releases/download/v3.3/Infamick-script-v3.3_MAGISK.zip",
+          "timestamp": 1776260338.0
+        }
+      ]
+    },
+    {
+      "id": "infinix_bootanimation",
+      "name": "INFINIX Bootanimation",
+      "version": "1.0",
+      "versionCode": 1,
+      "author": "hiruko-puppetmaster",
+      "description": "Replaces stock bootanimation with INFINIX loading animation (1080x1080 @60fps). Compatible with Magisk, KernelSU, and APatch.",
+      "homepage": "https://github.com/hiruko-puppetmaster/infinix-loading-bootanimation",
+      "size": 25742409,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794668598.0,
+        "source": "https://github.com/hiruko-puppetmaster/infinix-loading-bootanimation"
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/hiruko-puppetmaster/Infinix-Loading-Bootanimation/releases/download/v1.0.0/INFINIX_Bootanimation.zip",
+          "timestamp": 1794668598.0
+        }
+      ]
+    },
+    {
+      "id": "iosfont",
+      "name": "IOS Fonts",
+      "version": "1.0",
+      "versionCode": 1,
+      "author": "Jevc",
+      "description": "System-wide Arabic and English IOS fonts for Android",
+      "homepage": "https://github.com/jevcje0-gif/arabic-and-english-ios-fonts-magisk-module",
+      "size": 568196,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1788741533.0,
+        "source": "https://github.com/jevcje0-gif/arabic-and-english-ios-fonts-magisk-module"
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/jevcje0-gif/Arabic-and-English-IOS-fonts-magisk-module/releases/download/Android/IOS.Fonts.zip",
+          "timestamp": 1788741533.0
+        }
+      ]
+    },
+    {
+      "id": "Mjg2MjU1ODg0Mwo",
+      "name": "iUnlocker GLTool for android",
+      "version": "v1.1.5-r4",
+      "versionCode": 1001504,
+      "author": "Taylo@Github.com/i-taylo",
+      "description": "iUnlocker GLTool is a Magisk module designed to spoof GPU information, allowing users to modify GPU informations for unlocking graphics in games and testing.",
+      "homepage": "https://github.com/i-Taylo/iUnlockerGL",
+      "size": 25969823,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1767042940.0,
+        "source": "https://github.com/i-Taylo/iUnlockerGL"
+      },
+      "versions": [
+        {
+          "version": "v1.1.5-r4",
+          "versionCode": 1001504,
+          "zipUrl": "https://github.com/i-Taylo/iUnlockerGL/releases/download/v1.1.5-r4/iUnlocker-GLTool-for-android-v1.1.5-r4.zip",
+          "timestamp": 1767042940.0
+        }
+      ]
+    },
+    {
+      "id": "ainur_jamesdsp",
+      "name": "JamesDSP Manager",
+      "version": "v6.0 (8-8-2023/26-11-2023)",
+      "versionCode": 97,
+      "author": "james34602, zackptg5, ahrion",
+      "description": "JamesDSPManager is a reformed audio engine based of AOSP and OmniROM DSPManager source code with enhanced features and tuning",
+      "homepage": "https://github.com/james34602/JamesDSPManager",
+      "size": 25983796,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1701522243.0,
+        "source": "https://github.com/james34602/JamesDSPManager"
+      },
+      "versions": [
+        {
+          "version": "v6.0 (8-8-2023/26-11-2023)",
+          "versionCode": 97,
+          "zipUrl": "https://github.com/james34602/JamesDSPManager/releases/download/28Nov2023/jdsp_v6.0.zip",
+          "timestamp": 1701522243.0
         }
       ]
     },
@@ -1328,6 +1760,30 @@
       ]
     },
     {
+      "id": "liveboot_custom",
+      "name": "LiveBoot Enhanced",
+      "version": "1.0",
+      "versionCode": 9,
+      "author": "idklelpigeon",
+      "description": "LiveBoot Enhanced boot overlay with scripted messages, text colors, image layers and custom fonts",
+      "homepage": "https://github.com/idklelpigeon/liveboot-enhanced",
+      "size": 1607766,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794407844.0,
+        "source": "https://github.com/idklelpigeon/liveboot-enhanced"
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "versionCode": 9,
+          "zipUrl": "https://github.com/idklelpigeon/Liveboot-Enhanced/releases/download/v1.0/LiveBoot_Enhanced_v1.0.zip",
+          "timestamp": 1794407844.0
+        }
+      ]
+    },
+    {
       "id": "lkm4ctr",
       "name": "lkm4ctr Kernel Module",
       "version": "4.0.5",
@@ -1348,6 +1804,30 @@
           "versionCode": 40005,
           "zipUrl": "https://github.com/cyanmint/lkm4ctr/releases/download/4.0.5/lkm4ctr-kernelsu-module.zip",
           "timestamp": 1792255814.0
+        }
+      ]
+    },
+    {
+      "id": "hxr_logcat",
+      "name": "Log Catcher",
+      "version": "v23.2",
+      "versionCode": 2302,
+      "author": "MlgmXyysd, Howard20181, hxreborn",
+      "description": "Captures logcat and kernel messages during boot, archived as timestamped tarballs.",
+      "homepage": "https://github.com/hxreborn/Log-Catcher",
+      "size": 49851,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1773532288.0,
+        "source": "https://github.com/hxreborn/Log-Catcher"
+      },
+      "versions": [
+        {
+          "version": "v23.2",
+          "versionCode": 2302,
+          "zipUrl": "https://github.com/hxreborn/Log-Catcher/releases/download/v23.2/hxr_logcat.zip",
+          "timestamp": 1773532288.0
         }
       ]
     },
@@ -1400,6 +1880,30 @@
       ]
     },
     {
+      "id": "miclaw-api",
+      "name": "MiclawAPI",
+      "version": "v1.0.0",
+      "versionCode": 1,
+      "author": "MiclawAPI",
+      "description": "Exposes Miclaw as an OpenAI-compatible HTTP API on localhost:9120",
+      "homepage": "https://github.com/guocheng1378/miclaw-api",
+      "size": 634618,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1785817038.0,
+        "source": "https://github.com/guocheng1378/miclaw-api"
+      },
+      "versions": [
+        {
+          "version": "v1.0.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/guocheng1378/miclaw-api/releases/download/v1.0.0/MiclawAPI-v1.0.0.zip",
+          "timestamp": 1785817038.0
+        }
+      ]
+    },
+    {
       "id": "MinecraftFont",
       "name": "MinecraftFont",
       "version": "1.0.0",
@@ -1420,6 +1924,30 @@
           "versionCode": 100,
           "zipUrl": "https://github.com/DethByte64/Magisk-Minecraft-Font/releases/download/v1.0.0/MinecraftFont.zip",
           "timestamp": 1746819273.0
+        }
+      ]
+    },
+    {
+      "id": "miracast-sink-system",
+      "name": "Miracast Sink (System Priv-App)",
+      "version": "v1.4",
+      "versionCode": 5,
+      "author": "foxlost",
+      "description": "Windows Miracast support, full WFD capability exchange, configurable settings, dual-mode P2P (GO intent 0/8)",
+      "homepage": "https://github.com/foxlost/universal-miracast-sink",
+      "size": 8282102,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1788685308.0,
+        "source": "https://github.com/foxlost/universal-miracast-sink"
+      },
+      "versions": [
+        {
+          "version": "v1.4",
+          "versionCode": 5,
+          "zipUrl": "https://github.com/FoxLost/universal-miracast-sink/releases/download/v1.4/magisk-miracast-sink-v1.4.zip",
+          "timestamp": 1788685308.0
         }
       ]
     },
@@ -1492,6 +2020,30 @@
           "versionCode": 205,
           "zipUrl": "https://github.com/backslashxx/mountify/releases/download/205/mountify.zip",
           "timestamp": 1792046370.0
+        }
+      ]
+    },
+    {
+      "id": "multiuseruienabler",
+      "name": "Multi User UI Enabler",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "ziad_mrx",
+      "description": "A magisk module that tries to enable Multi User UI by systemlessly changing build.prop to enable it.",
+      "homepage": "https://github.com/InsertX2k/multiuseruienabler",
+      "size": 2252,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1739999743.0,
+        "source": "https://github.com/InsertX2k/multiuseruienabler"
+      },
+      "versions": [
+        {
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/InsertX2k/multiuseruienabler/releases/download/v1.0/multiuseruienabler.zip",
+          "timestamp": 1739999743.0
         }
       ]
     },
@@ -1636,6 +2188,30 @@
           "versionCode": 2,
           "zipUrl": "https://github.com/aleopho/NX789J-AutoBrightness/releases/download/v1.0.0/NX789J-AutoBrightness-Magisk-v1.0.0.zip",
           "timestamp": 1791464809.0
+        }
+      ]
+    },
+    {
+      "id": "ommega",
+      "name": "Ommega",
+      "version": "1.7.17-df7dc2f",
+      "versionCode": 1007159,
+      "author": "jiyin004",
+      "description": "Ommega A-side relay: remote TEE attestation via real hardware TEE",
+      "homepage": "https://github.com/jiyin004-jpg/ommega",
+      "size": 25231820,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794591232.0,
+        "source": "https://github.com/jiyin004-jpg/ommega"
+      },
+      "versions": [
+        {
+          "version": "1.7.17-df7dc2f",
+          "versionCode": 1007159,
+          "zipUrl": "https://github.com/jiyin004-jpg/ommega/releases/download/v1.7.17/ommega-a-release-1.7.17.zip",
+          "timestamp": 1794591232.0
         }
       ]
     },
@@ -2264,6 +2840,30 @@
       ]
     },
     {
+      "id": "tailscale_root",
+      "name": "Tailscale Root",
+      "version": "v0.3.0",
+      "versionCode": 3,
+      "author": "Lxns",
+      "description": "Standalone root tailscaled with WebUI, one-tap Action toggle, and svm_guard watchdog. Coexists with sing-box eBPF. Config: /data/adb/tailscale/env",
+      "homepage": "https://github.com/joinchang/tailscale-root",
+      "size": 129696,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1793865162.0,
+        "source": "https://github.com/joinchang/tailscale-root"
+      },
+      "versions": [
+        {
+          "version": "v0.3.0",
+          "versionCode": 3,
+          "zipUrl": "https://github.com/JoinChang/tailscale-root/releases/download/v0.3.0/tailscale-root-v0.3.0.zip",
+          "timestamp": 1793865162.0
+        }
+      ]
+    },
+    {
       "id": "tcp_optimiser",
       "name": "TCP Optimiser",
       "version": "2.5",
@@ -2284,6 +2884,54 @@
           "versionCode": 17,
           "zipUrl": "https://github.com/fatalcoder524/TCP_Optimiser_Module/releases/download/v2.5/TCP_Optimiser-2.5-17.zip",
           "timestamp": 1782886958.0
+        }
+      ]
+    },
+    {
+      "id": "teesim",
+      "name": "TEESimulator",
+      "version": "v4.0 (34-f63eaae-release)",
+      "versionCode": 34,
+      "author": "JingMatrix",
+      "description": "Redirects key attestation for selected apps to an in-process reference KeyMint trusted application.",
+      "homepage": "https://github.com/JingMatrix/TEESimulator",
+      "size": 16702783,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1786438946.0,
+        "source": "https://github.com/JingMatrix/TEESimulator"
+      },
+      "versions": [
+        {
+          "version": "v4.0 (34-f63eaae-release)",
+          "versionCode": 34,
+          "zipUrl": "https://github.com/JingMatrix/TEESimulator/releases/download/v4.0/TEESimulator-v4.0-34-Release.zip",
+          "timestamp": 1786438946.0
+        }
+      ]
+    },
+    {
+      "id": "TermuxRootMods",
+      "name": "Termux Root Toolkit for KernelSU",
+      "version": "v2.0.0-ksu-toolkit",
+      "versionCode": 20000,
+      "author": "Rompelhd (upstream) + KSU Toolkit contributors",
+      "description": "Android 16 / KernelSU-safe Termux root toolbox with Linux tool packs, diagnostics, WebUI, snapshots, process/app inspection, and no global shell hijack.",
+      "homepage": "https://github.com/jojobear691/termuxrootmods-ksu-toolkit",
+      "size": 221518,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1788985183.0,
+        "source": "https://github.com/jojobear691/termuxrootmods-ksu-toolkit"
+      },
+      "versions": [
+        {
+          "version": "v2.0.0-ksu-toolkit",
+          "versionCode": 20000,
+          "zipUrl": "https://github.com/jojobear691/TermuxRootMods-KSU-Toolkit/releases/download/v2.0.0/TermuxRootMods-KSU-Toolkit-v2.0.0.zip",
+          "timestamp": 1788985183.0
         }
       ]
     },
@@ -2456,6 +3104,30 @@
       ]
     },
     {
+      "id": "zygisk_vector",
+      "name": "Vector",
+      "version": "v2.2 (3080-88f8e1fa-JingMatrix-Vector)",
+      "versionCode": 3080,
+      "author": "JingMatrix",
+      "description": "A modern, Xposed-compatible framework for Android application hooking. (Android 8.1 ~ 17)",
+      "homepage": "https://github.com/JingMatrix/Vector",
+      "size": 9316843,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1785836309.0,
+        "source": "https://github.com/JingMatrix/Vector"
+      },
+      "versions": [
+        {
+          "version": "v2.2 (3080-88f8e1fa-JingMatrix-Vector)",
+          "versionCode": 3080,
+          "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/v2.2/Vector-v2.2-3080-Release.zip",
+          "timestamp": 1785836309.0
+        }
+      ]
+    },
+    {
       "id": "vgd",
       "name": "verity-guard 分区守卫",
       "version": "1.5.0",
@@ -2480,6 +3152,30 @@
       ]
     },
     {
+      "id": "wcg_f946b",
+      "name": "Wide Color Gamut (Fold5)",
+      "version": "v1.1.0",
+      "versionCode": 110,
+      "author": "Root-My-Galaxy",
+      "description": "Enables framework Wide Color Gamut on Galaxy Z Fold5 (SM-F946B). Clears the persist.sys.sf.native_mode=1 kill-switch that Samsung's WindowManagerService/ColorDisplayService use to suppress WCG, defends it with a boot watchdog, and declares the android.hardware.wide_color_gamut feature. Panel + SurfaceFlinger already support Display-P3.",
+      "homepage": "https://github.com/hyperramzey/wcg_f946b",
+      "size": 9231,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1787892671.0,
+        "source": "https://github.com/hyperramzey/wcg_f946b"
+      },
+      "versions": [
+        {
+          "version": "v1.1.0",
+          "versionCode": 110,
+          "zipUrl": "https://github.com/HyperRamzey/wcg_f946b/releases/download/v1.1.0/wcg_f946b-v1.1.0.zip",
+          "timestamp": 1787892671.0
+        }
+      ]
+    },
+    {
       "id": "wifi7_lab_safe",
       "name": "WiFi 7 Lab Full Control",
       "version": "v1.5.0",
@@ -2500,6 +3196,30 @@
           "versionCode": 150,
           "zipUrl": "https://github.com/E3N-glotm/WiFi7-Lab-Safe/releases/download/v1.5.0/WiFi7-Lab-Safe-v1.5.0.zip",
           "timestamp": 1793884637.0
+        }
+      ]
+    },
+    {
+      "id": "mmrl_wpd",
+      "name": "WiFi Password Viewer for MMRL",
+      "version": "7.0.0",
+      "versionCode": 700,
+      "author": "Der_Googler, veez21 @ xda-developers",
+      "description": "View all your WiFi passwords and bluetooth devices inside MMRL",
+      "homepage": "https://github.com/Googlers-Repo/wpd",
+      "size": 293353,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1791647077.0,
+        "source": "https://github.com/Googlers-Repo/wpd"
+      },
+      "versions": [
+        {
+          "version": "7.0.0",
+          "versionCode": 700,
+          "zipUrl": "https://github.com/Googlers-Repo/wpd/releases/download/v7.0.0/mmrl_wpd-7.0.0.zip",
+          "timestamp": 1791647077.0
         }
       ]
     },
@@ -2624,6 +3344,30 @@
       ]
     },
     {
+      "id": "ZRAM-Module",
+      "name": "zramの附加模块",
+      "version": "v1.3.0",
+      "versionCode": 130,
+      "author": "ShirkNeko, xiaoxiaow, FurLC",
+      "description": "为内核提供ZRAM算法支持，请勿卸载",
+      "homepage": "https://github.com/FurLC/ZRAM-Module",
+      "size": 4187,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1748694202.0,
+        "source": "https://github.com/FurLC/ZRAM-Module"
+      },
+      "versions": [
+        {
+          "version": "v1.3.0",
+          "versionCode": 130,
+          "zipUrl": "https://github.com/FurLC/ZRAM-Module/releases/download/v1.3.0/ZRAM-Module-v1.3.0.zip",
+          "timestamp": 1748694202.0
+        }
+      ]
+    },
+    {
       "id": "zygisk-module-xfingerprint-pay-all",
       "name": "Zygisk - 指纹支付",
       "version": "v7.0.1",
@@ -2668,6 +3412,30 @@
           "versionCode": 880,
           "zipUrl": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.5.3/Zygisk-Next-1.5.3-880-22a1bf5-release.zip",
           "timestamp": 1794069131.0
+        }
+      ]
+    },
+    {
+      "id": "zygisk-detach",
+      "name": "zygisk-detach",
+      "version": "v1.24.0",
+      "versionCode": 35,
+      "author": "j-hc",
+      "description": "Detaches installed apps from Play Store",
+      "homepage": "https://github.com/j-hc/zygisk-detach",
+      "size": 371409,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1789936239.0,
+        "source": "https://github.com/j-hc/zygisk-detach"
+      },
+      "versions": [
+        {
+          "version": "v1.24.0",
+          "versionCode": 35,
+          "zipUrl": "https://github.com/j-hc/zygisk-detach/releases/download/v1.24.0/zygisk-detach-v1.24.0.zip",
+          "timestamp": 1789936239.0
         }
       ]
     },

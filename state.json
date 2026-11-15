@@ -1,5 +1,5 @@
 {
-  "generated": 1794734559,
+  "generated": 1794740539,
   "repos": {
     "badaccuracyid/a2dpforce": {
       "checked": 1794731821,
@@ -7,7 +7,11 @@
       "valid": false
     },
     "zombodotcom/android-malware-remover": {},
-    "huraizkhan/aodcontrol": {},
+    "huraizkhan/aodcontrol": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "bl0ck154/apkilla": {
       "checked": 1794731822,
       "release_id": 430984684,
@@ -33,7 +37,11 @@
     "niwenshuai/backgroundkillguard": {},
     "latifangren/bfr-webui-go": {},
     "readonlynux/bootanimation-module": {},
-    "itachi-re/bootanimation-template": {},
+    "itachi-re/bootanimation-template": {
+      "checked": 1794740547,
+      "release_id": null,
+      "valid": false
+    },
     "bugestudioteam/buge-app-manager": {
       "checked": 1794731824,
       "release_id": 445733325,
@@ -61,7 +69,11 @@
     "woaiys3/deepseek-harness-android-app": {},
     "proverbial-incommodiousness657/dresos-magisk-modules": {},
     "unworldly-mustard544/fix60hz": {},
-    "ibrahemalnayefku/g-news-control": {},
+    "ibrahemalnayefku/g-news-control": {
+      "checked": 1794740546,
+      "release_id": null,
+      "valid": false
+    },
     "polodarb/gms-flags-reborn": {},
     "serkenn/hide-virt-apex-su": {},
     "zilewang7/hyperos4smallwindowinputfilter": {},
@@ -128,7 +140,11 @@
       "valid": false
     },
     "ssmg4/ssr": {},
-    "itsmelissadev/swiftsense": {},
+    "itsmelissadev/swiftsense": {
+      "checked": 1794740547,
+      "release_id": 414247346,
+      "valid": false
+    },
     "djunekz/termux-app-store": {
       "checked": 1794734566,
       "release_id": 442016170,
@@ -142,7 +158,11 @@
       "valid": false
     },
     "mjcr-dev/wsa-suite": {},
-    "gehbfarr5/x-spam-filter-lsposed": {},
+    "gehbfarr5/x-spam-filter-lsposed": {
+      "checked": 1794740543,
+      "release_id": null,
+      "valid": false
+    },
     "amarinne/zalo-patch": {
       "checked": 1794731819,
       "release_id": 430402728,
@@ -189,7 +209,11 @@
     "nikhilkain/modex": {},
     "staneswilson/revanced-photos": {},
     "shivamxd6/rom-shifter": {},
-    "geeks121/vaultwarden-root": {},
+    "geeks121/vaultwarden-root": {
+      "checked": 1794740543,
+      "release_id": 371021838,
+      "valid": false
+    },
     "12362aa/12362aa.github.io": {
       "checked": 1794731814,
       "release_id": null,
@@ -206,11 +230,35 @@
     "martinstyk/apk-analyzer": {},
     "xpasha/dozeaodwallpaper": {},
     "qinghemuyu/hidhide-module": {},
-    "jettwado6-sketch/jettwado6-sketch.github.io": {},
+    "jettwado6-sketch/jettwado6-sketch.github.io": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "ungradableoppositioncree702/killer-modules": {},
     "nelsonalegria40/liboemcrypto-disabler": {},
-    "guocheng1378/miclaw-api": {},
-    "guocheng1378/miclawapibridge": {},
+    "guocheng1378/miclaw-api": {
+      "checked": 1794740544,
+      "release_id": 364616925,
+      "valid": true,
+      "prop": {
+        "id": "miclaw-api",
+        "name": "MiclawAPI",
+        "version": "v1.0.0",
+        "versionCode": "1",
+        "author": "MiclawAPI",
+        "description": "Exposes Miclaw as an OpenAI-compatible HTTP API on localhost:9120"
+      },
+      "zip": "https://github.com/guocheng1378/miclaw-api/releases/download/v1.0.0/MiclawAPI-v1.0.0.zip",
+      "zip_count": 1,
+      "timestamp": 1785817038,
+      "size": 634618
+    },
+    "guocheng1378/miclawapibridge": {
+      "checked": 1794740544,
+      "release_id": 369084474,
+      "valid": false
+    },
     "unity-tools/mobile-shield-runtime-security-anti-tamper": {},
     "rakshittips/mrios-launcher": {},
     "acessrdpgg/netcloak-xposed": {
@@ -219,8 +267,16 @@
       "valid": false
     },
     "nkoziel/nkoziel.github.io": {},
-    "gehbfarr5/redreader-ai-translate-xposed": {},
-    "jettwado6-sketch/shizuku-modules": {},
+    "gehbfarr5/redreader-ai-translate-xposed": {
+      "checked": 1794740543,
+      "release_id": 375197150,
+      "valid": false
+    },
+    "jettwado6-sketch/shizuku-modules": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "xdreizein666/smalipatcherex-cli": {},
     "yuhold/storage-spoof": {},
     "lshfgj/telecast": {},
@@ -244,7 +300,23 @@
     "sevcator/zapret-pocket": {},
     "takeruf/android-perapp-language-selector": {},
     "paasann210/aoa-touch": {},
-    "jiyin004-jpg/ommega": {},
+    "jiyin004-jpg/ommega": {
+      "checked": 1794740549,
+      "release_id": 444528285,
+      "valid": true,
+      "prop": {
+        "id": "ommega",
+        "name": "Ommega",
+        "version": "1.7.17-df7dc2f",
+        "versionCode": "1007159",
+        "author": "jiyin004",
+        "description": "Ommega A-side relay: remote TEE attestation via real hardware TEE"
+      },
+      "zip": "https://github.com/jiyin004-jpg/ommega/releases/download/v1.7.17/ommega-a-release-1.7.17.zip",
+      "zip_count": 2,
+      "timestamp": 1794591232,
+      "size": 25231820
+    },
     "nexuverse-labs/oxypin": {},
     "vickylines/pixel4xl-2dfaceunlock": {},
     "noxproductions/t3ra1n": {},
@@ -282,7 +354,11 @@
     },
     "yemen779999/netguard-1root": {},
     "local-over/pascalos": {},
-    "josskixg/renjana": {},
+    "josskixg/renjana": {
+      "checked": 1794740549,
+      "release_id": null,
+      "valid": false
+    },
     "melastore/shelf": {},
     "thejaustin/shizukuplus": {},
     "portablediag/volumeperapp": {},
@@ -291,8 +367,16 @@
     "jusss/appalive": {},
     "xrz324/braveprune-xposed": {},
     "kreza6173-pixel/cyber-app-manager": {},
-    "jaypsmall/demonitalk": {},
-    "ivanjonasfc/dozeforge": {},
+    "jaypsmall/demonitalk": {
+      "checked": 1794740548,
+      "release_id": 398321646,
+      "valid": false
+    },
+    "ivanjonasfc/dozeforge": {
+      "checked": 1794740547,
+      "release_id": null,
+      "valid": false
+    },
     "2ertwo6/dropbear-ssh-android-module": {
       "checked": 1794731815,
       "release_id": 433540023,
@@ -337,7 +421,11 @@
     },
     "vibetgram/app": {},
     "lili679280/asterisk-ike-bypass": {},
-    "imnoammm/claude-code-magisk": {},
+    "imnoammm/claude-code-magisk": {
+      "checked": 1794740546,
+      "release_id": null,
+      "valid": false
+    },
     "thoitiettxl-cyber/cli-proxy-api": {},
     "ahmetcanarslan/clonecat": {
       "checked": 1794731817,
@@ -383,14 +471,34 @@
       "release_id": 378187987,
       "valid": false
     },
-    "jehan593/ownscreen": {},
+    "jehan593/ownscreen": {
+      "checked": 1794740548,
+      "release_id": 438648810,
+      "valid": false
+    },
     "delusions6515/sub-store-module": {
       "checked": 1794734566,
       "release_id": 420712703,
       "valid": false
     },
     "philiphall6/tcl-power-menu-r51mt05": {},
-    "hyperramzey/wcg_f946b": {},
+    "hyperramzey/wcg_f946b": {
+      "checked": 1794740546,
+      "release_id": 378266568,
+      "valid": true,
+      "prop": {
+        "id": "wcg_f946b",
+        "name": "Wide Color Gamut (Fold5)",
+        "version": "v1.1.0",
+        "versionCode": "110",
+        "author": "Root-My-Galaxy",
+        "description": "Enables framework Wide Color Gamut on Galaxy Z Fold5 (SM-F946B). Clears the persist.sys.sf.native_mode=1 kill-switch that Samsung's WindowManagerService/ColorDisplayService use to suppress WCG, defends it with a boot watchdog, and declares the android.hardware.wide_color_gamut feature. Panel + SurfaceFlinger already support Display-P3."
+      },
+      "zip": "https://github.com/HyperRamzey/wcg_f946b/releases/download/v1.1.0/wcg_f946b-v1.1.0.zip",
+      "zip_count": 1,
+      "timestamp": 1787892671,
+      "size": 9231
+    },
     "kogeler/zygveil": {},
     "flexingg/blue-brick": {
       "checked": 1794734571,
@@ -398,13 +506,21 @@
       "valid": false
     },
     "zyy0106/calculator": {},
-    "gjr787878/deviceresetspoofer": {},
+    "gjr787878/deviceresetspoofer": {
+      "checked": 1794740543,
+      "release_id": 420783146,
+      "valid": false
+    },
     "chorusfruit-233/gki-wifi-ksu": {
       "checked": 1794734562,
       "release_id": null,
       "valid": false
     },
-    "jaypsmall/hexrootscan": {},
+    "jaypsmall/hexrootscan": {
+      "checked": 1794740548,
+      "release_id": 353501627,
+      "valid": false
+    },
     "enddream-zm/lowlife": {
       "checked": 1794734569,
       "release_id": 430087598,
@@ -428,10 +544,18 @@
       "release_id": null,
       "valid": false
     },
-    "guy48942-creator/netguard-python-root": {},
+    "guy48942-creator/netguard-python-root": {
+      "checked": 1794740544,
+      "release_id": 380125614,
+      "valid": false
+    },
     "yu1101610062/opd2515-anti-root-dialog-blocker": {},
     "odorizzioficial/otimizadordroid": {},
-    "jehan593/ownapps": {},
+    "jehan593/ownapps": {
+      "checked": 1794740548,
+      "release_id": 438648810,
+      "valid": false
+    },
     "yashas-13/accessdroid-termux": {},
     "vysockiymark01-prog/airpods-android": {},
     "ritikthakur22/battery-info_app": {},
@@ -443,7 +567,11 @@
       "valid": false
     },
     "yzy806806/meshdesk-android": {},
-    "h3nnes/mtbtool-android-app": {},
+    "h3nnes/mtbtool-android-app": {
+      "checked": 1794740544,
+      "release_id": 379051178,
+      "valid": false
+    },
     "ucnacdx2/netcertfix": {},
     "bouteillepleine/nomount-suite": {
       "checked": 1794731823,
@@ -467,11 +595,47 @@
     "victorious93/rootforge-os": {},
     "nexuverse-labs/ru.oxypin": {},
     "ruvyrom/ruvomain-protocol": {},
-    "joinchang/tailscale-root": {},
+    "joinchang/tailscale-root": {
+      "checked": 1794740549,
+      "release_id": 434911889,
+      "valid": true,
+      "prop": {
+        "id": "tailscale_root",
+        "name": "Tailscale Root",
+        "version": "v0.3.0",
+        "versionCode": "3",
+        "author": "Lxns",
+        "description": "Standalone root tailscaled with WebUI, one-tap Action toggle, and svm_guard watchdog. Coexists with sing-box eBPF. Config: /data/adb/tailscale/env"
+      },
+      "zip": "https://github.com/JoinChang/tailscale-root/releases/download/v0.3.0/tailscale-root-v0.3.0.zip",
+      "zip_count": 1,
+      "timestamp": 1793865162,
+      "size": 129696
+    },
     "mishkarala/wifi-4g-enhanced-mostly-poco-f3": {},
     "zhangbaoshengrio/android-picker-sort": {},
-    "gjr787878/auto-create-app-storage": {},
-    "geiserx/cashpilot-android": {},
+    "gjr787878/auto-create-app-storage": {
+      "checked": 1794740544,
+      "release_id": 398540750,
+      "valid": true,
+      "prop": {
+        "id": "auto_create_app_storage",
+        "name": "AutoCreateAppStorageDir",
+        "version": "2.4",
+        "versionCode": "6",
+        "author": "GJR787878",
+        "description": "自动补全缺失的 /storage/emulated/0/Android/data/<pkg>/{files,cache} 与 Android/obb 目录，修复APP假\"存储空间不足\"报错。监听应用安装事件自动创建。v2.0 新增 LSPosed 管理界面，支持手动检测和修复。"
+      },
+      "zip": "https://github.com/GJR787878/auto-create-app-storage/releases/download/v2.4/auto-create-app-storage.zip",
+      "zip_count": 1,
+      "timestamp": 1790622264,
+      "size": 1796
+    },
+    "geiserx/cashpilot-android": {
+      "checked": 1794740543,
+      "release_id": 443422833,
+      "valid": false
+    },
     "mizanbinb/game-booster": {},
     "waysideinn/huilai": {},
     "siimsek/pop-zram": {},
@@ -613,7 +777,11 @@
       "release_id": null,
       "valid": false
     },
-    "hirakm/coredevicetrust": {},
+    "hirakm/coredevicetrust": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "nanbengxian-cyber/dafeiyu-qq-bot": {},
     "fahadbinhussain/glitchdraft": {
       "checked": 1794734570,
@@ -622,7 +790,11 @@
     },
     "mdliad-se/hiberna": {},
     "moranyue/nodhcphostname": {},
-    "iviesever/rooted-android-game-vm": {},
+    "iviesever/rooted-android-game-vm": {
+      "checked": 1794740547,
+      "release_id": 382175460,
+      "valid": false
+    },
     "androidautohacks/screen2auto": {
       "checked": 1794731819,
       "release_id": null,
@@ -649,7 +821,23 @@
     },
     "kepatotorica/unscopemydata": {},
     "nauraafii/ytrvx-module": {},
-    "hrishi2861/alioth-loud": {},
+    "hrishi2861/alioth-loud": {
+      "checked": 1794740545,
+      "release_id": 382596703,
+      "valid": true,
+      "prop": {
+        "id": "alioth_loud",
+        "name": "Alioth Loud",
+        "version": "v0.3.4",
+        "versionCode": "7",
+        "author": "f3",
+        "description": "[probe-verified for aliothin / HyperOS 1.0.10 CN] Volume ceiling removal for POCO F3. Layer 3 flattens the volume curve at boot (+12.7 dB at half volume, measured); layers 4a/4b add WCD headset gain and Cirrus CS35L41 amp gain, both off until you opt in. Patches live vendor configs at boot instead of shipping static files, so it survives HyperOS updates. NOTE: max volume is unchanged by design - see config.sh."
+      },
+      "zip": "https://github.com/Hrishi2861/Alioth-Loud/releases/download/v0.3.4/alioth-loud-v0.3.4.zip",
+      "zip_count": 1,
+      "timestamp": 1788512727,
+      "size": 1005376
+    },
     "zjz-beiming/donottryaccessibility-reborn": {},
     "moeskia/easykey": {},
     "zhu-junwei/magisk-alist": {},
@@ -657,7 +845,11 @@
     "sachinmandawi/netcordon": {},
     "t3ste/t3ste.github.io": {},
     "lusmaysh/webview-optimizer": {},
-    "jamamjadalone/android-biometric-bypass-lsposed": {},
+    "jamamjadalone/android-biometric-bypass-lsposed": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "sysadmindoc/appmanagerng": {},
     "alexdev404/cloudflared-magisk": {
       "checked": 1794731819,
@@ -692,7 +884,11 @@
     "novaxmyth/pocketvm": {},
     "saappleg/tellyecp": {},
     "techalodev/vklite-lsposed": {},
-    "freeteaspoon/chromekeyboardfix": {},
+    "freeteaspoon/chromekeyboardfix": {
+      "checked": 1794740543,
+      "release_id": 383538273,
+      "valid": false
+    },
     "odorizzioficial/fechatudoplus": {},
     "1ndevelopment/foxxd_a67l_touch_backlight_disabler": {
       "checked": 1794731814,
@@ -711,7 +907,11 @@
       "timestamp": 1788629468,
       "size": 5529
     },
-    "hankaviator/geo-intent-fix": {},
+    "hankaviator/geo-intent-fix": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "mrxsin/gmailhideads": {},
     "onepause/hnetwork": {},
     "sysadmindoc/localandroidstore": {},
@@ -741,23 +941,67 @@
       "timestamp": 1780673251,
       "size": 870940
     },
-    "foxlost/universal-miracast-sink": {},
+    "foxlost/universal-miracast-sink": {
+      "checked": 1794740543,
+      "release_id": 383522479,
+      "valid": true,
+      "prop": {
+        "id": "miracast-sink-system",
+        "name": "Miracast Sink (System Priv-App)",
+        "version": "v1.4",
+        "versionCode": "5",
+        "author": "foxlost",
+        "description": "Windows Miracast support, full WFD capability exchange, configurable settings, dual-mode P2P (GO intent 0/8)"
+      },
+      "zip": "https://github.com/FoxLost/universal-miracast-sink/releases/download/v1.4/magisk-miracast-sink-v1.4.zip",
+      "zip_count": 1,
+      "timestamp": 1788685308,
+      "size": 8282102
+    },
     "cmyfqwq/webauthn-for-webview-shells": {
       "checked": 1794734563,
       "release_id": 383570465,
       "valid": false
     },
-    "jevcje0-gif/arabic-and-english-ios-fonts-magisk-module": {},
+    "jevcje0-gif/arabic-and-english-ios-fonts-magisk-module": {
+      "checked": 1794740548,
+      "release_id": 383767849,
+      "valid": true,
+      "prop": {
+        "id": "iosfont",
+        "name": "IOS Fonts",
+        "version": "1.0",
+        "versionCode": "1",
+        "author": "Jevc",
+        "description": "System-wide Arabic and English IOS fonts for Android"
+      },
+      "zip": "https://github.com/jevcje0-gif/Arabic-and-English-IOS-fonts-magisk-module/releases/download/Android/IOS.Fonts.zip",
+      "zip_count": 1,
+      "timestamp": 1788741533,
+      "size": 568196
+    },
     "davi0777s/axis-android-research": {
       "checked": 1794734565,
       "release_id": 383838290,
       "valid": false
     },
-    "hxreborn/gh-fast-pass": {},
+    "hxreborn/gh-fast-pass": {
+      "checked": 1794740546,
+      "release_id": 417393149,
+      "valid": false
+    },
     "rushgovernor/kernelsu-android-root-suite": {},
-    "hxreborn/pixelinjector": {},
+    "hxreborn/pixelinjector": {
+      "checked": 1794740546,
+      "release_id": 445862338,
+      "valid": false
+    },
     "qq2893989063/radio-info-app": {},
-    "hxreborn/revanced-magisk-module": {},
+    "hxreborn/revanced-magisk-module": {
+      "checked": 1794740546,
+      "release_id": 440640737,
+      "valid": false
+    },
     "eva-hollow001/salt-music-ttml-lsp": {
       "checked": 1794734569,
       "release_id": 383952700,
@@ -774,7 +1018,23 @@
       "release_id": null,
       "valid": false
     },
-    "iodn/android-kernel-tweaker": {},
+    "iodn/android-kernel-tweaker": {
+      "checked": 1794740547,
+      "release_id": 384286064,
+      "valid": true,
+      "prop": {
+        "id": "aktune",
+        "name": "AKTune (Android Kernel Tweaker)",
+        "version": "v2.2",
+        "versionCode": "4",
+        "author": "NSLabs (KaijinLab)",
+        "description": "Adaptive kernel auto-tuner for CPU/GPU/scheduler/memory/I-O with capability detection and baseline restore."
+      },
+      "zip": "https://github.com/iodn/android-kernel-tweaker/releases/download/v2.2/AKTune-v2.2.zip",
+      "zip_count": 1,
+      "timestamp": 1788809981,
+      "size": 16718
+    },
     "marufmoinuddin/aod-timeout-module": {},
     "kurumilog/deyandex": {},
     "ceigt/geolocation": {
@@ -782,7 +1042,11 @@
       "release_id": 426363685,
       "valid": false
     },
-    "hidemyemulator/hidemyemulator": {},
+    "hidemyemulator/hidemyemulator": {
+      "checked": 1794740545,
+      "release_id": 387789830,
+      "valid": false
+    },
     "coldp/hyperchanger": {
       "checked": 1794734563,
       "release_id": 436788127,
@@ -794,12 +1058,20 @@
       "release_id": null,
       "valid": false
     },
-    "greencus/samsunga32-wireless-adapter-shim": {},
+    "greencus/samsunga32-wireless-adapter-shim": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "moodyawhvh/scrcpy-chinese": {},
     "shaunkleyn/service-keeper": {},
     "nalbe/shark8-gsi-logspam-cosmetics": {},
     "kveld9/thatkernel": {},
-    "jairaj08/android-bootanimation-module": {},
+    "jairaj08/android-bootanimation-module": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "droidutility/droidutility": {
       "checked": 1794734567,
       "release_id": null,
@@ -840,21 +1112,57 @@
     },
     "xusoku/android-frida-network-hook": {},
     "vriz47/dnsperapp": {},
-    "gehbfarr5/doubao-letter-longpress-voice": {},
-    "fxxklocation/github-direct": {},
+    "gehbfarr5/doubao-letter-longpress-voice": {
+      "checked": 1794740543,
+      "release_id": 401179416,
+      "valid": false
+    },
+    "fxxklocation/github-direct": {
+      "checked": 1794740543,
+      "release_id": 379230005,
+      "valid": false
+    },
     "royall-work/hail": {},
     "kvmy666/iosemojis-font-module": {},
     "v3kt0r-87/mesa-turnip-builder": {},
-    "glinte/pipuncap": {},
+    "glinte/pipuncap": {
+      "checked": 1794740543,
+      "release_id": null,
+      "valid": false
+    },
     "junsheng428/pixel-ct-ims-community": {},
-    "jojobear691/termuxrootmods-ksu-toolkit": {},
+    "jojobear691/termuxrootmods-ksu-toolkit": {
+      "checked": 1794740549,
+      "release_id": 385818511,
+      "valid": true,
+      "prop": {
+        "id": "TermuxRootMods",
+        "name": "Termux Root Toolkit for KernelSU",
+        "version": "v2.0.0-ksu-toolkit",
+        "versionCode": "20000",
+        "author": "Rompelhd (upstream) + KSU Toolkit contributors",
+        "description": "Android 16 / KernelSU-safe Termux root toolbox with Linux tool packs, diagnostics, WebUI, snapshots, process/app inspection, and no global shell hijack."
+      },
+      "zip": "https://github.com/jojobear691/TermuxRootMods-KSU-Toolkit/releases/download/v2.0.0/TermuxRootMods-KSU-Toolkit-v2.0.0.zip",
+      "zip_count": 1,
+      "timestamp": 1788985183,
+      "size": 221518
+    },
     "ruvyrom/uraam": {},
     "leolovenet/zygisk-fridagadget": {},
-    "javsaia/androidduo": {},
+    "javsaia/androidduo": {
+      "checked": 1794740548,
+      "release_id": 386930435,
+      "valid": false
+    },
     "oop7/apk-mounter": {},
     "zarkentroska/crdroid-a16-skip-lockscreen": {},
     "nhatkyanhphan/freezing_application": {},
-    "inimuqsith/frenzyserverksu": {},
+    "inimuqsith/frenzyserverksu": {
+      "checked": 1794740547,
+      "release_id": null,
+      "valid": false
+    },
     "pufferfish-salad/gitsentry": {},
     "larz-scripter/larzos-app": {},
     "knockoutbury-1938/mobogenie-full-version": {},
@@ -870,7 +1178,23 @@
       "release_id": null,
       "valid": false
     },
-    "gegedevs/dnsresolve-termux": {},
+    "gegedevs/dnsresolve-termux": {
+      "checked": 1794740543,
+      "release_id": 387452184,
+      "valid": true,
+      "prop": {
+        "id": "dnsresolve",
+        "name": "DNSResolve",
+        "version": "v1.0.1",
+        "versionCode": "1001",
+        "author": "GegeDevs",
+        "description": "Menyediakan /etc/resolv.conf (Google DNS 8.8.8.8/8.8.4.4/1.1.1.1) via overlay /system/etc supaya Go binary di Termux (crane, gh, dll) bisa resolve DNS. Tidak mengubah DNS Android normal."
+      },
+      "zip": "https://github.com/GegeDevs/DNSResolve-Termux/releases/download/v1.0.1/dnsresolve-v1.0.1.zip",
+      "zip_count": 1,
+      "timestamp": 1789186850,
+      "size": 3223
+    },
     "faaramadhann/faacc": {
       "checked": 1794734570,
       "release_id": null,
@@ -910,7 +1234,11 @@
       "release_id": 387425816,
       "valid": false
     },
-    "frostre1997/zproot": {},
+    "frostre1997/zproot": {
+      "checked": 1794740543,
+      "release_id": null,
+      "valid": false
+    },
     "dr-tsng/altdb": {
       "checked": 1794734567,
       "release_id": 416260918,
@@ -993,7 +1321,11 @@
       "size": 2495463
     },
     "neflalabs/hidethatpeoples": {},
-    "ian1254/lcpatch": {},
+    "ian1254/lcpatch": {
+      "checked": 1794740546,
+      "release_id": 422067449,
+      "valid": false
+    },
     "xposed-modules-repo/net.wowsoftware.hidemyemulator": {},
     "kennethbicocchi/oculus-go-revival": {},
     "zorrobyte/razr-fold-2026-display": {},
@@ -1054,18 +1386,38 @@
       "release_id": 421425610,
       "valid": false
     },
-    "honkonx/kairos-lab": {},
+    "honkonx/kairos-lab": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "maksim-venus/magisk-sms-forward": {},
-    "hhhbwc/pico4-fw-anchor": {},
+    "hhhbwc/pico4-fw-anchor": {
+      "checked": 1794740545,
+      "release_id": 389660994,
+      "valid": false
+    },
     "cxorz/simpledisablesecureflag": {
       "checked": 1794734564,
       "release_id": 389196016,
       "valid": false
     },
     "lonevertex/smscfixer": {},
-    "gaoyan1232023/wireless-adb_magisk-model": {},
-    "jaydenchan1027/applingo": {},
-    "freeteaspoon/biometrichaptic": {},
+    "gaoyan1232023/wireless-adb_magisk-model": {
+      "checked": 1794740543,
+      "release_id": 389887727,
+      "valid": false
+    },
+    "jaydenchan1027/applingo": {
+      "checked": 1794740548,
+      "release_id": 396300440,
+      "valid": false
+    },
+    "freeteaspoon/biometrichaptic": {
+      "checked": 1794740543,
+      "release_id": null,
+      "valid": false
+    },
     "dodoaaaa/darq": {
       "checked": 1794734567,
       "release_id": null,
@@ -1140,21 +1492,9 @@
     "snowzlmbot/adguardhome-android-module": {},
     "ovehbe/duraspeed-off": {},
     "bmjubairdadu/kernel-loder": {
-      "checked": 1794731823,
-      "release_id": 445586294,
-      "valid": true,
-      "prop": {
-        "id": "kl_selinux_fix",
-        "name": "Kernel Driver SELinux & Node Fixer",
-        "version": "v1.0",
-        "versionCode": "100",
-        "author": "bmjubairdadu",
-        "description": "Fixes Android 12/13/14 SELinux restrictions that block ueventd from creating /dev character device nodes for kernel drivers. Works with Magisk, KernelSU, and APatch."
-      },
-      "zip": "https://github.com/bmjubairdadu/kernel-loader/releases/download/v5.9/Kernel_SELinux_Node_Fixer.zip",
-      "zip_count": 1,
-      "timestamp": 1794689956,
-      "size": 2312
+      "checked": 1794740541,
+      "release_id": 445948871,
+      "valid": false
     },
     "bh4gmi/lsposed-location-replay": {
       "checked": 1794731822,
@@ -1184,7 +1524,11 @@
       "release_id": 392530290,
       "valid": false
     },
-    "iflyabd/nowifi-adb": {},
+    "iflyabd/nowifi-adb": {
+      "checked": 1794740546,
+      "release_id": 397988640,
+      "valid": false
+    },
     "kaitongxx/thor-pathfinder": {},
     "dobrianskyi/xiaomi-redmi-note-15-pro-5g-lineageos": {
       "checked": 1794734567,
@@ -1207,7 +1551,11 @@
       "release_id": 429850096,
       "valid": false
     },
-    "iamcanincan/hardcrop": {},
+    "iamcanincan/hardcrop": {
+      "checked": 1794740546,
+      "release_id": 393196381,
+      "valid": false
+    },
     "asadman1523/pixel-private-space-shortcuts": {
       "checked": 1794731820,
       "release_id": 392527772,
@@ -1225,7 +1573,11 @@
       "release_id": null,
       "valid": false
     },
-    "itzikglanz87/itzikglanz87.github.io": {},
+    "itzikglanz87/itzikglanz87.github.io": {
+      "checked": 1794740547,
+      "release_id": null,
+      "valid": false
+    },
     "loss-and-quick/kasumi-proxy": {},
     "uraniam9/lune-bridge": {},
     "sergeron/mixflipcontinuitymanager": {},
@@ -1238,7 +1590,11 @@
     },
     "norootre/android-reverse-toolkit": {},
     "mirsella/aod-battery-saver-override": {},
-    "hhhhanasak1/astellkern-sp3000-firmware-switcher": {},
+    "hhhhanasak1/astellkern-sp3000-firmware-switcher": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "polarissdesu/better-am": {},
     "zeninxop/blackbox": {},
     "ctrl-mietze/cathook-multitask-launcher": {
@@ -1277,20 +1633,32 @@
     "mahmutaunal/tvpilot": {},
     "yapixel/y700-device-name": {},
     "kyubiez96/zram-turbo": {},
-    "guillaume-behr/abp": {},
+    "guillaume-behr/abp": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "xykalnotkel/appperms": {},
     "bamf-venom/bamf-venom.github.io": {
       "checked": 1794731821,
       "release_id": null,
       "valid": false
     },
-    "hairball033/deepx": {},
+    "hairball033/deepx": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "petar1511/faa-ydl": {},
     "madb0i/pehredar": {},
     "slomr/rootect": {},
     "sychpl/smartclock2tool": {},
     "yumamax3/tethys-tailscaled": {},
-    "jaseunda/uls": {},
+    "jaseunda/uls": {
+      "checked": 1794740548,
+      "release_id": 400023803,
+      "valid": false
+    },
     "lorenzoc01/cieid-bypass-root-check": {},
     "chs-haple/combinedstatus": {
       "checked": 1794734563,
@@ -1335,7 +1703,23 @@
       "release_id": 370352557,
       "valid": false
     },
-    "gasciljh/dnscrypt-proxy-webui": {},
+    "gasciljh/dnscrypt-proxy-webui": {
+      "checked": 1794740544,
+      "release_id": 444175103,
+      "valid": true,
+      "prop": {
+        "id": "dnscrypt-proxy-webui",
+        "name": "DNSCrypt Proxy (Smart Filter)",
+        "version": "v1.6.0",
+        "versionCode": "1060000",
+        "author": "gasciljh",
+        "description": "Smart DNS filtering with DNSCrypt. Local resolver on 127.0.0.1:5354, per-profile HaGeZi blocklists (Light→Ultimate), bilingual WebUI (EN/AR), JSON metrics Dashboard, installable PWA, 10-layer user-data preservation with transactional upgrades and recovery mode. v1.6.0 fixes WebUI timezone display and updates PWA assets. Zero telemetry."
+      },
+      "zip": "https://github.com/gasciljh/dnscrypt-proxy-webui/releases/download/v1.6.0/dnscrypt-webui-1.6.0-module.zip",
+      "zip_count": 1,
+      "timestamp": 1794571139,
+      "size": 34811456
+    },
     "lemniskett/e3372droid": {},
     "lj5201lj/lj5201lj.github.io": {},
     "cicerothoma/memhogs-android": {
@@ -1384,10 +1768,22 @@
       "release_id": 397153935,
       "valid": false
     },
-    "huuunleashed/booxultimatum": {},
+    "huuunleashed/booxultimatum": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "tsaqb/cliproxyapi-android": {},
-    "jainhardik120/idlesaver": {},
-    "ixodesscapularisstepchild22/ixodesscapularisstepchild22.github.io": {},
+    "jainhardik120/idlesaver": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
+    "ixodesscapularisstepchild22/ixodesscapularisstepchild22.github.io": {
+      "checked": 1794740547,
+      "release_id": null,
+      "valid": false
+    },
     "tbc0309/kpa-modules": {},
     "zy0x/lynx": {},
     "lukumaki/moto-g54-rom-migration-toolkit": {},
@@ -1396,7 +1792,11 @@
       "release_id": null,
       "valid": false
     },
-    "flux-sniffer-mods/titan-2-elite-telephoto-fix": {},
+    "flux-sniffer-mods/titan-2-elite-telephoto-fix": {
+      "checked": 1794740542,
+      "release_id": 397347185,
+      "valid": false
+    },
     "luqin2007/ugreen-hitune-unlock": {},
     "communitypokeorg/android-settings-browser": {
       "checked": 1794734563,
@@ -1434,7 +1834,11 @@
       "release_id": null,
       "valid": false
     },
-    "houssemamor/mumu-root-hide-toolkit": {},
+    "houssemamor/mumu-root-hide-toolkit": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "ronedata/netlocker": {},
     "petittux1/xiaomiautomation": {},
     "verybaaad/zygisknextnext": {},
@@ -1485,7 +1889,11 @@
       "valid": false
     },
     "tf5ccbzgsq-coder/shoujiqingli-android": {},
-    "ian20040409/tcl-android-tv-hdmi-r851t02": {},
+    "ian20040409/tcl-android-tv-hdmi-r851t02": {
+      "checked": 1794740546,
+      "release_id": 409662557,
+      "valid": false
+    },
     "zhanfg/tcp_optimiser_rs": {},
     "2113apps/verified-android-apps": {
       "checked": 1794731814,
@@ -1493,8 +1901,16 @@
       "valid": false
     },
     "longkrichamp-sketch/zalox": {},
-    "gogibeta/cache-cleaner-public": {},
-    "ihormich/ihormich.github.io": {},
+    "gogibeta/cache-cleaner-public": {
+      "checked": 1794740543,
+      "release_id": 400261605,
+      "valid": false
+    },
+    "ihormich/ihormich.github.io": {
+      "checked": 1794740546,
+      "release_id": null,
+      "valid": false
+    },
     "jvgamesmvp-hue/jvgamesmvp-hue.github.io": {},
     "powercess/mbrain": {},
     "petittux1/mirafix": {},
@@ -1503,9 +1919,17 @@
       "release_id": null,
       "valid": false
     },
-    "hu847266h/scene-unlock-toolkit": {},
+    "hu847266h/scene-unlock-toolkit": {
+      "checked": 1794740545,
+      "release_id": 402500546,
+      "valid": false
+    },
     "saadnahid7/smalipatcherreborn": {},
-    "gogibeta/stop-apps-public": {},
+    "gogibeta/stop-apps-public": {
+      "checked": 1794740543,
+      "release_id": 402888447,
+      "valid": false
+    },
     "saadnahid7/virtualnet": {},
     "l3fel/axionrecents": {},
     "ragnarokchan/fiio-m15-apple-music-fix": {},
@@ -1520,14 +1944,22 @@
     },
     "pengyuw96/shizuku-android17-patch-notes": {},
     "saadnahid7/smalipatcher_reborn": {},
-    "jan5o7o/so7o-ztrackpad-lite": {},
+    "jan5o7o/so7o-ztrackpad-lite": {
+      "checked": 1794740548,
+      "release_id": 431377129,
+      "valid": false
+    },
     "bgwastu/solipsist": {
       "checked": 1794731822,
       "release_id": 401545509,
       "valid": false
     },
     "smartago/tvboxtools": {},
-    "imostrovskiy/untether": {},
+    "imostrovskiy/untether": {
+      "checked": 1794740546,
+      "release_id": 401117926,
+      "valid": false
+    },
     "nikakvo/wg-shield-arm64": {},
     "yuriibishchuk/android-optimizer-app": {},
     "tauru-t6/astrbot-phone-agent-app": {},
@@ -1540,7 +1972,23 @@
       "valid": false
     },
     "sayed778/glitch-module": {},
-    "fouc3-mirror/hyperos-flclash-vpn-fix": {},
+    "fouc3-mirror/hyperos-flclash-vpn-fix": {
+      "checked": 1794740543,
+      "release_id": 401198592,
+      "valid": true,
+      "prop": {
+        "id": "flclash_vpn_fix",
+        "name": "FlClash VPN Fix (HyperOS appop)",
+        "version": "1.0.0",
+        "versionCode": "1",
+        "author": "DSH",
+        "description": "修复 HyperOS / MIUI 上 FlClash 无法创建 VPN 的问题：开机自动把 com.follow.clash 的 FOREGROUND_SERVICE_SPECIAL_USE appop 设回 allow，并在被系统改回 ignore 时自动纠正。该 appop 被置为 ignore 会导致 VpnService 以 specialUse 类型启动前台服务时抛 SecurityException 并被立即销毁，tun0 无法建立、流量不被接管。仅调整 appop，不挂载、不修改任何系统文件。"
+      },
+      "zip": "https://github.com/fouc3-mirror/hyperos-flclash-vpn-fix/releases/download/v1.0.0/hyperos-flclash-vpn-fix-v1.0.0.zip",
+      "zip_count": 1,
+      "timestamp": 1790875951,
+      "size": 6378
+    },
     "big-dictator/liquidtab": {
       "checked": 1794731822,
       "release_id": 435003046,
@@ -1640,7 +2088,11 @@
       "release_id": null,
       "valid": false
     },
-    "jhihhe/doula-douyin-lsposed": {},
+    "jhihhe/doula-douyin-lsposed": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "sqkl520/dsh-fcl-android-launcher": {},
     "chr243/farrow": {
       "checked": 1794734562,
@@ -1657,8 +2109,16 @@
       "release_id": null,
       "valid": false
     },
-    "hydryanamyrly33-rgb/nara-ultra-v32-mobile": {},
-    "inexunx/nexscreen": {},
+    "hydryanamyrly33-rgb/nara-ultra-v32-mobile": {
+      "checked": 1794740546,
+      "release_id": null,
+      "valid": false
+    },
+    "inexunx/nexscreen": {
+      "checked": 1794740547,
+      "release_id": 403000982,
+      "valid": false
+    },
     "longkrichamp-sketch/orcapeek": {},
     "brill594/pppoe_for_android": {
       "checked": 1794731824,
@@ -1680,7 +2140,11 @@
     "landslide3154/shitu-android": {},
     "pikatchu2k3/sortpicker-app": {},
     "tiimoo-debug/zuxos-desktop-plus": {},
-    "jpinert/android-dsp-wakeword": {},
+    "jpinert/android-dsp-wakeword": {
+      "checked": 1794740549,
+      "release_id": null,
+      "valid": false
+    },
     "kero309x/anghamiplus-patches": {},
     "venkras/dialerpatch": {},
     "elvex10/galaxy-multiuser": {
@@ -1708,21 +2172,9 @@
     },
     "tsangasuna/hoshitele-dns-module": {},
     "bmjubairdadu/kernel-loader": {
-      "checked": 1794731823,
-      "release_id": 445586294,
-      "valid": true,
-      "prop": {
-        "id": "kl_selinux_fix",
-        "name": "Kernel Driver SELinux & Node Fixer",
-        "version": "v1.0",
-        "versionCode": "100",
-        "author": "bmjubairdadu",
-        "description": "Fixes Android 12/13/14 SELinux restrictions that block ueventd from creating /dev character device nodes for kernel drivers. Works with Magisk, KernelSU, and APatch."
-      },
-      "zip": "https://github.com/bmjubairdadu/kernel-loader/releases/download/v5.9/Kernel_SELinux_Node_Fixer.zip",
-      "zip_count": 1,
-      "timestamp": 1794689956,
-      "size": 2312
+      "checked": 1794740541,
+      "release_id": 445948871,
+      "valid": false
     },
     "lingtiannnnn/lansync": {},
     "mben25/micloud-a16": {},
@@ -1743,7 +2195,11 @@
     },
     "mizuno-sachiko/easytier-magisk": {},
     "vorobeyyyyyy/geelynavbar": {},
-    "imkamaran/hidemydevice": {},
+    "imkamaran/hidemydevice": {
+      "checked": 1794740546,
+      "release_id": 442592917,
+      "valid": false
+    },
     "lwjlw/io.github.lwjlw.bilibtr": {},
     "xposed-modules-repo/io.github.themrsami.waenhancer": {},
     "barsikus007/ksu-webui-module-template": {
@@ -1766,7 +2222,11 @@
     "ohmk1811/mobsentry": {},
     "nalbe/shark8-adb-wifi-lan-persistent": {},
     "nalbe/shark8-damon-reclaim-off": {},
-    "hik0w/tiktokpatchxposed": {},
+    "hik0w/tiktokpatchxposed": {
+      "checked": 1794740545,
+      "release_id": 445533968,
+      "valid": false
+    },
     "themrsami/waenhancer": {},
     "langraficagr-collab/adaptive-performance": {},
     "c0d3h01/androidtweaker": {
@@ -1789,7 +2249,11 @@
     "lotfibennour/andromarchy": {},
     "luqin2007/baidupan-cryptomator": {},
     "latifangren/bfr-webui-go-release": {},
-    "h3n1x0s/bubblefix": {},
+    "h3n1x0s/bubblefix": {
+      "checked": 1794740544,
+      "release_id": 405032471,
+      "valid": false
+    },
     "teapieyyds/device-check": {},
     "zephyr7030/droidbridge": {},
     "corespaceteam/hmspace": {
@@ -1894,16 +2358,28 @@
       "valid": false
     },
     "sr-tream/s-pen-mouse": {},
-    "inte-h/volume-cutout-slide": {},
+    "inte-h/volume-cutout-slide": {
+      "checked": 1794740547,
+      "release_id": 406915035,
+      "valid": false
+    },
     "radito/watchdog": {},
     "robbyczgw-cla/activity-plus-android": {},
-    "ganondorofu/adb-toggle": {},
+    "ganondorofu/adb-toggle": {
+      "checked": 1794740543,
+      "release_id": 408031984,
+      "valid": false
+    },
     "kuafuai/andee": {},
     "yz8023/coloros-force-recorder": {},
     "sabbirafat96/fast-animation-stable-fps-": {},
     "loyality7/headless-android-sdk": {},
     "nothingnesscore/kaorios-repatcher": {},
-    "hxy132465/launcher-switcher": {},
+    "hxy132465/launcher-switcher": {
+      "checked": 1794740546,
+      "release_id": 411320445,
+      "valid": false
+    },
     "tonybenoy/magisk-hotspot-smb": {},
     "sabbirafat96/spoof-gt-50-pro": {},
     "yq200013/steer-android": {},
@@ -1915,8 +2391,16 @@
       "release_id": 423364290,
       "valid": false
     },
-    "intelarc/ayaneo-rgb-control": {},
-    "guige101/bluedx": {},
+    "intelarc/ayaneo-rgb-control": {
+      "checked": 1794740547,
+      "release_id": 408184023,
+      "valid": false
+    },
+    "guige101/bluedx": {
+      "checked": 1794740544,
+      "release_id": 408706272,
+      "valid": false
+    },
     "masitankitavim-ux/codex-android": {},
     "clozya/hookxbud": {
       "checked": 1794734563,
@@ -1935,7 +2419,11 @@
       "valid": false
     },
     "simonschubert/omalauncher": {},
-    "gooesman/phone-remote-lock": {},
+    "gooesman/phone-remote-lock": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "fixz232/pseudo-stersu": {
       "checked": 1794734571,
       "release_id": 408817395,
@@ -2018,10 +2506,22 @@
       "release_id": null,
       "valid": false
     },
-    "ghorbelhamdi/buddy-android": {},
+    "ghorbelhamdi/buddy-android": {
+      "checked": 1794740543,
+      "release_id": 445946139,
+      "valid": false
+    },
     "landilf/dactune": {},
-    "gitwrld999/ghost-display": {},
-    "gutsmcd-cmd/gutsmcd-cmd.github.io": {},
+    "gitwrld999/ghost-display": {
+      "checked": 1794740543,
+      "release_id": null,
+      "valid": false
+    },
+    "gutsmcd-cmd/gutsmcd-cmd.github.io": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "atrejokm301/hilightlink": {
       "checked": 1794731821,
       "release_id": 411212536,
@@ -2040,9 +2540,17 @@
       "size": 1092487
     },
     "leohearts/i-dont-want-to-catch-up": {},
-    "good-joe2049/millennium": {},
+    "good-joe2049/millennium": {
+      "checked": 1794740543,
+      "release_id": null,
+      "valid": false
+    },
     "librestatic/openshm": {},
-    "gamessa/pcstop": {},
+    "gamessa/pcstop": {
+      "checked": 1794740543,
+      "release_id": 417474193,
+      "valid": false
+    },
     "kahramanedit/redmagic-11-pro-zram-16gb-ramslider": {},
     "aminoda/rinigan-app": {
       "checked": 1794731819,
@@ -2068,7 +2576,11 @@
     },
     "tugaia56/bootanimation-manager": {},
     "turkdevprodoctions/debloat": {},
-    "hyh9335/galaxy-nr-tools": {},
+    "hyh9335/galaxy-nr-tools": {
+      "checked": 1794740546,
+      "release_id": null,
+      "valid": false
+    },
     "leobastiani/mobile-data-auto-off": {},
     "kuomartin/moonclicker": {},
     "nameisjayant/react-native-in-app-update": {},
@@ -2096,7 +2608,11 @@
       "release_id": 413127466,
       "valid": false
     },
-    "hex91/appinspector": {},
+    "hex91/appinspector": {
+      "checked": 1794740545,
+      "release_id": 415825863,
+      "valid": false
+    },
     "misaka24/astraea_link": {},
     "mdsadman2004/bayan-quranic-arabic": {},
     "q307334735/charging": {},
@@ -2130,12 +2646,20 @@
       "valid": false
     },
     "li-junlei/scrollsnap": {},
-    "jackderganove-sudo/shizubox": {},
+    "jackderganove-sudo/shizubox": {
+      "checked": 1794740547,
+      "release_id": 416011666,
+      "valid": false
+    },
     "ymuuuu/susfs4ksu-lkm-x64": {},
     "sway4all/sways-deep-builder": {},
     "vip-svip/sy": {},
     "pccr10001/voany": {},
-    "heshamnoaman/volteenabler": {},
+    "heshamnoaman/volteenabler": {
+      "checked": 1794740545,
+      "release_id": 416127858,
+      "valid": false
+    },
     "dmitthedazed/am-glass": {
       "checked": 1794734567,
       "release_id": 425028883,
@@ -2143,12 +2667,24 @@
     },
     "milkei/audio-focus-mixer": {},
     "warleysr/dechainer": {},
-    "ihandmine/dexripper": {},
+    "ihandmine/dexripper": {
+      "checked": 1794740546,
+      "release_id": 414645750,
+      "valid": false
+    },
     "zhangdunlong/droidvm-module": {},
     "wized2/fern": {},
-    "jesuscastilla/gbos-pixeltablet": {},
+    "jesuscastilla/gbos-pixeltablet": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "zhangdunlong/groupguard-magisk": {},
-    "hozin-king/hozin-api-spoofer": {},
+    "hozin-king/hozin-api-spoofer": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "thewildjames/magisk-tailscaled": {},
     "cxc1992-bit/neta-x-toolbox": {
       "checked": 1794734564,
@@ -2180,12 +2716,24 @@
       "release_id": 416220707,
       "valid": false
     },
-    "imnoammm/aa-mods": {},
-    "jon2g/aa_keyboard_unlock": {},
+    "imnoammm/aa-mods": {
+      "checked": 1794740546,
+      "release_id": 416112245,
+      "valid": false
+    },
+    "jon2g/aa_keyboard_unlock": {
+      "checked": 1794740549,
+      "release_id": 430156368,
+      "valid": false
+    },
     "pironjulien/android-computer-use": {},
     "mistermoegreen/antigravity-studio-app": {},
     "matanmi12/bigme-b1051c-android16": {},
-    "jasoisjaso/byd-nag-killer": {},
+    "jasoisjaso/byd-nag-killer": {
+      "checked": 1794740548,
+      "release_id": 441279581,
+      "valid": false
+    },
     "kelebao/clockseconds": {},
     "sunsetrne/dsh-chroot": {},
     "usama6878786/fivegtile": {},
@@ -2251,7 +2799,11 @@
       "timestamp": 1792326251,
       "size": 206191
     },
-    "gothwadtech/storeapp": {},
+    "gothwadtech/storeapp": {
+      "checked": 1794740544,
+      "release_id": 416854346,
+      "valid": false
+    },
     "shebing8/tiktok-region-kit": {},
     "niconex/vibenfs": {},
     "yulebest/workbuddy2api-magisk": {},
@@ -2270,8 +2822,16 @@
       "release_id": 417242660,
       "valid": false
     },
-    "haintrainn/grapheneos-firewall-app": {},
-    "idex-maker/idex-maker.github.io": {},
+    "haintrainn/grapheneos-firewall-app": {
+      "checked": 1794740544,
+      "release_id": 416985628,
+      "valid": false
+    },
+    "idex-maker/idex-maker.github.io": {
+      "checked": 1794740546,
+      "release_id": null,
+      "valid": false
+    },
     "chengdong-yu/imei-privacy": {
       "checked": 1794734562,
       "release_id": 417430045,
@@ -2308,14 +2868,22 @@
       "size": 27300879
     },
     "pwnpot/logster": {},
-    "hittygubby/maxikin": {},
+    "hittygubby/maxikin": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "pironjulien/nexusandroid": {},
     "xeloria/resonancefx": {},
     "souzzaaxzy/turbokn": {},
     "starlightjulie/twinndroid": {},
     "sproffes/vitreo-launcher": {},
     "weavrikx/wifiwarn": {},
-    "fordel225/xrds-rearcanvas-studio": {},
+    "fordel225/xrds-rearcanvas-studio": {
+      "checked": 1794740542,
+      "release_id": null,
+      "valid": false
+    },
     "verybaaad/znnext": {},
     "k3v1991/adguarddns4magisk-family": {},
     "empcoorg/android-editor": {
@@ -2323,7 +2891,11 @@
       "release_id": null,
       "valid": false
     },
-    "imkamaran/appguard": {},
+    "imkamaran/appguard": {
+      "checked": 1794740546,
+      "release_id": 418322829,
+      "valid": false
+    },
     "eithonx/buttonsilencer": {
       "checked": 1794734568,
       "release_id": 385543353,
@@ -2350,7 +2922,11 @@
     },
     "k3v1991/green2priv": {},
     "k3v1991/green2priv-beta": {},
-    "hakai963/headless-android": {},
+    "hakai963/headless-android": {
+      "checked": 1794740544,
+      "release_id": 418300162,
+      "valid": false
+    },
     "k3v1991/how-to-uninstall-android-apps-non-root": {},
     "k3v1991/install-adb-and-fastboot-on-android-devices": {},
     "etcherfx/lensunlock": {
@@ -2382,7 +2958,11 @@
       "timestamp": 1792497712,
       "size": 46786
     },
-    "hanhan-ggit/pixelotashield": {},
+    "hanhan-ggit/pixelotashield": {
+      "checked": 1794740544,
+      "release_id": 419156061,
+      "valid": false
+    },
     "rawracli/playstore-hidegames": {},
     "ayoubvvch/privapp-systemizer-magisk": {
       "checked": 1794731821,
@@ -2434,17 +3014,29 @@
     "k3v1991/yandex-dns4magisk-basic": {},
     "k3v1991/yandex-dns4magisk-family": {},
     "k3v1991/yandex-dns4magisk-safe": {},
-    "imkamaran/adbcontroller": {},
+    "imkamaran/adbcontroller": {
+      "checked": 1794740546,
+      "release_id": 419485138,
+      "valid": false
+    },
     "sharl210/antihookbypass": {},
     "yudshj/auto-hotspot": {},
-    "hpophh/chuanggaosim": {},
+    "hpophh/chuanggaosim": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "santo1993/drainscope": {},
     "kawinpattanai/kawinnext": {},
     "vovaxa55/monik": {},
     "ymuuuu/noemulator": {},
     "kailoinf/phoneserver": {},
     "orev7s/pillarbox": {},
-    "fq77/qinoteapp": {},
+    "fq77/qinoteapp": {
+      "checked": 1794740542,
+      "release_id": null,
+      "valid": false
+    },
     "zubairehmad/shizuku_installer": {},
     "damien-llado/snapkey-mapper": {
       "checked": 1794734564,
@@ -2453,7 +3045,11 @@
     },
     "monarchsofchaos004-gif/splitaudio": {},
     "poordevcode/termux-android-studio": {},
-    "geethut-stack/trimall": {},
+    "geethut-stack/trimall": {
+      "checked": 1794740543,
+      "release_id": 419616966,
+      "valid": false
+    },
     "deserthouse/twemoji-resurrection": {
       "checked": 1794734566,
       "release_id": 387468267,
@@ -2472,11 +3068,23 @@
       "size": 3382591
     },
     "misakidebugged/virtual-xbox-controller-android": {},
-    "husniheartnet/android-rust-taskmanager": {},
-    "gizawnahom/appwall": {},
+    "husniheartnet/android-rust-taskmanager": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
+    "gizawnahom/appwall": {
+      "checked": 1794740543,
+      "release_id": 420528905,
+      "valid": false
+    },
     "varunpilankar/bitperfect-dac": {},
     "sampple-korea/dynamicisland": {},
-    "ink-cardistry/edge-gesture-guard": {},
+    "ink-cardistry/edge-gesture-guard": {
+      "checked": 1794740547,
+      "release_id": 428127183,
+      "valid": false
+    },
     "shivrajtode/extradim-magisk": {},
     "mubai-meng/fkcoloros": {},
     "wzuivcsyuiopas-cmd/foldapplayout": {},
@@ -2540,7 +3148,11 @@
     "privshell/gitmigrator-ksu": {},
     "nrowa/lg-v50-ntcode-popup-blocker": {},
     "rchrdariza/moto-g15-raw": {},
-    "hozin-king/separate-sound": {},
+    "hozin-king/separate-sound": {
+      "checked": 1794740545,
+      "release_id": 421397602,
+      "valid": false
+    },
     "order52/shizuku-termux": {},
     "alpha-liu-01/stylusctrl": {
       "checked": 1794731819,
@@ -2590,13 +3202,21 @@
       "valid": false
     },
     "vickyvirgian/cleanyourheadunit": {},
-    "hdjdjdguahsh-debug/control-your-phone": {},
+    "hdjdjdguahsh-debug/control-your-phone": {
+      "checked": 1794740545,
+      "release_id": 422498247,
+      "valid": false
+    },
     "droidforgeindo/dfdeviceinfo": {
       "checked": 1794734567,
       "release_id": 431169520,
       "valid": false
     },
-    "jisvrin/doubletaptorch": {},
+    "jisvrin/doubletaptorch": {
+      "checked": 1794740548,
+      "release_id": 427463672,
+      "valid": false
+    },
     "crossly/galaxy-watch-tweaker": {
       "checked": 1794734564,
       "release_id": 422374190,
@@ -2616,7 +3236,11 @@
     "nikhiltalreja/ratemytv": {},
     "z83208477-boop/secureguard-app": {},
     "valehhdoth/vaxodpi": {},
-    "jherobred/windows11-on-mobile": {},
+    "jherobred/windows11-on-mobile": {
+      "checked": 1794740548,
+      "release_id": 422795703,
+      "valid": false
+    },
     "asona10/zram-turner": {
       "checked": 1794731820,
       "release_id": 437891060,
@@ -2668,7 +3292,11 @@
       "release_id": 434961037,
       "valid": false
     },
-    "henry-97/mineapp": {},
+    "henry-97/mineapp": {
+      "checked": 1794740545,
+      "release_id": 445237221,
+      "valid": false
+    },
     "a1175815821/miui-back-gesture-fix": {
       "checked": 1794731815,
       "release_id": 424262107,
@@ -2706,7 +3334,11 @@
       "release_id": null,
       "valid": false
     },
-    "himanshu737936/himanshu737936.github.io": {},
+    "himanshu737936/himanshu737936.github.io": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "kayus24/kayus24.github.io": {},
     "kahramanedit/magisk-gifboot": {},
     "qptqpt199-prog/niken": {},
@@ -2732,7 +3364,11 @@
     "tumingke0/ripple": {},
     "ripplefocus/ripplefocus.github.io": {},
     "saudsatopay/skylight-tizen": {},
-    "hiiamtrong/vivo-nfc-switch": {},
+    "hiiamtrong/vivo-nfc-switch": {
+      "checked": 1794740545,
+      "release_id": 425292438,
+      "valid": false
+    },
     "leapdragon/xiaomiplaystorefix": {},
     "pisces19860207/zhengdao": {},
     "pisces19860207/zhengdao-term": {},
@@ -2782,17 +3418,33 @@
       "release_id": null,
       "valid": false
     },
-    "followcat/tailbridge": {},
+    "followcat/tailbridge": {
+      "checked": 1794740542,
+      "release_id": null,
+      "valid": false
+    },
     "merlinshieh/vdisplay-android": {},
     "kozwunzheo-a11y/xposed-lsposed_globaltransparent-for-partial-android-10": {},
-    "jackwener/deepseekharness-android": {},
+    "jackwener/deepseekharness-android": {
+      "checked": 1794740547,
+      "release_id": 435963632,
+      "valid": false
+    },
     "agharsallah/framio": {
       "checked": 1794731817,
       "release_id": null,
       "valid": false
     },
-    "frandesarrolladorweb/frandesarrolladorweb.github.io": {},
-    "hxreborn/gdialer-dechip": {},
+    "frandesarrolladorweb/frandesarrolladorweb.github.io": {
+      "checked": 1794740542,
+      "release_id": null,
+      "valid": false
+    },
+    "hxreborn/gdialer-dechip": {
+      "checked": 1794740546,
+      "release_id": 427876304,
+      "valid": false
+    },
     "ribosomek/gemini-live-tweaks": {},
     "mnemosynelab/ghostlock-honor": {},
     "anand-s-kale/headroid": {
@@ -2835,8 +3487,16 @@
       "release_id": null,
       "valid": false
     },
-    "hashirsaifi001-dot/refreshlock-": {},
-    "gorban-dev/rustore-fastlane-plugin": {},
+    "hashirsaifi001-dot/refreshlock-": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
+    "gorban-dev/rustore-fastlane-plugin": {
+      "checked": 1794740544,
+      "release_id": 430674575,
+      "valid": false
+    },
     "dhangofa/xiaomi_cnap_fix": {
       "checked": 1794734566,
       "release_id": 428793064,
@@ -2863,7 +3523,11 @@
       "release_id": 444279360,
       "valid": false
     },
-    "jackwener/dsh-android": {},
+    "jackwener/dsh-android": {
+      "checked": 1794740547,
+      "release_id": 435963632,
+      "valid": false
+    },
     "magiskpc/magisk-desktop": {},
     "needanapp-de/myzel": {},
     "456erddgr/rc2-unlock-toolkit": {
@@ -2873,8 +3537,16 @@
     },
     "mairoky/root-busybox-checker": {},
     "soanssandha/sidearm": {},
-    "iimacgyverii/signaldeck": {},
-    "jbinder/smsd": {},
+    "iimacgyverii/signaldeck": {
+      "checked": 1794740546,
+      "release_id": null,
+      "valid": false
+    },
+    "jbinder/smsd": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "silasdv/taskdeck": {},
     "dcryptoniun/cleanbot": {
       "checked": 1794734565,
@@ -2895,14 +3567,22 @@
     "theocp/rootdeck": {},
     "vc68/screenoff": {},
     "ronukuigo/show-taps-revived": {},
-    "gmtr244/splitgate-android": {},
+    "gmtr244/splitgate-android": {
+      "checked": 1794740543,
+      "release_id": 430655232,
+      "valid": false
+    },
     "nosiybugs/uu-wheel-evdev": {},
     "davidglt/wireless-debugging": {
       "checked": 1794734565,
       "release_id": null,
       "valid": false
     },
-    "fynks/awesome-temporary-root": {},
+    "fynks/awesome-temporary-root": {
+      "checked": 1794740543,
+      "release_id": null,
+      "valid": false
+    },
     "kailashrs/camx-fullsize": {},
     "ribosomek/gboardtweak": {},
     "okamitimo233/gmscore-slim": {},
@@ -2915,7 +3595,11 @@
     "loukious/konoha-android17-6.18": {},
     "sharkskin/lsp-hook-location": {},
     "yuxiximyxx/magicxm4": {},
-    "hddq/magisk-vanadium-webview": {},
+    "hddq/magisk-vanadium-webview": {
+      "checked": 1794740544,
+      "release_id": 444158522,
+      "valid": false
+    },
     "kailashrs/origoogle": {},
     "kailashrs/oritweaks": {},
     "bennybrit/pixel-5g-enabler": {
@@ -2937,7 +3621,11 @@
     },
     "mor4land/poco-m5-hyperos3-lockscreen": {},
     "sfsakhawat999/reelsblock": {},
-    "jhangyu/relume": {},
+    "jhangyu/relume": {
+      "checked": 1794740548,
+      "release_id": 436470056,
+      "valid": false
+    },
     "quangns/time_for_bed": {},
     "whitecoco20/wlh-glass-updates": {},
     "riccardoponte/android-system-app-uninstaller": {},
@@ -2945,10 +3633,18 @@
     "ncarvalho99/cputracker-fix": {},
     "ullmann27/device-ai": {},
     "phoenix-1708/droidvault": {},
-    "haohowareyou/loopdl-speaker": {},
+    "haohowareyou/loopdl-speaker": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "pandjistr/rpcdroid": {},
     "ryananthonygibo/siliconplay.app": {},
-    "jacobsmolik1/smsguard": {},
+    "jacobsmolik1/smsguard": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "prempoddar/tune": {},
     "takattowo/usercabridge": {},
     "syedtahseen/zorken": {},
@@ -2972,7 +3668,11 @@
       "size": 336528
     },
     "shivam01anand/hisense-just-the-apps": {},
-    "iliyian/k80-zorn-bbr": {},
+    "iliyian/k80-zorn-bbr": {
+      "checked": 1794740546,
+      "release_id": 435096919,
+      "valid": false
+    },
     "simonleen22/keva-app": {},
     "samueldianela/mlbb-esp-ksu": {},
     "mikeyphw/mmrl-lsposed": {},
@@ -2984,13 +3684,25 @@
       "valid": false
     },
     "vxuwu/vpn-tether-router": {},
-    "hxfuxyy/zetacard": {},
+    "hxfuxyy/zetacard": {
+      "checked": 1794740545,
+      "release_id": 440284231,
+      "valid": false
+    },
     "mrkurt/audio-router": {},
-    "j0p3s/debloat-app-android": {},
+    "j0p3s/debloat-app-android": {
+      "checked": 1794740547,
+      "release_id": 445746534,
+      "valid": false
+    },
     "pete-builds/dualsim-monitor": {},
     "suancaiyupro/honksu": {},
     "smr518/honor-v8-gms": {},
-    "iacbi/iacbi.github.io": {},
+    "iacbi/iacbi.github.io": {
+      "checked": 1794740546,
+      "release_id": null,
+      "valid": false
+    },
     "nangongjing1/misans-module-for-magisk": {},
     "cq61tech/mycolourfulgesture": {
       "checked": 1794734564,
@@ -3005,7 +3717,11 @@
     "tothanggtvt/open-adblock": {},
     "yashjitpal/pixel-now-playing-universal": {},
     "steimerbyte/profile-optimizer": {},
-    "goodjoe-2049/steam-nova": {},
+    "goodjoe-2049/steam-nova": {
+      "checked": 1794740544,
+      "release_id": 440742699,
+      "valid": false
+    },
     "nekuzaky/android-network-monitor": {},
     "cheney34/apple-input-for-sogou": {
       "checked": 1794734561,
@@ -3020,16 +3736,28 @@
     },
     "visadahyu/datapavan": {},
     "y-steve-dragon/dragons-wall": {},
-    "jminn0/dsh-go-plugin-adb": {},
+    "jminn0/dsh-go-plugin-adb": {
+      "checked": 1794740549,
+      "release_id": null,
+      "valid": false
+    },
     "sol01st/exlindev": {},
     "airmazter/glory-star-rk3399-uart-unlock": {
       "checked": 1794731817,
       "release_id": null,
       "valid": false
     },
-    "gdr1999/gpay-india-accessibility-fix": {},
+    "gdr1999/gpay-india-accessibility-fix": {
+      "checked": 1794740543,
+      "release_id": 437668085,
+      "valid": false
+    },
     "yudharn/hypercool": {},
-    "imsteazyyy/icon-formatter": {},
+    "imsteazyyy/icon-formatter": {
+      "checked": 1794740547,
+      "release_id": 436500259,
+      "valid": false
+    },
     "albatrossmicrosystems/lazarus-xposed": {
       "checked": 1794731818,
       "release_id": 443162162,
@@ -3058,8 +3786,16 @@
       "release_id": 445808540,
       "valid": false
     },
-    "gt001well/vivodaemonnotifymute": {},
-    "jancaticgamer3212/a1-donut": {},
+    "gt001well/vivodaemonnotifymute": {
+      "checked": 1794740544,
+      "release_id": 436128055,
+      "valid": false
+    },
+    "jancaticgamer3212/a1-donut": {
+      "checked": 1794740548,
+      "release_id": 437567409,
+      "valid": false
+    },
     "sadrzd/alidark": {},
     "arazi-hash/analoganchor_nxtpaper_e-ink-pre-commitment-mode": {
       "checked": 1794731820,
@@ -3092,7 +3828,11 @@
       "size": 4934829
     },
     "zanoshky/firewall-app": {},
-    "hydraroot/hydra_firewall": {},
+    "hydraroot/hydra_firewall": {
+      "checked": 1794740546,
+      "release_id": 444282543,
+      "valid": false
+    },
     "sbflabs/lightspeed": {},
     "ninibiku/mintos-r8q-fixes": {},
     "alltristans/my-access-wallet": {
@@ -3113,13 +3853,21 @@
       "valid": false
     },
     "rhythm6x9/adb-wireless-tool": {},
-    "ivangotoy/android-linux-tools": {},
+    "ivangotoy/android-linux-tools": {
+      "checked": 1794740547,
+      "release_id": 445574148,
+      "valid": false
+    },
     "caochuankuan/applens": {
       "checked": 1794731824,
       "release_id": 438334949,
       "valid": false
     },
-    "huangdihd/claudespoof": {},
+    "huangdihd/claudespoof": {
+      "checked": 1794740545,
+      "release_id": 445903307,
+      "valid": false
+    },
     "noctsis/fakedc": {},
     "a709560839/lsposed-dshpetandroidfix": {
       "checked": 1794731815,
@@ -3136,14 +3884,22 @@
     "qutaiba-khader/recentappstv": {},
     "kqar/reticle": {},
     "ttabouch12/simbridge": {},
-    "huijuisu-next/snow-love-module": {},
+    "huijuisu-next/snow-love-module": {
+      "checked": 1794740545,
+      "release_id": 438365777,
+      "valid": false
+    },
     "pishikuchulu/termbridge": {},
     "5ivatej/xiaomi-bloatware-removal": {
       "checked": 1794731815,
       "release_id": null,
       "valid": false
     },
-    "gitmag/anyauto": {},
+    "gitmag/anyauto": {
+      "checked": 1794740543,
+      "release_id": 444110784,
+      "valid": false
+    },
     "li-junlei/clipbridge": {},
     "kushal-mr/cueseek": {},
     "arkylin/cve-2026-98260-asteroids": {
@@ -3152,7 +3908,11 @@
       "valid": false
     },
     "silvertax/force-skiavk": {},
-    "involvex/kiln": {},
+    "involvex/kiln": {
+      "checked": 1794740547,
+      "release_id": 438801109,
+      "valid": false
+    },
     "yqing004-boop/magpie-android": {},
     "mahmoodana1/mahmoodana1.github.io": {},
     "cj7-cyber/mlbbboost": {
@@ -3176,7 +3936,11 @@
     "mrsoheyl/soligeram": {},
     "overnightcoder219/systemmonitor-app": {},
     "overnightcoder219/tabstation-app": {},
-    "frtymn/tv-debloater": {},
+    "frtymn/tv-debloater": {
+      "checked": 1794740543,
+      "release_id": 439372790,
+      "valid": false
+    },
     "n2ray/xdesk": {},
     "kilolonion/agent-vscreen": {},
     "cj7-cyber/ai-cleaning-pro-": {
@@ -3208,7 +3972,11 @@
       "timestamp": 1794297169,
       "size": 12419
     },
-    "huijui-forge/huijui_module_repo": {},
+    "huijui-forge/huijui_module_repo": {
+      "checked": 1794740545,
+      "release_id": null,
+      "valid": false
+    },
     "afrizz19/io.github.afrizz19.statusbarlyric": {
       "checked": 1794731816,
       "release_id": 429955252,
@@ -3223,7 +3991,11 @@
       "valid": false
     },
     "mtvtopcom/quizgate-tv": {},
-    "itszale0/smart-pixel-overlay": {},
+    "itszale0/smart-pixel-overlay": {
+      "checked": 1794740547,
+      "release_id": 444167744,
+      "valid": false
+    },
     "shuo67713-stack/smoothflow": {},
     "rnjnkr/tizentube-cobalt-google-assistant-bridge": {},
     "zakariaadem/unbloat-releases": {},
@@ -3245,7 +4017,23 @@
       "timestamp": 1794414238,
       "size": 2435606
     },
-    "hafiezanarman/cj7x-mlbb-boost-universal-v1.1.0": {},
+    "hafiezanarman/cj7x-mlbb-boost-universal-v1.1.0": {
+      "checked": 1794740544,
+      "release_id": 441385989,
+      "valid": true,
+      "prop": {
+        "id": "cj7x_mlbb_boost",
+        "name": "CJ7x MLBB Game Boost",
+        "version": "v1.1.0",
+        "versionCode": "10100",
+        "author": "CJ7xGAMING",
+        "description": "Boost performa khusus Mobile Legends: Bang Bang (com.mobile.legends). Saat game berjalan: CPU/GPU mode performa, RAM dibersihkan, aplikasi background ditutup. Otomatis kembali normal saat keluar game. Game dan aplikasi lain tidak disentuh. CLI: mlbbboost. Opsional: overlay lib .so systemless (mlbbboost libs)."
+      },
+      "zip": "https://github.com/Hafiezanarman/CJ7x-MLBB-Boost-universal-v1.1.0/releases/download/v1.1.0/CJ7x-MLBB-Boost-universal-v1.1.0.zip",
+      "zip_count": 2,
+      "timestamp": 1794383928,
+      "size": 19734
+    },
     "0xgh0stri13y/clean-your-mobile": {
       "checked": 1794731814,
       "release_id": 441743250,
@@ -3261,10 +4049,38 @@
       "valid": false
     },
     "justakhi/hotspot-monitor": {},
-    "idklelpigeon/liveboot-enhanced": {},
-    "hafiezanarman/magisk-all-in-one-v1": {},
-    "hafiezanarman/module-magisk-all-in-one-v1": {},
-    "ivankwanpn/slate": {},
+    "idklelpigeon/liveboot-enhanced": {
+      "checked": 1794740546,
+      "release_id": 441813995,
+      "valid": true,
+      "prop": {
+        "id": "liveboot_custom",
+        "name": "LiveBoot Enhanced",
+        "version": "1.0",
+        "versionCode": "9",
+        "author": "idklelpigeon",
+        "description": "LiveBoot Enhanced boot overlay with scripted messages, text colors, image layers and custom fonts"
+      },
+      "zip": "https://github.com/idklelpigeon/Liveboot-Enhanced/releases/download/v1.0/LiveBoot_Enhanced_v1.0.zip",
+      "zip_count": 1,
+      "timestamp": 1794407844,
+      "size": 1607766
+    },
+    "hafiezanarman/magisk-all-in-one-v1": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
+    "hafiezanarman/module-magisk-all-in-one-v1": {
+      "checked": 1794740544,
+      "release_id": 441810115,
+      "valid": false
+    },
+    "ivankwanpn/slate": {
+      "checked": 1794740547,
+      "release_id": 442703158,
+      "valid": false
+    },
     "vd171/vd-backup": {},
     "wfire06100/wallet-card-audit": {},
     "meetox80/zflip3": {},
@@ -3273,23 +4089,51 @@
       "release_id": 441667967,
       "valid": false
     },
-    "hafiezanarman/bootloop-protection-v1.1": {},
+    "hafiezanarman/bootloop-protection-v1.1": {
+      "checked": 1794740544,
+      "release_id": 443207980,
+      "valid": true,
+      "prop": {
+        "id": "bootloop-protection",
+        "name": "Bootloop Protection",
+        "version": "1.1",
+        "versionCode": "2",
+        "author": "CJ7xGAMING",
+        "description": "Automatically disables Magisk modules after repeated failed boots."
+      },
+      "zip": "https://github.com/Hafiezanarman/bootloop-protection-v1.1/releases/download/bootloop-protection-v1.1/bootloop-protection-v1.1.zip",
+      "zip_count": 1,
+      "timestamp": 1794500600,
+      "size": 3363
+    },
     "fk0u/cleanyourtv-tahoe": {
       "checked": 1794734571,
       "release_id": 445426914,
       "valid": false
     },
     "zycalone/dsh-termux-oneclick": {},
-    "hongphong5115/edgetoedgecutout": {},
+    "hongphong5115/edgetoedgecutout": {
+      "checked": 1794740545,
+      "release_id": 443031245,
+      "valid": false
+    },
     "mods-center/hyperos-rust-launcher-mod": {},
     "1953187487/isposed-manager": {
       "checked": 1794731814,
       "release_id": 445069469,
       "valid": false
     },
-    "joungminsung/openphoneuse": {},
+    "joungminsung/openphoneuse": {
+      "checked": 1794740549,
+      "release_id": 445769637,
+      "valid": false
+    },
     "kimsferdy/phonesweep": {},
-    "hongphong5115/realme-gestures": {},
+    "hongphong5115/realme-gestures": {
+      "checked": 1794740545,
+      "release_id": 442910182,
+      "valid": false
+    },
     "kopiascsaba/tapover": {},
     "luoyi0914/thermocharge": {},
     "bafusword/xincheng-accel": {
@@ -3414,7 +4258,11 @@
       "size": 8054
     },
     "marcoslor/contigua": {},
-    "gwenz2/driontune": {},
+    "gwenz2/driontune": {
+      "checked": 1794740544,
+      "release_id": 445300223,
+      "valid": false
+    },
     "epochmachin/epochmachin.github.io": {
       "checked": 1794734569,
       "release_id": null,
@@ -3426,7 +4274,23 @@
       "release_id": 445046634,
       "valid": false
     },
-    "hiruko-puppetmaster/infinix-loading-bootanimation": {},
+    "hiruko-puppetmaster/infinix-loading-bootanimation": {
+      "checked": 1794740545,
+      "release_id": 445376316,
+      "valid": true,
+      "prop": {
+        "id": "infinix_bootanimation",
+        "name": "INFINIX Bootanimation",
+        "version": "1.0",
+        "versionCode": "1",
+        "author": "hiruko-puppetmaster",
+        "description": "Replaces stock bootanimation with INFINIX loading animation (1080x1080 @60fps). Compatible with Magisk, KernelSU, and APatch."
+      },
+      "zip": "https://github.com/hiruko-puppetmaster/Infinix-Loading-Bootanimation/releases/download/v1.0.0/INFINIX_Bootanimation.zip",
+      "zip_count": 1,
+      "timestamp": 1794668598,
+      "size": 25742409
+    },
     "stupidgiraffe/kizuku": {},
     "corespaceteam/mmspace": {
       "checked": 1794734564,
@@ -3468,7 +4332,11 @@
     },
     "loficore/wg-user": {},
     "morpheapp/morphe-patches": {},
-    "freeman022026/rustore-privacy-patches": {},
+    "freeman022026/rustore-privacy-patches": {
+      "checked": 1794740542,
+      "release_id": 445464205,
+      "valid": false
+    },
     "bigyank/morphe-patches-samsung": {
       "checked": 1794731822,
       "release_id": 414146556,
@@ -3529,7 +4397,23 @@
       "release_id": 309132804,
       "valid": false
     },
-    "jingmatrix/vector": {},
+    "jingmatrix/vector": {
+      "checked": 1794740549,
+      "release_id": 364754868,
+      "valid": true,
+      "prop": {
+        "id": "zygisk_vector",
+        "name": "Vector",
+        "version": "v2.2 (3080-88f8e1fa-JingMatrix-Vector)",
+        "versionCode": "3080",
+        "author": "JingMatrix",
+        "description": "A modern, Xposed-compatible framework for Android application hooking. (Android 8.1 ~ 17)"
+      },
+      "zip": "https://github.com/JingMatrix/Vector/releases/download/v2.2/Vector-v2.2-3080-Release.zip",
+      "zip_count": 2,
+      "timestamp": 1785836309,
+      "size": 9316843
+    },
     "dr-tsng/zygisknext": {
       "checked": 1794734567,
       "release_id": 437695261,
@@ -3547,11 +4431,59 @@
       "timestamp": 1794069131,
       "size": 6638473
     },
-    "jingmatrix/neozygisk": {},
+    "jingmatrix/neozygisk": {
+      "checked": 1794740548,
+      "release_id": 367279392,
+      "valid": true,
+      "prop": {
+        "id": "zygisksu",
+        "name": "NeoZygisk",
+        "version": "v2.4 (289-08080ef-release)",
+        "versionCode": "289",
+        "author": "JingMatrix",
+        "description": "Zygote injection with ptrace."
+      },
+      "zip": "https://github.com/JingMatrix/NeoZygisk/releases/download/v2.4/NeoZygisk-v2.4-289-release.zip",
+      "zip_count": 2,
+      "timestamp": 1786215827,
+      "size": 2401208
+    },
     "performanc/rezygisk": {},
     "rrr333nnn333/brene": {},
-    "frknkrc44/hma-oss": {},
-    "jingmatrix/teesimulator": {},
+    "frknkrc44/hma-oss": {
+      "checked": 1794740543,
+      "release_id": 436374012,
+      "valid": true,
+      "prop": {
+        "id": "hma_oss_zygisk",
+        "name": "HMA-OSS Zygisk",
+        "version": "oss-175",
+        "versionCode": "7304658",
+        "author": "frknkrc44",
+        "description": "A Zygisk backend for HMA-OSS"
+      },
+      "zip": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-175/HMA-OSS-ZYGISK-oss-175-release.zip",
+      "zip_count": 2,
+      "timestamp": 1793961447,
+      "size": 2582384
+    },
+    "jingmatrix/teesimulator": {
+      "checked": 1794740548,
+      "release_id": 368439339,
+      "valid": true,
+      "prop": {
+        "id": "teesim",
+        "name": "TEESimulator",
+        "version": "v4.0 (34-f63eaae-release)",
+        "versionCode": "34",
+        "author": "JingMatrix",
+        "description": "Redirects key attestation for selected apps to an in-process reference KeyMint trusted application."
+      },
+      "zip": "https://github.com/JingMatrix/TEESimulator/releases/download/v4.0/TEESimulator-v4.0-34-Release.zip",
+      "zip_count": 2,
+      "timestamp": 1786438946,
+      "size": 16702783
+    },
     "sidex15/susfs4ksu-module": {},
     "lsposed/lsposed.github.io": {},
     "evoker0/alwaysstrong": {
@@ -3723,7 +4655,11 @@
       "release_id": null,
       "valid": false
     },
-    "ir0nbyte/playintegrityfixdetector": {},
+    "ir0nbyte/playintegrityfixdetector": {
+      "checked": 1794740547,
+      "release_id": 443129606,
+      "valid": false
+    },
     "xiddoc/playintegrityalert": {},
     "1nikolas/play-integrity-checker-app": {
       "checked": 1794731814,
@@ -3731,7 +4667,11 @@
       "valid": false
     },
     "rabehx/securify": {},
-    "hddq/magisk-cromite-webview": {},
+    "hddq/magisk-cromite-webview": {
+      "checked": 1794740544,
+      "release_id": 389774838,
+      "valid": false
+    },
     "magisk-modules-alt-repo/disable-low-ram": {},
     "chickendrop89/hyperos-accessibility-fix": {
       "checked": 1794734562,
@@ -3751,7 +4691,23 @@
       "size": 23459
     },
     "mods-center/hyperos-security-center": {},
-    "insertx2k/multiuseruienabler": {},
+    "insertx2k/multiuseruienabler": {
+      "checked": 1794740547,
+      "release_id": 201288643,
+      "valid": true,
+      "prop": {
+        "id": "multiuseruienabler",
+        "name": "Multi User UI Enabler",
+        "version": "v1.0",
+        "versionCode": "1",
+        "author": "ziad_mrx",
+        "description": "A magisk module that tries to enable Multi User UI by systemlessly changing build.prop to enable it."
+      },
+      "zip": "https://github.com/InsertX2k/multiuseruienabler/releases/download/v1.0/multiuseruienabler.zip",
+      "zip_count": 1,
+      "timestamp": 1739999743,
+      "size": 2252
+    },
     "selfref/noogle-magisk": {},
     "jqssun/android-se-access": {},
     "magisk-modules-repo/twrp-keep": {},
@@ -3781,7 +4737,11 @@
     },
     "pixelupdater/pixelupdater": {},
     "zacharee/tweaker": {},
-    "itoseo/colorfeatureenhance": {},
+    "itoseo/colorfeatureenhance": {
+      "checked": 1794740547,
+      "release_id": 438175168,
+      "valid": false
+    },
     "xposed-modules-repo/com.luckyzyx.luckytool": {},
     "xposed-modules-repo/com.tlsu.opluscamerapro": {},
     "qjj7679/oplus-luncher-radiusoptimization": {},
@@ -3789,14 +4749,22 @@
     "servant1228/xposedfluidcloud": {},
     "rechronorain/hyperceiler": {},
     "robotxm/bettermiuiexpress": {},
-    "hchenx/clipboardlist": {},
+    "hchenx/clipboardlist": {
+      "checked": 1794740544,
+      "release_id": 234523558,
+      "valid": false
+    },
     "mods-center/coloros_control_center": {},
     "custombeta/fingerprint-cataloge": {
       "checked": 1794734564,
       "release_id": 348621291,
       "valid": false
     },
-    "howiehchen/xiaomihelper": {},
+    "howiehchen/xiaomihelper": {
+      "checked": 1794740545,
+      "release_id": 316387482,
+      "valid": false
+    },
     "ukriu/hyperunlocked": {},
     "yunzia/hyperstar": {},
     "monwf/customiuizer": {},
@@ -3820,7 +4788,23 @@
     "xposed-modules-repo/xyz.cirno.unfuckzui": {},
     "qwqawa64/zux-ztool": {},
     "symbuzzer/livebootmodule": {},
-    "john0n1/smbootfx": {},
+    "john0n1/smbootfx": {
+      "checked": 1794740549,
+      "release_id": 379138211,
+      "valid": true,
+      "prop": {
+        "id": "android_black_on_pink_boot_qmg",
+        "name": "Android Black on Pink SMbootFX",
+        "version": "3.1.0",
+        "versionCode": "310",
+        "author": "John0n1",
+        "description": "Android Black on Pink boot & shutdown animations for Samsung devices via Magisk overlay"
+      },
+      "zip": "https://github.com/John0n1/SMbootFX/releases/download/3.1.0/android-black-on-pink-bootfx-3.1.0-magisk.zip",
+      "zip_count": 40,
+      "timestamp": 1788049344,
+      "size": 3623164
+    },
     "magisk-modules-alt-repo/video-to-bootanimation": {},
     "samolego/canta": {},
     "sunilpaulmathew/de-bloater": {},
@@ -3873,7 +4857,23 @@
       "release_id": 376945348,
       "valid": false
     },
-    "j-hc/zygisk-detach": {},
+    "j-hc/zygisk-detach": {
+      "checked": 1794740547,
+      "release_id": 392564652,
+      "valid": true,
+      "prop": {
+        "id": "zygisk-detach",
+        "name": "zygisk-detach",
+        "version": "v1.24.0",
+        "versionCode": "35",
+        "author": "j-hc",
+        "description": "Detaches installed apps from Play Store"
+      },
+      "zip": "https://github.com/j-hc/zygisk-detach/releases/download/v1.24.0/zygisk-detach-v1.24.0.zip",
+      "zip_count": 1,
+      "timestamp": 1789936239,
+      "size": 371409
+    },
     "chenxiaolong/alterinstaller": {
       "checked": 1794734562,
       "release_id": 345567761,
@@ -3896,7 +4896,11 @@
     "tinyhai/banuninstall": {},
     "pixel-props/betterknowninstalled": {},
     "wxxsfxyzm/installerx-revived": {},
-    "hamza417/inure": {},
+    "hamza417/inure": {
+      "checked": 1794740544,
+      "release_id": 431958079,
+      "valid": false
+    },
     "chimioo/inxlocker": {
       "checked": 1794734562,
       "release_id": 416296076,
@@ -3909,7 +4913,11 @@
     },
     "neoapplications/neo-store": {},
     "smartpack/packagemanager": {},
-    "himanshujjp/playstoreselfupdateblocker": {},
+    "himanshujjp/playstoreselfupdateblocker": {
+      "checked": 1794740545,
+      "release_id": 247867433,
+      "valid": false
+    },
     "byemaxx/playversionspoofer": {
       "checked": 1794731824,
       "release_id": 356971633,
@@ -3921,7 +4929,23 @@
     "senliast/xposed-modules": {},
     "mirfatif/permissionmanagerx": {},
     "tornaco/thanox": {},
-    "infamousmick/infamick-script": {},
+    "infamousmick/infamick-script": {
+      "checked": 1794740547,
+      "release_id": 309369832,
+      "valid": true,
+      "prop": {
+        "id": "Infamick_script",
+        "name": "Infamick Script",
+        "version": "v3.3",
+        "versionCode": "202506121",
+        "author": "@Infamousmick",
+        "description": "A powerful system utility script for rooted Android devices"
+      },
+      "zip": "https://github.com/Infamousmick/Infamick-script/releases/download/v3.3/Infamick-script-v3.3_MAGISK.zip",
+      "zip_count": 1,
+      "timestamp": 1776260338,
+      "size": 23487
+    },
     "cioccarellia/androoster": {
       "checked": 1794734563,
       "release_id": 206236686,
@@ -3973,7 +4997,23 @@
     "llucs/speedcool-magisk-module": {},
     "kanaodnd/stellar-tweaks": {},
     "topnotchfreaks/tnf_tweaker": {},
-    "i-taylo/iunlockergl": {},
+    "i-taylo/iunlockergl": {
+      "checked": 1794740546,
+      "release_id": 273285264,
+      "valid": true,
+      "prop": {
+        "id": "Mjg2MjU1ODg0Mwo",
+        "name": "iUnlocker GLTool for android",
+        "version": "v1.1.5-r4",
+        "versionCode": "1001504",
+        "author": "Taylo@Github.com/i-taylo",
+        "description": "iUnlocker GLTool is a Magisk module designed to spoof GPU information, allowing users to modify GPU informations for unlocking graphics in games and testing."
+      },
+      "zip": "https://github.com/i-Taylo/iUnlockerGL/releases/download/v1.1.5-r4/iUnlocker-GLTool-for-android-v1.1.5-r4.zip",
+      "zip_count": 1,
+      "timestamp": 1767042940,
+      "size": 25969823
+    },
     "raajk20pro/kernelenhancer": {},
     "fatalcoder524/kernelflasher": {
       "checked": 1794734570,
@@ -4010,7 +5050,23 @@
     "weirdmidas/skysceneaddon": {},
     "rompelhd/swap-disabler": {},
     "yadavnikhil03/swapboost-pro": {},
-    "furlc/zram-module": {},
+    "furlc/zram-module": {
+      "checked": 1794740543,
+      "release_id": 222215093,
+      "valid": true,
+      "prop": {
+        "id": "ZRAM-Module",
+        "name": "zramの附加模块",
+        "version": "v1.3.0",
+        "versionCode": "130",
+        "author": "ShirkNeko, xiaoxiaow, FurLC",
+        "description": "为内核提供ZRAM算法支持，请勿卸载"
+      },
+      "zip": "https://github.com/FurLC/ZRAM-Module/releases/download/v1.3.0/ZRAM-Module-v1.3.0.zip",
+      "zip_count": 1,
+      "timestamp": 1748694202,
+      "size": 4187
+    },
     "drsexo/frosty": {
       "checked": 1794734568,
       "release_id": 441047767,
@@ -4201,8 +5257,16 @@
     "pass-with-high-score/blockads-android": {},
     "pantsufan/blockads": {},
     "vaz15k/cubic-adblock": {},
-    "hxreborn/discover-ads-filter": {},
-    "hujiayucc/fuck-ad": {},
+    "hxreborn/discover-ads-filter": {
+      "checked": 1794740546,
+      "release_id": 439549076,
+      "valid": false
+    },
+    "hujiayucc/fuck-ad": {
+      "checked": 1794740545,
+      "release_id": 389412237,
+      "valid": false
+    },
     "programminghoch10/magicalprotection": {},
     "pantsufan/magisk-ad-blocking-module": {},
     "lm060719/io.mo.mnblocker": {},
@@ -4259,7 +5323,11 @@
       "timestamp": 1748085097,
       "size": 1854
     },
-    "jhl337/oplus16_hidezoomwindow": {},
+    "jhl337/oplus16_hidezoomwindow": {
+      "checked": 1794740548,
+      "release_id": 275417585,
+      "valid": false
+    },
     "dorumrr/privacyflip": {
       "checked": 1794734567,
       "release_id": 426091548,
@@ -4274,7 +5342,23 @@
     },
     "katelynthestargazer/turnoffsensors-magisk": {},
     "lsposed/disableflagsecure": {},
-    "j-hc/flagsecurepatcher": {},
+    "j-hc/flagsecurepatcher": {
+      "checked": 1794740547,
+      "release_id": 253161948,
+      "valid": true,
+      "prop": {
+        "id": "flagsecurepatcher",
+        "name": "FlagSecurePatcher",
+        "version": "r17",
+        "versionCode": "17",
+        "author": "j-hc",
+        "description": "Prevent apps from blocking and listening to your screenshots"
+      },
+      "zip": "https://github.com/j-hc/FlagSecurePatcher/releases/download/r17/flag-secure-patcher-r17.zip",
+      "zip_count": 1,
+      "timestamp": 1759957329,
+      "size": 4653307
+    },
     "ys1231/movecertificate": {},
     "xposed-modules-repo/com.simo.ssl.killer": {},
     "leohearts/alternativeunlockxposed": {},
@@ -4284,8 +5368,16 @@
       "release_id": null,
       "valid": false
     },
-    "hxreborn/biometric-app-lock": {},
-    "hxreborn/biometric-bypass": {},
+    "hxreborn/biometric-app-lock": {
+      "checked": 1794740546,
+      "release_id": 393232812,
+      "valid": false
+    },
+    "hxreborn/biometric-bypass": {
+      "checked": 1794740546,
+      "release_id": 381249255,
+      "valid": false
+    },
     "99keshav99/capturesposed": {
       "checked": 1794731815,
       "release_id": 345994744,
@@ -4300,8 +5392,28 @@
       "valid": false
     },
     "zeltnamizake/drificrack": {},
-    "j-hc/ih8securelock": {},
-    "hang666/justtrustmepro": {},
+    "j-hc/ih8securelock": {
+      "checked": 1794740547,
+      "release_id": 416059406,
+      "valid": true,
+      "prop": {
+        "id": "ih8SecureLock",
+        "name": "ih8SecureLock",
+        "version": "v11",
+        "versionCode": "11",
+        "author": "j-hc",
+        "description": "Prevent apps from blocking and listening to your screenshots with Zygisk"
+      },
+      "zip": "https://github.com/j-hc/ih8SecureLock/releases/download/v11/ih8SecureLock-v11.zip",
+      "zip_count": 1,
+      "timestamp": 1792271285,
+      "size": 16181
+    },
+    "hang666/justtrustmepro": {
+      "checked": 1794740544,
+      "release_id": 377682611,
+      "valid": false
+    },
     "chickendrop89/oneshot-extended": {
       "checked": 1794734562,
       "release_id": null,
@@ -4309,7 +5421,11 @@
     },
     "khiqwq/pinguard": {},
     "shivamxd6/simple-flag-secure": {},
-    "iodn/tap-ducky": {},
+    "iodn/tap-ducky": {
+      "checked": 1794740547,
+      "release_id": 323803837,
+      "valid": false
+    },
     "seyud/device_faker": {},
     "sidex15/deviceidchanger": {},
     "pyshivam/geergit-discussion": {},
@@ -4332,7 +5448,11 @@
     },
     "oasisfeng/island": {},
     "rev4n1/gphotosunlimited": {},
-    "hxreborn/amznkiller": {},
+    "hxreborn/amznkiller": {
+      "checked": 1794740545,
+      "release_id": 419178600,
+      "valid": false
+    },
     "xposed-modules-repo/com.niki.breeno.openai": {},
     "lllucccian/deekseep": {},
     "crazyphil/digitales-amt-liberator": {
@@ -4345,7 +5465,11 @@
       "release_id": 252122116,
       "valid": false
     },
-    "fzer0x/dev.fzer0x.fucksolidexplorer": {},
+    "fzer0x/dev.fzer0x.fucksolidexplorer": {
+      "checked": 1794740543,
+      "release_id": 279348611,
+      "valid": false
+    },
     "eritpchy/fingerprintpay": {
       "checked": 1794734569,
       "release_id": 420207075,
@@ -4364,7 +5488,11 @@
       "size": 4597808
     },
     "mango0oo/g-news-control": {},
-    "hxreborn/gboard-material-expressive-black": {},
+    "hxreborn/gboard-material-expressive-black": {
+      "checked": 1794740546,
+      "release_id": 298123490,
+      "valid": false
+    },
     "chenyue404/gboardhook": {
       "checked": 1794734562,
       "release_id": 405259798,
@@ -4373,8 +5501,16 @@
     "mino260806/keyboardgpt": {},
     "nawafcode/keyflux": {},
     "niki914/agentic-nexus": {},
-    "h3nnes/nsg-tweaks": {},
-    "hxreborn/playstore-adblock": {},
+    "h3nnes/nsg-tweaks": {
+      "checked": 1794740544,
+      "release_id": 443556871,
+      "valid": false
+    },
+    "hxreborn/playstore-adblock": {
+      "checked": 1794740546,
+      "release_id": 444184765,
+      "valid": false
+    },
     "dertyp7214/rboardthememanagerv3": {
       "checked": 1794734566,
       "release_id": 275641957,
@@ -4395,7 +5531,11 @@
       "release_id": 269331238,
       "valid": false
     },
-    "hsskyboy/bbzq": {},
+    "hsskyboy/bbzq": {
+      "checked": 1794740545,
+      "release_id": 422759968,
+      "valid": false
+    },
     "c0c0b01/kettuxposed": {
       "checked": 1794731824,
       "release_id": 396846183,
@@ -4423,7 +5563,11 @@
       "valid": false
     },
     "luckypray/xautodaily": {},
-    "jkennethcarino/adobo": {},
+    "jkennethcarino/adobo": {
+      "checked": 1794740549,
+      "release_id": 423460464,
+      "valid": false
+    },
     "wchill/patcheddit": {},
     "xposed-modules-repo/com.tianqianguai.gramsieve": {},
     "shatyuka/killergram": {},
@@ -4451,7 +5595,11 @@
       "valid": false
     },
     "mingyueyixi/maskwechat": {},
-    "hdshare/wauxiliary_public": {},
+    "hdshare/wauxiliary_public": {
+      "checked": 1794740545,
+      "release_id": 401021306,
+      "valid": false
+    },
     "libingtong/wepadbridge": {},
     "xposed-modules-repo/com.skyhand.sinahelper": {},
     "dev4mod/waenhancer": {
@@ -4467,8 +5615,16 @@
       "valid": false
     },
     "xposed-modules-repo/one.dot.rex": {},
-    "jingmatrix/chromext": {},
-    "jigurolgc/bettervia": {},
+    "jingmatrix/chromext": {
+      "checked": 1794740548,
+      "release_id": 421521204,
+      "valid": false
+    },
+    "jigurolgc/bettervia": {
+      "checked": 1794740548,
+      "release_id": 445194099,
+      "valid": false
+    },
     "soclear/edgex": {},
     "achyuki/folddevtools": {
       "checked": 1794731817,
@@ -4485,7 +5641,11 @@
     "magisk-modules-alt-repo/oneplus-8series-9r-camera-unlocker": {},
     "marsgao/io.github.marsgao.speed": {},
     "xposed-modules-repo/io.github.wzhy.xaudiocapture": {},
-    "hazbu/xcam": {},
+    "hazbu/xcam": {
+      "checked": 1794740544,
+      "release_id": 413406387,
+      "valid": false
+    },
     "lsposed/corepatch": {},
     "ahmedmani/pairipfix": {
       "checked": 1794731817,
@@ -4493,21 +5653,37 @@
       "valid": false
     },
     "mods-center/apk-protection-patch": {},
-    "jigurolgc/fuckgooglelicense": {},
+    "jigurolgc/fuckgooglelicense": {
+      "checked": 1794740548,
+      "release_id": 371215833,
+      "valid": false
+    },
     "rushiimachine/xspoofsignatures": {},
     "1hakr/anexplorer": {
       "checked": 1794731814,
       "release_id": null,
       "valid": false
     },
-    "fossifyorg/file-manager": {},
+    "fossifyorg/file-manager": {
+      "checked": 1794740542,
+      "release_id": 437680991,
+      "valid": false
+    },
     "zhanghai/materialfiles": {},
     "xposed-modules-repo/com.github.dan.nostoragerestrict": {},
-    "hxreborn/remember-my-sort": {},
+    "hxreborn/remember-my-sort": {
+      "checked": 1794740546,
+      "release_id": 405107987,
+      "valid": false
+    },
     "xcaptain09/sortify": {},
     "xayahsususu/android-databackup": {},
     "neoapplications/neo-backup": {},
-    "hddq/restoid": {},
+    "hddq/restoid": {
+      "checked": 1794740544,
+      "release_id": 443875430,
+      "valid": false
+    },
     "d4rken-org/sdmaid-se": {
       "checked": 1794734564,
       "release_id": 417604438,
@@ -4520,7 +5696,23 @@
       "release_id": 323888935,
       "valid": false
     },
-    "flycom-e/clearbox": {},
+    "flycom-e/clearbox": {
+      "checked": 1794740542,
+      "release_id": 411715996,
+      "valid": true,
+      "prop": {
+        "id": "wipe_cache",
+        "name": "ClearBox",
+        "version": "V5.2.1",
+        "versionCode": "101",
+        "author": "FlyCome",
+        "description": "A Cleaner & More..."
+      },
+      "zip": "https://github.com/FLYCOM-E/ClearBox/releases/download/101-V5.2.1/ClearBox-V5.2.1-101.zip",
+      "zip_count": 1,
+      "timestamp": 1791898747,
+      "size": 3287499
+    },
     "rhythmcache/partition-backup": {},
     "theblazehen/sd_flasher": {},
     "enginex0/usbmassstorage": {
@@ -4563,12 +5755,20 @@
       "size": 32038310
     },
     "kaerushi/monetify": {},
-    "goooler/lawnchairrelease": {},
+    "goooler/lawnchairrelease": {
+      "checked": 1794740544,
+      "release_id": 438033624,
+      "valid": false
+    },
     "sdex/activitymanager": {},
     "wstxda/google-shortcuts-launcher": {},
     "mods-center/hyperos-app-vault": {},
     "mods-center/hyperos-launcher": {},
-    "hddq/launcher3-quicklaunch": {},
+    "hddq/launcher3-quicklaunch": {
+      "checked": 1794740544,
+      "release_id": 352619089,
+      "valid": false
+    },
     "minionguyjpro/novainstaller": {},
     "wizpizz/onepluspluslauncher": {},
     "mahmud0808/pixellauncherenhanced": {},
@@ -4576,9 +5776,17 @@
     "unknuw/hide-navbar-keyboard": {},
     "tomakino/lyricon": {},
     "tomakino/lyricprovider": {},
-    "ianzb/minavbarimmerse": {},
+    "ianzb/minavbarimmerse": {
+      "checked": 1794740546,
+      "release_id": 429871330,
+      "valid": false
+    },
     "magisk-modules-alt-repo/hidenavbar": {},
-    "hxreborn/qs-boundless-tiles": {},
+    "hxreborn/qs-boundless-tiles": {
+      "checked": 1794740546,
+      "release_id": 383264495,
+      "valid": false
+    },
     "young-lord/hiderecent": {},
     "elilei/multifingergesturex": {
       "checked": 1794734568,
@@ -4586,10 +5794,22 @@
       "valid": false
     },
     "tanujnotes/ogesture": {},
-    "itoseo/opluskey": {},
+    "itoseo/opluskey": {
+      "checked": 1794740547,
+      "release_id": 247891249,
+      "valid": false
+    },
     "tymwitko/recents": {},
-    "hxreborn/three-finger-swipe": {},
-    "hepolise/volumekeytrackcontrolmodule": {},
+    "hxreborn/three-finger-swipe": {
+      "checked": 1794740546,
+      "release_id": 418879168,
+      "valid": false
+    },
+    "hepolise/volumekeytrackcontrolmodule": {
+      "checked": 1794740545,
+      "release_id": 374894081,
+      "valid": false
+    },
     "farfromrefug/volumescroll": {
       "checked": 1794734570,
       "release_id": 253421966,
@@ -4601,10 +5821,30 @@
       "valid": false
     },
     "ripperhybrid/fontcraft": {},
-    "jingmatrix/fontloader": {},
+    "jingmatrix/fontloader": {
+      "checked": 1794740548,
+      "release_id": 234549158,
+      "valid": true,
+      "prop": {
+        "id": "font-loader",
+        "name": "Font Loader",
+        "version": "1.1.0",
+        "versionCode": "3",
+        "author": "JingMatrix, Rikka",
+        "description": "Preload font modules for Android 12. Do not enable useless DenyList and use hide module for hiding ROOT instead!"
+      },
+      "zip": "https://github.com/JingMatrix/FontLoader/releases/download/v1.1.0/FontLoader-release.zip",
+      "zip_count": 2,
+      "timestamp": 1753275213,
+      "size": 27600
+    },
     "mars-wave/jetbrains-font-magisk-module": {},
     "n4bi10p/ios-emoji": {},
-    "jingmatrix/magiskfonts": {},
+    "jingmatrix/magiskfonts": {
+      "checked": 1794740548,
+      "release_id": null,
+      "valid": false
+    },
     "keinta15/magisk-ios-emoji": {},
     "dethbyte64/magisk-minecraft-font": {
       "checked": 1794734566,
@@ -4654,7 +5894,11 @@
       "valid": false
     },
     "xposed-modules-repo/io.github.howard20181.notificationiconfix": {},
-    "hxreborn/punch-hole-download-progress": {},
+    "hxreborn/punch-hole-download-progress": {
+      "checked": 1794740546,
+      "release_id": 419494465,
+      "valid": false
+    },
     "domi04151309/alwayson": {
       "checked": 1794734567,
       "release_id": 217792998,
@@ -4704,7 +5948,23 @@
     },
     "likelikeslike/viperfx_re": {},
     "reiryuki/audio-modification-library-ryuki-mod-magisk-module": {},
-    "james34602/jamesdspmanager": {},
+    "james34602/jamesdspmanager": {
+      "checked": 1794740548,
+      "release_id": 132377566,
+      "valid": true,
+      "prop": {
+        "id": "ainur_jamesdsp",
+        "name": "JamesDSP Manager",
+        "version": "v6.0 (8-8-2023/26-11-2023)",
+        "versionCode": "97",
+        "author": "james34602, zackptg5, ahrion",
+        "description": "JamesDSPManager is a reformed audio engine based of AOSP and OmniROM DSPManager source code with enhanced features and tuning"
+      },
+      "zip": "https://github.com/james34602/JamesDSPManager/releases/download/28Nov2023/jdsp_v6.0.zip",
+      "zip_count": 1,
+      "timestamp": 1701522243,
+      "size": 25983796
+    },
     "briclyaz/nlsound_module_qcom": {
       "checked": 1794731824,
       "release_id": 397758968,
@@ -4777,7 +6037,11 @@
       "valid": false
     },
     "luferos/forcedns_magisk-kernelsu": {},
-    "ingozenz/personaldnsfilter": {},
+    "ingozenz/personaldnsfilter": {
+      "checked": 1794740547,
+      "release_id": 416368629,
+      "valid": false
+    },
     "desktopecho/pi-hole-for-android": {
       "checked": 1794734566,
       "release_id": 203367325,
@@ -4831,11 +6095,19 @@
       "release_id": 384049723,
       "valid": false
     },
-    "gitmetaio/surfing": {},
+    "gitmetaio/surfing": {
+      "checked": 1794740543,
+      "release_id": 445663634,
+      "valid": false
+    },
     "okhsunrog/vpnhide": {},
     "mygod/vpnhotspot": {},
     "sevcator/zapret-magisk": {},
-    "game-over-op/zdt-d": {},
+    "game-over-op/zdt-d": {
+      "checked": 1794740543,
+      "release_id": 410415704,
+      "valid": false
+    },
     "eventlowop/zerotier-magisk": {
       "checked": 1794734570,
       "release_id": 211743732,
@@ -4890,7 +6162,23 @@
     "reindex-ot/nothing-euicc": {},
     "ravindu644/virtualap": {},
     "khh-vu/wifi-password-manager": {},
-    "googlers-repo/wpd": {},
+    "googlers-repo/wpd": {
+      "checked": 1794740544,
+      "release_id": 409041068,
+      "valid": true,
+      "prop": {
+        "id": "mmrl_wpd",
+        "name": "WiFi Password Viewer for MMRL",
+        "version": "7.0.0",
+        "versionCode": "700",
+        "author": "Der_Googler, veez21 @ xda-developers",
+        "description": "View all your WiFi passwords and bluetooth devices inside MMRL"
+      },
+      "zip": "https://github.com/Googlers-Repo/wpd/releases/download/v7.0.0/mmrl_wpd-7.0.0.zip",
+      "zip_count": 1,
+      "timestamp": 1791647077,
+      "size": 293353
+    },
     "mlm-games/wifi-exporter": {},
     "c-f0x/konamiku": {
       "checked": 1794731824,
@@ -4908,15 +6196,27 @@
       "release_id": 445406142,
       "valid": false
     },
-    "jqssun/android-gps-setter": {},
+    "jqssun/android-gps-setter": {
+      "checked": 1794740549,
+      "release_id": 203744373,
+      "valid": false
+    },
     "auag0/hidemocklocation": {
       "checked": 1794731820,
       "release_id": 321060222,
       "valid": false
     },
     "sparr-sherrya/hlocation-release": {},
-    "gilbsgilbs/locationindicatorwhitelist": {},
-    "fzer0x/locationjoystick": {},
+    "gilbsgilbs/locationindicatorwhitelist": {
+      "checked": 1794740543,
+      "release_id": 97738102,
+      "valid": false
+    },
+    "fzer0x/locationjoystick": {
+      "checked": 1794740543,
+      "release_id": null,
+      "valid": false
+    },
     "xposed-modules-repo/com.huamax": {},
     "noobexon1/xposedfakelocation": {},
     "nakixii/magisk_asoulopt": {},
@@ -4956,7 +6256,11 @@
       "release_id": 327717052,
       "valid": false
     },
-    "ishu43642/termux-root-recovery-tool": {},
+    "ishu43642/termux-root-recovery-tool": {
+      "checked": 1794740547,
+      "release_id": null,
+      "valid": false
+    },
     "rompelhd/termuxrootmods": {},
     "evdenis/adb_root": {
       "checked": 1794734569,
@@ -4983,13 +6287,37 @@
       "valid": false
     },
     "tytydraco/ladb": {},
-    "hxreborn/log-catcher": {},
+    "hxreborn/log-catcher": {
+      "checked": 1794740546,
+      "release_id": 297086946,
+      "valid": true,
+      "prop": {
+        "id": "hxr_logcat",
+        "name": "Log Catcher",
+        "version": "v23.2",
+        "versionCode": "2302",
+        "author": "MlgmXyysd, Howard20181, hxreborn",
+        "description": "Captures logcat and kernel messages during boot, archived as timestamped tarballs."
+      },
+      "zip": "https://github.com/hxreborn/Log-Catcher/releases/download/v23.2/hxr_logcat.zip",
+      "zip_count": 1,
+      "timestamp": 1773532288,
+      "size": 49851
+    },
     "mrh929/magisk-wifiadb": {},
     "smooth-e/wireless-adb-switch": {},
     "thedjchi/shizuku": {},
     "thecybersandeep/androidspect": {},
-    "jingyu233/bluetoothhook": {},
-    "iamr0s/dhizuku-api-xposed": {},
+    "jingyu233/bluetoothhook": {
+      "checked": 1794740548,
+      "release_id": 272212001,
+      "valid": false
+    },
+    "iamr0s/dhizuku-api-xposed": {
+      "checked": 1794740546,
+      "release_id": 428800505,
+      "valid": false
+    },
     "xposed-modules-repo/com.strawing.duckdevicepolicy": {},
     "backslashxx/ksu_toolkit": {
       "checked": 1794731821,
@@ -5014,11 +6342,23 @@
       "timestamp": 1772904261,
       "size": 3466
     },
-    "hmndev-tech/shevery": {},
+    "hmndev-tech/shevery": {
+      "checked": 1794740545,
+      "release_id": 440592043,
+      "valid": false
+    },
     "rikkaapps/shizuku": {},
-    "hansobored/zygisk-loader": {},
+    "hansobored/zygisk-loader": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "ravindu644/droidspaces-oss": {},
-    "hansobored/auto-linux": {},
+    "hansobored/auto-linux": {
+      "checked": 1794740544,
+      "release_id": null,
+      "valid": false
+    },
     "cipherswami/boot-nethunter": {
       "checked": 1794734563,
       "release_id": 342072936,
@@ -5058,7 +6398,11 @@
       "release_id": 373601979,
       "valid": false
     },
-    "hxreborn/cleanshare": {},
+    "hxreborn/cleanshare": {
+      "checked": 1794740546,
+      "release_id": 419462381,
+      "valid": false
+    },
     "kaduvert/aclipboardmanager": {},
     "yureitzk/nophotopickerapi": {},
     "chenxiaolong/bcr": {

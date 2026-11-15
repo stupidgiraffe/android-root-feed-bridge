@@ -7,6 +7,20 @@
     "visibility": 1
   },
   {
+    "name": "AKTune (Android Kernel Tweaker)",
+    "description": "Adaptive kernel auto-tuner for CPU/GPU/scheduler/memory/I-O with capability detection and baseline restore.",
+    "author": "NSLabs (KaijinLab)",
+    "repoUrl": "https://github.com/iodn/android-kernel-tweaker",
+    "visibility": 1
+  },
+  {
+    "name": "Alioth Loud",
+    "description": "[probe-verified for aliothin / HyperOS 1.0.10 CN] Volume ceiling removal for POCO F3. Layer 3 flattens the volume curve at boot (+12.7 dB at half volume, measured); layers 4a/4b add WCD headset gain and Cirrus CS35L41 amp gain, both off until you opt in. Patches live vendor configs at boot instead of shipping static files, so it survives HyperOS up",
+    "author": "f3",
+    "repoUrl": "https://github.com/hrishi2861/alioth-loud",
+    "visibility": 1
+  },
+  {
     "name": "altdb",
     "description": "Alternative adb server over local network",
     "author": "Nullptr",
@@ -63,6 +77,13 @@
     "visibility": 1
   },
   {
+    "name": "AutoCreateAppStorageDir",
+    "description": "自动补全缺失的 /storage/emulated/0/Android/data/<pkg>/{files,cache} 与 Android/obb 目录，修复APP假\"存储空间不足\"报错。监听应用安装事件自动创建。v2.0 新增 LSPosed 管理界面，支持手动检测和修复。",
+    "author": "GJR787878",
+    "repoUrl": "https://github.com/gjr787878/auto-create-app-storage",
+    "visibility": 1
+  },
+  {
     "name": "AY Lightning Pro",
     "description": "AY Lightning Pro v12 | Ultimate Black & Gold | Capability-aware controls | Reversible changes | OEM thermal protection preserved",
     "author": "Eng/ Ahmed Yasir",
@@ -91,6 +112,13 @@
     "visibility": 1
   },
   {
+    "name": "Bootloop Protection",
+    "description": "Automatically disables Magisk modules after repeated failed boots.",
+    "author": "CJ7xGAMING",
+    "repoUrl": "https://github.com/hafiezanarman/bootloop-protection-v1.1",
+    "visibility": 1
+  },
+  {
     "name": "box4magisk",
     "description": "Use sing-box, clash, v2ray, xray tunnel proxy on Android devices.",
     "author": "CHIZI-0618",
@@ -109,6 +137,13 @@
     "description": "Improved version with reliable screen detection and faster charging control.",
     "author": "Abhishek (LinuxRootHackers)",
     "repoUrl": "https://github.com/AbhishekTor55/charging-bypass-magisk",
+    "visibility": 1
+  },
+  {
+    "name": "ClearBox",
+    "description": "A Cleaner & More...",
+    "author": "FlyCome",
+    "repoUrl": "https://github.com/FLYCOM-E/ClearBox",
     "visibility": 1
   },
   {
@@ -168,6 +203,20 @@
     "visibility": 1
   },
   {
+    "name": "DNSCrypt Proxy (Smart Filter)",
+    "description": "Smart DNS filtering with DNSCrypt. Local resolver on 127.0.0.1:5354, per-profile HaGeZi blocklists (Light→Ultimate), bilingual WebUI (EN/AR), JSON metrics Dashboard, installable PWA, 10-layer user-data preservation with transactional upgrades and recovery mode. v1.6.0 fixes WebUI timezone display and updates PWA assets. Zero telemetry.",
+    "author": "gasciljh",
+    "repoUrl": "https://github.com/gasciljh/dnscrypt-proxy-webui",
+    "visibility": 1
+  },
+  {
+    "name": "DNSResolve",
+    "description": "Menyediakan /etc/resolv.conf (Google DNS 8.8.8.8/8.8.4.4/1.1.1.1) via overlay /system/etc supaya Go binary di Termux (crane, gh, dll) bisa resolve DNS. Tidak mengubah DNS Android normal.",
+    "author": "GegeDevs",
+    "repoUrl": "https://github.com/gegedevs/dnsresolve-termux",
+    "visibility": 1
+  },
+  {
     "name": "Doze Disabler",
     "description": "Disable Doze on boot, ensuring timely notifications. Expect slightly increased battery usage.",
     "author": "draumaz",
@@ -214,6 +263,20 @@
     "description": "Safely nudge charging current with thermal guard.",
     "author": "DEV",
     "repoUrl": "https://github.com/Dev97633/Fastcharge-next",
+    "visibility": 1
+  },
+  {
+    "name": "FlagSecurePatcher",
+    "description": "Prevent apps from blocking and listening to your screenshots",
+    "author": "j-hc",
+    "repoUrl": "https://github.com/j-hc/FlagSecurePatcher",
+    "visibility": 1
+  },
+  {
+    "name": "FlClash VPN Fix (HyperOS appop)",
+    "description": "修复 HyperOS / MIUI 上 FlClash 无法创建 VPN 的问题：开机自动把 com.follow.clash 的 FOREGROUND_SERVICE_SPECIAL_USE appop 设回 allow，并在被系统改回 ignore 时自动纠正。该 appop 被置为 ignore 会导致 VpnService 以 specialUse 类型启动前台服务时抛 SecurityException 并被立即销毁，tun0 无法建立、流量不被接管。仅调整 appop，不挂载、不修改任何系统文件。",
+    "author": "DSH",
+    "repoUrl": "https://github.com/fouc3-mirror/hyperos-flclash-vpn-fix",
     "visibility": 1
   },
   {
@@ -329,6 +392,13 @@
     "visibility": 1
   },
   {
+    "name": "ih8SecureLock",
+    "description": "Prevent apps from blocking and listening to your screenshots with Zygisk",
+    "author": "j-hc",
+    "repoUrl": "https://github.com/j-hc/ih8SecureLock",
+    "visibility": 1
+  },
+  {
     "name": "ImageCopyHide",
     "description": "自动复制DCIM文件夹中的文件到/sdcard/wot/cptp目录中并隐藏文件,含开关与日志功能",
     "author": "openError",
@@ -343,10 +413,38 @@
     "visibility": 1
   },
   {
-    "name": "Kernel Driver SELinux & Node Fixer",
-    "description": "Fixes Android 12/13/14 SELinux restrictions that block ueventd from creating /dev character device nodes for kernel drivers. Works with Magisk, KernelSU, and APatch.",
-    "author": "bmjubairdadu",
-    "repoUrl": "https://github.com/bmjubairdadu/kernel-loader",
+    "name": "Infamick Script",
+    "description": "A powerful system utility script for rooted Android devices",
+    "author": "@Infamousmick",
+    "repoUrl": "https://github.com/Infamousmick/Infamick-script",
+    "visibility": 1
+  },
+  {
+    "name": "INFINIX Bootanimation",
+    "description": "Replaces stock bootanimation with INFINIX loading animation (1080x1080 @60fps). Compatible with Magisk, KernelSU, and APatch.",
+    "author": "hiruko-puppetmaster",
+    "repoUrl": "https://github.com/hiruko-puppetmaster/infinix-loading-bootanimation",
+    "visibility": 1
+  },
+  {
+    "name": "IOS Fonts",
+    "description": "System-wide Arabic and English IOS fonts for Android",
+    "author": "Jevc",
+    "repoUrl": "https://github.com/jevcje0-gif/arabic-and-english-ios-fonts-magisk-module",
+    "visibility": 1
+  },
+  {
+    "name": "iUnlocker GLTool for android",
+    "description": "iUnlocker GLTool is a Magisk module designed to spoof GPU information, allowing users to modify GPU informations for unlocking graphics in games and testing.",
+    "author": "Taylo@Github.com/i-taylo",
+    "repoUrl": "https://github.com/i-Taylo/iUnlockerGL",
+    "visibility": 1
+  },
+  {
+    "name": "JamesDSP Manager",
+    "description": "JamesDSPManager is a reformed audio engine based of AOSP and OmniROM DSPManager source code with enhanced features and tuning",
+    "author": "james34602, zackptg5, ahrion",
+    "repoUrl": "https://github.com/james34602/JamesDSPManager",
     "visibility": 1
   },
   {
@@ -364,10 +462,24 @@
     "visibility": 1
   },
   {
+    "name": "LiveBoot Enhanced",
+    "description": "LiveBoot Enhanced boot overlay with scripted messages, text colors, image layers and custom fonts",
+    "author": "idklelpigeon",
+    "repoUrl": "https://github.com/idklelpigeon/liveboot-enhanced",
+    "visibility": 1
+  },
+  {
     "name": "lkm4ctr Kernel Module",
     "description": "Auto-load lkm4ctr.ko enables Docker and containers on all currently released arm64 Android GKI KMIs; no custom kernel flash.",
     "author": "cyanmint",
     "repoUrl": "https://github.com/cyanmint/lkm4ctr",
+    "visibility": 1
+  },
+  {
+    "name": "Log Catcher",
+    "description": "Captures logcat and kernel messages during boot, archived as timestamped tarballs.",
+    "author": "MlgmXyysd, Howard20181, hxreborn",
+    "repoUrl": "https://github.com/hxreborn/Log-Catcher",
     "visibility": 1
   },
   {
@@ -385,10 +497,24 @@
     "visibility": 1
   },
   {
+    "name": "MiclawAPI",
+    "description": "Exposes Miclaw as an OpenAI-compatible HTTP API on localhost:9120",
+    "author": "MiclawAPI",
+    "repoUrl": "https://github.com/guocheng1378/miclaw-api",
+    "visibility": 1
+  },
+  {
     "name": "MinecraftFont",
     "description": "Systemless Minecraft Font",
     "author": "DethByte64",
     "repoUrl": "https://github.com/DethByte64/Magisk-Minecraft-Font",
+    "visibility": 1
+  },
+  {
+    "name": "Miracast Sink (System Priv-App)",
+    "description": "Windows Miracast support, full WFD capability exchange, configurable settings, dual-mode P2P (GO intent 0/8)",
+    "author": "foxlost",
+    "repoUrl": "https://github.com/foxlost/universal-miracast-sink",
     "visibility": 1
   },
   {
@@ -410,6 +536,13 @@
     "description": "Globally mounted modules via OverlayFS.",
     "author": "xx, KOWX712",
     "repoUrl": "https://github.com/backslashxx/mountify",
+    "visibility": 1
+  },
+  {
+    "name": "Multi User UI Enabler",
+    "description": "A magisk module that tries to enable Multi User UI by systemlessly changing build.prop to enable it.",
+    "author": "ziad_mrx",
+    "repoUrl": "https://github.com/InsertX2k/multiuseruienabler",
     "visibility": 1
   },
   {
@@ -595,10 +728,24 @@
     "visibility": 1
   },
   {
+    "name": "Tailscale Root",
+    "description": "Standalone root tailscaled with WebUI, one-tap Action toggle, and svm_guard watchdog. Coexists with sing-box eBPF. Config: /data/adb/tailscale/env",
+    "author": "Lxns",
+    "repoUrl": "https://github.com/joinchang/tailscale-root",
+    "visibility": 1
+  },
+  {
     "name": "TCP Optimiser",
     "description": "TCP Optimisations & update tcp_cong_algo based on interface",
     "author": "fatalcoder524",
     "repoUrl": "https://github.com/fatalcoder524/TCP_Optimiser_Module",
+    "visibility": 1
+  },
+  {
+    "name": "Termux Root Toolkit for KernelSU",
+    "description": "Android 16 / KernelSU-safe Termux root toolbox with Linux tool packs, diagnostics, WebUI, snapshots, process/app inspection, and no global shell hijack.",
+    "author": "Rompelhd (upstream) + KSU Toolkit contributors",
+    "repoUrl": "https://github.com/jojobear691/termuxrootmods-ksu-toolkit",
     "visibility": 1
   },
   {
@@ -651,10 +798,24 @@
     "visibility": 1
   },
   {
+    "name": "Wide Color Gamut (Fold5)",
+    "description": "Enables framework Wide Color Gamut on Galaxy Z Fold5 (SM-F946B). Clears the persist.sys.sf.native_mode=1 kill-switch that Samsung's WindowManagerService/ColorDisplayService use to suppress WCG, defends it with a boot watchdog, and declares the android.hardware.wide_color_gamut feature. Panel + SurfaceFlinger already support Display-P3.",
+    "author": "Root-My-Galaxy",
+    "repoUrl": "https://github.com/hyperramzey/wcg_f946b",
+    "visibility": 1
+  },
+  {
     "name": "WiFi 7 Lab Full Control",
     "description": "驱动:待读取 | 系统:待读取 | 请求:US | TX:N/A [未验证]",
     "author": "E3N",
     "repoUrl": "https://github.com/e3n-glotm/wifi7-lab-safe",
+    "visibility": 1
+  },
+  {
+    "name": "WiFi Password Viewer for MMRL",
+    "description": "View all your WiFi passwords and bluetooth devices inside MMRL",
+    "author": "Der_Googler, veez21 @ xda-developers",
+    "repoUrl": "https://github.com/Googlers-Repo/wpd",
     "visibility": 1
   },
   {
@@ -679,6 +840,13 @@
     "visibility": 1
   },
   {
+    "name": "zramの附加模块",
+    "description": "为内核提供ZRAM算法支持，请勿卸载",
+    "author": "ShirkNeko, xiaoxiaow, FurLC",
+    "repoUrl": "https://github.com/FurLC/ZRAM-Module",
+    "visibility": 1
+  },
+  {
     "name": "Zygisk - 指纹支付",
     "description": "让微信、支付宝、淘宝、QQ、云闪付支持指纹支付 Fingerprint pay for WeChat, Alipay, Taobao, QQ and UnionPay.",
     "author": "Jason Eric",
@@ -690,6 +858,13 @@
     "description": "Standalone implementation of Zygisk.",
     "author": "LSPosed Developers",
     "repoUrl": "https://github.com/Dr-TSNG/ZygiskNext",
+    "visibility": 1
+  },
+  {
+    "name": "zygisk-detach",
+    "description": "Detaches installed apps from Play Store",
+    "author": "j-hc",
+    "repoUrl": "https://github.com/j-hc/zygisk-detach",
     "visibility": 1
   },
   {
