@@ -302,6 +302,29 @@ def federate(root: Path, base_mmrl: list, base_ksu: list, request_json, now: int
     except (FileNotFoundError, ValueError):
         pass
     mmrl_urls, ksu_sources, notes = gather_feeds(config, request_json)
+
+    try:
+        from source_discovery import discover
+    except ModuleNotFoundError:
+        from scripts.source_discovery import discover
+    search_state_path = root / "source-discovery-state.json"
+    try:
+        previous_search = json.loads(search_state_path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        previous_search = {}
+    new_sources, search_state, search_report = discover(
+        previous_search,
+        lambda url, limit, timeout: request_json(url),
+        now,
+    )
+    for source in new_sources:
+        if source["kind"] == "mmrl" and source["url"].endswith("/json/modules.json"):
+            mmrl_urls.append(source["url"][:-len("json/modules.json")])
+        elif source["kind"] == "ksunext" and source["url"].endswith("/modules.json"):
+            ksu_sources.append({"name": source["repository"], "url": source["url"]})
+    mmrl_urls = sorted(set(canonical_base(url) for url in mmrl_urls))
+    ksu_sources = list({s["url"]: s for s in ksu_sources}.values())
+
     states, report = fetch_all(mmrl_urls, ksu_sources, request_json, old, now)
     if not states:
         raise RuntimeError("No usable federation sources; preserving existing outputs")
@@ -317,5 +340,7 @@ def federate(root: Path, base_mmrl: list, base_ksu: list, request_json, now: int
         "ksu_external_selected": sum(o != "catalog" for o in audit["ksu_origins"].values()),
         "duplicate_ids_resolved": len(audit["module_conflicts"]),
         "directory_notes": notes,
+        "independent_discovery": search_report,
     })
-    return mmrl, ksu, {"schema_version": 1, "generated": now, "sources": states}, audit, report
+    return (mmrl, ksu, {"schema_version": 1, "generated": now, "sources": states},
+            audit, report, search_state)
