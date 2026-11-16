@@ -3,19 +3,19 @@
   "source": "https://github.com/krishna3163/best-root-apps-for-android",
   "upstream_website": "https://krishna3163.github.io/best-root-apps-for-android/",
   "summary": {
-    "total_entries": 1867,
-    "readme_entries": 1822,
+    "total_entries": 1888,
+    "readme_entries": 1843,
     "morphe_entries": 45,
     "tracker_extras": 0,
-    "unique_github_repositories": 1757,
+    "unique_github_repositories": 1778,
     "by_kind": {
       "android_app": 36,
-      "android_tool": 652,
+      "android_tool": 657,
       "lsposed": 194,
-      "lsposed_or_zygisk": 285,
+      "lsposed_or_zygisk": 290,
       "patched_apk": 45,
-      "root_module_candidate": 467,
-      "shizuku": 188
+      "root_module_candidate": 476,
+      "shizuku": 190
     },
     "by_provider": {
       "adguard.com": 1,
@@ -23,7 +23,7 @@
       "blokada.org": 1,
       "codeberg.org": 3,
       "gitea.angry.im": 1,
-      "github.com": 1804,
+      "github.com": 1825,
       "gitlab.com": 6,
       "joycondroid.gitbook.io": 1,
       "lsposed.zip": 1,
@@ -37,14 +37,14 @@
       "revanced.app": 1,
       "xdaforums.com": 2
     },
-    "repository_candidates": 1757,
-    "checked_repositories": 1757,
+    "repository_candidates": 1778,
+    "checked_repositories": 1778,
     "pending_repositories": 0,
-    "valid_module_repositories": 414,
-    "mmrl_modules": 852,
-    "kernelsu_next_modules": 380,
-    "catalog_mmrl_modules": 400,
-    "catalog_kernelsu_next_modules": 364,
+    "valid_module_repositories": 422,
+    "mmrl_modules": 858,
+    "kernelsu_next_modules": 388,
+    "catalog_mmrl_modules": 406,
+    "catalog_kernelsu_next_modules": 372,
     "federated_mmrl_sources": 36,
     "federated_ksu_sources": 2
   },
@@ -23724,6 +23724,405 @@
       "repository": "loficore/wg-user"
     },
     {
+      "id": "d53bcc92b14863f8b0",
+      "name": "ADBEnable",
+      "url": "https://github.com/wanyoou/adbenable",
+      "description": "ADB Enable — Magisk module: headless ADB on unlocked Android, no key by default, USB re-enum, MIUI bypass, scrcpy-friendly",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wanyoou/adbenable"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "wanyoou/adbenable"
+    },
+    {
+      "id": "31e2ea24861a12642c",
+      "name": "AliLoginCompat",
+      "url": "https://github.com/lightjunction/alilogincompat",
+      "description": "Experimental LSPosed / Vector WUA compatibility module for selected Taobao and Idlefish security libraries",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lightjunction/alilogincompat"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "lightjunction/alilogincompat"
+    },
+    {
+      "id": "654354f18c9212d252",
+      "name": "AndBorg",
+      "url": "https://github.com/flmueller/andborg",
+      "description": "Automatische Borg-1.x-Backups für Android – borg und ssh in der App, Shizuku optional",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/flmueller/andborg"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "flmueller/andborg"
+    },
+    {
+      "id": "88940dd77f16b72d62",
+      "name": "behi-kernel-sm-a145p",
+      "url": "https://github.com/behrooz140/behi-kernel-sm-a145p",
+      "description": "behi kernel — custom Linux 6.6 GKI kernel for Samsung Galaxy A14 4G (SM-A145P / a14m, Helio G80). KernelSU built in, Droidspaces-ready containers (namespaces, CAKE, MACVLAN, IPv6 NAT), SquashFS/NFS/CIFS, boot-image-only releases with a CI ABI gate that keeps stock /vendor modules loading.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/behrooz140/behi-kernel-sm-a145p"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "behrooz140/behi-kernel-sm-a145p"
+    },
+    {
+      "id": "f8acaa64de474f6b9a",
+      "name": "dockflow",
+      "url": "https://github.com/paulfremfrem-cmyk/dockflow",
+      "description": "DockFlow — an open-source Android LSPosed module for floating social-app navigation and Reels scrubbing.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/paulfremfrem-cmyk/dockflow"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "paulfremfrem-cmyk/dockflow"
+    },
+    {
+      "id": "809b0f29250f25b093",
+      "name": "droidspaces-lkm",
+      "url": "https://github.com/misaka5202/droidspaces-lkm",
+      "description": "Prebuilt LKM modules that bring Droidspaces container support to stock Android GKI kernels — no kernel reflash. Multi-KMI arm64 builds.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/misaka5202/droidspaces-lkm"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "misaka5202/droidspaces-lkm"
+    },
+    {
+      "id": "455c9aaab758275924",
+      "name": "dsh-go-shell-policy",
+      "url": "https://github.com/sharl210/dsh-go-shell-policy",
+      "description": "LSPosed module for configurable DSH Go Android Shell confirmation: ask, allow, or prompt for dangerous commands.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sharl210/dsh-go-shell-policy"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "sharl210/dsh-go-shell-policy"
+    },
+    {
+      "id": "62e02635f9c5205d95",
+      "name": "FackWatch",
+      "url": "https://github.com/wcx888/fackwatch",
+      "description": "让小米手表也能收到「双开微信（手机分身）」的消息提醒 / LSPosed module for Xiaomi Watch",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wcx888/fackwatch"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "wcx888/fackwatch"
+    },
+    {
+      "id": "a58c33fb27d84740f9",
+      "name": "Galaxy-Tab-S10-FE-root-temporal",
+      "url": "https://github.com/carlengoss/galaxy-tab-s10-fe-root-temporal",
+      "description": "Root temporal por arranque para Samsung Galaxy Tab S10 FE (SM-X520, X520XXSBCZI2): exploit GhostLock + KernelSU y app lanzadora con Shizuku",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/carlengoss/galaxy-tab-s10-fe-root-temporal"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "carlengoss/galaxy-tab-s10-fe-root-temporal"
+    },
+    {
+      "id": "50836ff066a7535685",
+      "name": "HyperBatteryInfo",
+      "url": "https://github.com/hinzdc/hyperbatteryinfo",
+      "description": "Advanced Battery Telemetry, Dual Health Analytics, Thermal Profiling & Charging Intelligence for Xiaomi HyperOS (Xposed/LSPosed Module)",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hinzdc/hyperbatteryinfo"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "hinzdc/hyperbatteryinfo"
+    },
+    {
+      "id": "069e9e69563fbd8161",
+      "name": "HyperOS-launcher-mod-lite",
+      "url": "https://github.com/mods-center/hyperos-launcher-mod-lite",
+      "description": "Lightweight build of the HyperOS Launcher Mod for low-end devices: faster app-open animations, custom grids, hide apps, stacked recents, widget provider choice. Magisk / KernelSU module.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mods-center/hyperos-launcher-mod-lite"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mods-center/hyperos-launcher-mod-lite"
+    },
+    {
+      "id": "816c4ff96e6215be04",
+      "name": "iOS-Control-Center-HyperOS",
+      "url": "https://github.com/mods-center/ios-control-center-hyperos",
+      "description": "Replaces the HyperOS Control Center with an iOS-style one: jelly animations, glass blur, iOS volume panel, media and connectivity modules, slide-to power menu. Magisk / KernelSU module.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mods-center/ios-control-center-hyperos"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mods-center/ios-control-center-hyperos"
+    },
+    {
+      "id": "152bc14d3aafcbac3e",
+      "name": "just-the-apps",
+      "url": "https://github.com/shivam01anand/just-the-apps",
+      "description": "Make your Hisense Android TV move smoothly, drop the ads and open straight to your apps, with your IMDb watchlist on the home screen. Set up by pasting one prompt into an AI assistant. No root; every change can be undone.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shivam01anand/just-the-apps"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "shivam01anand/just-the-apps"
+    },
+    {
+      "id": "73ffceed7b26cb97f9",
+      "name": "Lawnchair_Mod",
+      "url": "https://github.com/mods-center/lawnchair_mod",
+      "description": "[Legacy · MIUI] Modded Lawnchair launcher for MIUI and AOSP (Android 11/12) with the LawnExtension settings app and a themed-icon pack switch. Magisk module.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mods-center/lawnchair_mod"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mods-center/lawnchair_mod"
+    },
+    {
+      "id": "7381a08755672e8390",
+      "name": "Miui_Launcher_Mod",
+      "url": "https://github.com/mods-center/miui_launcher_mod",
+      "description": "[Legacy · MIUI] Modded MIUI 13–14 launcher based on the CN build: new UI and extra options. Can be built from source. Magisk module.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mods-center/miui_launcher_mod"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mods-center/miui_launcher_mod"
+    },
+    {
+      "id": "cbd58b8b4f1b8dd343",
+      "name": "Miui_Plugin",
+      "url": "https://github.com/mods-center/miui_plugin",
+      "description": "[Legacy · MIUI] Modded MIUI 13–14 SystemUI plugin: AOSP-style control center, new tiles, AOSP brightness bar, Monet colours. Android 12/13. Magisk module.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mods-center/miui_plugin"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mods-center/miui_plugin"
+    },
+    {
+      "id": "57d35961b20ed43bfa",
+      "name": "Monet-Picker",
+      "url": "https://github.com/mods-center/monet-picker",
+      "description": "Choose Monet (Material You) theme colours yourself on Android 12 to 16. Ported from AOSP (DerpFest), works on OriginOS, ColorOS and other OEM ROMs. Magisk / KernelSU module.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mods-center/monet-picker"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mods-center/monet-picker"
+    },
+    {
+      "id": "db51f8762879290048",
+      "name": "MouseManager",
+      "url": "https://github.com/jaba-script/mousemanager",
+      "description": "Android app for global mouse button remapping without root access.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jaba-script/mousemanager"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "jaba-script/mousemanager"
+    },
+    {
+      "id": "f50a9d185396db4716",
+      "name": "Package-Installer",
+      "url": "https://github.com/mods-center/package-installer",
+      "description": "Redesigned package installer for any ROM (AOSP, HyperOS, ColorOS, …): shows more app info, installs .apks/.apkm, Monet colours, app updates. No Unknown Sources permission or Mi account needed. Android 17 supported. Magisk / KernelSU module.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mods-center/package-installer"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mods-center/package-installer"
+    },
+    {
+      "id": "61b55acb4fa0a19e90",
+      "name": "Reboot-to-CoreELEC",
+      "url": "https://github.com/jamal2362/reboot-to-coreelec",
+      "description": "A small Android / Android TV app that reboots an Amlogic box from Android into CoreELEC with one click. It sends the reboot command to the device's own ADB daemon, so no root is required.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jamal2362/reboot-to-coreelec"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "jamal2362/reboot-to-coreelec"
+    },
+    {
+      "id": "b691ca748936740606",
+      "name": "rootatlas",
+      "url": "https://github.com/stupidgiraffe/rootatlas",
+      "description": "RootAtlas — free, open and automatically updated unified Android root module index for MMRL and KernelSU Next.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/stupidgiraffe/rootatlas"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "stupidgiraffe/rootatlas"
+    },
+    {
       "id": "cc52f8fa35dcda6edd",
       "name": "⭐ KernelSU",
       "url": "https://github.com/tiann/KernelSU",
@@ -36853,5 +37252,5 @@
       "build_type": "release"
     }
   ],
-  "updated": 1794756954
+  "updated": 1794821620
 }

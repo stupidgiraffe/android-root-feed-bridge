@@ -5,7 +5,7 @@
   "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794756954.0
+    "timestamp": 1794821620.0
   },
   "modules": [
     {
@@ -49,26 +49,26 @@
     },
     {
       "id": "brene",
-      "name": ".BRENE - SuSFS",
-      "version": "v0.0.75",
-      "versionCode": 75,
+      "name": ".BRENE - SUSFS",
+      "version": "v0.0.76",
+      "versionCode": 76,
       "author": "rrr333nnn333, simonpunk, KOWX712",
-      "description": "KernelSU module with SuSFS support and more",
+      "description": "KernelSU module with SUSFS support and more",
       "homepage": "https://github.com/rrr333nnn333/BRENE",
-      "size": 121461,
+      "size": 122633,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1793582584.0,
+        "added": 1794777233.0,
         "source": "https://github.com/rrr333nnn333/BRENE"
       },
       "versions": [
         {
-          "version": "v0.0.75",
-          "versionCode": 75,
-          "zipUrl": "https://github.com/rrr333nnn333/BRENE/releases/download/v0.0.75/BRENE-v0.0.75.zip",
-          "timestamp": 1793582584.0,
-          "size": 121461
+          "version": "v0.0.76",
+          "versionCode": 76,
+          "zipUrl": "https://github.com/rrr333nnn333/BRENE/releases/download/v0.0.76/BRENE-v0.0.76.zip",
+          "timestamp": 1794777233.0,
+          "size": 122633
         }
       ]
     },
@@ -681,6 +681,31 @@
       ],
       "size": 5300707,
       "stars": 670
+    },
+    {
+      "id": "adb_enable",
+      "name": "ADB Enable",
+      "version": "v1.0.0",
+      "versionCode": 10000,
+      "author": "ADBEnable",
+      "description": "坏屏/无触摸救机：刷入重启即开 USB 调试并免授权（无需公钥），修复 USB 枚举与 adbd，绕过 MIUI 安全限制，跳过开机向导。",
+      "homepage": "https://github.com/wanyoou/adbenable",
+      "size": 17781,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794756053.0,
+        "source": "https://github.com/wanyoou/adbenable"
+      },
+      "versions": [
+        {
+          "version": "v1.0.0",
+          "versionCode": 10000,
+          "zipUrl": "https://github.com/wanyoou/ADBEnable/releases/download/v1.0.0/ADB-Enable-v1.0.0.zip",
+          "timestamp": 1794756053.0,
+          "size": 17781
+        }
+      ]
     },
     {
       "id": "adb_tcpip_boot",
@@ -1855,7 +1880,7 @@
         {
           "versionCode": 8,
           "version": "v1.3.4",
-          "timestamp": 1794717479.0,
+          "timestamp": 1794781542.0,
           "zipUrl": "https://github.com/Magisk-Modules-Alt-Repo/abootloop/releases/download/v1.3.4/abootloop.zip",
           "size": 5011,
           "changelog": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/abootloop/main/changelog.md"
@@ -2806,7 +2831,7 @@
       ],
       "permissions": [],
       "size": 4027697,
-      "stars": 38
+      "stars": 39
     },
     {
       "id": "Aurora",
@@ -3016,25 +3041,25 @@
     {
       "id": "bg_keepalive",
       "name": "Background Keepalive",
-      "version": "v3.3",
-      "versionCode": 7,
+      "version": "v3.5",
+      "versionCode": 9,
       "author": "michaelqiu",
       "description": "Keeps user-selected apps background-exempt and restores dropped accessibility bindings every 3 minutes, without rebinding services that are already healthy.",
       "homepage": "https://github.com/cpufreestyle/bg-keepalive",
-      "size": 2736,
+      "size": 3020,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794569259.0,
+        "added": 1794793252.0,
         "source": "https://github.com/cpufreestyle/bg-keepalive"
       },
       "versions": [
         {
-          "version": "v3.3",
-          "versionCode": 7,
-          "zipUrl": "https://github.com/cpufreestyle/bg-keepalive/releases/download/v3.3/bg_keepalive-v3.3.zip",
-          "timestamp": 1794569259.0,
-          "size": 2736
+          "version": "v3.5",
+          "versionCode": 9,
+          "zipUrl": "https://github.com/cpufreestyle/bg-keepalive/releases/download/v3.5/bg_keepalive-v3.5.zip",
+          "timestamp": 1794793252.0,
+          "size": 3020
         }
       ]
     },
@@ -3308,7 +3333,7 @@
         {
           "versionCode": 199424,
           "version": "3.11",
-          "timestamp": 1794717479.0,
+          "timestamp": 1794781542.0,
           "zipUrl": "https://github.com/chenxiaolong/BCR/releases/download/v3.11/BCR-3.11-release.zip",
           "size": 2787358,
           "changelog": "https://github.com/chenxiaolong/BCR/raw/v3.11/app/magisk/updates/release/changelog.txt"
@@ -3640,25 +3665,25 @@
     {
       "id": "SH_Blocker",
       "name": "BlockADs",
-      "version": "v3.83",
+      "version": "v2.75",
       "versionCode": 7,
       "author": "Kninja",
       "description": "🔥️ Say Goodbye To Ads Forever",
-      "homepage": "https://github.com/pantsufan/Magisk-Ad-Blocking-Module",
-      "size": 932268,
+      "homepage": "https://github.com/pantsufan/BlockAds",
+      "size": 538508,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1793544524.0,
-        "source": "https://github.com/pantsufan/Magisk-Ad-Blocking-Module"
+        "added": 1794756377.0,
+        "source": "https://github.com/pantsufan/BlockAds"
       },
       "versions": [
         {
-          "version": "v3.83",
+          "version": "v2.75",
           "versionCode": 7,
-          "zipUrl": "https://github.com/pantsufan/Magisk-Ad-Blocking-Module/releases/download/v3.83/BlockAds-v3.83.zip",
-          "timestamp": 1793544524.0,
-          "size": 932268
+          "zipUrl": "https://github.com/pantsufan/BlockAds/releases/download/v2.75/BlockAds-v2.75.zip",
+          "timestamp": 1794756377.0,
+          "size": 538508
         }
       ]
     },
@@ -3926,7 +3951,7 @@
         "Tools"
       ],
       "size": 9918926,
-      "stars": 1177
+      "stars": 1176
     },
     {
       "id": "Bye-Blur",
@@ -4700,50 +4725,50 @@
     {
       "id": "wipe_cache",
       "name": "ClearBox",
-      "version": "V5.2.1",
-      "versionCode": 101,
+      "version": "V5.2.2",
+      "versionCode": 102,
       "author": "FlyCome",
       "description": "A Cleaner & More...",
       "homepage": "https://github.com/FLYCOM-E/ClearBox",
-      "size": 3287499,
+      "size": 3283835,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1791898747.0,
+        "added": 1794790380.0,
         "source": "https://github.com/FLYCOM-E/ClearBox"
       },
       "versions": [
         {
-          "version": "V5.2.1",
-          "versionCode": 101,
-          "zipUrl": "https://github.com/FLYCOM-E/ClearBox/releases/download/101-V5.2.1/ClearBox-V5.2.1-101.zip",
-          "timestamp": 1791898747.0,
-          "size": 3287499
+          "version": "V5.2.2",
+          "versionCode": 102,
+          "zipUrl": "https://github.com/FLYCOM-E/ClearBox/releases/download/102-V5.2.2/ClearBox-V5.2.2-102.zip",
+          "timestamp": 1794790380.0,
+          "size": 3283835
         }
       ]
     },
     {
       "id": "cliproxyapi",
       "name": "CLIProxyAPI",
-      "version": "v8.0.72",
-      "versionCode": 800007200,
+      "version": "v8.0.74",
+      "versionCode": 800007400,
       "author": "tsaQB",
       "description": "CLIProxyAPI boot service for Android.",
       "homepage": "https://github.com/as-tsaqib/cliproxyapi-module",
-      "size": 28164957,
+      "size": 28530433,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794717948.0,
+        "added": 1794804196.0,
         "source": "https://github.com/as-tsaqib/cliproxyapi-module"
       },
       "versions": [
         {
-          "version": "v8.0.72",
-          "versionCode": 800007200,
-          "zipUrl": "https://github.com/tsaQB/cliproxyapi-android/releases/download/v8.0.72/cliproxyapi-magisk.zip",
-          "timestamp": 1794717948.0,
-          "size": 28164957
+          "version": "v8.0.74",
+          "versionCode": 800007400,
+          "zipUrl": "https://github.com/tsaQB/cliproxyapi-android/releases/download/v8.0.74/cliproxyapi-magisk.zip",
+          "timestamp": 1794804196.0,
+          "size": 28530433
         }
       ]
     },
@@ -5297,25 +5322,25 @@
     {
       "id": "COPG-VD",
       "name": "COPG-VD",
-      "version": "v6.11-vd",
-      "versionCode": 61100,
+      "version": "v6.13-vd",
+      "versionCode": 61300,
       "author": "fork by VD171",
       "description": "Spoof your device.",
       "homepage": "https://github.com/VD171/COPG-VD",
-      "size": 599062,
+      "size": 676571,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794363698.0,
+        "added": 1794783899.0,
         "source": "https://github.com/VD171/COPG-VD"
       },
       "versions": [
         {
-          "version": "v6.11-vd",
-          "versionCode": 61100,
-          "zipUrl": "https://github.com/VD171/COPG-VD/releases/download/v6.11-vd/COPG-VD-v6.11-vd.zip",
-          "timestamp": 1794363698.0,
-          "size": 599062
+          "version": "v6.13-vd",
+          "versionCode": 61300,
+          "zipUrl": "https://github.com/VD171/COPG-VD/releases/download/v6.13-vd/COPG-VD-v6.13-vd.zip",
+          "timestamp": 1794783899.0,
+          "size": 676571
         }
       ]
     },
@@ -6314,7 +6339,7 @@
       ],
       "permissions": [],
       "size": 928204,
-      "stars": 898
+      "stars": 900
     },
     {
       "id": "deviceidchanger",
@@ -7991,25 +8016,25 @@
     {
       "id": "falcon_integrity_fix",
       "name": "FALCON INTEGRITY FIX",
-      "version": "v3.30",
-      "versionCode": 139,
+      "version": "v3.32",
+      "versionCode": 141,
       "author": "ABUFARID | Telegram:@falcon_kernel",
       "description": "Play Integrity fix for Magisk / KernelSU / KernelSU Next / APatch. TrickyStore OSS keystore engine, PlayIntegrityFork fingerprint spoofing, bundled keybox (exp: 25-11-2026), app hiding, keybox status notifications and the FALCON TRICKY Web UI. Android 10-17.",
       "homepage": "https://github.com/ahmed2111x/falcon_integrity_fix",
-      "size": 4934829,
+      "size": 4934836,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794590903.0,
+        "added": 1794794071.0,
         "source": "https://github.com/ahmed2111x/falcon_integrity_fix"
       },
       "versions": [
         {
-          "version": "v3.30",
-          "versionCode": 139,
-          "zipUrl": "https://github.com/AHMED2111X/falcon_integrity_fix/releases/download/v3.30.2/FALCONINTEGITY_FIX_V3.30.zip",
-          "timestamp": 1794590903.0,
-          "size": 4934829
+          "version": "v3.32",
+          "versionCode": 141,
+          "zipUrl": "https://github.com/AHMED2111X/falcon_integrity_fix/releases/download/v3.32/FALCONINTEGITY_FIX_V3.32.zip",
+          "timestamp": 1794794071.0,
+          "size": 4934836
         }
       ]
     },
@@ -10466,7 +10491,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 484
+      "stars": 485
     },
     {
       "id": "hybrid_mount",
@@ -11553,6 +11578,31 @@
       ]
     },
     {
+      "id": "ios_plugin_mod",
+      "name": "iOS27 Control Center Redesigned",
+      "version": "v1.1",
+      "versionCode": 4,
+      "author": "🅺🅰🆂🅷🅸",
+      "description": "Join our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+      "homepage": "https://github.com/mods-center/ios-control-center-hyperos",
+      "size": 34760877,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794548449.0,
+        "source": "https://github.com/mods-center/ios-control-center-hyperos"
+      },
+      "versions": [
+        {
+          "version": "v1.1",
+          "versionCode": 4,
+          "zipUrl": "https://github.com/Mods-Center/iOS-Control-Center-HyperOS/releases/download/V1.1/iOS27_plugin_mod_v1.1%40kashis_cringey_stuffs.zip",
+          "timestamp": 1794548449.0,
+          "size": 34760877
+        }
+      ]
+    },
+    {
       "id": "ipset_arm64",
       "name": "ipset (arm64)",
       "version": "v7.24-r15",
@@ -12407,6 +12457,31 @@
           "zipUrl": "https://github.com/nikakvo/lan-cloak-arm64/releases/download/v1.0-r1/lan-cloak-arm64-v1.0-r1.zip",
           "timestamp": 1793562526.0,
           "size": 703126
+        }
+      ]
+    },
+    {
+      "id": "lawnchair_launcher_mod",
+      "name": "Lawnchair 12 Mod",
+      "version": "12.0.0 Dev (#690)",
+      "versionCode": 1,
+      "author": "🅺🅰🆂🅷🅸",
+      "description": "Thanks to Lawnchair team,Teamfiles and various developers of themed icons whose apps are used in this mod.",
+      "homepage": "https://github.com/mods-center/lawnchair_mod",
+      "size": 82700839,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1675979638.0,
+        "source": "https://github.com/mods-center/lawnchair_mod"
+      },
+      "versions": [
+        {
+          "version": "12.0.0 Dev (#690)",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/Mods-Center/Lawnchair_Mod/releases/download/version-12/Lawnchair_Mod%40kashis_cringey_stuffs.zip",
+          "timestamp": 1675979638.0,
+          "size": 82700839
         }
       ]
     },
@@ -13845,7 +13920,7 @@
         {
           "versionCode": 17260301,
           "version": "17.26.3-1",
-          "timestamp": 1794717479.0,
+          "timestamp": 1794781542.0,
           "zipUrl": "https://github.com/ViRb3/magisk-frida/releases/download/17.26.3-1/MagiskFrida-17.26.3-1.zip",
           "size": 146764687,
           "changelog": "https://raw.githubusercontent.com/ViRb3/magisk-frida/master/CHANGELOG.md"
@@ -14287,7 +14362,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 67
+      "stars": 72
     },
     {
       "id": "micfix_speaker_tx_earpiece",
@@ -14746,6 +14821,31 @@
       ]
     },
     {
+      "id": "miui_plugin_mod",
+      "name": "MIUI Aosp Plugin by Mods Center",
+      "version": "v3.250623",
+      "versionCode": 40,
+      "author": "🅺🅰🆂🅷🅸",
+      "description": "Credits: UserXP, alixan95r, naokoshoto.",
+      "homepage": "https://github.com/mods-center/miui_plugin",
+      "size": 9217017,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1687955365.0,
+        "source": "https://github.com/mods-center/miui_plugin"
+      },
+      "versions": [
+        {
+          "version": "v3.250623",
+          "versionCode": 40,
+          "zipUrl": "https://github.com/Mods-Center/Miui_Plugin/releases/download/version-14.2/v3Miui_AospPlugin_Mod%40kashis_cringey_stuffs.zip",
+          "timestamp": 1687955365.0,
+          "size": 9217017
+        }
+      ]
+    },
+    {
       "id": "MIUI-Debloater-Stage1",
       "name": "MIUI Debloater Stage1",
       "author": "Ali Beyaz (avalibeyaz.com/github)",
@@ -14958,6 +15058,31 @@
           "zipUrl": "https://github.com/Mods-Center/HyperOS-Theme-Manager/releases/download/V7/HyperOS_ThemeManagerV7%40kashis_cringey_stuffs.zip",
           "timestamp": 1790422151.0,
           "size": 60123971
+        }
+      ]
+    },
+    {
+      "id": "monet_color_picker",
+      "name": "Monet Picker V2",
+      "version": "v2",
+      "versionCode": 3,
+      "author": "🅺🅰🆂🅷🅸",
+      "description": "Change monet color accent to the one that you want.Join our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+      "homepage": "https://github.com/mods-center/monet-picker",
+      "size": 41252749,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1762346851.0,
+        "source": "https://github.com/mods-center/monet-picker"
+      },
+      "versions": [
+        {
+          "version": "v2",
+          "versionCode": 3,
+          "zipUrl": "https://github.com/Mods-Center/Monet-Picker/releases/download/V2.1/MonetPickerV2.1%40kashis_cringey_stuffs.zip",
+          "timestamp": 1762346851.0,
+          "size": 41252749
         }
       ]
     },
@@ -15607,7 +15732,7 @@
         {
           "versionCode": 54,
           "version": "v1.2",
-          "timestamp": 1794717479.0,
+          "timestamp": 1794781542.0,
           "zipUrl": "https://github.com/Rem01Gaming/net-switch/releases/download/1.2/net-switch-1.2-54-64b5764-release.zip",
           "size": 18560,
           "changelog": "https://raw.githubusercontent.com/Rem01Gaming/net-switch/main/changelog.md"
@@ -15688,25 +15813,50 @@
     {
       "id": "netproxy_xray",
       "name": "NetProxy Xray",
-      "version": "v7.7.0",
-      "versionCode": 609,
+      "version": "v7.7.1",
+      "versionCode": 610,
       "author": "LLP2333 & Fanju",
       "description": "基于 Xray-core 的 Android 透明代理工具",
       "homepage": "https://github.com/llp2333/netproxy-xtls-kernelsu",
-      "size": 18734923,
+      "size": 18946062,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794530383.0,
+        "added": 1794813713.0,
         "source": "https://github.com/llp2333/netproxy-xtls-kernelsu"
       },
       "versions": [
         {
-          "version": "v7.7.0",
-          "versionCode": 609,
-          "zipUrl": "https://github.com/LLP2333/NetProxy-XTLS-KernelSU/releases/download/V7.7.0/NetProxy_v7.7.0_609.zip",
-          "timestamp": 1794530383.0,
-          "size": 18734923
+          "version": "v7.7.1",
+          "versionCode": 610,
+          "zipUrl": "https://github.com/LLP2333/NetProxy-XTLS-KernelSU/releases/download/V7.7.1/NetProxy_v7.7.1_610.zip",
+          "timestamp": 1794813713.0,
+          "size": 18946062
+        }
+      ]
+    },
+    {
+      "id": "newui_package_installer",
+      "name": "NewUI Package Installer V3 for Aosp/MIUI/HyperOS",
+      "version": "3.0",
+      "versionCode": 4,
+      "author": "🅺🅰🆂🅷🅸",
+      "description": "Join channel for more stuffs",
+      "homepage": "https://github.com/mods-center/package-installer",
+      "size": 5415158,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1792812802.0,
+        "source": "https://github.com/mods-center/package-installer"
+      },
+      "versions": [
+        {
+          "version": "3.0",
+          "versionCode": 4,
+          "zipUrl": "https://github.com/Mods-Center/Package-Installer/releases/download/V3/New_UI_Package_InstallerV3%40kashis_cringey_stuffs.zip",
+          "timestamp": 1792812802.0,
+          "size": 5415158
         }
       ]
     },
@@ -17618,7 +17768,7 @@
         "mmrl.permission.DEXS"
       ],
       "size": 347894,
-      "stars": 4682
+      "stars": 4688
     },
     {
       "id": "playintegrityfork",
@@ -19886,7 +20036,7 @@
         "magisk.permission.ZYGISK"
       ],
       "size": 4979675,
-      "stars": 25503
+      "stars": 25508
     },
     {
       "id": "font_collection_sharetech",
@@ -21082,25 +21232,25 @@
     {
       "id": "sub-store-runsv",
       "name": "Sub-Store (runsv)",
-      "version": "2.44.14-r3.8294c361aae7",
-      "versionCode": 216882947,
+      "version": "2.44.15-r3.237ce0ef9591",
+      "versionCode": 216969170,
       "author": "sorubedo(github)",
       "description": "Sub-Store frontend and backend in merged mode, with Android Node.js LTS. Requires runsvdir-magisk. No http-meta.",
       "homepage": "https://github.com/sorubedo/sub-store-magisk-runsv",
-      "size": 38039429,
+      "size": 38040548,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794719770.0,
+        "added": 1794805994.0,
         "source": "https://github.com/sorubedo/sub-store-magisk-runsv"
       },
       "versions": [
         {
-          "version": "2.44.14-r3.8294c361aae7",
-          "versionCode": 216882947,
-          "zipUrl": "https://github.com/sorubedo/sub-store-magisk-runsv/releases/download/v2.44.14-r3.8294c361aae7/sub-store-runsv-2.44.14-r3.8294c361aae7-arm64-v8a.zip",
-          "timestamp": 1794719770.0,
-          "size": 38039429
+          "version": "2.44.15-r3.237ce0ef9591",
+          "versionCode": 216969170,
+          "zipUrl": "https://github.com/sorubedo/sub-store-magisk-runsv/releases/download/v2.44.15-r3.237ce0ef9591/sub-store-runsv-2.44.15-r3.237ce0ef9591-arm64-v8a.zip",
+          "timestamp": 1794805994.0,
+          "size": 38040548
         }
       ]
     },
@@ -21334,7 +21484,7 @@
       ],
       "permissions": [],
       "size": 30505,
-      "stars": 5
+      "stars": 6
     },
     {
       "id": "susfs_lkm_x64",
@@ -23143,25 +23293,25 @@
     {
       "id": "mihomo_tproxy",
       "name": "TunClash 内核",
-      "version": "v1.3.0",
-      "versionCode": 13,
+      "version": "v1.3.1",
+      "versionCode": 14,
       "author": "TunClash",
       "description": "Root 级 mihomo 透明代理（TUN 全局接管，不占用 VPN 入口）。内置 WebUI，可脱离 App 独立使用；配合 TunClash App 体验更佳。",
       "homepage": "https://github.com/de4869/tunclash",
-      "size": 27467132,
+      "size": 27470959,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1792939486.0,
+        "added": 1794759048.0,
         "source": "https://github.com/de4869/tunclash"
       },
       "versions": [
         {
-          "version": "v1.3.0",
-          "versionCode": 13,
-          "zipUrl": "https://github.com/De4869/tunclash/releases/download/v1.3.0/TunClash-Module-v1.3.0.zip",
-          "timestamp": 1792939486.0,
-          "size": 27467132
+          "version": "v1.3.1",
+          "versionCode": 14,
+          "zipUrl": "https://github.com/De4869/tunclash/releases/download/v1.3.1/TunClash-Module-v1.3.1.zip",
+          "timestamp": 1794759048.0,
+          "size": 27470959
         }
       ]
     },
@@ -24043,7 +24193,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 2587648,
-      "stars": 14
+      "stars": 16
     },
     {
       "id": "vdgoogle",
@@ -24073,30 +24223,30 @@
         "mmrl.permission.WEBUI_CONFIG"
       ],
       "size": 2372375,
-      "stars": 142
+      "stars": 143
     },
     {
       "id": "vdbackup",
       "name": "VDBackup",
-      "version": "v1.07",
-      "versionCode": 10700,
+      "version": "v1.08",
+      "versionCode": 10800,
       "author": "VD171",
       "description": "Full app and data backup & restore.",
       "homepage": "https://github.com/vd171/vd-backup",
-      "size": 49628589,
+      "size": 51095243,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794541736.0,
+        "added": 1794763989.0,
         "source": "https://github.com/vd171/vd-backup"
       },
       "versions": [
         {
-          "version": "v1.07",
-          "versionCode": 10700,
-          "zipUrl": "https://github.com/VD171/VD-Backup/releases/download/v1.07/VD-Backup-v1.07-universal-lite.zip",
-          "timestamp": 1794541736.0,
-          "size": 49628589
+          "version": "v1.08",
+          "versionCode": 10800,
+          "zipUrl": "https://github.com/VD171/VD-Backup/releases/download/v1.08/VD-Backup-v1.08-universal-lite.zip",
+          "timestamp": 1794763989.0,
+          "size": 51095243
         }
       ]
     },
@@ -24154,7 +24304,7 @@
         {
           "versionCode": 3080,
           "version": "v2.2",
-          "timestamp": 1794717479.0,
+          "timestamp": 1794781542.0,
           "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/v2.2/Vector-v2.2-3080-Release.zip",
           "size": 9316843,
           "changelog": "https://raw.githubusercontent.com/JingMatrix/Vector/master/zygisk/changelog.md"
@@ -24739,7 +24889,7 @@
         "development"
       ],
       "permissions": [],
-      "stars": 793
+      "stars": 798
     },
     {
       "id": "webview_optimizer",
@@ -25780,7 +25930,7 @@
         {
           "versionCode": 164,
           "version": "v21.30.216 (patches 2.2.0.mpp)",
-          "timestamp": 1794717479.0,
+          "timestamp": 1794781542.0,
           "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/164/youtube-morphe-module-v21.30.216-all.zip",
           "size": 237034800,
           "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-extended/update/build.md"
@@ -25855,7 +26005,7 @@
         {
           "versionCode": 164,
           "version": "v9.30.53 (patches 2.2.0.mpp)",
-          "timestamp": 1794717479.0,
+          "timestamp": 1794781542.0,
           "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/164/youtube-music-morphe-module-v9.30.53-arm64-v8a.zip",
           "size": 69192690,
           "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-extended/update/build.md"
@@ -25949,7 +26099,7 @@
         {
           "versionCode": 310,
           "version": "3.1.0",
-          "timestamp": 1794717479.0,
+          "timestamp": 1794781542.0,
           "zipUrl": "https://github.com/Yurii0307/yurikey/releases/download/v3.1.0/Yurikey-v3.1.0.signed.zip",
           "changelog": "https://raw.githubusercontent.com/Yurii0307/yurikey/main/changelog.md"
         }
@@ -27056,7 +27206,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 5810459,
-      "stars": 11007
+      "stars": 11009
     },
     {
       "id": "zygiskfrida",
@@ -27485,25 +27635,25 @@
     {
       "id": "thermocharge",
       "name": "恒温充电 (ThermoCharge)",
-      "version": "v1.3.2",
-      "versionCode": 10302,
+      "version": "v1.3.5",
+      "versionCode": 10305,
       "author": "酷安@玖清雨",
       "description": "以电池温度为被控量、充电电流为控制量的恒温充电控制器。温度锁在目标值,充电功率随散热条件自动浮动。基于 mca votable 的 Min 聚合,永远不会比系统原有保护更激进。",
       "homepage": "https://github.com/luoyi0914/thermocharge",
-      "size": 56218,
+      "size": 58155,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794738943.0,
+        "added": 1794813241.0,
         "source": "https://github.com/luoyi0914/thermocharge"
       },
       "versions": [
         {
-          "version": "v1.3.2",
-          "versionCode": 10302,
-          "zipUrl": "https://github.com/luoyi0914/ThermoCharge/releases/download/v1.3.2/thermocharge-v1.3.2.zip",
-          "timestamp": 1794738943.0,
-          "size": 56218
+          "version": "v1.3.5",
+          "versionCode": 10305,
+          "zipUrl": "https://github.com/luoyi0914/ThermoCharge/releases/download/v1.3.5/thermocharge-v1.3.5.zip",
+          "timestamp": 1794813241.0,
+          "size": 58155
         }
       ]
     },

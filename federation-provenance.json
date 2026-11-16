@@ -20,6 +20,10 @@
       "kind": "catalog",
       "url": "https://github.com/raafi-abir/acc-automatic-cache-cleaner"
     },
+    "adb_enable": {
+      "kind": "catalog",
+      "url": "https://github.com/wanyoou/adbenable"
+    },
     "adb_tcpip_boot": {
       "kind": "catalog",
       "url": "https://github.com/nightmean/android-adb-over-tcp-at-boot"
@@ -202,7 +206,7 @@
     },
     "SH_Blocker": {
       "kind": "catalog",
-      "url": "https://github.com/pantsufan/Magisk-Ad-Blocking-Module"
+      "url": "https://github.com/pantsufan/BlockAds"
     },
     "bootanimation-module-ronux": {
       "kind": "catalog",
@@ -700,6 +704,10 @@
       "kind": "catalog",
       "url": "https://github.com/jevcje0-gif/arabic-and-english-ios-fonts-magisk-module"
     },
+    "ios_plugin_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/mods-center/ios-control-center-hyperos"
+    },
     "ipset_arm64": {
       "kind": "catalog",
       "url": "https://github.com/nikakvo/ipset-arm64"
@@ -751,6 +759,10 @@
     "lan-cloak": {
       "kind": "catalog",
       "url": "https://github.com/nikakvo/lan-cloak-arm64"
+    },
+    "lawnchair_launcher_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/mods-center/lawnchair_mod"
     },
     "lazarus_sepolicy": {
       "kind": "catalog",
@@ -872,6 +884,10 @@
       "kind": "catalog",
       "url": "https://github.com/bapirex/mitm-ca-system"
     },
+    "miui_plugin_mod": {
+      "kind": "catalog",
+      "url": "https://github.com/mods-center/miui_plugin"
+    },
     "MIUI_Font_Patch": {
       "kind": "catalog",
       "url": "https://github.com/nangongjing1/misans-module-for-magisk"
@@ -887,6 +903,10 @@
     "miui_theme_mod": {
       "kind": "catalog",
       "url": "https://github.com/Mods-Center/HyperOS-Theme-Manager"
+    },
+    "monet_color_picker": {
+      "kind": "catalog",
+      "url": "https://github.com/mods-center/monet-picker"
     },
     "moto_g15_raw": {
       "kind": "catalog",
@@ -923,6 +943,10 @@
     "netproxy_xray": {
       "kind": "catalog",
       "url": "https://github.com/llp2333/netproxy-xtls-kernelsu"
+    },
+    "newui_package_installer": {
+      "kind": "catalog",
+      "url": "https://github.com/mods-center/package-installer"
     },
     "NLSound": {
       "kind": "catalog",
@@ -3519,6 +3543,7 @@
     "netproxy": 1,
     "oh_my_keymint": 2,
     "ReSuSFS": 1,
+    "wipe_cache": 1,
     "zygisknextsu": 1,
     "zygisk_shamiko": 8,
     "gitmigrator": 2,
@@ -3578,6 +3603,7 @@
     "https://github.com/n4bi10p/ios-emoji": "catalog",
     "https://github.com/nakixii/magisk_asoulopt": "catalog",
     "https://github.com/raafi-abir/acc-automatic-cache-cleaner": "catalog",
+    "https://github.com/wanyoou/adbenable": "catalog",
     "https://github.com/nightmean/android-adb-over-tcp-at-boot": "catalog",
     "https://github.com/nalbe/shark8-adb-wifi-lan-persistent": "catalog",
     "https://github.com/evdenis/adb_root": "catalog",
@@ -3738,6 +3764,7 @@
     "https://github.com/hiruko-puppetmaster/infinix-loading-bootanimation": "catalog",
     "https://github.com/keinta15/magisk-ios-emoji": "catalog",
     "https://github.com/jevcje0-gif/arabic-and-english-ios-fonts-magisk-module": "catalog",
+    "https://github.com/mods-center/ios-control-center-hyperos": "catalog",
     "https://github.com/nikakvo/ipset-arm64": "catalog",
     "https://github.com/i-taylo/iunlockergl": "catalog",
     "https://github.com/james34602/jamesdspmanager": "catalog",
@@ -3750,6 +3777,7 @@
     "https://github.com/tbc0309/kpa-modules": "catalog",
     "https://github.com/kernelsu-next/kpatch-next-module": "catalog",
     "https://github.com/nikakvo/lan-cloak-arm64": "catalog",
+    "https://github.com/mods-center/lawnchair_mod": "catalog",
     "https://github.com/albatrossmicrosystems/lazarus-xposed": "catalog",
     "https://github.com/k3v1991/level3dns4magisk": "catalog",
     "https://github.com/makuro-arisaka/android17-lhdc-a2dp-universal": "catalog",
@@ -3777,10 +3805,14 @@
     "https://github.com/petittux1/mirafix": "catalog",
     "https://github.com/colorxi/mithermaltuner": "catalog",
     "https://github.com/bapirex/mitm-ca-system": "catalog",
+    "https://github.com/mods-center/miui_plugin": "catalog",
     "https://github.com/nangongjing1/misans-module-for-magisk": "catalog",
     "https://github.com/mods-center/hyperos-launcher": "catalog",
+    "https://github.com/mods-center/hyperos-launcher-mod-lite": "catalog",
+    "https://github.com/mods-center/miui_launcher_mod": "catalog",
     "https://github.com/mods-center/hyperos-security-center": "catalog",
     "https://github.com/mods-center/hyperos-theme-manager": "catalog",
+    "https://github.com/mods-center/monet-picker": "catalog",
     "https://github.com/rchrdariza/moto-g15-raw": "catalog",
     "https://github.com/backslashxx/mountify": "catalog",
     "https://github.com/ys1231/movecertificate": "catalog",
@@ -3789,6 +3821,7 @@
     "https://github.com/magisk-modules-alt-repo/hidenavbar": "catalog",
     "https://github.com/rem01gaming/net-switch": "catalog",
     "https://github.com/fanju6/netproxy-magisk": "catalog",
+    "https://github.com/mods-center/package-installer": "catalog",
     "https://github.com/briclyaz/nlsound_module_qcom": "catalog",
     "https://github.com/chandr1000/nm-compat-scanner": "catalog",
     "https://github.com/ymuuuu/noemulator": "catalog",

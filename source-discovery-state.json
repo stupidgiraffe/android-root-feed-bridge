@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": 1794756954,
+  "generated": 1794821620,
   "repositories": {
     "cabiamdos/my-mmrl-repository": {
       "kind": "mmrl",
@@ -359,6 +359,27 @@
       "repository": "Neternels/NetErnels-Modules",
       "last_error": "HTTPError",
       "checked": 1794754302
+    },
+    "nikhilkain/modex": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "NikhilKain/Modex",
+      "last_error": "HTTPError",
+      "checked": 1794821620
+    },
+    "skorpion96/kernelsu-apatch-manager-for-recovery-mode": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Skorpion96/KernelSU-APatch-Manager-for-Recovery-Mode",
+      "last_error": "HTTPError",
+      "checked": 1794821620
+    },
+    "cwifisb/ksurusda": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "CWIFISB/ksurusda",
+      "last_error": "HTTPError",
+      "checked": 1794821620
     }
   }
 }

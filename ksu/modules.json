@@ -1,7 +1,7 @@
 [
   {
-    "name": ".BRENE - SuSFS",
-    "description": "KernelSU module with SuSFS support and more",
+    "name": ".BRENE - SUSFS",
+    "description": "KernelSU module with SUSFS support and more",
     "author": "rrr333nnn333, simonpunk, KOWX712",
     "repoUrl": "https://github.com/rrr333nnn333/BRENE",
     "visibility": 1,
@@ -26,6 +26,13 @@
     "description": "Cache: calculating...",
     "author": "raafi-abir",
     "repoUrl": "https://github.com/raafi-abir/acc-automatic-cache-cleaner",
+    "visibility": 1
+  },
+  {
+    "name": "ADB Enable",
+    "description": "坏屏/无触摸救机：刷入重启即开 USB 调试并免授权（无需公钥），修复 USB 枚举与 adbd，绕过 MIUI 安全限制，跳过开机向导。",
+    "author": "ADBEnable",
+    "repoUrl": "https://github.com/wanyoou/adbenable",
     "visibility": 1
   },
   {
@@ -1187,6 +1194,13 @@
     "visibility": 1
   },
   {
+    "name": "iOS27 Control Center Redesigned",
+    "description": "Join our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/ios-control-center-hyperos",
+    "visibility": 1
+  },
+  {
     "name": "ipset (arm64)",
     "description": "IP-level blocklists (ipset + iptables/ip6tables) | installed",
     "author": "Tears Burn",
@@ -1278,6 +1292,13 @@
     "description": "Hides the phone on Wi-Fi networks: clean DHCP, no mDNS / SSDP / LLMNR announcements. Status: Init",
     "author": "Tears Burn",
     "repoUrl": "https://github.com/nikakvo/lan-cloak-arm64",
+    "visibility": 1
+  },
+  {
+    "name": "Lawnchair 12 Mod",
+    "description": "Thanks to Lawnchair team,Teamfiles and various developers of themed icons whose apps are used in this mod.",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/lawnchair_mod",
     "visibility": 1
   },
   {
@@ -1496,6 +1517,13 @@
     "visibility": 1
   },
   {
+    "name": "MIUI Aosp Plugin by Mods Center",
+    "description": "Credits: UserXP, alixan95r, naokoshoto.",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/miui_plugin",
+    "visibility": 1
+  },
+  {
     "name": "MIUI字体",
     "description": "①替换系统字体为MiSans ②支持MIUI系统级多重字重 ③加入Android 18 Emoji(2.057) 字体",
     "author": "南宫镜",
@@ -1510,6 +1538,20 @@
     "visibility": 1
   },
   {
+    "name": "Modded HyperOS Launcher Lite",
+    "description": "Join our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/hyperos-launcher-mod-lite",
+    "visibility": 1
+  },
+  {
+    "name": "Modded Miui Launcher",
+    "description": "Join to our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/miui_launcher_mod",
+    "visibility": 1
+  },
+  {
     "name": "Modded Security Center",
     "description": "Modified Security Center by Mods Center. Join for more stuffs: t.me/kashis_cringey_stuffs",
     "author": "🅺🅰🆂🅷🅸",
@@ -1521,6 +1563,13 @@
     "description": "Modified Theme Manager by Mods Center. Join channel for interesting stuffs: https://t.me/kashis_cringey_stuffs",
     "author": "🅺🅰🆂🅷🅸",
     "repoUrl": "https://github.com/Mods-Center/HyperOS-Theme-Manager",
+    "visibility": 1
+  },
+  {
+    "name": "Monet Picker V2",
+    "description": "Change monet color accent to the one that you want.Join our telegram channel for more mods: https://t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/monet-picker",
     "visibility": 1
   },
   {
@@ -1586,6 +1635,13 @@
     "description": "基于 sing-box 内核的透明代理工具",
     "author": "Fanju",
     "repoUrl": "https://github.com/Fanju6/NetProxy-Magisk",
+    "visibility": 1
+  },
+  {
+    "name": "NewUI Package Installer V3 for Aosp/MIUI/HyperOS",
+    "description": "Join channel for more stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/package-installer",
     "visibility": 1
   },
   {
