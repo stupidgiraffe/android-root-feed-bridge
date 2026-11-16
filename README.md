@@ -74,6 +74,22 @@ KernelSU Next uses a different format. This feed merges our inspected single-ZIP
 
 </div>
 
+## 📚 Included repositories and feeds
+
+RootAtlas isn't just a single author's module list. It combines:
+
+| Source family | Included examples |
+|---|---|
+| **[Best Root Apps for Android](https://github.com/krishna3163/best-root-apps-for-android)** | Complete source catalog; compatible GitHub ZIP releases inspected before indexing |
+| **22 curated MMRL feeds** | [Googlers (GMR)](https://gr.dergoogler.com/gmr/), [Magisk Modules Alt Repo](https://magisk-modules-alt-repo.github.io/json-v2/), [IzzyOnDroid](https://apt.izzysoft.de/magisk/), [ZG-R](https://zguation-projects.github.io/ZG-R/), [ZAMR](https://zelect0r.github.io/zamr/), [JuliaZero](https://juliazero.github.io/mrbj/), [Rikj000](https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/), and more |
+| **Official MMRL repository discovery** | Automatically checks the [MMRL source directory](https://github.com/MMRLApp/Discovery/blob/main/json/remotes.json) for registered module repositories |
+| **KernelSU Next official manifests** | [Open-source module index](https://github.com/KernelSU-Next/KernelSU-Next-Modules-Repo/blob/main/modules.json) and [metamodules](https://github.com/KernelSU-Next/KernelSU-Next-Modules-Repo/blob/main/meta_modules.json) |
+| **Independent GitHub discoveries** | Validates additional public MMRL / KernelSU Next JSON feeds; overlapping sources and module IDs are deduplicated |
+
+**📖 [See every upstream feed, its link, and its latest checked status →](SOURCES.md)**
+
+Source availability changes; use the [live health report](report.json) for the most recent import results. This is not a guarantee that every module is safe.
+
 ## 🔄 How it works
 
 ```text
@@ -101,7 +117,7 @@ KernelSU manifests ──┘                   |
 
 ### 📡 Upstream sources and transparency
 
-- **[Configured repositories](sources/federation.json):** the curated starting sources, MMRL directory, and KernelSU Next manifests.
+- **[All included repositories, with names and links](SOURCES.md)** (plus the [machine-readable config](sources/federation.json)): the curated starting sources, MMRL directory, and KernelSU Next manifests.
 - **[Discovered repositories](source-discovery-state.json):** independent GitHub feeds found through scheduled searches, with public source URLs and inspection timestamps.
 - **[Coverage and source-health report](report.json):** live counts, successful feeds, failed feeds, and filtered entries.
 - **[Module provenance](federation-provenance.json):** records which catalog or repository supplied each displayed module.
@@ -121,7 +137,7 @@ The repository is intentionally small and serverless.
 - [Updater source](scripts/update.py) · [Validation source](scripts/validate.py)
 - [Original source catalog](https://github.com/krishna3163/best-root-apps-for-android)
 
-To refresh manually, open **Actions → Update Root Module Feeds → Run workflow**. If MMRL shows an older count or banner, tap **Update** on the repository card. GitHub may occasionally delay scheduled actions; the repository is intended to be hands-off, not guaranteed to require zero maintenance forever.
+To refresh manually, open **Actions → Update RootAtlas Module Feeds → Run workflow**. If MMRL shows an older count or banner, tap **Update** on the repository card. GitHub may occasionally delay scheduled actions; the repository is intended to be hands-off, not guaranteed to require zero maintenance forever.
 
 </details>
 
