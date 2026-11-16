@@ -360,6 +360,7 @@ def main():
     cover = ("https://raw.githubusercontent.com/stupidgiraffe/"
              "rootatlas/main/assets/root-feed-banner.jpg")
     mmrl = {
+        "id": "rootatlas",
         "name": "RootAtlas — Android Module Index",
         "website": "https://github.com/stupidgiraffe/rootatlas",
         "cover": cover,
