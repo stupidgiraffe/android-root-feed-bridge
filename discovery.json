@@ -40,10 +40,10 @@
     "repository_candidates": 1778,
     "checked_repositories": 1778,
     "pending_repositories": 0,
-    "valid_module_repositories": 422,
+    "valid_module_repositories": 421,
     "mmrl_modules": 858,
     "kernelsu_next_modules": 388,
-    "catalog_mmrl_modules": 406,
+    "catalog_mmrl_modules": 405,
     "catalog_kernelsu_next_modules": 372,
     "federated_mmrl_sources": 36,
     "federated_ksu_sources": 2
@@ -37252,5 +37252,5 @@
       "build_type": "release"
     }
   ],
-  "updated": 1794821620
+  "updated": 1794835789
 }

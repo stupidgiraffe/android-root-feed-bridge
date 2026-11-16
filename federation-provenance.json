@@ -1432,10 +1432,6 @@
       "kind": "catalog",
       "url": "https://github.com/reveny/Android-VBMeta-Fixer"
     },
-    "vdbackup": {
-      "kind": "catalog",
-      "url": "https://github.com/vd171/vd-backup"
-    },
     "zygisk_vector": {
       "kind": "mmrl",
       "url": "https://shamratrh-web.github.io/mmrl-repo/"
@@ -3316,6 +3312,10 @@
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/RavenWolf1998/MMRL-Magisk-Module-Repo/main/"
     },
+    "vdbackup": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
+    },
     "vddropbear": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
@@ -3562,7 +3562,6 @@
     "bypasser": 1,
     "aa4mg": 1,
     "COPG-VD": 1,
-    "vdbackup": 1,
     "fas_rs": 1,
     "hostsredirect": 1,
     "magisk_custompinyindictionary_fcitx": 1,

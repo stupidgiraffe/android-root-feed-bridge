@@ -1,11 +1,12 @@
 {
+  "id": "rootatlas",
   "name": "RootAtlas — Android Module Index",
   "website": "https://github.com/stupidgiraffe/rootatlas",
   "cover": "https://raw.githubusercontent.com/stupidgiraffe/rootatlas/main/assets/root-feed-banner.jpg",
   "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794821620.0
+    "timestamp": 1794835789.0
   },
   "modules": [
     {
@@ -76,8 +77,8 @@
       "id": "integrity-box",
       "name": ".𝙄𝙣𝙩𝙚𝙜𝙧𝙞𝙩𝙮 𝘽𝙤𝙭 📦",
       "author": "𝗠𝗘𝗢𝗪𝗻𝗮 💅",
-      "version": "v47",
-      "versionCode": 47000,
+      "version": "v48.1",
+      "versionCode": 48100,
       "track": {
         "type": "GIT",
         "added": 1792260970.0,
@@ -85,11 +86,11 @@
       },
       "versions": [
         {
-          "versionCode": 47000,
-          "version": "v47",
-          "timestamp": 1794154142.0,
-          "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/v47/v47-Integrity-Box-08-11-2026.zip",
-          "size": 2053843,
+          "versionCode": 48100,
+          "version": "v48.1",
+          "timestamp": 1794807444.0,
+          "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/v48/v48.1-Integrity-Box-16-11-2026.zip",
+          "size": 3017149,
           "changelog": ""
         }
       ],
@@ -113,7 +114,7 @@
         "mmrl.permission.DEXS"
       ],
       "maxApi": 36,
-      "size": 2053843
+      "size": 3017149
     },
     {
       "id": "playintegrity",
@@ -685,25 +686,25 @@
     {
       "id": "adb_enable",
       "name": "ADB Enable",
-      "version": "v1.0.0",
-      "versionCode": 10000,
+      "version": "v1.0.1",
+      "versionCode": 10001,
       "author": "ADBEnable",
       "description": "坏屏/无触摸救机：刷入重启即开 USB 调试并免授权（无需公钥），修复 USB 枚举与 adbd，绕过 MIUI 安全限制，跳过开机向导。",
       "homepage": "https://github.com/wanyoou/adbenable",
-      "size": 17781,
+      "size": 18492,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794756053.0,
+        "added": 1794827387.0,
         "source": "https://github.com/wanyoou/adbenable"
       },
       "versions": [
         {
-          "version": "v1.0.0",
-          "versionCode": 10000,
-          "zipUrl": "https://github.com/wanyoou/ADBEnable/releases/download/v1.0.0/ADB-Enable-v1.0.0.zip",
-          "timestamp": 1794756053.0,
-          "size": 17781
+          "version": "v1.0.1",
+          "versionCode": 10001,
+          "zipUrl": "https://github.com/wanyoou/ADBEnable/releases/download/v1.0.1/ADB-Enable-v1.0.1.zip",
+          "timestamp": 1794827387.0,
+          "size": 18492
         }
       ]
     },
@@ -1710,8 +1711,8 @@
       "id": "android_luks_mounter",
       "name": "Android LUKS Mounter",
       "author": "Rex Ackermann",
-      "version": "v1.5.85",
-      "versionCode": 1585,
+      "version": "v1.5.86",
+      "versionCode": 1586,
       "track": {
         "type": "GIT",
         "added": 1794104428.0,
@@ -1719,10 +1720,10 @@
       },
       "versions": [
         {
-          "versionCode": 1585,
-          "version": "v1.5.85",
-          "timestamp": 1794216344.0,
-          "zipUrl": "https://github.com/rexackermann/android-luks-mounter/releases/download/v1.5.85/android-luks-mounter-v1.5.85.zip",
+          "versionCode": 1586,
+          "version": "v1.5.86",
+          "timestamp": 1794820510.0,
+          "zipUrl": "https://github.com/rexackermann/android-luks-mounter/releases/download/v1.5.86/android-luks-mounter-v1.5.86.zip",
           "size": 47641,
           "changelog": ""
         }
@@ -10755,25 +10756,25 @@
     {
       "id": "hypercool",
       "name": "HyperCool - Heat & Battery Fix",
-      "version": "v2.3.2",
-      "versionCode": 232,
+      "version": "v2.3.3",
+      "versionCode": 233,
       "author": "Yudharn",
       "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
       "homepage": "https://github.com/yudharn/hypercool",
-      "size": 334072,
+      "size": 342105,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794746772.0,
+        "added": 1794826863.0,
         "source": "https://github.com/yudharn/hypercool"
       },
       "versions": [
         {
-          "version": "v2.3.2",
-          "versionCode": 232,
-          "zipUrl": "https://github.com/yudharn/HyperCool/releases/download/v2.3.2/HyperCool_v2.3.2.zip",
-          "timestamp": 1794746772.0,
-          "size": 334072
+          "version": "v2.3.3",
+          "versionCode": 233,
+          "zipUrl": "https://github.com/yudharn/HyperCool/releases/download/v2.3.3/HyperCool_v2.3.3.zip",
+          "timestamp": 1794826863.0,
+          "size": 342105
         }
       ]
     },
@@ -17517,25 +17518,25 @@
     {
       "id": "PixelXpert-Next",
       "name": "PixelXpert-Next",
-      "version": "v6.1.4",
-      "versionCode": 542,
+      "version": "v6.1.5",
+      "versionCode": 544,
       "author": "PixelXpert-Next Team",
       "description": "Xposed based module for customizations on Pixel roms. Android 13+",
       "homepage": "https://github.com/anirudhgupta109/pixelxpert-next",
-      "size": 2825948,
+      "size": 2817018,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794384284.0,
+        "added": 1794826250.0,
         "source": "https://github.com/anirudhgupta109/pixelxpert-next"
       },
       "versions": [
         {
-          "version": "v6.1.4",
-          "versionCode": 542,
-          "zipUrl": "https://github.com/anirudhgupta109/PixelXpert-Next/releases/download/v6.1.4/PixelXpert-Next.zip",
-          "timestamp": 1794384284.0,
-          "size": 2825948
+          "version": "v6.1.5",
+          "versionCode": 544,
+          "zipUrl": "https://github.com/anirudhgupta109/PixelXpert-Next/releases/download/v6.1.5/PixelXpert-Next.zip",
+          "timestamp": 1794826250.0,
+          "size": 2817018
         }
       ]
     },
@@ -24228,27 +24229,44 @@
     {
       "id": "vdbackup",
       "name": "VDBackup",
+      "author": "VD171",
       "version": "v1.08",
       "versionCode": 10800,
-      "author": "VD171",
-      "description": "Full app and data backup & restore.",
-      "homepage": "https://github.com/vd171/vd-backup",
-      "size": 51095243,
-      "verified": false,
       "track": {
-        "type": "GIT",
-        "added": 1794763989.0,
-        "source": "https://github.com/vd171/vd-backup"
+        "type": "ONLINE_JSON",
+        "added": 1794619530.0,
+        "source": "https://github.com/VD171/VD-Backup"
       },
       "versions": [
         {
-          "version": "v1.08",
           "versionCode": 10800,
-          "zipUrl": "https://github.com/VD171/VD-Backup/releases/download/v1.08/VD-Backup-v1.08-universal-lite.zip",
-          "timestamp": 1794763989.0,
-          "size": 51095243
+          "version": "v1.08",
+          "timestamp": 1794763983.0,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.zip",
+          "size": 51095243,
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.md"
+        },
+        {
+          "versionCode": 10700,
+          "version": "v1.07",
+          "timestamp": 1794541726.0,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.zip",
+          "size": 49628589,
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.md"
         }
-      ]
+      ],
+      "verified": false,
+      "description": "Full app and data backup & restore.",
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "size": 51095243,
+      "stars": 82
     },
     {
       "id": "vector",
@@ -27635,25 +27653,25 @@
     {
       "id": "thermocharge",
       "name": "恒温充电 (ThermoCharge)",
-      "version": "v1.3.5",
-      "versionCode": 10305,
+      "version": "v1.3.8",
+      "versionCode": 10308,
       "author": "酷安@玖清雨",
       "description": "以电池温度为被控量、充电电流为控制量的恒温充电控制器。温度锁在目标值,充电功率随散热条件自动浮动。基于 mca votable 的 Min 聚合,永远不会比系统原有保护更激进。",
       "homepage": "https://github.com/luoyi0914/thermocharge",
-      "size": 58155,
+      "size": 72883,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794813241.0,
+        "added": 1794830613.0,
         "source": "https://github.com/luoyi0914/thermocharge"
       },
       "versions": [
         {
-          "version": "v1.3.5",
-          "versionCode": 10305,
-          "zipUrl": "https://github.com/luoyi0914/ThermoCharge/releases/download/v1.3.5/thermocharge-v1.3.5.zip",
-          "timestamp": 1794813241.0,
-          "size": 58155
+          "version": "v1.3.8",
+          "versionCode": 10308,
+          "zipUrl": "https://github.com/luoyi0914/ThermoCharge/releases/download/v1.3.8/thermocharge-v1.3.8.zip",
+          "timestamp": 1794830613.0,
+          "size": 72883
         }
       ]
     },
