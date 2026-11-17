@@ -6,7 +6,7 @@
   "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794835789.0
+    "timestamp": 1794907477.0
   },
   "modules": [
     {
@@ -601,6 +601,41 @@
       ]
     },
     {
+      "id": "AD_Killer_By_NFQUEUE",
+      "name": "AD Killer (by NFQUEUE)",
+      "author": "fengwenhua",
+      "version": "v1.2.14",
+      "versionCode": 13401,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794485636.0,
+        "source": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE"
+      },
+      "versions": [
+        {
+          "versionCode": 13401,
+          "version": "v1.2.14",
+          "timestamp": 1794485636.0,
+          "zipUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.14/AD_Killer_By_NFQUEUE-v1.2.14.zip",
+          "size": 813069,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/AD_Killer_By_NFQUEUE/changelogs/v1.2.14.md"
+        }
+      ],
+      "verified": false,
+      "description": "基于 NFQUEUE 的 Android 本地去广告模块，提供规则管理、应用名单和离线 WebUI。需要内核支持 NFQUEUE。",
+      "support": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/AD_Killer_By_NFQUEUE/README.md",
+      "categories": [
+        "ad-blocking",
+        "network",
+        "privacy"
+      ],
+      "permissions": [],
+      "size": 813069,
+      "stars": 1
+    },
+    {
       "id": "adawayadblocker",
       "name": "Adaway - Ad Blocker",
       "author": "Cyberdev",
@@ -682,6 +717,44 @@
       ],
       "size": 5300707,
       "stars": 670
+    },
+    {
+      "id": "adbdisabler",
+      "name": "ADB Disabler",
+      "author": "Shuoh118",
+      "version": "1.0.1",
+      "versionCode": 10001,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794060061.0,
+        "source": "https://github.com/Shuoh118/ADB-Disabler"
+      },
+      "versions": [
+        {
+          "versionCode": 10001,
+          "version": "1.0.1",
+          "timestamp": 1794832247.0,
+          "zipUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.1/ADB-Disabler-1.0.1.zip",
+          "size": 2009,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/adbdisabler/changelogs/1.0.1.md"
+        },
+        {
+          "versionCode": 10000,
+          "version": "1.0.0",
+          "timestamp": 1794060061.0,
+          "zipUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.0/ADB-Disabler-1.0.0.zip",
+          "size": 22662,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/adbdisabler/changelogs/1.0.0.md"
+        }
+      ],
+      "verified": false,
+      "description": "开机禁用 adb、开发者选项和 OEM 解锁",
+      "support": "https://github.com/Shuoh118/ADB-Disabler",
+      "license": "GPL-3.0-or-later",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/adbdisabler/README.md",
+      "permissions": [],
+      "size": 2009,
+      "stars": 1
     },
     {
       "id": "adb_enable",
@@ -1565,25 +1638,25 @@
     {
       "id": "AnalyticsDisabler",
       "name": "Analytics Disabler for Android",
-      "version": "v8.4",
-      "versionCode": 12,
+      "version": "v8.5",
+      "versionCode": 13,
       "author": "CEKA",
       "description": "Analytics Disabler for Android",
       "homepage": "https://github.com/ddceka/android-analytics-disabler",
-      "size": 7637,
+      "size": 9612,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1793619566.0,
+        "added": 1794847600.0,
         "source": "https://github.com/ddceka/android-analytics-disabler"
       },
       "versions": [
         {
-          "version": "v8.4",
-          "versionCode": 12,
-          "zipUrl": "https://github.com/ddCeka/Android-Analytics-Disabler/releases/download/v8.4/dss-v8.4.zip",
-          "timestamp": 1793619566.0,
-          "size": 7637
+          "version": "v8.5",
+          "versionCode": 13,
+          "zipUrl": "https://github.com/ddCeka/Android-Analytics-Disabler/releases/download/v8.5/dss-v8.5.zip",
+          "timestamp": 1794847600.0,
+          "size": 9612
         }
       ]
     },
@@ -1881,7 +1954,7 @@
         {
           "versionCode": 8,
           "version": "v1.3.4",
-          "timestamp": 1794781542.0,
+          "timestamp": 1794839907.0,
           "zipUrl": "https://github.com/Magisk-Modules-Alt-Repo/abootloop/releases/download/v1.3.4/abootloop.zip",
           "size": 5011,
           "changelog": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/abootloop/main/changelog.md"
@@ -2832,7 +2905,7 @@
       ],
       "permissions": [],
       "size": 4027697,
-      "stars": 39
+      "stars": 40
     },
     {
       "id": "Aurora",
@@ -3334,7 +3407,7 @@
         {
           "versionCode": 199424,
           "version": "3.11",
-          "timestamp": 1794781542.0,
+          "timestamp": 1794839907.0,
           "zipUrl": "https://github.com/chenxiaolong/BCR/releases/download/v3.11/BCR-3.11-release.zip",
           "size": 2787358,
           "changelog": "https://github.com/chenxiaolong/BCR/raw/v3.11/app/magisk/updates/release/changelog.txt"
@@ -3507,7 +3580,7 @@
         "magisk.permission.POST_FS_DATA"
       ],
       "size": 3022006,
-      "stars": 593
+      "stars": 592
     },
     {
       "id": "bfr_webui_go",
@@ -3999,6 +4072,45 @@
       ],
       "size": 3679,
       "stars": 19
+    },
+    {
+      "id": "ByeBlur",
+      "name": "Bye Blur",
+      "author": "Lean",
+      "version": "v9",
+      "versionCode": 9,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794607075.0,
+        "source": "https://github.com/LeanxModulostk/Bye-Blur"
+      },
+      "versions": [
+        {
+          "versionCode": 9,
+          "version": "v9",
+          "timestamp": 1794607075.0,
+          "zipUrl": "https://github.com/LeanxModulostk/Bye-Blur/releases/download/v9/Bye.Blur-v9.zip",
+          "size": 629462,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/ByeBlur/changelogs/v9.md"
+        }
+      ],
+      "verified": false,
+      "description": "Disable the blur effect, this improves performance by discarding this complex visual effect.",
+      "icon": "https://modules.kernelsu.org/assets/6fc6bb874bb5ad22.jpg",
+      "support": "https://t.me/modulostk",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/ByeBlur/README.md",
+      "categories": [
+        "blur",
+        "performance",
+        "reduce",
+        "smooth",
+        "disable",
+        "effect"
+      ],
+      "permissions": [],
+      "size": 629462,
+      "stars": 16
     },
     {
       "id": "bypasser",
@@ -4506,6 +4618,40 @@
       "stars": 3
     },
     {
+      "id": "chargebypasscap-pmi",
+      "name": "ChargeBypassCap PMI",
+      "author": "9M2PJU",
+      "version": "v1.10",
+      "versionCode": 12,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1793779095.0,
+        "source": "https://github.com/9M2PJU/ChargeBypassCap-PMI"
+      },
+      "versions": [
+        {
+          "versionCode": 12,
+          "version": "v1.10",
+          "timestamp": 1793779095.0,
+          "zipUrl": "https://github.com/9M2PJU/ChargeBypassCap-PMI/releases/download/v1.10/chargebypasscap-pmi-v1.10.zip",
+          "size": 31370,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/chargebypasscap-pmi/changelogs/v1.10.md"
+        }
+      ],
+      "verified": false,
+      "description": "Adjustable charge cap for POCO X3 Pro via input_suspend.",
+      "support": "https://github.com/9M2PJU/ChargeBypassCap-PMI/issues",
+      "license": "GPL-3.0-only",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/chargebypasscap-pmi/README.md",
+      "categories": [
+        "battery",
+        "charging"
+      ],
+      "permissions": [],
+      "size": 31370,
+      "stars": 2
+    },
+    {
       "id": "chargemate",
       "name": "ChargeMate",
       "author": "Yash",
@@ -4751,25 +4897,25 @@
     {
       "id": "cliproxyapi",
       "name": "CLIProxyAPI",
-      "version": "v8.0.74",
-      "versionCode": 800007400,
+      "version": "v8.0.76",
+      "versionCode": 800007600,
       "author": "tsaQB",
       "description": "CLIProxyAPI boot service for Android.",
       "homepage": "https://github.com/as-tsaqib/cliproxyapi-module",
-      "size": 28530433,
+      "size": 28597336,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794804196.0,
+        "added": 1794897008.0,
         "source": "https://github.com/as-tsaqib/cliproxyapi-module"
       },
       "versions": [
         {
-          "version": "v8.0.74",
-          "versionCode": 800007400,
-          "zipUrl": "https://github.com/tsaQB/cliproxyapi-android/releases/download/v8.0.74/cliproxyapi-magisk.zip",
-          "timestamp": 1794804196.0,
-          "size": 28530433
+          "version": "v8.0.76",
+          "versionCode": 800007600,
+          "zipUrl": "https://github.com/tsaQB/cliproxyapi-android/releases/download/v8.0.76/cliproxyapi-magisk.zip",
+          "timestamp": 1794897008.0,
+          "size": 28597336
         }
       ]
     },
@@ -4831,7 +4977,7 @@
       ],
       "permissions": [],
       "size": 1750,
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "cloudflared",
@@ -5095,20 +5241,28 @@
       ],
       "permissions": [],
       "size": 129191,
-      "stars": 13
+      "stars": 14
     },
     {
       "id": "oplus-cloud-block",
       "name": "ColorOS 温控与云控",
       "author": "谋事在人成事在天",
-      "version": "1.7.13",
-      "versionCode": 184,
+      "version": "01.7.74",
+      "versionCode": 185,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794161870.0,
         "source": "https://github.com/706412584/ColorOS-thermal"
       },
       "versions": [
+        {
+          "versionCode": 185,
+          "version": "01.7.74",
+          "timestamp": 1794814388.0,
+          "zipUrl": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.74/oplus-cloud-block-v01.7.74.zip",
+          "size": 138225,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/oplus-cloud-block/changelogs/01.7.74.md"
+        },
         {
           "versionCode": 184,
           "version": "1.7.13",
@@ -5130,8 +5284,47 @@
         "tools"
       ],
       "permissions": [],
-      "size": 121016,
+      "size": 138225,
       "stars": 3
+    },
+    {
+      "id": "Logd_Disabler_ColorOS16",
+      "name": "ColorOS16 优化版",
+      "author": "starlifezzz",
+      "version": "v2.3.29",
+      "versionCode": 62,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794832620.0,
+        "source": "https://github.com/starlifezzz/Logd_Disabler_ColorOS16"
+      },
+      "versions": [
+        {
+          "versionCode": 62,
+          "version": "v2.3.29",
+          "timestamp": 1794832620.0,
+          "zipUrl": "https://github.com/starlifezzz/Logd_Disabler_ColorOS16/releases/download/v2.3.29/Logd_Disabler_ColorOS16-62-v2.3.29.zip",
+          "size": 642548,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/Logd_Disabler_ColorOS16/changelogs/v2.3.29.md"
+        }
+      ],
+      "verified": false,
+      "description": "ColorOS 16（一加 / OPPO）系统精简与隐私优化。图形界面逐项关闭日志、遥测、云控域名与冗余服务，所有改动可一键还原。",
+      "support": "https://github.com/starlifezzz/Logd_Disabler_ColorOS16/issues",
+      "license": "CC-BY-NC-ND-4.0",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/Logd_Disabler_ColorOS16/README.md",
+      "categories": [
+        "coloros",
+        "oplus",
+        "oneplus",
+        "debloat",
+        "privacy",
+        "telemetry",
+        "logs"
+      ],
+      "permissions": [],
+      "size": 642548,
+      "stars": 22
     },
     {
       "id": "73sydney.coloursatmod",
@@ -5318,7 +5511,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 99
+      "stars": 101
     },
     {
       "id": "COPG-VD",
@@ -5674,14 +5867,22 @@
       "id": "cubic-adblock",
       "name": "Cubic-AdBlock",
       "author": "Vaz15k",
-      "version": "v3.26",
-      "versionCode": 3026,
+      "version": "v3.27",
+      "versionCode": 3027,
       "track": {
         "type": "ONLINE_JSON",
         "added": 0.0,
         "source": "https://github.com/Vaz15k/Cubic-AdBlock"
       },
       "versions": [
+        {
+          "versionCode": 3027,
+          "version": "v3.27",
+          "timestamp": 1794879943.85411,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/cubic-adblock/v3.27_3027.zip",
+          "size": 3729174,
+          "changelog": "https://gr.dergoogler.com/gmr/modules/cubic-adblock/v3.27_3027.md"
+        },
         {
           "versionCode": 3026,
           "version": "v3.26",
@@ -5713,14 +5914,6 @@
           "zipUrl": "https://gr.dergoogler.com/gmr/modules/cubic-adblock/v3.23_3023.zip",
           "size": 3688444,
           "changelog": "https://gr.dergoogler.com/gmr/modules/cubic-adblock/v3.23_3023.md"
-        },
-        {
-          "versionCode": 3022,
-          "version": "v3.22",
-          "timestamp": 1791851046.107007,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/cubic-adblock/v3.22_3022.zip",
-          "size": 3693287,
-          "changelog": "https://gr.dergoogler.com/gmr/modules/cubic-adblock/v3.22_3022.md"
         }
       ],
       "verified": false,
@@ -5732,7 +5925,7 @@
       "categories": [
         "Adblocking and Hosts Files"
       ],
-      "size": 3742026,
+      "size": 3729174,
       "stars": 80
     },
     {
@@ -6444,6 +6637,31 @@
           "zipUrl": "https://github.com/flipphoneguy/DirtySepolicy_Bypass/releases/download/v3.0.0/dirtysepbypass.zip",
           "timestamp": 1780191328.0,
           "size": 11133
+        }
+      ]
+    },
+    {
+      "id": "DisableApkVerification",
+      "name": "Disable apk signature vertification",
+      "version": "v4",
+      "versionCode": 7,
+      "author": "🅺🅰🆂🅷🅸",
+      "description": "Disable the signature verification of apk for Android 13+. Join to our channel for more stuff: t.me/kashis_cringey_stuffs",
+      "homepage": "https://github.com/mods-center/apk-signature-verification-patch",
+      "size": 12135164,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794850833.0,
+        "source": "https://github.com/mods-center/apk-signature-verification-patch"
+      },
+      "versions": [
+        {
+          "version": "v4",
+          "versionCode": 7,
+          "zipUrl": "https://github.com/Mods-Center/Apk-Signature-Verification-Patch/releases/download/V4/DisableApkSignatureVerification%40kashis_cringey_stuffs.zip",
+          "timestamp": 1794850833.0,
+          "size": 12135164
         }
       ]
     },
@@ -7261,7 +7479,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 45
+      "stars": 46
     },
     {
       "id": "duckmock",
@@ -7614,7 +7832,7 @@
       ],
       "permissions": [],
       "size": 2208,
-      "stars": 124
+      "stars": 125
     },
     {
       "id": "font_collection_encodesanscondensed",
@@ -7709,6 +7927,42 @@
           "size": 2309385
         }
       ]
+    },
+    {
+      "id": "encoretweaks",
+      "name": "Encore Tweaks",
+      "author": "Rem01Gaming",
+      "version": "5.2.2 (1571-47cdb70-main)",
+      "versionCode": 1571,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0.0,
+        "source": "https://github.com/Rem01Gaming/encore"
+      },
+      "versions": [
+        {
+          "versionCode": 1571,
+          "version": "5.2.2 (1571-47cdb70-main)",
+          "timestamp": 1791241461.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/encoretweaks/5.2.2_1571-47cdb70-main.zip",
+          "size": 2309385,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/encoretweaks/5.2.2_1571-47cdb70-main.md"
+        }
+      ],
+      "verified": false,
+      "description": "Special performance module for your Device.",
+      "categories": [
+        "Tools",
+        "Performance"
+      ],
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.APKS"
+      ],
+      "size": 2309385
     },
     {
       "id": "encryptiondisguiser",
@@ -7834,6 +8088,41 @@
       "permissions": [],
       "size": 976,
       "stars": 0
+    },
+    {
+      "id": "example_module_demo",
+      "name": "Example Module Demo",
+      "author": "KernelSU-Modules contributors",
+      "version": "v1.0.0",
+      "versionCode": 100,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1791682018.0,
+        "source": "https://github.com/KernelSU-Modules/example-module"
+      },
+      "versions": [
+        {
+          "versionCode": 100,
+          "version": "v1.0.0",
+          "timestamp": 1791682018.0,
+          "zipUrl": "https://github.com/KernelSU-Modules/example-module/releases/download/v1.0.0/example_module_demo-100-v1.0.0.zip",
+          "size": 965,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/example_module_demo/changelogs/v1.0.0.md"
+        }
+      ],
+      "verified": false,
+      "description": "A minimal module that shows how to publish to KernelSU Modules",
+      "icon": "https://modules.kernelsu.org/assets/2ebaa6f72c2ac3a7.png",
+      "support": "https://github.com/KernelSU-Modules/example-module/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/example_module_demo/README.md",
+      "categories": [
+        "example",
+        "tools"
+      ],
+      "permissions": [],
+      "size": 965,
+      "stars": 4
     },
     {
       "id": "extradim",
@@ -8452,7 +8741,7 @@
         "magisk.permission.RESETPROP"
       ],
       "size": 24700925,
-      "stars": 21
+      "stars": 20
     },
     {
       "id": "fluttertap",
@@ -8790,7 +9079,7 @@
       ],
       "permissions": [],
       "size": 213346,
-      "stars": 316
+      "stars": 317
     },
     {
       "id": "fresh-emoji",
@@ -8840,25 +9129,25 @@
     {
       "id": "frida_magisk",
       "name": "Frida Magisk",
-      "version": "17.26.3",
-      "versionCode": 172603,
+      "version": "17.26.4",
+      "versionCode": 172604,
       "author": "xjoker",
       "description": "Run bundled frida-server at boot with watchdog restart and Action status/control entry.",
       "homepage": "https://github.com/xjoker/frida-magisk",
-      "size": 49610610,
+      "size": 49614498,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794632703.0,
+        "added": 1794897847.0,
         "source": "https://github.com/xjoker/frida-magisk"
       },
       "versions": [
         {
-          "version": "17.26.3",
-          "versionCode": 172603,
-          "zipUrl": "https://github.com/xjoker/frida-magisk/releases/download/v17.26.3/frida-magisk-17.26.3-arm64-v8a.zip",
-          "timestamp": 1794632703.0,
-          "size": 49610610
+          "version": "17.26.4",
+          "versionCode": 172604,
+          "zipUrl": "https://github.com/xjoker/frida-magisk/releases/download/v17.26.4/frida-magisk-17.26.4-arm64-v8a.zip",
+          "timestamp": 1794897847.0,
+          "size": 49614498
         }
       ]
     },
@@ -9119,6 +9408,42 @@
           "size": 740
         }
       ]
+    },
+    {
+      "id": "galaxy_watch_nfc_provide",
+      "name": "Galaxy Watch NFC Provide",
+      "author": "gohj99",
+      "version": "1.0.8",
+      "versionCode": 108,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794669522.0,
+        "source": "https://github.com/gohj99/galaxy_watch_nfc_provide"
+      },
+      "versions": [
+        {
+          "versionCode": 108,
+          "version": "1.0.8",
+          "timestamp": 1794669522.0,
+          "zipUrl": "https://github.com/gohj99/galaxy_watch_nfc_provide/releases/download/v1.0.8/galaxy_watch_nfc_provide-v1.0.8.zip",
+          "size": 27301,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/galaxy_watch_nfc_provide/changelogs/1.0.8.md"
+        }
+      ],
+      "verified": false,
+      "description": "Editable device NFC configuration for KernelSU and BakaSU on Wear OS devices.",
+      "support": "https://github.com/gohj99/galaxy_watch_nfc_provide/issues",
+      "license": "GPL-3.0-or-later",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/galaxy_watch_nfc_provide/README.md",
+      "categories": [
+        "nfc",
+        "wear-os",
+        "kernelsu",
+        "bakasu"
+      ],
+      "permissions": [],
+      "size": 27301,
+      "stars": 1
     },
     {
       "id": "gxr_window_curvature",
@@ -9814,7 +10139,7 @@
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/master/README.md",
       "size": 23286386,
-      "stars": 19
+      "stars": 20
     },
     {
       "id": "wallet_cardart",
@@ -10357,6 +10682,49 @@
       ]
     },
     {
+      "id": "hma-oss",
+      "name": "HMA-OSS Zygisk",
+      "author": "frknkrc44",
+      "version": "oss-175",
+      "versionCode": 7304658,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0.0,
+        "source": "https://github.com/frknkrc44/HMA-OSS"
+      },
+      "versions": [
+        {
+          "versionCode": 7304658,
+          "version": "oss-175",
+          "timestamp": 1793961446.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-175_7304658.zip",
+          "size": 2582384,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-175_7304658.md"
+        },
+        {
+          "versionCode": 7304656,
+          "version": "oss-173",
+          "timestamp": 1790729003.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-173_7304656.zip",
+          "size": 2743824,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-173_7304656.md"
+        }
+      ],
+      "verified": false,
+      "description": "A Zygisk backend for HMA-OSS",
+      "categories": [
+        "Tools",
+        "Must Have"
+      ],
+      "permissions": [
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "size": 2582384
+    },
+    {
       "id": "hma_oss_zygisk",
       "name": "HMA-OSS Zygisk",
       "version": "oss-175",
@@ -10435,6 +10803,31 @@
         "magisk.permission.SEPOLICY"
       ],
       "size": 9117
+    },
+    {
+      "id": "hsin",
+      "name": "HSIN",
+      "version": "v5.0",
+      "versionCode": 99,
+      "author": "somwan",
+      "description": "HSIN game booster: mode Hemat/Seimbang/Performa/Puncak, floating orb FPS, rekam layar, resolusi per game. Mesin Uperf + fas-rs, kredit di app.",
+      "homepage": "https://github.com/isac12345/hsin",
+      "size": 5496099,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794718887.0,
+        "source": "https://github.com/isac12345/hsin"
+      },
+      "versions": [
+        {
+          "version": "v5.0",
+          "versionCode": 99,
+          "zipUrl": "https://github.com/isac12345/Hsin/releases/download/v5.0/HSIN-v5.0-module.zip",
+          "timestamp": 1794718887.0,
+          "size": 5496099
+        }
+      ]
     },
     {
       "id": "hybrid-mount",
@@ -10756,25 +11149,25 @@
     {
       "id": "hypercool",
       "name": "HyperCool - Heat & Battery Fix",
-      "version": "v2.3.3",
-      "versionCode": 233,
+      "version": "v2.3.5",
+      "versionCode": 235,
       "author": "Yudharn",
       "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
       "homepage": "https://github.com/yudharn/hypercool",
-      "size": 342105,
+      "size": 358890,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794826863.0,
+        "added": 1794898766.0,
         "source": "https://github.com/yudharn/hypercool"
       },
       "versions": [
         {
-          "version": "v2.3.3",
-          "versionCode": 233,
-          "zipUrl": "https://github.com/yudharn/HyperCool/releases/download/v2.3.3/HyperCool_v2.3.3.zip",
-          "timestamp": 1794826863.0,
-          "size": 342105
+          "version": "v2.3.5",
+          "versionCode": 235,
+          "zipUrl": "https://github.com/yudharn/HyperCool/releases/download/v2.3.5/HyperCool_v2.3.5.zip",
+          "timestamp": 1794898766.0,
+          "size": 358890
         }
       ]
     },
@@ -11997,25 +12390,25 @@
     {
       "id": "JoyConDroidCompanion",
       "name": "Joy-Con Droid Companion",
-      "version": "1.1.0",
-      "versionCode": 44,
+      "version": "1.2.0",
+      "versionCode": 56,
       "author": "TeamJCD",
       "description": "Companion module for Joy-Con Droid",
       "homepage": "https://github.com/teamjcd/joycondroidcompanion",
-      "size": 242573,
+      "size": 237528,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1787262111.0,
+        "added": 1794856140.0,
         "source": "https://github.com/teamjcd/joycondroidcompanion"
       },
       "versions": [
         {
-          "version": "1.1.0",
-          "versionCode": 44,
-          "zipUrl": "https://github.com/TeamJCD/JoyConDroidCompanion/releases/download/1.1.0/JoyConDroidCompanion-1.1.0.zip",
-          "timestamp": 1787262111.0,
-          "size": 242573
+          "version": "1.2.0",
+          "versionCode": 56,
+          "zipUrl": "https://github.com/TeamJCD/JoyConDroidCompanion/releases/download/1.2.0/JoyConDroidCompanion-1.2.0.zip",
+          "timestamp": 1794856140.0,
+          "size": 237528
         }
       ]
     },
@@ -12146,7 +12539,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 378
+      "stars": 379
     },
     {
       "id": "adrianmmiller.KSUdebloat",
@@ -12261,7 +12654,7 @@
       ],
       "permissions": [],
       "size": 73059236,
-      "stars": 16
+      "stars": 17
     },
     {
       "id": "ksu-webui-module-template",
@@ -12439,25 +12832,25 @@
     {
       "id": "lan-cloak",
       "name": "LAN Cloak Arm64",
-      "version": "1.0-r1",
-      "versionCode": 2,
+      "version": "1.0-r2",
+      "versionCode": 3,
       "author": "Tears Burn",
       "description": "Hides the phone on Wi-Fi networks: clean DHCP, no mDNS / SSDP / LLMNR announcements. Status: Init",
       "homepage": "https://github.com/nikakvo/lan-cloak-arm64",
-      "size": 703126,
+      "size": 707130,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1793562526.0,
+        "added": 1794867864.0,
         "source": "https://github.com/nikakvo/lan-cloak-arm64"
       },
       "versions": [
         {
-          "version": "1.0-r1",
-          "versionCode": 2,
-          "zipUrl": "https://github.com/nikakvo/lan-cloak-arm64/releases/download/v1.0-r1/lan-cloak-arm64-v1.0-r1.zip",
-          "timestamp": 1793562526.0,
-          "size": 703126
+          "version": "1.0-r2",
+          "versionCode": 3,
+          "zipUrl": "https://github.com/nikakvo/lan-cloak-arm64/releases/download/v1.0-r2/lan-cloak-arm64-v1.0-r2.zip",
+          "timestamp": 1794867864.0,
+          "size": 707130
         }
       ]
     },
@@ -13063,6 +13456,38 @@
       "size": 6431714
     },
     {
+      "id": "zygisklsposed",
+      "name": "LSPosed",
+      "author": "LSPosed Developers",
+      "version": "v2.2.1 (7912)",
+      "versionCode": 7912,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0.0,
+        "source": "https://github.com/lsposed/lsposed"
+      },
+      "versions": [
+        {
+          "versionCode": 7912,
+          "version": "v2.2.1 (7912)",
+          "timestamp": 1791166647.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisklsposed/v2.2.1_7912.zip",
+          "size": 6431714,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisklsposed/v2.2.1_7912.md"
+        }
+      ],
+      "verified": false,
+      "description": "Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled.",
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "size": 6431714
+    },
+    {
       "id": "lune_bridge",
       "name": "Lune Bridge",
       "author": "uraniam9",
@@ -13324,7 +13749,7 @@
       ],
       "permissions": [],
       "size": 5755243,
-      "stars": 613
+      "stars": 618
     },
     {
       "id": "magisk_overlayfs",
@@ -13393,25 +13818,25 @@
     {
       "id": "MagicNet",
       "name": "MagicNet",
-      "version": "v1.8.7",
-      "versionCode": 10615,
+      "version": "v1.8.9",
+      "versionCode": 10617,
       "author": "LIghtJUNction",
       "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
       "homepage": "https://github.com/LIghtJUNction/MagicNet",
-      "size": 3463139,
+      "size": 3466085,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794386279.0,
+        "added": 1794858599.0,
         "source": "https://github.com/LIghtJUNction/MagicNet"
       },
       "versions": [
         {
-          "version": "v1.8.7",
-          "versionCode": 10615,
-          "zipUrl": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.7/MagicNet-core.zip",
-          "timestamp": 1794386279.0,
-          "size": 3463139
+          "version": "v1.8.9",
+          "versionCode": 10617,
+          "zipUrl": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.9/MagicNet-core.zip",
+          "timestamp": 1794858599.0,
+          "size": 3466085
         }
       ]
     },
@@ -13471,7 +13896,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 234
+      "stars": 235
     },
     {
       "id": "magisk-alist",
@@ -13921,7 +14346,7 @@
         {
           "versionCode": 17260301,
           "version": "17.26.3-1",
-          "timestamp": 1794781542.0,
+          "timestamp": 1794839907.0,
           "zipUrl": "https://github.com/ViRb3/magisk-frida/releases/download/17.26.3-1/MagiskFrida-17.26.3-1.zip",
           "size": 146764687,
           "changelog": "https://raw.githubusercontent.com/ViRb3/magisk-frida/master/CHANGELOG.md"
@@ -14088,7 +14513,7 @@
         "magisk.permission.SERVICE"
       ],
       "size": 4331,
-      "stars": 277
+      "stars": 275
     },
     {
       "id": "MAGNETAR",
@@ -14190,6 +14615,31 @@
       ]
     },
     {
+      "id": "MaxManager",
+      "name": "MaxManager",
+      "version": "V4",
+      "versionCode": 83,
+      "author": "MaxManager Project",
+      "description": "MaxManager - adaptive, chip-aware performance tuning for your device.",
+      "homepage": "https://github.com/nader295/maxmanager",
+      "size": 23993275,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1793237224.0,
+        "source": "https://github.com/nader295/maxmanager"
+      },
+      "versions": [
+        {
+          "version": "V4",
+          "versionCode": 83,
+          "zipUrl": "https://github.com/nader295/MaxManager/releases/download/v4.0/MaxManager-V4.zip",
+          "timestamp": 1793237224.0,
+          "size": 23993275
+        }
+      ]
+    },
+    {
       "id": "magisk-module-mejiro-font",
       "name": "Mejiro Font",
       "author": "AndroPlus",
@@ -14243,6 +14693,31 @@
           "zipUrl": "https://github.com/qvq9999/MemKeep/releases/download/v3.5/MemKeepPlus-v3.5.zip",
           "timestamp": 1792553406.0,
           "size": 93433
+        }
+      ]
+    },
+    {
+      "id": "meow_iconshape",
+      "name": "Meow icon shape overlay",
+      "version": "1",
+      "versionCode": 1,
+      "author": "ImMALWARE",
+      "description": "Applies meow (cat-ears) icon mask natively via a lightweight RRO overlay on framework-res.",
+      "homepage": "https://github.com/immalware/meow-icon-shape-magisk",
+      "size": 6237,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794849052.0,
+        "source": "https://github.com/immalware/meow-icon-shape-magisk"
+      },
+      "versions": [
+        {
+          "version": "1",
+          "versionCode": 1,
+          "zipUrl": "https://github.com/ImMALWARE/meow-icon-shape-magisk/releases/download/1/meow-icon-shape-magisk-1.zip",
+          "timestamp": 1794849052.0,
+          "size": 6237
         }
       ]
     },
@@ -15467,8 +15942,8 @@
       "id": "music-morphe",
       "name": "Music Morphe",
       "author": "j-hc",
-      "version": "v21.30.216 (patches 2.2.0.mpp)",
-      "versionCode": 20221128,
+      "version": "v21.30.216 (patches 2.3.0.mpp)",
+      "versionCode": 20221129,
       "track": {
         "type": "GIT",
         "added": 1786750000.0,
@@ -15476,11 +15951,11 @@
       },
       "versions": [
         {
-          "versionCode": 20221128,
-          "version": "v21.30.216 (patches 2.2.0.mpp)",
-          "timestamp": 1794326948.0,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221128/music-morphe-module-v9.30.53-arm64-v8a.zip",
-          "size": 69163138,
+          "versionCode": 20221129,
+          "version": "v21.30.216 (patches 2.3.0.mpp)",
+          "timestamp": 1794845420.0,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221129/music-morphe-module-v9.30.53-arm64-v8a.zip",
+          "size": 70047581,
           "changelog": ""
         }
       ],
@@ -15497,7 +15972,7 @@
         "mmrl.permission.APKS"
       ],
       "maxApi": 36,
-      "size": 69163138
+      "size": 70047581
     },
     {
       "id": "MyDNS",
@@ -15733,7 +16208,7 @@
         {
           "versionCode": 54,
           "version": "v1.2",
-          "timestamp": 1794781542.0,
+          "timestamp": 1794839907.0,
           "zipUrl": "https://github.com/Rem01Gaming/net-switch/releases/download/1.2/net-switch-1.2-54-64b5764-release.zip",
           "size": 18560,
           "changelog": "https://raw.githubusercontent.com/Rem01Gaming/net-switch/main/changelog.md"
@@ -15809,7 +16284,7 @@
       ],
       "permissions": [],
       "size": 27525137,
-      "stars": 1435
+      "stars": 1441
     },
     {
       "id": "netproxy_xray",
@@ -16112,25 +16587,25 @@
     {
       "id": "nomount",
       "name": "NoMount-kpm",
-      "version": "v2.2.0-20261022",
-      "versionCode": 20261022,
+      "version": "v2.3.0-20261116",
+      "versionCode": 20261116,
       "author": "maxsteeel, Codex",
       "description": "通过 NoMount KPM 加载模块中的系统应用和文件。",
       "homepage": "https://github.com/lzghzr/APatch_kpm",
-      "size": 84857,
+      "size": 106641,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794242114.0,
+        "added": 1794837542.0,
         "source": "https://github.com/lzghzr/APatch_kpm"
       },
       "versions": [
         {
-          "version": "v2.2.0-20261022",
-          "versionCode": 20261022,
-          "zipUrl": "https://github.com/lzghzr/APatch_kpm/releases/download/2026110900/NoMount-kpm_2.2.0-20261022.zip",
-          "timestamp": 1794242114.0,
-          "size": 84857
+          "version": "v2.3.0-20261116",
+          "versionCode": 20261116,
+          "zipUrl": "https://github.com/lzghzr/APatch_kpm/releases/download/2026111600/NoMount-kpm_2.3.0-20261116.zip",
+          "timestamp": 1794837542.0,
+          "size": 106641
         }
       ]
     },
@@ -16484,6 +16959,52 @@
           "size": 4930351
         }
       ]
+    },
+    {
+      "id": "ohmykeymint",
+      "name": "Oh My Keymint",
+      "author": "James Clef",
+      "version": "1.2.6-9069c6c",
+      "versionCode": 180,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0.0,
+        "source": "https://github.com/qwq233/OhMyKeymint"
+      },
+      "versions": [
+        {
+          "versionCode": 180,
+          "version": "1.2.6-9069c6c",
+          "timestamp": 1793941230.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.6-9069c6c_180.zip",
+          "size": 4930351,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.6-9069c6c_180.md"
+        },
+        {
+          "versionCode": 174,
+          "version": "1.2.5-17b0eb6",
+          "timestamp": 1793369449.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.5-17b0eb6_174.zip",
+          "size": 4933635,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.5-17b0eb6_174.md"
+        },
+        {
+          "versionCode": 155,
+          "version": "1.2.0-a1f3241",
+          "timestamp": 1789565269.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.0-a1f3241_155.zip",
+          "size": 4854133,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.0-a1f3241_155.md"
+        }
+      ],
+      "verified": false,
+      "description": "Custom keystore implementation for Android Keystore Spoofer",
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY"
+      ],
+      "size": 4930351
     },
     {
       "id": "oled2lcd",
@@ -17683,6 +18204,58 @@
       "size": 692511
     },
     {
+      "id": "playintegrity-inject",
+      "name": "Play Integrity Fix [INJECT]",
+      "author": "chiteroman, KOWX712",
+      "version": "v4.9-inject-s",
+      "versionCode": 490,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0.0,
+        "source": "https://github.com/KOWX712/PlayIntegrityFix"
+      },
+      "versions": [
+        {
+          "versionCode": 490,
+          "version": "v4.9-inject-s",
+          "timestamp": 1792073460.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.9-inject-s_490.zip",
+          "size": 692511,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.9-inject-s_490.md"
+        },
+        {
+          "versionCode": 480,
+          "version": "v4.8-inject-s",
+          "timestamp": 1791812983.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.8-inject-s_480.zip",
+          "size": 691564,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.8-inject-s_480.md"
+        },
+        {
+          "versionCode": 471,
+          "version": "v4.7-1-inject-s",
+          "timestamp": 1783849380.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.7-1-inject-s_471.zip",
+          "size": 660329,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.7-1-inject-s_471.md"
+        }
+      ],
+      "verified": false,
+      "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
+      "categories": [
+        "Must Have"
+      ],
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.DEXS"
+      ],
+      "size": 692511
+    },
+    {
       "id": "PlayIntegrityFork",
       "name": "Play Integrity Fork",
       "author": "osm0sis & chiteroman @ xda-developers",
@@ -17769,7 +18342,7 @@
         "mmrl.permission.DEXS"
       ],
       "size": 347894,
-      "stars": 4688
+      "stars": 4694
     },
     {
       "id": "playintegrityfork",
@@ -19183,25 +19756,25 @@
     {
       "id": "resonancefx",
       "name": "ResonanceFX",
-      "version": "v2.2.1",
-      "versionCode": 20201,
+      "version": "v2.3.0",
+      "versionCode": 20300,
       "author": "Xeloria",
       "description": "Free and open-source audio effects engine by Xeloria.",
       "homepage": "https://github.com/xeloria/resonancefx",
-      "size": 918328,
+      "size": 1667300,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1793548592.0,
+        "added": 1794874997.0,
         "source": "https://github.com/xeloria/resonancefx"
       },
       "versions": [
         {
-          "version": "v2.2.1",
-          "versionCode": 20201,
-          "zipUrl": "https://github.com/xeloria/ResonanceFX/releases/download/2.2.1/ResonanceFX-v2.2.1.zip",
-          "timestamp": 1793548592.0,
-          "size": 918328
+          "version": "v2.3.0",
+          "versionCode": 20300,
+          "zipUrl": "https://github.com/xeloria/ResonanceFX/releases/download/2.3.0/ResonanceFX-v2.3.0.zip",
+          "timestamp": 1794874997.0,
+          "size": 1667300
         }
       ]
     },
@@ -19286,7 +19859,7 @@
         "miscellaneous"
       ],
       "permissions": [],
-      "stars": 245
+      "stars": 246
     },
     {
       "id": "rezygisk",
@@ -19675,31 +20248,6 @@
       ]
     },
     {
-      "id": "s3ra1n-usb",
-      "name": "s3ra1n USB HAL Guard",
-      "version": "v0.1",
-      "versionCode": 1,
-      "author": "Noxbit",
-      "description": "Grants palera1n exclusive USB access by suspending Android USB HAL services and using kernel USB authorization control. Required for the t3ra1n jailbreak tool.",
-      "homepage": "https://github.com/noxproductions/t3ra1n",
-      "size": 6826,
-      "verified": false,
-      "track": {
-        "type": "GIT",
-        "added": 1776818999.0,
-        "source": "https://github.com/noxproductions/t3ra1n"
-      },
-      "versions": [
-        {
-          "version": "v0.1",
-          "versionCode": 1,
-          "zipUrl": "https://github.com/NoxProductions/t3ra1n/releases/download/t3ra1nV1/s3ra1n-usb-v0.1.zip",
-          "timestamp": 1776818999.0,
-          "size": 6826
-        }
-      ]
-    },
-    {
       "id": "sensitive_props",
       "name": "SafetyNet sensitive props",
       "author": "HuskyDG",
@@ -20037,7 +20585,7 @@
         "magisk.permission.ZYGISK"
       ],
       "size": 4979675,
-      "stars": 25508
+      "stars": 25522
     },
     {
       "id": "font_collection_sharetech",
@@ -20388,25 +20936,25 @@
     {
       "id": "smalipatcher_reborn",
       "name": "Smali Patcher Reborn",
-      "version": "v0.5.0-dev",
-      "versionCode": 500,
+      "version": "v0.5.1-dev",
+      "versionCode": 501,
       "author": "saadnahid7",
       "description": "Patches your own services.jar on the device at install time: hide mock location, mock without mock-app permission, allow screenshots in secure windows, plus optional high-volume warning and GNSS off. Android 10 - 17.",
       "homepage": "https://github.com/saadnahid7/smalipatcherreborn",
-      "size": 1096930,
+      "size": 1097252,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1791264517.0,
+        "added": 1794878544.0,
         "source": "https://github.com/saadnahid7/smalipatcherreborn"
       },
       "versions": [
         {
-          "version": "v0.5.0-dev",
-          "versionCode": 500,
-          "zipUrl": "https://github.com/saadnahid7/SmaliPatcherReborn/releases/download/v0.5.0-dev/SmaliPatcherReborn-module-v0.5.0-dev.zip",
-          "timestamp": 1791264517.0,
-          "size": 1096930
+          "version": "v0.5.1-dev",
+          "versionCode": 501,
+          "zipUrl": "https://github.com/saadnahid7/SmaliPatcherReborn/releases/download/v0.5.1-dev/SmaliPatcherReborn-module-v0.5.1-dev.zip",
+          "timestamp": 1794878544.0,
+          "size": 1097252
         }
       ]
     },
@@ -21233,25 +21781,25 @@
     {
       "id": "sub-store-runsv",
       "name": "Sub-Store (runsv)",
-      "version": "2.44.15-r3.237ce0ef9591",
-      "versionCode": 216969170,
+      "version": "2.44.16-r3.c2449dee31af",
+      "versionCode": 217061836,
       "author": "sorubedo(github)",
       "description": "Sub-Store frontend and backend in merged mode, with Android Node.js LTS. Requires runsvdir-magisk. No http-meta.",
       "homepage": "https://github.com/sorubedo/sub-store-magisk-runsv",
-      "size": 38040548,
+      "size": 38040561,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794805994.0,
+        "added": 1794898658.0,
         "source": "https://github.com/sorubedo/sub-store-magisk-runsv"
       },
       "versions": [
         {
-          "version": "2.44.15-r3.237ce0ef9591",
-          "versionCode": 216969170,
-          "zipUrl": "https://github.com/sorubedo/sub-store-magisk-runsv/releases/download/v2.44.15-r3.237ce0ef9591/sub-store-runsv-2.44.15-r3.237ce0ef9591-arm64-v8a.zip",
-          "timestamp": 1794805994.0,
-          "size": 38040548
+          "version": "2.44.16-r3.c2449dee31af",
+          "versionCode": 217061836,
+          "zipUrl": "https://github.com/sorubedo/sub-store-magisk-runsv/releases/download/v2.44.16-r3.c2449dee31af/sub-store-runsv-2.44.16-r3.c2449dee31af-arm64-v8a.zip",
+          "timestamp": 1794898658.0,
+          "size": 38040561
         }
       ]
     },
@@ -21485,7 +22033,7 @@
       ],
       "permissions": [],
       "size": 30505,
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "susfs_lkm_x64",
@@ -22288,7 +22836,7 @@
       ],
       "permissions": [],
       "size": 32979,
-      "stars": 2
+      "stars": 3
     },
     {
       "id": "hdrfix_fp16_client_target",
@@ -22915,6 +23463,42 @@
         "System"
       ],
       "size": 6886
+    },
+    {
+      "id": "tricky-addon",
+      "name": "Tricky Addon - Update Target List",
+      "author": "KOWX712",
+      "version": "v4.4",
+      "versionCode": 679,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0.0,
+        "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List"
+      },
+      "versions": [
+        {
+          "versionCode": 679,
+          "version": "v4.4",
+          "timestamp": 1782029771.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/TA_utl/v4.4_679.zip",
+          "size": 3203800,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/TA_utl/v4.4_679.md"
+        }
+      ],
+      "verified": false,
+      "description": "A WebUI to conifgure tricky store target.txt ",
+      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
+      "license": " GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
+      "categories": [
+        "WebUI"
+      ],
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "size": 3203800
     },
     {
       "id": "tricky-addon-target-list",
@@ -23618,6 +24202,31 @@
       "stars": 8
     },
     {
+      "id": "uburoot",
+      "name": "UbuRoot",
+      "version": "0.3.0",
+      "versionCode": 4,
+      "author": "reinanbr",
+      "description": "Ubuntu arm64 chroot with a real terminal. This file is both the UbuRoot app (APK) and its root module; the module installs the app and, if enabled in the app, starts Ubuntu at boot.",
+      "homepage": "https://github.com/reinanbr/uburoot",
+      "size": 1509300,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794849117.0,
+        "source": "https://github.com/reinanbr/uburoot"
+      },
+      "versions": [
+        {
+          "version": "0.3.0",
+          "versionCode": 4,
+          "zipUrl": "https://github.com/reinanbr/uburoot/releases/download/v0.3.0/uburoot-0.3.0-release-module.zip",
+          "timestamp": 1794849117.0,
+          "size": 1509300
+        }
+      ]
+    },
+    {
       "id": "font_collection_unicaone",
       "name": "Unica One Font",
       "author": "Fruitsnack",
@@ -24086,6 +24695,43 @@
       "size": 94828
     },
     {
+      "id": "VanadiumWebviewManager",
+      "name": "Vanadium WebView Manager",
+      "author": "Lean",
+      "version": "3.1",
+      "versionCode": 31,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794605486.0,
+        "source": "https://github.com/LeanxModulostk/VanadiumWebviewManager"
+      },
+      "versions": [
+        {
+          "versionCode": 31,
+          "version": "3.1",
+          "timestamp": 1794605486.0,
+          "zipUrl": "https://github.com/LeanxModulostk/VanadiumWebviewManager/releases/download/v31/Vanadium_Webview_Manager_v3.1.zip",
+          "size": 4060477,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/VanadiumWebviewManager/changelogs/3.1.md"
+        }
+      ],
+      "verified": false,
+      "description": "Vanadium GrapheneOS hardened Chromium-based browser and WebView, focused on security and privacy. Installs and updates WebView, Browser and Config, with WebUI.",
+      "icon": "https://modules.kernelsu.org/assets/6fc6bb874bb5ad22.jpg",
+      "support": "https://t.me/modulostk",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/VanadiumWebviewManager/README.md",
+      "categories": [
+        "webview",
+        "privacy",
+        "security",
+        "webui"
+      ],
+      "permissions": [],
+      "size": 4060477,
+      "stars": 15
+    },
+    {
       "id": "Vazirmatn-Regular",
       "name": "Vazirmatn-Regular",
       "author": "mohammad ostadi",
@@ -24169,14 +24815,22 @@
       "id": "vddropbear",
       "name": "VD Dropbear",
       "author": "VD171",
-      "version": "v1.02",
-      "versionCode": 10002,
+      "version": "v1.06",
+      "versionCode": 10006,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794698472.0,
         "source": "https://github.com/VD171/VD-dropbear"
       },
       "versions": [
+        {
+          "versionCode": 10006,
+          "version": "v1.06",
+          "timestamp": 1794857040.0,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.06_10006.zip",
+          "size": 2670612,
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.06_10006.md"
+        },
         {
           "versionCode": 10002,
           "version": "v1.02",
@@ -24193,8 +24847,8 @@
         "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI"
       ],
-      "size": 2587648,
-      "stars": 16
+      "size": 2670612,
+      "stars": 19
     },
     {
       "id": "vdgoogle",
@@ -24224,49 +24878,7 @@
         "mmrl.permission.WEBUI_CONFIG"
       ],
       "size": 2372375,
-      "stars": 143
-    },
-    {
-      "id": "vdbackup",
-      "name": "VDBackup",
-      "author": "VD171",
-      "version": "v1.08",
-      "versionCode": 10800,
-      "track": {
-        "type": "ONLINE_JSON",
-        "added": 1794619530.0,
-        "source": "https://github.com/VD171/VD-Backup"
-      },
-      "versions": [
-        {
-          "versionCode": 10800,
-          "version": "v1.08",
-          "timestamp": 1794763983.0,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.zip",
-          "size": 51095243,
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.08_10800.md"
-        },
-        {
-          "versionCode": 10700,
-          "version": "v1.07",
-          "timestamp": 1794541726.0,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.zip",
-          "size": 49628589,
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.07_10700.md"
-        }
-      ],
-      "verified": false,
-      "description": "Full app and data backup & restore.",
-      "permissions": [
-        "magisk.permission.SERVICE",
-        "magisk.permission.SEPOLICY",
-        "kernelsu.permission.WEBUI",
-        "mmrl.permission.WEBUI_CONFIG",
-        "mmrl.permission.APKS",
-        "mmrl.permission.DEXS"
-      ],
-      "size": 51095243,
-      "stars": 82
+      "stars": 144
     },
     {
       "id": "vector",
@@ -24322,7 +24934,7 @@
         {
           "versionCode": 3080,
           "version": "v2.2",
-          "timestamp": 1794781542.0,
+          "timestamp": 1794839907.0,
           "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/v2.2/Vector-v2.2-3080-Release.zip",
           "size": 9316843,
           "changelog": "https://raw.githubusercontent.com/JingMatrix/Vector/master/zygisk/changelog.md"
@@ -24907,7 +25519,7 @@
         "development"
       ],
       "permissions": [],
-      "stars": 798
+      "stars": 804
     },
     {
       "id": "webview_optimizer",
@@ -25342,7 +25954,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 45880,
-      "stars": 106
+      "stars": 105
     },
     {
       "id": "kaina",
@@ -25840,7 +26452,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 16401,
-      "stars": 209
+      "stars": 210
     },
     {
       "id": "YAKT",
@@ -25901,8 +26513,8 @@
       "id": "youtube-morphe",
       "name": "YouTube Morphe",
       "author": "j-hc",
-      "version": "v21.30.216 (patches 2.2.0.mpp)",
-      "versionCode": 20221128,
+      "version": "v21.30.216 (patches 2.3.0.mpp)",
+      "versionCode": 20221129,
       "track": {
         "type": "GIT",
         "added": 1786750000.0,
@@ -25910,11 +26522,11 @@
       },
       "versions": [
         {
-          "versionCode": 20221128,
-          "version": "v21.30.216 (patches 2.2.0.mpp)",
-          "timestamp": 1794326948.0,
-          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221128/youtube-morphe-module-v21.30.216-all.zip",
-          "size": 237012659,
+          "versionCode": 20221129,
+          "version": "v21.30.216 (patches 2.3.0.mpp)",
+          "timestamp": 1794845420.0,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221129/youtube-morphe-module-v21.30.216-all.zip",
+          "size": 238537113,
           "changelog": ""
         }
       ],
@@ -25931,7 +26543,7 @@
         "mmrl.permission.APKS"
       ],
       "maxApi": 36,
-      "size": 237012659
+      "size": 238537113
     },
     {
       "id": "yt-morphe",
@@ -25948,7 +26560,7 @@
         {
           "versionCode": 164,
           "version": "v21.30.216 (patches 2.2.0.mpp)",
-          "timestamp": 1794781542.0,
+          "timestamp": 1794839907.0,
           "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/164/youtube-morphe-module-v21.30.216-all.zip",
           "size": 237034800,
           "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-extended/update/build.md"
@@ -26023,7 +26635,7 @@
         {
           "versionCode": 164,
           "version": "v9.30.53 (patches 2.2.0.mpp)",
-          "timestamp": 1794781542.0,
+          "timestamp": 1794839907.0,
           "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/164/youtube-music-morphe-module-v9.30.53-arm64-v8a.zip",
           "size": 69192690,
           "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-extended/update/build.md"
@@ -26100,7 +26712,40 @@
       ],
       "permissions": [],
       "size": 3416152,
-      "stars": 137
+      "stars": 141
+    },
+    {
+      "id": "yumi",
+      "name": "yumi",
+      "author": "yuki",
+      "version": "v2.0.2",
+      "versionCode": 20002,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0.0,
+        "source": "https://github.com/imacte/yumi"
+      },
+      "versions": [
+        {
+          "versionCode": 20002,
+          "version": "v2.0.2",
+          "timestamp": 1785501357.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/yumi/v2.0.2_20002.zip",
+          "size": 1028473,
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/yumi/v2.0.2_20002.md"
+        }
+      ],
+      "verified": false,
+      "description": " yumi",
+      "categories": [
+        "Tools",
+        "Performance"
+      ],
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "kernelsu.permission.WEBUI"
+      ],
+      "size": 1028473
     },
     {
       "id": "Yurikey",
@@ -26117,7 +26762,7 @@
         {
           "versionCode": 310,
           "version": "3.1.0",
-          "timestamp": 1794781542.0,
+          "timestamp": 1794839907.0,
           "zipUrl": "https://github.com/Yurii0307/yurikey/releases/download/v3.1.0/Yurikey-v3.1.0.signed.zip",
           "changelog": "https://raw.githubusercontent.com/Yurii0307/yurikey/main/changelog.md"
         }
@@ -26602,7 +27247,7 @@
       ],
       "permissions": [],
       "size": 7677650,
-      "stars": 26
+      "stars": 27
     },
     {
       "id": "zygisk_ifw_enhance",
@@ -27126,54 +27771,40 @@
       "track": {
         "type": "ONLINE_JSON",
         "added": 0.0,
-        "source": "https://github.com/Dr-TSNG/ZygiskNext"
+        "source": "https://github.com/LSPosed/ZygiskNext"
       },
       "versions": [
         {
           "versionCode": 864,
           "version": "1.5.2 (864-a4a72ce-release)",
           "timestamp": 1791901439.0,
-          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.5.2_864-a4a72ce-release.zip",
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisknext/1.5.2_864-a4a72ce-release.zip",
           "size": 6714344,
-          "changelog": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.5.2_864-a4a72ce-release.md"
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisknext/1.5.2_864-a4a72ce-release.md"
         },
         {
           "versionCode": 862,
           "version": "1.5.1 (862-56ae062-release)",
           "timestamp": 1791815458.0,
-          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.5.1_862-56ae062-release.zip",
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisknext/1.5.1_862-56ae062-release.zip",
           "size": 6682412,
-          "changelog": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.5.1_862-56ae062-release.md"
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisknext/1.5.1_862-56ae062-release.md"
         },
         {
           "versionCode": 843,
           "version": "1.5.0 (843-5217106-release)",
-          "timestamp": 1787705664.0,
-          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.5.0_843-5217106-release.zip",
+          "timestamp": 1789877965.0,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisksu/1.5.0_843-5217106-release.zip",
           "size": 7529581,
-          "changelog": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.5.0_843-5217106-release.md"
-        },
-        {
-          "versionCode": 836,
-          "version": "1.4.5 (836-b13d58a-release)",
-          "timestamp": 1785905638.0,
-          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.4.5_836-b13d58a-release.zip",
-          "size": 7365185,
-          "changelog": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.4.5_836-b13d58a-release.md"
-        },
-        {
-          "versionCode": 831,
-          "version": "1.4.4 (831-98fd9c6-release)",
-          "timestamp": 1785584537.0,
-          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.4.4_831-98fd9c6-release.zip",
-          "size": 7352670,
-          "changelog": "https://misak10.github.io/mmrl-repo/modules/zygisknext/1.4.4_831-98fd9c6-release.md"
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisksu/1.5.0_843-5217106-release.md"
         }
       ],
       "verified": false,
       "description": "Standalone implementation of Zygisk.",
-      "support": "https://github.com/Dr-TSNG/ZygiskNext/issues",
-      "readme": "https://raw.githubusercontent.com/Dr-TSNG/ZygiskNext/main/README.md",
+      "categories": [
+        "Tools",
+        "Must Have"
+      ],
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -27224,7 +27855,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 5810459,
-      "stars": 11009
+      "stars": 11023
     },
     {
       "id": "zygiskfrida",
@@ -27621,6 +28252,43 @@
       "size": 431844
     },
     {
+      "id": "Mediatek_Mali_GPU_Governor",
+      "name": "天玑 GPU 调速器",
+      "author": "瓦力喀 / Seyud, Tools-cx-app",
+      "version": "v2.12.5",
+      "versionCode": 20261012,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1791779976.0,
+        "source": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release"
+      },
+      "versions": [
+        {
+          "versionCode": 20261012,
+          "version": "v2.12.5",
+          "timestamp": 1791779976.0,
+          "zipUrl": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/download/v2.12.5/Mediatek_Mali_GPU_Governor_v2.12.5.zip",
+          "size": 975589,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/Mediatek_Mali_GPU_Governor/changelogs/v2.12.5.md"
+        }
+      ],
+      "verified": false,
+      "description": "适用于联发科 Mali GPU 的动态调速器：Rust 引擎实时监控 GPU 负载并动态调整频率，在游戏性能与功耗之间取得平衡。",
+      "icon": "https://modules.kernelsu.org/assets/f784b1d7dff06d0a.png",
+      "support": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/issues",
+      "license": "GPL-3.0-or-later",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/Mediatek_Mali_GPU_Governor/README.md",
+      "categories": [
+        "gpu",
+        "governor",
+        "mali",
+        "mediatek"
+      ],
+      "permissions": [],
+      "size": 975589,
+      "stars": 82
+    },
+    {
       "id": "wzn01",
       "name": "微信QQ内存压制",
       "author": "温助宁",
@@ -27701,6 +28369,31 @@
       ]
     },
     {
+      "id": "motion_cues_port",
+      "name": "晕动舒缓显示（欧加通用）",
+      "version": "v7.4",
+      "versionCode": 74,
+      "author": "三重&大肥鱼   酷安@MieAi",
+      "description": "为缺少「晕动舒缓显示」的 OPPO/一加/realme(欧加) ColorOS 16 机型补全原生功能：自动识别机型与传感器、驱动原厂 AntiDizzy 渲染、圆点边缘抗锯齿自适应任意分辨率、车辆运动识别（抗手持误判）",
+      "homepage": "https://github.com/mieaiiii/oplus-antidizzy-module",
+      "size": 34491,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794854206.0,
+        "source": "https://github.com/mieaiiii/oplus-antidizzy-module"
+      },
+      "versions": [
+        {
+          "version": "v7.4",
+          "versionCode": 74,
+          "zipUrl": "https://github.com/MieAiiii/oplus-antidizzy-module/releases/download/v7.4/oplus-antidizzy-module-v7.4.zip",
+          "timestamp": 1794854206.0,
+          "size": 34491
+        }
+      ]
+    },
+    {
       "id": "icbc_daily_water",
       "name": "澎湃自动化—XiaomiAutomation",
       "version": "v0.13.4",
@@ -27724,6 +28417,43 @@
           "size": 148408
         }
       ]
+    },
+    {
+      "id": "mirage_forge",
+      "name": "蜃楼工坊 · MirageForge",
+      "author": "jjh138792",
+      "version": "1.2.0",
+      "versionCode": 120,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1794460579.0,
+        "source": "https://github.com/jjh138792/MirageForge"
+      },
+      "versions": [
+        {
+          "versionCode": 120,
+          "version": "1.2.0",
+          "timestamp": 1794460579.0,
+          "zipUrl": "https://github.com/jjh138792/MirageForge/releases/download/1.2.0/MirageForge-Zygisk-1.2.0.zip",
+          "size": 2181768,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/mirage_forge/changelogs/1.2.0.md"
+        }
+      ],
+      "verified": false,
+      "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
+      "icon": "https://modules.kernelsu.org/assets/bf87da9eba197fa7.png",
+      "support": "https://github.com/jjh138792/MirageForge/issues",
+      "license": "GPL-3.0-only",
+      "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/mirage_forge/README.md",
+      "categories": [
+        "spoofing",
+        "tweaks",
+        "webui",
+        "zygisk"
+      ],
+      "permissions": [],
+      "size": 2181768,
+      "stars": 2
     },
     {
       "id": "CertBridge",
@@ -27759,7 +28489,7 @@
       ],
       "permissions": [],
       "size": 5606814,
-      "stars": 57
+      "stars": 58
     },
     {
       "id": "Lowlife",

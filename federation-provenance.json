@@ -364,6 +364,10 @@
       "kind": "catalog",
       "url": "https://github.com/flipphoneguy/DirtySepolicy_Bypass"
     },
+    "DisableApkVerification": {
+      "kind": "catalog",
+      "url": "https://github.com/mods-center/apk-signature-verification-patch"
+    },
     "disable_default_game_frame_rate": {
       "kind": "catalog",
       "url": "https://github.com/justmlc4real/disable-default-game-frame-rate"
@@ -636,6 +640,10 @@
       "kind": "catalog",
       "url": "https://github.com/mengwuzhuanshou/honorlsposedfix"
     },
+    "hsin": {
+      "kind": "catalog",
+      "url": "https://github.com/isac12345/hsin"
+    },
     "hybrid_mount": {
       "kind": "catalog",
       "url": "https://github.com/YuzakiKokuban/meta-hybrid_mount"
@@ -848,9 +856,17 @@
       "kind": "catalog",
       "url": "https://github.com/duyquang6/maple-mono-android"
     },
+    "MaxManager": {
+      "kind": "catalog",
+      "url": "https://github.com/nader295/maxmanager"
+    },
     "memkeep_plus": {
       "kind": "catalog",
       "url": "https://github.com/qvq9999/memkeep"
+    },
+    "meow_iconshape": {
+      "kind": "catalog",
+      "url": "https://github.com/immalware/meow-icon-shape-magisk"
     },
     "micfix_speaker_tx_earpiece": {
       "kind": "catalog",
@@ -1192,10 +1208,6 @@
       "kind": "catalog",
       "url": "https://github.com/andresuhensleeby-a11y/thermal-fire-universal-v1.4.0"
     },
-    "s3ra1n-usb": {
-      "kind": "catalog",
-      "url": "https://github.com/noxproductions/t3ra1n"
-    },
     "samsung-dex-standalone-mode": {
       "kind": "catalog",
       "url": "https://github.com/supermarsx/magisk-samsung-dex-standalone-mode"
@@ -1227,6 +1239,10 @@
     "smalipatcher_reborn": {
       "kind": "catalog",
       "url": "https://github.com/saadnahid7/smalipatcherreborn"
+    },
+    "smallbattery": {
+      "kind": "mmrl",
+      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
     },
     "SMB_Smart_Sync": {
       "kind": "catalog",
@@ -1403,6 +1419,10 @@
     "ubuntu-chroot": {
       "kind": "catalog",
       "url": "https://github.com/ravindu644/Ubuntu-Chroot"
+    },
+    "uburoot": {
+      "kind": "catalog",
+      "url": "https://github.com/reinanbr/uburoot"
     },
     "unicode_font_set": {
       "kind": "catalog",
@@ -1611,6 +1631,10 @@
     "hoshitele": {
       "kind": "catalog",
       "url": "https://github.com/tsangasuna/hoshitele-dns-module"
+    },
+    "motion_cues_port": {
+      "kind": "catalog",
+      "url": "https://github.com/mieaiiii/oplus-antidizzy-module"
     },
     "icbc_daily_water": {
       "kind": "catalog",
@@ -2820,10 +2844,6 @@
       "kind": "mmrl",
       "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
     },
-    "smallbattery": {
-      "kind": "mmrl",
-      "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
-    },
     "sqlite3": {
       "kind": "mmrl",
       "url": "https://magisk-modules-alt-repo.github.io/json-v2/"
@@ -2928,11 +2948,27 @@
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
+    "AD_Killer_By_NFQUEUE": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "adbdisabler": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "ByeBlur": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
     "cacerts_bind_manager": {
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
     "CertBridge": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "chargebypasscap-pmi": {
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
@@ -2960,11 +2996,19 @@
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
+    "example_module_demo": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
     "FreePPS": {
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
     "frida-ksu": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "galaxy_watch_nfc_provide": {
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
@@ -2984,7 +3028,19 @@
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
+    "Logd_Disabler_ColorOS16": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
     "magisk-netbird": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "Mediatek_Mali_GPU_Governor": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "mirage_forge": {
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
@@ -3017,6 +3073,10 @@
       "url": "https://mmrl.dev/repo/ksu/"
     },
     "tailscale-bindhosts": {
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
+    },
+    "VanadiumWebviewManager": {
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/ksu/"
     },
@@ -3312,10 +3372,6 @@
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/RavenWolf1998/MMRL-Magisk-Module-Repo/main/"
     },
-    "vdbackup": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
-    },
     "vddropbear": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
@@ -3323,6 +3379,38 @@
     "vdgoogle": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
+    },
+    "encoretweaks": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
+    },
+    "hma-oss": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
+    },
+    "ohmykeymint": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
+    },
+    "playintegrity-inject": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
+    },
+    "tricky-addon": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
+    },
+    "yumi": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
+    },
+    "zygisklsposed": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
+    },
+    "zygisknext": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
     },
     "CustomPinyinDictionary": {
       "kind": "mmrl",
@@ -3424,10 +3512,6 @@
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/uonou/mmrl-repo/main/"
     },
-    "zygisknext": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/uonou/mmrl-repo/main/"
-    },
     "zygisksui": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/uonou/mmrl-repo/main/"
@@ -3442,123 +3526,219 @@
     "Infamick_script": 1,
     "NovaInstaller": 1,
     "ZRAM-Module": 3,
-    "abootloop": 6,
-    "acc": 3,
+    "abootloop": 7,
+    "acc": 4,
     "adb_root": 1,
-    "audio-jitter-silencer": 2,
-    "audio-misc-settings": 2,
+    "audio-jitter-silencer": 3,
+    "audio-misc-settings": 3,
     "bootanimation-module-ronux": 1,
     "box_for_root": 1,
     "com.chiller3.alterinstaller": 1,
-    "disable-low-ram": 2,
+    "disable-low-ram": 3,
     "fastcharge-next": 1,
     "hifi-maximizer-mod": 1,
     "high_perf_dac": 1,
-    "hma_oss_zygisk": 2,
+    "hma_oss_zygisk": 3,
     "kp_enhancer": 1,
-    "livebootmagisk": 2,
-    "magisk-swapspace": 2,
+    "livebootmagisk": 3,
+    "magisk-swapspace": 3,
     "mm": 3,
-    "net-switch": 6,
+    "net-switch": 8,
     "openeuicc": 1,
-    "playintegrityfix": 10,
-    "rezygisk": 5,
-    "systemless-hosts-KernelSU-module": 2,
+    "playintegrityfix": 14,
+    "rezygisk": 7,
+    "systemless-hosts-KernelSU-module": 3,
     "universal-gms-doze": 3,
     "uperf": 5,
     "zapret": 1,
-    "zygisk-assistant": 5,
+    "zygisk-assistant": 7,
     "zygisk-sui": 4,
     "zygisk_nohello": 1,
-    "zygisk_vector": 4,
-    "bindhosts": 14,
-    "mmrl_wpd": 10,
-    "BetterKnownInstalled": 3,
-    "Re-Malwack": 2,
-    "TA_utl": 6,
-    "acp": 1,
-    "aml": 1,
-    "cubic-adblock": 2,
-    "djs": 2,
-    "flagsecurepatcher": 3,
-    "iOS_Emoji": 3,
-    "lune_bridge": 2,
-    "magisk-wifiadb": 1,
-    "meta-overlayfs": 1,
-    "sensitive_props": 3,
-    "susfs4ksu": 7,
-    "system_app_nuker": 2,
-    "tricky_store": 10,
-    "usb-samplerate-unlocker": 2,
-    "vbmeta-fixer": 1,
-    "zygisk-detach": 10,
-    "zygisk_lsposed": 9,
-    "zygisksu": 9,
-    "com.chiller3.msd": 1,
-    "hybrid_mount": 3,
-    "BuiltIn-BusyBox": 1,
-    "CustomizedNavbar": 1,
-    "GMSDoze": 1,
-    "Luz-Nocturna_Modded": 1,
-    "NoProcStatRestriction": 1,
-    "QS_Rectangulares": 1,
-    "StevenBlock": 3,
-    "SystemlessDebloater": 2,
-    "ToyBox-Ext": 1,
-    "YetAnotherBootloopProtector": 1,
-    "audio-samplerate-changer": 1,
-    "chroot-distro": 2,
-    "custom-certificate-authorities": 1,
-    "data_backup": 1,
-    "data_isolation_support": 1,
-    "data_restore_Courier": 1,
-    "drc-remover": 1,
-    "enable-blurs": 1,
-    "isodrive": 1,
-    "magisk-autoboot": 1,
-    "magisk_proc_monitor": 1,
-    "oneplus-8series-9r-camera-unlocker": 1,
-    "open_fonts": 1,
-    "open_webview": 2,
-    "selinux_mode": 1,
-    "supl-replacer": 1,
-    "systemui-bootloop": 1,
-    "trichromelibrary-squoosh": 1,
-    "AZenith": 2,
-    "COPG": 4,
-    "encore": 4,
-    "mountify": 5,
-    "xhhttp": 1,
+    "zygisk_vector": 5,
+    "bindhosts": 22,
+    "mmrl_wpd": 15,
+    "BetterKnownInstalled": 4,
+    "Re-Malwack": 3,
+    "TA_utl": 9,
+    "acp": 2,
+    "aml": 2,
+    "cubic-adblock": 3,
+    "djs": 4,
+    "flagsecurepatcher": 4,
+    "iOS_Emoji": 5,
+    "lune_bridge": 4,
+    "magisk-wifiadb": 2,
+    "meta-overlayfs": 2,
+    "sensitive_props": 5,
+    "susfs4ksu": 9,
+    "system_app_nuker": 4,
+    "tricky_store": 13,
+    "usb-samplerate-unlocker": 4,
+    "vbmeta-fixer": 2,
+    "zygisk-detach": 14,
+    "zygisk_lsposed": 10,
+    "zygisksu": 12,
+    "com.chiller3.msd": 2,
+    "hybrid_mount": 5,
+    "BuiltIn-BusyBox": 2,
+    "CustomizedNavbar": 2,
+    "GMSDoze": 2,
+    "Luz-Nocturna_Modded": 2,
+    "NoProcStatRestriction": 2,
+    "QS_Rectangulares": 2,
+    "StevenBlock": 4,
+    "SystemlessDebloater": 3,
+    "ToyBox-Ext": 2,
+    "YetAnotherBootloopProtector": 2,
+    "audio-samplerate-changer": 2,
+    "chroot-distro": 3,
+    "custom-certificate-authorities": 2,
+    "data_backup": 2,
+    "data_isolation_support": 2,
+    "data_restore_Courier": 2,
+    "drc-remover": 2,
+    "enable-blurs": 2,
+    "isodrive": 2,
+    "magisk-autoboot": 2,
+    "magisk_proc_monitor": 2,
+    "oneplus-8series-9r-camera-unlocker": 2,
+    "open_fonts": 2,
+    "open_webview": 3,
+    "selinux_mode": 2,
+    "smallbattery": 2,
+    "supl-replacer": 2,
+    "systemui-bootloop": 2,
+    "trichromelibrary-squoosh": 2,
+    "AZenith": 3,
+    "COPG": 6,
+    "encore": 6,
+    "mountify": 7,
+    "xhhttp": 3,
     "altdb": 1,
     "auriya": 1,
     "device_faker": 1,
-    "duck-toolbox": 1,
+    "duck-toolbox": 2,
     "hypercool": 1,
     "KernelSU-Tuner": 1,
     "ksuGrantToast": 1,
     "lkm4ctr": 1,
-    "magic_mount_rs": 1,
+    "magic_mount_rs": 2,
     "MagicNet": 1,
+    "motion_cues_port": 1,
     "MoveCertificate": 1,
     "netproxy": 1,
-    "oh_my_keymint": 2,
+    "nomount": 1,
+    "oh_my_keymint": 3,
     "ReSuSFS": 1,
     "wipe_cache": 1,
     "zygisknextsu": 1,
-    "zygisk_shamiko": 8,
+    "zygisk_shamiko": 9,
     "gitmigrator": 2,
     "Yurikey": 2,
     "com.chiller3.bcr": 2,
     "cache_cleaner": 2,
     "asoul_affinity_opt": 2,
-    "busybox-ndk": 2,
-    "Malwack": 1,
-    "MiXplorer": 1,
-    "Xtreme-Battery-Saver": 1,
-    "adb-ndk": 1,
-    "gcc_on_android": 1,
-    "magisk_overlayfs": 1,
+    "busybox-ndk": 3,
+    "Malwack": 2,
+    "MiXplorer": 2,
+    "Xtreme-Battery-Saver": 2,
+    "adb-ndk": 2,
+    "gcc_on_android": 2,
+    "magisk_overlayfs": 2,
     "tcp_optimiser": 2,
+    "amtsmagisk": 1,
+    "ccbins": 1,
+    "mmrl": 1,
+    "nano-ndk": 1,
+    "powershell": 1,
+    "wx_pty_x": 1,
+    "zipsigner": 1,
+    "1sOtoOo63t0d": 1,
+    "bdJJPDbVGjKU": 1,
+    "com.dergoogler.mmrl.wx": 1,
+    "hybrid-mount": 1,
+    "IK6cln023OA3": 1,
+    "magisk": 1,
+    "meta-overlayfsx": 1,
+    "microg_installer_revived_again": 1,
+    "misnomer": 1,
+    "nextsusfs": 1,
+    "psh": 1,
+    "qgcP03aUu-Rq": 1,
+    "1_MARS_SOM_BASE-GEAR_FIRST": 1,
+    "AFWall-Boot-AntiLeak": 1,
+    "Better-MIUI-Icons": 1,
+    "BraviaEngine": 1,
+    "Bye-Blur": 1,
+    "Clash4Magisk": 1,
+    "CloudflareDNS4Magisk": 1,
+    "CloudflareDNS4Magisk-IPv6": 1,
+    "DalvikHyperthreading": 1,
+    "Detach": 1,
+    "Evolve-Evo": 1,
+    "Fdroid-Priv": 1,
+    "FluentEmojiMagisk": 1,
+    "GMS-Doze_Block_FindMyDevice": 1,
+    "Google-Sans": 1,
+    "Google-Sans-Plus": 1,
+    "GoogleDNS4Magisk": 1,
+    "GoogleDNS4Magisk-IPv6": 1,
+    "MacRandomizationEnabler": 1,
+    "Magisk-Captive-Control": 1,
+    "Magisk-DRM-Disabler": 1,
+    "Magisk-Tailscaled": 1,
+    "NavBar_Resize_AOSP": 1,
+    "NavBar_Resize_MIUI": 1,
+    "NoStorageRestrict": 1,
+    "OneController": 1,
+    "PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX": 1,
+    "RTKS": 1,
+    "Simple_BootloopSaver": 1,
+    "SomcGameEnhancer-Upgrade": 1,
+    "UbuntuFontVinaooo": 1,
+    "YAKT": 1,
+    "backup": 1,
+    "charch": 1,
+    "charch_dinit": 1,
+    "charch_openrc": 1,
+    "charch_sshd": 1,
+    "cmdpatch": 1,
+    "compatible-magisk-mirroring": 1,
+    "ezme-dex-space": 1,
+    "ezme-nodebug": 1,
+    "faina": 1,
+    "fbind": 1,
+    "frozen_magisk_app": 1,
+    "gaming": 1,
+    "gboard-dict-3": 1,
+    "heimdall-ndk": 1,
+    "kaina": 1,
+    "lhroot": 1,
+    "magic-flash": 1,
+    "magisk-module-koruri-font": 1,
+    "magisk-module-mejiro-font": 1,
+    "microG-GApps": 1,
+    "mkshrc": 1,
+    "node": 1,
+    "oneplusdotfix": 1,
+    "pdx213_assistant_camera_remap": 1,
+    "perf-limit-xiaomi-12": 1,
+    "pixel-tensor-audio-decompressor": 1,
+    "pmmp": 1,
+    "qdl-ndk": 1,
+    "resampling-for-cheapies": 1,
+    "saturation": 1,
+    "sqlite3": 1,
+    "systemless-adblocker": 1,
+    "tree": 1,
+    "ttf-twemoji": 1,
+    "unityfix": 1,
+    "upx-ndk": 1,
+    "vintf-bypass": 1,
+    "wadbd": 1,
+    "wifi-bonding-nolog": 1,
+    "xmlpak-RE": 1,
+    "ytrevancedinject": 1,
     "bypasser": 1,
     "aa4mg": 1,
     "COPG-VD": 1,
@@ -3568,6 +3748,9 @@
     "meta-hybrid": 1,
     "wzn01": 1,
     "hid-gadget-module": 1,
+    "playintegrity": 1,
+    "playintegrityfork": 3,
+    "teesim": 1,
     "adguardcert": 1,
     "Kernel_Module_Loader": 1,
     "fake_sudo": 1,
@@ -3584,9 +3767,9 @@
     "zygiskfrida": 1,
     "MemoryOpt": 1,
     "asoulopt": 2,
-    "neozygisk": 1,
-    "playintegrityfork": 1,
+    "neozygisk": 2,
     "sortify": 1,
+    "zygisknext": 1,
     "HyperOSMonetProject": 1,
     "Monet-All": 1,
     "ZygiskNext": 1,
@@ -3595,7 +3778,30 @@
     "riru_core": 1,
     "riru_sui": 1,
     "uperf_games": 1,
-    "zygisk_sui": 1
+    "zygisk_sui": 1,
+    "dt2w-fix": 1,
+    "ios-emoji": 1,
+    "msd": 1,
+    "music-morphe": 1,
+    "teesimulator": 1,
+    "teesimulator-rs": 1,
+    "tricky-addon-enhanced": 1,
+    "tricky-addon-target-list": 1,
+    "vector": 1,
+    "youtube-morphe": 1,
+    "zygisk-next": 1,
+    "frosty": 1,
+    "livebootmodule": 1,
+    "integrity-box": 1,
+    "meowzygisk": 1,
+    "cpu-screenoff": 1,
+    "android_luks_mounter": 1,
+    "termuxsu": 1,
+    "imgdrive": 1,
+    "tricky-store": 1,
+    "alwaysstrong": 1,
+    "alwaysstrong-inject": 1,
+    "alwaysstrong-nopif": 1
   },
   "ksu_origins": {
     "https://github.com/rrr333nnn333/brene": "catalog",
@@ -3682,6 +3888,7 @@
     "https://github.com/seyud/device_faker": "catalog",
     "https://github.com/sidex15/deviceidchanger": "catalog",
     "https://github.com/talgorhythmic/dirac-universal-magisk-module": "catalog",
+    "https://github.com/mods-center/apk-signature-verification-patch": "catalog",
     "https://github.com/justmlc4real/disable-default-game-frame-rate": "catalog",
     "https://github.com/danish3311/disable-fuse-bpf": "catalog",
     "https://github.com/magisk-modules-alt-repo/disable-low-ram": "catalog",
@@ -3746,6 +3953,7 @@
     "https://github.com/ahkehra/high_perf_dac": "catalog",
     "https://github.com/atrejokm301/hilightlink": "catalog",
     "https://github.com/mengwuzhuanshou/honorlsposedfix": "catalog",
+    "https://github.com/isac12345/hsin": "catalog",
     "https://github.com/yuzakikokuban/meta-hybrid_mount": "catalog",
     "https://github.com/aestasbritannia/hydro-br-leur": "catalog",
     "https://github.com/tatshsiow/hyperoptimize": "catalog",
@@ -3795,7 +4003,9 @@
     "https://github.com/mrh929/magisk-wifiadb": "catalog",
     "https://github.com/kyliekyler/magnetar": "catalog",
     "https://github.com/duyquang6/maple-mono-android": "catalog",
+    "https://github.com/nader295/maxmanager": "catalog",
     "https://github.com/qvq9999/memkeep": "catalog",
+    "https://github.com/immalware/meow-icon-shape-magisk": "catalog",
     "https://github.com/kiran-embedded/micfix-magisk-module": "catalog",
     "https://github.com/guocheng1378/miclaw-api": "catalog",
     "https://github.com/mben25/micloud-a16": "catalog",
@@ -3874,7 +4084,6 @@
     "https://github.com/astoritin/rotationsuggestionsclosed": "catalog",
     "https://github.com/katelynthestargazer/rsync-magisk": "catalog",
     "https://github.com/andresuhensleeby-a11y/thermal-fire-universal-v1.4.0": "catalog",
-    "https://github.com/noxproductions/t3ra1n": "catalog",
     "https://github.com/supermarsx/magisk-samsung-dex-standalone-mode": "catalog",
     "https://github.com/evdenis/selinux_permissive": "catalog",
     "https://github.com/nalbe/shark8-gamemode-gsi": "catalog",
@@ -3882,6 +4091,7 @@
     "https://github.com/liyw0205/sidekeyplus": "catalog",
     "https://github.com/weirdmidas/skysceneaddon": "catalog",
     "https://github.com/saadnahid7/smalipatcherreborn": "catalog",
+    "https://github.com/leanxmodulostk/smallbattery": "catalog",
     "https://github.com/charlesgool/smb_smart_sync": "catalog",
     "https://github.com/shuo67713-stack/smoothflow": "catalog",
     "https://github.com/maksim-venus/magisk-sms-forward": "catalog",
@@ -3968,6 +4178,7 @@
     "https://github.com/alirezaparsi/copg": "catalog",
     "https://github.com/luoyi0914/thermocharge": "catalog",
     "https://github.com/tsangasuna/hoshitele-dns-module": "catalog",
+    "https://github.com/mieaiiii/oplus-antidizzy-module": "catalog",
     "https://github.com/petittux1/xiaomiautomation": "catalog",
     "https://github.com/enddream-zm/lowlife": "catalog",
     "https://github.com/hybrid-mount/meta-hybrid_mount": "KernelSU Next official metamodules",

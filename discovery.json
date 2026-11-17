@@ -3,19 +3,19 @@
   "source": "https://github.com/krishna3163/best-root-apps-for-android",
   "upstream_website": "https://krishna3163.github.io/best-root-apps-for-android/",
   "summary": {
-    "total_entries": 1888,
-    "readme_entries": 1843,
+    "total_entries": 1904,
+    "readme_entries": 1859,
     "morphe_entries": 45,
     "tracker_extras": 0,
-    "unique_github_repositories": 1778,
+    "unique_github_repositories": 1794,
     "by_kind": {
       "android_app": 36,
-      "android_tool": 657,
+      "android_tool": 664,
       "lsposed": 194,
-      "lsposed_or_zygisk": 290,
+      "lsposed_or_zygisk": 293,
       "patched_apk": 45,
-      "root_module_candidate": 476,
-      "shizuku": 190
+      "root_module_candidate": 480,
+      "shizuku": 192
     },
     "by_provider": {
       "adguard.com": 1,
@@ -23,7 +23,7 @@
       "blokada.org": 1,
       "codeberg.org": 3,
       "gitea.angry.im": 1,
-      "github.com": 1825,
+      "github.com": 1841,
       "gitlab.com": 6,
       "joycondroid.gitbook.io": 1,
       "lsposed.zip": 1,
@@ -37,15 +37,15 @@
       "revanced.app": 1,
       "xdaforums.com": 2
     },
-    "repository_candidates": 1778,
-    "checked_repositories": 1778,
+    "repository_candidates": 1794,
+    "checked_repositories": 1794,
     "pending_repositories": 0,
-    "valid_module_repositories": 421,
-    "mmrl_modules": 858,
-    "kernelsu_next_modules": 388,
-    "catalog_mmrl_modules": 405,
-    "catalog_kernelsu_next_modules": 372,
-    "federated_mmrl_sources": 36,
+    "valid_module_repositories": 427,
+    "mmrl_modules": 879,
+    "kernelsu_next_modules": 393,
+    "catalog_mmrl_modules": 411,
+    "catalog_kernelsu_next_modules": 377,
+    "federated_mmrl_sources": 47,
     "federated_ksu_sources": 2
   },
   "entries": [
@@ -24123,6 +24123,310 @@
       "repository": "stupidgiraffe/rootatlas"
     },
     {
+      "id": "a160c6769bad98bc06",
+      "name": "aduster",
+      "url": "https://github.com/thewrathrf/aduster",
+      "description": "Ad and tracker blocker for Android: every app filtered by DNS, Chromium browser pages cleaned on the phone. No root, no server.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/thewrathrf/aduster"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "thewrathrf/aduster"
+    },
+    {
+      "id": "fc885e8aa4bedd7851",
+      "name": "Apk-Signature-Verification-Patch",
+      "url": "https://github.com/mods-center/apk-signature-verification-patch",
+      "description": "Disables APK signature verification completely by patching framework.jar, services.jar and miui-services.jar on the device, so modified apps install directly. Android 16 and ColorOS supported, works offline. Magisk / KernelSU module.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mods-center/apk-signature-verification-patch"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mods-center/apk-signature-verification-patch"
+    },
+    {
+      "id": "e73074c0b99a9d114e",
+      "name": "Auto-Samplerate-Changer-Android",
+      "url": "https://github.com/arupen1/auto-samplerate-changer-android",
+      "description": "Root module that makes Android play USB DAC audio at each track's own sample rate, with optional bit-perfect. APatch, KernelSU, Magisk are tested on.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/arupen1/auto-samplerate-changer-android"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "arupen1/auto-samplerate-changer-android"
+    },
+    {
+      "id": "c68d3e389f42ac9511",
+      "name": "bili-search-fixer",
+      "url": "https://github.com/xiaoancute/bili-search-fixer",
+      "description": "LSPosed module that filters irrelevant results from the Bilibili Android app search",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xiaoancute/bili-search-fixer"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "xiaoancute/bili-search-fixer"
+    },
+    {
+      "id": "433cdfb2c74f09f296",
+      "name": "Hsin",
+      "url": "https://github.com/isac12345/hsin",
+      "description": "Performance module for rooted Android (Magisk / KernelSU) plus a companion app: per-app adaptive GPU levels, frame-aware scheduling, automatic FPS cap, on-screen panel and reports.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/isac12345/hsin"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "isac12345/hsin"
+    },
+    {
+      "id": "0160b167fac3b17107",
+      "name": "MaxManager",
+      "url": "https://github.com/nader295/maxmanager",
+      "description": "MaxManager is a next-generation Android management platform offering advanced kernel and hardware control, intelligent optimization, real-time performance monitoring, detailed device diagnostics, battery management, gaming tools, and per-app customization.  Powered by Max AI and Max Atlas, it delivers smarter device management, adaptive performance",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nader295/maxmanager"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "nader295/maxmanager"
+    },
+    {
+      "id": "d89720b3a711d65cdf",
+      "name": "meow-icon-shape-magisk",
+      "url": "https://github.com/immalware/meow-icon-shape-magisk",
+      "description": "Meow (cat-ears) icon shape Magisk module for Android 10+",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/immalware/meow-icon-shape-magisk"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "immalware/meow-icon-shape-magisk"
+    },
+    {
+      "id": "f6f1197fc4740d5409",
+      "name": "Nova",
+      "url": "https://github.com/migzounj/nova",
+      "description": "跑在 Android 手机上的本地大模型 App：端侧推理，不联网也能中文对话；自带 OpenAI 兼容 API 给别的应用调用；支持联网搜索、Shizuku 手机操作与桌面悬浮指令台；还能让 AI 现场写个小应用直接在手机里运行。",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/migzounj/nova"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "migzounj/nova"
+    },
+    {
+      "id": "8bf30cbab57daf396f",
+      "name": "oplus-antidizzy-module",
+      "url": "https://github.com/mieaiiii/oplus-antidizzy-module",
+      "description": "为缺少「晕动舒缓显示」的 OPPO/一加/realme（欧加）ColorOS 机型补全原生 AntiDizzy 功能 · KernelSU + LSPosed",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mieaiiii/oplus-antidizzy-module"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "mieaiiii/oplus-antidizzy-module"
+    },
+    {
+      "id": "c2778bf24fafcca352",
+      "name": "realme-fullscreen",
+      "url": "https://github.com/hongphong5115/realme-fullscreen",
+      "description": "Independent LSPosed module for Android 13/Oplus: hide status bar and expand landscape apps/Gboard into the cutout area.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hongphong5115/realme-fullscreen"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "hongphong5115/realme-fullscreen"
+    },
+    {
+      "id": "be883e13f5fd096bea",
+      "name": "RepoLauncher",
+      "url": "https://github.com/anthony-firn/repolauncher",
+      "description": "An Android launcher that installs apps straight from GitHub releases (via Shizuku), with a Lawnchair-style home screen.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/anthony-firn/repolauncher"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "anthony-firn/repolauncher"
+    },
+    {
+      "id": "b515ccacc47771401f",
+      "name": "SmallBattery",
+      "url": "https://github.com/leanxmodulostk/smallbattery",
+      "description": "This module makes the system think that it has a smaller battery than normal, which will apply more precise adjustments to save battery",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/leanxmodulostk/smallbattery"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "leanxmodulostk/smallbattery"
+    },
+    {
+      "id": "2b20e3ce1909872baa",
+      "name": "uburoot",
+      "url": "https://github.com/reinanbr/uburoot",
+      "description": "Ubuntu arm64 chroot for rooted Android (Magisk/KernelSU/APatch) with a real terminal; the APK is also the root module",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/reinanbr/uburoot"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "reinanbr/uburoot"
+    },
+    {
+      "id": "d4445f9c403a897187",
+      "name": "Xx",
+      "url": "https://github.com/panditji-9/xx",
+      "description": "MaxManager — an Android control plane for root, gaming, thermal and per-app profiles.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/panditji-9/xx"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "panditji-9/xx"
+    },
+    {
+      "id": "29884dfe7ea58cfb9e",
+      "name": "Yaronlazcamtek.github.io",
+      "url": "https://github.com/yaronlazcamtek/yaronlazcamtek.github.io",
+      "description": "Site root: Android app verification for mivzakonim",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yaronlazcamtek/yaronlazcamtek.github.io"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "yaronlazcamtek/yaronlazcamtek.github.io"
+    },
+    {
+      "id": "f3cbc44d9b373fa548",
+      "name": "zram-lkm",
+      "url": "https://github.com/misaka5202/zram-lkm",
+      "description": "Extra ZRAM compressors for stock Android GKI kernels, as loadable modules: lz4k, lz4kd, lz4k_oplus, lz4hc, 842, plus zram_list so module-provided algorithms appear in comp_algorithm. No kernel rebuild.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/misaka5202/zram-lkm"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "misaka5202/zram-lkm"
+    },
+    {
       "id": "cc52f8fa35dcda6edd",
       "name": "⭐ KernelSU",
       "url": "https://github.com/tiann/KernelSU",
@@ -37252,5 +37556,5 @@
       "build_type": "release"
     }
   ],
-  "updated": 1794835789
+  "updated": 1794907477
 }

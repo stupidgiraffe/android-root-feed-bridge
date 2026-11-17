@@ -599,6 +599,13 @@
     "visibility": 1
   },
   {
+    "name": "Disable apk signature vertification",
+    "description": "Disable the signature verification of apk for Android 13+. Join to our channel for more stuff: t.me/kashis_cringey_stuffs",
+    "author": "🅺🅰🆂🅷🅸",
+    "repoUrl": "https://github.com/mods-center/apk-signature-verification-patch",
+    "visibility": 1
+  },
+  {
     "name": "Disable Default Game Frame Rate",
     "description": "Keeps the default game frame rate limit disabled after reboot.",
     "author": "JustMLC",
@@ -1065,6 +1072,13 @@
     "visibility": 1
   },
   {
+    "name": "HSIN",
+    "description": "HSIN game booster: mode Hemat/Seimbang/Performa/Puncak, floating orb FPS, rekam layar, resolusi per game. Mesin Uperf + fas-rs, kredit di app.",
+    "author": "somwan",
+    "repoUrl": "https://github.com/isac12345/hsin",
+    "visibility": 1
+  },
+  {
     "name": "Hybrid Mount",
     "description": "Next Generation Mounting Metamodule with OverlayFS and Magic Mount",
     "author": "Hybrid Mount Developers",
@@ -1437,10 +1451,24 @@
     "visibility": 1
   },
   {
+    "name": "MaxManager",
+    "description": "MaxManager - adaptive, chip-aware performance tuning for your device.",
+    "author": "MaxManager Project",
+    "repoUrl": "https://github.com/nader295/maxmanager",
+    "visibility": 1
+  },
+  {
     "name": "MemKeep++",
     "description": "内存压缩 + 后台保活 · ZRAM 容量/算法自选 · 保活三档 · 内置 WebUI，保存即生效（容量改动需重启）",
     "author": "qvq9999",
     "repoUrl": "https://github.com/qvq9999/memkeep",
+    "visibility": 1
+  },
+  {
+    "name": "Meow icon shape overlay",
+    "description": "Applies meow (cat-ears) icon mask natively via a lightweight RRO overlay on framework-res.",
+    "author": "ImMALWARE",
+    "repoUrl": "https://github.com/immalware/meow-icon-shape-magisk",
     "visibility": 1
   },
   {
@@ -2045,13 +2073,6 @@
     "visibility": 1
   },
   {
-    "name": "s3ra1n USB HAL Guard",
-    "description": "Grants palera1n exclusive USB access by suspending Android USB HAL services and using kernel USB authorization control. Required for the t3ra1n jailbreak tool.",
-    "author": "Noxbit",
-    "repoUrl": "https://github.com/noxproductions/t3ra1n",
-    "visibility": 1
-  },
-  {
     "name": "Samsung DeX standalone mode",
     "description": "Patch `floating_feature.xml` to enable Samsung Dex standalone mode, available on devices supporting at least one Dex mode.",
     "author": "supermarsx",
@@ -2098,6 +2119,13 @@
     "description": "Patches your own services.jar on the device at install time: hide mock location, mock without mock-app permission, allow screenshots in secure windows, plus optional high-volume warning and GNSS off. Android 10 - 17.",
     "author": "saadnahid7",
     "repoUrl": "https://github.com/saadnahid7/smalipatcherreborn",
+    "visibility": 1
+  },
+  {
+    "name": "Small Battery",
+    "description": "This module makes the system think that it has a smaller battery than normal, which will apply more precise adjustments to save battery.",
+    "author": "@LeanHijosdesusMadres",
+    "repoUrl": "https://github.com/leanxmodulostk/smallbattery",
     "visibility": 1
   },
   {
@@ -2739,6 +2767,13 @@
     "description": "本地部署AdGuardHome与SmartDNS以优化网络体验。升级刷入自动保留原配置（DNS重写/黑白名单等），模块不含任何个人数据",
     "author": "ココロスペアキー",
     "repoUrl": "https://github.com/tsangasuna/hoshitele-dns-module",
+    "visibility": 1
+  },
+  {
+    "name": "晕动舒缓显示（欧加通用）",
+    "description": "为缺少「晕动舒缓显示」的 OPPO/一加/realme(欧加) ColorOS 16 机型补全原生功能：自动识别机型与传感器、驱动原厂 AntiDizzy 渲染、圆点边缘抗锯齿自适应任意分辨率、车辆运动识别（抗手持误判）",
+    "author": "三重&大肥鱼   酷安@MieAi",
+    "repoUrl": "https://github.com/mieaiiii/oplus-antidizzy-module",
     "visibility": 1
   },
   {

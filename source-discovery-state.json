@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": 1794835789,
+  "generated": 1794907477,
   "repositories": {
     "cabiamdos/my-mmrl-repository": {
       "kind": "mmrl",
@@ -380,6 +380,570 @@
       "repository": "CWIFISB/ksurusda",
       "last_error": "HTTPError",
       "checked": 1794821620
+    },
+    "crayinsanejames/magisk-modules-jamesed": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/crayinsanejames/Magisk-modules-Jamesed/master/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "crayinsanejames/Magisk-modules-Jamesed",
+      "checked": 1794907477
+    },
+    "ang3lo-azevedo/my-awesome-stars": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "ang3lo-azevedo/my-awesome-stars",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "arupen1/auto-samplerate-changer-android": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "ArupEn1/Auto-Samplerate-Changer-Android",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "aethermagee/android-sshd": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "AetherMagee/android-sshd",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "dev-dcs/netbench": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "dev-dcs/NetBench",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "aethermagee/android-tailscaled": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "AetherMagee/android-tailscaled",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "dea1hwatcher/teleweb": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "dea1hwatcher/teleweb",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "2113apps/verified-android-apps": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "2113apps/verified-android-apps",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "dikafarabian/finasu": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "dikafarabian/FinaSU",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "dr460nf1r3/awesome-starred": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "dr460nf1r3/awesome-starred",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "d3sox/awesome-stars": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "D3SOX/awesome-stars",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "easyllls/applist": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Easyllls/AppList",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "enhansome/enhansome-game-security": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "enhansome/enhansome-game-security",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "drewbitt/starred": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "drewbitt/starred",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "enhansome/enhansome-android-root": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "enhansome/enhansome-android-root",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "enhansome/enhansome-shizuku": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "enhansome/enhansome-shizuku",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "enhansome/enhansome-material-you-app-list": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "enhansome/enhansome-Material-You-app-list",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "gmh5225/awesome-game-security": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "gmh5225/awesome-game-security",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "f1owkang/crecordevolution": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "f1owkang/CRecordEvolution",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "googlers-repo/gmr": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/Googlers-Repo/gmr/master/json/modules.json",
+      "modules": 40,
+      "status": "found",
+      "repository": "Googlers-Repo/gmr",
+      "checked": 1794907477
+    },
+    "juan1200l/free": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/juan1200L/Free/master/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "juan1200L/Free",
+      "checked": 1794907477
+    },
+    "ewgikeit/smartdns-for-android": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "ewgikeit/Smartdns-for-Android",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "hiruko-puppetmaster/infinity-tweaks": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "hiruko-puppetmaster/infinity-tweaks",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "jjh138792/mirageforge": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "jjh138792/MirageForge",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "guobao2333/ufs-fbo-plus": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "guobao2333/UFS-FBO-Plus",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "juliazero/mrbj": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/juliazero/mrbj/master/json/modules.json",
+      "modules": 11,
+      "status": "found",
+      "repository": "juliazero/mrbj",
+      "checked": 1794907477
+    },
+    "huxc573/workbuddy2api-panel-magisk": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "huxc573/workbuddy2api-panel-magisk",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "katiusu/dsha-keepalive": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "katiusu/dsha-keepalive",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "juniarafi213/e404_controller": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "juniarafi213/e404_controller",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "krishna3163/best-root-apps-for-android": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "krishna3163/best-root-apps-for-android",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "kveld9/microg-minimal": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "kveld9/microg-minimal",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "lspepinho/test": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/lspepinho/test/master/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "lspepinho/test",
+      "checked": 1794907477
+    },
+    "lavax88/sweetclocker": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Lavax88/SweetClocker",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "kurnia44/cpufakex": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "kurnia44/CPUFakeX",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "littlemagehero/littlemagehero-s-modules-repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/json/modules.json",
+      "modules": 12,
+      "status": "found",
+      "repository": "littlemagehero/littlemagehero-s-modules-repo",
+      "checked": 1794907477
+    },
+    "leanxmodulostk/vanadiumwebviewmanager": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "LeanxModulostk/VanadiumWebviewManager",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "lavax88/fontify": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Lavax88/Fontify",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "ling9ling7/redmagic-fanextreme": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "ling9ling7/RedMagic-FanExtreme",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "lyravoid/finasu": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "LyraVoid/FinaSU",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "magisk-modules-alt-repo/json-v2": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/json-v2/main/json/modules.json",
+      "modules": 117,
+      "status": "found",
+      "repository": "Magisk-Modules-Alt-Repo/json-v2",
+      "checked": 1794907477
+    },
+    "lzh3100452752/shichen-sh": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "LZH3100452752/shichen-SH",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "mmrlapp/repo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/MMRLApp/repo/master/json/modules.json",
+      "modules": 25,
+      "status": "found",
+      "repository": "MMRLApp/repo",
+      "checked": 1794907477
+    },
+    "magisk-modules-alt-repo/stevenblock": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Magisk-Modules-Alt-Repo/StevenBlock",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "mistu01/mffmv14": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "mistu01/MFFMv14",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "mikropsoft/stevenblock": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "mikropsoft/StevenBlock",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "memdeco-wg/kam": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "MemDeco-WG/Kam",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "nikakvo/ipset_arm64": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "nikakvo/ipset_arm64",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "nikakvo/trust-user-certs": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "nikakvo/Trust-User-Certs",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "nikakvo/sqlite3-android-arm64-only": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "nikakvo/sqlite3-android-arm64-only",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "nikakvo/lan-cloak-arm64": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "nikakvo/lan-cloak-arm64",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "mystivara-creator/coreflow-engine": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "mystivara-creator/CoreFlow-Engine",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "onyxzygisk/onyxzygisk": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "OnyxZygisk/OnyxZygisk",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "only7rb-coder/ksuprocspoof": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Only7rb-coder/KSUProcSpoof",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "petittux1/xiaomiautomation": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Petittux1/XiaomiAutomation",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "nikakvo/wg-shield-arm64": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "nikakvo/wg-shield-arm64",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "rem01gaming/mrepo": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/Rem01Gaming/mrepo/master/json/modules.json",
+      "modules": 3,
+      "status": "found",
+      "repository": "Rem01Gaming/mrepo",
+      "checked": 1794907477
+    },
+    "raafi-abir/acc-automatic-cache-cleaner": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "raafi-abir/ACC-Automatic-Cache-Cleaner",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "rexackermann/android-luks-mounter": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "rexackermann/android-luks-mounter",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "rem01gaming/encore": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Rem01Gaming/encore",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "sagxd/awesome-stars": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "SagXD/awesome-stars",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "samo1408/nx-zygisk": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Samo1408/Nx-Zygisk",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "ridhzlabs/thermalcore": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "ridhzlabs/thermalcore",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "sandtomatowich-hubexe/hypergsm": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "sandtomatowich-hubexe/HyperGSM",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "qianyumeng0228/shizusu-modules": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "qianyumeng0228/ShizuSU-Modules",
+      "last_error": "no_module_index",
+      "checked": 1794907477
+    },
+    "sunny090623/wifi-priority-manager": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Sunny090623/WiFi-Priority-Manager",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "timschneeb/awesome-shizuku": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "timschneeb/awesome-shizuku",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "tugaia56/bootanimation-manager": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "tugaia56/Bootanimation-Manager",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "usdogu/awesome-stars": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "usdogu/awesome-stars",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "spoilsme/sidekey": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "spoilsme/SideKey",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "vaz15k/cubic-adblock": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Vaz15k/Cubic-AdBlock",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "vitahaforgame-oss/mmrlapp": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/vitahaforgame-oss/Mmrlapp/master/json/modules.json",
+      "modules": 2,
+      "status": "found",
+      "repository": "vitahaforgame-oss/Mmrlapp",
+      "checked": 1794907477
+    },
+    "zelect0r/zamr": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/zelect0r/zamr/main/json/modules.json",
+      "modules": 35,
+      "status": "found",
+      "repository": "zelect0r/zamr",
+      "checked": 1794907477
+    },
+    "victorious93/victorlaunch": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Victorious93/victorlaunch",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "xiaohaoqvq/quickcharge": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "XiaohaoQvQ/QuickCharge",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "wfire06100/topg": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "wfire06100/TOPG",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "yuzlyn/font-settings": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "yuzlyn/font-settings",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "zg089/re-malwack": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "ZG089/Re-Malwack",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "wollydev24/vertex": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "WollyDev24/Vertex",
+      "last_error": "HTTPError",
+      "checked": 1794907477
+    },
+    "yudharn/hypercool": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "yudharn/HyperCool",
+      "last_error": "HTTPError",
+      "checked": 1794907477
     }
   }
 }
