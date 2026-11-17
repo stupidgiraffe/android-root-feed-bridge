@@ -1,5 +1,5 @@
 {
-  "updated": 1794907477,
+  "updated": 1794920594,
   "source": "krishna3163/best-root-apps-for-android",
   "catalog_entries": 1904,
   "catalog_readme_entries": 1859,
@@ -8,11 +8,11 @@
   "github_repositories": 1794,
   "checked_repositories": 1794,
   "pending_repositories": 0,
-  "checked_this_run": 799,
-  "verified_module_repositories": 427,
-  "mmrl_modules": 879,
+  "checked_this_run": 1408,
+  "verified_module_repositories": 428,
+  "mmrl_modules": 881,
   "kernelsu_next_modules": 393,
-  "catalog_mmrl_modules": 411,
+  "catalog_mmrl_modules": 412,
   "catalog_ksu_modules": 377,
   "federation": {
     "fetched": 46,
@@ -41,11 +41,11 @@
     "total": 49,
     "mmrl_upstream_sources": 47,
     "ksu_upstream_sources": 2,
-    "base_mmrl_modules": 411,
+    "base_mmrl_modules": 412,
     "base_ksu_modules": 377,
-    "unified_mmrl_modules": 879,
+    "unified_mmrl_modules": 881,
     "unified_ksu_modules": 393,
-    "mmrl_external_selected": 508,
+    "mmrl_external_selected": 509,
     "ksu_external_selected": 16,
     "duplicate_ids_resolved": 284,
     "directory_notes": [],
@@ -53,7 +53,7 @@
       "github_queries": 8,
       "github_search_errors": [],
       "github_search_candidates_this_run": 114,
-      "new_candidates_inspected": 79,
+      "new_candidates_inspected": 0,
       "remaining_unchecked_candidates": 0,
       "candidates_ever_checked": 131,
       "discovered_feeds": 26,
@@ -62,8 +62,8 @@
     }
   },
   "exclusions_by_reason": {
-    "ambiguous_multiple_module_ids": 14,
-    "no_latest_release": 394,
-    "no_valid_module_zip": 529
+    "ambiguous_multiple_module_ids": 13,
+    "no_latest_release": 456,
+    "no_valid_module_zip": 544
   }
 }

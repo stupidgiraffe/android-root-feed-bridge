@@ -6,7 +6,7 @@
   "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794907477.0
+    "timestamp": 1794920594.0
   },
   "modules": [
     {
@@ -11224,25 +11224,25 @@
     {
       "id": "miui_aod_mod",
       "name": "HyperOS AOD Mod",
-      "version": "v3.0",
-      "versionCode": 30,
+      "version": "v4.0",
+      "versionCode": 41,
       "author": "🅺🅰🆂🅷🅸",
-      "description": "Modified HyperOS AOD App by Mods Center. Join for more stuff: https://t.me/kashis_cringey_stuffs",
+      "description": "Modified HyperOS 4 AOD App by Mods Center. Join for more stuff: https://t.me/kashis_cringey_stuffs",
       "homepage": "https://github.com/Mods-Center/HyperOS-AOD",
-      "size": 75912170,
+      "size": 57535160,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1765526220.0,
+        "added": 1794910750.0,
         "source": "https://github.com/Mods-Center/HyperOS-AOD"
       },
       "versions": [
         {
-          "version": "v3.0",
-          "versionCode": 30,
-          "zipUrl": "https://github.com/Mods-Center/HyperOS-AOD/releases/download/V3/HyperOS_AOD_V3%40kashis_cringey_stuffs.zip",
-          "timestamp": 1765526220.0,
-          "size": 75912170
+          "version": "v4.0",
+          "versionCode": 41,
+          "zipUrl": "https://github.com/Mods-Center/HyperOS-AOD/releases/download/V4/HyperOS4_AOD_v4.0%40kashis_cringey_stuffs.zip",
+          "timestamp": 1794910750.0,
+          "size": 57535160
         }
       ]
     },
@@ -14617,25 +14617,25 @@
     {
       "id": "MaxManager",
       "name": "MaxManager",
-      "version": "V4",
-      "versionCode": 83,
+      "version": "V5.0",
+      "versionCode": 585,
       "author": "MaxManager Project",
       "description": "MaxManager - adaptive, chip-aware performance tuning for your device.",
       "homepage": "https://github.com/nader295/maxmanager",
-      "size": 23993275,
+      "size": 30497853,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1793237224.0,
+        "added": 1794916279.0,
         "source": "https://github.com/nader295/maxmanager"
       },
       "versions": [
         {
-          "version": "V4",
-          "versionCode": 83,
-          "zipUrl": "https://github.com/nader295/MaxManager/releases/download/v4.0/MaxManager-V4.zip",
-          "timestamp": 1793237224.0,
-          "size": 23993275
+          "version": "V5.0",
+          "versionCode": 585,
+          "zipUrl": "https://github.com/nader295/MaxManager/releases/download/v5.0/MaxManager-V5.0.zip",
+          "timestamp": 1794916279.0,
+          "size": 30497853
         }
       ]
     },
@@ -16562,25 +16562,25 @@
     {
       "id": "meta-nomount",
       "name": "NoMount Suite",
-      "version": "v1.3.212",
-      "versionCode": 103212,
+      "version": "v1.3.213",
+      "versionCode": 103213,
       "author": "XxxY",
       "description": "Mountless module loading - hookless VFS + RRO, no overlayfs or tmpfs. 🫥",
       "homepage": "https://github.com/bouteillepleine/nomount-suite",
-      "size": 928765,
+      "size": 928850,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794588203.0,
+        "added": 1794917658.0,
         "source": "https://github.com/bouteillepleine/nomount-suite"
       },
       "versions": [
         {
-          "version": "v1.3.212",
-          "versionCode": 103212,
-          "zipUrl": "https://github.com/Bouteillepleine/NoMount-Suite/releases/download/v1.3.212/00_NoMount-Module-v1.3.212.zip",
-          "timestamp": 1794588203.0,
-          "size": 928765
+          "version": "v1.3.213",
+          "versionCode": 103213,
+          "zipUrl": "https://github.com/Bouteillepleine/NoMount-Suite/releases/download/v1.3.213/00_NoMount-Module-v1.3.213.zip",
+          "timestamp": 1794917658.0,
+          "size": 928850
         }
       ]
     },
@@ -19800,6 +19800,31 @@
           "zipUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.23/ReSuSFS.zip",
           "timestamp": 1792750946.0,
           "size": 267182
+        }
+      ]
+    },
+    {
+      "id": "revancex-tools",
+      "name": "ReVanceX Tools Bundle",
+      "version": "auto-v1.1.0-2026.11.17-b182",
+      "versionCode": 2026111701,
+      "author": "Thunderkex",
+      "description": "Patched module for ReVanceX Tools Bundle via ReVanceX",
+      "homepage": "https://github.com/thunderkex/revancex",
+      "size": 53596565,
+      "verified": false,
+      "track": {
+        "type": "GIT",
+        "added": 1794891372.0,
+        "source": "https://github.com/thunderkex/revancex"
+      },
+      "versions": [
+        {
+          "version": "auto-v1.1.0-2026.11.17-b182",
+          "versionCode": 2026111701,
+          "zipUrl": "https://github.com/thunderkex/revancex/releases/download/auto-v1.1.0-2026.11.17-b182/revancex-bundle-tools.zip",
+          "timestamp": 1794891372.0,
+          "size": 53596565
         }
       ]
     },
@@ -24815,14 +24840,22 @@
       "id": "vddropbear",
       "name": "VD Dropbear",
       "author": "VD171",
-      "version": "v1.06",
-      "versionCode": 10006,
+      "version": "v1.07",
+      "versionCode": 10007,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794698472.0,
         "source": "https://github.com/VD171/VD-dropbear"
       },
       "versions": [
+        {
+          "versionCode": 10007,
+          "version": "v1.07",
+          "timestamp": 1794920091.0,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.07_10007.zip",
+          "size": 2672127,
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.07_10007.md"
+        },
         {
           "versionCode": 10006,
           "version": "v1.06",
@@ -24847,7 +24880,7 @@
         "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI"
       ],
-      "size": 2670612,
+      "size": 2672127,
       "stars": 19
     },
     {
@@ -24879,6 +24912,40 @@
       ],
       "size": 2372375,
       "stars": 144
+    },
+    {
+      "id": "vdbackup",
+      "name": "VDBackup",
+      "author": "VD171",
+      "version": "v1.10",
+      "versionCode": 11000,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0.0,
+        "source": "https://github.com/VD171/VD-Backup"
+      },
+      "versions": [
+        {
+          "versionCode": 11000,
+          "version": "v1.10",
+          "timestamp": 1794891192.0,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.10_11000.zip",
+          "size": 65178630,
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.10_11000.md"
+        }
+      ],
+      "verified": false,
+      "description": "Full app and data backup & restore.",
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "size": 65178630,
+      "stars": 87
     },
     {
       "id": "vector",

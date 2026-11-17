@@ -1188,6 +1188,10 @@
       "kind": "catalog",
       "url": "https://github.com/ahmed-alnassif/resusfs"
     },
+    "revancex-tools": {
+      "kind": "catalog",
+      "url": "https://github.com/thunderkex/revancex"
+    },
     "rezygisk": {
       "kind": "mmrl",
       "url": "https://apt.izzysoft.de/magisk/"
@@ -3371,6 +3375,10 @@
     "systemless_hosts": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/RavenWolf1998/MMRL-Magisk-Module-Repo/main/"
+    },
+    "vdbackup": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
     },
     "vddropbear": {
       "kind": "mmrl",

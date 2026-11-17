@@ -1,83 +1,98 @@
-# RootAtlas — upstream sources
+# RootAtlas — all tracked source repositories
 
-RootAtlas combines multiple public root-module sources into **one subscription for MMRL** and **one subscription for KernelSU Next**. The files contain different schemas, so the manager URLs are separate.
+Automatically generated from the actual source configuration and discovery state.
+Last successful feed update: **2026-11-17 13:03 UTC**.
 
-**Status snapshot:** November 16, 2026 (JST). This page names sources; see the **[live report](report.json)** for today's counts, outages, and scan progress. A ✅ means the source JSON was readable and passed schema validation, **not** that every module is safe or compatible.
+## Live coverage
 
-## Discovery catalog — 1 source
+- Best Root Apps catalog: **1904** discovery entries, 1794 GitHub project candidates.
+- MMRL modules after deduplication: **881**.
+- KernelSU Next entries after deduplication: **393**.
+- External feeds fetched: **46 / 49** (some failed sources may retain cached entries).
 
-| Catalog | What RootAtlas imports |
-|---|---|
-| [Best Root Apps for Android](https://github.com/krishna3163/best-root-apps-for-android) | Complete upstream directory across root modules, APK apps, LSPosed/Shizuku tools and third-party hosts; qualified GitHub release ZIPs are inspected for `module.prop` before inclusion as installable root modules |
+## Original discovery catalog (1)
 
-## Curated MMRL sources — 22 feeds
+- [Best Root Apps for Android](https://github.com/krishna3163/best-root-apps-for-android) — full project catalog, including qualifying root-module ZIPs, apps, and utilities.
+- [Browse each individual catalog entry](discovery.json). Not all catalog items are installable modules.
 
-| Feed | Type | Last checked |
+## Curated MMRL feeds (22)
+
+| Upstream repository | Feed URL | Last update |
 |---|---|---|
-| [Googlers Magisk Repository (GMR)](https://gr.dergoogler.com/gmr/) | Googlers / degoogler | ✅ Responding |
-| [Magisk Modules Alt Repo](https://magisk-modules-alt-repo.github.io/json-v2/) | Community | ✅ Responding |
-| [IzzyOnDroid Magisk repository](https://apt.izzysoft.de/magisk/) | Community | ✅ Responding |
-| [Rikj000's Magisk modules](https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/) | Independent | ✅ Responding |
-| [Celica Magisk modules](https://natsumerinchan.github.io/celica-magisk-modules-repo/) | Independent | ✅ Responding |
-| [Fruitsnack Magisk fonts (Codeberg)](https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/) | Fonts | ✅ Responding |
-| [Leloubil Magisk repository](https://leloubil.github.io/magisk-repo/) | Independent | ⚠️ Unreachable |
-| [Misak10 MMRL repository](https://misak10.github.io/mmrl-repo/) | Independent | ⚠️ Unreachable |
-| [ZG-R (ZGuation Projects)](https://zguation-projects.github.io/ZG-R/) | Independent | ✅ Responding |
-| [Rem01Gaming MRepo](https://mrepo.rem01gaming.dev/) | Independent | ✅ Responding |
-| [SSMG4 repository](https://ssmg4.github.io/SSR/) | Independent | ⚠️ Unreachable |
-| [JuliaZero MRBJ](https://juliazero.github.io/mrbj/) | Independent | ✅ Responding |
-| [ShamratRH MMRL](https://shamratrh-web.github.io/mmrl-repo/) | Independent | ✅ Responding |
-| [Cabiamdos MMRL](https://cabiamdos.github.io/my-mmrl-repository/) | Independent | ✅ Responding |
-| [Mystster module repository](https://mystster.github.io/module-repo/) | Independent | ✅ Responding |
-| [VC Teahouse Magisk repository](https://vc-teahouse.github.io/magisk-module-repo/) | Independent | ✅ Responding |
-| [ZAMR (zelect0r)](https://zelect0r.github.io/zamr/) | Independent | ✅ Responding |
-| [Yukari's MMRL repository](https://yukari0201.github.io/mmrl-repo/) | Independent | ✅ Responding |
-| [PrivShell repository](https://privshell.github.io/privshell-repo/) | Independent | ✅ Responding |
-| [MMRL module repository](https://mmrl.dev/repo/) | MMRL | ✅ Responding |
-| [MMRL KernelSU-focused repository](https://mmrl.dev/repo/ksu/) | MMRL | ✅ Responding |
-| [FlutterTap MMRL](https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/) | Independent | ✅ Responding |
+| [Googlers Magisk Repository (GMR)](https://gr.dergoogler.com/gmr/) | [Open feed](https://gr.dergoogler.com/gmr/) | Loaded |
+| [Magisk Modules Alt Repo](https://magisk-modules-alt-repo.github.io/json-v2/) | [Open feed](https://magisk-modules-alt-repo.github.io/json-v2/) | Loaded |
+| [IzzyOnDroid Magisk](https://apt.izzysoft.de/magisk/) | [Open feed](https://apt.izzysoft.de/magisk/) | Loaded |
+| [Rikj000 Modules](https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/) | [Open feed](https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/) | Loaded |
+| [Celica Modules](https://natsumerinchan.github.io/celica-magisk-modules-repo/) | [Open feed](https://natsumerinchan.github.io/celica-magisk-modules-repo/) | Loaded |
+| [Fruitsnack Fonts](https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/) | [Open feed](https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/) | Loaded |
+| [Leloubil Repo](https://leloubil.github.io/magisk-repo/) | [Open feed](https://leloubil.github.io/magisk-repo/) | Failed (retrying) |
+| [Misak10 Repo](https://misak10.github.io/mmrl-repo/) | [Open feed](https://misak10.github.io/mmrl-repo/) | Failed (retrying) |
+| [ZGuation Projects (ZG-R)](https://zguation-projects.github.io/ZG-R/) | [Open feed](https://zguation-projects.github.io/ZG-R/) | Loaded |
+| [Rem01Gaming MRepo](https://mrepo.rem01gaming.dev/) | [Open feed](https://mrepo.rem01gaming.dev/) | Loaded |
+| [SSMG4 Repo](https://ssmg4.github.io/SSR/) | [Open feed](https://ssmg4.github.io/SSR/) | Failed (retrying) |
+| [JuliaZero MRBJ](https://juliazero.github.io/mrbj/) | [Open feed](https://juliazero.github.io/mrbj/) | Loaded |
+| [ShamratRH](https://shamratrh-web.github.io/mmrl-repo/) | [Open feed](https://shamratrh-web.github.io/mmrl-repo/) | Loaded |
+| [Cabiamdos](https://cabiamdos.github.io/my-mmrl-repository/) | [Open feed](https://cabiamdos.github.io/my-mmrl-repository/) | Loaded |
+| [Mystster](https://mystster.github.io/module-repo/) | [Open feed](https://mystster.github.io/module-repo/) | Loaded |
+| [VC Teahouse](https://vc-teahouse.github.io/magisk-module-repo/) | [Open feed](https://vc-teahouse.github.io/magisk-module-repo/) | Loaded |
+| [ZAMR (zelect0r)](https://zelect0r.github.io/zamr/) | [Open feed](https://zelect0r.github.io/zamr/) | Loaded |
+| [Yukari](https://yukari0201.github.io/mmrl-repo/) | [Open feed](https://yukari0201.github.io/mmrl-repo/) | Loaded |
+| [PrivShell](https://privshell.github.io/privshell-repo/) | [Open feed](https://privshell.github.io/privshell-repo/) | Loaded |
+| [MMRL Repo](https://mmrl.dev/repo/) | [Open feed](https://mmrl.dev/repo/) | Loaded |
+| [MMRL KernelSU](https://mmrl.dev/repo/ksu/) | [Open feed](https://mmrl.dev/repo/ksu/) | Loaded |
+| [FlutterTap](https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/) | [Open feed](https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/) | Loaded |
 
-The **[official MMRL Discovery directory](https://github.com/MMRLApp/Discovery/blob/main/json/remotes.json)** is also checked automatically. This is a registry of source URLs, **not** a separate module repository, so it is not counted as another module feed. RootAtlas excludes its own URL from imports to avoid recursion.
+The [MMRL official discovery directory](https://github.com/MMRLApp/Discovery/blob/main/json/remotes.json) is also monitored. This directory is a registry of URLs, not another standalone module feed.
 
-## KernelSU Next — 2 enabled feeds
+## KernelSU Next manifests
 
-| Feed | Current configuration |
-|---|---|
-| [KernelSU Next official open-source modules](https://github.com/KernelSU-Next/KernelSU-Next-Modules-Repo/blob/main/modules.json) | ✅ Enabled |
-| [KernelSU Next official metamodules](https://github.com/KernelSU-Next/KernelSU-Next-Modules-Repo/blob/main/meta_modules.json) | ✅ Enabled |
-| [KernelSU Next non-free modules](https://github.com/KernelSU-Next/KernelSU-Next-Modules-Repo/blob/main/non_free_modules.json) | **Not enabled** — available only as an opt-in source in the configuration |
+| Upstream manifest | Source URL | Status |
+|---|---|---|
+| [KernelSU Next official open-source](https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/modules.json) | [Open JSON](https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/modules.json) | Enabled |
+| [KernelSU Next official metamodules](https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/meta_modules.json) | [Open JSON](https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/meta_modules.json) | Enabled |
+| [KernelSU Next non-free (opt-in)](https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/non_free_modules.json) | [Open JSON](https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next-Modules-Repo/main/non_free_modules.json) | Not included (opt-in) |
 
-## Independent GitHub feed discovery
+## Independently discovered GitHub feeds (26)
 
-RootAtlas also searches public GitHub repositories for real MMRL and KernelSU Next JSON indexes. These repositories passed the discovery checks in the latest search snapshot:
+Repository names below come directly from the GitHub discovery state. Some are alternate URLs or mirrors of curated sources; do not add these counts to the curated total as if they were all unique.
 
-| GitHub repository | Coverage |
-|---|---|
-| [brz0x100/mmrl-repo](https://github.com/brz0x100/mmrl-repo) | Additional discovery |
-| [cabiamdos/my-mmrl-repository](https://github.com/cabiamdos/my-mmrl-repository) | Also curated |
-| [hiighbob/MmrlRepo](https://github.com/hiighbob/MmrlRepo) | Additional discovery |
-| [JasonALorance/INTJLo-MMRL-Repo](https://github.com/JasonALorance/INTJLo-MMRL-Repo) | Additional discovery |
-| [mystster/module-repo](https://github.com/mystster/module-repo) | Also curated |
-| [natsumerinchan/celica-magisk-modules-repo](https://github.com/natsumerinchan/celica-magisk-modules-repo) | Also curated |
-| [privshell/privshell-repo](https://github.com/privshell/privshell-repo) | Also curated |
-| [RavenWolf1998/MMRL-Magisk-Module-Repo](https://github.com/RavenWolf1998/MMRL-Magisk-Module-Repo) | Additional discovery |
-| [Rikj000/Magisk-Modules-Rikj000-Repo](https://github.com/Rikj000/Magisk-Modules-Rikj000-Repo) | Also curated |
-| [script-or-script/FlutterTap-mmrl](https://github.com/script-or-script/FlutterTap-mmrl) | Also curated |
-| [shamratrh-web/mmrl-repo](https://github.com/shamratrh-web/mmrl-repo) | Also curated |
-| [uonou/mmrl-repo](https://github.com/uonou/mmrl-repo) | Additional discovery |
-| [vc-teahouse/magisk-module-repo](https://github.com/vc-teahouse/magisk-module-repo) | Also curated |
-| [VD171/VD-Modules](https://github.com/VD171/VD-Modules) | Additional discovery |
-| [Yukari0201/mmrl-repo](https://github.com/Yukari0201/mmrl-repo) | Also curated |
+| GitHub repository | Type | Feed URL |
+|---|---|---|
+| [brz0x100/mmrl-repo](https://github.com/brz0x100/mmrl-repo) | MMRL | [Open JSON](https://brz0x100.github.io/mmrl-repo/json/modules.json) |
+| [cabiamdos/my-mmrl-repository](https://github.com/cabiamdos/my-mmrl-repository) | MMRL | [Open JSON](https://raw.githubusercontent.com/cabiamdos/my-mmrl-repository/master/json/modules.json) |
+| [crayinsanejames/Magisk-modules-Jamesed](https://github.com/crayinsanejames/Magisk-modules-Jamesed) | MMRL | [Open JSON](https://raw.githubusercontent.com/crayinsanejames/Magisk-modules-Jamesed/master/json/modules.json) |
+| [Googlers-Repo/gmr](https://github.com/Googlers-Repo/gmr) | MMRL | [Open JSON](https://raw.githubusercontent.com/Googlers-Repo/gmr/master/json/modules.json) |
+| [hiighbob/MmrlRepo](https://github.com/hiighbob/MmrlRepo) | MMRL | [Open JSON](https://raw.githubusercontent.com/hiighbob/MmrlRepo/master/json/modules.json) |
+| [JasonALorance/INTJLo-MMRL-Repo](https://github.com/JasonALorance/INTJLo-MMRL-Repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/JasonALorance/INTJLo-MMRL-Repo/master/json/modules.json) |
+| [juan1200L/Free](https://github.com/juan1200L/Free) | MMRL | [Open JSON](https://raw.githubusercontent.com/juan1200L/Free/master/json/modules.json) |
+| [juliazero/mrbj](https://github.com/juliazero/mrbj) | MMRL | [Open JSON](https://raw.githubusercontent.com/juliazero/mrbj/master/json/modules.json) |
+| [littlemagehero/littlemagehero-s-modules-repo](https://github.com/littlemagehero/littlemagehero-s-modules-repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/json/modules.json) |
+| [lspepinho/test](https://github.com/lspepinho/test) | MMRL | [Open JSON](https://raw.githubusercontent.com/lspepinho/test/master/json/modules.json) |
+| [Magisk-Modules-Alt-Repo/json-v2](https://github.com/Magisk-Modules-Alt-Repo/json-v2) | MMRL | [Open JSON](https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/json-v2/main/json/modules.json) |
+| [MMRLApp/repo](https://github.com/MMRLApp/repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/MMRLApp/repo/master/json/modules.json) |
+| [mystster/module-repo](https://github.com/mystster/module-repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/mystster/module-repo/master/json/modules.json) |
+| [natsumerinchan/celica-magisk-modules-repo](https://github.com/natsumerinchan/celica-magisk-modules-repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/natsumerinchan/celica-magisk-modules-repo/main/json/modules.json) |
+| [privshell/privshell-repo](https://github.com/privshell/privshell-repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/privshell/privshell-repo/master/json/modules.json) |
+| [RavenWolf1998/MMRL-Magisk-Module-Repo](https://github.com/RavenWolf1998/MMRL-Magisk-Module-Repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/RavenWolf1998/MMRL-Magisk-Module-Repo/main/json/modules.json) |
+| [Rem01Gaming/mrepo](https://github.com/Rem01Gaming/mrepo) | MMRL | [Open JSON](https://raw.githubusercontent.com/Rem01Gaming/mrepo/master/json/modules.json) |
+| [Rikj000/Magisk-Modules-Rikj000-Repo](https://github.com/Rikj000/Magisk-Modules-Rikj000-Repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/Rikj000/Magisk-Modules-Rikj000-Repo/development/json/modules.json) |
+| [script-or-script/FlutterTap-mmrl](https://github.com/script-or-script/FlutterTap-mmrl) | MMRL | [Open JSON](https://raw.githubusercontent.com/script-or-script/FlutterTap-mmrl/main/json/modules.json) |
+| [shamratrh-web/mmrl-repo](https://github.com/shamratrh-web/mmrl-repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/shamratrh-web/mmrl-repo/master/json/modules.json) |
+| [uonou/mmrl-repo](https://github.com/uonou/mmrl-repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/uonou/mmrl-repo/main/json/modules.json) |
+| [vc-teahouse/magisk-module-repo](https://github.com/vc-teahouse/magisk-module-repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/vc-teahouse/magisk-module-repo/master/json/modules.json) |
+| [VD171/VD-Modules](https://github.com/VD171/VD-Modules) | MMRL | [Open JSON](https://raw.githubusercontent.com/VD171/VD-Modules/master/json/modules.json) |
+| [vitahaforgame-oss/Mmrlapp](https://github.com/vitahaforgame-oss/Mmrlapp) | MMRL | [Open JSON](https://raw.githubusercontent.com/vitahaforgame-oss/Mmrlapp/master/json/modules.json) |
+| [Yukari0201/mmrl-repo](https://github.com/Yukari0201/mmrl-repo) | MMRL | [Open JSON](https://raw.githubusercontent.com/Yukari0201/mmrl-repo/master/json/modules.json) |
+| [zelect0r/zamr](https://github.com/zelect0r/zamr) | MMRL | [Open JSON](https://raw.githubusercontent.com/zelect0r/zamr/main/json/modules.json) |
 
-Some independently discovered repositories are already in the curated list. **These are not extra unique repository counts.** New discoveries appear in the automatically generated [discovery state](source-discovery-state.json). Valid records are deduplicated; automatically discovered sources cannot replace established module IDs.
+## Verification and limitations
 
-## How to verify it yourself
+- [Live source-health report](report.json)
+- [Curated source configuration](sources/federation.json)
+- [Automatic discovery state](source-discovery-state.json)
+- [Per-module source provenance](federation-provenance.json)
+- [Scheduled update runs](https://github.com/stupidgiraffe/rootatlas/actions/workflows/update.yml)
 
-- [Public source configuration](sources/federation.json)
-- [Current import health, exclusions and counts](report.json)
-- [Per-module provider provenance](federation-provenance.json)
-- [Discovered source state and checks](source-discovery-state.json)
-- [GitHub Actions — successful scheduled runs](https://github.com/stupidgiraffe/rootatlas/actions/workflows/update.yml)
-- [Module import/validation rules](docs/ARCHITECTURE.md)
+Entries from third-party feeds are schema-validated, not individually security-audited. Original catalog GitHub ZIPs are structurally inspected; this does not prove safety. Original module developers host their own downloads.
 
-**Compatibility and security:** Best Root Apps GitHub release ZIPs receive a static archive/module.prop structure check. Third-party MMRL feeds and KernelSU Next manifests receive metadata/schema validation only; RootAtlas does **not** independently security-audit every remote ZIP. APK-based LSPosed/Xposed modules are outside the flashable-module feeds. RootAtlas never rehosts or silently installs developers' releases.
+This page is regenerated by scripts/source_directory.py on every successful update.
