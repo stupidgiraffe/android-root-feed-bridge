@@ -380,6 +380,14 @@ def main():
     write_json(ROOT / "federation-state.json", federation_state)
     write_json(ROOT / "federation-provenance.json", federation_audit)
     write_json(ROOT / "source-discovery-state.json", search_state)
+    try:
+        from source_directory import render_sources
+    except ModuleNotFoundError:
+        from scripts.source_directory import render_sources
+    source_config = json_file(ROOT / "sources/federation.json", {})
+    (ROOT / "SOURCES.md").write_text(
+        render_sources(source_config, search_state, report), encoding="utf-8"
+    )
     write_json(ROOT / "state.json", {"schema_version": 2, "generated": now, "repos": state})
     print("RESULT " + json.dumps(report, sort_keys=True))
 
