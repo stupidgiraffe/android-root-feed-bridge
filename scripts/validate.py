@@ -34,6 +34,15 @@ def validate():
     federation_state = load("federation-state.json")
     provenance = load("federation-provenance.json")
     config_sources = load("sources/federation.json")
+    try:
+        from source_directory import render_sources
+    except ModuleNotFoundError:
+        from scripts.source_directory import render_sources
+    require(
+        (ROOT / "SOURCES.md").read_text(encoding="utf-8") ==
+        render_sources(config_sources, load("source-discovery-state.json"), report),
+        "published source directory is stale or incomplete",
+    )
     search_state = load("source-discovery-state.json")
     require(search_state.get("version") == 1, "independent source-discovery state schema")
     search_repos = search_state.get("repositories")
