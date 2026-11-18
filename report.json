@@ -1,5 +1,5 @@
 {
-  "updated": 1794920594,
+  "updated": 1794993866,
   "source": "krishna3163/best-root-apps-for-android",
   "catalog_entries": 1904,
   "catalog_readme_entries": 1859,
@@ -8,17 +8,23 @@
   "github_repositories": 1794,
   "checked_repositories": 1794,
   "pending_repositories": 0,
-  "checked_this_run": 1408,
-  "verified_module_repositories": 428,
-  "mmrl_modules": 881,
+  "checked_this_run": 428,
+  "verified_module_repositories": 427,
+  "mmrl_modules": 880,
   "kernelsu_next_modules": 393,
-  "catalog_mmrl_modules": 412,
+  "catalog_mmrl_modules": 411,
   "catalog_ksu_modules": 377,
   "federation": {
-    "fetched": 46,
-    "failed": 3,
+    "fetched": 45,
+    "failed": 4,
     "malformed_modules": 1,
     "failures": [
+      {
+        "kind": "mmrl",
+        "source": "https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/",
+        "status": "stale",
+        "error": "URLError"
+      },
       {
         "kind": "mmrl",
         "source": "https://leloubil.github.io/magisk-repo/",
@@ -41,9 +47,9 @@
     "total": 49,
     "mmrl_upstream_sources": 47,
     "ksu_upstream_sources": 2,
-    "base_mmrl_modules": 412,
+    "base_mmrl_modules": 411,
     "base_ksu_modules": 377,
-    "unified_mmrl_modules": 881,
+    "unified_mmrl_modules": 880,
     "unified_ksu_modules": 393,
     "mmrl_external_selected": 509,
     "ksu_external_selected": 16,
@@ -52,10 +58,10 @@
     "independent_discovery": {
       "github_queries": 8,
       "github_search_errors": [],
-      "github_search_candidates_this_run": 114,
-      "new_candidates_inspected": 0,
+      "github_search_candidates_this_run": 112,
+      "new_candidates_inspected": 1,
       "remaining_unchecked_candidates": 0,
-      "candidates_ever_checked": 131,
+      "candidates_ever_checked": 132,
       "discovered_feeds": 26,
       "discovered_mmrl_feeds": 26,
       "discovered_ksu_feeds": 0
@@ -64,6 +70,6 @@
   "exclusions_by_reason": {
     "ambiguous_multiple_module_ids": 13,
     "no_latest_release": 456,
-    "no_valid_module_zip": 544
+    "no_valid_module_zip": 545
   }
 }

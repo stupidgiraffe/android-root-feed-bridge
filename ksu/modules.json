@@ -1517,8 +1517,8 @@
     "visibility": 1
   },
   {
-    "name": "Miracast Sink (System Priv-App)",
-    "description": "Windows Miracast support, full WFD capability exchange, configurable settings, dual-mode P2P (GO intent 0/8)",
+    "name": "Miracast Sink (On-Demand Root)",
+    "description": "Optional normal-app installer; Miracast Sink requests narrow root access only during sink sessions. No system overlay or boot service.",
     "author": "foxlost",
     "repoUrl": "https://github.com/foxlost/universal-miracast-sink",
     "visibility": 1

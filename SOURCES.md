@@ -1,14 +1,14 @@
 # RootAtlas — all tracked source repositories
 
 Automatically generated from the actual source configuration and discovery state.
-Last successful feed update: **2026-11-17 13:03 UTC**.
+Last successful feed update: **2026-11-18 09:24 UTC**.
 
 ## Live coverage
 
 - Best Root Apps catalog: **1904** discovery entries, 1794 GitHub project candidates.
-- MMRL modules after deduplication: **881**.
+- MMRL modules after deduplication: **880**.
 - KernelSU Next entries after deduplication: **393**.
-- External feeds fetched: **46 / 49** (some failed sources may retain cached entries).
+- External feeds fetched: **45 / 49** (some failed sources may retain cached entries).
 
 ## Original discovery catalog (1)
 
@@ -24,7 +24,7 @@ Last successful feed update: **2026-11-17 13:03 UTC**.
 | [IzzyOnDroid Magisk](https://apt.izzysoft.de/magisk/) | [Open feed](https://apt.izzysoft.de/magisk/) | Loaded |
 | [Rikj000 Modules](https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/) | [Open feed](https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/) | Loaded |
 | [Celica Modules](https://natsumerinchan.github.io/celica-magisk-modules-repo/) | [Open feed](https://natsumerinchan.github.io/celica-magisk-modules-repo/) | Loaded |
-| [Fruitsnack Fonts](https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/) | [Open feed](https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/) | Loaded |
+| [Fruitsnack Fonts](https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/) | [Open feed](https://codeberg.org/fruitsnack/magisk-font-repo/raw/branch/main/) | Failed (retrying) |
 | [Leloubil Repo](https://leloubil.github.io/magisk-repo/) | [Open feed](https://leloubil.github.io/magisk-repo/) | Failed (retrying) |
 | [Misak10 Repo](https://misak10.github.io/mmrl-repo/) | [Open feed](https://misak10.github.io/mmrl-repo/) | Failed (retrying) |
 | [ZGuation Projects (ZG-R)](https://zguation-projects.github.io/ZG-R/) | [Open feed](https://zguation-projects.github.io/ZG-R/) | Loaded |

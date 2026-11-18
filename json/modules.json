@@ -6,7 +6,7 @@
   "description": "RootAtlas unifies independent Android module repositories with transparent provenance and daily sync.",
   "metadata": {
     "version": 1,
-    "timestamp": 1794920594.0
+    "timestamp": 1794993866.0
   },
   "modules": [
     {
@@ -77,8 +77,8 @@
       "id": "integrity-box",
       "name": ".𝙄𝙣𝙩𝙚𝙜𝙧𝙞𝙩𝙮 𝘽𝙤𝙭 📦",
       "author": "𝗠𝗘𝗢𝗪𝗻𝗮 💅",
-      "version": "v48.1",
-      "versionCode": 48100,
+      "version": "v48.2",
+      "versionCode": 48200,
       "track": {
         "type": "GIT",
         "added": 1792260970.0,
@@ -86,11 +86,11 @@
       },
       "versions": [
         {
-          "versionCode": 48100,
-          "version": "v48.1",
+          "versionCode": 48200,
+          "version": "v48.2",
           "timestamp": 1794807444.0,
-          "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/v48/v48.1-Integrity-Box-16-11-2026.zip",
-          "size": 3017149,
+          "zipUrl": "https://github.com/MeowDump/Integrity-Box/releases/download/v48/v48.2-Integrity-Box-17-11-2026.zip",
+          "size": 3017166,
           "changelog": ""
         }
       ],
@@ -114,7 +114,7 @@
         "mmrl.permission.DEXS"
       ],
       "maxApi": 36,
-      "size": 3017149
+      "size": 3017166
     },
     {
       "id": "playintegrity",
@@ -523,7 +523,7 @@
       "readme": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/A-STEPS/README.md",
       "permissions": [],
       "size": 61224,
-      "stars": 16
+      "stars": 17
     },
     {
       "id": "Hc_memory",
@@ -633,7 +633,7 @@
       ],
       "permissions": [],
       "size": 813069,
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "adawayadblocker",
@@ -1954,7 +1954,7 @@
         {
           "versionCode": 8,
           "version": "v1.3.4",
-          "timestamp": 1794839907.0,
+          "timestamp": 1794929177.0,
           "zipUrl": "https://github.com/Magisk-Modules-Alt-Repo/abootloop/releases/download/v1.3.4/abootloop.zip",
           "size": 5011,
           "changelog": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/abootloop/main/changelog.md"
@@ -2691,7 +2691,7 @@
         "magisk.permission.RESETPROP"
       ],
       "size": 26321,
-      "stars": 348
+      "stars": 349
     },
     {
       "id": "aml",
@@ -2905,7 +2905,7 @@
       ],
       "permissions": [],
       "size": 4027697,
-      "stars": 40
+      "stars": 39
     },
     {
       "id": "Aurora",
@@ -3407,7 +3407,7 @@
         {
           "versionCode": 199424,
           "version": "3.11",
-          "timestamp": 1794839907.0,
+          "timestamp": 1794929177.0,
           "zipUrl": "https://github.com/chenxiaolong/BCR/releases/download/v3.11/BCR-3.11-release.zip",
           "size": 2787358,
           "changelog": "https://github.com/chenxiaolong/BCR/raw/v3.11/app/magisk/updates/release/changelog.txt"
@@ -3580,7 +3580,7 @@
         "magisk.permission.POST_FS_DATA"
       ],
       "size": 3022006,
-      "stars": 592
+      "stars": 594
     },
     {
       "id": "bfr_webui_go",
@@ -4897,25 +4897,25 @@
     {
       "id": "cliproxyapi",
       "name": "CLIProxyAPI",
-      "version": "v8.0.76",
-      "versionCode": 800007600,
+      "version": "v8.0.77",
+      "versionCode": 800007700,
       "author": "tsaQB",
       "description": "CLIProxyAPI boot service for Android.",
       "homepage": "https://github.com/as-tsaqib/cliproxyapi-module",
-      "size": 28597336,
+      "size": 28687970,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794897008.0,
+        "added": 1794981174.0,
         "source": "https://github.com/as-tsaqib/cliproxyapi-module"
       },
       "versions": [
         {
-          "version": "v8.0.76",
-          "versionCode": 800007600,
-          "zipUrl": "https://github.com/tsaQB/cliproxyapi-android/releases/download/v8.0.76/cliproxyapi-magisk.zip",
-          "timestamp": 1794897008.0,
-          "size": 28597336
+          "version": "v8.0.77",
+          "versionCode": 800007700,
+          "zipUrl": "https://github.com/tsaQB/cliproxyapi-android/releases/download/v8.0.77/cliproxyapi-magisk.zip",
+          "timestamp": 1794981174.0,
+          "size": 28687970
         }
       ]
     },
@@ -5285,7 +5285,7 @@
       ],
       "permissions": [],
       "size": 138225,
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "Logd_Disabler_ColorOS16",
@@ -5324,7 +5324,7 @@
       ],
       "permissions": [],
       "size": 642548,
-      "stars": 22
+      "stars": 24
     },
     {
       "id": "73sydney.coloursatmod",
@@ -5511,30 +5511,30 @@
         "system"
       ],
       "permissions": [],
-      "stars": 101
+      "stars": 105
     },
     {
       "id": "COPG-VD",
       "name": "COPG-VD",
-      "version": "v6.13-vd",
-      "versionCode": 61300,
+      "version": "v6.16-vd",
+      "versionCode": 61600,
       "author": "fork by VD171",
       "description": "Spoof your device.",
       "homepage": "https://github.com/VD171/COPG-VD",
-      "size": 676571,
+      "size": 735837,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794783899.0,
+        "added": 1794957853.0,
         "source": "https://github.com/VD171/COPG-VD"
       },
       "versions": [
         {
-          "version": "v6.13-vd",
-          "versionCode": 61300,
-          "zipUrl": "https://github.com/VD171/COPG-VD/releases/download/v6.13-vd/COPG-VD-v6.13-vd.zip",
-          "timestamp": 1794783899.0,
-          "size": 676571
+          "version": "v6.16-vd",
+          "versionCode": 61600,
+          "zipUrl": "https://github.com/VD171/COPG-VD/releases/download/v6.16-vd/COPG-VD-v6.16-vd.zip",
+          "timestamp": 1794957853.0,
+          "size": 735837
         }
       ]
     },
@@ -6533,7 +6533,7 @@
       ],
       "permissions": [],
       "size": 928204,
-      "stars": 900
+      "stars": 902
     },
     {
       "id": "deviceidchanger",
@@ -6593,25 +6593,25 @@
     {
       "id": "dirac_universal",
       "name": "Dirac Universal - Port from Oplus Ossi",
-      "version": "v1.1",
-      "versionCode": 2,
+      "version": "v1.2",
+      "versionCode": 3,
       "author": "TAlgorhythmic",
       "description": "Dirac audio for any device. Bundles the control service, my own custom DiracUI app, and a headphone filter database that combines multiple devices. Not affiliated with Dirac Research.",
       "homepage": "https://github.com/talgorhythmic/dirac-universal-magisk-module",
-      "size": 5989533,
+      "size": 5989921,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794543822.0,
+        "added": 1794956354.0,
         "source": "https://github.com/talgorhythmic/dirac-universal-magisk-module"
       },
       "versions": [
         {
-          "version": "v1.1",
-          "versionCode": 2,
-          "zipUrl": "https://github.com/TAlgorhythmic/Dirac-Universal-Magisk-Module/releases/download/1.1/dirac_universal-v1.1.zip",
-          "timestamp": 1794543822.0,
-          "size": 5989533
+          "version": "v1.2",
+          "versionCode": 3,
+          "zipUrl": "https://github.com/TAlgorhythmic/Dirac-Universal-Magisk-Module/releases/download/1.2/dirac_universal-v1.2.zip",
+          "timestamp": 1794956354.0,
+          "size": 5989921
         }
       ]
     },
@@ -7479,7 +7479,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 46
+      "stars": 62
     },
     {
       "id": "duckmock",
@@ -8127,25 +8127,25 @@
     {
       "id": "extradim",
       "name": "Extra Dim (Android 8-17+)",
-      "version": "v3.3",
-      "versionCode": 9,
+      "version": "v3.4",
+      "versionCode": 10,
       "author": "Shivraj_editx",
       "description": "Extra Dim for ROMs that lack it, Android 8 to 17+: root helper + bundled Quick Settings tile, works on Magisk, KernelSU and APatch without a root grant. Made with ❤️ by t.me/Shivraj_editx",
       "homepage": "https://github.com/shivrajtode/extradim-magisk",
-      "size": 24863,
+      "size": 26961,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1793414877.0,
+        "added": 1794979091.0,
         "source": "https://github.com/shivrajtode/extradim-magisk"
       },
       "versions": [
         {
-          "version": "v3.3",
-          "versionCode": 9,
-          "zipUrl": "https://github.com/shivrajtode/ExtraDim-Magisk/releases/download/v3.3/ExtraDim-v3.3.zip",
-          "timestamp": 1793414877.0,
-          "size": 24863
+          "version": "v3.4",
+          "versionCode": 10,
+          "zipUrl": "https://github.com/shivrajtode/ExtraDim-Magisk/releases/download/v3.4/ExtraDim-v3.4.zip",
+          "timestamp": 1794979091.0,
+          "size": 26961
         }
       ]
     },
@@ -8741,7 +8741,7 @@
         "magisk.permission.RESETPROP"
       ],
       "size": 24700925,
-      "stars": 20
+      "stars": 21
     },
     {
       "id": "fluttertap",
@@ -9079,7 +9079,7 @@
       ],
       "permissions": [],
       "size": 213346,
-      "stars": 317
+      "stars": 320
     },
     {
       "id": "fresh-emoji",
@@ -9129,25 +9129,25 @@
     {
       "id": "frida_magisk",
       "name": "Frida Magisk",
-      "version": "17.26.4",
-      "versionCode": 172604,
+      "version": "17.27.0",
+      "versionCode": 172700,
       "author": "xjoker",
       "description": "Run bundled frida-server at boot with watchdog restart and Action status/control entry.",
       "homepage": "https://github.com/xjoker/frida-magisk",
-      "size": 49614498,
+      "size": 49616232,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794897847.0,
+        "added": 1794981689.0,
         "source": "https://github.com/xjoker/frida-magisk"
       },
       "versions": [
         {
-          "version": "17.26.4",
-          "versionCode": 172604,
-          "zipUrl": "https://github.com/xjoker/frida-magisk/releases/download/v17.26.4/frida-magisk-17.26.4-arm64-v8a.zip",
-          "timestamp": 1794897847.0,
-          "size": 49614498
+          "version": "17.27.0",
+          "versionCode": 172700,
+          "zipUrl": "https://github.com/xjoker/frida-magisk/releases/download/v17.27.0/frida-magisk-17.27.0-arm64-v8a.zip",
+          "timestamp": 1794981689.0,
+          "size": 49616232
         }
       ]
     },
@@ -10885,7 +10885,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 485
+      "stars": 489
     },
     {
       "id": "hybrid_mount",
@@ -11149,25 +11149,25 @@
     {
       "id": "hypercool",
       "name": "HyperCool - Heat & Battery Fix",
-      "version": "v2.3.5",
-      "versionCode": 235,
+      "version": "v2.3.6",
+      "versionCode": 236,
       "author": "Yudharn",
       "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
       "homepage": "https://github.com/yudharn/hypercool",
-      "size": 358890,
+      "size": 361956,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794898766.0,
+        "added": 1794926926.0,
         "source": "https://github.com/yudharn/hypercool"
       },
       "versions": [
         {
-          "version": "v2.3.5",
-          "versionCode": 235,
-          "zipUrl": "https://github.com/yudharn/HyperCool/releases/download/v2.3.5/HyperCool_v2.3.5.zip",
-          "timestamp": 1794898766.0,
-          "size": 358890
+          "version": "v2.3.6",
+          "versionCode": 236,
+          "zipUrl": "https://github.com/yudharn/HyperCool/releases/download/v2.3.6/HyperCool_v2.3.6.zip",
+          "timestamp": 1794926926.0,
+          "size": 361956
         }
       ]
     },
@@ -12539,7 +12539,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 379
+      "stars": 381
     },
     {
       "id": "adrianmmiller.KSUdebloat",
@@ -12654,7 +12654,7 @@
       ],
       "permissions": [],
       "size": 73059236,
-      "stars": 17
+      "stars": 16
     },
     {
       "id": "ksu-webui-module-template",
@@ -13749,7 +13749,7 @@
       ],
       "permissions": [],
       "size": 5755243,
-      "stars": 618
+      "stars": 622
     },
     {
       "id": "magisk_overlayfs",
@@ -13818,25 +13818,25 @@
     {
       "id": "MagicNet",
       "name": "MagicNet",
-      "version": "v1.8.9",
-      "versionCode": 10617,
+      "version": "v1.9.0",
+      "versionCode": 10618,
       "author": "LIghtJUNction",
       "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
       "homepage": "https://github.com/LIghtJUNction/MagicNet",
-      "size": 3466085,
+      "size": 3466036,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794858599.0,
+        "added": 1794951721.0,
         "source": "https://github.com/LIghtJUNction/MagicNet"
       },
       "versions": [
         {
-          "version": "v1.8.9",
-          "versionCode": 10617,
-          "zipUrl": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.9/MagicNet-core.zip",
-          "timestamp": 1794858599.0,
-          "size": 3466085
+          "version": "v1.9.0",
+          "versionCode": 10618,
+          "zipUrl": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.9.0/MagicNet-core.zip",
+          "timestamp": 1794951721.0,
+          "size": 3466036
         }
       ]
     },
@@ -14335,8 +14335,8 @@
       "id": "magisk-frida",
       "name": "MagiskFrida",
       "author": "ViRb3 & enovella",
-      "version": "17.26.3-1",
-      "versionCode": 17260301,
+      "version": "17.26.4-1",
+      "versionCode": 17260401,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1775213261.0,
@@ -14344,11 +14344,11 @@
       },
       "versions": [
         {
-          "versionCode": 17260301,
-          "version": "17.26.3-1",
-          "timestamp": 1794839907.0,
-          "zipUrl": "https://github.com/ViRb3/magisk-frida/releases/download/17.26.3-1/MagiskFrida-17.26.3-1.zip",
-          "size": 146764687,
+          "versionCode": 17260401,
+          "version": "17.26.4-1",
+          "timestamp": 1794929177.0,
+          "zipUrl": "https://github.com/ViRb3/magisk-frida/releases/download/17.26.4-1/MagiskFrida-17.26.4-1.zip",
+          "size": 146782964,
           "changelog": "https://raw.githubusercontent.com/ViRb3/magisk-frida/master/CHANGELOG.md"
         }
       ],
@@ -14356,7 +14356,7 @@
       "description": "Run frida-server on boot: ✅ (active)",
       "support": "https://github.com/ViRb3/magisk-frida",
       "readme": "https://github.com/ViRb3/magisk-frida",
-      "size": 146764687
+      "size": 146782964
     },
     {
       "id": "magiskhide",
@@ -14513,7 +14513,7 @@
         "magisk.permission.SERVICE"
       ],
       "size": 4331,
-      "stars": 275
+      "stars": 276
     },
     {
       "id": "MAGNETAR",
@@ -15027,7 +15027,7 @@
         "security"
       ],
       "permissions": [],
-      "stars": 221
+      "stars": 223
     },
     {
       "id": "microG-GApps",
@@ -15146,27 +15146,27 @@
       ]
     },
     {
-      "id": "miracast-sink-system",
-      "name": "Miracast Sink (System Priv-App)",
-      "version": "v1.4",
-      "versionCode": 5,
+      "id": "miracast-sink-root",
+      "name": "Miracast Sink (On-Demand Root)",
+      "version": "v1.22",
+      "versionCode": 23,
       "author": "foxlost",
-      "description": "Windows Miracast support, full WFD capability exchange, configurable settings, dual-mode P2P (GO intent 0/8)",
+      "description": "Optional normal-app installer; Miracast Sink requests narrow root access only during sink sessions. No system overlay or boot service.",
       "homepage": "https://github.com/foxlost/universal-miracast-sink",
-      "size": 8282102,
+      "size": 8582335,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1788685308.0,
+        "added": 1794978860.0,
         "source": "https://github.com/foxlost/universal-miracast-sink"
       },
       "versions": [
         {
-          "version": "v1.4",
-          "versionCode": 5,
-          "zipUrl": "https://github.com/FoxLost/universal-miracast-sink/releases/download/v1.4/magisk-miracast-sink-v1.4.zip",
-          "timestamp": 1788685308.0,
-          "size": 8282102
+          "version": "v1.22",
+          "versionCode": 23,
+          "zipUrl": "https://github.com/FoxLost/universal-miracast-sink/releases/download/v1.22/magisk-miracast-sink-v1.22-root.zip",
+          "timestamp": 1794978860.0,
+          "size": 8582335
         }
       ]
     },
@@ -15244,7 +15244,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 42
+      "stars": 43
     },
     {
       "id": "mi_thermal_tuner",
@@ -16208,7 +16208,7 @@
         {
           "versionCode": 54,
           "version": "v1.2",
-          "timestamp": 1794839907.0,
+          "timestamp": 1794929177.0,
           "zipUrl": "https://github.com/Rem01Gaming/net-switch/releases/download/1.2/net-switch-1.2-54-64b5764-release.zip",
           "size": 18560,
           "changelog": "https://raw.githubusercontent.com/Rem01Gaming/net-switch/main/changelog.md"
@@ -16284,7 +16284,7 @@
       ],
       "permissions": [],
       "size": 27525137,
-      "stars": 1441
+      "stars": 1445
     },
     {
       "id": "netproxy_xray",
@@ -16393,7 +16393,7 @@
         "security"
       ],
       "permissions": [],
-      "stars": 18
+      "stars": 23
     },
     {
       "id": "nfqttl",
@@ -16670,7 +16670,7 @@
         "mmrl.permission.APKS"
       ],
       "size": 75944,
-      "stars": 249
+      "stars": 250
     },
     {
       "id": "nothing-euicc",
@@ -18342,7 +18342,7 @@
         "mmrl.permission.DEXS"
       ],
       "size": 347894,
-      "stars": 4694
+      "stars": 4698
     },
     {
       "id": "playintegrityfork",
@@ -19756,25 +19756,25 @@
     {
       "id": "resonancefx",
       "name": "ResonanceFX",
-      "version": "v2.3.0",
-      "versionCode": 20300,
+      "version": "v2.5.0",
+      "versionCode": 20500,
       "author": "Xeloria",
       "description": "Free and open-source audio effects engine by Xeloria.",
       "homepage": "https://github.com/xeloria/resonancefx",
-      "size": 1667300,
+      "size": 2255470,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794874997.0,
+        "added": 1794968267.0,
         "source": "https://github.com/xeloria/resonancefx"
       },
       "versions": [
         {
-          "version": "v2.3.0",
-          "versionCode": 20300,
-          "zipUrl": "https://github.com/xeloria/ResonanceFX/releases/download/2.3.0/ResonanceFX-v2.3.0.zip",
-          "timestamp": 1794874997.0,
-          "size": 1667300
+          "version": "v2.5.0",
+          "versionCode": 20500,
+          "zipUrl": "https://github.com/xeloria/ResonanceFX/releases/download/2.5.0/ResonanceFX-v2.5.0.zip",
+          "timestamp": 1794968267.0,
+          "size": 2255470
         }
       ]
     },
@@ -19800,31 +19800,6 @@
           "zipUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.23/ReSuSFS.zip",
           "timestamp": 1792750946.0,
           "size": 267182
-        }
-      ]
-    },
-    {
-      "id": "revancex-tools",
-      "name": "ReVanceX Tools Bundle",
-      "version": "auto-v1.1.0-2026.11.17-b182",
-      "versionCode": 2026111701,
-      "author": "Thunderkex",
-      "description": "Patched module for ReVanceX Tools Bundle via ReVanceX",
-      "homepage": "https://github.com/thunderkex/revancex",
-      "size": 53596565,
-      "verified": false,
-      "track": {
-        "type": "GIT",
-        "added": 1794891372.0,
-        "source": "https://github.com/thunderkex/revancex"
-      },
-      "versions": [
-        {
-          "version": "auto-v1.1.0-2026.11.17-b182",
-          "versionCode": 2026111701,
-          "zipUrl": "https://github.com/thunderkex/revancex/releases/download/auto-v1.1.0-2026.11.17-b182/revancex-bundle-tools.zip",
-          "timestamp": 1794891372.0,
-          "size": 53596565
         }
       ]
     },
@@ -20610,7 +20585,7 @@
         "magisk.permission.ZYGISK"
       ],
       "size": 4979675,
-      "stars": 25522
+      "stars": 25536
     },
     {
       "id": "font_collection_sharetech",
@@ -20780,7 +20755,7 @@
         "system"
       ],
       "permissions": [],
-      "stars": 142
+      "stars": 143
     },
     {
       "id": "MagiskShowCameraSoundsModule",
@@ -22605,7 +22580,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 24544,
-      "stars": 654
+      "stars": 655
     },
     {
       "id": "mkshrc",
@@ -22861,7 +22836,7 @@
       ],
       "permissions": [],
       "size": 32979,
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hdrfix_fp16_client_target",
@@ -24754,7 +24729,7 @@
       ],
       "permissions": [],
       "size": 4060477,
-      "stars": 15
+      "stars": 16
     },
     {
       "id": "Vazirmatn-Regular",
@@ -24840,14 +24815,22 @@
       "id": "vddropbear",
       "name": "VD Dropbear",
       "author": "VD171",
-      "version": "v1.07",
-      "versionCode": 10007,
+      "version": "v1.08",
+      "versionCode": 10008,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794698472.0,
         "source": "https://github.com/VD171/VD-dropbear"
       },
       "versions": [
+        {
+          "versionCode": 10008,
+          "version": "v1.08",
+          "timestamp": 1794935124.0,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.08_10008.zip",
+          "size": 2672289,
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.08_10008.md"
+        },
         {
           "versionCode": 10007,
           "version": "v1.07",
@@ -24863,14 +24846,6 @@
           "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.06_10006.zip",
           "size": 2670612,
           "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.06_10006.md"
-        },
-        {
-          "versionCode": 10002,
-          "version": "v1.02",
-          "timestamp": 1794586893.0,
-          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.02_10002.zip",
-          "size": 2587648,
-          "changelog": "https://vd171.github.io/VD-Modules/modules/vddropbear/v1.02_10002.md"
         }
       ],
       "verified": false,
@@ -24880,21 +24855,29 @@
         "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI"
       ],
-      "size": 2672127,
-      "stars": 19
+      "size": 2672289,
+      "stars": 20
     },
     {
       "id": "vdgoogle",
       "name": "VD Google",
       "author": "VD171",
-      "version": "v1.14",
-      "versionCode": 17,
+      "version": "v1.15",
+      "versionCode": 18,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1794619623.0,
         "source": "https://github.com/VD171/VD-Google"
       },
       "versions": [
+        {
+          "versionCode": 18,
+          "version": "v1.15",
+          "timestamp": 1794920620.0,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.15_18.zip",
+          "size": 2378100,
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdgoogle/v1.15_18.md"
+        },
         {
           "versionCode": 17,
           "version": "v1.14",
@@ -24910,21 +24893,29 @@
         "kernelsu.permission.WEBUI",
         "mmrl.permission.WEBUI_CONFIG"
       ],
-      "size": 2372375,
-      "stars": 144
+      "size": 2378100,
+      "stars": 145
     },
     {
       "id": "vdbackup",
       "name": "VDBackup",
       "author": "VD171",
-      "version": "v1.10",
-      "versionCode": 11000,
+      "version": "v1.11",
+      "versionCode": 11100,
       "track": {
         "type": "ONLINE_JSON",
         "added": 0.0,
         "source": "https://github.com/VD171/VD-Backup"
       },
       "versions": [
+        {
+          "versionCode": 11100,
+          "version": "v1.11",
+          "timestamp": 1794965565.0,
+          "zipUrl": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.11_11100.zip",
+          "size": 65248699,
+          "changelog": "https://vd171.github.io/VD-Modules/modules/vdbackup/v1.11_11100.md"
+        },
         {
           "versionCode": 11000,
           "version": "v1.10",
@@ -24944,8 +24935,8 @@
         "mmrl.permission.APKS",
         "mmrl.permission.DEXS"
       ],
-      "size": 65178630,
-      "stars": 87
+      "size": 65248699,
+      "stars": 85
     },
     {
       "id": "vector",
@@ -25001,7 +24992,7 @@
         {
           "versionCode": 3080,
           "version": "v2.2",
-          "timestamp": 1794839907.0,
+          "timestamp": 1794929177.0,
           "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/v2.2/Vector-v2.2-3080-Release.zip",
           "size": 9316843,
           "changelog": "https://raw.githubusercontent.com/JingMatrix/Vector/master/zygisk/changelog.md"
@@ -25586,7 +25577,7 @@
         "development"
       ],
       "permissions": [],
-      "stars": 804
+      "stars": 815
     },
     {
       "id": "webview_optimizer",
@@ -25908,7 +25899,7 @@
         "security"
       ],
       "permissions": [],
-      "stars": 164
+      "stars": 165
     },
     {
       "id": "powershell",
@@ -26021,7 +26012,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 45880,
-      "stars": 105
+      "stars": 106
     },
     {
       "id": "kaina",
@@ -26519,7 +26510,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 16401,
-      "stars": 210
+      "stars": 209
     },
     {
       "id": "YAKT",
@@ -26616,8 +26607,8 @@
       "id": "yt-morphe",
       "name": "YouTube Morphe",
       "author": "NoName-exe",
-      "version": "v21.30.216 (patches 2.2.0.mpp)",
-      "versionCode": 164,
+      "version": "v21.30.216 (patches 2.3.0.mpp)",
+      "versionCode": 165,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1775213264.0,
@@ -26625,11 +26616,11 @@
       },
       "versions": [
         {
-          "versionCode": 164,
-          "version": "v21.30.216 (patches 2.2.0.mpp)",
-          "timestamp": 1794839907.0,
-          "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/164/youtube-morphe-module-v21.30.216-all.zip",
-          "size": 237034800,
+          "versionCode": 165,
+          "version": "v21.30.216 (patches 2.3.0.mpp)",
+          "timestamp": 1794929177.0,
+          "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/165/youtube-morphe-module-v21.30.216-all.zip",
+          "size": 238558121,
           "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-extended/update/build.md"
         }
       ],
@@ -26637,7 +26628,7 @@
       "description": "YouTube Morphe Module",
       "support": "https://github.com/NoName-exe/revanced-extended",
       "readme": "https://github.com/NoName-exe/revanced-extended",
-      "size": 237034800
+      "size": 238558121
     },
     {
       "id": "ytrevancedinject",
@@ -26691,8 +26682,8 @@
       "id": "ytm-morphe-arm64",
       "name": "YouTube-Music Morphe",
       "author": "NoName-exe",
-      "version": "v9.30.53 (patches 2.2.0.mpp)",
-      "versionCode": 164,
+      "version": "v9.30.53 (patches 2.3.0.mpp)",
+      "versionCode": 165,
       "track": {
         "type": "ONLINE_JSON",
         "added": 1775213264.0,
@@ -26700,11 +26691,11 @@
       },
       "versions": [
         {
-          "versionCode": 164,
-          "version": "v9.30.53 (patches 2.2.0.mpp)",
-          "timestamp": 1794839907.0,
-          "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/164/youtube-music-morphe-module-v9.30.53-arm64-v8a.zip",
-          "size": 69192690,
+          "versionCode": 165,
+          "version": "v9.30.53 (patches 2.3.0.mpp)",
+          "timestamp": 1794929177.0,
+          "zipUrl": "https://github.com/NoName-exe/revanced-extended/releases/download/165/youtube-music-morphe-module-v9.30.53-arm64-v8a.zip",
+          "size": 70083136,
           "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced-extended/update/build.md"
         }
       ],
@@ -26712,7 +26703,7 @@
       "description": "YouTube-Music Morphe Module",
       "support": "https://github.com/NoName-exe/revanced-extended",
       "readme": "https://github.com/NoName-exe/revanced-extended",
-      "size": 69192690
+      "size": 70083136
     },
     {
       "id": "yukizygisk",
@@ -26779,7 +26770,7 @@
       ],
       "permissions": [],
       "size": 3416152,
-      "stars": 141
+      "stars": 146
     },
     {
       "id": "yumi",
@@ -26829,7 +26820,7 @@
         {
           "versionCode": 310,
           "version": "3.1.0",
-          "timestamp": 1794839907.0,
+          "timestamp": 1794929177.0,
           "zipUrl": "https://github.com/Yurii0307/yurikey/releases/download/v3.1.0/Yurikey-v3.1.0.signed.zip",
           "changelog": "https://raw.githubusercontent.com/Yurii0307/yurikey/main/changelog.md"
         }
@@ -27027,25 +27018,25 @@
     {
       "id": "zygisknextsu",
       "name": "ZNNext",
-      "version": "v2.18.0.1 (409-14c2bdd-release)",
-      "versionCode": 409,
+      "version": "v2.18.0.2 (424-770efca-release)",
+      "versionCode": 424,
       "author": "VeryBaaad",
       "description": "Standalone Zygisk Next module loader.",
       "homepage": "https://github.com/verybaaad/znnext",
-      "size": 6148462,
+      "size": 6146217,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794747577.0,
+        "added": 1794932172.0,
         "source": "https://github.com/verybaaad/znnext"
       },
       "versions": [
         {
-          "version": "v2.18.0.1 (409-14c2bdd-release)",
-          "versionCode": 409,
-          "zipUrl": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.1/ZNNext-v2.18.0.1-409-14c2bdd-release.zip",
-          "timestamp": 1794747577.0,
-          "size": 6148462
+          "version": "v2.18.0.2 (424-770efca-release)",
+          "versionCode": 424,
+          "zipUrl": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.2/ZNNext-v2.18.0.2-424-770efca-release.zip",
+          "timestamp": 1794932172.0,
+          "size": 6146217
         }
       ]
     },
@@ -27251,14 +27242,22 @@
       "id": "zygisk_fusehide",
       "name": "Zygisk - FuseHide",
       "author": "XiaoTong",
-      "version": "1.206 (206-b7e36d0-release)",
-      "versionCode": 206,
+      "version": "1.208 (208-0379a9c-release)",
+      "versionCode": 208,
       "track": {
         "type": "ONLINE_JSON",
-        "added": 1792605864.0,
+        "added": 1792923406.0,
         "source": "https://github.com/XiaoTong6666/zygisk_fusehide"
       },
       "versions": [
+        {
+          "versionCode": 208,
+          "version": "1.208 (208-0379a9c-release)",
+          "timestamp": 1794928289.0,
+          "zipUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v208-0379a9c/FuseHide-1.208_208-0379a9c-release.zip",
+          "size": 7759570,
+          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/zygisk_fusehide/changelogs/1.208__208-0379a9c-release_.md"
+        },
         {
           "versionCode": 206,
           "version": "1.206 (206-b7e36d0-release)",
@@ -27290,14 +27289,6 @@
           "zipUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v202-34ca0ce/FuseHide-1.202_202-34ca0ce-release.zip",
           "size": 7677650,
           "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/zygisk_fusehide/changelogs/1.202__202-34ca0ce-release_.md"
-        },
-        {
-          "versionCode": 201,
-          "version": "1.201 (201-33b2011-release)",
-          "timestamp": 1793803236.0,
-          "zipUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v201-33b2011/FuseHide-1.201_201-33b2011-release.zip",
-          "size": 7677650,
-          "changelog": "https://raw.githubusercontent.com/MMRLApp/repo/refs/heads/master/ksu/modules/zygisk_fusehide/changelogs/1.201__201-33b2011-release_.md"
         }
       ],
       "verified": false,
@@ -27313,8 +27304,8 @@
         "fusehide"
       ],
       "permissions": [],
-      "size": 7677650,
-      "stars": 27
+      "size": 7759570,
+      "stars": 28
     },
     {
       "id": "zygisk_ifw_enhance",
@@ -27462,7 +27453,7 @@
       ],
       "permissions": [],
       "size": 1453631,
-      "stars": 16
+      "stars": 17
     },
     {
       "id": "zygisk_sui",
@@ -27922,7 +27913,7 @@
         "kernelsu.permission.WEBUI"
       ],
       "size": 5810459,
-      "stars": 11023
+      "stars": 11034
     },
     {
       "id": "zygiskfrida",
@@ -28215,7 +28206,7 @@
       ],
       "permissions": [],
       "size": 1504829,
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "genshin_bootanim",
@@ -28388,25 +28379,25 @@
     {
       "id": "thermocharge",
       "name": "恒温充电 (ThermoCharge)",
-      "version": "v1.3.8",
-      "versionCode": 10308,
+      "version": "v1.3.10",
+      "versionCode": 10310,
       "author": "酷安@玖清雨",
       "description": "以电池温度为被控量、充电电流为控制量的恒温充电控制器。温度锁在目标值,充电功率随散热条件自动浮动。基于 mca votable 的 Min 聚合,永远不会比系统原有保护更激进。",
       "homepage": "https://github.com/luoyi0914/thermocharge",
-      "size": 72883,
+      "size": 86681,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794830613.0,
+        "added": 1794965920.0,
         "source": "https://github.com/luoyi0914/thermocharge"
       },
       "versions": [
         {
-          "version": "v1.3.8",
-          "versionCode": 10308,
-          "zipUrl": "https://github.com/luoyi0914/ThermoCharge/releases/download/v1.3.8/thermocharge-v1.3.8.zip",
-          "timestamp": 1794830613.0,
-          "size": 72883
+          "version": "v1.3.10",
+          "versionCode": 10310,
+          "zipUrl": "https://github.com/luoyi0914/ThermoCharge/releases/download/v1.3.10/thermocharge-v1.3.10.zip",
+          "timestamp": 1794965920.0,
+          "size": 86681
         }
       ]
     },
@@ -28438,25 +28429,25 @@
     {
       "id": "motion_cues_port",
       "name": "晕动舒缓显示（欧加通用）",
-      "version": "v7.4",
-      "versionCode": 74,
+      "version": "v7.5",
+      "versionCode": 75,
       "author": "三重&大肥鱼   酷安@MieAi",
       "description": "为缺少「晕动舒缓显示」的 OPPO/一加/realme(欧加) ColorOS 16 机型补全原生功能：自动识别机型与传感器、驱动原厂 AntiDizzy 渲染、圆点边缘抗锯齿自适应任意分辨率、车辆运动识别（抗手持误判）",
       "homepage": "https://github.com/mieaiiii/oplus-antidizzy-module",
-      "size": 34491,
+      "size": 35100,
       "verified": false,
       "track": {
         "type": "GIT",
-        "added": 1794854206.0,
+        "added": 1794926542.0,
         "source": "https://github.com/mieaiiii/oplus-antidizzy-module"
       },
       "versions": [
         {
-          "version": "v7.4",
-          "versionCode": 74,
-          "zipUrl": "https://github.com/MieAiiii/oplus-antidizzy-module/releases/download/v7.4/oplus-antidizzy-module-v7.4.zip",
-          "timestamp": 1794854206.0,
-          "size": 34491
+          "version": "v7.5",
+          "versionCode": 75,
+          "zipUrl": "https://github.com/MieAiiii/oplus-antidizzy-module/releases/download/v7.5/oplus-antidizzy-module-v7.5.zip",
+          "timestamp": 1794926542.0,
+          "size": 35100
         }
       ]
     },
@@ -28520,7 +28511,7 @@
       ],
       "permissions": [],
       "size": 2181768,
-      "stars": 2
+      "stars": 4
     },
     {
       "id": "CertBridge",
@@ -28556,7 +28547,7 @@
       ],
       "permissions": [],
       "size": 5606814,
-      "stars": 58
+      "stars": 59
     },
     {
       "id": "Lowlife",

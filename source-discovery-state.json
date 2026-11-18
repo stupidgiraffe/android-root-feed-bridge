@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": 1794920594,
+  "generated": 1794993866,
   "repositories": {
     "cabiamdos/my-mmrl-repository": {
       "kind": "mmrl",
@@ -944,6 +944,13 @@
       "repository": "yudharn/HyperCool",
       "last_error": "HTTPError",
       "checked": 1794907477
+    },
+    "droidtop/droidtop-plugin-mmrl": {
+      "kind": "none",
+      "status": "unmatched",
+      "repository": "Droidtop/droidtop-plugin-mmrl",
+      "last_error": "HTTPError",
+      "checked": 1794993866
     }
   }
 }

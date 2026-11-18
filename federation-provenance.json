@@ -884,7 +884,7 @@
       "kind": "catalog",
       "url": "https://github.com/DethByte64/Magisk-Minecraft-Font"
     },
-    "miracast-sink-system": {
+    "miracast-sink-root": {
       "kind": "catalog",
       "url": "https://github.com/foxlost/universal-miracast-sink"
     },
@@ -1187,10 +1187,6 @@
     "ReSuSFS": {
       "kind": "catalog",
       "url": "https://github.com/ahmed-alnassif/resusfs"
-    },
-    "revancex-tools": {
-      "kind": "catalog",
-      "url": "https://github.com/thunderkex/revancex"
     },
     "rezygisk": {
       "kind": "mmrl",
@@ -3613,7 +3609,7 @@
     "open_fonts": 2,
     "open_webview": 3,
     "selinux_mode": 2,
-    "smallbattery": 2,
+    "smallbattery": 3,
     "supl-replacer": 2,
     "systemui-bootloop": 2,
     "trichromelibrary-squoosh": 2,
