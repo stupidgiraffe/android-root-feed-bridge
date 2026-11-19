@@ -24,6 +24,10 @@
       "kind": "catalog",
       "url": "https://github.com/wanyoou/adbenable"
     },
+    "adb_tcp_toggle": {
+      "kind": "catalog",
+      "url": "https://github.com/d3sox/adb-tcp-toggle"
+    },
     "adb_tcpip_boot": {
       "kind": "catalog",
       "url": "https://github.com/nightmean/android-adb-over-tcp-at-boot"
@@ -181,8 +185,8 @@
       "url": "https://github.com/kaminarich/BatteryHoney"
     },
     "com.chiller3.bcr": {
-      "kind": "mmrl",
-      "url": "https://shamratrh-web.github.io/mmrl-repo/"
+      "kind": "catalog",
+      "url": "https://github.com/chenxiaolong/BCR"
     },
     "beszel-agent": {
       "kind": "catalog",
@@ -953,8 +957,8 @@
       "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "netproxy": {
-      "kind": "mmrl",
-      "url": "https://mmrl.dev/repo/ksu/"
+      "kind": "catalog",
+      "url": "https://github.com/Fanju6/NetProxy-Magisk"
     },
     "netproxy_xray": {
       "kind": "catalog",
@@ -1028,6 +1032,10 @@
       "kind": "catalog",
       "url": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker"
     },
+    "oplus_camera_los": {
+      "kind": "catalog",
+      "url": "https://github.com/nikolastama/oplus-camera-los"
+    },
     "oneplus_global_wifi_beast": {
       "kind": "catalog",
       "url": "https://github.com/blueokanna/oneplus_beast"
@@ -1051,6 +1059,10 @@
     "partition-backup": {
       "kind": "catalog",
       "url": "https://github.com/rhythmcache/partition-backup"
+    },
+    "passwall-android": {
+      "kind": "catalog",
+      "url": "https://github.com/incognito-coder/passwall-android"
     },
     "patch-inline-trackmotion": {
       "kind": "catalog",
@@ -1452,6 +1464,10 @@
       "kind": "catalog",
       "url": "https://github.com/reveny/Android-VBMeta-Fixer"
     },
+    "vdbackup": {
+      "kind": "catalog",
+      "url": "https://github.com/vd171/vd-backup"
+    },
     "zygisk_vector": {
       "kind": "mmrl",
       "url": "https://shamratrh-web.github.io/mmrl-repo/"
@@ -1523,6 +1539,10 @@
     "mmrl_wpd": {
       "kind": "mmrl",
       "url": "https://vc-teahouse.github.io/magisk-module-repo/"
+    },
+    "winplay_pcengine": {
+      "kind": "catalog",
+      "url": "https://github.com/pecaboo/pc-engine-xring-o1"
     },
     "uu-wheel-evdev": {
       "kind": "catalog",
@@ -1623,6 +1643,10 @@
     "COPG": {
       "kind": "mmrl",
       "url": "https://mmrl.dev/repo/"
+    },
+    "nanhe_ovo": {
+      "kind": "catalog",
+      "url": "https://github.com/nanhe-ovo/nanhe_ovo-module"
     },
     "thermocharge": {
       "kind": "catalog",
@@ -3312,6 +3336,10 @@
       "kind": "mmrl",
       "url": "https://zelect0r.github.io/zamr/"
     },
+    "ashlooper": {
+      "kind": "mmrl",
+      "url": "https://zelect0r.github.io/zamr/"
+    },
     "BCR": {
       "kind": "mmrl",
       "url": "https://zguation-projects.github.io/ZG-R/"
@@ -3371,10 +3399,6 @@
     "systemless_hosts": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/RavenWolf1998/MMRL-Magisk-Module-Repo/main/"
-    },
-    "vdbackup": {
-      "kind": "mmrl",
-      "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
     },
     "vddropbear": {
       "kind": "mmrl",
@@ -3643,6 +3667,7 @@
     "cache_cleaner": 2,
     "asoul_affinity_opt": 2,
     "busybox-ndk": 3,
+    "stevenblock": 2,
     "Malwack": 2,
     "MiXplorer": 2,
     "Xtreme-Battery-Saver": 2,
@@ -3746,6 +3771,7 @@
     "bypasser": 1,
     "aa4mg": 1,
     "COPG-VD": 1,
+    "vdbackup": 1,
     "fas_rs": 1,
     "hostsredirect": 1,
     "magisk_custompinyindictionary_fcitx": 1,
@@ -3805,7 +3831,8 @@
     "tricky-store": 1,
     "alwaysstrong": 1,
     "alwaysstrong-inject": 1,
-    "alwaysstrong-nopif": 1
+    "alwaysstrong-nopif": 1,
+    "ashlooper": 1
   },
   "ksu_origins": {
     "https://github.com/rrr333nnn333/brene": "catalog",
@@ -3813,6 +3840,7 @@
     "https://github.com/nakixii/magisk_asoulopt": "catalog",
     "https://github.com/raafi-abir/acc-automatic-cache-cleaner": "catalog",
     "https://github.com/wanyoou/adbenable": "catalog",
+    "https://github.com/d3sox/adb-tcp-toggle": "catalog",
     "https://github.com/nightmean/android-adb-over-tcp-at-boot": "catalog",
     "https://github.com/nalbe/shark8-adb-wifi-lan-persistent": "catalog",
     "https://github.com/evdenis/adb_root": "catalog",
@@ -4046,10 +4074,12 @@
     "https://github.com/nikitos4683/nzapret": "catalog",
     "https://github.com/christuo-dev/oneplus15-beidou-gnss-guard": "catalog",
     "https://github.com/magisk-modules-alt-repo/oneplus-8series-9r-camera-unlocker": "catalog",
+    "https://github.com/nikolastama/oplus-camera-los": "catalog",
     "https://github.com/aloozchips/oneuiemojipack": "catalog",
     "https://github.com/kernelsu-modules-repo/meta-overlayfs": "catalog",
     "https://github.com/epicmann24/oosgms-optimiser": "catalog",
     "https://github.com/rhythmcache/partition-backup": "catalog",
+    "https://github.com/incognito-coder/passwall-android": "catalog",
     "https://github.com/lanrhyme/patch-inline-trackmotion": "catalog",
     "https://github.com/adivenxnataly/perfgame": "catalog",
     "https://github.com/juaniman/perfmtk": "catalog",
@@ -4158,6 +4188,7 @@
     "https://github.com/hyperramzey/wcg_f946b": "catalog",
     "https://github.com/e3n-glotm/wifi7-lab-safe": "catalog",
     "https://github.com/googlers-repo/wpd": "catalog",
+    "https://github.com/pecaboo/pc-engine-xring-o1": "catalog",
     "https://github.com/nosiybugs/uu-wheel-evdev": "catalog",
     "https://github.com/leapdragon/xiaomiplaystorefix": "catalog",
     "https://github.com/cherwing/xiaomi_usb_security_bypass": "catalog",

@@ -36,6 +36,13 @@
     "visibility": 1
   },
   {
+    "name": "ADB over Network Toggle",
+    "description": "❌ ADB TCP off. Action enables it on Tailscale.",
+    "author": "D3SOX",
+    "repoUrl": "https://github.com/d3sox/adb-tcp-toggle",
+    "visibility": 1
+  },
+  {
     "name": "ADB over TCP at Boot",
     "description": "Starts authenticated ADB over TCP at boot for Tailscale without Wi-Fi.",
     "author": "NightMean",
@@ -1766,6 +1773,13 @@
     "visibility": 1
   },
   {
+    "name": "OnePlus Camera for LineageOS (OnePlus 15)",
+    "description": "Stock OnePlus 15 camera on LineageOS 24 for infiniti. Removing the module removes the app, its data, its props and its policy.",
+    "author": "Nikola",
+    "repoUrl": "https://github.com/nikolastama/oplus-camera-los",
+    "visibility": 1
+  },
+  {
     "name": "OneUI 7 Emoji Pack",
     "description": "**Default emojis may restore after reinstalling/updating apps or clearing app data. Tap the Action button to apply OneUI emojis. If the issue persists, reboot your device.**",
     "author": "𝙰𝚛𝚊𝚗𝚢𝚊🧃 || t.me/aloozchips",
@@ -1792,6 +1806,13 @@
     "description": "Utility to backup or save Android device partitions.",
     "author": "rhythmcache.t.me",
     "repoUrl": "https://github.com/rhythmcache/partition-backup",
+    "visibility": 1
+  },
+  {
+    "name": "Passwall Transparent Proxy (Xray)",
+    "description": "OpenWrt Passwall-style transparent proxy for wlan, hotspot & NAT with Web UI (Android 6-16, ARMv7/ARM64).",
+    "author": "Incognito-Coder",
+    "repoUrl": "https://github.com/incognito-coder/passwall-android",
     "visibility": 1
   },
   {
@@ -2582,6 +2603,13 @@
     "visibility": 1
   },
   {
+    "name": "WinPlay PC Engine (XRING O1)",
+    "description": "在 Xiaomi Pad 7 Ultra (XRING O1) 上一键跑 Windows 程序：Zygisk 桥 + 启动器 + root 网桥 + sdcard 挂载 + Wine 任务面板。开机自动就绪，应用无需 root 权限。",
+    "author": "PECABOO",
+    "repoUrl": "https://github.com/pecaboo/pc-engine-xring-o1",
+    "visibility": 1
+  },
+  {
     "name": "Xiaomi Pad 5 Mouse Wheel Invert",
     "description": "Mouse wheel direction inversion for Xiaomi Pad 5 series (local apps + UU Remote); configurable target mice; stable uinput",
     "author": "opencode",
@@ -2757,7 +2785,7 @@
   },
   {
     "name": "恒温充电 (ThermoCharge)",
-    "description": "以电池温度为被控量、充电电流为控制量的恒温充电控制器。温度锁在目标值,充电功率随散热条件自动浮动。基于 mca votable 的 Min 聚合,永远不会比系统原有保护更激进。",
+    "description": "以电池温度为被控量、充电电流为控制量的恒温充电控制器。温度锁在目标值,充电功率随散热条件自动浮动。基于 mca votable 的 Min 聚合,永远不会比系统原有保护更激进。安装时自动套用机型参数(内置 K90 Ultra)。交流群 377709300。",
     "author": "酷安@玖清雨",
     "repoUrl": "https://github.com/luoyi0914/thermocharge",
     "visibility": 1

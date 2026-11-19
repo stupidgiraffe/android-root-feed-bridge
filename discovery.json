@@ -3,19 +3,19 @@
   "source": "https://github.com/krishna3163/best-root-apps-for-android",
   "upstream_website": "https://krishna3163.github.io/best-root-apps-for-android/",
   "summary": {
-    "total_entries": 1904,
-    "readme_entries": 1859,
+    "total_entries": 1926,
+    "readme_entries": 1881,
     "morphe_entries": 45,
     "tracker_extras": 0,
-    "unique_github_repositories": 1794,
+    "unique_github_repositories": 1816,
     "by_kind": {
       "android_app": 36,
-      "android_tool": 664,
+      "android_tool": 675,
       "lsposed": 194,
-      "lsposed_or_zygisk": 293,
+      "lsposed_or_zygisk": 298,
       "patched_apk": 45,
-      "root_module_candidate": 480,
-      "shizuku": 192
+      "root_module_candidate": 483,
+      "shizuku": 195
     },
     "by_provider": {
       "adguard.com": 1,
@@ -23,7 +23,7 @@
       "blokada.org": 1,
       "codeberg.org": 3,
       "gitea.angry.im": 1,
-      "github.com": 1841,
+      "github.com": 1863,
       "gitlab.com": 6,
       "joycondroid.gitbook.io": 1,
       "lsposed.zip": 1,
@@ -37,14 +37,14 @@
       "revanced.app": 1,
       "xdaforums.com": 2
     },
-    "repository_candidates": 1794,
-    "checked_repositories": 1794,
+    "repository_candidates": 1816,
+    "checked_repositories": 1816,
     "pending_repositories": 0,
-    "valid_module_repositories": 427,
-    "mmrl_modules": 880,
-    "kernelsu_next_modules": 393,
-    "catalog_mmrl_modules": 411,
-    "catalog_kernelsu_next_modules": 377,
+    "valid_module_repositories": 433,
+    "mmrl_modules": 886,
+    "kernelsu_next_modules": 397,
+    "catalog_mmrl_modules": 417,
+    "catalog_kernelsu_next_modules": 381,
     "federated_mmrl_sources": 47,
     "federated_ksu_sources": 2
   },
@@ -24427,6 +24427,424 @@
       "repository": "misaka5202/zram-lkm"
     },
     {
+      "id": "5f1c4941b1d7ead820",
+      "name": "adb-tcp-toggle",
+      "url": "https://github.com/d3sox/adb-tcp-toggle",
+      "description": "APatch/KernelSU module that toggles ADB over TCP, firewalled to one interface (Tailscale by default), with a WebUI",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/d3sox/adb-tcp-toggle"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "d3sox/adb-tcp-toggle"
+    },
+    {
+      "id": "a8c88757bdf5e6783c",
+      "name": "Android-iPhone-Duo-StatusBar",
+      "url": "https://github.com/cjsalute/android-iphone-duo-statusbar",
+      "description": "Android仿iphone Duo状态栏 · iOSDuo 三合一状态栏（电池弧+WiFi+信号点）· 作者：追风少年 · 闭源项目，保留所有权利",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cjsalute/android-iphone-duo-statusbar"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "cjsalute/android-iphone-duo-statusbar"
+    },
+    {
+      "id": "d520d845a392410c3f",
+      "name": "clean-decent-tablet",
+      "url": "https://github.com/decadentcoffee/clean-decent-tablet",
+      "description": "Turn the Samsung tablet that ships with a Decent DE1 into a quiet espresso controller: clean up bundled apps, install Decaid, new Home screen. No root, fully undoable.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/decadentcoffee/clean-decent-tablet"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "decadentcoffee/clean-decent-tablet"
+    },
+    {
+      "id": "0ed9f8e80ea6d4c040",
+      "name": "console-switcher",
+      "url": "https://github.com/olippo/console-switcher",
+      "description": "Controller-based App Switcher and Control Center made for Android handheld consoles. Powered by Shizuku.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/olippo/console-switcher"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "olippo/console-switcher"
+    },
+    {
+      "id": "8b922a94eb5be15efe",
+      "name": "CubClone",
+      "url": "https://github.com/cubsync/cubclone",
+      "description": "Multi-instance app cloner for Android — real clone profiles via native multi-user, driven by Shizuku or root.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cubsync/cubclone"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "cubsync/cubclone"
+    },
+    {
+      "id": "7913059a400b5b40b3",
+      "name": "droid-atlas",
+      "url": "https://github.com/yyyyyyyan/droid-atlas",
+      "description": "A map of Android apps, mostly open source. Browse by category, search, filter and save, even offline. No account, no tracking.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yyyyyyyan/droid-atlas"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "yyyyyyyan/droid-atlas"
+    },
+    {
+      "id": "6ed6580ba0757c3e52",
+      "name": "esp32-phone-agent",
+      "url": "https://github.com/opc007/esp32-phone-agent",
+      "description": "ESP32 语音直连控制安卓手机：小智固件 + 19KB 无障碍 App，零电脑/零ADB/零root，整句→动作序列→真实屏幕回读",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/opc007/esp32-phone-agent"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "opc007/esp32-phone-agent"
+    },
+    {
+      "id": "7ab8d476615970dbdd",
+      "name": "FirewallDNS",
+      "url": "https://github.com/candidohernandez148-spec/firewalldns",
+      "description": "Firewall y filtro DNS local sin root para Android (Kotlin, Jetpack Compose, MVVM y Firestack) con monitoreo TCP/UDP, listas Adblock y control por app.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/candidohernandez148-spec/firewalldns"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "candidohernandez148-spec/firewalldns"
+    },
+    {
+      "id": "c68e975c7091f0972e",
+      "name": "Freezer",
+      "url": "https://github.com/samantha-fd/freezer",
+      "description": "An Android app that pauses selected apps with Shizuku, without uninstalling them.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/samantha-fd/freezer"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "samantha-fd/freezer"
+    },
+    {
+      "id": "14392b3306f934e81b",
+      "name": "HiCreate-Regulated",
+      "url": "https://github.com/orynnx/hicreate-regulated",
+      "description": "天生会画（Huawei GoPaint / HiCreate）非华为 Android 设备兼容模块 \\| LSPosed API 102 compatibility module for non-Huawei devices. Root required; stock 12.4.2.330 only.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/orynnx/hicreate-regulated"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "orynnx/hicreate-regulated"
+    },
+    {
+      "id": "16ff6869a45a2b79e3",
+      "name": "HyperNowBar",
+      "url": "https://github.com/ivanmaspa/hypernowbar",
+      "description": "Universal One UI 7 Now Bar, ColorOS Fluid Glass & iOS Stacked Capsule for Android 12-16 (Vector/LSPosed module)",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ivanmaspa/hypernowbar"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "ivanmaspa/hypernowbar"
+    },
+    {
+      "id": "b44cd2cacad269170f",
+      "name": "Jiumi",
+      "url": "https://github.com/ybblab/jiumi",
+      "description": "揪咪 Jiumi：开源安卓应用行为监测与管理，查看权限访问和网络活动。Android app activity & privacy monitor. No root required.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ybblab/jiumi"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "ybblab/jiumi"
+    },
+    {
+      "id": "dc8e7e94b90586ba5f",
+      "name": "nanhe_ovo-module",
+      "url": "https://github.com/nanhe-ovo/nanhe_ovo-module",
+      "description": "南何ovo · 性能调度：基于 Uperf-Game-Turbo 的 Android 性能调度模块（Magisk / KernelSU / APatch），自带 Miuix 观感 + 悬浮液态玻璃底栏的本地 WebUI",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nanhe-ovo/nanhe_ovo-module"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "nanhe-ovo/nanhe_ovo-module"
+    },
+    {
+      "id": "a64ed30b6e9b76038c",
+      "name": "oatforge",
+      "url": "https://github.com/wuyands/oatforge",
+      "description": "Root-powered dex2oat GUI for Android — AOT-compile any installed app, inspect oat/vdex output, live logs.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wuyands/oatforge"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "wuyands/oatforge"
+    },
+    {
+      "id": "5e69f1e835a79d71a4",
+      "name": "oplus-camera-los",
+      "url": "https://github.com/nikolastama/oplus-camera-los",
+      "description": "📷 Stock OnePlus 15 camera on LineageOS 24, as a systemless KernelSU module",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nikolastama/oplus-camera-los"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "nikolastama/oplus-camera-los"
+    },
+    {
+      "id": "65a3bd7daa825b30ab",
+      "name": "passwall-android",
+      "url": "https://github.com/incognito-coder/passwall-android",
+      "description": "OpenWrt Passwall-style transparent proxy module for Android (Magisk/KernelSU) powered by Xray-core",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/incognito-coder/passwall-android"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "incognito-coder/passwall-android"
+    },
+    {
+      "id": "d12ed3201c907a8715",
+      "name": "pc-engine-xring-o1",
+      "url": "https://github.com/pecaboo/pc-engine-xring-o1",
+      "description": "KernelSU module + launcher to run Windows apps via the Xiaomi PC engine (Wine 10.5 + FOW64 + FEX-Emu) on Xiaomi Pad 7 Ultra / XRING O1. GPL-3.0.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/pecaboo/pc-engine-xring-o1"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "pecaboo/pc-engine-xring-o1"
+    },
+    {
+      "id": "8717ed239d90a5bb47",
+      "name": "PhoenixRecover",
+      "url": "https://github.com/rmofficial/phoenixrecover",
+      "description": "Offline Android data recovery app with deep scan, signature carving and root raw imaging",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rmofficial/phoenixrecover"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "rmofficial/phoenixrecover"
+    },
+    {
+      "id": "c82bdc4530931e4e8a",
+      "name": "rebuildtheapkrootfilesjaiho777-261118-2252",
+      "url": "https://github.com/sanjoyingti/rebuildtheapkrootfilesjaiho777-261118-2252",
+      "description": "Built by Arin: Rebuild the APK /root/files/Jaiho_777-com.jaiho.sss.in-v1.1.6 (2).apk (com.jaiho.sss.in, versionName 1.1.6) as an Android Studio Gradle project that compiles into a working, installable, signed APK. This is a repack of a Cocos2d-JS game, NOT a new Kotlin app — do not create new screen",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sanjoyingti/rebuildtheapkrootfilesjaiho777-261118-2252"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "sanjoyingti/rebuildtheapkrootfilesjaiho777-261118-2252"
+    },
+    {
+      "id": "194e10f6a274f7868f",
+      "name": "TikMod",
+      "url": "https://github.com/nerix-labs/tikmod",
+      "description": "LSPosed module for TikTok — clean downloads, LIVE auto-recording, chat privacy and an ad-free feed. By Nerix Labs.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nerix-labs/tikmod"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "nerix-labs/tikmod"
+    },
+    {
+      "id": "9c9f05fc0c107fa727",
+      "name": "TOTPull",
+      "url": "https://github.com/blockman3063/totpull",
+      "description": "Pulls the TOTP seed out of Riot Mobile's encrypted storage. Xposed module + local encrypted vault.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/blockman3063/totpull"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "blockman3063/totpull"
+    },
+    {
+      "id": "e0fdfb5ba5bab410db",
+      "name": "XiaoAiSwitch",
+      "url": "https://github.com/seimodev/xiaoaiswitch",
+      "description": "LSPosed module for switching XiaoAi chat, voice, image, and device-control AI providers",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/seimodev/xiaoaiswitch"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "seimodev/xiaoaiswitch"
+    },
+    {
       "id": "cc52f8fa35dcda6edd",
       "name": "⭐ KernelSU",
       "url": "https://github.com/tiann/KernelSU",
@@ -37556,5 +37974,5 @@
       "build_type": "release"
     }
   ],
-  "updated": 1794993866
+  "updated": 1795080292
 }
