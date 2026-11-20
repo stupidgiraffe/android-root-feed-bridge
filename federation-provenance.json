@@ -185,8 +185,8 @@
       "url": "https://github.com/kaminarich/BatteryHoney"
     },
     "com.chiller3.bcr": {
-      "kind": "catalog",
-      "url": "https://github.com/chenxiaolong/BCR"
+      "kind": "mmrl",
+      "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "beszel-agent": {
       "kind": "catalog",
@@ -664,6 +664,10 @@
       "kind": "catalog",
       "url": "https://github.com/yudharn/hypercool"
     },
+    "sbc_xq_enabler": {
+      "kind": "catalog",
+      "url": "https://github.com/xe-ark/sbc-xq-hyperos"
+    },
     "hyperos_rust_launcher_mod": {
       "kind": "catalog",
       "url": "https://github.com/mods-center/hyperos-rust-launcher-mod"
@@ -860,10 +864,6 @@
       "kind": "catalog",
       "url": "https://github.com/duyquang6/maple-mono-android"
     },
-    "MaxManager": {
-      "kind": "catalog",
-      "url": "https://github.com/nader295/maxmanager"
-    },
     "memkeep_plus": {
       "kind": "catalog",
       "url": "https://github.com/qvq9999/memkeep"
@@ -957,8 +957,8 @@
       "url": "https://shamratrh-web.github.io/mmrl-repo/"
     },
     "netproxy": {
-      "kind": "catalog",
-      "url": "https://github.com/Fanju6/NetProxy-Magisk"
+      "kind": "mmrl",
+      "url": "https://mmrl.dev/repo/ksu/"
     },
     "netproxy_xray": {
       "kind": "catalog",
@@ -995,6 +995,10 @@
     "noogle-unbundle": {
       "kind": "catalog",
       "url": "https://github.com/SelfRef/noogle-magisk"
+    },
+    "nortc": {
+      "kind": "catalog",
+      "url": "https://github.com/cheems-boop/nortc-leak"
     },
     "nothing-euicc": {
       "kind": "catalog",
@@ -1107,6 +1111,10 @@
     "pixel_launcher_modulu": {
       "kind": "catalog",
       "url": "https://github.com/ahmeturesin/magisk-module-android-11-pixel-launcher"
+    },
+    "pixel_ru_network_fix": {
+      "kind": "catalog",
+      "url": "https://github.com/silentnode-dev/pixel-8-pro-ru-network-fix"
     },
     "PixelXpert": {
       "kind": "catalog",
@@ -1663,6 +1671,10 @@
     "icbc_daily_water": {
       "kind": "catalog",
       "url": "https://github.com/petittux1/xiaomiautomation"
+    },
+    "fakescreen_lite": {
+      "kind": "catalog",
+      "url": "https://github.com/zephyr7030/fakescreen-lite"
     },
     "Lowlife": {
       "kind": "catalog",
@@ -3990,6 +4002,7 @@
     "https://github.com/aestasbritannia/hydro-br-leur": "catalog",
     "https://github.com/tatshsiow/hyperoptimize": "catalog",
     "https://github.com/yudharn/hypercool": "catalog",
+    "https://github.com/xe-ark/sbc-xq-hyperos": "catalog",
     "https://github.com/mods-center/hyperos-rust-launcher-mod": "catalog",
     "https://github.com/chickendrop89/hyperos-accessibility-fix": "catalog",
     "https://github.com/mods-center/hyperos-aod": "catalog",
@@ -4035,7 +4048,6 @@
     "https://github.com/mrh929/magisk-wifiadb": "catalog",
     "https://github.com/kyliekyler/magnetar": "catalog",
     "https://github.com/duyquang6/maple-mono-android": "catalog",
-    "https://github.com/nader295/maxmanager": "catalog",
     "https://github.com/qvq9999/memkeep": "catalog",
     "https://github.com/immalware/meow-icon-shape-magisk": "catalog",
     "https://github.com/kiran-embedded/micfix-magisk-module": "catalog",
@@ -4067,6 +4079,7 @@
     "https://github.com/chandr1000/nm-compat-scanner": "catalog",
     "https://github.com/ymuuuu/noemulator": "catalog",
     "https://github.com/lzghzr/apatch_kpm": "catalog",
+    "https://github.com/cheems-boop/nortc-leak": "catalog",
     "https://github.com/reindex-ot/nothing-euicc": "catalog",
     "https://github.com/ethanm6/noto-emoji-magisk": "catalog",
     "https://github.com/minionguyjpro/novainstaller": "catalog",
@@ -4091,6 +4104,7 @@
     "https://github.com/elcapitanoe/komodo-build-prop": "catalog",
     "https://github.com/drizzy07x/supercharger_pixel_9_series": "catalog",
     "https://github.com/ahmeturesin/magisk-module-android-11-pixel-launcher": "catalog",
+    "https://github.com/silentnode-dev/pixel-8-pro-ru-network-fix": "catalog",
     "https://github.com/siavash79/pixelxpert": "catalog",
     "https://github.com/pixelupdater/pixelupdater": "catalog",
     "https://github.com/anirudhgupta109/pixelxpert-next": "catalog",
@@ -4215,6 +4229,7 @@
     "https://github.com/tsangasuna/hoshitele-dns-module": "catalog",
     "https://github.com/mieaiiii/oplus-antidizzy-module": "catalog",
     "https://github.com/petittux1/xiaomiautomation": "catalog",
+    "https://github.com/zephyr7030/fakescreen-lite": "catalog",
     "https://github.com/enddream-zm/lowlife": "catalog",
     "https://github.com/hybrid-mount/meta-hybrid_mount": "KernelSU Next official metamodules",
     "https://github.com/tools-cx-app/meta-magic_mount-rs": "KernelSU Next official metamodules",

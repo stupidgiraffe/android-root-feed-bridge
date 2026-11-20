@@ -1122,6 +1122,13 @@
     "visibility": 1
   },
   {
+    "name": "HyperOS / Android SBC XQ Enabler (Dual Channel 552 kbps)",
+    "description": "Enables SBC XQ (Dual Channel 452/552 kbps) audio codec, patches libbluetooth_jni.so code cave, disables hardware offload, and provides developer options UI.",
+    "author": "xe-ark",
+    "repoUrl": "https://github.com/xe-ark/sbc-xq-hyperos",
+    "visibility": 1
+  },
+  {
     "name": "HyperOS 4 Launcher Mod (Rust/Flutter)",
     "description": "Patched HyperOS 4 launcher (native Dock, soft glass, search app, icons, widgets, recents) + HyperLauncherExt settings app. Telegram: https://t.me/kashis_cringey_stuffs",
     "author": "🅺🅰🆂🅷🅸",
@@ -1458,13 +1465,6 @@
     "visibility": 1
   },
   {
-    "name": "MaxManager",
-    "description": "MaxManager - adaptive, chip-aware performance tuning for your device.",
-    "author": "MaxManager Project",
-    "repoUrl": "https://github.com/nader295/maxmanager",
-    "visibility": 1
-  },
-  {
     "name": "MemKeep++",
     "description": "内存压缩 + 后台保活 · ZRAM 容量/算法自选 · 保活三档 · 内置 WebUI，保存即生效（容量改动需重启）",
     "author": "qvq9999",
@@ -1716,6 +1716,13 @@
     "visibility": 1
   },
   {
+    "name": "NoRTC Leak",
+    "description": "第三方 VPN/代理（tun 模式）运行时丢弃 WebRTC 的明文 STUN/TURN 出站，防真实公网 IP 泄露。v1.2：daemon 重启后继承实际钩子状态（旧规则不再残留）、建链失败自动拆链、锁死锁自愈、规则条数完整性校验。仅在检测到 tun 接口时生效。",
+    "author": "MT MCP",
+    "repoUrl": "https://github.com/cheems-boop/nortc-leak",
+    "visibility": 1
+  },
+  {
     "name": "Nothing EUICC Force Enabler",
     "description": "Nothing System LPA (EUICC) Force Enabler.",
     "author": "Re*Index.(ot_inc)",
@@ -1838,8 +1845,8 @@
   },
   {
     "name": "PhhIms VoLTE (r8q)",
-    "description": "Open-source IMS (PhhIms) for VoLTE on the Galaxy S20 FE Snapdragon (r8q). Tested with o2 Germany, testers with other carriers wanted. Action button shows the VoLTE status. Boot-loop protected, log: /data/adb/phhims-volte.log",
-    "author": "buddi0812, o2 edit: Silvertax",
+    "description": "Open-source IMS (PhhIms) for VoLTE and SMS over IMS on the Galaxy S20 FE Snapdragon (r8q), Android 17 and 16. Tested with o2 (DE), ONDO (MN) and VIVACOM (BG); testers wanted. Action button shows the VoLTE status. Boot-loop protected, log: /data/adb/phhims-volte.log",
+    "author": "Silvertax, based on buddi0812's r8q-volte-phhims",
     "repoUrl": "https://github.com/silvertax/phhims-volte-o2",
     "visibility": 1
   },
@@ -1890,6 +1897,13 @@
     "description": "Android 11 sistem düzeyinde Pixel Launcher modülü.",
     "author": "Google LLC",
     "repoUrl": "https://github.com/ahmeturesin/magisk-module-android-11-pixel-launcher",
+    "visibility": 1
+  },
+  {
+    "name": "Pixel Russian Networks & 5G/VoLTE Fix",
+    "description": "Ultimate network fix for Google Pixel 6-9: VoLTE, VoWiFi, 5G (n78/n79), VoNR, LTE-A CA, Google Messages RCS, MVNO APNs, WebUI dashboard, and 'netfix' CLI tool.",
+    "author": "SilentNode-dev",
+    "repoUrl": "https://github.com/silentnode-dev/pixel-8-pro-ru-network-fix",
     "visibility": 1
   },
   {
@@ -2809,6 +2823,13 @@
     "description": "澎湃自动化（XiaomiAutomation）：Xiaomi 17 Pro / HyperOS 4 的 root 自动化模块，多任务定时调度 + 任意 App 录制回放 + 内置工行每日浇水。支持每周选执行日、全场录取、锁屏图案解锁，内置任务可删。纯 root 直控（sendevent/screencap/getevent），无 Hook、无 Xposed、无无障碍。WebUI 支持 KernelSU/APatch，Magisk 配 KsuWebUI 或 MMRL。内置设备档案层，换机可自动检测屏幕参数。仅供技术学习研究，与工商银行官方无任何关联。 | XiaomiAutomation: a root automation module for Xiaomi 17 Pro / HyperOS",
     "author": "petittux",
     "repoUrl": "https://github.com/petittux1/xiaomiautomation",
+    "visibility": 1
+  },
+  {
+    "name": "熄屏挂机 Lite",
+    "description": "[已开启] 亮屏解锁时单击电源键只关屏幕面板，系统保持运行。点「操作」开关，WebUI 可设置双击亮屏等选项。",
+    "author": "fakescreen-lite",
+    "repoUrl": "https://github.com/zephyr7030/fakescreen-lite",
     "visibility": 1
   },
   {
