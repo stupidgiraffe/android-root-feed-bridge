@@ -3,19 +3,19 @@
   "source": "https://github.com/krishna3163/best-root-apps-for-android",
   "upstream_website": "https://krishna3163.github.io/best-root-apps-for-android/",
   "summary": {
-    "total_entries": 1943,
-    "readme_entries": 1898,
+    "total_entries": 1959,
+    "readme_entries": 1914,
     "morphe_entries": 45,
     "tracker_extras": 0,
-    "unique_github_repositories": 1833,
+    "unique_github_repositories": 1849,
     "by_kind": {
       "android_app": 36,
-      "android_tool": 681,
+      "android_tool": 688,
       "lsposed": 194,
-      "lsposed_or_zygisk": 304,
+      "lsposed_or_zygisk": 307,
       "patched_apk": 45,
-      "root_module_candidate": 486,
-      "shizuku": 197
+      "root_module_candidate": 487,
+      "shizuku": 202
     },
     "by_provider": {
       "adguard.com": 1,
@@ -23,7 +23,7 @@
       "blokada.org": 1,
       "codeberg.org": 3,
       "gitea.angry.im": 1,
-      "github.com": 1880,
+      "github.com": 1896,
       "gitlab.com": 6,
       "joycondroid.gitbook.io": 1,
       "lsposed.zip": 1,
@@ -37,14 +37,14 @@
       "revanced.app": 1,
       "xdaforums.com": 2
     },
-    "repository_candidates": 1833,
-    "checked_repositories": 1833,
+    "repository_candidates": 1849,
+    "checked_repositories": 1849,
     "pending_repositories": 0,
-    "valid_module_repositories": 436,
-    "mmrl_modules": 889,
-    "kernelsu_next_modules": 400,
-    "catalog_mmrl_modules": 420,
-    "catalog_kernelsu_next_modules": 384,
+    "valid_module_repositories": 439,
+    "mmrl_modules": 893,
+    "kernelsu_next_modules": 402,
+    "catalog_mmrl_modules": 423,
+    "catalog_kernelsu_next_modules": 386,
     "federated_mmrl_sources": 47,
     "federated_ksu_sources": 2
   },
@@ -25168,6 +25168,310 @@
       "repository": "0x6e756c6c707472/vanadium-webview"
     },
     {
+      "id": "a32bbbd7c995a9d03e",
+      "name": "aether",
+      "url": "https://github.com/aether-aiagent/aether",
+      "description": "Aether — open-source AI agent for Android (Kotlin, Jetpack Compose). Local LLM chat app with bash, file and MCP tools, subagents, offline Alpine/Proot runtime, Termux and Shizuku support. Signed APK releases. ИИ-агент на телефон: нейросеть на Android с инструментами.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/aether-aiagent/aether"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "aether-aiagent/aether"
+    },
+    {
+      "id": "a97d612ab98b699201",
+      "name": "Alya-Disable-Thermal",
+      "url": "https://github.com/wabilzamri1236-wq/alya-disable-thermal",
+      "description": "Alya Disable Thermal V1.0 is a lightweight Android modification module designed for performance optimization and gaming. Focuses on adjusting thermal-related system configurations to improve performance consistency and user experience.Developer: @ZamriNotDevVersion: 1.0Support: Magisk",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wabilzamri1236-wq/alya-disable-thermal"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "wabilzamri1236-wq/alya-disable-thermal"
+    },
+    {
+      "id": "955d193b656c108d85",
+      "name": "checker",
+      "url": "https://github.com/davinci198/checker",
+      "description": "Checker - Android app manager (scan running apps, system/user categories, freeze/unfreeze, uninstall with APK backup) via adb/Shizuku",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/davinci198/checker"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "davinci198/checker"
+    },
+    {
+      "id": "6dd2288e11b801fcb3",
+      "name": "CTS",
+      "url": "https://github.com/ankitchanki/cts",
+      "description": "Trigger Circle to Search on Android 9–16, using Shizuku instead of an LSPosed module. It also adds a Pixel-style diagonal corner swipe gesture",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ankitchanki/cts"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "ankitchanki/cts"
+    },
+    {
+      "id": "444f493aa4730bbb93",
+      "name": "deviceprobe",
+      "url": "https://github.com/aby050/deviceprobe",
+      "description": "Check a used phone before you buy it: Android app that inspects another phone over USB (battery, screen, parts, FRP/MDM locks, root) and makes a PDF report",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/aby050/deviceprobe"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "aby050/deviceprobe"
+    },
+    {
+      "id": "a493c835cd799f98d7",
+      "name": "headless-android-v3",
+      "url": "https://github.com/hakai963/headless-android-v3",
+      "description": "Headless Android — launch installed apps on virtual displays, drive them with Shizuku-hosted UiAutomation, and expose an MCP endpoint for AI agents",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hakai963/headless-android-v3"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "hakai963/headless-android-v3"
+    },
+    {
+      "id": "f9c3e6624f15dab360",
+      "name": "Hondash-Launcher",
+      "url": "https://github.com/carrisma1978/hondash-launcher",
+      "description": "Personal app for a rooted Pixel 5: launches Hondash and toggles Bluetooth/Battery Saver on car power, replacing my Tasker profile. Very niche; not affiliated with Hondash.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/carrisma1978/hondash-launcher"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "carrisma1978/hondash-launcher"
+    },
+    {
+      "id": "db05817665dd954b48",
+      "name": "OpenRoot",
+      "url": "https://github.com/crystalxyn/openroot",
+      "description": "A fork of hexo141/OpenRoot — Android wireless-debug privilege escalation app, with changes made on the fork branch",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/crystalxyn/openroot"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "crystalxyn/openroot"
+    },
+    {
+      "id": "00075f2f8e5a0f40ea",
+      "name": "phonelink-aosp-module",
+      "url": "https://github.com/fleshoo/phonelink-aosp-module",
+      "description": "Magisk + LSPosed module to enable Microsoft Phone Link (Link to Windows) Screen Mirroring & Input Injection on rooted AOSP Android 16 devices",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fleshoo/phonelink-aosp-module"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "fleshoo/phonelink-aosp-module"
+    },
+    {
+      "id": "03d2ae89c87b5a2677",
+      "name": "PixelMotionSuite",
+      "url": "https://github.com/poweredbysaintdiana/pixelmotionsuite",
+      "description": "Android 17 LSPosed module for Pixel Launcher animations, a recents dock, and always-on wallpaper.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/poweredbysaintdiana/pixelmotionsuite"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "poweredbysaintdiana/pixelmotionsuite"
+    },
+    {
+      "id": "25b33972fd7cd5a686",
+      "name": "s23-ultra-debloat-tool",
+      "url": "https://github.com/cyb3rdr4g0n17/s23-ultra-debloat-tool",
+      "description": "Curated non-root debloat toolkit & WebUSB app for Samsung Galaxy S23 Ultra (One UI). Safe, reversible, and battery-optimized.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cyb3rdr4g0n17/s23-ultra-debloat-tool"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "cyb3rdr4g0n17/s23-ultra-debloat-tool"
+    },
+    {
+      "id": "a1ba3338ec43d49db9",
+      "name": "social-blocker-android",
+      "url": "https://github.com/hoomanshirkani/social-blocker-android",
+      "description": "Android app to block social media apps, with passwor lock, no-root firewall and periodic internet schedue (English / Persian)",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hoomanshirkani/social-blocker-android"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "hoomanshirkani/social-blocker-android"
+    },
+    {
+      "id": "82e0a3ea6afd1bef77",
+      "name": "suresim-plus",
+      "url": "https://github.com/mrzain1915-wq/suresim-plus",
+      "description": "SureSIM Plus — LSPosed/Vector module for eSIM support (Android 12-17)",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mrzain1915-wq/suresim-plus"
+        }
+      ],
+      "kind": "lsposed_or_zygisk",
+      "origin": "upstream_readme",
+      "repository": "mrzain1915-wq/suresim-plus"
+    },
+    {
+      "id": "cdfd3a79be2ae29433",
+      "name": "TV-Tools",
+      "url": "https://github.com/avithegod2010/tv-tools",
+      "description": "Wireless ADB manager for Android TV, Google TV, Xiaomi TV & Fire TV - apps, files, shell, screen mirroring, modern remote, backups. Kotlin + Jetpack Compose. No root, no accounts, no telemetry.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/avithegod2010/tv-tools"
+        }
+      ],
+      "kind": "android_tool",
+      "origin": "upstream_readme",
+      "repository": "avithegod2010/tv-tools"
+    },
+    {
+      "id": "a1bc24865c43bc84da",
+      "name": "wifi-switcher",
+      "url": "https://github.com/dcoder-me/wifi-switcher",
+      "description": "Android app that switches between Wi-Fi and mobile hotspot automatically (Shizuku or root)",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dcoder-me/wifi-switcher"
+        }
+      ],
+      "kind": "shizuku",
+      "origin": "upstream_readme",
+      "repository": "dcoder-me/wifi-switcher"
+    },
+    {
+      "id": "b4e2cb473728583a77",
+      "name": "xperia-1-iv-lineageos-guide",
+      "url": "https://github.com/mihai2mn/xperia-1-iv-lineageos-guide",
+      "description": "Complete guide, Magisk modules, SELinux fixes, and scripts for Sony Xperia 1 IV (pdx223) on LineageOS 24.0 (Android 17): pre-unlock TA backup, microG, native Sony Pro Camera & Audio (Dolby/DSEE/Wind Filter), and bare-metal Arch Linux ARM AI CLI workstation.",
+      "category": "Auto-Discovered Root Projects",
+      "provider": "github.com",
+      "frameworks": [],
+      "license": "See project",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mihai2mn/xperia-1-iv-lineageos-guide"
+        }
+      ],
+      "kind": "root_module_candidate",
+      "origin": "upstream_readme",
+      "repository": "mihai2mn/xperia-1-iv-lineageos-guide"
+    },
+    {
       "id": "cc52f8fa35dcda6edd",
       "name": "⭐ KernelSU",
       "url": "https://github.com/tiann/KernelSU",
@@ -38297,5 +38601,5 @@
       "build_type": "release"
     }
   ],
-  "updated": 1795166658
+  "updated": 1795252998
 }

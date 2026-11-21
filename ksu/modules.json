@@ -120,6 +120,13 @@
     "visibility": 1
   },
   {
+    "name": "Alya Disable Thermal Universal",
+    "description": "Advanced Thermal Management Module",
+    "author": "@raraforclose | @ZamriNotDev",
+    "repoUrl": "https://github.com/wabilzamri1236-wq/alya-disable-thermal",
+    "visibility": 1
+  },
+  {
     "name": "Analytics Disabler for Android",
     "description": "Analytics Disabler for Android",
     "author": "CEKA",
@@ -403,7 +410,7 @@
   },
   {
     "name": "CarOS Profile Switcher (Wired & Wireless AA)",
-    "description": "Auto WIRED/WIRELESS switching + Smart WiFi + Nova default + fast charge limit. Config: /sdcard/CarOS/config.env. v0.2.3: Smart WiFi + VW Polo 6 compatible + Auto permissions",
+    "description": "Auto WIRED/WIRELESS switching + Smart WiFi + Nova default + charge limit + carbox parking mode. Config: /data/adb/caros/config.env. v0.2.4: reliable detection, safe charge limit, safer config",
     "author": "Vincent+ChatGPT",
     "repoUrl": "https://github.com/doezer/caros-profile-switcher",
     "visibility": 1
@@ -756,7 +763,7 @@
   },
   {
     "name": "FALCON INTEGRITY FIX",
-    "description": "Play Integrity fix for Magisk / KernelSU / KernelSU Next / APatch. TrickyStore OSS keystore engine, PlayIntegrityFork fingerprint spoofing, bundled keybox (exp: 25-11-2026), app hiding, keybox status notifications and the FALCON TRICKY Web UI. Android 10-17.",
+    "description": "Play Integrity fix for Magisk / KernelSU / KernelSU Next / APatch. TrickyStore OSS keystore engine, PlayIntegrityFork fingerprint spoofing, bundled device-specific RKP keybox (exp: 01-12-2026), app hiding, keybox status notifications and the FALCON TRICKY Web UI. Android 10-17.",
     "author": "ABUFARID | Telegram:@falcon_kernel",
     "repoUrl": "https://github.com/ahmed2111x/falcon_integrity_fix",
     "visibility": 1
@@ -2112,6 +2119,13 @@
     "description": "Patch `floating_feature.xml` to enable Samsung Dex standalone mode, available on devices supporting at least one Dex mode.",
     "author": "supermarsx",
     "repoUrl": "https://github.com/supermarsx/magisk-samsung-dex-standalone-mode",
+    "visibility": 1
+  },
+  {
+    "name": "Samsung Link to Windows (Phone Link) Port",
+    "description": "Enables Microsoft Link to Windows (Phone Link) on Xiaomi Mi 9 (Android 16 AOSP) with full Phone Screen mirroring, remote input control, priv-app permissions, and power exemptions.",
+    "author": "Teamwork",
+    "repoUrl": "https://github.com/fleshoo/phonelink-aosp-module",
     "visibility": 1
   },
   {

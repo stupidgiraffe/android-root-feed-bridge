@@ -76,6 +76,10 @@
       "kind": "catalog",
       "url": "https://github.com/NVISOsecurity/AlwaysTrustUserCerts"
     },
+    "alya-disable-thermal-universal": {
+      "kind": "catalog",
+      "url": "https://github.com/wabilzamri1236-wq/alya-disable-thermal"
+    },
     "AnalyticsDisabler": {
       "kind": "catalog",
       "url": "https://github.com/ddceka/android-analytics-disabler"
@@ -1208,6 +1212,10 @@
       "kind": "catalog",
       "url": "https://github.com/ahmed-alnassif/resusfs"
     },
+    "revancex-tools": {
+      "kind": "catalog",
+      "url": "https://github.com/thunderkex/revancex"
+    },
     "rezygisk": {
       "kind": "mmrl",
       "url": "https://apt.izzysoft.de/magisk/"
@@ -1231,6 +1239,10 @@
     "samsung-dex-standalone-mode": {
       "kind": "catalog",
       "url": "https://github.com/supermarsx/magisk-samsung-dex-standalone-mode"
+    },
+    "phonelink_module": {
+      "kind": "catalog",
+      "url": "https://github.com/fleshoo/phonelink-aosp-module"
     },
     "scalpel": {
       "kind": "catalog",
@@ -1918,7 +1930,7 @@
     },
     "com.chiller3.msd": {
       "kind": "mmrl",
-      "url": "https://apt.izzysoft.de/magisk/"
+      "url": "https://juliazero.github.io/mrbj/"
     },
     "custom-certificate-authorities": {
       "kind": "mmrl",
@@ -3420,6 +3432,10 @@
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
     },
+    "vdinstaller": {
+      "kind": "mmrl",
+      "url": "https://raw.githubusercontent.com/VD171/VD-Modules/master/"
+    },
     "encoretweaks": {
       "kind": "mmrl",
       "url": "https://raw.githubusercontent.com/littlemagehero/littlemagehero-s-modules-repo/master/"
@@ -3864,6 +3880,7 @@
     "https://github.com/dr-tsng/altdb": "catalog",
     "https://github.com/chenxiaolong/alterinstaller": "catalog",
     "https://github.com/nvisosecurity/alwaystrustusercerts": "catalog",
+    "https://github.com/wabilzamri1236-wq/alya-disable-thermal": "catalog",
     "https://github.com/ddceka/android-analytics-disabler": "catalog",
     "https://github.com/ravindu644/android-bridge": "catalog",
     "https://github.com/brill594/pppoe_for_android": "catalog",
@@ -4133,6 +4150,7 @@
     "https://github.com/katelynthestargazer/rsync-magisk": "catalog",
     "https://github.com/andresuhensleeby-a11y/thermal-fire-universal-v1.4.0": "catalog",
     "https://github.com/supermarsx/magisk-samsung-dex-standalone-mode": "catalog",
+    "https://github.com/fleshoo/phonelink-aosp-module": "catalog",
     "https://github.com/evdenis/selinux_permissive": "catalog",
     "https://github.com/nalbe/shark8-gamemode-gsi": "catalog",
     "https://github.com/nalbe/shark8-smartrefresh-gsi": "catalog",
